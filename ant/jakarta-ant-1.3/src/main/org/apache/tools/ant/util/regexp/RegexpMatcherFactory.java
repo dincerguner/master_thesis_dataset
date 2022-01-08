@@ -72,7 +72,7 @@ public class RegexpMatcherFactory {
     public RegexpMatcherFactory() {}
 
     public RegexpMatcher newRegexpMatcher() throws BuildException {
-        String systemDefault = System.getProperty("ant.regexp.matcherimpl");
+        String systemDefault = null;
         if (systemDefault != null) {
             return createInstance(systemDefault);
             // XXX     should we silently possible exceptions and try to 

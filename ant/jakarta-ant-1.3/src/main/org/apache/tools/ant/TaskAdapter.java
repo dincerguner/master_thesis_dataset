@@ -73,7 +73,7 @@ public class TaskAdapter extends Task {
     public void execute() throws BuildException {
         Method executeM=null;
         try {
-            Class c=proxy.getClass();
+            Class c=null;
             executeM=c.getMethod( "execute", new Class[0] );
             if( executeM == null ) {
                 log("No execute in " + proxy.getClass(), Project.MSG_ERR);

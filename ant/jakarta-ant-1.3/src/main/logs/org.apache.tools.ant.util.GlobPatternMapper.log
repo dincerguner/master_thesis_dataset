@@ -1,0 +1,53 @@
+1:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):106:from.lastIndexOf("*") |==> 0
+2:LVR:NEG:0:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):107:-1 |==> 0
+3:LVR:NEG:POS:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):107:-1 |==> 1
+4:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):107:index == -1 |==> index <= -1
+5:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):107:index == -1 |==> index >= -1
+6:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):107:index == -1 |==> false
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):108:fromPrefix = from |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):109:fromPostfix = "" |==> <NO-OP>
+9:LVR:0:POS:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):111:0 |==> 1
+10:LVR:0:NEG:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):111:0 |==> -1
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):111:fromPrefix = from.substring(0, index) |==> <NO-OP>
+12:LVR:POS:0:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):112:1 |==> 0
+13:LVR:POS:NEG:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):112:1 |==> -1
+14:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):112:index + 1 |==> index % 1
+15:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):112:index + 1 |==> index * 1
+16:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):112:index + 1 |==> index - 1
+17:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):112:index + 1 |==> index / 1
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):112:fromPostfix = from.substring(index + 1) |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):114:prefixLength = fromPrefix.length() |==> <NO-OP>
+20:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setFrom(java.lang.String):115:postfixLength = fromPostfix.length() |==> <NO-OP>
+21:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):122:to.lastIndexOf("*") |==> 0
+22:LVR:NEG:0:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):123:-1 |==> 0
+23:LVR:NEG:POS:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):123:-1 |==> 1
+24:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):123:index == -1 |==> index <= -1
+25:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):123:index == -1 |==> index >= -1
+26:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):123:index == -1 |==> false
+27:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):124:toPrefix = to |==> <NO-OP>
+28:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):125:toPostfix = "" |==> <NO-OP>
+29:LVR:0:POS:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):127:0 |==> 1
+30:LVR:0:NEG:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):127:0 |==> -1
+31:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):127:toPrefix = to.substring(0, index) |==> <NO-OP>
+32:LVR:POS:0:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):128:1 |==> 0
+33:LVR:POS:NEG:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):128:1 |==> -1
+34:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):128:index + 1 |==> index % 1
+35:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):128:index + 1 |==> index * 1
+36:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):128:index + 1 |==> index - 1
+37:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):128:index + 1 |==> index / 1
+38:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@setTo(java.lang.String):128:toPostfix = to.substring(index + 1) |==> <NO-OP>
+39:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):138:fromPrefix == null |==> false
+40:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):138:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) |==> fromPrefix == null != !sourceFileName.startsWith(fromPrefix)
+41:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):138:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) |==> fromPrefix == null
+42:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):139:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) |==> !sourceFileName.startsWith(fromPrefix)
+43:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):139:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) |==> true
+44:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):138:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) || !sourceFileName.endsWith(fromPostfix) |==> (fromPrefix == null || !sourceFileName.startsWith(fromPrefix)) != !sourceFileName.endsWith(fromPostfix)
+45:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):138:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) || !sourceFileName.endsWith(fromPostfix) |==> fromPrefix == null || !sourceFileName.startsWith(fromPrefix)
+46:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):140:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) || !sourceFileName.endsWith(fromPostfix) |==> !sourceFileName.endsWith(fromPostfix)
+47:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):140:fromPrefix == null || !sourceFileName.startsWith(fromPrefix) || !sourceFileName.endsWith(fromPostfix) |==> true
+48:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):141:return null; |==> <NO-OP>
+49:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.util.GlobPatternMapper@mapFileName(java.lang.String):143:new String[]{toPrefix + extractVariablePart(sourceFileName) + toPostfix} |==> null
+50:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.GlobPatternMapper@extractVariablePart(java.lang.String):154:name.length() - postfixLength |==> name.length() % postfixLength
+51:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.GlobPatternMapper@extractVariablePart(java.lang.String):154:name.length() - postfixLength |==> name.length() * postfixLength
+52:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.GlobPatternMapper@extractVariablePart(java.lang.String):154:name.length() - postfixLength |==> name.length() + postfixLength
+53:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.GlobPatternMapper@extractVariablePart(java.lang.String):154:name.length() - postfixLength |==> name.length() / postfixLength
