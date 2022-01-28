@@ -1,2 +1,0 @@
-1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.MergingMapper@setTo(java.lang.String):78:mergedFile = new String[]{to} |==> <NO-OP>
-2:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.util.MergingMapper@mapFileName(java.lang.String):85:mergedFile |==> null

@@ -80,7 +80,7 @@ public class Copy extends Task {
     protected File destDir = null;  // the destination directory
     protected Vector filesets = new Vector();
 
-    protected boolean filtering = true;
+    protected boolean filtering = false;
     protected boolean preserveLastModified = false;
     protected boolean forceOverwrite = false;
     protected boolean flatten = false;

@@ -1,2 +1,0 @@
-1:COR:containsValue(value):TRUE:org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):85:containsValue(value) |==> false
-2:COR:containsValue(value):FALSE:org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):85:containsValue(value) |==> true

@@ -78,7 +78,7 @@ import java.util.Locale;
 public class Touch extends Task {
 
     private File file;              // required
-    private long millis = 1;
+    private long millis = -1;
     private String dateTime;
 
     private static Method setLastModified = null;

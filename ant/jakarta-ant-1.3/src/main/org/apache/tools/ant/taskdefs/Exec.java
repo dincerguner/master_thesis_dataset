@@ -77,7 +77,7 @@ public class Exec extends Task {
     private static final int BUFFER_SIZE = 512;
 
     public void execute() throws BuildException {
-        ;
+        run(command);
     }
 
     protected int run(String command) throws BuildException {

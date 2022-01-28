@@ -1,7 +1,0 @@
-1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tar:80:new String[]{WARN, FAIL, TRUNCATE, GNU, OMIT} |==> null
-2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tar:85:WARN |==> null
-3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tar:87:new Vector() |==> null
-4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tar:88:new Vector() |==> null
-5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Tar:93:false |==> true
-6:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.Tar.TarFileSet)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tar@createTarFileSet():96:new TarFileSet() |==> null
-7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Tar@createTarFileSet():97:filesets.addElement(fileset) |==> <NO-OP>

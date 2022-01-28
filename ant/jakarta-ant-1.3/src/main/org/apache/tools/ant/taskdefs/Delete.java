@@ -78,7 +78,7 @@ public class Delete extends MatchingTask {
     protected File file = null;
     protected File dir = null;
     protected Vector filesets = new Vector();
-    protected boolean usedMatchingTask = true;
+    protected boolean usedMatchingTask = false;
     protected boolean includeEmpty = false;	// by default, remove matching empty dirs
 
     private int verbosity = Project.MSG_VERBOSE;

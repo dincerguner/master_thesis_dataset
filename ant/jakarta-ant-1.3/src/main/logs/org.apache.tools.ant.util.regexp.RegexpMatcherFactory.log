@@ -1,2 +1,0 @@
-1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.regexp.RegexpMatcherFactory@newRegexpMatcher():75:System.getProperty("ant.regexp.matcherimpl") |==> null
-2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.regexp.RegexpMatcherFactory@newRegexpMatcher():76:systemDefault != null |==> true

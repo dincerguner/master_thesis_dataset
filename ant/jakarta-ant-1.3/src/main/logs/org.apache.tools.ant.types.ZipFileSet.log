@@ -1,4 +1,0 @@
-1:LVR:FALSE:TRUE:org.apache.tools.ant.types.ZipFileSet:85:false |==> true
-2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.ZipFileSet@setDir(java.io.File):92:srcFile != null |==> true
-3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.ZipFileSet@setDir(java.io.File):95:super.setDir(dir) |==> <NO-OP>
-4:LVR:TRUE:FALSE:org.apache.tools.ant.types.ZipFileSet@setDir(java.io.File):96:true |==> false

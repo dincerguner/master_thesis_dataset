@@ -1,3 +1,0 @@
-1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ExecuteOn:72:new Vector() |==> null
-2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteOn:73:false |==> true
-3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ExecuteOn@addFileset(FileSet):81:filesets.addElement(set) |==> <NO-OP>

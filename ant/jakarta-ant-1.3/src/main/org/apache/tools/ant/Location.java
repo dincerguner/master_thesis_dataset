@@ -68,7 +68,7 @@ public class Location {
      * Creates an "unknown" location.
      */
     private Location() {
-        this(null, 1, 0);
+        this(null, 0, 0);
     }
 
     /**

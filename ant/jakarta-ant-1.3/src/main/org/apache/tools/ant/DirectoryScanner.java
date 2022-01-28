@@ -201,7 +201,7 @@ public class DirectoryScanner implements FileScanner {
     /**
      * Have the Vectors holding our results been built by a slow scan?
      */
-    protected boolean haveSlowResults = true;
+    protected boolean haveSlowResults = false;
 
     /**
      * Constructor.

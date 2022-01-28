@@ -1,7 +1,0 @@
-1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteWatchdog:85:false |==> true
-2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteWatchdog:91:false |==> true
-3:LVR:POS:0:org.apache.tools.ant.taskdefs.ExecuteWatchdog@<init>(int):99:1 |==> 0
-4:LVR:POS:NEG:org.apache.tools.ant.taskdefs.ExecuteWatchdog@<init>(int):99:1 |==> -1
-5:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.ExecuteWatchdog@<init>(int):99:timeout < 1 |==> timeout != 1
-6:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.ExecuteWatchdog@<init>(int):99:timeout < 1 |==> timeout <= 1
-7:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.ExecuteWatchdog@<init>(int):99:timeout < 1 |==> false

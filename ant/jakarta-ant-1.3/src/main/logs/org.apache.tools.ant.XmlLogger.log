@@ -1,6 +1,0 @@
-1:EVR:<METHOD_INVOCATION(javax.xml.parsers.DocumentBuilder)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:71:getDocumentBuilder() |==> null
-2:EVR:<METHOD_INVOCATION(javax.xml.parsers.DocumentBuilder)>:<DEFAULT>:org.apache.tools.ant.XmlLogger@getDocumentBuilder():75:DocumentBuilderFactory.newInstance().newDocumentBuilder() |==> null
-3:EVR:<NEW_CLASS(java.util.Stack)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:102:new Stack() |==> null
-4:EVR:<NEW_CLASS(java.util.Stack)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:103:new Stack() |==> null
-5:EVR:<NEW_CLASS(java.util.Stack)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:104:new Stack() |==> null
-6:EVR:<NEW_CLASS(java.util.Stack)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:105:new Stack() |==> null

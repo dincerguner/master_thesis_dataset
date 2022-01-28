@@ -1,1 +1,0 @@
-1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.compilers.Jvc@execute():74:attributes.log("Using jvc compiler", Project.MSG_VERBOSE) |==> <NO-OP>

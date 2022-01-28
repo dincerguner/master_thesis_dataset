@@ -72,7 +72,7 @@ public class XmlLogger implements BuildListener {
 
     private static DocumentBuilder getDocumentBuilder() {
         try {
-            return null;
+            return DocumentBuilderFactory.newInstance().newDocumentBuilder();
         }
         catch(Exception exc) {
             throw new ExceptionInInitializerError(exc);

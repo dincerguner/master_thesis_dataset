@@ -72,7 +72,7 @@ import org.w3c.dom.*;
 public class DOMElementWriter {
 
     private static String lSep = System.getProperty("line.separator");
-    private StringBuffer sb = null;
+    private StringBuffer sb = new StringBuffer();
 
     /**
      * Don't try to be too smart but at least recognize the predefined

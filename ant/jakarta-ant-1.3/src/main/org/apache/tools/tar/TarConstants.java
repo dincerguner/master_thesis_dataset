@@ -137,7 +137,7 @@ public interface TarConstants {
     /**
      * Link file type.
      */
-    public static final byte   LF_LINK = 0;
+    public static final byte   LF_LINK = (byte) '1';
 
     /**
      * Symbolic link file type.

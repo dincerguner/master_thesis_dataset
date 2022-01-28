@@ -82,7 +82,7 @@ public class StreamPumper implements Runnable {
      */
     public StreamPumper(InputStream is, OutputStream os) {
         this.is = is;
-        ;
+        this.os = os;
     }
 
 

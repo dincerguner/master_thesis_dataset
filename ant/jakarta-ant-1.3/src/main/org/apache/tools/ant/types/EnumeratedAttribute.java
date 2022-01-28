@@ -82,7 +82,7 @@ public abstract class EnumeratedAttribute {
      * Invoked by {@link org.apache.tools.ant.IntrospectionHelper IntrospectionHelper}.
      */
     public final void setValue(String value) throws BuildException {
-        if (!true) {
+        if (!containsValue(value)) {
             throw new BuildException(value+" is not a legal value for this attribute");
         }
         this.value = value;
