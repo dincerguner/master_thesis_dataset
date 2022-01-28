@@ -1,0 +1,41 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.PathTokenizer@<init>(java.lang.String):87:false |==> true
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@<init>(java.lang.String):87:tokenizer = new StringTokenizer(path, ":;", false) |==> <NO-OP>
+3:ROR:==(int,int):<=(int,int):org.apache.tools.ant.PathTokenizer@<init>(java.lang.String):88:File.pathSeparatorChar == ';' |==> File.pathSeparatorChar <= ';'
+4:ROR:==(int,int):>=(int,int):org.apache.tools.ant.PathTokenizer@<init>(java.lang.String):88:File.pathSeparatorChar == ';' |==> File.pathSeparatorChar >= ';'
+5:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.PathTokenizer@<init>(java.lang.String):88:File.pathSeparatorChar == ';' |==> false
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@<init>(java.lang.String):88:dosStyleFilesystem = File.pathSeparatorChar == ';' |==> <NO-OP>
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.PathTokenizer@hasMoreTokens():92:lookahead != null |==> true
+8:LVR:TRUE:FALSE:org.apache.tools.ant.PathTokenizer@hasMoreTokens():93:true |==> false
+9:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@hasMoreTokens():93:return Config.__M_NO == 0 && Config.COVERED(8, 8) ? true : Config.__M_NO == 8 ? false : true; |==> <NO-OP>
+10:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.PathTokenizer@hasMoreTokens():96:tokenizer.hasMoreTokens() |==> false
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.PathTokenizer@nextToken():101:lookahead != null |==> true
+12:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@nextToken():102:token = lookahead |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@nextToken():103:lookahead = null |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@nextToken():106:token = tokenizer.nextToken().trim() |==> <NO-OP>
+15:LVR:POS:0:org.apache.tools.ant.PathTokenizer@nextToken():109:1 |==> 0
+16:LVR:POS:NEG:org.apache.tools.ant.PathTokenizer@nextToken():109:1 |==> -1
+17:ROR:==(int,int):<=(int,int):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 |==> token.length() <= 1
+18:ROR:==(int,int):>=(int,int):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 |==> token.length() >= 1
+19:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 |==> false
+20:LVR:0:POS:org.apache.tools.ant.PathTokenizer@nextToken():109:0 |==> 1
+21:LVR:0:NEG:org.apache.tools.ant.PathTokenizer@nextToken():109:0 |==> -1
+22:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) |==> token.length() == 1 == Character.isLetter(token.charAt(0))
+23:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) |==> false
+24:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) |==> token.length() == 1
+25:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) |==> Character.isLetter(token.charAt(0))
+26:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem |==> (token.length() == 1 && Character.isLetter(token.charAt(0))) == dosStyleFilesystem
+27:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():110:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem |==> false
+28:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem |==> token.length() == 1 && Character.isLetter(token.charAt(0))
+29:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():110:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem |==> dosStyleFilesystem
+30:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem && tokenizer.hasMoreTokens() |==> (token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem) == tokenizer.hasMoreTokens()
+31:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():111:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem && tokenizer.hasMoreTokens() |==> false
+32:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():109:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem && tokenizer.hasMoreTokens() |==> token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem
+33:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():111:token.length() == 1 && Character.isLetter(token.charAt(0)) && dosStyleFilesystem && tokenizer.hasMoreTokens() |==> tokenizer.hasMoreTokens()
+34:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.PathTokenizer@nextToken():114:tokenizer.nextToken().trim() |==> null
+35:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():115:nextToken.startsWith("\\") || nextToken.startsWith("/") |==> nextToken.startsWith("\\") != nextToken.startsWith("/")
+36:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():115:nextToken.startsWith("\\") || nextToken.startsWith("/") |==> nextToken.startsWith("\\")
+37:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():115:nextToken.startsWith("\\") || nextToken.startsWith("/") |==> nextToken.startsWith("/")
+38:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.PathTokenizer@nextToken():115:nextToken.startsWith("\\") || nextToken.startsWith("/") |==> true
+39:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@nextToken():118:token += ":" + nextToken |==> <NO-OP>
+40:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.PathTokenizer@nextToken():122:lookahead = nextToken |==> <NO-OP>
+41:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.PathTokenizer@nextToken():126:token |==> null

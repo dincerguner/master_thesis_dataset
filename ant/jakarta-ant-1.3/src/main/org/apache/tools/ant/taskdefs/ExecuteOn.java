@@ -69,7 +69,7 @@ import java.io.IOException;
  */
 public class ExecuteOn extends ExecTask {
 
-    protected Vector filesets = new Vector();
+    protected Vector filesets = null;
     private boolean parallel = false;
     protected String type = "file";
     protected Commandline.Marker srcFilePos = null;

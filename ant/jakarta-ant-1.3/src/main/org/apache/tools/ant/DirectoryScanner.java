@@ -140,14 +140,7 @@ public class DirectoryScanner implements FileScanner {
      *
      * @see #addDefaultExcludes()
      */
-    protected final static String[] DEFAULTEXCLUDES = {
-        "**/*~",
-        "**/#*#",
-        "**/%*%",
-        "**/CVS",
-        "**/CVS/**",
-        "**/.cvsignore"
-    };
+    protected final static String[] DEFAULTEXCLUDES = null;
 
     /**
      * The base directory which should be scanned.

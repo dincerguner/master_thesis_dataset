@@ -132,7 +132,7 @@ public interface TarConstants {
     /**
      * Normal file type.
      */
-    public static final byte   LF_NORMAL = (byte) '0';
+    public static final byte   LF_NORMAL = 0;
 
     /**
      * Link file type.

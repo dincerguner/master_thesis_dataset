@@ -76,7 +76,7 @@ import java.lang.reflect.Method;
 public class Javac12 extends DefaultCompilerAdapter {
 
     public boolean execute() throws BuildException {
-        attributes.log("Using classic compiler", Project.MSG_VERBOSE);
+        ;
         Commandline cmd = setupJavacCommand();
 
         try {
