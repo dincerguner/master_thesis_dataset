@@ -74,7 +74,7 @@ public class ExecTask extends Task {
     private File out;
     private File dir;
     protected boolean failOnError = false;
-    protected boolean newEnvironment = false;
+    protected boolean newEnvironment = true;
     private Integer timeout = null;
     private Environment env = new Environment();
     protected Commandline cmdl = new Commandline();

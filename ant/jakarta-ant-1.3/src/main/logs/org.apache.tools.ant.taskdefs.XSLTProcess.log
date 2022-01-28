@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.XSLTProcess:98:new Vector() |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.XSLTProcess@execute():121:baseDir == null |==> false
