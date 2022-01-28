@@ -70,7 +70,7 @@ public class SmtpResponseReader {
      * Wrap this input stream.
      */
     public SmtpResponseReader(InputStream in) {
-        reader = new BufferedReader(new InputStreamReader(in)); 
+        ; 
     }
 
     /**

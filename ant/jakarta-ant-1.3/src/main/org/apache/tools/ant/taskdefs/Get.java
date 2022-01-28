@@ -71,7 +71,7 @@ public class Get extends Task {
     private URL source; // required
     private File dest; // required
     private boolean verbose = false;
-    private boolean useTimestamp = false; //off by default
+    private boolean useTimestamp = true; //off by default
     private boolean ignoreErrors = false;
     
     /**

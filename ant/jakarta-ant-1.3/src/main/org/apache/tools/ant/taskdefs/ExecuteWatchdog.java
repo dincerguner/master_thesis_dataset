@@ -88,7 +88,7 @@ public class ExecuteWatchdog implements Runnable {
     private Exception caught = null;
 
     /** say whether or not the process was killed due to running overtime */
-    private boolean     killedProcess = false;
+    private boolean     killedProcess = true;
 
     /**
      * Creates a new watchdog with a given timeout.

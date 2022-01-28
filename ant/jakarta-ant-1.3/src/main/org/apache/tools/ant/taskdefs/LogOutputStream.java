@@ -74,7 +74,7 @@ import java.io.ByteArrayOutputStream;
 public class LogOutputStream extends OutputStream {
 
     private ByteArrayOutputStream buffer = new ByteArrayOutputStream();
-    private boolean skip = false;
+    private boolean skip = true;
 
     private Task task;
     private int level = Project.MSG_INFO;
