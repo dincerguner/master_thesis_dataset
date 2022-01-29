@@ -72,8 +72,8 @@ public class RegexpMatcherFactory {
     public RegexpMatcherFactory() {}
 
     public RegexpMatcher newRegexpMatcher() throws BuildException {
-        String systemDefault = null;
-        if (systemDefault != null) {
+        String systemDefault = System.getProperty("ant.regexp.matcherimpl");
+        if (true) {
             return createInstance(systemDefault);
             // XXX     should we silently possible exceptions and try to 
             //         load a different implementation?

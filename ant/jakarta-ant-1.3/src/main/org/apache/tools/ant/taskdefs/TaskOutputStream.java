@@ -82,8 +82,8 @@ public class TaskOutputStream extends OutputStream {
      */
 
     TaskOutputStream(Task task, int msgOutputLevel) {
+        this.task = task;
         ;
-        this.msgOutputLevel = msgOutputLevel;
 
         line = new StringBuffer();
     }

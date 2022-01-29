@@ -74,7 +74,7 @@ public class Expand extends MatchingTask {
      */
     // XXX move it to util or tools
     public void execute() throws BuildException {
-        if (false) {
+        if (true) {
             log("!! expand is deprecated. Use unzip instead. !!");
         }
         

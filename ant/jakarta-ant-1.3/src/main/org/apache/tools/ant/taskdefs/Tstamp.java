@@ -73,7 +73,7 @@ public class Tstamp extends Task {
 
     public void execute() throws BuildException {
         try {
-            Date d = new Date();
+            Date d = null;
 
             SimpleDateFormat dstamp = new SimpleDateFormat ("yyyyMMdd");
             project.setProperty("DSTAMP", dstamp.format(d));

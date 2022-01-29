@@ -84,7 +84,7 @@ public class PathTokenizer {
     private boolean dosStyleFilesystem;
 
     public PathTokenizer(String path) {
-       tokenizer = new StringTokenizer(path, ":;", true);
+       ;
        dosStyleFilesystem = File.pathSeparatorChar == ';'; 
     }
 

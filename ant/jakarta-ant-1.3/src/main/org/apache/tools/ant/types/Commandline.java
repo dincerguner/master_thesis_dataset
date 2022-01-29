@@ -89,7 +89,7 @@ public class Commandline implements Cloneable {
 
     public Commandline(String to_process) {
         super();
-        String[] tmp = translateCommandline(to_process);
+        String[] tmp = null;
         if (tmp != null && tmp.length > 0) {
             setExecutable(tmp[0]);
             for (int i=1; i<tmp.length; i++) {
