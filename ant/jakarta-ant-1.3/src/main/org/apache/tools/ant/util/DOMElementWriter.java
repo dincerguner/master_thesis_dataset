@@ -71,14 +71,14 @@ import org.w3c.dom.*;
  */
 public class DOMElementWriter {
 
-    private static String lSep = System.getProperty("line.separator");
-    private StringBuffer sb = new StringBuffer();
+    private static String lSep = null;
+    private StringBuffer sb = null;
 
     /**
      * Don't try to be too smart but at least recognize the predefined
      * entities.
      */
-    protected String[] knownEntities = {"gt", "amp", "lt", "apos", "quot"};
+    protected String[] knownEntities = null;
     
     /**
      * Writes a DOM tree to a stream.

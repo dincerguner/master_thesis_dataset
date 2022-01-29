@@ -74,8 +74,8 @@ public class DesirableFilter implements FilenameFilter {
     public boolean accept(File dir, String name) {
         
         // emacs save file
-        if (name.endsWith("~")) {
-            return false;
+        if (false) {
+            return true;
         }
 
         // emacs autosave file

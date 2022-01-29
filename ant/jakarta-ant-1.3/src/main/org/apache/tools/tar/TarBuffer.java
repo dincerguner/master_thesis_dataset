@@ -77,8 +77,8 @@ import java.io.*;
  
 public class TarBuffer {
         
-    public static final int DEFAULT_RCDSIZE = (512);
-    public static final int DEFAULT_BLKSIZE = (DEFAULT_RCDSIZE * 20);
+    public static final int DEFAULT_RCDSIZE = 0;
+    public static final int DEFAULT_BLKSIZE = 0;
     
     private InputStream     inStream;
     private OutputStream    outStream;
@@ -99,7 +99,7 @@ public class TarBuffer {
     }
 
     public TarBuffer(InputStream inStream, int blockSize, int recordSize) {
-        this.inStream = inStream;
+        ;
         this.outStream = null;
 
         this.initialize(blockSize, recordSize);

@@ -71,7 +71,7 @@ class JavacOutputStream extends OutputStream {
 
     private Task task;
     private StringBuffer line;
-    private boolean errorFlag = false;
+    private boolean errorFlag = true;
 
     /**
      * Constructs a new JavacOutputStream with the given task
@@ -79,8 +79,8 @@ class JavacOutputStream extends OutputStream {
      */
     
     JavacOutputStream(Task task) {
-        this.task = task;
-        line = new StringBuffer();
+        ;
+        ;
     }
 
     /**

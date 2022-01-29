@@ -70,9 +70,9 @@ import org.apache.tools.ant.*;
 public class Get extends Task {
     private URL source; // required
     private File dest; // required
-    private boolean verbose = false;
-    private boolean useTimestamp = false; //off by default
-    private boolean ignoreErrors = false;
+    private boolean verbose = true;
+    private boolean useTimestamp = true; //off by default
+    private boolean ignoreErrors = true;
     
     /**
      * Does the work.

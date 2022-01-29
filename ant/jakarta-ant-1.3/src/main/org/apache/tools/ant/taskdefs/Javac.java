@@ -104,9 +104,9 @@ public class Javac extends MatchingTask {
     private File destDir;
     private Path compileClasspath;
     private String encoding;
-    private boolean debug = false;
-    private boolean optimize = false;
-    private boolean deprecation = false;
+    private boolean debug = true;
+    private boolean optimize = true;
+    private boolean deprecation = true;
     private boolean depend = false;
     private boolean verbose = false;
     private String target;

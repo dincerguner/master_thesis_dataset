@@ -69,13 +69,13 @@ import java.text.*;
  */
 public class Tstamp extends Task {
     
-    private Vector customFormats = new Vector();
+    private Vector customFormats = null;
 
     public void execute() throws BuildException {
         try {
-            Date d = new Date();
+            Date d = null;
 
-            SimpleDateFormat dstamp = new SimpleDateFormat ("yyyyMMdd");
+            SimpleDateFormat dstamp = null;
             project.setProperty("DSTAMP", dstamp.format(d));
 
             SimpleDateFormat tstamp = new SimpleDateFormat ("HHmm");
