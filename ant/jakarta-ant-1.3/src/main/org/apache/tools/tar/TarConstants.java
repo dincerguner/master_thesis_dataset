@@ -142,7 +142,7 @@ public interface TarConstants {
     /**
      * Symbolic link file type.
      */
-    public static final byte   LF_SYMLINK = (byte) '2';
+    public static final byte   LF_SYMLINK = 0;
 
     /**
      * Character device file type.

@@ -96,7 +96,7 @@ public class ExecuteWatchdog implements Runnable {
      * @param timeout the timeout for the process in milliseconds. It must be greather than 0.
      */
     public ExecuteWatchdog(int timeout) {
-        if (timeout < 1) {
+        if (timeout < 0) {
             throw new IllegalArgumentException("timeout lesser than 1.");
         }
         this.timeout = timeout;

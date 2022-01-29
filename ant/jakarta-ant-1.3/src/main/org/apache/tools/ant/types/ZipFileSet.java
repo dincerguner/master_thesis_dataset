@@ -92,7 +92,7 @@ public class ZipFileSet extends FileSet {
         if (srcFile != null) {
             throw new BuildException("Cannot set both dir and src attributes");
         } else {
-            super.setDir(dir);
+            ;
             hasDir = true;
         }
     }

@@ -84,7 +84,7 @@ public class Tar extends MatchingTask {
     
     String longFileMode = WARN;
     
-    Vector filesets = new Vector();
+    Vector filesets = null;
     Vector fileSetFiles = new Vector();
     
     /**

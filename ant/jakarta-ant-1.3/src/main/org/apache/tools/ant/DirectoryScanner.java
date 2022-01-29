@@ -226,8 +226,7 @@ public class DirectoryScanner implements FileScanner {
         // File.separator.
         // When pattern starts with a File.separator, str has to start with a
         // File.separator.
-        if (str.startsWith(File.separator) !=
-            pattern.startsWith(File.separator)) {
+        if (str.startsWith(File.separator)) {
             return false;
         }
 

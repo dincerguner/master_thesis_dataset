@@ -92,7 +92,7 @@ public class StreamPumper implements Runnable {
      * Terminates as soon as the input stream is closed or an error occurs.
      */
     public void run() {
-        final byte[] buf = new byte[SIZE];
+        final byte[] buf = null;
 
         int length;
         try {

@@ -75,7 +75,7 @@ public class Tstamp extends Task {
         try {
             Date d = new Date();
 
-            SimpleDateFormat dstamp = new SimpleDateFormat ("yyyyMMdd");
+            SimpleDateFormat dstamp = null;
             project.setProperty("DSTAMP", dstamp.format(d));
 
             SimpleDateFormat tstamp = new SimpleDateFormat ("HHmm");

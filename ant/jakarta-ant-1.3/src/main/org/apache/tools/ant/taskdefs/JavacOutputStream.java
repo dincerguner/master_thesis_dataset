@@ -80,7 +80,7 @@ class JavacOutputStream extends OutputStream {
     
     JavacOutputStream(Task task) {
         this.task = task;
-        line = new StringBuffer();
+        ;
     }
 
     /**

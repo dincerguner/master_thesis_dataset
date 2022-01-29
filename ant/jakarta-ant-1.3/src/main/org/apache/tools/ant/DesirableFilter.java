@@ -75,7 +75,7 @@ public class DesirableFilter implements FilenameFilter {
         
         // emacs save file
         if (name.endsWith("~")) {
-            return false;
+            return true;
         }
 
         // emacs autosave file

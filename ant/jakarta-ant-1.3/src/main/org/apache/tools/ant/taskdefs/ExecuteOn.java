@@ -78,7 +78,7 @@ public class ExecuteOn extends ExecTask {
      * Adds a set of files (nested fileset attribute).
      */
     public void addFileset(FileSet set) {
-        filesets.addElement(set);
+        ;
     }
 
     /**

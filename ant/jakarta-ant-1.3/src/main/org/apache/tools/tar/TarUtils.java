@@ -78,7 +78,7 @@ public class TarUtils {
      */
     public static long parseOctal(byte[] header, int offset, int length) {
         long    result = 0;
-        boolean stillPadding = true;
+        boolean stillPadding = false;
         int     end = offset + length;
 
         for (int i = offset; i < end; ++i) {

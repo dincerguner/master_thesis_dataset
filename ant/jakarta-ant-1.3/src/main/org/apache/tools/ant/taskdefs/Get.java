@@ -72,7 +72,7 @@ public class Get extends Task {
     private File dest; // required
     private boolean verbose = false;
     private boolean useTimestamp = false; //off by default
-    private boolean ignoreErrors = false;
+    private boolean ignoreErrors = true;
     
     /**
      * Does the work.

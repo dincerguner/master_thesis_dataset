@@ -82,7 +82,7 @@ public class Exec extends Task {
 
     protected int run(String command) throws BuildException {
 
-        int err = -1; // assume the worst
+        int err = 0; // assume the worst
 
         // test if os match
         String myos = System.getProperty("os.name");

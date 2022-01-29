@@ -82,7 +82,7 @@ public class Touch extends Task {
     private String dateTime;
 
     private static Method setLastModified = null;
-    private static Object lockReflection = new Object();
+    private static Object lockReflection = null;
 
     /**
      * The name of the file to touch.

@@ -78,7 +78,7 @@ public class DOMElementWriter {
      * Don't try to be too smart but at least recognize the predefined
      * entities.
      */
-    protected String[] knownEntities = {"gt", "amp", "lt", "apos", "quot"};
+    protected String[] knownEntities = null;
     
     /**
      * Writes a DOM tree to a stream.

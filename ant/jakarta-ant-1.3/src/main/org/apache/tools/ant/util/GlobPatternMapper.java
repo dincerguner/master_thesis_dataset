@@ -104,7 +104,7 @@ public class GlobPatternMapper implements FileNameMapper {
      */
     public void setFrom(String from) {
         int index = from.lastIndexOf("*");
-        if (index == -1) {
+        if (index == 1) {
             fromPrefix = from;
             fromPostfix = "";
         } else {

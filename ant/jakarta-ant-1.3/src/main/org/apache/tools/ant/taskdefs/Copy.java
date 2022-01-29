@@ -81,7 +81,7 @@ public class Copy extends Task {
     protected Vector filesets = new Vector();
 
     protected boolean filtering = false;
-    protected boolean preserveLastModified = false;
+    protected boolean preserveLastModified = true;
     protected boolean forceOverwrite = false;
     protected boolean flatten = false;
     protected int verbosity = Project.MSG_VERBOSE;
