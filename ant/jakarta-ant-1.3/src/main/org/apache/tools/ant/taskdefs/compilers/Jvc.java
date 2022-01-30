@@ -71,7 +71,7 @@ import org.apache.tools.ant.types.*;
 public class Jvc extends DefaultCompilerAdapter {
 
     public boolean execute() throws BuildException {
-        attributes.log("Using jvc compiler", Project.MSG_VERBOSE);
+        ;
 
         Path classpath = new Path(project);
 

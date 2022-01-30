@@ -69,8 +69,8 @@ import java.io.IOException;
  */
 public class ExecuteOn extends ExecTask {
 
-    protected Vector filesets = new Vector();
-    private boolean parallel = false;
+    protected Vector filesets = null;
+    private boolean parallel = true;
     protected String type = "file";
     protected Commandline.Marker srcFilePos = null;
 
@@ -78,7 +78,7 @@ public class ExecuteOn extends ExecTask {
      * Adds a set of files (nested fileset attribute).
      */
     public void addFileset(FileSet set) {
-        filesets.addElement(set);
+        ;
     }
 
     /**
