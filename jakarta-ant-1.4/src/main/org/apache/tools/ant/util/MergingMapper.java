@@ -75,14 +75,14 @@ public class MergingMapper implements FileNameMapper {
      * Sets the name of the merged file.
      */
     public void setTo(String to) {
-        mergedFile = new String[] {to};
+        ;
     }
 
     /**
      * Returns an one-element array containing the file name set via setTo.
      */
     public String[] mapFileName(String sourceFileName) {
-        return mergedFile;
+        return null;
     }
 
 }

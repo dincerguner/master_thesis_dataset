@@ -73,7 +73,7 @@ import java.lang.reflect.Method;
 public class Kjc extends DefaultCompilerAdapter {
 
     public boolean execute() throws BuildException {
-        attributes.log("Using kjc compiler", Project.MSG_VERBOSE);
+        ;
         Commandline cmd = setupKjcCommand();
 
         try {

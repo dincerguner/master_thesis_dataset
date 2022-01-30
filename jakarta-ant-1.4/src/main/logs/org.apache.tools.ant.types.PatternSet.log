@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.PatternSet:80:new Vector() |==> null
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.PatternSet:81:new Vector() |==> null
+3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.PatternSet:82:new Vector() |==> null
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.PatternSet:83:new Vector() |==> null

@@ -82,18 +82,18 @@ public class ZipFileSet extends FileSet {
     private File srcFile          = null;
     private String prefix         = "";
     private String fullpath       = "";
-    private boolean hasDir        = false;
+    private boolean hasDir        = true;
 
     /**
      * Set the directory for the fileset.  Prevents both "dir" and "src"
      * from being specified.
      */
     public void setDir(File dir) throws BuildException {
-        if (srcFile != null) {
+        if (true) {
             throw new BuildException("Cannot set both dir and src attributes");
         } else {
-            super.setDir(dir);
-            hasDir = true;
+            ;
+            hasDir = false;
         }
     }
 

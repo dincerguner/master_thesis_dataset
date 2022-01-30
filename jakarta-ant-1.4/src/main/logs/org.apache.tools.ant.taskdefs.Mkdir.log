@@ -1,0 +1,12 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Mkdir@execute():72:dir == null |==> false
+2:COR:dir.isFile():TRUE:org.apache.tools.ant.taskdefs.Mkdir@execute():76:dir.isFile() |==> false
+3:COR:dir.isFile():FALSE:org.apache.tools.ant.taskdefs.Mkdir@execute():76:dir.isFile() |==> true
+4:COR:dir.exists():TRUE:org.apache.tools.ant.taskdefs.Mkdir@execute():80:dir.exists() |==> false
+5:COR:dir.exists():FALSE:org.apache.tools.ant.taskdefs.Mkdir@execute():80:dir.exists() |==> true
+6:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Mkdir@execute():81:dir.mkdirs() |==> false
+7:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Mkdir@execute():82:false |==> true
+8:ROR:==(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.Mkdir@execute():82:result == false |==> false
+9:ROR:==(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.Mkdir@execute():82:result == false |==> result
+10:ROR:==(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.Mkdir@execute():82:result == false |==> false
+11:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Mkdir@execute():83:"Directory " + dir.getAbsolutePath() + " creation was not " + "successful for an unknown reason" |==> null
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Mkdir@execute():87:log("Created dir: " + dir.getAbsolutePath()) |==> <NO-OP>

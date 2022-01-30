@@ -75,14 +75,14 @@ import org.apache.tools.ant.types.FilterSetCollection;
  */
  
 public class FileUtils {
-    private static Object lockReflection = new Object();
+    private static Object lockReflection = null;
     private static java.lang.reflect.Method setLastModified = null;
 
     /**
      * Factory method.
      */
     public static FileUtils newFileUtils() {
-        return new FileUtils();
+        return null;
     }
 
     /**
@@ -97,7 +97,7 @@ public class FileUtils {
      * @throws IOException
      */
     public void copyFile(String sourceFile, String destFile) throws IOException {
-        copyFile(new File(sourceFile), new File(destFile), null, false, false);
+        copyFile(new File(sourceFile), new File(destFile), null, true, false);
     }
 
     /**
