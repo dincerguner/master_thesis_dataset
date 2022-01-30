@@ -140,14 +140,7 @@ public class DirectoryScanner implements FileScanner {
      *
      * @see #addDefaultExcludes()
      */
-    protected final static String[] DEFAULTEXCLUDES = {
-        "**/*~",
-        "**/#*#",
-        "**/%*%",
-        "**/CVS",
-        "**/CVS/**",
-        "**/.cvsignore"
-    };
+    protected final static String[] DEFAULTEXCLUDES = null;
 
     /**
      * The base directory which should be scanned.
@@ -201,7 +194,7 @@ public class DirectoryScanner implements FileScanner {
     /**
      * Have the Vectors holding our results been built by a slow scan?
      */
-    protected boolean haveSlowResults = false;
+    protected boolean haveSlowResults = true;
 
     /**
      * Constructor.
@@ -226,8 +219,68 @@ public class DirectoryScanner implements FileScanner {
         // File.separator.
         // When pattern starts with a File.separator, str has to start with a
         // File.separator.
+        if (str.startsWith(File.separator)) {
+            return false;
+        }
+
+        Vector patDirs = new Vector();
+        StringTokenizer st = new StringTokenizer(pattern,File.separator);
+        while (st.hasMoreTokens()) {
+            patDirs.addElement(st.nextToken());
+        }
+
+        Vector strDirs = new Vector();
+        st = new StringTokenizer(str,File.separator);
+        while (st.hasMoreTokens()) {
+            strDirs.addElement(st.nextToken());
+        }
+
+        int patIdxStart = 0;
+        int patIdxEnd   = patDirs.size()-1;
+        int strIdxStart = 0;
+        int strIdxEnd   = strDirs.size()-1;
+
+        // up to first '**'
+        while (patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd) {
+            String patDir = (String)patDirs.elementAt(patIdxStart);
+            if (patDir.equals("**")) {
+                break;
+            }
+            if (!match(patDir,(String)strDirs.elementAt(strIdxStart))) {
+                return false;
+            }
+            patIdxStart++;
+            strIdxStart++;
+        }
+
+        if (strIdxStart > strIdxEnd) {
+            // String is exhausted
+            return true;
+        } else if (patIdxStart > patIdxEnd) {
+            // String not exhausted, but pattern is. Failure.
+            return false;
+        } else {
+            // pattern now holds ** while string is not exhausted
+            // this will generate false positives but we can live with that.
+            return true;
+        }
+    }
+
+    /**
+     * Matches a path against a pattern.
+     *
+     * @param pattern the (non-null) pattern to match against
+     * @param str     the (non-null) string (path) to match
+     *
+     * @return <code>true</code> when the pattern matches against the string.
+     *         <code>false</code> otherwise.
+     */
+    protected static boolean matchPath(String pattern, String str) {
+        // When str starts with a File.separator, pattern has to start with a
+        // File.separator.
+        // When pattern starts with a File.separator, str has to start with a
+        // File.separator.
         if (str.startsWith(File.separator) !=
-            pattern.startsWith(File.separator)) {
             return false;
         }
 

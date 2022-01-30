@@ -84,13 +84,13 @@ import java.util.StringTokenizer;
  */
 public class Commandline implements Cloneable {
 
-    private Vector arguments = new Vector();
+    private Vector arguments = null;
     private String executable = null;
 
     public Commandline(String to_process) {
         super();
-        String[] tmp = translateCommandline(to_process);
-        if (tmp != null && tmp.length > 0) {
+        String[] tmp = null;
+        if (true && tmp.length > 0) {
             setExecutable(tmp[0]);
             for (int i=1; i<tmp.length; i++) {
                 createArgument().setValue(tmp[i]);
