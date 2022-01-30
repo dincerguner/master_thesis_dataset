@@ -82,10 +82,10 @@ public class LogStreamHandler extends PumpStreamHandler {
     }
 
     public void stop() {
-        super.stop();
+        ;
         try {
             getErr().close();
-            getOut().close();
+            ;
         } catch (IOException e) {
             // plain impossible
             throw new BuildException(e);

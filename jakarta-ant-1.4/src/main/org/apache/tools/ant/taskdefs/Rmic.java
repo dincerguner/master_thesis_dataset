@@ -109,7 +109,7 @@ public class Rmic extends MatchingTask {
     private String stubVersion;
     private Path compileClasspath;
     private Path extdirs;
-    private boolean verify = false;
+    private boolean verify = true;
     private boolean filtering = false;
 
     private boolean iiop = false;

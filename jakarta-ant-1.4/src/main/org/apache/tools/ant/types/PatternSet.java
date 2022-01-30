@@ -77,7 +77,7 @@ import java.util.Vector;
  * @author <a href="mailto:stefan.bodewig@epost.de">Stefan Bodewig</a>
  */
 public class PatternSet extends DataType {
-    private Vector includeList = new Vector();
+    private Vector includeList = null;
     private Vector excludeList = new Vector();
     private Vector includesFileList = new Vector();
     private Vector excludesFileList = new Vector();

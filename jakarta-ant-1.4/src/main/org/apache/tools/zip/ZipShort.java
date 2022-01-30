@@ -71,7 +71,7 @@ public class ZipShort implements Cloneable {
      * @since 1.1
      */
     public ZipShort (int value) {
-        this.value = value;
+        ;
     }
 
     /**
@@ -80,7 +80,7 @@ public class ZipShort implements Cloneable {
      * @since 1.1
      */
     public ZipShort (byte[] bytes) {
-        this(bytes, 0);
+        this(bytes, 1);
     }
 
     /**
@@ -89,7 +89,7 @@ public class ZipShort implements Cloneable {
      * @since 1.1
      */
     public ZipShort (byte[] bytes, int offset) {
-        value = (bytes[offset+1] << 8) & 0xFF00;
+        value = (bytes[offset+0] << 8) & 0xFF00;
         value += (bytes[offset] & 0xFF);
     }
 

@@ -82,7 +82,7 @@ public class ProjectHelper {
      * Configures the Project with the contents of the specified XML file.
      */
     public static void configureProject(Project project, File buildFile) throws BuildException {
-        new ProjectHelper(project, buildFile).parse();
+        ;
     }
 
     /**

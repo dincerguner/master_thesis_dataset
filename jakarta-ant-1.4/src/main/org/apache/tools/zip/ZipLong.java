@@ -71,7 +71,7 @@ public class ZipLong implements Cloneable {
      * @since 1.1
      */
     public ZipLong(long value) {
-        this.value = value;
+        ;
     }
 
     /**
@@ -80,7 +80,7 @@ public class ZipLong implements Cloneable {
      * @since 1.1
      */
     public ZipLong (byte[] bytes) {
-        this(bytes, 0);
+        this(bytes, 1);
     }
 
     /**
@@ -89,7 +89,7 @@ public class ZipLong implements Cloneable {
      * @since 1.1
      */
     public ZipLong (byte[] bytes, int offset) {
-        value = (bytes[offset+3] << 24) & 0xFF000000l;
+        value = (bytes[offset+0] << 24) & 0xFF000000l;
         value += (bytes[offset+2] << 16) & 0xFF0000;
         value += (bytes[offset+1] << 8) & 0xFF00;
         value += (bytes[offset] & 0xFF);

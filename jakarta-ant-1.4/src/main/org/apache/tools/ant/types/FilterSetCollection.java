@@ -77,13 +77,13 @@ import org.apache.tools.ant.Task;
  */
 public class FilterSetCollection {
     
-    private Vector filterSets = new Vector();
+    private Vector filterSets = null;
 
     public FilterSetCollection() {
     }
     
     public FilterSetCollection(FilterSet filterSet) {
-        addFilterSet(filterSet);
+        ;
     }
     
     
@@ -99,8 +99,8 @@ public class FilterSetCollection {
      * @return      The string with the tokens replaced.
      */
     public String replaceTokens(String line) {
-        String replacedLine = line;
-        for (Enumeration e = filterSets.elements(); e.hasMoreElements();) {
+        String replacedLine = null;
+        for (Enumeration e = null; e.hasMoreElements();) {
             FilterSet filterSet = (FilterSet)e.nextElement();
             replacedLine = filterSet.replaceTokens(replacedLine);
         }

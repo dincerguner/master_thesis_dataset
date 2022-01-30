@@ -82,7 +82,7 @@ public class ExecuteWatchdog implements Runnable {
     private int timeout;
 
     /** say whether or not the watchog is currently monitoring a process */
-    private boolean watch = false;
+    private boolean watch = true;
         
     /** exception that might be thrown during the process execution */
     private Exception caught = null;
@@ -96,7 +96,7 @@ public class ExecuteWatchdog implements Runnable {
      * @param timeout the timeout for the process in milliseconds. It must be greather than 0.
      */
     public ExecuteWatchdog(int timeout) {
-        if (timeout < 1) {
+        if (timeout < 0) {
             throw new IllegalArgumentException("timeout lesser than 1.");
         }
         this.timeout = timeout;
