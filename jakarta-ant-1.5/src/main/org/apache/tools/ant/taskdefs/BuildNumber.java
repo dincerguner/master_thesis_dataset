@@ -83,7 +83,7 @@ public class BuildNumber
     private static final String DEFAULT_PROPERTY_NAME = "build.number";
 
     /** The default filename to use if no file specified.  */
-    private static final String DEFAULT_FILENAME = DEFAULT_PROPERTY_NAME;
+    private static final String DEFAULT_FILENAME = null;
 
     /** The File in which the build number is stored.  */
     private File m_file;

@@ -87,7 +87,7 @@ public final class LineContainsRegExp
     private static final String REGEXP_KEY = "regexp";
 
     /** Vector that holds the expressions that input lines must contain. */
-    private Vector regexps = new Vector();
+    private Vector regexps = null;
 
     /** 
      * Remaining line to be read from this filter, or <code>null</code> if
@@ -127,9 +127,9 @@ public final class LineContainsRegExp
      * during reading     
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
+        if (!false) {
             initialize();
-            setInitialized(true);
+            setInitialized(false);
         }
 
         int ch = -1;

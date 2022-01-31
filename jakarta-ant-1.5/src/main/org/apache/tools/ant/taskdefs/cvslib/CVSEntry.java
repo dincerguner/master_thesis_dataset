@@ -67,7 +67,7 @@ class CVSEntry {
     private Date m_date;
     private String m_author;
     private final String m_comment;
-    private final Vector m_files = new Vector();
+    private final Vector m_files = null;
 
     public CVSEntry(Date date, String author, String comment) {
         m_date = date;

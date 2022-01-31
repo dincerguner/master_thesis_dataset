@@ -1,0 +1,4 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Unpack@setSrc(java.lang.String):83:log("DEPRECATED - The setSrc(String) method has been deprecated. Use setSrc(File) instead.") |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Unpack@setSrc(java.lang.String):85:setSrc(project.resolveFile(src)) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Unpack@setDest(java.lang.String):96:log("DEPRECATED - The setDest(String) method has been deprecated. Use setDest(File) instead.") |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Unpack@setDest(java.lang.String):98:setDest(project.resolveFile(dest)) |==> <NO-OP>

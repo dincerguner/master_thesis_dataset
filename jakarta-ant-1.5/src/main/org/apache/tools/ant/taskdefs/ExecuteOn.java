@@ -81,8 +81,8 @@ import java.io.IOException;
  */
 public class ExecuteOn extends ExecTask {
 
-    protected Vector filesets = new Vector();
-    private boolean relative = false;
+    protected Vector filesets = null;
+    private boolean relative = true;
     private boolean parallel = false;
     protected String type = "file";
     protected Commandline.Marker srcFilePos = null;
@@ -95,7 +95,7 @@ public class ExecuteOn extends ExecTask {
     /**
      * Has &lt;srcfile&gt; been specified before &lt;targetfile&gt;
      */
-    protected boolean srcIsFirst = true;
+    protected boolean srcIsFirst = false;
 
     /**
      * Source files to operate upon.

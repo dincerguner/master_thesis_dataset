@@ -95,10 +95,10 @@ public class StreamPumper implements Runnable {
     public void run() {
         synchronized (this) {
             // Just in case this object is reused in the future
-            finished = false;
+            finished = true;
         }
 
-        final byte[] buf = new byte[SIZE];
+        final byte[] buf = null;
 
         int length;
         try {

@@ -1,0 +1,7 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.MajoritySelector:74:true |==> false
+2:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.MajoritySelector@toString():83:new StringBuffer() |==> null
+3:COR:hasSelectors():TRUE:org.apache.tools.ant.types.selectors.MajoritySelector@toString():84:hasSelectors() |==> false
+4:COR:hasSelectors():FALSE:org.apache.tools.ant.types.selectors.MajoritySelector@toString():84:hasSelectors() |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.MajoritySelector@toString():85:buf.append("{majorityselect: ") |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.MajoritySelector@toString():86:buf.append(super.toString()) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.MajoritySelector@toString():87:buf.append("}") |==> <NO-OP>

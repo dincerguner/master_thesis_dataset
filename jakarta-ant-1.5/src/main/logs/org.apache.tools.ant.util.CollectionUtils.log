@@ -1,0 +1,51 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):75:v1 == v2 |==> false
+2:LVR:TRUE:FALSE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):76:true |==> false
+3:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):76:return Config.__M_NO == 0 && Config.COVERED(2, 2) ? true : Config.__M_NO == 2 ? false : true; |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):79:v1 == null |==> false
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):79:v2 == null |==> false
+6:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):79:v1 == null || v2 == null |==> v1 == null != (v2 == null)
+7:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):79:v1 == null || v2 == null |==> v1 == null
+8:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):79:v1 == null || v2 == null |==> v2 == null
+9:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):79:v1 == null || v2 == null |==> true
+10:LVR:FALSE:TRUE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):80:false |==> true
+11:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):80:return Config.__M_NO == 0 && Config.COVERED(10, 10) ? false : Config.__M_NO == 10 ? true : false; |==> <NO-OP>
+12:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):83:v1.size() != v2.size() |==> v1.size() < v2.size()
+13:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):83:v1.size() != v2.size() |==> v1.size() > v2.size()
+14:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):83:v1.size() != v2.size() |==> true
+15:LVR:FALSE:TRUE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):84:false |==> true
+16:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):84:return Config.__M_NO == 0 && Config.COVERED(15, 15) ? false : Config.__M_NO == 15 ? true : false; |==> <NO-OP>
+17:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):87:v1.elements() |==> null
+18:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):88:v2.elements() |==> null
+19:COR:e1.nextElement().equals(e2.nextElement()):TRUE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):90:e1.nextElement().equals(e2.nextElement()) |==> false
+20:COR:e1.nextElement().equals(e2.nextElement()):FALSE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):90:e1.nextElement().equals(e2.nextElement()) |==> true
+21:LVR:FALSE:TRUE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):91:false |==> true
+22:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):91:return Config.__M_NO == 0 && Config.COVERED(21, 21) ? false : Config.__M_NO == 21 ? true : false; |==> <NO-OP>
+23:LVR:TRUE:FALSE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Vector,java.util.Vector):98:true |==> false
+24:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):109:d1 == d2 |==> false
+25:LVR:TRUE:FALSE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):110:true |==> false
+26:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):110:return Config.__M_NO == 0 && Config.COVERED(25, 25) ? true : Config.__M_NO == 25 ? false : true; |==> <NO-OP>
+27:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):113:d1 == null |==> false
+28:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):113:d2 == null |==> false
+29:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):113:d1 == null || d2 == null |==> d1 == null != (d2 == null)
+30:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):113:d1 == null || d2 == null |==> d1 == null
+31:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):113:d1 == null || d2 == null |==> d2 == null
+32:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):113:d1 == null || d2 == null |==> true
+33:LVR:FALSE:TRUE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):114:false |==> true
+34:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):114:return Config.__M_NO == 0 && Config.COVERED(33, 33) ? false : Config.__M_NO == 33 ? true : false; |==> <NO-OP>
+35:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):117:d1.size() != d2.size() |==> d1.size() < d2.size()
+36:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):117:d1.size() != d2.size() |==> d1.size() > d2.size()
+37:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):117:d1.size() != d2.size() |==> true
+38:LVR:FALSE:TRUE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):118:false |==> true
+39:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):118:return Config.__M_NO == 0 && Config.COVERED(38, 38) ? false : Config.__M_NO == 38 ? true : false; |==> <NO-OP>
+40:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):121:d1.keys() |==> null
+41:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):123:e1.nextElement() |==> null
+42:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):124:d1.get(key) |==> null
+43:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):125:d2.get(key) |==> null
+44:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):126:value2 == null |==> false
+45:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):126:value2 == null || !value1.equals(value2) |==> value2 == null != !value1.equals(value2)
+46:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):126:value2 == null || !value1.equals(value2) |==> value2 == null
+47:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):126:value2 == null || !value1.equals(value2) |==> !value1.equals(value2)
+48:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):126:value2 == null || !value1.equals(value2) |==> true
+49:LVR:FALSE:TRUE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):127:false |==> true
+50:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):127:return Config.__M_NO == 0 && Config.COVERED(49, 49) ? false : Config.__M_NO == 49 ? true : false; |==> <NO-OP>
+51:LVR:TRUE:FALSE:org.apache.tools.ant.util.CollectionUtils@equals(java.util.Dictionary,java.util.Dictionary):134:true |==> false

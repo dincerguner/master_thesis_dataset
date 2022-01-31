@@ -1,0 +1,9 @@
+1:LVR:NEG:0:org.apache.tools.ant.types.selectors.DepthSelector:73:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.types.selectors.DepthSelector:73:-1 |==> 1
+3:LVR:NEG:0:org.apache.tools.ant.types.selectors.DepthSelector:74:-1 |==> 0
+4:LVR:NEG:POS:org.apache.tools.ant.types.selectors.DepthSelector:74:-1 |==> 1
+5:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.DepthSelector@toString():82:new StringBuffer("{depthselector min: ") |==> null
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DepthSelector@toString():83:buf.append(min) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DepthSelector@toString():84:buf.append(" max: ") |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DepthSelector@toString():85:buf.append(max) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DepthSelector@toString():86:buf.append("}") |==> <NO-OP>

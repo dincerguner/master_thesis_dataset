@@ -1,0 +1,36 @@
+1:LVR:0:POS:org.apache.tools.zip.ZipEntry:71:0 |==> 1
+2:LVR:0:NEG:org.apache.tools.zip.ZipEntry:71:0 |==> -1
+3:LVR:0:POS:org.apache.tools.zip.ZipEntry:72:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.zip.ZipEntry:72:0 |==> -1
+5:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.zip.ZipEntry:73:new Vector() |==> null
+6:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):96:setComment(entry.getComment()) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):97:setMethod(entry.getMethod()) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):98:setTime(entry.getTime()) |==> <NO-OP>
+9:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):100:entry.getSize() |==> 0L
+10:LVR:0:POS:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):101:0 |==> 1
+11:LVR:0:NEG:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):101:0 |==> -1
+12:ROR:>(long,long):!=(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):101:size > 0 |==> size != 0
+13:ROR:>(long,long):>=(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):101:size > 0 |==> size >= 0
+14:ROR:>(long,long):FALSE(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):101:size > 0 |==> false
+15:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):102:setSize(size) |==> <NO-OP>
+16:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):104:entry.getCompressedSize() |==> 0L
+17:LVR:0:POS:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):105:0 |==> 1
+18:LVR:0:NEG:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):105:0 |==> -1
+19:ROR:>(long,long):!=(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):105:cSize > 0 |==> cSize != 0
+20:ROR:>(long,long):>=(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):105:cSize > 0 |==> cSize >= 0
+21:ROR:>(long,long):FALSE(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):105:cSize > 0 |==> false
+22:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):106:setComprSize(cSize) |==> <NO-OP>
+23:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):108:entry.getCrc() |==> 0L
+24:LVR:0:POS:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):109:0 |==> 1
+25:LVR:0:NEG:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):109:0 |==> -1
+26:ROR:>(long,long):!=(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):109:crc > 0 |==> crc != 0
+27:ROR:>(long,long):>=(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):109:crc > 0 |==> crc >= 0
+28:ROR:>(long,long):FALSE(long,long):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):109:crc > 0 |==> false
+29:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):110:setCrc(crc) |==> <NO-OP>
+30:EVR:<METHOD_INVOCATION(byte[])>:<DEFAULT>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):113:entry.getExtra() |==> null
+31:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):114:extra != null |==> true
+32:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):115:setExtraFields(ExtraFieldUtils.parse(extra)) |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(java.util.zip.ZipEntry):118:setExtra() |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(org.apache.tools.zip.ZipEntry):129:setInternalAttributes(entry.getInternalAttributes()) |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(org.apache.tools.zip.ZipEntry):130:setExternalAttributes(entry.getExternalAttributes()) |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.apache.tools.zip.ZipEntry@<init>(org.apache.tools.zip.ZipEntry):131:setExtraFields(entry.getExtraFields()) |==> <NO-OP>

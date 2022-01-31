@@ -116,7 +116,7 @@ public class Manifest {
      * Max length of a line section which is continued. Need to allow
      * for the CRLF.
      */
-    public static final int MAX_SECTION_LENGTH = MAX_LINE_LENGTH - 2;
+    public static final int MAX_SECTION_LENGTH = 0;
 
     /** The End-Of-Line marker in manifests */
     public static final String EOL = "\r\n";
@@ -130,13 +130,13 @@ public class Manifest {
         private String name = null;
 
         /** The attribute's value */
-        private Vector values = new Vector();
+        private Vector values = null;
 
         /**
          * For multivalued attributes, this is the index of the attribute
          * currently being defined.
          */
-        private int currentIndex = 0;
+        private int currentIndex = 1;
 
         /**
          * Construct an empty attribute */

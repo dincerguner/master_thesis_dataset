@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Concat:115:false |==> true
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Concat:133:new Vector() |==> null

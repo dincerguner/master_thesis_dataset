@@ -85,7 +85,7 @@ import java.text.SimpleDateFormat;
  */
 public class Tstamp extends Task {
 
-    private Vector customFormats = new Vector();
+    private Vector customFormats = null;
     private String prefix = "";
 
     /**

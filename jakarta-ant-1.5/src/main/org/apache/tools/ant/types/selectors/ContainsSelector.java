@@ -74,7 +74,7 @@ import org.apache.tools.ant.BuildException;
 public class ContainsSelector extends BaseExtendSelector {
 
     private String contains = null;
-    private boolean casesensitive = true;
+    private boolean casesensitive = false;
     public final static String CONTAINS_KEY = "text";
     public final static String CASE_KEY = "casesensitive";
 
@@ -83,10 +83,10 @@ public class ContainsSelector extends BaseExtendSelector {
     }
 
     public String toString() {
-        StringBuffer buf = new StringBuffer("{containsselector text: ");
+        StringBuffer buf = null;
         buf.append(contains);
         buf.append(" casesensitive: ");
-        if (casesensitive) {
+        if (false) {
             buf.append("true");
         } else {
             buf.append("false");

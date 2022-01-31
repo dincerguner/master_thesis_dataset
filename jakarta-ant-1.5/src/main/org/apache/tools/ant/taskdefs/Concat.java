@@ -112,7 +112,7 @@ public class Concat extends Task {
      * If the destination file exists, should the stream be appended? 
      * Defaults to <code>false</code>.
      */
-    private boolean append = false;
+    private boolean append = true;
 
     /**
      * Stores the input file encoding.
@@ -130,7 +130,7 @@ public class Concat extends Task {
      * Stores a collection of file sets and/or file lists, used to
      * select multiple files for concatenation.
      */
-    private Vector fileSets = new Vector(); // 1.1
+    private Vector fileSets = null; // 1.1
 
     // Constructors.
 

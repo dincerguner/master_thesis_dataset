@@ -1,0 +1,10 @@
+1:LVR:POS:0:org.apache.tools.zip.AsiExtraField:89:30062 |==> 0
+2:LVR:POS:NEG:org.apache.tools.zip.AsiExtraField:89:30062 |==> -30062
+3:LVR:0:POS:org.apache.tools.zip.AsiExtraField:96:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.zip.AsiExtraField:96:0 |==> -1
+5:LVR:0:POS:org.apache.tools.zip.AsiExtraField:102:0 |==> 1
+6:LVR:0:NEG:org.apache.tools.zip.AsiExtraField:102:0 |==> -1
+7:LVR:0:POS:org.apache.tools.zip.AsiExtraField:108:0 |==> 1
+8:LVR:0:NEG:org.apache.tools.zip.AsiExtraField:108:0 |==> -1
+9:LVR:FALSE:TRUE:org.apache.tools.zip.AsiExtraField:122:false |==> true
+10:EVR:<NEW_CLASS(java.util.zip.CRC32)>:<DEFAULT>:org.apache.tools.zip.AsiExtraField:129:new CRC32() |==> null

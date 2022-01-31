@@ -1,0 +1,15 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.PresentSelector:80:true |==> false
+2:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.PresentSelector@toString():86:new StringBuffer("{presentselector targetdir: ") |==> null
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.PresentSelector@toString():87:targetdir == null |==> false
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():88:buf.append("NOT YET SET") |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():91:buf.append(targetdir.getName()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():93:buf.append(" present: ") |==> <NO-OP>
+7:COR:destmustexist:TRUE:org.apache.tools.ant.types.selectors.PresentSelector@toString():94:destmustexist |==> false
+8:COR:destmustexist:FALSE:org.apache.tools.ant.types.selectors.PresentSelector@toString():94:destmustexist |==> true
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():95:buf.append("both") |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():97:buf.append("srconly") |==> <NO-OP>
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.PresentSelector@toString():99:map != null |==> true
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():100:buf.append(map.toString()) |==> <NO-OP>
+13:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.PresentSelector@toString():102:mapperElement != null |==> true
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():103:buf.append(mapperElement.toString()) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.PresentSelector@toString():105:buf.append("}") |==> <NO-OP>

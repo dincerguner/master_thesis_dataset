@@ -1,0 +1,138 @@
+1:EVR:<NEW_CLASS(java.text.MessageFormat)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils:100:new MessageFormat("{0}{1}") |==> null
+2:LVR:0:POS:org.apache.tools.ant.util.DateUtils:102:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.util.DateUtils:102:0 |==> -1
+4:LVR:POS:0:org.apache.tools.ant.util.DateUtils:102:1 |==> 0
+5:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils:102:1 |==> -1
+6:LVR:POS:0:org.apache.tools.ant.util.DateUtils:102:2 |==> 0
+7:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils:102:2 |==> -2
+8:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.util.DateUtils:105:{"", "1 minute ", "{0,number} minutes "} |==> null
+9:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.util.DateUtils:108:{"0 seconds", "1 second", "{1,number} seconds"} |==> null
+10:EVR:<NEW_CLASS(java.text.ChoiceFormat)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils:111:new ChoiceFormat(LIMITS, MINUTES_PART) |==> null
+11:EVR:<NEW_CLASS(java.text.ChoiceFormat)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils:114:new ChoiceFormat(LIMITS, SECONDS_PART) |==> null
+12:LVR:0:POS:org.apache.tools.ant.util.DateUtils:117:0 |==> 1
+13:LVR:0:NEG:org.apache.tools.ant.util.DateUtils:117:0 |==> -1
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DateUtils:117:MINUTE_SECONDS.setFormat(0, MINUTES_FORMAT) |==> <NO-OP>
+15:LVR:POS:0:org.apache.tools.ant.util.DateUtils:118:1 |==> 0
+16:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils:118:1 |==> -1
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DateUtils:118:MINUTE_SECONDS.setFormat(1, SECONDS_FORMAT) |==> <NO-OP>
+18:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@format(long,java.lang.String):133:format(new Date(date), pattern) |==> null
+19:EVR:<METHOD_INVOCATION(java.text.DateFormat)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@format(java.util.Date,java.lang.String):144:createDateFormat(pattern) |==> null
+20:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@format(java.util.Date,java.lang.String):145:df.format(date) |==> null
+21:LVR:POS:0:org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):162:1000 |==> 0
+22:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):162:1000 |==> -1000
+23:AOR:/(long,long):%(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):162:millis / 1000 |==> millis % 1000
+24:AOR:/(long,long):*(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):162:millis / 1000 |==> millis * 1000
+25:AOR:/(long,long):+(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):162:millis / 1000 |==> millis + 1000
+26:AOR:/(long,long):-(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):162:millis / 1000 |==> millis - 1000
+27:LVR:POS:0:org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):163:60 |==> 0
+28:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):163:60 |==> -60
+29:AOR:/(long,long):%(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):163:seconds / 60 |==> seconds % 60
+30:AOR:/(long,long):*(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):163:seconds / 60 |==> seconds * 60
+31:AOR:/(long,long):+(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):163:seconds / 60 |==> seconds + 60
+32:AOR:/(long,long):-(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):163:seconds / 60 |==> seconds - 60
+33:LVR:POS:0:org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):164:60 |==> 0
+34:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):164:60 |==> -60
+35:AOR:%(long,long):*(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):164:seconds % 60 |==> seconds * 60
+36:AOR:%(long,long):+(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):164:seconds % 60 |==> seconds + 60
+37:AOR:%(long,long):-(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):164:seconds % 60 |==> seconds - 60
+38:AOR:%(long,long):/(long,long):org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):164:seconds % 60 |==> seconds / 60
+39:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@formatElapsedTime(long):165:MINUTE_SECONDS.format(args) |==> null
+40:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@createDateFormat(java.lang.String):174:new SimpleDateFormat(pattern) |==> null
+41:EVR:<METHOD_INVOCATION(java.util.TimeZone)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@createDateFormat(java.lang.String):175:TimeZone.getTimeZone("GMT") |==> null
+42:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DateUtils@createDateFormat(java.lang.String):176:sdf.setTimeZone(gmt) |==> <NO-OP>
+43:LVR:TRUE:FALSE:org.apache.tools.ant.util.DateUtils@createDateFormat(java.lang.String):177:true |==> false
+44:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DateUtils@createDateFormat(java.lang.String):177:sdf.setLenient(true) |==> <NO-OP>
+45:EVR:<IDENTIFIER(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@createDateFormat(java.lang.String):178:sdf |==> null
+46:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):214:cal.get(Calendar.DAY_OF_YEAR) |==> 0
+47:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:1900 |==> 0
+48:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:1900 |==> -1900
+49:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:cal.get(Calendar.YEAR) - 1900 |==> cal.get(Calendar.YEAR) % 1900
+50:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:cal.get(Calendar.YEAR) - 1900 |==> cal.get(Calendar.YEAR) * 1900
+51:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:cal.get(Calendar.YEAR) - 1900 |==> cal.get(Calendar.YEAR) + 1900
+52:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:cal.get(Calendar.YEAR) - 1900 |==> cal.get(Calendar.YEAR) / 1900
+53:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:19 |==> 0
+54:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:19 |==> -19
+55:AOR:%(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:(cal.get(Calendar.YEAR) - 1900) % 19 |==> (cal.get(Calendar.YEAR) - 1900) * 19
+56:AOR:%(int,int):+(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:(cal.get(Calendar.YEAR) - 1900) % 19 |==> (cal.get(Calendar.YEAR) - 1900) + 19
+57:AOR:%(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:(cal.get(Calendar.YEAR) - 1900) % 19 |==> (cal.get(Calendar.YEAR) - 1900) - 19
+58:AOR:%(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:(cal.get(Calendar.YEAR) - 1900) % 19 |==> (cal.get(Calendar.YEAR) - 1900) / 19
+59:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:1 |==> 0
+60:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:1 |==> -1
+61:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:((cal.get(Calendar.YEAR) - 1900) % 19) + 1 |==> ((cal.get(Calendar.YEAR) - 1900) % 19) % 1
+62:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:((cal.get(Calendar.YEAR) - 1900) % 19) + 1 |==> ((cal.get(Calendar.YEAR) - 1900) % 19) * 1
+63:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:((cal.get(Calendar.YEAR) - 1900) % 19) + 1 |==> ((cal.get(Calendar.YEAR) - 1900) % 19) - 1
+64:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):215:((cal.get(Calendar.YEAR) - 1900) % 19) + 1 |==> ((cal.get(Calendar.YEAR) - 1900) % 19) / 1
+65:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 |==> 0
+66:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 |==> -11
+67:AOR:*(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle |==> 11 % yearInMetonicCycle
+68:AOR:*(int,int):+(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle |==> 11 + yearInMetonicCycle
+69:AOR:*(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle |==> 11 - yearInMetonicCycle
+70:AOR:*(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle |==> 11 / yearInMetonicCycle
+71:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:18 |==> 0
+72:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:18 |==> -18
+73:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle + 18 |==> 11 * yearInMetonicCycle % 18
+74:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle + 18 |==> 11 * yearInMetonicCycle * 18
+75:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle + 18 |==> 11 * yearInMetonicCycle - 18
+76:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:11 * yearInMetonicCycle + 18 |==> 11 * yearInMetonicCycle / 18
+77:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:30 |==> 0
+78:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:30 |==> -30
+79:AOR:%(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:(11 * yearInMetonicCycle + 18) % 30 |==> (11 * yearInMetonicCycle + 18) * 30
+80:AOR:%(int,int):+(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:(11 * yearInMetonicCycle + 18) % 30 |==> (11 * yearInMetonicCycle + 18) + 30
+81:AOR:%(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:(11 * yearInMetonicCycle + 18) % 30 |==> (11 * yearInMetonicCycle + 18) - 30
+82:AOR:%(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):216:(11 * yearInMetonicCycle + 18) % 30 |==> (11 * yearInMetonicCycle + 18) / 30
+83:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:25 |==> 0
+84:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:25 |==> -25
+85:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 25 |==> epact <= 25
+86:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 25 |==> epact >= 25
+87:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 25 |==> false
+88:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:11 |==> 0
+89:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:11 |==> -11
+90:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:yearInMetonicCycle > 11 |==> yearInMetonicCycle != 11
+91:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:yearInMetonicCycle > 11 |==> yearInMetonicCycle >= 11
+92:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:yearInMetonicCycle > 11 |==> false
+93:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 25 && yearInMetonicCycle > 11 |==> epact == 25 == yearInMetonicCycle > 11
+94:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 25 && yearInMetonicCycle > 11 |==> false
+95:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 25 && yearInMetonicCycle > 11 |==> epact == 25
+96:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 25 && yearInMetonicCycle > 11 |==> yearInMetonicCycle > 11
+97:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:24 |==> 0
+98:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:24 |==> -24
+99:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 24 |==> epact <= 24
+100:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 24 |==> epact >= 24
+101:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:epact == 24 |==> false
+102:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:(epact == 25 && yearInMetonicCycle > 11) || epact == 24 |==> (epact == 25 && yearInMetonicCycle > 11) != (epact == 24)
+103:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:(epact == 25 && yearInMetonicCycle > 11) || epact == 24 |==> (epact == 25 && yearInMetonicCycle > 11)
+104:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:(epact == 25 && yearInMetonicCycle > 11) || epact == 24 |==> epact == 24
+105:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):217:(epact == 25 && yearInMetonicCycle > 11) || epact == 24 |==> true
+106:STD:<INC>:<NO-OP>:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):218:epact++ |==> <NO-OP>
+107:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:dayOfTheYear + epact |==> dayOfTheYear % epact
+108:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:dayOfTheYear + epact |==> dayOfTheYear * epact
+109:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:dayOfTheYear + epact |==> dayOfTheYear - epact
+110:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:dayOfTheYear + epact |==> dayOfTheYear / epact
+111:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:6 |==> 0
+112:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:6 |==> -6
+113:AOR:*(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(dayOfTheYear + epact) * 6 |==> (dayOfTheYear + epact) % 6
+114:AOR:*(int,int):+(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(dayOfTheYear + epact) * 6 |==> (dayOfTheYear + epact) + 6
+115:AOR:*(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(dayOfTheYear + epact) * 6 |==> (dayOfTheYear + epact) - 6
+116:AOR:*(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(dayOfTheYear + epact) * 6 |==> (dayOfTheYear + epact) / 6
+117:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:11 |==> 0
+118:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:11 |==> -11
+119:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((dayOfTheYear + epact) * 6) + 11 |==> ((dayOfTheYear + epact) * 6) % 11
+120:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((dayOfTheYear + epact) * 6) + 11 |==> ((dayOfTheYear + epact) * 6) * 11
+121:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((dayOfTheYear + epact) * 6) + 11 |==> ((dayOfTheYear + epact) * 6) - 11
+122:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((dayOfTheYear + epact) * 6) + 11 |==> ((dayOfTheYear + epact) * 6) / 11
+123:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:177 |==> 0
+124:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:177 |==> -177
+125:AOR:%(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(((dayOfTheYear + epact) * 6) + 11) % 177 |==> (((dayOfTheYear + epact) * 6) + 11) * 177
+126:AOR:%(int,int):+(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(((dayOfTheYear + epact) * 6) + 11) % 177 |==> (((dayOfTheYear + epact) * 6) + 11) + 177
+127:AOR:%(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(((dayOfTheYear + epact) * 6) + 11) % 177 |==> (((dayOfTheYear + epact) * 6) + 11) - 177
+128:AOR:%(int,int):/(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(((dayOfTheYear + epact) * 6) + 11) % 177 |==> (((dayOfTheYear + epact) * 6) + 11) / 177
+129:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:22 |==> 0
+130:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:22 |==> -22
+131:AOR:/(int,int):%(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((((dayOfTheYear + epact) * 6) + 11) % 177) / 22 |==> ((((dayOfTheYear + epact) * 6) + 11) % 177) % 22
+132:AOR:/(int,int):*(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((((dayOfTheYear + epact) * 6) + 11) % 177) / 22 |==> ((((dayOfTheYear + epact) * 6) + 11) % 177) * 22
+133:AOR:/(int,int):+(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((((dayOfTheYear + epact) * 6) + 11) % 177) / 22 |==> ((((dayOfTheYear + epact) * 6) + 11) % 177) + 22
+134:AOR:/(int,int):-(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:((((dayOfTheYear + epact) * 6) + 11) % 177) / 22 |==> ((((dayOfTheYear + epact) * 6) + 11) % 177) - 22
+135:LVR:POS:0:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:7 |==> 0
+136:LVR:POS:NEG:org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:7 |==> -7
+137:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(((((dayOfTheYear + epact) * 6) + 11) % 177) / 22) & 7 |==> (((((dayOfTheYear + epact) * 6) + 11) % 177) / 22) ^ 7
+138:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.DateUtils@getPhaseOfMoon(java.util.Calendar):220:(((((dayOfTheYear + epact) * 6) + 11) % 177) / 22) & 7 |==> (((((dayOfTheYear + epact) * 6) + 11) % 177) / 22) | 7

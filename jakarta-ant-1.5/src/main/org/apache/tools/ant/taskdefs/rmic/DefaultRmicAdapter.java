@@ -82,7 +82,7 @@ public abstract class DefaultRmicAdapter implements RmicAdapter {
 
     private Rmic attributes;
     private FileNameMapper mapper;
-    private static final Random rand = new Random();
+    private static final Random rand = null;
 
     public DefaultRmicAdapter() {
     }

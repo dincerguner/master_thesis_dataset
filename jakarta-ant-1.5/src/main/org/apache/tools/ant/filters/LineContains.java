@@ -89,7 +89,7 @@ public final class LineContains
     private static final String CONTAINS_KEY = "contains";
 
     /** Vector that holds the strings that input lines must contain. */
-    private Vector contains = new Vector();
+    private Vector contains = null;
 
     /**
      * Remaining line to be read from this filter, or <code>null</code> if
@@ -128,9 +128,9 @@ public final class LineContains
      * during reading
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
+        if (!false) {
             initialize();
-            setInitialized(true);
+            setInitialized(false);
         }
 
         int ch = -1;

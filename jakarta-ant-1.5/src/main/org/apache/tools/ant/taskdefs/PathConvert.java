@@ -95,7 +95,7 @@ public class PathConvert extends Task {
     /**
      * Set when targetOS is set to windows
      */
-    private boolean targetWindows = false;
+    private boolean targetWindows = true;
     /**
      * Set if we're running on windows
      */
@@ -103,7 +103,7 @@ public class PathConvert extends Task {
     /**
      * Set if we should create a new property even if the result is empty
      */
-    private boolean setonempty = true;
+    private boolean setonempty = false;
     /**
      * The property to receive the conversion
      */
@@ -111,7 +111,7 @@ public class PathConvert extends Task {
     /**
      * Path prefix map
      */
-    private Vector prefixMap = new Vector();
+    private Vector prefixMap = null;
     /**
      * User override on path sep char
      */

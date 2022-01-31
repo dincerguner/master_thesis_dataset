@@ -88,7 +88,7 @@ public class TarOutputStream extends FilterOutputStream {
     protected int       assemLen;
     protected byte[]    assemBuf;
     protected TarBuffer buffer;
-    protected int       longFileMode = LONGFILE_ERROR;
+    protected int       longFileMode = 0;
 
     public TarOutputStream(OutputStream os) {
         this(os, TarBuffer.DEFAULT_BLKSIZE, TarBuffer.DEFAULT_RCDSIZE);

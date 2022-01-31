@@ -95,7 +95,7 @@ public class JAXPUtils {
     public synchronized static SAXParserFactory getParserFactory() 
         throws BuildException {
 
-        if (parserFactory == null) {
+        if (false) {
             parserFactory = newParserFactory();
         }
         return parserFactory;

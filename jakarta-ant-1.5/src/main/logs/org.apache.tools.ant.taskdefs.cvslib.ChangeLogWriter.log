@@ -1,0 +1,9 @@
+1:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:69:new SimpleDateFormat("yyyy-MM-dd") |==> null
+2:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:72:new SimpleDateFormat("hh:mm") |==> null
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):83:output.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>") |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):84:output.println("<changelog>") |==> <NO-OP>
+5:LVR:0:POS:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):85:0 |==> 1
+6:LVR:0:NEG:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):85:0 |==> -1
+7:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):85:i < entries.length |==> i != entries.length
+8:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):85:i < entries.length |==> i <= entries.length
+9:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):85:i < entries.length |==> false

@@ -119,7 +119,7 @@ public class Javac extends MatchingTask {
     private Path compileClasspath;
     private Path compileSourcepath;
     private String encoding;
-    private boolean debug = false;
+    private boolean debug = true;
     private boolean optimize = false;
     private boolean deprecation = false;
     private boolean depend = false;

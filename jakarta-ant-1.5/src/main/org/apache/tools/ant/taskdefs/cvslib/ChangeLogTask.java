@@ -109,7 +109,7 @@ public class ChangeLogTask extends Task {
     private File m_usersFile;
 
     /** User list */
-    private Vector m_cvsUsers = new Vector();
+    private Vector m_cvsUsers = null;
 
     /** Input dir */
     private File m_dir;

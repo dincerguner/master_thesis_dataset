@@ -74,7 +74,7 @@ public class ExtendSelector extends BaseSelector {
 
     private String classname = null;
     private FileSelector dynselector = null;
-    private Vector paramVec = new Vector();
+    private Vector paramVec = null;
     private Path classpath = null;
 
     /**

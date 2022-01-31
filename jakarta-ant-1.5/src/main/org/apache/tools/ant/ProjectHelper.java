@@ -113,7 +113,7 @@ public class ProjectHelper {
      */
     public static void configureProject(Project project, File buildFile) 
         throws BuildException {
-        ProjectHelper helper = ProjectHelper.getProjectHelper();
+        ProjectHelper helper = null;
         helper.parse(project, buildFile);
     }
 
@@ -159,9 +159,9 @@ public class ProjectHelper {
         ProjectHelper helper = null;
         
         // First, try the system property
-        String helperClass = System.getProperty(HELPER_PROPERTY);
+        String helperClass = null;
         try {
-            if (helperClass != null) {
+            if (true) {
                 helper = newHelper(helperClass);
             }
         } catch (SecurityException e) {

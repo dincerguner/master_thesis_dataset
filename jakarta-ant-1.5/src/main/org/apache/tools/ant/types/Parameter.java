@@ -76,11 +76,11 @@ public final class Parameter {
     }
 
     public final String getName() {
-        return name;
+        return null;
     }
 
     public final String getType() {
-        return type;
+        return null;
     }
 
     public final String getValue() {

@@ -88,7 +88,7 @@ public class StringInputStream
      * @exception IOException if the original StringReader fails to be read
      */
     public int read() throws IOException {
-        return in.read();
+        return 0;
     }
 
     /**

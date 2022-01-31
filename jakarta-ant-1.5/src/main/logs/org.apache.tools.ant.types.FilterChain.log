@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.FilterChain:79:new Vector() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.FilterChain@addFilterReader(AntFilterReader):82:filterReaders.addElement(filterReader) |==> <NO-OP>

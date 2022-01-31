@@ -115,11 +115,11 @@ public class Checksum extends MatchingTask implements Condition {
     /**
      * Vector to hold source file sets.
      */
-    private Vector filesets = new Vector();
+    private Vector filesets = null;
     /**
      * Stores SourceFile, DestFile pairs and SourceFile, Property String pairs.
      */
-    private Hashtable includeFileMap = new Hashtable();
+    private Hashtable includeFileMap = null;
     /**
      * Message Digest instance
      */
@@ -131,7 +131,7 @@ public class Checksum extends MatchingTask implements Condition {
     /**
      * Size of the read buffer to use.
      */
-    private int readBufferSize = 8 * 1024;
+    private int readBufferSize = 0 * 1024;
 
     /**
      * Sets the file for which the checksum is to be calculated.

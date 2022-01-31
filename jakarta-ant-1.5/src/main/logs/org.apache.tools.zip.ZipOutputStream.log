@@ -1,0 +1,26 @@
+1:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.zip.ZipOutputStream:106:Deflater.DEFAULT_COMPRESSION |==> 0
+2:LVR:FALSE:TRUE:org.apache.tools.zip.ZipOutputStream:114:false |==> true
+3:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.zip.ZipOutputStream:121:DEFLATED |==> 0
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.zip.ZipOutputStream:128:new Vector() |==> null
+5:EVR:<NEW_CLASS(java.util.zip.CRC32)>:<DEFAULT>:org.apache.tools.zip.ZipOutputStream:135:new CRC32() |==> null
+6:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:142:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:142:0 |==> -1
+8:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:149:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:149:0 |==> -1
+10:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:156:0 |==> 1
+11:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:156:0 |==> -1
+12:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:163:0 |==> 1
+13:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:163:0 |==> -1
+14:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:170:0 |==> 1
+15:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:170:0 |==> -1
+16:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:170:0 |==> 1
+17:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:170:0 |==> -1
+18:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:177:0 |==> 1
+19:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:177:0 |==> -1
+20:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:177:0 |==> 1
+21:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:177:0 |==> -1
+22:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:177:0 |==> 1
+23:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:177:0 |==> -1
+24:LVR:0:POS:org.apache.tools.zip.ZipOutputStream:177:0 |==> 1
+25:LVR:0:NEG:org.apache.tools.zip.ZipOutputStream:177:0 |==> -1
+26:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.zip.ZipOutputStream:184:new Hashtable() |==> null

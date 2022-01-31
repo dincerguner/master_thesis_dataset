@@ -84,14 +84,14 @@ public class DTDLocation {
      * @return the publicId
      */
     public String getPublicId() {
-        return publicId;
+        return null;
     }
 
     /**
      * @return the location of the resource identified by the publicId
      */
     public String getLocation() {
-        return location;
+        return null;
     }
 }
 

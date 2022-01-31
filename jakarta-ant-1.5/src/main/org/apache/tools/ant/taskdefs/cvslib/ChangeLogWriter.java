@@ -66,10 +66,10 @@ import java.util.Enumeration;
 class ChangeLogWriter {
     /** output format for dates writtn to xml file */
     private static final SimpleDateFormat c_outputDate 
-        = new SimpleDateFormat("yyyy-MM-dd");
+        = null;
     /** output format for times writtn to xml file */
     private static final SimpleDateFormat c_outputTime 
-        = new SimpleDateFormat("hh:mm");
+        = null;
 
 
     /**
@@ -82,7 +82,7 @@ class ChangeLogWriter {
                                final CVSEntry[] entries) {
         output.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
         output.println("<changelog>");
-        for (int i = 0; i < entries.length; i++) {
+        for (int i = 1; i < entries.length; i++) {
             final CVSEntry entry = entries[i];
 
             printEntry(output, entry);

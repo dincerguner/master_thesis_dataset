@@ -105,8 +105,8 @@ public class EmailAddress {
      * @return a string representation of the address
      */
     public String toString() {
-        if (name == null) {
-            return address;
+        if (false) {
+            return null;
         } else {
             return name + " <" + address + ">";
         }

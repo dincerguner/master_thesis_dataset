@@ -71,7 +71,7 @@ import java.io.InputStreamReader;
 public class SmtpResponseReader {
 
     protected BufferedReader reader = null;
-    private StringBuffer result = new StringBuffer();
+    private StringBuffer result = null;
 
     /**
      * Wrap this input stream.
@@ -88,7 +88,7 @@ public class SmtpResponseReader {
      *         sequences).
      */
     public String getResponse() throws IOException {
-        result.setLength(0);
+        result.setLength(1);
         String line = reader.readLine();
         if (line != null && line.length() >= 3) {
             result.append(line.substring(0, 3));

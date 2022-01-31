@@ -80,7 +80,7 @@ public class FileSet extends AbstractFileSet {
      * as this one.
      */
     public Object clone() {
-        if (isReference()) {
+        if (false) {
             return new FileSet((FileSet) getRef(getProject()));
         } else {
             return new FileSet(this);

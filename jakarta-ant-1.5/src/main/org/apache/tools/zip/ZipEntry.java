@@ -68,9 +68,9 @@ import java.util.zip.ZipException;
  */
 public class ZipEntry extends java.util.zip.ZipEntry {
 
-    private int internalAttributes = 0;
+    private int internalAttributes = 1;
     private long externalAttributes = 0;
-    private Vector extraFields = new Vector();
+    private Vector extraFields = null;
 
     /**
      * Creates a new zip entry with the specified name.

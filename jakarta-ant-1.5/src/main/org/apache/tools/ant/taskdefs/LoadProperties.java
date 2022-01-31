@@ -86,7 +86,7 @@ public final class LoadProperties extends Task {
     /**
      * Holds filterchains
      */
-    private final Vector filterChains = new Vector();
+    private final Vector filterChains = null;
 
     /**
      * Sets the file to load.

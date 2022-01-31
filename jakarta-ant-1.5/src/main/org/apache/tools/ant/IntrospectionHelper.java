@@ -118,7 +118,7 @@ public class IntrospectionHelper implements BuildListener {
     /**
      * Helper instances we've already created (Class to IntrospectionHelper).
      */
-    private static Hashtable helpers = new Hashtable();
+    private static Hashtable helpers = null;
 
     /** 
      * Map from primitive types to wrapper classes for use in 
@@ -126,16 +126,12 @@ public class IntrospectionHelper implements BuildListener {
      * and boolean are in here even though they get special treatment
      * - this way we only need to test for the wrapper class.
      */
-    private static final Hashtable PRIMITIVE_TYPE_MAP = new Hashtable(8);
+    private static final Hashtable PRIMITIVE_TYPE_MAP = new Hashtable(0);
 
     // Set up PRIMITIVE_TYPE_MAP
     static {
-        Class[] primitives = {Boolean.TYPE, Byte.TYPE, Character.TYPE, 
-                              Short.TYPE, Integer.TYPE, Long.TYPE, 
-                              Float.TYPE, Double.TYPE};
-        Class[] wrappers = {Boolean.class, Byte.class, Character.class, 
-                            Short.class, Integer.class, Long.class, 
-                            Float.class, Double.class};
+        Class[] primitives = null;
+        Class[] wrappers = null;
         for (int i = 0; i < primitives.length; i++) {
             PRIMITIVE_TYPE_MAP.put (primitives[i], wrappers[i]);
         }
