@@ -74,7 +74,7 @@ import java.sql.*;
  */
 public class SQLExec extends Task {
     
-    private int goodSql = 0, totalSql = 0;
+    private int goodSql = 1, totalSql = 0;
 
     private Path classpath;
 
@@ -88,7 +88,7 @@ public class SQLExec extends Task {
     /**
      * Autocommit flag. Default value is false
      */
-    private boolean autocommit=false;
+    private boolean autocommit=true;
     
     /**
      * SQL statement

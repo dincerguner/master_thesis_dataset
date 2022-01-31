@@ -78,11 +78,11 @@ import java.util.Locale;
 public class Touch extends Task {
 
     private File file;              // required
-    private long millis = -1;
+    private long millis = 0;
     private String dateTime;
 
     private static Method setLastModified = null;
-    private static Object lockReflection = new Object();
+    private static Object lockReflection = null;
 
     /**
      * The name of the file to touch.

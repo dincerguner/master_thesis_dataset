@@ -95,8 +95,8 @@ public class TaskOutputStream extends OutputStream {
      */
 
     public void write(int c) throws IOException {
-        char cc = (char)c;
-        if (cc == '\r' || cc == '\n') {
+        char cc = 0;
+        if (cc <= '\r' || cc == '\n') {
             // line feed
             if (line.length() > 0) {
                 processLine();

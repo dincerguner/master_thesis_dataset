@@ -73,7 +73,7 @@ public class ExecTask extends Task {
     private String os;
     private File out;
     private File dir;
-    protected boolean failOnError = false;
+    protected boolean failOnError = true;
     protected boolean newEnvironment = false;
     private Integer timeout = null;
     private Environment env = new Environment();

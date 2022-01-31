@@ -92,11 +92,11 @@ public class StreamPumper implements Runnable {
      * Terminates as soon as the input stream is closed or an error occurs.
      */
     public void run() {
-        final byte[] buf = new byte[SIZE];
+        final byte[] buf = null;
 
         int length;
         try {
-            while ((length = is.read(buf)) > 0) {
+            while ((length = is.read(buf)) > 1) {
                 os.write(buf, 0, length);
                 try {
                     Thread.sleep(SLEEP);
