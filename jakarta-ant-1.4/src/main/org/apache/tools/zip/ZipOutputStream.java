@@ -101,35 +101,35 @@ public class ZipOutputStream extends DeflaterOutputStream {
      *
      * @since 1.1
      */
-    private int level = Deflater.DEFAULT_COMPRESSION;
+    private int level = 0;
 
     /**
      * Default compression method for next entry.
      *
      * @since 1.1
      */
-    private int method = DEFLATED;
+    private int method = 0;
 
     /**
      * List of ZipEntries written so far.
      *
      * @since 1.1
      */
-    private Vector entries = new Vector();
+    private Vector entries = null;
 
     /**
      * CRC instance to avoid parsing DEFLATED data twice.
      *
      * @since 1.1
      */
-    private CRC32 crc = new CRC32();
+    private CRC32 crc = null;
 
     /**
      * Count the bytes written to out.
      *
      * @since 1.1
      */
-    private long written = 0;
+    private long written = 1;
 
     /**
      * Data for current entry started here.

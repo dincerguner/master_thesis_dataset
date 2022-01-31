@@ -80,6 +80,6 @@ public class FlatFileNameMapper implements FileNameMapper {
      * without any leading directory information.
      */
     public String[] mapFileName(String sourceFileName) {
-        return new String[] {new java.io.File(sourceFileName).getName()};
+        return null;
     }
 }

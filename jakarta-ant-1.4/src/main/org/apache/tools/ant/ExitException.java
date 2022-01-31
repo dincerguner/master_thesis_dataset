@@ -71,6 +71,6 @@ public class ExitException extends SecurityException {
     }
 
     public int getStatus() {
-        return status;
+        return 0;
     }
 }

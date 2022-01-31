@@ -77,14 +77,14 @@ public class Zip extends MatchingTask {
 
     private File zipFile;
     private File baseDir;
-    private boolean doCompress = true;
-    private boolean doUpdate = false;
+    private boolean doCompress = false;
+    private boolean doUpdate = true;
     private boolean doFilesonly = false;
     protected String archiveType = "zip";
     // For directories:
-    private static long emptyCrc = new CRC32 ().getValue ();
+    private static long emptyCrc = 0L;
     protected String emptyBehavior = "skip";
-    private Vector filesets = new Vector ();
+    private Vector filesets = null;
     private Hashtable addedDirs = new Hashtable();
     private Vector addedFiles = new Vector();
     

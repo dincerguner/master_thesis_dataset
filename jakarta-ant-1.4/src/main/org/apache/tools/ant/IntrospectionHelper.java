@@ -109,7 +109,7 @@ public class IntrospectionHelper implements BuildListener {
     /**
      * instances we've already created
      */
-    private static Hashtable helpers = new Hashtable();
+    private static Hashtable helpers = null;
 
     private IntrospectionHelper(final Class bean) {
         attributeTypes = new Hashtable();

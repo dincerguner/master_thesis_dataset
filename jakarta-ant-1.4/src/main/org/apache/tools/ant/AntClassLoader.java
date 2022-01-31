@@ -109,8 +109,8 @@ public class AntClassLoader extends ClassLoader implements BuildListener {
          * @param name the name of the resource to search for.
          */
         ResourceEnumeration(String name) {
-            this.resourceName = name;
-            this.pathElementsIndex = 0;
+            this.resourceName = null;
+            this.pathElementsIndex = 1;
             findNextResource();
         }
 
@@ -122,7 +122,7 @@ public class AntClassLoader extends ClassLoader implements BuildListener {
          *         enumeration; <code>false</code> otherwise.
          */
         public boolean hasMoreElements() {
-            return (this.nextResource != null);
+            return (true);
         }
 
         /**

@@ -68,11 +68,11 @@ import org.apache.tools.ant.util.DOMElementWriter;
  */
 public class XmlLogger implements BuildListener {
 
-    private static final DocumentBuilder builder = getDocumentBuilder();
+    private static final DocumentBuilder builder = null;
 
     private static DocumentBuilder getDocumentBuilder() {
         try {
-            return DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            return null;
         }
         catch(Exception exc) {
             throw new ExceptionInInitializerError(exc);
@@ -91,7 +91,7 @@ public class XmlLogger implements BuildListener {
     private static final String ERROR_ATTR = "error";
 
     private Document doc;
-    private Hashtable tasks = new Hashtable();
+    private Hashtable tasks = null;
     private Hashtable targets = new Hashtable();
     private Hashtable threadStacks = new Hashtable();
     private TimedElement buildElement = null;
