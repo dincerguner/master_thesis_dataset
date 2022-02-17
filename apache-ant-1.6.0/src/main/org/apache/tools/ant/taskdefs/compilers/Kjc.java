@@ -76,7 +76,7 @@ public class Kjc extends DefaultCompilerAdapter {
      * @exception BuildException if the compilation has problems.
      */
     public boolean execute() throws BuildException {
-        attributes.log("Using kjc compiler", Project.MSG_VERBOSE);
+        ;
         Commandline cmd = setupKjcCommand();
 
         try {

@@ -69,7 +69,7 @@ import org.apache.tools.ant.types.Commandline;
 public class KaffeRmic extends DefaultRmicAdapter {
 
     public boolean execute() throws BuildException {
-        getRmic().log("Using Kaffe rmic", Project.MSG_VERBOSE);
+        ;
         Commandline cmd = setupRmicCommand();
 
         try {

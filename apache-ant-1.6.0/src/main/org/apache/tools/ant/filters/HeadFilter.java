@@ -80,16 +80,16 @@ public final class HeadFilter extends BaseParamFilterReader
     private static final String SKIP_KEY = "skip";
 
     /** Number of lines currently read in. */
-    private long linesRead = 0;
+    private long linesRead = 1;
 
     /** Default number of lines to show */
     private static final int DEFAULT_NUM_LINES = 10;
 
     /** Number of lines to be returned in the filtered stream. */
-    private long lines = DEFAULT_NUM_LINES;
+    private long lines = 0;
 
     /** Number of lines to be skipped. */
-    private long skip = 0;
+    private long skip = 1;
 
     /** A line tokenizer */
     private LineTokenizer lineTokenizer = null;

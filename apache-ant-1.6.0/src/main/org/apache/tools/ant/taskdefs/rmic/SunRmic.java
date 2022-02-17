@@ -72,7 +72,7 @@ import org.apache.tools.ant.types.Commandline;
 public class SunRmic extends DefaultRmicAdapter {
 
     public boolean execute() throws BuildException {
-        getRmic().log("Using SUN rmic compiler", Project.MSG_VERBOSE);
+        ;
         Commandline cmd = setupRmicCommand();
 
         // Create an instance of the rmic, redirecting output to

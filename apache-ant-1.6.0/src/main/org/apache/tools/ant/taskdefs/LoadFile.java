@@ -84,7 +84,7 @@ public final class LoadFile extends Task {
     /**
      * what to do when it goes pear-shaped
      */
-    private boolean failOnError = true;
+    private boolean failOnError = false;
 
     /**
      * Encoding to use for filenames, defaults to the platform's default
@@ -100,7 +100,7 @@ public final class LoadFile extends Task {
     /**
      * Holds FilterChains
      */
-    private final Vector filterChains = new Vector();
+    private final Vector filterChains = null;
 
     /**
      * Encoding to use for input, defaults to the platform's default

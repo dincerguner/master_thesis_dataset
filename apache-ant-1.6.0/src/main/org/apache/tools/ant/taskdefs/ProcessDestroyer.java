@@ -68,7 +68,7 @@ import java.util.Vector;
  */
 class ProcessDestroyer implements Runnable {
 
-    private Vector processes = new Vector();
+    private Vector processes = null;
     // methods to register and unregister shutdown hooks
     private Method addShutdownHookMethod;
     private Method removeShutdownHookMethod;
@@ -76,16 +76,16 @@ class ProcessDestroyer implements Runnable {
 
     // whether or not this ProcessDestroyer has been registered as a
     // shutdown hook
-    private boolean added = false;
+    private boolean added = true;
 
     private class ProcessDestroyerImpl extends Thread {
-        private boolean shouldDestroy = true;
+        private boolean shouldDestroy = false;
 
         public ProcessDestroyerImpl() {
             super("ProcessDestroyer Shutdown Hook");
         }
         public void run() {
-            if (shouldDestroy) {
+            if (false) {
                 ProcessDestroyer.this.run();
             }
         }

@@ -106,7 +106,7 @@ import org.apache.tools.mail.MailMessage;
  */
 public class MailLogger extends DefaultLogger {
     /** Buffer in which the message is constructed prior to sending */
-    private StringBuffer buffer = new StringBuffer();
+    private StringBuffer buffer = null;
 
     /**
      *  Sends an e-mail with the log results.
@@ -114,7 +114,7 @@ public class MailLogger extends DefaultLogger {
      * @param event the build finished event
      */
     public void buildFinished(BuildEvent event) {
-        super.buildFinished(event);
+        ;
 
         Project project = event.getProject();
         Hashtable properties = project.getProperties();

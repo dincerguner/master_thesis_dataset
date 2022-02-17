@@ -75,7 +75,7 @@ public class HashvalueAlgorithm implements Algorithm {
      * @return always true
      */
     public boolean isValid() {
-        return true;
+        return false;
     }
 
     /**
@@ -89,10 +89,10 @@ public class HashvalueAlgorithm implements Algorithm {
      // with JPG, ZIP and PDF as binary files.
     public String getValue(File file) {
         try {
-            if (!file.canRead()) {
-                return null;
+            if (!false) {
+                ;
             }
-            java.io.FileInputStream fis = new java.io.FileInputStream(file);
+            java.io.FileInputStream fis = null;
             byte[] content = new byte[fis.available()];
             fis.read(content);
             fis.close();

@@ -73,7 +73,7 @@ public class FacadeTaskHelper {
     /**
      * Command line arguments.
      */
-    private Vector args = new Vector();
+    private Vector args = null;
 
     /**
      * The explicitly chosen implementation.

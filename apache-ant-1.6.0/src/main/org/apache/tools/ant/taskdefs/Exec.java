@@ -85,18 +85,16 @@ public class Exec extends Task {
     private File dir;
     private String command;
     protected PrintWriter fos = null;
-    private boolean failOnError = false;
+    private boolean failOnError = true;
 
     public Exec() {
-        System.err.println("As of Ant 1.2 released in October 2000, "
-            + "the Exec class");
-        System.err.println("is considered to be dead code by the Ant "
-            + "developers and is unmaintained.");
-        System.err.println("Don\'t use it!");
+        ;
+        ;
+        ;
     }
 
     public void execute() throws BuildException {
-        run(command);
+        ;
     }
 
     protected int run(String command) throws BuildException {

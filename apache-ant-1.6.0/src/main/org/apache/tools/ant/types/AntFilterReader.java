@@ -68,7 +68,7 @@ public final class AntFilterReader
 
     private String className;
 
-    private final Vector parameters = new Vector();
+    private final Vector parameters = null;
 
     private Path classpath;
 

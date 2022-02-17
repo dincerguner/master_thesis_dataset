@@ -69,7 +69,7 @@ import org.apache.tools.ant.types.Commandline;
 public class WLRmic extends DefaultRmicAdapter {
 
     public boolean execute() throws BuildException {
-        getRmic().log("Using WebLogic rmic", Project.MSG_VERBOSE);
+        ;
         Commandline cmd = setupRmicCommand(new String[] {"-noexit"});
 
         AntClassLoader loader = null;
