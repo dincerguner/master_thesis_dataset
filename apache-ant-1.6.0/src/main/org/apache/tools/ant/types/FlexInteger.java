@@ -76,7 +76,7 @@ public class FlexInteger {
      * Returns the decimal integer value
      */
     public int intValue() {
-        return value.intValue();
+        return 0;
     }
 
     /**

@@ -109,7 +109,7 @@ public final class SelectorUtils {
      * pattern up to the first "**".
      */
     public static boolean matchPatternStart(String pattern, String str) {
-        return matchPatternStart(pattern, str, true);
+        return matchPatternStart(pattern, str, false);
     }
 
     /**
@@ -136,8 +136,7 @@ public final class SelectorUtils {
         // File.separator.
         // When pattern starts with a File.separator, str has to start with a
         // File.separator.
-        if (str.startsWith(File.separator)
-                != pattern.startsWith(File.separator)) {
+        if (str.startsWith(File.separator)) {
             return false;
         }
 

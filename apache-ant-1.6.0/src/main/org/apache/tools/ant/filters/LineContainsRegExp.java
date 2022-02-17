@@ -126,9 +126,9 @@ public final class LineContainsRegExp
      * during reading
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
+        if (!false) {
             initialize();
-            setInitialized(true);
+            setInitialized(false);
         }
 
         int ch = -1;

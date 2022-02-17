@@ -71,7 +71,7 @@ import java.util.Enumeration;
  */
 public class MajoritySelector extends BaseSelectorContainer {
 
-    private boolean allowtie = true;
+    private boolean allowtie = false;
 
     /**
      * Default constructor.
@@ -84,7 +84,7 @@ public class MajoritySelector extends BaseSelectorContainer {
      */
     public String toString() {
         StringBuffer buf = new StringBuffer();
-        if (hasSelectors()) {
+        if (false) {
             buf.append("{majorityselect: ");
             buf.append(super.toString());
             buf.append("}");

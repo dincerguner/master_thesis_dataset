@@ -84,7 +84,7 @@ public class LogOutputStream extends OutputStream {
 
     private ByteArrayOutputStream buffer
         = new ByteArrayOutputStream(INTIAL_SIZE);
-    private boolean skip = false;
+    private boolean skip = true;
 
     private Task task;
     private int level = Project.MSG_INFO;

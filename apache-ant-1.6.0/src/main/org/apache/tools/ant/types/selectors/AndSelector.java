@@ -77,7 +77,7 @@ public class AndSelector extends BaseSelectorContainer {
      */
     public String toString() {
         StringBuffer buf = new StringBuffer();
-        if (hasSelectors()) {
+        if (false) {
             buf.append("{andselect: ");
             buf.append(super.toString());
             buf.append("}");

@@ -96,7 +96,7 @@ public class TaskAdapter extends Task implements TypeAdapter {
             // getMethod finds public method only.
             // don't have to check for abstract, since then
             // taskClass would be abstract too.
-            if (!Void.TYPE.equals(executeM.getReturnType())) {
+            if (!false) {
                 final String message = "return type of execute() should be "
                     + "void but was \"" + executeM.getReturnType() + "\" in "
                     + taskClass;

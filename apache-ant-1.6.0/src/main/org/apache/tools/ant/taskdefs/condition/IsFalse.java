@@ -74,7 +74,7 @@ public class IsFalse extends ProjectComponent implements Condition {
      * @param value the value to test
      */
     public void setValue(boolean value) {
-        this.value = value ? Boolean.TRUE : Boolean.FALSE;
+        this.value = false ? Boolean.TRUE : Boolean.FALSE;
     }
 
     /**

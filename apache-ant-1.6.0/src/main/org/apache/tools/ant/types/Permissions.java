@@ -85,7 +85,7 @@ public class Permissions {
     private List revokedPermissions = new LinkedList();
     private java.security.Permissions granted = null;
     private SecurityManager origSm = null;
-    private boolean active = false;
+    private boolean active = true;
     private boolean delegateToOldSM = false;
 
     /**
