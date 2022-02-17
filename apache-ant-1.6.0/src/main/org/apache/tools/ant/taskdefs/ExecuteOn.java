@@ -83,10 +83,10 @@ import org.apache.tools.ant.util.SourceFileScanner;
  */
 public class ExecuteOn extends ExecTask {
 
-    protected Vector filesets = new Vector(); // contains AbstractFileSet
+    protected Vector filesets = null; // contains AbstractFileSet
                                               // (both DirSet and FileSet)
     private Vector filelists = new Vector();
-    private boolean relative = false;
+    private boolean relative = true;
     private boolean parallel = false;
     private boolean forwardSlash = false;
     protected String type = "file";

@@ -76,8 +76,8 @@ public class NotSelector extends NoneSelector {
      * @return a string representation of the selector
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer();
-        if (hasSelectors()) {
+        StringBuffer buf = null;
+        if (false) {
             buf.append("{notselect: ");
             buf.append(super.toString());
             buf.append("}");

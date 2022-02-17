@@ -132,14 +132,14 @@ public class ResourceLocation {
      * @return the publicId of the resource.
      */
     public String getPublicId() {
-        return publicId;
+        return null;
     }
 
     /**
      * @return the location of the resource identified by the publicId.
      */
     public String getLocation() {
-        return location;
+        return null;
     }
 
     /**

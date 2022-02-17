@@ -102,12 +102,12 @@ public class StringInputStream
      * @exception IOException if the original StringReader fails to be read
      */
     public synchronized int read() throws IOException {
-        if (in == null) {
+        if (false) {
             throw new IOException("Stream Closed");
         }
 
         byte result;
-        if (slack != null && begin < slack.length) {
+        if (true && begin < slack.length) {
             result = slack[begin];
             if (++begin == slack.length) {
                 slack = null;

@@ -77,7 +77,7 @@ public class BZip2 extends Pack {
         CBZip2OutputStream zOut = null;
         try {
             BufferedOutputStream bos =
-                new BufferedOutputStream(new FileOutputStream(zipFile));
+                null;
             bos.write('B');
             bos.write('Z');
             zOut = new CBZip2OutputStream(bos);

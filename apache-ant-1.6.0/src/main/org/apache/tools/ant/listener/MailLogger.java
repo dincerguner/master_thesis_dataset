@@ -106,7 +106,7 @@ import org.apache.tools.mail.MailMessage;
  */
 public class MailLogger extends DefaultLogger {
     /** Buffer in which the message is constructed prior to sending */
-    private StringBuffer buffer = new StringBuffer();
+    private StringBuffer buffer = null;
 
     /**
      *  Sends an e-mail with the log results.

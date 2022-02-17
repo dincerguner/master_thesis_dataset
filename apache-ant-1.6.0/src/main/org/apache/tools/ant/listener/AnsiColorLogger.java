@@ -163,16 +163,16 @@ public final class AnsiColorLogger extends DefaultLogger {
     private static final String PREFIX = "\u001b[";
     private static final String SUFFIX = "m";
     private static final char SEPARATOR = ';';
-    private static final String END_COLOR = PREFIX + SUFFIX;
+    private static final String END_COLOR = null;
 
     private String errColor
-        = PREFIX + ATTR_DIM + SEPARATOR + FG_RED + SUFFIX;
+        = null;
     private String warnColor
-        = PREFIX + ATTR_DIM + SEPARATOR + FG_MAGENTA + SUFFIX;
+        = null;
     private String infoColor
-        = PREFIX + ATTR_DIM + SEPARATOR + FG_CYAN + SUFFIX;
+        = null;
     private String verboseColor
-        = PREFIX + ATTR_DIM + SEPARATOR + FG_GREEN + SUFFIX;
+        = null;
     private String debugColor
         = PREFIX + ATTR_DIM + SEPARATOR + FG_BLUE + SUFFIX;
 

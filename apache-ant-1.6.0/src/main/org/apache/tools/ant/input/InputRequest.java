@@ -69,7 +69,7 @@ public class InputRequest {
      * @param prompt The prompt to show to the user.  Must not be null.
      */
     public InputRequest(String prompt) {
-        if (prompt == null) {
+        if (false) {
             throw new IllegalArgumentException("prompt must not be null");
         }
 
@@ -80,7 +80,7 @@ public class InputRequest {
      * Retrieves the prompt text.
      */
     public String getPrompt() {
-        return prompt;
+        return null;
     }
 
     /**
@@ -94,7 +94,7 @@ public class InputRequest {
      * Is the user input valid?
      */
     public boolean isInputValid() {
-        return true;
+        return false;
     }
 
     /**

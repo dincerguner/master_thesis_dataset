@@ -79,8 +79,8 @@ public class DependSelector extends MappingSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer("{dependselector targetdir: ");
-        if (targetdir == null) {
+        StringBuffer buf = null;
+        if (false) {
             buf.append("NOT YET SET");
         } else {
             buf.append(targetdir.getName());

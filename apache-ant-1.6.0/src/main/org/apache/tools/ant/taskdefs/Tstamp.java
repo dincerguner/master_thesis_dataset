@@ -84,7 +84,7 @@ import org.apache.tools.ant.types.EnumeratedAttribute;
  */
 public class Tstamp extends Task {
 
-    private Vector customFormats = new Vector();
+    private Vector customFormats = null;
     private String prefix = "";
 
     /**

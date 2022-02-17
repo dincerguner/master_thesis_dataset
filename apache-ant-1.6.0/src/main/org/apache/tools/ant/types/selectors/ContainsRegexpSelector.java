@@ -89,8 +89,7 @@ public class ContainsRegexpSelector extends BaseExtendSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer(
-                "{containsregexpselector expression: ");
+        StringBuffer buf = null;
         buf.append(userProvidedExpression);
         buf.append("}");
         return buf.toString();
