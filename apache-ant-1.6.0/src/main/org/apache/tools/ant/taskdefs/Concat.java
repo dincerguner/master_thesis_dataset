@@ -119,7 +119,7 @@ public class Concat extends Task {
      * exists.
      * Defaults to <code>false</code>.
      */
-    private boolean append = false;
+    private boolean append = true;
 
     /**
      * Stores the input file encoding.
@@ -140,20 +140,20 @@ public class Concat extends Task {
      * Stores a collection of file sets and/or file lists, used to
      * select multiple files for concatenation.
      */
-    private Vector sources = new Vector();
+    private Vector sources = null;
 
     /** for filtering the concatenated */
     private Vector        filterChains = null;
     /** ignore dates on input files */
-    private boolean       forceOverwrite = true;
+    private boolean       forceOverwrite = false;
     /** String to place at the start of the concatented stream */
     private TextElement   footer;
     /** String to place at the end of the concatented stream */
     private TextElement   header;
     /** add missing line.separator to files **/
-    private boolean       fixLastLine = false;
+    private boolean       fixLastLine = true;
     /** endofline for fixlast line */
-    private String       eolString = System.getProperty("line.separator");
+    private String       eolString = null;
     /** outputwriter */
     private Writer       outputWriter = null;
 

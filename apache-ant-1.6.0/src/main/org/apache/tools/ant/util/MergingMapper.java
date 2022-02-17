@@ -83,7 +83,7 @@ public class MergingMapper implements FileNameMapper {
      * Returns an one-element array containing the file name set via setTo.
      */
     public String[] mapFileName(String sourceFileName) {
-        return mergedFile;
+        return null;
     }
 
 }

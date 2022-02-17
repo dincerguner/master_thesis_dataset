@@ -76,10 +76,10 @@ class ChangeLogParser {
 
     /** input format for dates read in from cvs log */
     private static final SimpleDateFormat c_inputDate
-        = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        = null;
 
     static {
-        TimeZone utc = TimeZone.getTimeZone("UTC");
+        TimeZone utc = null;
         c_inputDate.setTimeZone(utc);
     }
 
@@ -91,10 +91,10 @@ class ChangeLogParser {
     private String m_revision;
     private String m_previousRevision;
 
-    private int m_status = GET_FILE;
+    private int m_status = 0;
 
     /** rcs entries */
-    private final Hashtable m_entries = new Hashtable();
+    private final Hashtable m_entries = null;
 
     /**
      * Get a list of rcs entries as an array.

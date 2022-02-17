@@ -1,0 +1,6 @@
+1:EVR:<METHOD_INVOCATION(java.lang.Thread)>:<DEFAULT>:org.apache.tools.ant.util.LoaderUtils@setContextClassLoader(java.lang.ClassLoader):73:Thread.currentThread() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LoaderUtils@setContextClassLoader(java.lang.ClassLoader):74:currentThread.setContextClassLoader(loader) |==> <NO-OP>
+3:EVR:<METHOD_INVOCATION(java.lang.Thread)>:<DEFAULT>:org.apache.tools.ant.util.LoaderUtils@getContextClassLoader():85:Thread.currentThread() |==> null
+4:EVR:<METHOD_INVOCATION(java.lang.ClassLoader)>:<DEFAULT>:org.apache.tools.ant.util.LoaderUtils@getContextClassLoader():86:currentThread.getContextClassLoader() |==> null
+5:LVR:TRUE:FALSE:org.apache.tools.ant.util.LoaderUtils@isContextLoaderAvailable():96:true |==> false
+6:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.LoaderUtils@normalizeSource(java.io.File):107:source != null |==> true

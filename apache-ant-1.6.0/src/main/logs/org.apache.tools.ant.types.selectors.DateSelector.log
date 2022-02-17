@@ -1,0 +1,11 @@
+1:LVR:NEG:0:org.apache.tools.ant.types.selectors.DateSelector:75:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.types.selectors.DateSelector:75:-1 |==> 1
+3:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.DateSelector:77:false |==> true
+4:LVR:0:POS:org.apache.tools.ant.types.selectors.DateSelector:78:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.types.selectors.DateSelector:78:0 |==> -1
+6:LVR:POS:0:org.apache.tools.ant.types.selectors.DateSelector:79:2 |==> 0
+7:LVR:POS:NEG:org.apache.tools.ant.types.selectors.DateSelector:79:2 |==> -2
+8:COR:Os.isFamily("dos"):TRUE:org.apache.tools.ant.types.selectors.DateSelector@<init>():96:Os.isFamily("dos") |==> false
+9:COR:Os.isFamily("dos"):FALSE:org.apache.tools.ant.types.selectors.DateSelector@<init>():96:Os.isFamily("dos") |==> true
+10:LVR:POS:0:org.apache.tools.ant.types.selectors.DateSelector@<init>():97:2000 |==> 0
+11:LVR:POS:NEG:org.apache.tools.ant.types.selectors.DateSelector@<init>():97:2000 |==> -2000

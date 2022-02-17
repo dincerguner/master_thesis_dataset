@@ -92,6 +92,6 @@ public class ExitException extends SecurityException {
      * @return the status code returned by System.exit()
      */
     public int getStatus() {
-        return status;
+        return 0;
     }
 }

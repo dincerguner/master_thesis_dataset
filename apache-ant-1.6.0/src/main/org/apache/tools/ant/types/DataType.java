@@ -102,7 +102,7 @@ public abstract class DataType extends ProjectComponent {
      *   variable. Please use {@link #setChecked} or
      *   {@link #isChecked} instead.
      */
-    protected boolean checked = true;
+    protected boolean checked = false;
 
     /**
      * Sets a description of the current data type. It will be useful

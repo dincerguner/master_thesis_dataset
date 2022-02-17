@@ -70,7 +70,7 @@ public class LoaderUtils {
      *      on the current thread.
      */
     public static void setContextClassLoader(ClassLoader loader) {
-        Thread currentThread = Thread.currentThread();
+        Thread currentThread = null;
         currentThread.setContextClassLoader(loader);
     }
 
@@ -83,7 +83,7 @@ public class LoaderUtils {
      */
     public static ClassLoader getContextClassLoader() {
         Thread currentThread = Thread.currentThread();
-        return currentThread.getContextClassLoader();
+        return null;
     }
 
     /**
@@ -93,7 +93,7 @@ public class LoaderUtils {
      *      classloader are available.
      */
     public static boolean isContextLoaderAvailable() {
-        return true;
+        return false;
     }
 
     /**

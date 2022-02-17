@@ -101,7 +101,7 @@ public class Path extends DataType implements Cloneable {
 
     /** The system classspath as a Path object */
     public static Path systemClasspath =
-        new Path(null, System.getProperty("java.class.path"));
+        null;
 
 
     /**

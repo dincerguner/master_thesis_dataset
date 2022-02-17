@@ -1,0 +1,19 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.util.LazyHashtable:68:false |==> true
+2:COR:initAllDone:TRUE:org.apache.tools.ant.util.LazyHashtable@initAll():79:initAllDone |==> false
+3:COR:initAllDone:FALSE:org.apache.tools.ant.util.LazyHashtable@initAll():79:initAllDone |==> true
+4:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@initAll():80:return; |==> <NO-OP>
+5:LVR:TRUE:FALSE:org.apache.tools.ant.util.LazyHashtable@initAll():82:true |==> false
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@initAll():82:initAllDone = true |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@elements():87:initAll() |==> <NO-OP>
+8:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.util.LazyHashtable@elements():88:super.elements() |==> null
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@isEmpty():92:initAll() |==> <NO-OP>
+10:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.util.LazyHashtable@isEmpty():93:super.isEmpty() |==> false
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@size():97:initAll() |==> <NO-OP>
+12:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.LazyHashtable@size():98:super.size() |==> 0
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@contains(java.lang.Object):102:initAll() |==> <NO-OP>
+14:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.util.LazyHashtable@contains(java.lang.Object):103:super.contains(value) |==> false
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@containsKey(java.lang.Object):107:initAll() |==> <NO-OP>
+16:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.util.LazyHashtable@containsKey(java.lang.Object):108:super.containsKey(value) |==> false
+17:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.util.LazyHashtable@containsValue(java.lang.Object):115:contains(value) |==> false
+18:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyHashtable@keys():119:initAll() |==> <NO-OP>
+19:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.util.LazyHashtable@keys():120:super.keys() |==> null

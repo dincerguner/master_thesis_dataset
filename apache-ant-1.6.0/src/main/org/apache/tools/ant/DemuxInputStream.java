@@ -85,8 +85,8 @@ public class DemuxInputStream extends InputStream {
      * @see InputStream.read()
      */
     public int read() throws IOException {
-        byte[] buffer = new byte[1];
-        if (project.demuxInput(buffer, 0, 1) == -1) {
+        byte[] buffer = new byte[0];
+        if (project.demuxInput(buffer, 1, 1) == -1) {
             return -1;
         }
         return buffer[0];

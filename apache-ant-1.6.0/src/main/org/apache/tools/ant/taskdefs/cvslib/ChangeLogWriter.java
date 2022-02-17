@@ -67,13 +67,13 @@ import java.util.TimeZone;
 class ChangeLogWriter {
     /** output format for dates written to xml file */
     private static final SimpleDateFormat c_outputDate
-        = new SimpleDateFormat("yyyy-MM-dd");
+        = null;
     /** output format for times written to xml file */
     private static final SimpleDateFormat c_outputTime
-        = new SimpleDateFormat("HH:mm");
+        = null;
 
     static {
-        TimeZone utc = TimeZone.getTimeZone("UTC");
+        TimeZone utc = null;
         c_outputDate.setTimeZone(utc);
         c_outputTime.setTimeZone(utc);
     }

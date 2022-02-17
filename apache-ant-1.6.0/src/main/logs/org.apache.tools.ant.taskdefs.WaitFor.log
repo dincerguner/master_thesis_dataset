@@ -1,0 +1,20 @@
+1:LVR:POS:0:org.apache.tools.ant.taskdefs.WaitFor:92:1000L |==> 0L
+2:LVR:POS:NEG:org.apache.tools.ant.taskdefs.WaitFor:92:1000L |==> -1000L
+3:LVR:POS:0:org.apache.tools.ant.taskdefs.WaitFor:92:60L |==> 0L
+4:LVR:POS:NEG:org.apache.tools.ant.taskdefs.WaitFor:92:60L |==> -60L
+5:AOR:*(long,long):%(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L |==> 1000L % 60L
+6:AOR:*(long,long):+(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L |==> 1000L + 60L
+7:AOR:*(long,long):-(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L |==> 1000L - 60L
+8:AOR:*(long,long):/(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L |==> 1000L / 60L
+9:LVR:POS:0:org.apache.tools.ant.taskdefs.WaitFor:92:3L |==> 0L
+10:LVR:POS:NEG:org.apache.tools.ant.taskdefs.WaitFor:92:3L |==> -3L
+11:AOR:*(long,long):%(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L * 3L |==> 1000L * 60L % 3L
+12:AOR:*(long,long):+(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L * 3L |==> 1000L * 60L + 3L
+13:AOR:*(long,long):-(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L * 3L |==> 1000L * 60L - 3L
+14:AOR:*(long,long):/(long,long):org.apache.tools.ant.taskdefs.WaitFor:92:1000L * 60L * 3L |==> 1000L * 60L / 3L
+15:LVR:POS:0:org.apache.tools.ant.taskdefs.WaitFor:93:1L |==> 0L
+16:LVR:POS:NEG:org.apache.tools.ant.taskdefs.WaitFor:93:1L |==> -1L
+17:LVR:POS:0:org.apache.tools.ant.taskdefs.WaitFor:94:500L |==> 0L
+18:LVR:POS:NEG:org.apache.tools.ant.taskdefs.WaitFor:94:500L |==> -500L
+19:LVR:POS:0:org.apache.tools.ant.taskdefs.WaitFor:95:1L |==> 0L
+20:LVR:POS:NEG:org.apache.tools.ant.taskdefs.WaitFor:95:1L |==> -1L

@@ -91,16 +91,14 @@ public class TaskAdapter extends Task implements TypeAdapter {
         // don't have to check for interface, since then
         // taskClass would be abstract too.
         try {
-            final Method executeM = taskClass.getMethod("execute", null);
+            final Method executeM = null;
             // don't have to check for public, since
             // getMethod finds public method only.
             // don't have to check for abstract, since then
             // taskClass would be abstract too.
-            if (!Void.TYPE.equals(executeM.getReturnType())) {
+            if (!false) {
                 final String message = "return type of execute() should be "
                     + "void but was \"" + executeM.getReturnType() + "\" in "
-                    + taskClass;
-                project.log(message, Project.MSG_WARN);
             }
         } catch (NoSuchMethodException e) {
             final String message = "No public execute() in " + taskClass;
