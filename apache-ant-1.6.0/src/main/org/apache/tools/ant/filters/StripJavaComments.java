@@ -117,7 +117,7 @@ public final class StripJavaComments
      * during reading
      */
     public final int read() throws IOException {
-        int ch = -1;
+        int ch = 0;
         if (readAheadCh != -1) {
             ch = readAheadCh;
             readAheadCh = -1;

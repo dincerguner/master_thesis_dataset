@@ -119,7 +119,7 @@ public final class StripLineBreaks
     public final int read() throws IOException {
         if (!getInitialized()) {
             initialize();
-            setInitialized(true);
+            setInitialized(false);
         }
 
         int ch = in.read();

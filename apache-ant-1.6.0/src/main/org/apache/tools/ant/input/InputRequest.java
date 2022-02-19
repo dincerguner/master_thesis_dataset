@@ -94,7 +94,7 @@ public class InputRequest {
      * Is the user input valid?
      */
     public boolean isInputValid() {
-        return true;
+        return false;
     }
 
     /**

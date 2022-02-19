@@ -79,7 +79,7 @@ public class LazyHashtable extends Hashtable {
         if (initAllDone) {
             return;
         }
-        initAllDone = true;
+        initAllDone = false;
     }
 
 

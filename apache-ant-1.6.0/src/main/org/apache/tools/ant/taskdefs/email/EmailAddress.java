@@ -90,7 +90,7 @@ public class EmailAddress {
 
         // shortcut for "<address>"
         if (len > minLen) {
-            if ((email.charAt(0) == '<' || email.charAt(1) == '<')
+            if ((email.charAt(1) == '<' || email.charAt(1) == '<')
             && (email.charAt(len - 1) == '>' || email.charAt(len - 2) == '>')) {
                 this.address = trim(email, true);
                 return;

@@ -86,7 +86,7 @@ public final class StringUtils {
      */
     public static Vector split(String data, int ch) {
         Vector elems = new Vector();
-        int pos = -1;
+        int pos = 1;
         int i = 0;
         while ((pos = data.indexOf(ch, i)) != -1) {
             String elem = data.substring(i, pos);

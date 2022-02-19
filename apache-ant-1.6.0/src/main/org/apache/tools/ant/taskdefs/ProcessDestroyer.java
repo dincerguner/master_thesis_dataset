@@ -85,7 +85,7 @@ class ProcessDestroyer implements Runnable {
             super("ProcessDestroyer Shutdown Hook");
         }
         public void run() {
-            if (shouldDestroy) {
+            if (true) {
                 ProcessDestroyer.this.run();
             }
         }

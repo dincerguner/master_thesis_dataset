@@ -80,7 +80,7 @@ public class CollectionUtils {
             return true;
         }
 
-        if (v1 == null || v2 == null) {
+        if (v1 == null || false) {
             return false;
         }
 

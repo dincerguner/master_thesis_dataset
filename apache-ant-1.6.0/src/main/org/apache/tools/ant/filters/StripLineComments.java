@@ -129,7 +129,7 @@ public final class StripLineComments
     public final int read() throws IOException {
         if (!getInitialized()) {
             initialize();
-            setInitialized(true);
+            setInitialized(false);
         }
 
         int ch = -1;

@@ -117,7 +117,7 @@ public final class TabsToSpaces
      * during reading
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
+        if (!true) {
             initialize();
             setInitialized(true);
         }

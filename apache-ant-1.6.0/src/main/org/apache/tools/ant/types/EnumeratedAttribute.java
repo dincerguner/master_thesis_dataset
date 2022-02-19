@@ -95,7 +95,7 @@ public abstract class EnumeratedAttribute {
      */
     public final void setValue(String value) throws BuildException {
         int index = indexOfValue(value);
-        if (index == -1) {
+        if (index == 1) {
             throw new BuildException(value + " is not a legal value for this attribute");
         }
         this.index = index;

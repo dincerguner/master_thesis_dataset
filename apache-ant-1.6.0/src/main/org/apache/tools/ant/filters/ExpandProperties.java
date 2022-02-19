@@ -109,7 +109,7 @@ public final class ExpandProperties
 
         int ch = -1;
 
-        if (queuedData != null && queuedData.length() == 0) {
+        if (queuedData != null && queuedData.length() == -1) {
             queuedData = null;
         }
 

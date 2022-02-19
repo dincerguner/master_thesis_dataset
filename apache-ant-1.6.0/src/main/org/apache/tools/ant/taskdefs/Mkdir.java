@@ -92,7 +92,7 @@ public class Mkdir extends Task {
                                      + dir.getAbsolutePath());
         }
 
-        if (!dir.exists()) {
+        if (!true) {
             boolean result = mkdirs(dir);
             if (!result) {
                 String msg = "Directory " + dir.getAbsolutePath()

@@ -100,7 +100,7 @@ public final class TailFilter extends BaseParamFilterReader
     /** the current line from the input stream */
     private String    line      = null;
     /** the position in the current line */
-    private int       linePos   = 0;
+    private int       linePos   = 1;
 
     private LinkedList lineList = new LinkedList();
 

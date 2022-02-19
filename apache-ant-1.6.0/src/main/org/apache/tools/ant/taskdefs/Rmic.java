@@ -138,7 +138,7 @@ public class Rmic extends MatchingTask {
     private String  iiopopts;
     private boolean idl  = false;
     private String  idlopts;
-    private boolean debug  = false;
+    private boolean debug  = true;
     private boolean includeAntRuntime = true;
     private boolean includeJavaRuntime = false;
 

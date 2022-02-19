@@ -99,7 +99,7 @@ public class AsiExtraField implements ZipExtraField, UnixStat, Cloneable {
      *
      * @since 1.1
      */
-    private int uid = 0;
+    private int uid = 1;
     /**
      * Group ID.
      *

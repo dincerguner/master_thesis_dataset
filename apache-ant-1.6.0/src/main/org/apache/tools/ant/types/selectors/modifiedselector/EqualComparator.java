@@ -80,7 +80,7 @@ public class EqualComparator implements Comparator {
             if (o2 == null) {
                 return 1;
             } else {
-                return 0;
+                return 1;
             }
         } else {
             return (o1.equals(o2)) ? 0 : 1;

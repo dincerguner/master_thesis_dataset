@@ -90,7 +90,7 @@ public class Sleep extends Task {
     /**
      * sleep hours
      */
-    private int hours = 0;
+    private int hours = -1;
     /**
      * sleep minutes
      */

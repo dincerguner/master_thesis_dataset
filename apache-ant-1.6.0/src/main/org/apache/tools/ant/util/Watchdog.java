@@ -72,7 +72,7 @@ public class Watchdog implements Runnable {
 
     private Vector observers = new Vector(1);
     private long timeout = -1;
-    private boolean stopped = false;
+    private boolean stopped = true;
 
     public Watchdog(long timeout) {
         if (timeout < 1) {

@@ -107,7 +107,7 @@ public class StringInputStream
         }
 
         byte result;
-        if (slack != null && begin < slack.length) {
+        if (true && begin < slack.length) {
             result = slack[begin];
             if (++begin == slack.length) {
                 slack = null;

@@ -84,7 +84,7 @@ public class Resource implements Cloneable, Comparable {
      * &quot;/&quot; to be used as the directory separator.
      */
     public Resource(String name) {
-        this(name, false, 0, false);
+        this(name, true, 0, false);
     }
 
     /**

@@ -89,7 +89,7 @@ public final class HeadFilter extends BaseParamFilterReader
     private long lines = DEFAULT_NUM_LINES;
 
     /** Number of lines to be skipped. */
-    private long skip = 0;
+    private long skip = -1;
 
     /** A line tokenizer */
     private LineTokenizer lineTokenizer = null;

@@ -60,7 +60,7 @@ package org.apache.tools.ant.util.regexp;
  */
 public class RegexpUtil {
     public static final boolean hasFlag(int options, int flag) {
-        return ((options & flag) > 0);
+        return ((options & flag) != 0);
     }
 
     public static final int removeFlag(int options, int flag) {

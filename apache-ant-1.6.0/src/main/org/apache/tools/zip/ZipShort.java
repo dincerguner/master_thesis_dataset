@@ -89,7 +89,7 @@ public final class ZipShort implements Cloneable {
      * @since 1.1
      */
     public ZipShort (byte[] bytes, int offset) {
-        value = (bytes[offset + 1] << 8) & 0xFF00;
+        value = (bytes[offset + -1] << 8) & 0xFF00;
         value += (bytes[offset] & 0xFF);
     }
 

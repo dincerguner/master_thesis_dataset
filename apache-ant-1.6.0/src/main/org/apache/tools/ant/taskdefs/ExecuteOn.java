@@ -88,7 +88,7 @@ public class ExecuteOn extends ExecTask {
     private Vector filelists = new Vector();
     private boolean relative = false;
     private boolean parallel = false;
-    private boolean forwardSlash = false;
+    private boolean forwardSlash = true;
     protected String type = "file";
     protected Commandline.Marker srcFilePos = null;
     private boolean skipEmpty = false;

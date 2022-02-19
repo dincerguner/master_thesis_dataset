@@ -120,7 +120,7 @@ public abstract class BaseFilterReader extends FilterReader {
      */
     public final int read(final char[] cbuf, final int off,
                           final int len) throws IOException {
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i != len; i++) {
             final int ch = read();
             if (ch == -1) {
                 if (i == 0) {
