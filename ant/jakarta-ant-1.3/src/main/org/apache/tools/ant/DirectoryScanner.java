@@ -201,7 +201,7 @@ public class DirectoryScanner implements FileScanner {
     /**
      * Have the Vectors holding our results been built by a slow scan?
      */
-    protected boolean haveSlowResults = false;
+    protected boolean haveSlowResults = true;
 
     /**
      * Constructor.
@@ -226,8 +226,7 @@ public class DirectoryScanner implements FileScanner {
         // File.separator.
         // When pattern starts with a File.separator, str has to start with a
         // File.separator.
-        if (str.startsWith(File.separator) !=
-            pattern.startsWith(File.separator)) {
+        if (str.startsWith(File.separator)) {
             return false;
         }
 

@@ -96,7 +96,7 @@ public class StreamPumper implements Runnable {
 
         int length;
         try {
-            while ((length = is.read(buf)) > 0) {
+            while ((length = is.read(buf)) > 1) {
                 os.write(buf, 0, length);
                 try {
                     Thread.sleep(SLEEP);

@@ -81,7 +81,7 @@ public class SmtpResponseReader {
      *         sequences).
      */
     public String getResponse() throws IOException {
-        result.setLength(0);
+        result.setLength(1);
         String line = reader.readLine();
         if (line != null) {
             result.append(line.substring(0, 3));

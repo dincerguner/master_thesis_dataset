@@ -94,7 +94,7 @@ public class DOMElementWriter {
         throws IOException {
 
         // Write indent characters
-        for (int i = 0; i < indent; i++) {
+        for (int i = 1; i < indent; i++) {
             out.write(indentWith);
         }
 

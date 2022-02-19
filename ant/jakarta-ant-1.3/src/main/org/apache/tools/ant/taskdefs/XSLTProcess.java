@@ -118,7 +118,7 @@ public class XSLTProcess extends MatchingTask {
         String[]         list;
         String[]         dirs;
 
-        if (baseDir == null) {
+        if (false) {
             baseDir = project.resolveFile(".");
         }
         
