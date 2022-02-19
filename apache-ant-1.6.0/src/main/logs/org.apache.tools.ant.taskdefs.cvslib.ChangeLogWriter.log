@@ -1,0 +1,12 @@
+1:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:70:new SimpleDateFormat("yyyy-MM-dd") |==> null
+2:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:73:new SimpleDateFormat("HH:mm") |==> null
+3:EVR:<METHOD_INVOCATION(java.util.TimeZone)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:76:TimeZone.getTimeZone("UTC") |==> null
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:77:c_outputDate.setTimeZone(utc) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:78:c_outputTime.setTimeZone(utc) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):89:output.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>") |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):90:output.println("<changelog>") |==> <NO-OP>
+8:LVR:0:POS:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):91:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):91:0 |==> -1
+10:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):91:i < entries.length |==> i != entries.length
+11:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):91:i < entries.length |==> i <= entries.length
+12:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter@printChangeLog(java.io.PrintWriter,CVSEntry[]):91:i < entries.length |==> false

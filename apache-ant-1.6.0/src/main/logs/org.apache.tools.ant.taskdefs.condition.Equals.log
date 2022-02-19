@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.condition.Equals:69:false |==> true
+2:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.condition.Equals:70:true |==> false

@@ -69,7 +69,7 @@ import org.apache.tools.ant.types.Parameter;
  */
 public class DepthSelector extends BaseExtendSelector {
 
-    public int min = -1;
+    public int min = 0;
     public int max = -1;
     /** Used for parameterized custom selector */
     public static final String MIN_KEY = "min";

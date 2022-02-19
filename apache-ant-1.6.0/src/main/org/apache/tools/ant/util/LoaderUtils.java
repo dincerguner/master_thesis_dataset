@@ -93,7 +93,7 @@ public class LoaderUtils {
      *      classloader are available.
      */
     public static boolean isContextLoaderAvailable() {
-        return true;
+        return false;
     }
 
     /**

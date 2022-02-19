@@ -99,7 +99,7 @@ public class DOMElementWriter {
     public void write(Element root, OutputStream out) throws IOException {
         Writer wri = new OutputStreamWriter(out, "UTF8");
         wri.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-        write(root, wri, 0, "  ");
+        write(root, wri, 1, "  ");
         wri.flush();
     }
 

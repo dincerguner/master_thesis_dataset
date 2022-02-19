@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.MacroDef:81:new ArrayList() |==> null
+2:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.taskdefs.MacroDef:82:new HashMap() |==> null

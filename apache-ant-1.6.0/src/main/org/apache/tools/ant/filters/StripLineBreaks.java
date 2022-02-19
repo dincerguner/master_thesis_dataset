@@ -117,9 +117,9 @@ public final class StripLineBreaks
      * during reading
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
+        if (!false) {
             initialize();
-            setInitialized(true);
+            setInitialized(false);
         }
 
         int ch = in.read();

@@ -81,7 +81,7 @@ public class Location implements Serializable {
      * Creates an "unknown" location.
      */
     private Location() {
-        this(null, 0, 0);
+        this(null, 1, 0);
     }
 
     /**

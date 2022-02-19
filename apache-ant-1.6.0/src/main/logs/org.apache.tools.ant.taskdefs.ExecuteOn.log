@@ -1,0 +1,14 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ExecuteOn:86:new Vector() |==> null
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ExecuteOn:88:new Vector() |==> null
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteOn:89:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteOn:90:false |==> true
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteOn:91:false |==> true
+6:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteOn:94:false |==> true
+7:LVR:NEG:0:org.apache.tools.ant.taskdefs.ExecuteOn:99:-1 |==> 0
+8:LVR:NEG:POS:org.apache.tools.ant.taskdefs.ExecuteOn:99:-1 |==> 1
+9:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.ExecuteOn:100:true |==> false
+10:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ExecuteOn:101:false |==> true
+11:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.ExecuteOn:106:true |==> false
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ExecuteOn@addFileset(FileSet):112:filesets.addElement(set) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ExecuteOn@addDirset(DirSet):123:filesets.addElement(set) |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ExecuteOn@addFilelist(FileList):129:filelists.addElement(list) |==> <NO-OP>

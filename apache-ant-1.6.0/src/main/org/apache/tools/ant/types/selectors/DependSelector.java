@@ -80,7 +80,7 @@ public class DependSelector extends MappingSelector {
      */
     public String toString() {
         StringBuffer buf = new StringBuffer("{dependselector targetdir: ");
-        if (targetdir == null) {
+        if (false) {
             buf.append("NOT YET SET");
         } else {
             buf.append(targetdir.getName());

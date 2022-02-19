@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.ContainsRegexpSelector@toString():92:new StringBuffer("{containsregexpselector expression: ") |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsRegexpSelector@toString():94:buf.append(userProvidedExpression) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsRegexpSelector@toString():95:buf.append("}") |==> <NO-OP>

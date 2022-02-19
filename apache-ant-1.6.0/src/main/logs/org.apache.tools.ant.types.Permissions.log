@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.LinkedList)>:<DEFAULT>:org.apache.tools.ant.types.Permissions:84:new LinkedList() |==> null
+2:EVR:<NEW_CLASS(java.util.LinkedList)>:<DEFAULT>:org.apache.tools.ant.types.Permissions:85:new LinkedList() |==> null
+3:LVR:FALSE:TRUE:org.apache.tools.ant.types.Permissions:88:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.types.Permissions:89:false |==> true

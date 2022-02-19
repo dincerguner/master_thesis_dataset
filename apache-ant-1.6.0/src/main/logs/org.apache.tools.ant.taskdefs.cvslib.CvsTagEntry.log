@@ -1,0 +1,27 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@<init>(java.lang.String,java.lang.String,java.lang.String):74:m_filename = filename |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@<init>(java.lang.String,java.lang.String,java.lang.String):75:m_revision = revision |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@<init>(java.lang.String,java.lang.String,java.lang.String):76:m_prevRevision = prevRevision |==> <NO-OP>
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@getFile():80:m_filename |==> null
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@getRevision():84:m_revision |==> null
+6:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@getPreviousRevision():88:m_prevRevision |==> null
+7:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():92:new StringBuffer() |==> null
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():93:buffer.append(m_filename) |==> <NO-OP>
+9:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():94:m_revision == null |==> false
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():95:buffer.append(" was removed") |==> <NO-OP>
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():96:m_prevRevision != null |==> true
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():97:buffer.append("; previous revision was ").append(m_prevRevision) |==> <NO-OP>
+13:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():99:m_revision != null |==> true
+14:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():99:m_prevRevision == null |==> false
+15:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():99:m_revision != null && m_prevRevision == null |==> m_revision != null == (m_prevRevision == null)
+16:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():99:m_revision != null && m_prevRevision == null |==> false
+17:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():99:m_revision != null && m_prevRevision == null |==> m_revision != null
+18:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():99:m_revision != null && m_prevRevision == null |==> m_prevRevision == null
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():100:buffer.append(" is new; current revision is ").append(m_revision) |==> <NO-OP>
+20:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():102:m_revision != null |==> true
+21:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():102:m_prevRevision != null |==> true
+22:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():102:m_revision != null && m_prevRevision != null |==> m_revision != null == (m_prevRevision != null)
+23:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():102:m_revision != null && m_prevRevision != null |==> false
+24:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():102:m_revision != null && m_prevRevision != null |==> m_revision != null
+25:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():102:m_revision != null && m_prevRevision != null |==> m_prevRevision != null
+26:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():103:buffer.append(" has changed from ").append(m_prevRevision).append(" to ").append(m_revision) |==> <NO-OP>
+27:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry@toString():106:buffer.toString() |==> null
