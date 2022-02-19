@@ -1,0 +1,1 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.util.FlatFileNameMapper@mapFileName(java.lang.String):85:new String[]{new java.io.File(sourceFileName).getName()} |==> null

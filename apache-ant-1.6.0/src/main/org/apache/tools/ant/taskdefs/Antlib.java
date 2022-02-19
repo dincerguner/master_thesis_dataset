@@ -99,7 +99,7 @@ public class Antlib extends Task implements TaskContainer {
                                       String uri) {
         // Check if we can contact the URL
         try {
-            antlibUrl.openConnection().connect();
+            ;
         } catch (IOException ex) {
             throw new BuildException(
                 "Unable to find " + antlibUrl, ex);

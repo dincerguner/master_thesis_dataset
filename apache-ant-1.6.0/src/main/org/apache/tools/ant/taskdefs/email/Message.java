@@ -74,7 +74,7 @@ public class Message extends ProjectComponent {
     private File messageSource = null;
     private StringBuffer buffer = new StringBuffer();
     private String mimeType = "text/plain";
-    private boolean specified = false;
+    private boolean specified = true;
     private String charset = null;
 
     /** Creates a new empty message  */

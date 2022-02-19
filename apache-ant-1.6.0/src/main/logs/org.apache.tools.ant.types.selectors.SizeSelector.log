@@ -1,0 +1,25 @@
+1:LVR:NEG:0:org.apache.tools.ant.types.selectors.SizeSelector:70:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SizeSelector:70:-1 |==> 1
+3:LVR:POS:0:org.apache.tools.ant.types.selectors.SizeSelector:71:1 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SizeSelector:71:1 |==> -1
+5:LVR:NEG:0:org.apache.tools.ant.types.selectors.SizeSelector:72:-1 |==> 0
+6:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SizeSelector:72:-1 |==> 1
+7:LVR:POS:0:org.apache.tools.ant.types.selectors.SizeSelector:73:2 |==> 0
+8:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SizeSelector:73:2 |==> -2
+9:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SizeSelector@toString():92:new StringBuffer("{sizeselector value: ") |==> null
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SizeSelector@toString():93:buf.append(sizelimit) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SizeSelector@toString():94:buf.append("compare: ") |==> <NO-OP>
+12:LVR:0:POS:org.apache.tools.ant.types.selectors.SizeSelector@toString():95:0 |==> 1
+13:LVR:0:NEG:org.apache.tools.ant.types.selectors.SizeSelector@toString():95:0 |==> -1
+14:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SizeSelector@toString():95:cmp == 0 |==> cmp <= 0
+15:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SizeSelector@toString():95:cmp == 0 |==> cmp >= 0
+16:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SizeSelector@toString():95:cmp == 0 |==> false
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SizeSelector@toString():96:buf.append("less") |==> <NO-OP>
+18:LVR:POS:0:org.apache.tools.ant.types.selectors.SizeSelector@toString():97:1 |==> 0
+19:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SizeSelector@toString():97:1 |==> -1
+20:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SizeSelector@toString():97:cmp == 1 |==> cmp <= 1
+21:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SizeSelector@toString():97:cmp == 1 |==> cmp >= 1
+22:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SizeSelector@toString():97:cmp == 1 |==> false
+23:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SizeSelector@toString():98:buf.append("more") |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SizeSelector@toString():100:buf.append("equal") |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SizeSelector@toString():102:buf.append("}") |==> <NO-OP>

@@ -79,7 +79,7 @@ public class Jvc extends DefaultCompilerAdapter {
      * @exception BuildException if the compilation has problems.
      */
     public boolean execute() throws BuildException {
-        attributes.log("Using jvc compiler", Project.MSG_VERBOSE);
+        ;
 
         Path classpath = new Path(project);
 

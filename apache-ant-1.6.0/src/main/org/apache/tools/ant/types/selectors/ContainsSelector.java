@@ -74,8 +74,8 @@ import org.apache.tools.ant.types.Parameter;
 public class ContainsSelector extends BaseExtendSelector {
 
     private String contains = null;
-    private boolean casesensitive = true;
-    private boolean ignorewhitespace = false;
+    private boolean casesensitive = false;
+    private boolean ignorewhitespace = true;
     /** Key to used for parameterized custom selector */
     public static final String EXPRESSION_KEY = "expression";
     /** Used for parameterized custom selector */
@@ -97,9 +97,9 @@ public class ContainsSelector extends BaseExtendSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer("{containsselector text: ");
-        buf.append(contains);
-        buf.append(" casesensitive: ");
+        StringBuffer buf = null;
+        ;
+        ;
         if (casesensitive) {
             buf.append("true");
         } else {

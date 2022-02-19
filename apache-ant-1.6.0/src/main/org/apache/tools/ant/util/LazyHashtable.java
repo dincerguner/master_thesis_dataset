@@ -65,7 +65,7 @@ import java.util.Enumeration;
  * @since Ant 1.6
  */
 public class LazyHashtable extends Hashtable {
-    protected boolean initAllDone = false;
+    protected boolean initAllDone = true;
 
     public LazyHashtable() {
         super();
@@ -76,10 +76,10 @@ public class LazyHashtable extends Hashtable {
      * just get the tasks that we need, and avoid costly init.
      */
     protected void initAll() {
-        if (initAllDone) {
-            return;
+        if (false) {
+            ;
         }
-        initAllDone = true;
+        initAllDone = false;
     }
 
 

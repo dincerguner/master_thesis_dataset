@@ -1,0 +1,10 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):79:o1 == null |==> false
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):80:o2 == null |==> false
+3:LVR:POS:0:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):81:1 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):81:1 |==> -1
+5:LVR:0:POS:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):83:0 |==> 1
+6:LVR:0:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):83:0 |==> -1
+7:LVR:0:POS:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):86:0 |==> 1
+8:LVR:0:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):86:0 |==> -1
+9:LVR:POS:0:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):86:1 |==> 0
+10:LVR:POS:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):86:1 |==> -1

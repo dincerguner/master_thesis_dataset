@@ -69,7 +69,7 @@ import org.apache.tools.ant.ProjectComponent;
  */
 public class Socket extends ProjectComponent implements Condition {
     private String server = null;
-    private int port = 0;
+    private int port = 1;
 
     /**
      * Set the server attribute

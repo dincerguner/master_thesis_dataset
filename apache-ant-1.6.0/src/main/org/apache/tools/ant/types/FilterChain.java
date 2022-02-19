@@ -81,10 +81,10 @@ import org.apache.tools.ant.filters.TokenFilter;
 public final class FilterChain extends DataType
     implements Cloneable {
 
-    private Vector filterReaders = new Vector();
+    private Vector filterReaders = null;
 
     public final void addFilterReader(final AntFilterReader filterReader) {
-        filterReaders.addElement(filterReader);
+        ;
     }
 
     public final Vector getFilterReaders() {

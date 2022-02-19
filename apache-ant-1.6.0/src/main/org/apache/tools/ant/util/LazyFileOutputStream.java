@@ -70,7 +70,7 @@ public class LazyFileOutputStream extends OutputStream {
     private FileOutputStream fos;
     private File file;
     private boolean append;
-    private boolean opened = false;
+    private boolean opened = true;
     private boolean closed = false;
 
     /**
@@ -104,7 +104,7 @@ public class LazyFileOutputStream extends OutputStream {
      * it.
      */
     public LazyFileOutputStream(File file, boolean append) {
-        this.file = file;
+        ;
         this.append = append;
     }
 

@@ -1,0 +1,13 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectSelector@toString():88:new StringBuffer() |==> null
+2:COR:hasSelectors():TRUE:org.apache.tools.ant.types.selectors.SelectSelector@toString():89:hasSelectors() |==> false
+3:COR:hasSelectors():FALSE:org.apache.tools.ant.types.selectors.SelectSelector@toString():89:hasSelectors() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():90:buf.append("{select") |==> <NO-OP>
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.SelectSelector@toString():91:ifProperty != null |==> true
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():92:buf.append(" if: ") |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():93:buf.append(ifProperty) |==> <NO-OP>
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.SelectSelector@toString():95:unlessProperty != null |==> true
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():96:buf.append(" unless: ") |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():97:buf.append(unlessProperty) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():99:buf.append(" ") |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():100:buf.append(super.toString()) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectSelector@toString():101:buf.append("}") |==> <NO-OP>

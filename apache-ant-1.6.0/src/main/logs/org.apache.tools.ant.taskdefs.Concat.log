@@ -1,0 +1,6 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Concat:122:false |==> true
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Concat:143:new Vector() |==> null
+3:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.Concat:148:true |==> false
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Concat:154:false |==> true
+5:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Concat:156:System.getProperty("line.separator") |==> null
+6:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Concat:161:new Vector() |==> null

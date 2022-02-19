@@ -1,0 +1,11 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@isValid():78:true |==> false
+2:COR:file.canRead():TRUE:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):92:file.canRead() |==> false
+3:COR:file.canRead():FALSE:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):92:file.canRead() |==> true
+4:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):93:return null; |==> <NO-OP>
+5:EVR:<NEW_CLASS(java.io.FileInputStream)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):95:new java.io.FileInputStream(file) |==> null
+6:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):96:new byte[fis.available()] |==> null
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):97:fis.read(content) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):98:fis.close() |==> <NO-OP>
+9:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):99:new String(content) |==> null
+10:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):100:s.hashCode() |==> 0
+11:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm@getValue(java.io.File):101:Integer.toString(hash) |==> null

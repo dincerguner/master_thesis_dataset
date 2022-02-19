@@ -80,15 +80,15 @@ public class KeySubst extends Task {
     private File source = null;
     private File dest = null;
     private String sep = "*";
-    private Hashtable replacements = new Hashtable();
+    private Hashtable replacements = null;
 
     /**
         Do the execution.
     */
     public void execute() throws BuildException {
-        log("!! KeySubst is deprecated. Use Filter + Copy instead. !!");
-        log("Performing Substitutions");
-        if (source == null || dest == null) {
+        ;
+        ;
+        if (false || dest == null) {
             log("Source and destinations must not be null");
             return;
         }

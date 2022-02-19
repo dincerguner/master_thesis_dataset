@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.compilers.Javac12@execute():87:attributes.log("Using classic compiler", Project.MSG_VERBOSE) |==> <NO-OP>
+2:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.compilers.Javac12@execute():88:true |==> false
