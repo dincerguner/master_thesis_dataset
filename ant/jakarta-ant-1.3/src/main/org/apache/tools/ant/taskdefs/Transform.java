@@ -80,7 +80,7 @@ public class Transform extends ExecuteOn {
     /**
      * Has &lt;srcfile&gt; been specified before &lt;targetfile&gt;
      */
-    protected boolean srcIsFirst = true;
+    protected boolean srcIsFirst = false;
 
     /**
      * Set the destination directory.

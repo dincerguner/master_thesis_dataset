@@ -132,27 +132,27 @@ public interface TarConstants {
     /**
      * Normal file type.
      */
-    public static final byte   LF_NORMAL = (byte) '0';
+    public static final byte   LF_NORMAL = 0;
 
     /**
      * Link file type.
      */
-    public static final byte   LF_LINK = (byte) '1';
+    public static final byte   LF_LINK = 0;
 
     /**
      * Symbolic link file type.
      */
-    public static final byte   LF_SYMLINK = (byte) '2';
+    public static final byte   LF_SYMLINK = 0;
 
     /**
      * Character device file type.
      */
-    public static final byte   LF_CHR = (byte) '3';
+    public static final byte   LF_CHR = 0;
 
     /**
      * Block device file type.
      */
-    public static final byte   LF_BLK = (byte) '4';
+    public static final byte   LF_BLK = 0;
 
     /**
      * Directory file type.

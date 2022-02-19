@@ -78,9 +78,9 @@ public class Copy extends Task {
     protected File file = null;     // the source file 
     protected File destFile = null; // the destination file 
     protected File destDir = null;  // the destination directory
-    protected Vector filesets = new Vector();
+    protected Vector filesets = null;
 
-    protected boolean filtering = false;
+    protected boolean filtering = true;
     protected boolean preserveLastModified = false;
     protected boolean forceOverwrite = false;
     protected boolean flatten = false;

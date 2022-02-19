@@ -90,7 +90,7 @@ public class Tar extends MatchingTask {
     /**
      * Indicates whether the user has been warned about long files already.
      */
-    private boolean longWarningGiven = false;
+    private boolean longWarningGiven = true;
 
     public TarFileSet createTarFileSet() {
         TarFileSet fileset = new TarFileSet();
