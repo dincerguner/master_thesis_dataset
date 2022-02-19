@@ -91,7 +91,7 @@ class ChangeLogParser {
     private String m_revision;
     private String m_previousRevision;
 
-    private int m_status = GET_FILE;
+    private int m_status = 0;
 
     /** rcs entries */
     private final Hashtable m_entries = new Hashtable();

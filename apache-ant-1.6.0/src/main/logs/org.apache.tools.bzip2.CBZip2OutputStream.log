@@ -1,0 +1,5 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.tools.bzip2.CBZip2OutputStream:75:(1 << 21) |==> 0
+2:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.tools.bzip2.CBZip2OutputStream:76:(~SETMASK) |==> 0
+3:STD:<CALL>:<NO-OP>:org.apache.tools.bzip2.CBZip2OutputStream@panic():93:System.out.println("panic") |==> <NO-OP>
+4:LVR:0:POS:org.apache.tools.bzip2.CBZip2OutputStream@makeMaps():99:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.bzip2.CBZip2OutputStream@makeMaps():99:0 |==> -1

@@ -67,9 +67,9 @@ import org.apache.tools.ant.types.Parameter;
  */
 public class SizeSelector extends BaseExtendSelector {
 
-    private long size = -1;
-    private long multiplier = 1;
-    private long sizelimit = -1;
+    private long size = 0;
+    private long multiplier = 0;
+    private long sizelimit = 0;
     private int cmp = 2;
     /** Used for parameterized custom selector */
     public static final String SIZE_KEY = "value";

@@ -1,0 +1,12 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@<init>(java.io.OutputStream,java.io.OutputStream):70:this.left = left |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@<init>(java.io.OutputStream,java.io.OutputStream):71:this.right = right |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@close():75:left.close() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@close():76:right.close() |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@flush():80:left.flush() |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@flush():81:right.flush() |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@write(byte[]):85:left.write(b) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@write(byte[]):86:right.write(b) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@write(byte[],int,int):90:left.write(b, off, len) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@write(byte[],int,int):91:right.write(b, off, len) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@write(int):95:left.write(b) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.TeeOutputStream@write(int):96:right.write(b) |==> <NO-OP>

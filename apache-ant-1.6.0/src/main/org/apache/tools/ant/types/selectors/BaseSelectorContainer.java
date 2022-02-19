@@ -71,7 +71,7 @@ import org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector;
 public abstract class BaseSelectorContainer extends BaseSelector
         implements SelectorContainer {
 
-    private Vector selectorsList = new Vector();
+    private Vector selectorsList = null;
 
     /**
      * Default constructor.

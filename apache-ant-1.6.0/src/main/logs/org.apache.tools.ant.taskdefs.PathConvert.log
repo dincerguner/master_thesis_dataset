@@ -1,0 +1,4 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.PathConvert:97:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.PathConvert:101:false |==> true
+3:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.PathConvert:105:true |==> false
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.PathConvert:113:new Vector() |==> null

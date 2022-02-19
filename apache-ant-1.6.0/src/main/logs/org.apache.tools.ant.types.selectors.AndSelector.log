@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.AndSelector@toString():79:new StringBuffer() |==> null
+2:COR:hasSelectors():TRUE:org.apache.tools.ant.types.selectors.AndSelector@toString():80:hasSelectors() |==> false
+3:COR:hasSelectors():FALSE:org.apache.tools.ant.types.selectors.AndSelector@toString():80:hasSelectors() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.AndSelector@toString():81:buf.append("{andselect: ") |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.AndSelector@toString():82:buf.append(super.toString()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.AndSelector@toString():83:buf.append("}") |==> <NO-OP>

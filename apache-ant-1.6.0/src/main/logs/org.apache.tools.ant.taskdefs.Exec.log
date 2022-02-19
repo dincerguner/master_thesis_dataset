@@ -1,0 +1,22 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Exec:88:false |==> true
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Exec@<init>():91:System.err.println("As of Ant 1.2 released in October 2000, the Exec class") |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Exec@<init>():93:System.err.println("is considered to be dead code by the Ant developers and is unmaintained.") |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Exec@<init>():95:System.err.println("Don\'t use it!") |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Exec@execute():99:run(command) |==> <NO-OP>
+6:LVR:NEG:0:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):104:-1 |==> 0
+7:LVR:NEG:POS:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):104:-1 |==> 1
+8:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):107:System.getProperty("os.name") |==> null
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):108:log("Myos = " + myos, Project.MSG_VERBOSE) |==> <NO-OP>
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:os != null |==> true
+11:LVR:0:POS:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:0 |==> 1
+12:LVR:0:NEG:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:0 |==> -1
+13:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:os.indexOf(myos) < 0 |==> os.indexOf(myos) != 0
+14:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:os.indexOf(myos) < 0 |==> os.indexOf(myos) <= 0
+15:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:os.indexOf(myos) < 0 |==> false
+16:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:(os != null) && (os.indexOf(myos) < 0) |==> (os != null) == (os.indexOf(myos) < 0)
+17:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:(os != null) && (os.indexOf(myos) < 0) |==> false
+18:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:(os != null) && (os.indexOf(myos) < 0) |==> (os != null)
+19:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):109:(os != null) && (os.indexOf(myos) < 0) |==> (os.indexOf(myos) < 0)
+20:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):111:log("Not found in " + os, Project.MSG_VERBOSE) |==> <NO-OP>
+21:LVR:0:POS:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):112:0 |==> 1
+22:LVR:0:NEG:org.apache.tools.ant.taskdefs.Exec@run(java.lang.String):112:0 |==> -1
