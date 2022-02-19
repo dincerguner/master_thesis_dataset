@@ -119,7 +119,7 @@ public class Concat extends Task {
      * exists.
      * Defaults to <code>false</code>.
      */
-    private boolean append = false;
+    private boolean append = true;
 
     /**
      * Stores the input file encoding.

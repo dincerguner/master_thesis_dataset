@@ -72,7 +72,7 @@ import java.io.IOException;
  * TODO:    Update to BZip2 1.0.1
  */
 public class CBZip2OutputStream extends OutputStream implements BZip2Constants {
-    protected static final int SETMASK = (1 << 21);
+    protected static final int SETMASK = 0;
     protected static final int CLEARMASK = (~SETMASK);
     protected static final int GREATER_ICOST = 15;
     protected static final int LESSER_ICOST = 0;

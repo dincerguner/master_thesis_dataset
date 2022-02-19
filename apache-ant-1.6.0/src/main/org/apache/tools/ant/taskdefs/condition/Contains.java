@@ -67,7 +67,7 @@ import org.apache.tools.ant.BuildException;
 public class Contains implements Condition {
 
     private String string, subString;
-    private boolean caseSensitive = true;
+    private boolean caseSensitive = false;
 
     /**
      * The string to search in.

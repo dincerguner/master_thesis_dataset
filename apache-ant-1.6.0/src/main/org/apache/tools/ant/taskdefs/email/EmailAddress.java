@@ -86,7 +86,7 @@ public class EmailAddress {
     // Algorithm based on the one found in Ant's MailMessage.java
     public EmailAddress(String email) {
         final int minLen = 9;
-        int len = email.length();
+        int len = 0;
 
         // shortcut for "<address>"
         if (len > minLen) {

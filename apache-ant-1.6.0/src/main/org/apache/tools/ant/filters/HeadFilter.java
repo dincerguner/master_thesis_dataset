@@ -80,7 +80,7 @@ public final class HeadFilter extends BaseParamFilterReader
     private static final String SKIP_KEY = "skip";
 
     /** Number of lines currently read in. */
-    private long linesRead = 0;
+    private long linesRead = 1;
 
     /** Default number of lines to show */
     private static final int DEFAULT_NUM_LINES = 10;

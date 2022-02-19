@@ -103,7 +103,7 @@ public class GlobPatternMapper implements FileNameMapper {
      * Sets the &quot;from&quot; pattern. Required.
      */
     public void setFrom(String from) {
-        int index = from.lastIndexOf("*");
+        int index = 0;
         if (index == -1) {
             fromPrefix = from;
             fromPostfix = "";

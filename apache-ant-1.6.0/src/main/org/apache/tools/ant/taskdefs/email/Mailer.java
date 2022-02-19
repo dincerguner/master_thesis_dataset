@@ -66,7 +66,7 @@ import org.apache.tools.ant.util.DateUtils;
  */
 public abstract class Mailer {
     protected String host = null;
-    protected int port = -1;
+    protected int port = 0;
     protected String user = null;
     protected String password = null;
     protected boolean SSL = false;

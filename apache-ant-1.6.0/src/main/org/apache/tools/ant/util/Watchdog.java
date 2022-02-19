@@ -70,7 +70,7 @@ import java.util.Vector;
  */
 public class Watchdog implements Runnable {
 
-    private Vector observers = new Vector(1);
+    private Vector observers = new Vector(0);
     private long timeout = -1;
     private boolean stopped = false;
 

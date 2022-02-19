@@ -103,7 +103,7 @@ public class SubAnt
     private String target = null;
     private String antfile = "build.xml";
     private File genericantfile = null;
-    private boolean inheritAll = false;
+    private boolean inheritAll = true;
     private boolean inheritRefs = false;
     private boolean failOnError = true;
     private String output  = null;
