@@ -26,7 +26,7 @@ if not "%OS%" == "Windows_NT" if exist bootstrap\nul deltree/y bootstrap
 if     "%OS%" == "Windows_NT" if exist build\nul rmdir/s/q build
 if not "%OS%" == "Windows_NT" if exist build\nul deltree/y build
 
-SET LOCALCLASSPATH=lib\xercesImpl.jar;lib\xml-apis.jar;lib\bsf.jar;lib\lib\bcel.jar
+SET LOCALCLASSPATH=lib\xercesImpl.jar;lib\xml-apis.jar;lib\bsf.jar;lib\bcel.jar
 for %%i in (lib\optional\*.jar) do call src\script\lcp.bat %%i
 if exist "%JAVA_HOME%\lib\tools.jar" call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
 if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
@@ -51,6 +51,24 @@ echo.
 echo ... Compiling Ant Classes
 
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\bzip2\*.java %TOOLS%\tar\*.java %TOOLS%\zip\*.java %TOOLS%\ant\*.java %TOOLS%\ant\types\*.java %TOOLS%\ant\taskdefs\*.java %TOOLS%\ant\util\regexp\RegexpMatcher.java %TOOLS%\ant\util\regexp\RegexpMatcherFactory.java %TOOLS%\ant\taskdefs\condition\*.java %TOOLS%\ant\taskdefs\compilers\*.java 
+
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\*.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\filters\ConcatFilter.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\listener\MailLogger.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\WeakishReference.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\filters\StringInputStream.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\regexp\RegexpUtil.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\loader\AntClassLoader2.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\email\UUMailer.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\UnPackageNameMapper.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\LazyHashTable.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\types\selectors\modifiedselector\HashvalueAlgorithm.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\TaskLogger.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\PackageNameMapper.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\input\PropertyFileInputHandler.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\KeepAliveOutputStream.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\RegexpPatternMapper.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\listener\AnsiColorLogger.java
 
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\filters\util\JavaClassHelper.java
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\ScriptRunner.java
