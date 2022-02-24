@@ -49,7 +49,7 @@ public abstract class SOS extends Task implements SOSCmd {
     private String comment = null;
     private String filename = null;
 
-    private boolean noCompress = false;
+    private boolean noCompress = true;
     private boolean noCache = false;
     private boolean recursive = false;
     private boolean verbose = false;

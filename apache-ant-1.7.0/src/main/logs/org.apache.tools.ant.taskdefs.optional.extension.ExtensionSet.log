@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet:39:new ArrayList() |==> null
+2:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet:44:new ArrayList() |==> null
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet@addExtension(ExtensionAdapter):52:extensions.add(extensionAdapter) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet@addLibfileset(LibFileSet):61:extensionsFilesets.add(fileSet) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet@addFileset(FileSet):70:extensionsFilesets.add(fileSet) |==> <NO-OP>

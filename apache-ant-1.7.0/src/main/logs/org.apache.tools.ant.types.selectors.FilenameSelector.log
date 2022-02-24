@@ -1,0 +1,15 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.FilenameSelector:34:true |==> false
+2:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.FilenameSelector:36:false |==> true
+3:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():55:new StringBuffer("{filenameselector name: ") |==> null
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():56:buf.append(pattern) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():57:buf.append(" negate: ") |==> <NO-OP>
+6:COR:negated:TRUE:org.apache.tools.ant.types.selectors.FilenameSelector@toString():58:negated |==> false
+7:COR:negated:FALSE:org.apache.tools.ant.types.selectors.FilenameSelector@toString():58:negated |==> true
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():59:buf.append("true") |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():61:buf.append("false") |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():63:buf.append(" casesensitive: ") |==> <NO-OP>
+11:COR:casesensitive:TRUE:org.apache.tools.ant.types.selectors.FilenameSelector@toString():64:casesensitive |==> false
+12:COR:casesensitive:FALSE:org.apache.tools.ant.types.selectors.FilenameSelector@toString():64:casesensitive |==> true
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():65:buf.append("true") |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():67:buf.append("false") |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.FilenameSelector@toString():69:buf.append("}") |==> <NO-OP>

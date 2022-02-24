@@ -43,7 +43,7 @@ public class MergingMapper implements FileNameMapper {
      * @param to the name of the merged file.
      */
     public void setTo(String to) {
-        mergedFile = new String[] {to};
+        ;
     }
 
     /**
@@ -52,7 +52,7 @@ public class MergingMapper implements FileNameMapper {
      * @return a one-element array containing the merged filename.
      */
     public String[] mapFileName(String sourceFileName) {
-        return mergedFile;
+        return null;
     }
 
 }

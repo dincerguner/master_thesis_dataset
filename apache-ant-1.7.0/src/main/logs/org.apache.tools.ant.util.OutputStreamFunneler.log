@@ -1,0 +1,44 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.util.OutputStreamFunneler$Funnel:39:false |==> true
+2:STD:<INC>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@<init>():43:++count |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@flush():49:dieIfClosed() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@flush():50:out.flush() |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@write(int):56:dieIfClosed() |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@write(int):57:out.write(b) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@write(byte[]):63:dieIfClosed() |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@write(byte[]):64:out.write(b) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@write(byte[],int,int):70:dieIfClosed() |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@write(byte[],int,int):71:out.write(b, off, len) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler$Funnel@close():76:release(this) |==> <NO-OP>
+12:LVR:0:POS:org.apache.tools.ant.util.OutputStreamFunneler:81:0 |==> 1
+13:LVR:0:NEG:org.apache.tools.ant.util.OutputStreamFunneler:81:0 |==> -1
+14:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.OutputStreamFunneler@<init>(java.io.OutputStream,long):103:out == null |==> false
+15:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@<init>(java.io.OutputStream,long):107:this.out = out |==> <NO-OP>
+16:LVR:FALSE:TRUE:org.apache.tools.ant.util.OutputStreamFunneler@<init>(java.io.OutputStream,long):108:false |==> true
+17:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@<init>(java.io.OutputStream,long):108:this.closed = false |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@<init>(java.io.OutputStream,long):109:setTimeout(timeoutMillis) |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@setTimeout(long):121:this.timeoutMillis = timeoutMillis |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@getFunnelInstance():133:dieIfClosed() |==> <NO-OP>
+21:EVR:<NEW_CLASS(org.apache.tools.ant.util.OutputStreamFunneler.Funnel)>:<DEFAULT>:org.apache.tools.ant.util.OutputStreamFunneler@getFunnelInstance():135:new Funnel() |==> null
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@getFunnelInstance():137:notifyAll() |==> <NO-OP>
+23:COR:funnel.closed:TRUE:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):143:funnel.closed |==> false
+24:COR:funnel.closed:FALSE:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):143:funnel.closed |==> true
+25:LVR:0:POS:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):145:0 |==> 1
+26:LVR:0:NEG:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):145:0 |==> -1
+27:ROR:>(long,long):!=(long,long):org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):145:timeoutMillis > 0 |==> timeoutMillis != 0
+28:ROR:>(long,long):>=(long,long):org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):145:timeoutMillis > 0 |==> timeoutMillis >= 0
+29:ROR:>(long,long):FALSE(long,long):org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):145:timeoutMillis > 0 |==> false
+30:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):147:wait(timeoutMillis) |==> <NO-OP>
+31:LVR:0:POS:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):152:0 |==> 1
+32:LVR:0:NEG:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):152:0 |==> -1
+33:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):152:--count == 0 |==> --count <= 0
+34:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):152:--count == 0 |==> --count >= 0
+35:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):152:--count == 0 |==> false
+36:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):153:close() |==> <NO-OP>
+37:LVR:TRUE:FALSE:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):156:true |==> false
+38:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@release(org.apache.tools.ant.util.OutputStreamFunneler.Funnel):156:funnel.closed = true |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@close():163:dieIfClosed() |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@close():164:out.close() |==> <NO-OP>
+41:LVR:TRUE:FALSE:org.apache.tools.ant.util.OutputStreamFunneler@close():166:true |==> false
+42:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.OutputStreamFunneler@close():166:closed = true |==> <NO-OP>
+43:COR:closed:TRUE:org.apache.tools.ant.util.OutputStreamFunneler@dieIfClosed():171:closed |==> false
+44:COR:closed:FALSE:org.apache.tools.ant.util.OutputStreamFunneler@dieIfClosed():171:closed |==> true

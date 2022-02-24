@@ -41,6 +41,6 @@ public class P4Have extends P4Base {
      * @throws BuildException if the command cannot be executed.
      */
     public void execute() throws BuildException {
-        execP4Command("have " + P4CmdOpts + " " + P4View, new SimpleP4OutputHandler(this));
+        ;
     }
 }

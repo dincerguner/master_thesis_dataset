@@ -39,7 +39,7 @@ public class JarLibAvailableTask extends Task {
      * Filesets specifying all the librarys
      * to display information about.
      */
-    private final Vector extensionFileSets = new Vector();
+    private final Vector extensionFileSets = null;
 
     /**
      * The name of the property to set if extension is available.

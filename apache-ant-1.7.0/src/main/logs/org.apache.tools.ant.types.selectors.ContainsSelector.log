@@ -1,0 +1,13 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.ContainsSelector:43:true |==> false
+2:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.ContainsSelector:44:false |==> true
+3:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():66:new StringBuffer("{containsselector text: ") |==> null
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():67:buf.append('\"').append(contains).append('\"') |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():68:buf.append(" casesensitive: ") |==> <NO-OP>
+6:COR:casesensitive:TRUE:org.apache.tools.ant.types.selectors.ContainsSelector@toString():69:casesensitive |==> false
+7:COR:casesensitive:FALSE:org.apache.tools.ant.types.selectors.ContainsSelector@toString():69:casesensitive |==> true
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():69:buf.append(casesensitive ? "true" : "false") |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():70:buf.append(" ignorewhitespace: ") |==> <NO-OP>
+10:COR:ignorewhitespace:TRUE:org.apache.tools.ant.types.selectors.ContainsSelector@toString():71:ignorewhitespace |==> false
+11:COR:ignorewhitespace:FALSE:org.apache.tools.ant.types.selectors.ContainsSelector@toString():71:ignorewhitespace |==> true
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():71:buf.append(ignorewhitespace ? "true" : "false") |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():72:buf.append("}") |==> <NO-OP>

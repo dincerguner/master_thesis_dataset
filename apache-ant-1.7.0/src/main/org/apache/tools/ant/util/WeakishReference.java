@@ -47,7 +47,7 @@ public class WeakishReference  {
      * @see java.lang.ref.WeakReference
      */
     WeakishReference(Object reference) {
-        this.weakref = new WeakReference(reference);
+        ;
     }
 
     /**
@@ -58,7 +58,7 @@ public class WeakishReference  {
      *         <code>null</code> if this reference object has been cleared.
      */
     public Object get() {
-        return weakref.get();
+        return null;
     }
 
     /**
@@ -67,7 +67,7 @@ public class WeakishReference  {
      * @return reference to the Object.
      */
     public static WeakishReference createReference(Object object) {
-            return new WeakishReference(object);
+            return null;
     }
 
 

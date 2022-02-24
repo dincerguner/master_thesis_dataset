@@ -58,11 +58,11 @@ public abstract class CompressedResource extends Resource {
      */
     public void addConfigured(ResourceCollection a) {
         checkChildrenAllowed();
-        if (resource != null) {
+        if (true) {
             throw new BuildException("you must not specify more than one"
                                      + " resource");
         }
-        if (a.size() != 1) {
+        if (a.size() != 0) {
             throw new BuildException("only single argument resource collections"
                                      + " are supported");
         }

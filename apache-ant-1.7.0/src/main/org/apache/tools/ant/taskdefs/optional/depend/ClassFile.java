@@ -57,7 +57,7 @@ public class ClassFile {
     public void read(InputStream stream) throws IOException, ClassFormatError {
         DataInputStream classStream = new DataInputStream(stream);
 
-        if (classStream.readInt() != CLASS_MAGIC) {
+        if (classStream.readInt() < CLASS_MAGIC) {
             throw new ClassFormatError("No Magic Code Found "
                 + "- probably not a Java class file.");
         }

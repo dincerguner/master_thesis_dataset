@@ -1,0 +1,162 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils:37:System.getProperty("line.separator") |==> null
+2:EVR:<METHOD_INVOCATION(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@lineSplit(java.lang.String):46:split(data, '\n') |==> null
+3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):57:new Vector() |==> null
+4:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):58:-1 |==> 0
+5:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):58:-1 |==> 1
+6:LVR:0:POS:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):59:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):59:0 |==> -1
+8:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):60:-1 |==> 0
+9:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):60:-1 |==> 1
+10:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):60:(pos = data.indexOf(ch, i)) != -1 |==> (pos = data.indexOf(ch, i)) < -1
+11:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):60:(pos = data.indexOf(ch, i)) != -1 |==> (pos = data.indexOf(ch, i)) > -1
+12:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):60:(pos = data.indexOf(ch, i)) != -1 |==> true
+13:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):61:data.substring(i, pos) |==> null
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):62:elems.addElement(elem) |==> <NO-OP>
+15:LVR:POS:0:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):63:1 |==> 0
+16:LVR:POS:NEG:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):63:1 |==> -1
+17:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):63:pos + 1 |==> pos % 1
+18:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):63:pos + 1 |==> pos * 1
+19:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):63:pos + 1 |==> pos - 1
+20:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):63:pos + 1 |==> pos / 1
+21:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):63:i = pos + 1 |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):65:elems.addElement(data.substring(i)) |==> <NO-OP>
+23:EVR:<IDENTIFIER(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):66:elems |==> null
+24:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):77:new StringBuffer(data.length()) |==> null
+25:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):78:-1 |==> 0
+26:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):78:-1 |==> 1
+27:LVR:0:POS:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):79:0 |==> 1
+28:LVR:0:NEG:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):79:0 |==> -1
+29:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):80:-1 |==> 0
+30:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):80:-1 |==> 1
+31:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):80:(pos = data.indexOf(from, i)) != -1 |==> (pos = data.indexOf(from, i)) < -1
+32:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):80:(pos = data.indexOf(from, i)) != -1 |==> (pos = data.indexOf(from, i)) > -1
+33:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):80:(pos = data.indexOf(from, i)) != -1 |==> true
+34:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):81:buf.append(data.substring(i, pos)).append(to) |==> <NO-OP>
+35:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):82:pos + from.length() |==> pos % from.length()
+36:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):82:pos + from.length() |==> pos * from.length()
+37:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):82:pos + from.length() |==> pos - from.length()
+38:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):82:pos + from.length() |==> pos / from.length()
+39:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):82:i = pos + from.length() |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):84:buf.append(data.substring(i)) |==> <NO-OP>
+41:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):85:buf.toString() |==> null
+42:EVR:<NEW_CLASS(java.io.StringWriter)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):94:new StringWriter() |==> null
+43:LVR:TRUE:FALSE:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):95:true |==> false
+44:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):96:t.printStackTrace(pw) |==> <NO-OP>
+45:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):97:pw.flush() |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):98:pw.close() |==> <NO-OP>
+47:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):99:sw.toString() |==> null
+48:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):117:suffix.length() > buffer.length() |==> suffix.length() != buffer.length()
+49:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):117:suffix.length() > buffer.length() |==> suffix.length() >= buffer.length()
+50:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):117:suffix.length() > buffer.length() |==> false
+51:LVR:FALSE:TRUE:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):118:false |==> true
+52:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):118:return Config.__M_NO == 0 && Config.COVERED(51, 51) ? false : Config.__M_NO == 51 ? true : false; |==> <NO-OP>
+53:LVR:POS:0:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):127:1 |==> 0
+54:LVR:POS:NEG:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):127:1 |==> -1
+55:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):127:suffix.length() - 1 |==> suffix.length() % 1
+56:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):127:suffix.length() - 1 |==> suffix.length() * 1
+57:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):127:suffix.length() - 1 |==> suffix.length() + 1
+58:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):127:suffix.length() - 1 |==> suffix.length() / 1
+59:LVR:POS:0:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):128:1 |==> 0
+60:LVR:POS:NEG:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):128:1 |==> -1
+61:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):128:buffer.length() - 1 |==> buffer.length() % 1
+62:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):128:buffer.length() - 1 |==> buffer.length() * 1
+63:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):128:buffer.length() - 1 |==> buffer.length() + 1
+64:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):128:buffer.length() - 1 |==> buffer.length() / 1
+65:LVR:0:POS:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):129:0 |==> 1
+66:LVR:0:NEG:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):129:0 |==> -1
+67:ROR:>=(int,int):==(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):129:endIndex >= 0 |==> endIndex == 0
+68:ROR:>=(int,int):>(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):129:endIndex >= 0 |==> endIndex > 0
+69:ROR:>=(int,int):TRUE(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):129:endIndex >= 0 |==> true
+70:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):130:buffer.charAt(bufferIndex) != suffix.charAt(endIndex) |==> buffer.charAt(bufferIndex) < suffix.charAt(endIndex)
+71:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):130:buffer.charAt(bufferIndex) != suffix.charAt(endIndex) |==> buffer.charAt(bufferIndex) > suffix.charAt(endIndex)
+72:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):130:buffer.charAt(bufferIndex) != suffix.charAt(endIndex) |==> true
+73:LVR:FALSE:TRUE:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):131:false |==> true
+74:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):131:return Config.__M_NO == 0 && Config.COVERED(73, 73) ? false : Config.__M_NO == 73 ? true : false; |==> <NO-OP>
+75:STD:<DEC>:<NO-OP>:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):133:bufferIndex-- |==> <NO-OP>
+76:STD:<DEC>:<NO-OP>:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):134:endIndex-- |==> <NO-OP>
+77:LVR:TRUE:FALSE:org.apache.tools.ant.util.StringUtils@endsWith(java.lang.StringBuffer,java.lang.String):136:true |==> false
+78:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):151:new StringBuffer() |==> null
+79:LVR:FALSE:TRUE:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):152:false |==> true
+80:LVR:0:POS:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):153:0 |==> 1
+81:LVR:0:NEG:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):153:0 |==> -1
+82:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):153:i < input.length() |==> i != input.length()
+83:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):153:i < input.length() |==> i <= input.length()
+84:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):153:i < input.length() |==> false
+85:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):154:input.charAt(i) |==> 0
+86:COR:backSlashSeen:TRUE:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):155:backSlashSeen |==> false
+87:COR:backSlashSeen:FALSE:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):155:backSlashSeen |==> true
+88:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):156:c == '\\' |==> c <= '\\'
+89:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):156:c == '\\' |==> c >= '\\'
+90:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):156:c == '\\' |==> false
+91:LVR:TRUE:FALSE:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):157:true |==> false
+92:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):157:backSlashSeen = true |==> <NO-OP>
+93:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):159:b.append(c) |==> <NO-OP>
+94:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):164:b.append((char)'\\') |==> <NO-OP>
+95:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):165:break; |==> <NO-OP>
+96:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):167:b.append((char)'\n') |==> <NO-OP>
+97:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):168:break; |==> <NO-OP>
+98:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):170:b.append((char)'\r') |==> <NO-OP>
+99:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):171:break; |==> <NO-OP>
+100:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):173:b.append((char)'\t') |==> <NO-OP>
+101:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):174:break; |==> <NO-OP>
+102:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):176:b.append((char)'\f') |==> <NO-OP>
+103:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):177:break; |==> <NO-OP>
+104:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):179:b.append(" \t\n\r\f") |==> <NO-OP>
+105:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):180:break; |==> <NO-OP>
+106:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):182:b.append(c) |==> <NO-OP>
+107:LVR:FALSE:TRUE:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):184:false |==> true
+108:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):184:backSlashSeen = false |==> <NO-OP>
+109:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@resolveBackSlash(java.lang.String):187:b.toString() |==> null
+110:EVR:<MULTIPLY(long)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):200:KILOBYTE * 1024 |==> 0L
+111:EVR:<MULTIPLY(long)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):201:MEGABYTE * 1024 |==> 0L
+112:EVR:<MULTIPLY(long)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):202:GIGABYTE * 1024 |==> 0L
+113:EVR:<MULTIPLY(long)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):203:TERABYTE * 1024 |==> 0L
+114:LVR:POS:0:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:1 |==> 0
+115:LVR:POS:NEG:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:1 |==> -1
+116:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:humanSize.length() - 1 |==> humanSize.length() % 1
+117:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:humanSize.length() - 1 |==> humanSize.length() * 1
+118:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:humanSize.length() - 1 |==> humanSize.length() + 1
+119:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:humanSize.length() - 1 |==> humanSize.length() / 1
+120:COR:Character.isDigit(humanSize.charAt(humanSize.length() - 1)):TRUE:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:Character.isDigit(humanSize.charAt(humanSize.length() - 1)) |==> false
+121:COR:Character.isDigit(humanSize.charAt(humanSize.length() - 1)):FALSE:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):205:Character.isDigit(humanSize.charAt(humanSize.length() - 1)) |==> true
+122:LVR:POS:0:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):206:1 |==> 0
+123:LVR:POS:NEG:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):206:1 |==> -1
+124:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):206:humanSize.length() - 1 |==> humanSize.length() % 1
+125:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):206:humanSize.length() - 1 |==> humanSize.length() * 1
+126:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):206:humanSize.length() - 1 |==> humanSize.length() + 1
+127:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):206:humanSize.length() - 1 |==> humanSize.length() / 1
+128:LVR:0:POS:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:0 |==> 1
+129:LVR:0:NEG:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:0 |==> -1
+130:LVR:POS:0:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:1 |==> 0
+131:LVR:POS:NEG:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:1 |==> -1
+132:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:humanSize.length() - 1 |==> humanSize.length() % 1
+133:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:humanSize.length() - 1 |==> humanSize.length() * 1
+134:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:humanSize.length() - 1 |==> humanSize.length() + 1
+135:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):207:humanSize.length() - 1 |==> humanSize.length() / 1
+136:AOR:*(long,long):%(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):210:value * KILOBYTE |==> value % KILOBYTE
+137:AOR:*(long,long):+(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):210:value * KILOBYTE |==> value + KILOBYTE
+138:AOR:*(long,long):-(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):210:value * KILOBYTE |==> value - KILOBYTE
+139:AOR:*(long,long):/(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):210:value * KILOBYTE |==> value / KILOBYTE
+140:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):210:return Config.__M_NO == 139 ? value / KILOBYTE : Config.__M_NO == 138 ? value - KILOBYTE : Config.__M_NO == 137 ? value + KILOBYTE : Config.__M_NO == 136 ? value % KILOBYTE : Config.__M_NO == 0 && Config.COVERED(136, 139) ? value * KILOBYTE : value * KILOBYTE; |==> <NO-OP>
+141:AOR:*(long,long):%(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):212:value * MEGABYTE |==> value % MEGABYTE
+142:AOR:*(long,long):+(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):212:value * MEGABYTE |==> value + MEGABYTE
+143:AOR:*(long,long):-(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):212:value * MEGABYTE |==> value - MEGABYTE
+144:AOR:*(long,long):/(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):212:value * MEGABYTE |==> value / MEGABYTE
+145:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):212:return Config.__M_NO == 144 ? value / MEGABYTE : Config.__M_NO == 143 ? value - MEGABYTE : Config.__M_NO == 142 ? value + MEGABYTE : Config.__M_NO == 141 ? value % MEGABYTE : Config.__M_NO == 0 && Config.COVERED(141, 144) ? value * MEGABYTE : value * MEGABYTE; |==> <NO-OP>
+146:AOR:*(long,long):%(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):214:value * GIGABYTE |==> value % GIGABYTE
+147:AOR:*(long,long):+(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):214:value * GIGABYTE |==> value + GIGABYTE
+148:AOR:*(long,long):-(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):214:value * GIGABYTE |==> value - GIGABYTE
+149:AOR:*(long,long):/(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):214:value * GIGABYTE |==> value / GIGABYTE
+150:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):214:return Config.__M_NO == 149 ? value / GIGABYTE : Config.__M_NO == 148 ? value - GIGABYTE : Config.__M_NO == 147 ? value + GIGABYTE : Config.__M_NO == 146 ? value % GIGABYTE : Config.__M_NO == 0 && Config.COVERED(146, 149) ? value * GIGABYTE : value * GIGABYTE; |==> <NO-OP>
+151:AOR:*(long,long):%(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):216:value * TERABYTE |==> value % TERABYTE
+152:AOR:*(long,long):+(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):216:value * TERABYTE |==> value + TERABYTE
+153:AOR:*(long,long):-(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):216:value * TERABYTE |==> value - TERABYTE
+154:AOR:*(long,long):/(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):216:value * TERABYTE |==> value / TERABYTE
+155:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):216:return Config.__M_NO == 154 ? value / TERABYTE : Config.__M_NO == 153 ? value - TERABYTE : Config.__M_NO == 152 ? value + TERABYTE : Config.__M_NO == 151 ? value % TERABYTE : Config.__M_NO == 0 && Config.COVERED(151, 154) ? value * TERABYTE : value * TERABYTE; |==> <NO-OP>
+156:AOR:*(long,long):%(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):218:value * PETABYTE |==> value % PETABYTE
+157:AOR:*(long,long):+(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):218:value * PETABYTE |==> value + PETABYTE
+158:AOR:*(long,long):-(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):218:value * PETABYTE |==> value - PETABYTE
+159:AOR:*(long,long):/(long,long):org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):218:value * PETABYTE |==> value / PETABYTE
+160:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):218:return Config.__M_NO == 159 ? value / PETABYTE : Config.__M_NO == 158 ? value - PETABYTE : Config.__M_NO == 157 ? value + PETABYTE : Config.__M_NO == 156 ? value % PETABYTE : Config.__M_NO == 0 && Config.COVERED(156, 159) ? value * PETABYTE : value * PETABYTE; |==> <NO-OP>
+161:EVR:<IDENTIFIER(long)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):220:value |==> 0L
+162:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@parseHumanSizes(java.lang.String):223:Long.parseLong(humanSize) |==> 0L

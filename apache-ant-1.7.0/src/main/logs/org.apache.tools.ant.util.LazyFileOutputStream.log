@@ -1,0 +1,33 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.util.LazyFileOutputStream:38:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.util.LazyFileOutputStream:39:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.util.LazyFileOutputStream@<init>(java.lang.String):47:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.util.LazyFileOutputStream@<init>(java.io.File):67:false |==> true
+5:LVR:FALSE:TRUE:org.apache.tools.ant.util.LazyFileOutputStream@<init>(java.io.File,boolean):78:false |==> true
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@<init>(java.io.File,boolean,boolean):91:this.file = file |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@<init>(java.io.File,boolean,boolean):92:this.append = append |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@<init>(java.io.File,boolean,boolean):93:this.alwaysCreate = alwaysCreate |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@open():103:ensureOpened() |==> <NO-OP>
+10:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.LazyFileOutputStream@close():111:alwaysCreate && !closed |==> alwaysCreate == !closed
+11:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.LazyFileOutputStream@close():111:alwaysCreate && !closed |==> false
+12:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LazyFileOutputStream@close():111:alwaysCreate && !closed |==> alwaysCreate
+13:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LazyFileOutputStream@close():111:alwaysCreate && !closed |==> !closed
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@close():112:ensureOpened() |==> <NO-OP>
+15:COR:opened:TRUE:org.apache.tools.ant.util.LazyFileOutputStream@close():114:opened |==> false
+16:COR:opened:FALSE:org.apache.tools.ant.util.LazyFileOutputStream@close():114:opened |==> true
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@close():115:fos.close() |==> <NO-OP>
+18:LVR:TRUE:FALSE:org.apache.tools.ant.util.LazyFileOutputStream@close():117:true |==> false
+19:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@close():117:closed = true |==> <NO-OP>
+20:LVR:0:POS:org.apache.tools.ant.util.LazyFileOutputStream@write(byte[]):126:0 |==> 1
+21:LVR:0:NEG:org.apache.tools.ant.util.LazyFileOutputStream@write(byte[]):126:0 |==> -1
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@write(byte[]):126:write(b, 0, b.length) |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@write(byte[],int,int):138:ensureOpened() |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@write(byte[],int,int):139:fos.write(b, offset, len) |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@write(int):148:ensureOpened() |==> <NO-OP>
+26:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@write(int):149:fos.write(b) |==> <NO-OP>
+27:COR:closed:TRUE:org.apache.tools.ant.util.LazyFileOutputStream@ensureOpened():153:closed |==> false
+28:COR:closed:FALSE:org.apache.tools.ant.util.LazyFileOutputStream@ensureOpened():153:closed |==> true
+29:COR:opened:TRUE:org.apache.tools.ant.util.LazyFileOutputStream@ensureOpened():157:opened |==> false
+30:COR:opened:FALSE:org.apache.tools.ant.util.LazyFileOutputStream@ensureOpened():157:opened |==> true
+31:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@ensureOpened():158:fos = new FileOutputStream(file.getAbsolutePath(), append) |==> <NO-OP>
+32:LVR:TRUE:FALSE:org.apache.tools.ant.util.LazyFileOutputStream@ensureOpened():159:true |==> false
+33:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LazyFileOutputStream@ensureOpened():159:opened = true |==> <NO-OP>

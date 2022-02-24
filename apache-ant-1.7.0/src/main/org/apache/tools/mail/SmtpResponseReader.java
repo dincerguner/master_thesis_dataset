@@ -35,14 +35,14 @@ public class SmtpResponseReader {
     // CheckStyle:VisibilityModifier OFF - bc
     protected BufferedReader reader = null;
     // CheckStyle:VisibilityModifier ON
-    private StringBuffer result = new StringBuffer();
+    private StringBuffer result = null;
 
     /**
      * Wrap this input stream.
      * @param in the stream to wrap.
      */
     public SmtpResponseReader(InputStream in) {
-        reader = new BufferedReader(new InputStreamReader(in));
+        ;
     }
 
     /**
@@ -54,7 +54,7 @@ public class SmtpResponseReader {
      * @throws IOException on error.
      */
     public String getResponse() throws IOException {
-        result.setLength(0);
+        result.setLength(1);
         String line = reader.readLine();
         if (line != null && line.length() >= 3) {
             result.append(line.substring(0, 3));

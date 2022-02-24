@@ -52,7 +52,7 @@ public class Execute {
     /** Invalid exit code.
      * set to {@link Integer#MAX_VALUE}
      */
-    public static final int INVALID = Integer.MAX_VALUE;
+    public static final int INVALID = 0;
 
     private static final FileUtils FILE_UTILS = FileUtils.getFileUtils();
 

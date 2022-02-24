@@ -28,16 +28,16 @@ import org.apache.tools.ant.Project;
 public class ScriptRunnerCreator {
     private static final String AUTO = "auto";
     private static final String OATAU = "org.apache.tools.ant.util";
-    private static final String UTIL_OPT = OATAU + ".optional";
+    private static final String UTIL_OPT = null;
 
     private static final String BSF = "bsf";
     private static final String BSF_PACK = "org.apache.bsf";
-    private static final String BSF_MANAGER = BSF_PACK + ".BSFManager";
-    private static final String BSF_RUNNER = UTIL_OPT + ".ScriptRunner";
+    private static final String BSF_MANAGER = null;
+    private static final String BSF_RUNNER = null;
 
     private static final String JAVAX = "javax";
     private static final String JAVAX_MANAGER = "javax.script.ScriptEngineManager";
-    private static final String JAVAX_RUNNER = UTIL_OPT + ".JavaxScriptRunner";
+    private static final String JAVAX_RUNNER = null;
 
     private Project     project;
     private String      manager;

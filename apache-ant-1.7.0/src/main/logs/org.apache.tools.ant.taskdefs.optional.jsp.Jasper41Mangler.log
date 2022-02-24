@@ -1,0 +1,67 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):38:jspFile.getAbsolutePath() |==> null
+2:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):39:1 |==> 0
+3:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):39:1 |==> -1
+4:AOR:+(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):39:jspUri.lastIndexOf(File.separatorChar) + 1 |==> jspUri.lastIndexOf(File.separatorChar) % 1
+5:AOR:+(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):39:jspUri.lastIndexOf(File.separatorChar) + 1 |==> jspUri.lastIndexOf(File.separatorChar) * 1
+6:AOR:+(int,int):-(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):39:jspUri.lastIndexOf(File.separatorChar) + 1 |==> jspUri.lastIndexOf(File.separatorChar) - 1
+7:AOR:+(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):39:jspUri.lastIndexOf(File.separatorChar) + 1 |==> jspUri.lastIndexOf(File.separatorChar) / 1
+8:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):40:jspUri.length() |==> 0
+9:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):42:jspUri.length() - start |==> jspUri.length() % start
+10:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):42:jspUri.length() - start |==> jspUri.length() * start
+11:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):42:jspUri.length() - start |==> jspUri.length() + start
+12:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):42:jspUri.length() - start |==> jspUri.length() / start
+13:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):44:jspUri.charAt(start) == '_' |==> jspUri.charAt(start) <= '_'
+14:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):44:jspUri.charAt(start) == '_' |==> jspUri.charAt(start) >= '_'
+15:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):44:jspUri.charAt(start) == '_' |==> false
+16:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):43:!Character.isJavaIdentifierStart(jspUri.charAt(start)) || jspUri.charAt(start) == '_' |==> !Character.isJavaIdentifierStart(jspUri.charAt(start)) != (jspUri.charAt(start) == '_')
+17:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):43:!Character.isJavaIdentifierStart(jspUri.charAt(start)) || jspUri.charAt(start) == '_' |==> !Character.isJavaIdentifierStart(jspUri.charAt(start))
+18:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):44:!Character.isJavaIdentifierStart(jspUri.charAt(start)) || jspUri.charAt(start) == '_' |==> jspUri.charAt(start) == '_'
+19:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):44:!Character.isJavaIdentifierStart(jspUri.charAt(start)) || jspUri.charAt(start) == '_' |==> true
+20:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):47:modifiedClassName.append('_') |==> <NO-OP>
+21:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):49:start |==> 0
+22:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):49:i < end |==> i != end
+23:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):49:i < end |==> i <= end
+24:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):49:i < end |==> false
+25:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):50:jspUri.charAt(i) |==> 0
+26:COR:Character.isJavaIdentifierPart(ch):TRUE:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):51:Character.isJavaIdentifierPart(ch) |==> false
+27:COR:Character.isJavaIdentifierPart(ch):FALSE:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):51:Character.isJavaIdentifierPart(ch) |==> true
+28:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):52:modifiedClassName.append(ch) |==> <NO-OP>
+29:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):53:ch == '.' |==> ch <= '.'
+30:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):53:ch == '.' |==> ch >= '.'
+31:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):53:ch == '.' |==> false
+32:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):54:modifiedClassName.append('_') |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):56:modifiedClassName.append(mangleChar(ch)) |==> <NO-OP>
+34:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mapJspToJavaName(java.io.File):59:modifiedClassName.toString() |==> null
+35:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):67:Integer.toHexString(ch) |==> null
+36:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):68:5 |==> 0
+37:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):68:5 |==> -5
+38:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):68:5 - s.length() |==> 5 % s.length()
+39:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):68:5 - s.length() |==> 5 * s.length()
+40:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):68:5 - s.length() |==> 5 + s.length()
+41:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):68:5 - s.length() |==> 5 / s.length()
+42:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):69:6 |==> 0
+43:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):69:6 |==> -6
+44:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):70:0 |==> 1
+45:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):70:0 |==> -1
+46:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):70:result[0] = '_' |==> <NO-OP>
+47:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):71:1 |==> 0
+48:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):71:1 |==> -1
+49:ROR:<=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):71:i <= nzeros |==> i < nzeros
+50:ROR:<=(int,int):==(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):71:i <= nzeros |==> i == nzeros
+51:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):71:i <= nzeros |==> true
+52:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):72:result[i] = '0' |==> <NO-OP>
+53:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:1 |==> 0
+54:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:1 |==> -1
+55:AOR:+(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:nzeros + 1 |==> nzeros % 1
+56:AOR:+(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:nzeros + 1 |==> nzeros * 1
+57:AOR:+(int,int):-(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:nzeros + 1 |==> nzeros - 1
+58:AOR:+(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:nzeros + 1 |==> nzeros / 1
+59:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:0 |==> 1
+60:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:0 |==> -1
+61:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:6 |==> 0
+62:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:6 |==> -6
+63:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:i < 6 |==> i != 6
+64:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:i < 6 |==> i <= 6
+65:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):74:i < 6 |==> false
+66:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):75:result[i] = s.charAt(j) |==> <NO-OP>
+67:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler@mangleChar(char):77:new String(result) |==> null

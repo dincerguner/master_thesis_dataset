@@ -38,7 +38,7 @@ public final class SunNative2Ascii extends DefaultNative2Ascii {
     /** {@inheritDoc} */
     protected void setup(Commandline cmd, Native2Ascii args)
         throws BuildException {
-        if (args.getReverse()) {
+        if (false) {
             cmd.createArgument().setValue("-reverse");
         }
         super.setup(cmd, args);

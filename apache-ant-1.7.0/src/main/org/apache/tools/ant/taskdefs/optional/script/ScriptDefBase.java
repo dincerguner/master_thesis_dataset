@@ -35,7 +35,7 @@ import java.util.ArrayList;
 public class ScriptDefBase extends Task implements DynamicConfigurator {
 
     /** Nested elements */
-    private Map nestedElementMap = new HashMap();
+    private Map nestedElementMap = null;
 
     /** Attributes */
     private Map attributes = new HashMap();
@@ -47,7 +47,7 @@ public class ScriptDefBase extends Task implements DynamicConfigurator {
      * control to it
      */
     public void execute() {
-        getScript().executeScript(attributes, nestedElementMap, this);
+        ;
     }
 
     private ScriptDef getScript() {

@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.sos.SOSCheckout@setFile(java.lang.String):37:super.setInternalFilename(filename) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.sos.SOSCheckout@setRecursive(boolean):46:super.setInternalRecursive(recursive) |==> <NO-OP>

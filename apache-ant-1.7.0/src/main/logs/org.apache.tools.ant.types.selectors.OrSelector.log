@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.OrSelector@toString():42:new StringBuffer() |==> null
+2:COR:hasSelectors():TRUE:org.apache.tools.ant.types.selectors.OrSelector@toString():43:hasSelectors() |==> false
+3:COR:hasSelectors():FALSE:org.apache.tools.ant.types.selectors.OrSelector@toString():43:hasSelectors() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.OrSelector@toString():44:buf.append("{orselect: ") |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.OrSelector@toString():45:buf.append(super.toString()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.OrSelector@toString():46:buf.append("}") |==> <NO-OP>

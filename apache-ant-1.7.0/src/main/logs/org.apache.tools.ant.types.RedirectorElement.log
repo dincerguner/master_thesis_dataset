@@ -1,0 +1,11 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.types.RedirectorElement:39:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.types.RedirectorElement:44:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.types.RedirectorElement:49:false |==> true
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.RedirectorElement:86:new Vector() |==> null
+5:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.RedirectorElement:89:new Vector() |==> null
+6:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.RedirectorElement:92:new Vector() |==> null
+7:COR:isReference():TRUE:org.apache.tools.ant.types.RedirectorElement@addConfiguredInputMapper(Mapper):111:isReference() |==> false
+8:COR:isReference():FALSE:org.apache.tools.ant.types.RedirectorElement@addConfiguredInputMapper(Mapper):111:isReference() |==> true
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.RedirectorElement@addConfiguredInputMapper(Mapper):114:this.inputMapper != null |==> true
+10:COR:usingInput:TRUE:org.apache.tools.ant.types.RedirectorElement@addConfiguredInputMapper(Mapper):115:usingInput |==> false
+11:COR:usingInput:FALSE:org.apache.tools.ant.types.RedirectorElement@addConfiguredInputMapper(Mapper):115:usingInput |==> true

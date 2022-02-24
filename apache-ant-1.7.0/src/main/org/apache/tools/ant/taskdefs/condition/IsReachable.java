@@ -61,7 +61,7 @@ public class IsReachable extends ProjectComponent implements Condition {
      * The default timeout.
      */
     public static final int DEFAULT_TIMEOUT = 30;
-    private int timeout = DEFAULT_TIMEOUT;
+    private int timeout = 0;
     /**
      * Error when no hostname is defined
      */

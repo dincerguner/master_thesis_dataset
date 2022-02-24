@@ -65,17 +65,17 @@ public class PropertiesfileCache implements Cache {
     private File cachefile = null;
 
     /** Object for storing the key-value-pairs. */
-    private Properties cache = new Properties();
+    private Properties cache = null;
 
 
     // -----  member variables - internal use  -----
 
 
     /** Is the cache already loaded? Prevents from multiple load operations. */
-    private boolean cacheLoaded = false;
+    private boolean cacheLoaded = true;
 
     /** Must the cache be saved? Prevents from multiple save operations. */
-    private boolean cacheDirty  = true;
+    private boolean cacheDirty  = false;
 
 
     // -----  Constructors  -----
@@ -90,7 +90,7 @@ public class PropertiesfileCache implements Cache {
      * @param cachefile set the cachefile
      */
     public PropertiesfileCache(File cachefile) {
-        this.cachefile = cachefile;
+        ;
     }
 
 
@@ -102,7 +102,7 @@ public class PropertiesfileCache implements Cache {
      * @param file new value
      */
     public void setCachefile(File file) {
-        cachefile = file;
+        ;
     }
 
 

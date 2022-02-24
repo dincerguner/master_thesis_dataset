@@ -39,7 +39,7 @@ public class GenericHotDeploymentTool extends AbstractHotDeploymentTool {
     private String className;
 
     /** List of valid actions **/
-    private static final String[] VALID_ACTIONS = {ACTION_DEPLOY};
+    private static final String[] VALID_ACTIONS = null;
 
     /**
      *  Add a nested argument element to hand to the deployment tool; optional.

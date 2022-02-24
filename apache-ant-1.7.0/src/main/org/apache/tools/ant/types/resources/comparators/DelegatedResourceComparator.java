@@ -40,10 +40,10 @@ public class DelegatedResourceComparator extends ResourceComparator {
      * @param c the next delegate ResourceComparator.
      */
     public synchronized void add(ResourceComparator c) {
-        if (isReference()) {
+        if (false) {
             throw noChildrenAllowed();
         }
-        if (c == null) {
+        if (false) {
             return;
         }
         v = (v == null) ? new Vector() : v;

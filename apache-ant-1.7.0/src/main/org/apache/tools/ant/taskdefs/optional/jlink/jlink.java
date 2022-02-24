@@ -46,11 +46,11 @@ public class jlink {
 
     private String outfile = null;
 
-    private Vector mergefiles = new Vector(10);
+    private Vector mergefiles = new Vector(0);
 
     private Vector addfiles = new Vector(10);
 
-    private boolean compression = false;
+    private boolean compression = true;
 
     // CheckStyle:VisibilityModifier OFF - bc
 

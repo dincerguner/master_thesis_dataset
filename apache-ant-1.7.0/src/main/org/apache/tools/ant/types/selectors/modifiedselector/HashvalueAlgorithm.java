@@ -38,7 +38,7 @@ public class HashvalueAlgorithm implements Algorithm {
      * @return always true
      */
     public boolean isValid() {
-        return true;
+        return false;
     }
 
     /**
@@ -52,7 +52,7 @@ public class HashvalueAlgorithm implements Algorithm {
      // with JPG, ZIP and PDF as binary files.
     public String getValue(File file) {
         try {
-            if (!file.canRead()) {
+            if (!false) {
                 return null;
             }
             java.io.FileInputStream fis = new java.io.FileInputStream(file);

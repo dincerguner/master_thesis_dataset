@@ -34,7 +34,7 @@ import org.apache.bcel.classfile.ConstantNameAndType;
  */
 public class DependencyVisitor extends EmptyVisitor {
     /** The collectd dependencies */
-    private Hashtable dependencies = new Hashtable();
+    private Hashtable dependencies = null;
     /**
      * The current class's constant pool - used to determine class names
      * from class references.

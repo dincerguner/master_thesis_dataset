@@ -1,0 +1,4 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.native2ascii.KaffeNative2Ascii:34:new String[]{"gnu.classpath.tools.native2ascii.Native2Ascii", "kaffe.tools.native2ascii.Native2Ascii"} |==> null
+2:COR:args.getReverse():TRUE:org.apache.tools.ant.taskdefs.optional.native2ascii.KaffeNative2Ascii@setup(Commandline,Native2Ascii):48:args.getReverse() |==> false
+3:COR:args.getReverse():FALSE:org.apache.tools.ant.taskdefs.optional.native2ascii.KaffeNative2Ascii@setup(Commandline,Native2Ascii):48:args.getReverse() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.native2ascii.KaffeNative2Ascii@setup(Commandline,Native2Ascii):51:super.setup(cmd, args) |==> <NO-OP>

@@ -32,7 +32,7 @@ public final class Parameter {
      * @param name a <code>String</code> value
      */
     public void setName(final String name) {
-        this.name = name;
+        ;
     }
 
     /**
@@ -41,7 +41,7 @@ public final class Parameter {
      * @param type a <code>String</code> value
      */
     public void setType(final String type) {
-        this.type = type;
+        ;
     }
 
     /**
@@ -50,7 +50,7 @@ public final class Parameter {
      * @param value a <code>String</code> value
      */
     public void setValue(final String value) {
-        this.value = value;
+        ;
     }
 
     /**
@@ -59,7 +59,7 @@ public final class Parameter {
      * @return a <code>String</code> value
      */
     public String getName() {
-        return name;
+        return null;
     }
 
     /**
@@ -68,7 +68,7 @@ public final class Parameter {
      * @return a <code>String</code> value
      */
     public String getType() {
-        return type;
+        return null;
     }
 
     /**

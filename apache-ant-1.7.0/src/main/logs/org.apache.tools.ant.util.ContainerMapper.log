@@ -1,0 +1,19 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.util.ContainerMapper:34:new ArrayList() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ContainerMapper@addConfiguredMapper(Mapper):41:add(mapper.getImplementation()) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ContainerMapper@addConfigured(FileNameMapper):54:add(fileNameMapper) |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):66:this == fileNameMapper |==> false
+5:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):67:fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this) |==> fileNameMapper instanceof ContainerMapper == ((ContainerMapper)fileNameMapper).contains(this)
+6:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):68:fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this) |==> false
+7:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):67:fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this) |==> fileNameMapper instanceof ContainerMapper
+8:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):68:fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this) |==> ((ContainerMapper)fileNameMapper).contains(this)
+9:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):66:this == fileNameMapper || (fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this)) |==> this == fileNameMapper != (fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this))
+10:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):66:this == fileNameMapper || (fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this)) |==> this == fileNameMapper
+11:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):67:this == fileNameMapper || (fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this)) |==> (fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this))
+12:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):67:this == fileNameMapper || (fileNameMapper instanceof ContainerMapper && ((ContainerMapper)fileNameMapper).contains(this)) |==> true
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ContainerMapper@add(FileNameMapper):72:mappers.add(fileNameMapper) |==> <NO-OP>
+14:LVR:FALSE:TRUE:org.apache.tools.ant.util.ContainerMapper@contains(FileNameMapper):83:false |==> true
+15:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.apache.tools.ant.util.ContainerMapper@contains(FileNameMapper):84:mappers.iterator() |==> null
+16:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@contains(FileNameMapper):84:iter.hasNext() && !foundit |==> iter.hasNext() == !foundit
+17:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@contains(FileNameMapper):84:iter.hasNext() && !foundit |==> false
+18:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@contains(FileNameMapper):84:iter.hasNext() && !foundit |==> iter.hasNext()
+19:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.ContainerMapper@contains(FileNameMapper):84:iter.hasNext() && !foundit |==> !foundit

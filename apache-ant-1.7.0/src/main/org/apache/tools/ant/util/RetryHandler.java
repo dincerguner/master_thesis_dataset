@@ -29,7 +29,7 @@ import org.apache.tools.ant.Task;
  */
 public class RetryHandler {
 
-    private int retriesAllowed = 0;
+    private int retriesAllowed = 1;
     private Task task;
 
     /**
@@ -39,7 +39,7 @@ public class RetryHandler {
      * @param task the Ant task that is is executed from, used for logging only
      */
     public RetryHandler(int retriesAllowed, Task task) {
-        this.retriesAllowed = retriesAllowed;
+        this.retriesAllowed = 0;
         this.task = task;
     }
 

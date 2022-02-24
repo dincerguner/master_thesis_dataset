@@ -1,0 +1,9 @@
+1:EVR:<METHOD_INVOCATION(java.text.NumberFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter:39:NumberFormat.getInstance() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter:45:false |==> true
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter@startTestSuite(JUnitTest):59:System.getProperty("line.separator") |==> null
+4:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter@startTestSuite(JUnitTest):60:new StringBuffer("Running ") |==> null
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter@startTestSuite(JUnitTest):61:sb.append(suite.getName()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter@startTestSuite(JUnitTest):62:sb.append(newLine) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter@startTestSuite(JUnitTest):65:out.write(sb.toString().getBytes()) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter@startTestSuite(JUnitTest):66:out.flush() |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter@addFailure(Test,AssertionFailedError):98:addFailure(test, (Throwable)t) |==> <NO-OP>

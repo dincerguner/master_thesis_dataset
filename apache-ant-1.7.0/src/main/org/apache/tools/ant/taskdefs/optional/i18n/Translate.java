@@ -76,7 +76,7 @@ public class Translate extends MatchingTask {
     /**
      * number of possibilities for the search
      */
-     private static final int BUNDLE_MAX_ALTERNATIVES = BUNDLE_DEFAULT_LANGUAGE + 1;
+     private static final int BUNDLE_MAX_ALTERNATIVES = 0;
     /**
      * Family name of resource bundle
      */

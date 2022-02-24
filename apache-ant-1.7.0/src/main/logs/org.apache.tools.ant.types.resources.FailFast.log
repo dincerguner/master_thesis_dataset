@@ -1,0 +1,38 @@
+1:EVR:<NEW_CLASS(java.util.WeakHashMap)>:<DEFAULT>:org.apache.tools.ant.types.resources.FailFast:33:new WeakHashMap() |==> null
+2:EVR:<TYPE_CAST(java.util.Set)>:<DEFAULT>:org.apache.tools.ant.types.resources.FailFast@invalidate(java.lang.Object):40:(Set)(MAP.get(o)) |==> null
+3:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.FailFast@invalidate(java.lang.Object):41:s != null |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@invalidate(java.lang.Object):42:s.clear() |==> <NO-OP>
+5:EVR:<TYPE_CAST(java.util.Set)>:<DEFAULT>:org.apache.tools.ant.types.resources.FailFast@add(org.apache.tools.ant.types.resources.FailFast):47:(Set)(MAP.get(f.parent)) |==> null
+6:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.FailFast@add(org.apache.tools.ant.types.resources.FailFast):48:s == null |==> false
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@add(org.apache.tools.ant.types.resources.FailFast):49:s = new HashSet() |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@add(org.apache.tools.ant.types.resources.FailFast):50:MAP.put(f.parent, s) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@add(org.apache.tools.ant.types.resources.FailFast):52:s.add(f) |==> <NO-OP>
+10:EVR:<TYPE_CAST(java.util.Set)>:<DEFAULT>:org.apache.tools.ant.types.resources.FailFast@remove(org.apache.tools.ant.types.resources.FailFast):56:(Set)(MAP.get(f.parent)) |==> null
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.FailFast@remove(org.apache.tools.ant.types.resources.FailFast):57:s != null |==> true
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@remove(org.apache.tools.ant.types.resources.FailFast):58:s.remove(f) |==> <NO-OP>
+13:EVR:<TYPE_CAST(java.util.Set)>:<DEFAULT>:org.apache.tools.ant.types.resources.FailFast@failFast(org.apache.tools.ant.types.resources.FailFast):63:(Set)(MAP.get(f.parent)) |==> null
+14:COR:s.contains(f):TRUE:org.apache.tools.ant.types.resources.FailFast@failFast(org.apache.tools.ant.types.resources.FailFast):64:s.contains(f) |==> false
+15:COR:s.contains(f):FALSE:org.apache.tools.ant.types.resources.FailFast@failFast(org.apache.tools.ant.types.resources.FailFast):64:s.contains(f) |==> true
+16:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.FailFast@<init>(java.lang.Object,java.util.Iterator):79:o == null |==> false
+17:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.FailFast@<init>(java.lang.Object,java.util.Iterator):82:i == null |==> false
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@<init>(java.lang.Object,java.util.Iterator):85:parent = o |==> <NO-OP>
+19:COR:i.hasNext():TRUE:org.apache.tools.ant.types.resources.FailFast@<init>(java.lang.Object,java.util.Iterator):86:i.hasNext() |==> false
+20:COR:i.hasNext():FALSE:org.apache.tools.ant.types.resources.FailFast@<init>(java.lang.Object,java.util.Iterator):86:i.hasNext() |==> true
+21:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@<init>(java.lang.Object,java.util.Iterator):87:wrapped = i |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@<init>(java.lang.Object,java.util.Iterator):88:add(this) |==> <NO-OP>
+23:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.FailFast@hasNext():97:wrapped == null |==> false
+24:LVR:FALSE:TRUE:org.apache.tools.ant.types.resources.FailFast@hasNext():98:false |==> true
+25:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@hasNext():98:return Config.__M_NO == 0 && Config.COVERED(24, 24) ? false : Config.__M_NO == 24 ? true : false; |==> <NO-OP>
+26:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@hasNext():100:failFast(this) |==> <NO-OP>
+27:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.types.resources.FailFast@hasNext():101:wrapped.hasNext() |==> false
+28:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.FailFast@next():110:wrapped == null |==> false
+29:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.types.resources.FailFast@next():110:wrapped == null || !wrapped.hasNext() |==> wrapped == null != !wrapped.hasNext()
+30:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.resources.FailFast@next():110:wrapped == null || !wrapped.hasNext() |==> wrapped == null
+31:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.resources.FailFast@next():110:wrapped == null || !wrapped.hasNext() |==> !wrapped.hasNext()
+32:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.types.resources.FailFast@next():110:wrapped == null || !wrapped.hasNext() |==> true
+33:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@next():113:failFast(this) |==> <NO-OP>
+34:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.types.resources.FailFast@next():115:wrapped.next() |==> null
+35:COR:wrapped.hasNext():TRUE:org.apache.tools.ant.types.resources.FailFast@next():117:wrapped.hasNext() |==> false
+36:COR:wrapped.hasNext():FALSE:org.apache.tools.ant.types.resources.FailFast@next():117:wrapped.hasNext() |==> true
+37:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@next():118:wrapped = null |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.FailFast@next():119:remove(this) |==> <NO-OP>

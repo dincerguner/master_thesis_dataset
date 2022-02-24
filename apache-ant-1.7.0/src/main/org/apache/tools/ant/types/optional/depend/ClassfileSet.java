@@ -37,7 +37,7 @@ public class ClassfileSet extends FileSet {
      * classes which must be included in the fileset and which are the
      * starting point for the dependency search.
      */
-    private Vector rootClasses = new Vector();
+    private Vector rootClasses = null;
 
     /**
      * The list of filesets which contain root classes.

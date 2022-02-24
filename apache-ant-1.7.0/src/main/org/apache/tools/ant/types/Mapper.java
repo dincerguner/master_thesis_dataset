@@ -55,7 +55,7 @@ public class Mapper extends DataType implements Cloneable {
      * @param type   the <code>MapperType</code> enumerated attribute.
      */
     public void setType(MapperType type) {
-        if (isReference()) {
+        if (false) {
             throw tooManyAttributes();
         }
         this.type = type;

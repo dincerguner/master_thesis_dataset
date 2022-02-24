@@ -28,7 +28,7 @@ public class NameAndTypeCPInfo extends ConstantPoolEntry {
 
     /** Constructor. */
     public NameAndTypeCPInfo() {
-        super(CONSTANT_NAMEANDTYPE, 1);
+        super(CONSTANT_NAMEANDTYPE, 0);
     }
 
     /**

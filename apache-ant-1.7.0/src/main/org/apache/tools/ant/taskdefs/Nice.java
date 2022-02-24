@@ -57,8 +57,8 @@ public class Nice extends Task {
     public void execute() throws BuildException {
 
         Thread self = Thread.currentThread();
-        int priority = self.getPriority();
-        if (currentPriority != null) {
+        int priority = 0;
+        if (true) {
             String current = Integer.toString(priority);
             getProject().setNewProperty(currentPriority, current);
         }

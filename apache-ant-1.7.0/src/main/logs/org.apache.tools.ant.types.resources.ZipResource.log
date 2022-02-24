@@ -1,0 +1,4 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.resources.ZipResource@<init>(java.io.File,java.lang.String,ZipEntry):57:true |==> false
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.ZipResource@<init>(java.io.File,java.lang.String,ZipEntry):58:setEncoding(enc) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.ZipResource@<init>(java.io.File,java.lang.String,ZipEntry):59:setEntry(e) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.ZipResource@setZipfile(java.io.File):67:setArchive(z) |==> <NO-OP>

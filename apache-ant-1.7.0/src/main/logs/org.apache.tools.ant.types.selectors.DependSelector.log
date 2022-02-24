@@ -1,0 +1,13 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.DependSelector@toString():45:new StringBuffer("{dependselector targetdir: ") |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.DependSelector@toString():46:targetdir == null |==> false
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():47:buf.append("NOT YET SET") |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():49:buf.append(targetdir.getName()) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():51:buf.append(" granularity: ") |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():52:buf.append(granularity) |==> <NO-OP>
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.DependSelector@toString():53:map != null |==> true
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():54:buf.append(" mapper: ") |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():55:buf.append(map.toString()) |==> <NO-OP>
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.DependSelector@toString():56:mapperElement != null |==> true
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():57:buf.append(" mapper: ") |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():58:buf.append(mapperElement.toString()) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.DependSelector@toString():60:buf.append("}") |==> <NO-OP>

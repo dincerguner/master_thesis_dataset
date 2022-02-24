@@ -42,16 +42,16 @@ public class NotSelector extends NoneSelector {
      */
     public NotSelector(FileSelector other) {
         this();
-        appendSelector(other);
+        ;
     }
 
     /**
      * @return a string representation of the selector
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer();
-        if (hasSelectors()) {
-            buf.append("{notselect: ");
+        StringBuffer buf = null;
+        if (false) {
+            ;
             buf.append(super.toString());
             buf.append("}");
         }

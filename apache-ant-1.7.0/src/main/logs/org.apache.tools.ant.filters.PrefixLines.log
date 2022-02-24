@@ -1,0 +1,17 @@
+1:COR:getInitialized():TRUE:org.apache.tools.ant.filters.PrefixLines@read():81:getInitialized() |==> false
+2:COR:getInitialized():FALSE:org.apache.tools.ant.filters.PrefixLines@read():81:getInitialized() |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.PrefixLines@read():82:initialize() |==> <NO-OP>
+4:LVR:TRUE:FALSE:org.apache.tools.ant.filters.PrefixLines@read():83:true |==> false
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.PrefixLines@read():83:setInitialized(true) |==> <NO-OP>
+6:LVR:NEG:0:org.apache.tools.ant.filters.PrefixLines@read():86:-1 |==> 0
+7:LVR:NEG:POS:org.apache.tools.ant.filters.PrefixLines@read():86:-1 |==> 1
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData != null |==> true
+9:LVR:0:POS:org.apache.tools.ant.filters.PrefixLines@read():88:0 |==> 1
+10:LVR:0:NEG:org.apache.tools.ant.filters.PrefixLines@read():88:0 |==> -1
+11:ROR:==(int,int):<=(int,int):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData.length() == 0 |==> queuedData.length() <= 0
+12:ROR:==(int,int):>=(int,int):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData.length() == 0 |==> queuedData.length() >= 0
+13:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData.length() == 0 |==> false
+14:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData != null && queuedData.length() == 0 |==> queuedData != null == (queuedData.length() == 0)
+15:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData != null && queuedData.length() == 0 |==> false
+16:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData != null && queuedData.length() == 0 |==> queuedData != null
+17:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.filters.PrefixLines@read():88:queuedData != null && queuedData.length() == 0 |==> queuedData.length() == 0

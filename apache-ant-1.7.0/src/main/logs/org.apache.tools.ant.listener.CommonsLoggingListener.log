@@ -1,0 +1,11 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.listener.CommonsLoggingListener:57:false |==> true
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):78:suffix != null |==> true
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):79:suffix.replace('.', '-') |==> null
+4:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):80:suffix.replace(' ', '-') |==> null
+5:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):81:cat + "." + suffix |==> null
+6:EVR:<MEMBER_SELECT(java.io.PrintStream)>:<DEFAULT>:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):83:System.out |==> null
+7:EVR:<MEMBER_SELECT(java.io.PrintStream)>:<DEFAULT>:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):84:System.err |==> null
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):85:System.setOut(out) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):86:System.setErr(err) |==> <NO-OP>
+10:COR:initialized:TRUE:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):88:initialized |==> false
+11:COR:initialized:FALSE:org.apache.tools.ant.listener.CommonsLoggingListener@getLog(java.lang.String,java.lang.String):88:initialized |==> true

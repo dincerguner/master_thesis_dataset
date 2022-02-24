@@ -1,0 +1,3 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.WeakishReference@<init>(java.lang.Object):50:this.weakref = new WeakReference(reference) |==> <NO-OP>
+2:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.util.WeakishReference@get():61:weakref.get() |==> null
+3:EVR:<NEW_CLASS(org.apache.tools.ant.util.WeakishReference)>:<DEFAULT>:org.apache.tools.ant.util.WeakishReference@createReference(java.lang.Object):70:new WeakishReference(object) |==> null

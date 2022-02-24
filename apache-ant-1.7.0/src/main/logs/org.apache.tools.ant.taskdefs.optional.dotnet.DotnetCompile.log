@@ -1,0 +1,8 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile:81:true |==> false
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile:114:new Vector() |==> null
+3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile:119:new Vector() |==> null
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile:161:false |==> true
+5:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile:170:new Vector() |==> null
+6:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile:175:false |==> true
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile@<init>():185:clear() |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.dotnet.DotnetCompile@<init>():186:setIncludes(getFilePattern()) |==> <NO-OP>

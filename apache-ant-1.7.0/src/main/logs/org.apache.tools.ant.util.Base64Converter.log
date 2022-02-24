@@ -1,0 +1,194 @@
+1:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.tools.ant.util.Base64Converter:28:{'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '/'} |==> null
+2:EVR:<IDENTIFIER(char[])>:<DEFAULT>:org.apache.tools.ant.util.Base64Converter:40:ALPHABET |==> null
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.Base64Converter@encode(java.lang.String):50:encode(s.getBytes()) |==> null
+4:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:1 |==> 0
+5:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:1 |==> -1
+6:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:octetString.length - 1 |==> octetString.length % 1
+7:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:octetString.length - 1 |==> octetString.length * 1
+8:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:octetString.length - 1 |==> octetString.length + 1
+9:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:octetString.length - 1 |==> octetString.length / 1
+10:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:3 |==> 0
+11:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:3 |==> -3
+12:AOR:/(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 |==> (octetString.length - 1) % 3
+13:AOR:/(int,int):*(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 |==> (octetString.length - 1) * 3
+14:AOR:/(int,int):+(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 |==> (octetString.length - 1) + 3
+15:AOR:/(int,int):-(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 |==> (octetString.length - 1) - 3
+16:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:1 |==> 0
+17:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:1 |==> -1
+18:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 + 1 |==> (octetString.length - 1) / 3 % 1
+19:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 + 1 |==> (octetString.length - 1) / 3 * 1
+20:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 + 1 |==> (octetString.length - 1) / 3 - 1
+21:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:(octetString.length - 1) / 3 + 1 |==> (octetString.length - 1) / 3 / 1
+22:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:4 |==> 0
+23:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:4 |==> -4
+24:AOR:*(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:((octetString.length - 1) / 3 + 1) * 4 |==> ((octetString.length - 1) / 3 + 1) % 4
+25:AOR:*(int,int):+(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:((octetString.length - 1) / 3 + 1) * 4 |==> ((octetString.length - 1) / 3 + 1) + 4
+26:AOR:*(int,int):-(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:((octetString.length - 1) / 3 + 1) * 4 |==> ((octetString.length - 1) / 3 + 1) - 4
+27:AOR:*(int,int):/(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):62:((octetString.length - 1) / 3 + 1) * 4 |==> ((octetString.length - 1) / 3 + 1) / 4
+28:LVR:0:POS:org.apache.tools.ant.util.Base64Converter@encode(byte[]):63:0 |==> 1
+29:LVR:0:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):63:0 |==> -1
+30:LVR:0:POS:org.apache.tools.ant.util.Base64Converter@encode(byte[]):64:0 |==> 1
+31:LVR:0:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):64:0 |==> -1
+32:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:3 |==> 0
+33:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:3 |==> -3
+34:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:i + 3 |==> i % 3
+35:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:i + 3 |==> i * 3
+36:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:i + 3 |==> i - 3
+37:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:i + 3 |==> i / 3
+38:ROR:<=(int,int):<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:(i + 3) <= octetString.length |==> (i + 3) < octetString.length
+39:ROR:<=(int,int):==(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:(i + 3) <= octetString.length |==> (i + 3) == octetString.length
+40:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):66:(i + 3) <= octetString.length |==> true
+41:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:255 |==> 0
+42:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:255 |==> -255
+43:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:octetString[i++] & 255 |==> octetString[i++] ^ 255
+44:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:octetString[i++] & 255 |==> octetString[i++] | 255
+45:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:16 |==> 0
+46:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:16 |==> -16
+47:SOR:<<(int,int):>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:(octetString[i++] & 255) << 16 |==> (octetString[i++] & 255) >> 16
+48:SOR:<<(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):68:(octetString[i++] & 255) << 16 |==> (octetString[i++] & 255) >>> 16
+49:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:255 |==> 0
+50:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:255 |==> -255
+51:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:octetString[i++] & 255 |==> octetString[i++] ^ 255
+52:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:octetString[i++] & 255 |==> octetString[i++] | 255
+53:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:8 |==> 0
+54:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:8 |==> -8
+55:SOR:<<(int,int):>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:(octetString[i++] & 255) << 8 |==> (octetString[i++] & 255) >> 8
+56:SOR:<<(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:(octetString[i++] & 255) << 8 |==> (octetString[i++] & 255) >>> 8
+57:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):69:bits24 |= (octetString[i++] & 255) << 8 |==> <NO-OP>
+58:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):70:bits24 |= octetString[i++] |==> <NO-OP>
+59:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:16515072 |==> 0
+60:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:16515072 |==> -16515072
+61:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:bits24 & 16515072 |==> bits24 ^ 16515072
+62:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:bits24 & 16515072 |==> bits24 | 16515072
+63:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:18 |==> 0
+64:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:18 |==> -18
+65:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:(bits24 & 16515072) >> 18 |==> (bits24 & 16515072) << 18
+66:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):72:(bits24 & 16515072) >> 18 |==> (bits24 & 16515072) >>> 18
+67:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):73:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+68:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:258048 |==> 0
+69:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:258048 |==> -258048
+70:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:bits24 & 258048 |==> bits24 ^ 258048
+71:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:bits24 & 258048 |==> bits24 | 258048
+72:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:12 |==> 0
+73:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:12 |==> -12
+74:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:(bits24 & 258048) >> 12 |==> (bits24 & 258048) << 12
+75:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:(bits24 & 258048) >> 12 |==> (bits24 & 258048) >>> 12
+76:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):74:bits6 = (bits24 & 258048) >> 12 |==> <NO-OP>
+77:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):75:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+78:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:4032 |==> 0
+79:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:4032 |==> -4032
+80:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:bits24 & 4032 |==> bits24 ^ 4032
+81:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:bits24 & 4032 |==> bits24 | 4032
+82:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:6 |==> 0
+83:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:6 |==> -6
+84:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:(bits24 & 4032) >> 6 |==> (bits24 & 4032) << 6
+85:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:(bits24 & 4032) >> 6 |==> (bits24 & 4032) >>> 6
+86:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):76:bits6 = (bits24 & 4032) >> 6 |==> <NO-OP>
+87:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):77:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+88:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):78:63 |==> 0
+89:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):78:63 |==> -63
+90:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):78:bits24 & 63 |==> bits24 ^ 63
+91:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):78:bits24 & 63 |==> bits24 | 63
+92:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):78:bits6 = (bits24 & 63) |==> <NO-OP>
+93:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):79:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+94:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:octetString.length - i |==> octetString.length % i
+95:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:octetString.length - i |==> octetString.length * i
+96:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:octetString.length - i |==> octetString.length + i
+97:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:octetString.length - i |==> octetString.length / i
+98:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:2 |==> 0
+99:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:2 |==> -2
+100:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:octetString.length - i == 2 |==> octetString.length - i <= 2
+101:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:octetString.length - i == 2 |==> octetString.length - i >= 2
+102:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):81:octetString.length - i == 2 |==> false
+103:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:255 |==> 0
+104:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:255 |==> -255
+105:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:octetString[i] & 255 |==> octetString[i] ^ 255
+106:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:octetString[i] & 255 |==> octetString[i] | 255
+107:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:16 |==> 0
+108:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:16 |==> -16
+109:SOR:<<(int,int):>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:(octetString[i] & 255) << 16 |==> (octetString[i] & 255) >> 16
+110:SOR:<<(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):83:(octetString[i] & 255) << 16 |==> (octetString[i] & 255) >>> 16
+111:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:1 |==> 0
+112:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:1 |==> -1
+113:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:i + 1 |==> i % 1
+114:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:i + 1 |==> i * 1
+115:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:i + 1 |==> i - 1
+116:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:i + 1 |==> i / 1
+117:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:255 |==> 0
+118:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:255 |==> -255
+119:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:octetString[i + 1] & 255 |==> octetString[i + 1] ^ 255
+120:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:octetString[i + 1] & 255 |==> octetString[i + 1] | 255
+121:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:8 |==> 0
+122:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:8 |==> -8
+123:SOR:<<(int,int):>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:(octetString[i + 1] & 255) << 8 |==> (octetString[i + 1] & 255) >> 8
+124:SOR:<<(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:(octetString[i + 1] & 255) << 8 |==> (octetString[i + 1] & 255) >>> 8
+125:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):84:bits24 |= (octetString[i + 1] & 255) << 8 |==> <NO-OP>
+126:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:16515072 |==> 0
+127:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:16515072 |==> -16515072
+128:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:bits24 & 16515072 |==> bits24 ^ 16515072
+129:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:bits24 & 16515072 |==> bits24 | 16515072
+130:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:18 |==> 0
+131:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:18 |==> -18
+132:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:(bits24 & 16515072) >> 18 |==> (bits24 & 16515072) << 18
+133:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):85:(bits24 & 16515072) >> 18 |==> (bits24 & 16515072) >>> 18
+134:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):86:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+135:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:258048 |==> 0
+136:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:258048 |==> -258048
+137:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:bits24 & 258048 |==> bits24 ^ 258048
+138:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:bits24 & 258048 |==> bits24 | 258048
+139:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:12 |==> 0
+140:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:12 |==> -12
+141:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:(bits24 & 258048) >> 12 |==> (bits24 & 258048) << 12
+142:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:(bits24 & 258048) >> 12 |==> (bits24 & 258048) >>> 12
+143:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):87:bits6 = (bits24 & 258048) >> 12 |==> <NO-OP>
+144:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):88:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+145:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:4032 |==> 0
+146:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:4032 |==> -4032
+147:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:bits24 & 4032 |==> bits24 ^ 4032
+148:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:bits24 & 4032 |==> bits24 | 4032
+149:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:6 |==> 0
+150:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:6 |==> -6
+151:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:(bits24 & 4032) >> 6 |==> (bits24 & 4032) << 6
+152:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:(bits24 & 4032) >> 6 |==> (bits24 & 4032) >>> 6
+153:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):89:bits6 = (bits24 & 4032) >> 6 |==> <NO-OP>
+154:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):90:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+155:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):93:out[outIndex++] = '=' |==> <NO-OP>
+156:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:octetString.length - i |==> octetString.length % i
+157:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:octetString.length - i |==> octetString.length * i
+158:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:octetString.length - i |==> octetString.length + i
+159:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:octetString.length - i |==> octetString.length / i
+160:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:1 |==> 0
+161:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:1 |==> -1
+162:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:octetString.length - i == 1 |==> octetString.length - i <= 1
+163:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:octetString.length - i == 1 |==> octetString.length - i >= 1
+164:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):94:octetString.length - i == 1 |==> false
+165:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:255 |==> 0
+166:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:255 |==> -255
+167:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:octetString[i] & 255 |==> octetString[i] ^ 255
+168:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:octetString[i] & 255 |==> octetString[i] | 255
+169:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:16 |==> 0
+170:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:16 |==> -16
+171:SOR:<<(int,int):>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:(octetString[i] & 255) << 16 |==> (octetString[i] & 255) >> 16
+172:SOR:<<(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):96:(octetString[i] & 255) << 16 |==> (octetString[i] & 255) >>> 16
+173:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:16515072 |==> 0
+174:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:16515072 |==> -16515072
+175:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:bits24 & 16515072 |==> bits24 ^ 16515072
+176:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:bits24 & 16515072 |==> bits24 | 16515072
+177:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:18 |==> 0
+178:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:18 |==> -18
+179:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:(bits24 & 16515072) >> 18 |==> (bits24 & 16515072) << 18
+180:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):97:(bits24 & 16515072) >> 18 |==> (bits24 & 16515072) >>> 18
+181:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):98:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+182:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:258048 |==> 0
+183:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:258048 |==> -258048
+184:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:bits24 & 258048 |==> bits24 ^ 258048
+185:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:bits24 & 258048 |==> bits24 | 258048
+186:LVR:POS:0:org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:12 |==> 0
+187:LVR:POS:NEG:org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:12 |==> -12
+188:SOR:>>(int,int):<<(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:(bits24 & 258048) >> 12 |==> (bits24 & 258048) << 12
+189:SOR:>>(int,int):>>>(int,int):org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:(bits24 & 258048) >> 12 |==> (bits24 & 258048) >>> 12
+190:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):99:bits6 = (bits24 & 258048) >> 12 |==> <NO-OP>
+191:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):100:out[outIndex++] = ALPHABET[bits6] |==> <NO-OP>
+192:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):103:out[outIndex++] = '=' |==> <NO-OP>
+193:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):104:out[outIndex++] = '=' |==> <NO-OP>
+194:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.Base64Converter@encode(byte[]):106:new String(out) |==> null

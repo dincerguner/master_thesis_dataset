@@ -1,0 +1,32 @@
+1:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.Enumerations@fromArray(java.lang.Object[]):40:new ArrayEnumeration(array) |==> null
+2:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.Enumerations@fromCompound(java.util.Enumeration[]):51:new CompoundEnumeration(enums) |==> null
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@<init>(java.lang.Object[]):73:this.array = array |==> <NO-OP>
+4:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@<init>(java.lang.Object[]):74:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@<init>(java.lang.Object[]):74:0 |==> -1
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@<init>(java.lang.Object[]):74:this.pos = 0 |==> <NO-OP>
+7:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@hasMoreElements():84:pos < array.length |==> pos != array.length
+8:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@hasMoreElements():84:pos < array.length |==> pos <= array.length
+9:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@hasMoreElements():84:pos < array.length |==> false
+10:COR:hasMoreElements():TRUE:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@nextElement():95:hasMoreElements() |==> false
+11:COR:hasMoreElements():FALSE:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@nextElement():95:hasMoreElements() |==> true
+12:EVR:<ARRAY_ACCESS(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@nextElement():96:array[pos] |==> null
+13:STD:<INC>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@nextElement():97:pos++ |==> <NO-OP>
+14:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.ArrayEnumeration@nextElement():98:return o; |==> <NO-OP>
+15:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration:139:0 |==> 1
+16:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration:139:0 |==> -1
+17:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@<init>(java.util.Enumeration[]):142:this.enumArray = enumarray |==> <NO-OP>
+18:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():153:index < enumArray.length |==> index != enumArray.length
+19:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():153:index < enumArray.length |==> index <= enumArray.length
+20:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():153:index < enumArray.length |==> false
+21:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():154:enumArray[index] != null |==> true
+22:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():154:enumArray[index] != null && enumArray[index].hasMoreElements() |==> enumArray[index] != null == enumArray[index].hasMoreElements()
+23:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():154:enumArray[index] != null && enumArray[index].hasMoreElements() |==> false
+24:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():154:enumArray[index] != null && enumArray[index].hasMoreElements() |==> enumArray[index] != null
+25:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():154:enumArray[index] != null && enumArray[index].hasMoreElements() |==> enumArray[index].hasMoreElements()
+26:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():155:true |==> false
+27:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():155:return Config.__M_NO == 0 && Config.COVERED(26, 26) ? true : Config.__M_NO == 26 ? false : true; |==> <NO-OP>
+28:STD:<INC>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():157:index++ |==> <NO-OP>
+29:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@hasMoreElements():159:false |==> true
+30:COR:hasMoreElements():TRUE:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@nextElement():170:hasMoreElements() |==> false
+31:COR:hasMoreElements():FALSE:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@nextElement():170:hasMoreElements() |==> true
+32:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.CompoundEnumeration@nextElement():171:return enumArray[index].nextElement(); |==> <NO-OP>

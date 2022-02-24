@@ -1,0 +1,3 @@
+1:LVR:NEG:0:org.apache.tools.ant.util.ConcatFileInputStream:38:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.util.ConcatFileInputStream:38:-1 |==> 1
+3:LVR:FALSE:TRUE:org.apache.tools.ant.util.ConcatFileInputStream:39:false |==> true

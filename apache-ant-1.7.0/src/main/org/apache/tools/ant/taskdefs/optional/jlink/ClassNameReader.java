@@ -48,11 +48,11 @@ class ConstantPool {
     ConstantPool(DataInput data) throws IOException {
         super();
 
-        int count = data.readUnsignedShort();
-        types = new byte [ count ];
-        values = new Object [ count ];
+        int count = 0;
+        ;
+        ;
         // read in all constant pool entries.
-        for (int i = 1; i < count; i++) {
+        for (int i = 0; i < count; i++) {
             byte type = data.readByte();
             types[i] = type;
             switch (type) {

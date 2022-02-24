@@ -1,0 +1,29 @@
+1:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.IdentityStack@getInstance(java.util.Stack):35:return (IdentityStack)s; |==> <NO-OP>
+2:EVR:<NEW_CLASS(org.apache.tools.ant.util.IdentityStack)>:<DEFAULT>:org.apache.tools.ant.util.IdentityStack@getInstance(java.util.Stack):37:new IdentityStack() |==> null
+3:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.IdentityStack@getInstance(java.util.Stack):38:s != null |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.IdentityStack@getInstance(java.util.Stack):39:result.addAll(s) |==> <NO-OP>
+5:EVR:<IDENTIFIER(org.apache.tools.ant.util.IdentityStack)>:<DEFAULT>:org.apache.tools.ant.util.IdentityStack@getInstance(java.util.Stack):41:result |==> null
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.IdentityStack@<init>(java.lang.Object):57:push(o) |==> <NO-OP>
+7:LVR:0:POS:org.apache.tools.ant.util.IdentityStack@contains(java.lang.Object):67:0 |==> 1
+8:LVR:0:NEG:org.apache.tools.ant.util.IdentityStack@contains(java.lang.Object):67:0 |==> -1
+9:ROR:>=(int,int):==(int,int):org.apache.tools.ant.util.IdentityStack@contains(java.lang.Object):67:indexOf(o) >= 0 |==> indexOf(o) == 0
+10:ROR:>=(int,int):>(int,int):org.apache.tools.ant.util.IdentityStack@contains(java.lang.Object):67:indexOf(o) >= 0 |==> indexOf(o) > 0
+11:ROR:>=(int,int):TRUE(int,int):org.apache.tools.ant.util.IdentityStack@contains(java.lang.Object):67:indexOf(o) >= 0 |==> true
+12:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):78:pos |==> 0
+13:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):78:i < size() |==> i != size()
+14:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):78:i < size() |==> i <= size()
+15:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):78:i < size() |==> false
+16:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):79:get(i) == o |==> false
+17:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):80:return i; |==> <NO-OP>
+18:LVR:NEG:0:org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):83:-1 |==> 0
+19:LVR:NEG:POS:org.apache.tools.ant.util.IdentityStack@indexOf(java.lang.Object,int):83:-1 |==> 1
+20:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):94:pos |==> 0
+21:LVR:0:POS:org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):94:0 |==> 1
+22:LVR:0:NEG:org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):94:0 |==> -1
+23:ROR:>=(int,int):==(int,int):org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):94:i >= 0 |==> i == 0
+24:ROR:>=(int,int):>(int,int):org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):94:i >= 0 |==> i > 0
+25:ROR:>=(int,int):TRUE(int,int):org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):94:i >= 0 |==> true
+26:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):95:get(i) == o |==> false
+27:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):96:return i; |==> <NO-OP>
+28:LVR:NEG:0:org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):99:-1 |==> 0
+29:LVR:NEG:POS:org.apache.tools.ant.util.IdentityStack@lastIndexOf(java.lang.Object,int):99:-1 |==> 1

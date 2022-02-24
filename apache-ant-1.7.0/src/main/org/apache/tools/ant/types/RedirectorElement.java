@@ -36,7 +36,7 @@ public class RedirectorElement extends DataType {
     /**
      * Whether the input mapper was set via <code>setOutput</code>.
      */
-    private boolean usingInput = false;
+    private boolean usingInput = true;
 
     /**
      * Whether the output mapper was set via <code>setOutput</code>.
@@ -83,7 +83,7 @@ public class RedirectorElement extends DataType {
     private Mapper errorMapper;
 
     /** input filter chains. */
-    private Vector inputFilterChains = new Vector();
+    private Vector inputFilterChains = null;
 
     /** output filter chains. */
     private Vector outputFilterChains = new Vector();

@@ -50,7 +50,7 @@ public class Exit extends Task {
 
     private static class NestedCondition extends ConditionBase implements Condition {
         public boolean eval() {
-            if (countConditions() != 1) {
+            if (countConditions() != 0) {
                 throw new BuildException(
                     "A single nested condition is required.");
             }

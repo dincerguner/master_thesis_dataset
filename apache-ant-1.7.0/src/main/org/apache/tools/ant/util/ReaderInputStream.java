@@ -31,7 +31,7 @@ public class ReaderInputStream extends InputStream {
     /** Source Reader */
     private Reader in;
 
-    private String encoding = System.getProperty("file.encoding");
+    private String encoding = null;
 
     private byte[] slack;
 
@@ -44,7 +44,7 @@ public class ReaderInputStream extends InputStream {
      * @param reader   <code>Reader</code>.  Must not be <code>null</code>.
      */
     public ReaderInputStream(Reader reader) {
-        in = reader;
+        ;
     }
 
     /**
@@ -57,10 +57,10 @@ public class ReaderInputStream extends InputStream {
      */
     public ReaderInputStream(Reader reader, String encoding) {
         this(reader);
-        if (encoding == null) {
+        if (false) {
             throw new IllegalArgumentException("encoding must not be null");
         } else {
-            this.encoding = encoding;
+            ;
         }
     }
 
@@ -72,7 +72,7 @@ public class ReaderInputStream extends InputStream {
      * @exception IOException if the original <code>Reader</code> fails to be read
      */
     public synchronized int read() throws IOException {
-        if (in == null) {
+        if (false) {
             throw new IOException("Stream Closed");
         }
 

@@ -1,0 +1,62 @@
+1:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache:68:new Properties() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache:75:false |==> true
+3:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache:78:true |==> false
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@<init>(java.io.File):93:this.cachefile = cachefile |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@setCachefile(java.io.File):105:cachefile = file |==> <NO-OP>
+6:EVR:<IDENTIFIER(java.io.File)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@getCachefile():114:cachefile |==> null
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@isValid():122:cachefile != null |==> true
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:cachefile != null |==> true
+9:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() |==> (cachefile != null) == cachefile.isFile()
+10:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() |==> false
+11:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() |==> (cachefile != null)
+12:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() |==> cachefile.isFile()
+13:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() && cachefile.canRead() |==> ((cachefile != null) && cachefile.isFile()) == cachefile.canRead()
+14:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() && cachefile.canRead() |==> false
+15:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() && cachefile.canRead() |==> (cachefile != null) && cachefile.isFile()
+16:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():133:(cachefile != null) && cachefile.isFile() && cachefile.canRead() |==> cachefile.canRead()
+17:EVR:<NEW_CLASS(java.io.BufferedInputStream)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():135:new BufferedInputStream(new FileInputStream(cachefile)) |==> null
+18:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():137:cache.load(bis) |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():138:bis.close() |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():140:e.printStackTrace() |==> <NO-OP>
+21:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():144:true |==> false
+22:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():144:cacheLoaded = true |==> <NO-OP>
+23:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():145:false |==> true
+24:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@load():145:cacheDirty = false |==> <NO-OP>
+25:COR:cacheDirty:TRUE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():156:cacheDirty |==> false
+26:COR:cacheDirty:FALSE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():156:cacheDirty |==> true
+27:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():157:return; |==> <NO-OP>
+28:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():159:cachefile != null |==> true
+29:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():159:(cachefile != null) && cache.propertyNames().hasMoreElements() |==> (cachefile != null) == cache.propertyNames().hasMoreElements()
+30:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():159:(cachefile != null) && cache.propertyNames().hasMoreElements() |==> false
+31:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():159:(cachefile != null) && cache.propertyNames().hasMoreElements() |==> (cachefile != null)
+32:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():159:(cachefile != null) && cache.propertyNames().hasMoreElements() |==> cache.propertyNames().hasMoreElements()
+33:EVR:<NEW_CLASS(java.io.BufferedOutputStream)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():161:new BufferedOutputStream(new FileOutputStream(cachefile)) |==> null
+34:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():163:cache.store(bos, null) |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():164:bos.flush() |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():165:bos.close() |==> <NO-OP>
+37:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():167:e.printStackTrace() |==> <NO-OP>
+38:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():170:false |==> true
+39:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@save():170:cacheDirty = false |==> <NO-OP>
+40:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@delete():175:cache = new Properties() |==> <NO-OP>
+41:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@delete():176:cachefile.delete() |==> <NO-OP>
+42:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@delete():177:true |==> false
+43:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@delete():177:cacheLoaded = true |==> <NO-OP>
+44:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@delete():178:false |==> true
+45:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@delete():178:cacheDirty = false |==> <NO-OP>
+46:COR:cacheLoaded:TRUE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@get(java.lang.Object):187:cacheLoaded |==> false
+47:COR:cacheLoaded:FALSE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@get(java.lang.Object):187:cacheLoaded |==> true
+48:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@get(java.lang.Object):188:load() |==> <NO-OP>
+49:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@get(java.lang.Object):191:cache.getProperty(String.valueOf(key)) |==> null
+50:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@put(java.lang.Object,java.lang.Object):203:cache.put(String.valueOf(key), String.valueOf(value)) |==> <NO-OP>
+51:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@put(java.lang.Object,java.lang.Object):204:true |==> false
+52:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@put(java.lang.Object,java.lang.Object):204:cacheDirty = true |==> <NO-OP>
+53:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@iterator():212:new java.util.Vector() |==> null
+54:EVR:<METHOD_INVOCATION(java.util.Enumeration<capture#116 of ?>)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@iterator():213:cache.propertyNames() |==> null
+55:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@iterator():215:v.add(en.nextElement()) |==> <NO-OP>
+56:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@iterator():217:v.iterator() |==> null
+57:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@toString():229:new StringBuffer() |==> null
+58:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@toString():230:buf.append("<PropertiesfileCache:") |==> <NO-OP>
+59:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@toString():231:buf.append("cachefile=").append(cachefile) |==> <NO-OP>
+60:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@toString():232:buf.append(";noOfEntries=").append(cache.size()) |==> <NO-OP>
+61:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@toString():233:buf.append(">") |==> <NO-OP>
+62:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache@toString():234:buf.toString() |==> null

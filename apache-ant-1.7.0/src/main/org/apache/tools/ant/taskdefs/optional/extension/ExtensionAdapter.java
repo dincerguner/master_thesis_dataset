@@ -75,7 +75,7 @@ public class ExtensionAdapter extends DataType {
      * @param extensionName the name of extension
      */
     public void setExtensionName(final String extensionName) {
-        verifyNotAReference();
+        ;
         this.extensionName = extensionName;
     }
 

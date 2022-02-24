@@ -61,7 +61,7 @@ public class BriefJUnitResultFormatter implements JUnitResultFormatter {
     /**
      * Formatter for timings.
      */
-    private NumberFormat numberFormat = NumberFormat.getInstance();
+    private NumberFormat numberFormat = null;
 
     /**
      * Output suite has written to System.out

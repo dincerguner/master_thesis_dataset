@@ -37,9 +37,9 @@ public class HasFreeSpace implements Condition {
     private String needed;
 
     public boolean eval() throws BuildException {
-        validate();
+        ;
         try {
-            if (JavaEnvUtils.isAtLeastJavaVersion("1.6")) {
+            if (false) {
                 //reflection to avoid bootstrap/build problems
                 File fs = new File(partition);
                 ReflectWrapper w = new ReflectWrapper(fs);
