@@ -1,0 +1,44 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.util.ScriptRunnerBase:41:false |==> true
+2:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase:56:new HashMap() |==> null
+3:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@addBeans(java.util.Map):65:dictionary.keySet().iterator() |==> null
+4:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@addBeans(java.util.Map):66:(String)i.next() |==> null
+5:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@addBeans(java.util.Map):68:dictionary.get(key) |==> null
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ScriptRunnerBase@addBeans(java.util.Map):69:addBean(key, val) |==> <NO-OP>
+7:LVR:0:POS:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):86:0 |==> 1
+8:LVR:0:NEG:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):86:0 |==> -1
+9:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):86:key.length() > 0 |==> key.length() != 0
+10:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):86:key.length() > 0 |==> key.length() >= 0
+11:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):86:key.length() > 0 |==> false
+12:LVR:0:POS:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):87:0 |==> 1
+13:LVR:0:NEG:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):87:0 |==> -1
+14:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):86:key.length() > 0 && Character.isJavaIdentifierStart(key.charAt(0)) |==> key.length() > 0 == Character.isJavaIdentifierStart(key.charAt(0))
+15:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):87:key.length() > 0 && Character.isJavaIdentifierStart(key.charAt(0)) |==> false
+16:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):86:key.length() > 0 && Character.isJavaIdentifierStart(key.charAt(0)) |==> key.length() > 0
+17:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):87:key.length() > 0 && Character.isJavaIdentifierStart(key.charAt(0)) |==> Character.isJavaIdentifierStart(key.charAt(0))
+18:LVR:POS:0:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:1 |==> 0
+19:LVR:POS:NEG:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:1 |==> -1
+20:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:i < key.length() |==> i != key.length()
+21:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:i < key.length() |==> i <= key.length()
+22:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:i < key.length() |==> false
+23:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:isValid && i < key.length() |==> isValid == i < key.length()
+24:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:isValid && i < key.length() |==> false
+25:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:isValid && i < key.length() |==> isValid
+26:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):89:isValid && i < key.length() |==> i < key.length()
+27:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):90:Character.isJavaIdentifierPart(key.charAt(i)) |==> false
+28:COR:isValid:TRUE:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):93:isValid |==> false
+29:COR:isValid:FALSE:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):93:isValid |==> true
+30:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ScriptRunnerBase@addBean(java.lang.String,java.lang.Object):94:beans.put(key, bean) |==> <NO-OP>
+31:EVR:<IDENTIFIER(java.util.Map)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@getBeans():103:beans |==> null
+32:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@setLanguage(java.lang.String):141:language |==> null
+33:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@getLanguage():149:language |==> null
+34:EVR:<IDENTIFIER(java.lang.ClassLoader)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@setScriptClassLoader(java.lang.ClassLoader):157:classLoader |==> null
+35:EVR:<IDENTIFIER(java.lang.ClassLoader)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@getScriptClassLoader():165:scriptLoader |==> null
+36:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@setKeepEngine(boolean):173:keepEngine |==> false
+37:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@getKeepEngine():181:keepEngine |==> false
+38:COR:file.exists():TRUE:org.apache.tools.ant.util.ScriptRunnerBase@setSrc(java.io.File):189:file.exists() |==> false
+39:COR:file.exists():FALSE:org.apache.tools.ant.util.ScriptRunnerBase@setSrc(java.io.File):189:file.exists() |==> true
+40:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@setSrc(java.io.File):194:new BufferedReader(new FileReader(file)) |==> null
+41:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ScriptRunnerBase@setSrc(java.io.File):195:script += FileUtils.readFully(in) |==> <NO-OP>
+42:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ScriptRunnerBase@setSrc(java.io.File):199:FileUtils.close(in) |==> <NO-OP>
+43:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ScriptRunnerBase@addText(java.lang.String):209:this.script += text |==> <NO-OP>
+44:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerBase@getScript():217:script |==> null

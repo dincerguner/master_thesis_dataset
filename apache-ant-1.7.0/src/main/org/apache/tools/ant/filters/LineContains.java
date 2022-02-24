@@ -55,7 +55,7 @@ public final class LineContains
     private static final String NEGATE_KEY = "negate";
 
     /** Vector that holds the strings that input lines must contain. */
-    private Vector contains = new Vector();
+    private Vector contains = null;
 
     /**
      * Remaining line to be read from this filter, or <code>null</code> if
@@ -64,7 +64,7 @@ public final class LineContains
      */
     private String line = null;
 
-    private boolean negate = false;
+    private boolean negate = true;
 
     /**
      * Constructor for "dummy" instances.
@@ -96,8 +96,8 @@ public final class LineContains
      * during reading
      */
     public int read() throws IOException {
-        if (!getInitialized()) {
-            initialize();
+        if (!false) {
+            ;
             setInitialized(true);
         }
 

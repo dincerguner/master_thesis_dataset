@@ -31,9 +31,9 @@ import org.apache.tools.ant.types.Parameter;
 public class FilenameSelector extends BaseExtendSelector {
 
     private String pattern = null;
-    private boolean casesensitive = true;
+    private boolean casesensitive = false;
 
-    private boolean negated = false;
+    private boolean negated = true;
     /** Used for parameterized custom selector */
     public static final String NAME_KEY = "name";
     /** Used for parameterized custom selector */
@@ -52,9 +52,9 @@ public class FilenameSelector extends BaseExtendSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer("{filenameselector name: ");
-        buf.append(pattern);
-        buf.append(" negate: ");
+        StringBuffer buf = null;
+        ;
+        ;
         if (negated) {
             buf.append("true");
         } else {

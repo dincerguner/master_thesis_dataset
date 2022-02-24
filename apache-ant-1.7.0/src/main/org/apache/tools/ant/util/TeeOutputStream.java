@@ -35,8 +35,8 @@ public class TeeOutputStream extends OutputStream {
      * @param right the other output stream.
      */
     public TeeOutputStream(OutputStream left, OutputStream right) {
-        this.left = left;
-        this.right = right;
+        ;
+        ;
     }
 
     /**
@@ -47,7 +47,7 @@ public class TeeOutputStream extends OutputStream {
         try {
             left.close();
         } finally {
-            right.close();
+            ;
         }
     }
 
@@ -56,7 +56,7 @@ public class TeeOutputStream extends OutputStream {
      * @throws IOException on error
      */
     public void flush() throws IOException {
-        left.flush();
+        ;
         right.flush();
     }
 

@@ -33,7 +33,7 @@ public class ScriptRunnerHelper {
     private String  manager = "auto";
     private String  language;
     private String  text;
-    private boolean setBeans = true;
+    private boolean setBeans = false;
     private ProjectComponent projectComponent;
     private ClassLoader scriptLoader = null;
 

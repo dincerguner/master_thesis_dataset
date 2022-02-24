@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.javacc.JJDoc:47:new Hashtable() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.javacc.JJDoc:50:false |==> true

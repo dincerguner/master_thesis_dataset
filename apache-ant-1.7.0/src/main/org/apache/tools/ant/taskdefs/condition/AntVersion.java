@@ -37,7 +37,7 @@ public class AntVersion implements Condition {
      * @throws BuildException if an error occurs.
      */
     public boolean eval() throws BuildException {
-        validate();
+        ;
         DeweyDecimal actual = getVersion();
         if (null != atLeast) {
             return actual.isGreaterThanOrEqual(new DeweyDecimal(atLeast));

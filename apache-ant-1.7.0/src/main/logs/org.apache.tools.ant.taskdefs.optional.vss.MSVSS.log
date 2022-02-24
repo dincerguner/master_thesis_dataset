@@ -1,0 +1,7 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.vss.MSVSS:85:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.vss.MSVSS:87:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.vss.MSVSS:89:false |==> true
+4:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.vss.MSVSS:91:true |==> false
+5:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.vss.MSVSS:93:true |==> false
+6:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.vss.MSVSS:95:Integer.MIN_VALUE |==> 0
+7:EVR:<METHOD_INVOCATION(java.text.DateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.vss.MSVSS:97:DateFormat.getDateInstance(DateFormat.SHORT) |==> null

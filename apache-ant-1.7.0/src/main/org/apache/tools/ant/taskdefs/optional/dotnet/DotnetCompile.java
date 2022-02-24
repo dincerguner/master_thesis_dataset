@@ -78,7 +78,7 @@ public abstract class DotnetCompile
     /**
      *  flag to enable automatic reference inclusion
      */
-    private boolean includeDefaultReferences = true;
+    private boolean includeDefaultReferences = false;
 
     /**
      *  icon for incorporation into apps
@@ -111,7 +111,7 @@ public abstract class DotnetCompile
     /**
      * a list of definitions to support;
      */
-    protected Vector definitionList = new Vector();
+    protected Vector definitionList = null;
 
     /**
      * our resources
@@ -158,7 +158,7 @@ public abstract class DotnetCompile
      *  utf out flag
      */
 
-    protected boolean utf8output = false;
+    protected boolean utf8output = true;
 
     /**
      *  list of extra modules to refer to
@@ -167,7 +167,7 @@ public abstract class DotnetCompile
     /**
      * filesets of references
      */
-    protected Vector referenceFilesets = new Vector();
+    protected Vector referenceFilesets = null;
 
     /**
      * flag to set to to use @file based command cache

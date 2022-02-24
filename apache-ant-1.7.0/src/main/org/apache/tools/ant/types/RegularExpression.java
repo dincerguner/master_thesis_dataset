@@ -59,7 +59,7 @@ import org.apache.tools.ant.util.regexp.RegexpFactory;
 public class RegularExpression extends DataType {
     /** Name of this data type */
     public static final String DATA_TYPE_NAME = "regexp";
-    private boolean alreadyInit = false;
+    private boolean alreadyInit = true;
 
     // The regular expression factory
     private static final RegexpFactory FACTORY = new RegexpFactory();

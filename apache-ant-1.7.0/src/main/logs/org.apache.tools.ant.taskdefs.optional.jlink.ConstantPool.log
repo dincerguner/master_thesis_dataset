@@ -1,0 +1,43 @@
+1:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):51:data.readUnsignedShort() |==> 0
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):52:types = new byte[count] |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):53:values = new Object[count] |==> <NO-OP>
+4:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):55:1 |==> 0
+5:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):55:1 |==> -1
+6:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):55:i < count |==> i != count
+7:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):55:i < count |==> i <= count
+8:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):55:i < count |==> false
+9:EVR:<METHOD_INVOCATION(byte)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):56:data.readByte() |==> 0
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):57:types[i] = type |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):60:values[i] = data.readUTF() |==> <NO-OP>
+12:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):61:break; |==> <NO-OP>
+13:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):64:break; |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):67:values[i] = new Integer(data.readInt()) |==> <NO-OP>
+15:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):68:break; |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):71:values[i] = new Float(data.readFloat()) |==> <NO-OP>
+17:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):72:break; |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):75:values[i] = new Long(data.readLong()) |==> <NO-OP>
+19:STD:<INC>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):76:++i |==> <NO-OP>
+20:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):77:break; |==> <NO-OP>
+21:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):80:values[i] = new Double(data.readDouble()) |==> <NO-OP>
+22:STD:<INC>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):81:++i |==> <NO-OP>
+23:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):82:break; |==> <NO-OP>
+24:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):86:values[i] = new Integer(data.readUnsignedShort()) |==> <NO-OP>
+25:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):87:break; |==> <NO-OP>
+26:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):93:values[i] = new Integer(data.readInt()) |==> <NO-OP>
+27:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool@<init>(java.io.DataInput):94:break; |==> <NO-OP>
+28:EVR:<NEW_CLASS(java.io.DataInputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):117:new DataInputStream(input) |==> null
+29:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):119:data.readInt() |==> 0
+30:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):120:-889275714 |==> 0
+31:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):120:-889275714 |==> 889275714
+32:ROR:!=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):120:cookie != -889275714 |==> cookie < -889275714
+33:ROR:!=(int,int):>(int,int):org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):120:cookie != -889275714 |==> cookie > -889275714
+34:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):120:cookie != -889275714 |==> true
+35:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):121:return null; |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):123:data.readInt() |==> <NO-OP>
+37:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):125:new ConstantPool(data) |==> null
+38:EVR:<MEMBER_SELECT(java.lang.Object[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):126:constants.values |==> null
+39:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):128:data.readUnsignedShort() |==> <NO-OP>
+40:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):129:data.readUnsignedShort() |==> 0
+41:EVR:<TYPE_CAST(java.lang.Integer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):130:(Integer)values[classIndex] |==> null
+42:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):131:(String)values[stringIndex.intValue()] |==> null
+43:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader@getClassName(java.io.InputStream):132:className |==> null

@@ -1,0 +1,48 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.filters.BaseFilterReader:36:false |==> true
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.BaseFilterReader@<init>():51:FileUtils.close(this) |==> <NO-OP>
+3:LVR:0:POS:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):82:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):82:0 |==> -1
+5:ROR:<(int,int):!=(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):82:i < len |==> i != len
+6:ROR:<(int,int):<=(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):82:i < len |==> i <= len
+7:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):82:i < len |==> false
+8:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):83:read() |==> 0
+9:LVR:NEG:0:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):84:-1 |==> 0
+10:LVR:NEG:POS:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):84:-1 |==> 1
+11:ROR:==(int,int):<=(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):84:ch == -1 |==> ch <= -1
+12:ROR:==(int,int):>=(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):84:ch == -1 |==> ch >= -1
+13:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):84:ch == -1 |==> false
+14:LVR:0:POS:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):85:0 |==> 1
+15:LVR:0:NEG:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):85:0 |==> -1
+16:ROR:==(int,int):<=(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):85:i == 0 |==> i <= 0
+17:ROR:==(int,int):>=(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):85:i == 0 |==> i >= 0
+18:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):85:i == 0 |==> false
+19:LVR:NEG:0:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):86:-1 |==> 0
+20:LVR:NEG:POS:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):86:-1 |==> 1
+21:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):86:return Config.__M_NO == 0 && Config.COVERED(19, 20) ? -1 : Config.__M_NO == 20 ? 1 : Config.__M_NO == 19 ? 0 : -1; |==> <NO-OP>
+22:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):88:return i; |==> <NO-OP>
+23:AOR:+(int,int):%(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):91:off + i |==> off % i
+24:AOR:+(int,int):*(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):91:off + i |==> off * i
+25:AOR:+(int,int):-(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):91:off + i |==> off - i
+26:AOR:+(int,int):/(int,int):org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):91:off + i |==> off / i
+27:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):91:cbuf[off + i] = (char)ch |==> <NO-OP>
+28:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.filters.BaseFilterReader@read(char[],int,int):93:len |==> 0
+29:LVR:0:POS:org.apache.tools.ant.filters.BaseFilterReader@skip(long):109:0L |==> 1L
+30:LVR:0:NEG:org.apache.tools.ant.filters.BaseFilterReader@skip(long):109:0L |==> -1L
+31:ROR:<(long,long):!=(long,long):org.apache.tools.ant.filters.BaseFilterReader@skip(long):109:n < 0L |==> n != 0L
+32:ROR:<(long,long):<=(long,long):org.apache.tools.ant.filters.BaseFilterReader@skip(long):109:n < 0L |==> n <= 0L
+33:ROR:<(long,long):FALSE(long,long):org.apache.tools.ant.filters.BaseFilterReader@skip(long):109:n < 0L |==> false
+34:LVR:0:POS:org.apache.tools.ant.filters.BaseFilterReader@skip(long):113:0 |==> 1
+35:LVR:0:NEG:org.apache.tools.ant.filters.BaseFilterReader@skip(long):113:0 |==> -1
+36:ROR:<(long,long):!=(long,long):org.apache.tools.ant.filters.BaseFilterReader@skip(long):113:i < n |==> i != n
+37:ROR:<(long,long):<=(long,long):org.apache.tools.ant.filters.BaseFilterReader@skip(long):113:i < n |==> i <= n
+38:ROR:<(long,long):FALSE(long,long):org.apache.tools.ant.filters.BaseFilterReader@skip(long):113:i < n |==> false
+39:LVR:NEG:0:org.apache.tools.ant.filters.BaseFilterReader@skip(long):114:-1 |==> 0
+40:LVR:NEG:POS:org.apache.tools.ant.filters.BaseFilterReader@skip(long):114:-1 |==> 1
+41:ROR:==(int,int):<=(int,int):org.apache.tools.ant.filters.BaseFilterReader@skip(long):114:read() == -1 |==> read() <= -1
+42:ROR:==(int,int):>=(int,int):org.apache.tools.ant.filters.BaseFilterReader@skip(long):114:read() == -1 |==> read() >= -1
+43:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.filters.BaseFilterReader@skip(long):114:read() == -1 |==> false
+44:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.filters.BaseFilterReader@skip(long):115:return i; |==> <NO-OP>
+45:EVR:<IDENTIFIER(long)>:<DEFAULT>:org.apache.tools.ant.filters.BaseFilterReader@skip(long):118:n |==> 0L
+46:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.filters.BaseFilterReader@setInitialized(boolean):127:this.initialized = initialized |==> <NO-OP>
+47:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.filters.BaseFilterReader@getInitialized():136:initialized |==> false
+48:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.filters.BaseFilterReader@setProject(Project):146:this.project = project |==> <NO-OP>

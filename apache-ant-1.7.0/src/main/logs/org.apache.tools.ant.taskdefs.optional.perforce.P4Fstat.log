@@ -1,0 +1,10 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:57:new Vector() |==> null
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:59:DEFAULT_CMD_LENGTH |==> 0
+3:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:63:SHOW_NON_EXISTING |==> 0
+4:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:66:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:66:0 |==> -1
+6:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:67:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:67:0 |==> -1
+8:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat:68:false |==> true
+9:COR:filter.equalsIgnoreCase("all"):TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat@setShowFilter(java.lang.String):86:filter.equalsIgnoreCase("all") |==> false
+10:COR:filter.equalsIgnoreCase("all"):FALSE:org.apache.tools.ant.taskdefs.optional.perforce.P4Fstat@setShowFilter(java.lang.String):86:filter.equalsIgnoreCase("all") |==> true

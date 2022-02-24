@@ -83,9 +83,9 @@ public class CCMkbl extends ClearCase {
     private String mComment = null;
     private String mCfile = null;
     private String mBaselineRootName = null;
-    private boolean mNwarn = false;
-    private boolean mIdentical = true;
-    private boolean mFull = false;
+    private boolean mNwarn = true;
+    private boolean mIdentical = false;
+    private boolean mFull = true;
     private boolean mNlabel = false;
 
 

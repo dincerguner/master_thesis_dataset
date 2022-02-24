@@ -35,8 +35,8 @@ import org.apache.tools.ant.Task;
 public class ConcatFileInputStream extends InputStream {
 
     private static final int EOF = -1;
-    private int currentIndex = -1;
-    private boolean eof = false;
+    private int currentIndex = 0;
+    private boolean eof = true;
     private File[] file;
     private InputStream currentStream;
     private ProjectComponent managingPc;

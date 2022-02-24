@@ -1,0 +1,12 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):42:o1 == null |==> false
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):43:o2 == null |==> false
+3:LVR:POS:0:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):44:1 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):44:1 |==> -1
+5:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):44:return Config.__M_NO == 0 && Config.COVERED(3, 4) ? 1 : Config.__M_NO == 4 ? -1 : Config.__M_NO == 3 ? 0 : 1; |==> <NO-OP>
+6:LVR:0:POS:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):46:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):46:0 |==> -1
+8:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):46:return Config.__M_NO == 0 && Config.COVERED(6, 7) ? 0 : Config.__M_NO == 7 ? -1 : Config.__M_NO == 6 ? 1 : 0; |==> <NO-OP>
+9:LVR:0:POS:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):48:0 |==> 1
+10:LVR:0:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):48:0 |==> -1
+11:LVR:POS:0:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):48:1 |==> 0
+12:LVR:POS:NEG:org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator@compare(java.lang.Object,java.lang.Object):48:1 |==> -1

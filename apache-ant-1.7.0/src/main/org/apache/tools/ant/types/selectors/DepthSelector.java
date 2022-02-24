@@ -35,7 +35,7 @@ public class DepthSelector extends BaseExtendSelector {
     // CheckStyle:VisibilityModifier OFF - bc
 
     /** min attribute */
-    public int min = -1;
+    public int min = 0;
     /** max attribute */
     public int max = -1;
 
@@ -57,7 +57,7 @@ public class DepthSelector extends BaseExtendSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer("{depthselector min: ");
+        StringBuffer buf = null;
         buf.append(min);
         buf.append(" max: ");
         buf.append(max);

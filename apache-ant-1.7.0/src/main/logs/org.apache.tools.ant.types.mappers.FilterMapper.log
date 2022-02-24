@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(java.io.StringReader)>:<DEFAULT>:org.apache.tools.ant.types.mappers.FilterMapper@mapFileName(java.lang.String):65:new StringReader(sourceFileName) |==> null

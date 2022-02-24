@@ -65,7 +65,7 @@ import org.apache.tools.ant.types.Commandline;
 public class CCMkdir extends ClearCase {
     private String  mComment = null;
     private String  mCfile   = null;
-    private boolean mNoco    = false;
+    private boolean mNoco    = true;
 
     /**
      * Executes the task.

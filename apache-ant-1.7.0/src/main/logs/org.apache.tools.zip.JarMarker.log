@@ -1,0 +1,7 @@
+1:LVR:POS:0:org.apache.tools.zip.JarMarker:31:51966 |==> 0
+2:LVR:POS:NEG:org.apache.tools.zip.JarMarker:31:51966 |==> -51966
+3:LVR:0:POS:org.apache.tools.zip.JarMarker:32:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.zip.JarMarker:32:0 |==> -1
+5:LVR:0:POS:org.apache.tools.zip.JarMarker:33:0 |==> 1
+6:LVR:0:NEG:org.apache.tools.zip.JarMarker:33:0 |==> -1
+7:EVR:<NEW_CLASS(org.apache.tools.zip.JarMarker)>:<DEFAULT>:org.apache.tools.zip.JarMarker:34:new JarMarker() |==> null

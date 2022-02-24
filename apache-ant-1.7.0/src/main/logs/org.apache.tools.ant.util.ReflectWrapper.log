@@ -1,0 +1,6 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.util.ReflectWrapper@<init>(java.lang.ClassLoader,java.lang.String):39:true |==> false
+2:EVR:<METHOD_INVOCATION(java.lang.reflect.Constructor)>:<DEFAULT>:org.apache.tools.ant.util.ReflectWrapper@<init>(java.lang.ClassLoader,java.lang.String):41:clazz.getConstructor((Class[])null) |==> null
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReflectWrapper@<init>(java.lang.ClassLoader,java.lang.String):42:obj = constructor.newInstance((Object[])null) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ReflectWrapper@<init>(java.lang.ClassLoader,java.lang.String):44:ReflectUtil.throwBuildException(t) |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReflectWrapper@<init>(java.lang.Object):53:this.obj = obj |==> <NO-OP>
+6:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.util.ReflectWrapper@getObject():60:obj |==> null

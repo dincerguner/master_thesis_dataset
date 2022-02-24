@@ -30,20 +30,19 @@ import org.apache.tools.ant.BuildException;
  */
 public class Comparison extends EnumeratedAttribute {
     private static final String[] VALUES
-        = new String[] {"equal", "greater", "less",
-                        "ne", "ge", "le", "eq", "gt", "lt", "more"};
+        = null;
 
     /** Equal Comparison. */
-    public static final Comparison EQUAL = new Comparison("equal");
+    public static final Comparison EQUAL = null;
 
     /** Not-Equal Comparison. */
-    public static final Comparison NOT_EQUAL = new Comparison("ne");
+    public static final Comparison NOT_EQUAL = null;
 
     /** Greater Comparison. */
-    public static final Comparison GREATER = new Comparison("greater");
+    public static final Comparison GREATER = null;
 
     /** Less Comparison. */
-    public static final Comparison LESS = new Comparison("less");
+    public static final Comparison LESS = null;
 
     /** Greater-or-Equal Comparison. */
     public static final Comparison GREATER_EQUAL = new Comparison("ge");

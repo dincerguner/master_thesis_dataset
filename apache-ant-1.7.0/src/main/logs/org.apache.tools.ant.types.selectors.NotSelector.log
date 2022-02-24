@@ -1,0 +1,7 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.NotSelector@<init>(FileSelector):45:appendSelector(other) |==> <NO-OP>
+2:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.NotSelector@toString():52:new StringBuffer() |==> null
+3:COR:hasSelectors():TRUE:org.apache.tools.ant.types.selectors.NotSelector@toString():53:hasSelectors() |==> false
+4:COR:hasSelectors():FALSE:org.apache.tools.ant.types.selectors.NotSelector@toString():53:hasSelectors() |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.NotSelector@toString():54:buf.append("{notselect: ") |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.NotSelector@toString():55:buf.append(super.toString()) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.NotSelector@toString():56:buf.append("}") |==> <NO-OP>

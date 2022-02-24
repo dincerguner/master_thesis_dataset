@@ -1,0 +1,8 @@
+1:LVR:POS:0:org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:8 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:8 |==> -8
+3:LVR:POS:0:org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:1024 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:1024 |==> -1024
+5:AOR:*(int,int):%(int,int):org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:8 * 1024 |==> 8 % 1024
+6:AOR:*(int,int):+(int,int):org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:8 * 1024 |==> 8 + 1024
+7:AOR:*(int,int):-(int,int):org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:8 * 1024 |==> 8 - 1024
+8:AOR:*(int,int):/(int,int):org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm:81:8 * 1024 |==> 8 / 1024

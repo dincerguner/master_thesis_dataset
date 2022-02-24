@@ -48,7 +48,7 @@ public class JarLibDisplayTask extends Task {
      * Filesets specifying all the librarys
      * to display information about.
      */
-    private final Vector libraryFileSets = new Vector();
+    private final Vector libraryFileSets = null;
 
     /**
      * The JAR library to display information for.

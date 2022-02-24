@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.pvcs.PvcsProject@setName(java.lang.String):39:PvcsProject.this.name = name |==> <NO-OP>
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.pvcs.PvcsProject@getName():47:name |==> null

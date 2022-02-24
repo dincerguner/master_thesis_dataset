@@ -1,0 +1,5 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.perforce.P4Sync@setLabel(java.lang.String):64:label == null |==> false
+2:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Sync@setLabel(java.lang.String):64:label == null || label.equals("") |==> label == null != label.equals("")
+3:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Sync@setLabel(java.lang.String):64:label == null || label.equals("") |==> label == null
+4:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Sync@setLabel(java.lang.String):64:label == null || label.equals("") |==> label.equals("")
+5:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Sync@setLabel(java.lang.String):64:label == null || label.equals("") |==> true

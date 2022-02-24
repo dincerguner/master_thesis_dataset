@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.comparators.Reverse@<init>(ResourceComparator):45:add(c) |==> <NO-OP>
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.comparators.Reverse@add(ResourceComparator):53:nested != null |==> true

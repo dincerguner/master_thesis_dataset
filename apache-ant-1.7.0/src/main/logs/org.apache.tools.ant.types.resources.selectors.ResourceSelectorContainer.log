@@ -1,0 +1,10 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer:35:new Vector() |==> null
+2:LVR:0:POS:org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@<init>(ResourceSelector[]):48:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@<init>(ResourceSelector[]):48:0 |==> -1
+4:ROR:<(int,int):!=(int,int):org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@<init>(ResourceSelector[]):48:i < r.length |==> i != r.length
+5:ROR:<(int,int):<=(int,int):org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@<init>(ResourceSelector[]):48:i < r.length |==> i <= r.length
+6:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@<init>(ResourceSelector[]):48:i < r.length |==> false
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@<init>(ResourceSelector[]):49:add(r[i]) |==> <NO-OP>
+8:COR:isReference():TRUE:org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@add(ResourceSelector):58:isReference() |==> false
+9:COR:isReference():FALSE:org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@add(ResourceSelector):58:isReference() |==> true
+10:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer@add(ResourceSelector):61:s == null |==> false

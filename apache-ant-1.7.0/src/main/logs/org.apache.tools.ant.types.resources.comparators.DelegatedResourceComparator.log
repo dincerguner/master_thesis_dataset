@@ -1,0 +1,3 @@
+1:COR:isReference():TRUE:org.apache.tools.ant.types.resources.comparators.DelegatedResourceComparator@add(ResourceComparator):43:isReference() |==> false
+2:COR:isReference():FALSE:org.apache.tools.ant.types.resources.comparators.DelegatedResourceComparator@add(ResourceComparator):43:isReference() |==> true
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.comparators.DelegatedResourceComparator@add(ResourceComparator):46:c == null |==> false

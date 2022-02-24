@@ -1,0 +1,98 @@
+1:EVR:<NEW_CLASS(java.io.ByteArrayOutputStream)>:<DEFAULT>:org.apache.tools.ant.util.LineOrientedOutputStream:43:new ByteArrayOutputStream(INTIAL_SIZE) |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.util.LineOrientedOutputStream:44:false |==> true
+3:EVR:<TYPE_CAST(byte)>:<DEFAULT>:org.apache.tools.ant.util.LineOrientedOutputStream@write(int):54:(byte)cc |==> 0
+4:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:c == LF |==> c <= LF
+5:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:c == LF |==> c >= LF
+6:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:c == LF |==> false
+7:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:c == CR |==> c <= CR
+8:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:c == CR |==> c >= CR
+9:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:c == CR |==> false
+10:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:(c == LF) || (c == CR) |==> (c == LF) != (c == CR)
+11:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:(c == LF) || (c == CR) |==> (c == LF)
+12:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:(c == LF) || (c == CR) |==> (c == CR)
+13:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):55:(c == LF) || (c == CR) |==> true
+14:COR:skip:TRUE:org.apache.tools.ant.util.LineOrientedOutputStream@write(int):56:skip |==> false
+15:COR:skip:FALSE:org.apache.tools.ant.util.LineOrientedOutputStream@write(int):56:skip |==> true
+16:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(int):57:processBuffer() |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(int):60:buffer.write(cc) |==> <NO-OP>
+18:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):62:c == CR |==> c <= CR
+19:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):62:c == CR |==> c >= CR
+20:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(int):62:c == CR |==> false
+21:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(int):62:skip = (c == CR) |==> <NO-OP>
+22:LVR:0:POS:org.apache.tools.ant.util.LineOrientedOutputStream@flush():70:0 |==> 1
+23:LVR:0:NEG:org.apache.tools.ant.util.LineOrientedOutputStream@flush():70:0 |==> -1
+24:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@flush():70:buffer.size() > 0 |==> buffer.size() != 0
+25:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@flush():70:buffer.size() > 0 |==> buffer.size() >= 0
+26:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@flush():70:buffer.size() > 0 |==> false
+27:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@flush():71:processBuffer() |==> <NO-OP>
+28:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@processBuffer():82:processLine(buffer.toString()) |==> <NO-OP>
+29:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@processBuffer():84:buffer.reset() |==> <NO-OP>
+30:LVR:0:POS:org.apache.tools.ant.util.LineOrientedOutputStream@close():101:0 |==> 1
+31:LVR:0:NEG:org.apache.tools.ant.util.LineOrientedOutputStream@close():101:0 |==> -1
+32:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@close():101:buffer.size() > 0 |==> buffer.size() != 0
+33:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@close():101:buffer.size() > 0 |==> buffer.size() >= 0
+34:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@close():101:buffer.size() > 0 |==> false
+35:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@close():102:processBuffer() |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@close():104:super.close() |==> <NO-OP>
+37:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):118:off |==> 0
+38:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):119:offset |==> 0
+39:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):120:len |==> 0
+40:LVR:0:POS:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):121:0 |==> 1
+41:LVR:0:NEG:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):121:0 |==> -1
+42:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):121:remaining > 0 |==> remaining != 0
+43:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):121:remaining > 0 |==> remaining >= 0
+44:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):121:remaining > 0 |==> false
+45:LVR:0:POS:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:0 |==> 1
+46:LVR:0:NEG:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:0 |==> -1
+47:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 |==> remaining != 0
+48:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 |==> remaining >= 0
+49:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 |==> false
+50:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:b[offset] != LF |==> b[offset] < LF
+51:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:b[offset] != LF |==> b[offset] > LF
+52:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:b[offset] != LF |==> true
+53:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF |==> remaining > 0 == (b[offset] != LF)
+54:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF |==> false
+55:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF |==> remaining > 0
+56:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF |==> b[offset] != LF
+57:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:b[offset] != CR |==> b[offset] < CR
+58:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:b[offset] != CR |==> b[offset] > CR
+59:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:b[offset] != CR |==> true
+60:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF && b[offset] != CR |==> (remaining > 0 && b[offset] != LF) == (b[offset] != CR)
+61:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF && b[offset] != CR |==> false
+62:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF && b[offset] != CR |==> remaining > 0 && b[offset] != LF
+63:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):122:remaining > 0 && b[offset] != LF && b[offset] != CR |==> b[offset] != CR
+64:STD:<INC>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):123:offset++ |==> <NO-OP>
+65:STD:<DEC>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):124:remaining-- |==> <NO-OP>
+66:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):127:offset - blockStartOffset |==> offset % blockStartOffset
+67:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):127:offset - blockStartOffset |==> offset * blockStartOffset
+68:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):127:offset - blockStartOffset |==> offset + blockStartOffset
+69:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):127:offset - blockStartOffset |==> offset / blockStartOffset
+70:LVR:0:POS:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):128:0 |==> 1
+71:LVR:0:NEG:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):128:0 |==> -1
+72:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):128:blockLength > 0 |==> blockLength != 0
+73:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):128:blockLength > 0 |==> blockLength >= 0
+74:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):128:blockLength > 0 |==> false
+75:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):129:buffer.write(b, blockStartOffset, blockLength) |==> <NO-OP>
+76:LVR:0:POS:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:0 |==> 1
+77:LVR:0:NEG:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:0 |==> -1
+78:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:remaining > 0 |==> remaining != 0
+79:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:remaining > 0 |==> remaining >= 0
+80:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:remaining > 0 |==> false
+81:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == LF |==> b[offset] <= LF
+82:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == LF |==> b[offset] >= LF
+83:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == LF |==> false
+84:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == CR |==> b[offset] <= CR
+85:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == CR |==> b[offset] >= CR
+86:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == CR |==> false
+87:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == LF || b[offset] == CR |==> b[offset] == LF != (b[offset] == CR)
+88:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == LF || b[offset] == CR |==> b[offset] == LF
+89:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == LF || b[offset] == CR |==> b[offset] == CR
+90:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:b[offset] == LF || b[offset] == CR |==> true
+91:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:remaining > 0 && (b[offset] == LF || b[offset] == CR) |==> remaining > 0 == (b[offset] == LF || b[offset] == CR)
+92:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:remaining > 0 && (b[offset] == LF || b[offset] == CR) |==> false
+93:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:remaining > 0 && (b[offset] == LF || b[offset] == CR) |==> remaining > 0
+94:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):131:remaining > 0 && (b[offset] == LF || b[offset] == CR) |==> (b[offset] == LF || b[offset] == CR)
+95:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):132:write(b[offset]) |==> <NO-OP>
+96:STD:<INC>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):133:offset++ |==> <NO-OP>
+97:STD:<DEC>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):134:remaining-- |==> <NO-OP>
+98:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.LineOrientedOutputStream@write(byte[],int,int):136:blockStartOffset = offset |==> <NO-OP>

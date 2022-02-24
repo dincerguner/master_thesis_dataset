@@ -123,7 +123,7 @@ public class EchoProperties extends Task {
      *  build errors, and if false, then such errors will be logged, but not
      *  thrown.
      */
-    private boolean failonerror = true;
+    private boolean failonerror = false;
 
     private Vector propertySets = new Vector();
 

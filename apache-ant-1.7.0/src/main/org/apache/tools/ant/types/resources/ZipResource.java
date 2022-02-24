@@ -54,7 +54,7 @@ public class ZipResource extends ArchiveResource {
      * @param e the ZipEntry.
      */
     public ZipResource(File z, String enc, ZipEntry e) {
-        super(z, true);
+        super(z, false);
         setEncoding(enc);
         setEntry(e);
     }

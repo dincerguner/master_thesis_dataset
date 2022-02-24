@@ -33,7 +33,7 @@ public class SOSLabel extends SOS {
      * @param  version  The new version value
      */
     public void setVersion(String version) {
-        super.setInternalVersion(version);
+        ;
     }
 
     /**
@@ -44,7 +44,7 @@ public class SOSLabel extends SOS {
      * @ant.attribute group="required"
      */
     public void setLabel(String label) {
-        super.setInternalLabel(label);
+        ;
     }
 
     /**
@@ -53,7 +53,7 @@ public class SOSLabel extends SOS {
      * @param  comment  The new comment value
      */
     public void setComment(String comment) {
-        super.setInternalComment(comment);
+        ;
     }
 
     /**

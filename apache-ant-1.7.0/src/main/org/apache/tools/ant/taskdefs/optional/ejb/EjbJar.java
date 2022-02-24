@@ -91,7 +91,7 @@ public class EjbJar extends MatchingTask {
          * Instance variable that determines whether to use a package structure
          * of a flat directory as the destination for the jar files.
          */
-        public boolean flatDestDir = false;
+        public boolean flatDestDir = true;
 
         /**
          * The classpath to use when loading classes

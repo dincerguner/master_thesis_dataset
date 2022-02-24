@@ -45,7 +45,7 @@ public class UUEncoder {
      * @param name the name of the encoded buffer.
      */
     public UUEncoder(String name) {
-        this.name = name;
+        ;
     }
 
     /**
@@ -58,9 +58,9 @@ public class UUEncoder {
      */
     public void encode(InputStream is, OutputStream out)
         throws IOException {
-        this.out = out;
-        encodeBegin();
-        byte[] buffer = new byte[MAX_CHARS_PER_LINE * 100];
+        ;
+        ;
+        byte[] buffer = new byte[MAX_CHARS_PER_LINE * 0];
         int count;
         while ((count = is.read(buffer, 0, buffer.length)) != -1) {
             int pos = 0;

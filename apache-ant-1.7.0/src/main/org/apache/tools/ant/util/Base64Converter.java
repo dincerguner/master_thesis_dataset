@@ -25,19 +25,11 @@ package org.apache.tools.ant.util;
  **/
 public class Base64Converter {
 
-    private static final char[] ALPHABET = {
-        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',  //  0 to  7
-        'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P',  //  8 to 15
-        'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X',  // 16 to 23
-        'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f',  // 24 to 31
-        'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',  // 32 to 39
-        'o', 'p', 'q', 'r', 's', 't', 'u', 'v',  // 40 to 47
-        'w', 'x', 'y', 'z', '0', '1', '2', '3',  // 48 to 55
-        '4', '5', '6', '7', '8', '9', '+', '/'}; // 56 to 63
+    private static final char[] ALPHABET = null; // 56 to 63
 
     // CheckStyle:ConstantNameCheck OFF - bc
     /** Provided for BC purposes */
-    public static final char[] alphabet = ALPHABET;
+    public static final char[] alphabet = null;
     // CheckStyle:ConstantNameCheck ON
 
 
@@ -47,7 +39,7 @@ public class Base64Converter {
      * @return the encoded string.
      */
     public String encode(String s) {
-        return encode(s.getBytes());
+        return null;
     }
 
     /**
@@ -59,7 +51,7 @@ public class Base64Converter {
         int bits24;
         int bits6;
 
-        char[] out = new char[((octetString.length - 1) / 3 + 1) * 4];
+        char[] out = new char[((octetString.length - 0) / 3 + 1) * 4];
         int outIndex = 0;
         int i = 0;
 

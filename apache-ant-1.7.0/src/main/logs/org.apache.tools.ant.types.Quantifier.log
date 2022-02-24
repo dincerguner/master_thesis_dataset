@@ -1,0 +1,32 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.types.Quantifier:40:new String[]{"all", "each", "every", "any", "some", "one", "majority", "most", "none"} |==> null
+2:EVR:<NEW_CLASS(org.apache.tools.ant.types.Quantifier)>:<DEFAULT>:org.apache.tools.ant.types.Quantifier:44:new Quantifier("all") |==> null
+3:EVR:<NEW_CLASS(org.apache.tools.ant.types.Quantifier)>:<DEFAULT>:org.apache.tools.ant.types.Quantifier:46:new Quantifier("any") |==> null
+4:EVR:<NEW_CLASS(org.apache.tools.ant.types.Quantifier)>:<DEFAULT>:org.apache.tools.ant.types.Quantifier:48:new Quantifier("one") |==> null
+5:EVR:<NEW_CLASS(org.apache.tools.ant.types.Quantifier)>:<DEFAULT>:org.apache.tools.ant.types.Quantifier:50:new Quantifier("majority") |==> null
+6:EVR:<NEW_CLASS(org.apache.tools.ant.types.Quantifier)>:<DEFAULT>:org.apache.tools.ant.types.Quantifier:52:new Quantifier("none") |==> null
+7:LVR:0:POS:org.apache.tools.ant.types.Quantifier$1@eval(int,int):59:0 |==> 1
+8:LVR:0:NEG:org.apache.tools.ant.types.Quantifier$1@eval(int,int):59:0 |==> -1
+9:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.Quantifier$1@eval(int,int):59:f == 0 |==> f <= 0
+10:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.Quantifier$1@eval(int,int):59:f == 0 |==> f >= 0
+11:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.Quantifier$1@eval(int,int):59:f == 0 |==> false
+12:LVR:0:POS:org.apache.tools.ant.types.Quantifier$2@eval(int,int):63:0 |==> 1
+13:LVR:0:NEG:org.apache.tools.ant.types.Quantifier$2@eval(int,int):63:0 |==> -1
+14:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.Quantifier$2@eval(int,int):63:t > 0 |==> t != 0
+15:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.Quantifier$2@eval(int,int):63:t > 0 |==> t >= 0
+16:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.Quantifier$2@eval(int,int):63:t > 0 |==> false
+17:LVR:POS:0:org.apache.tools.ant.types.Quantifier$3@eval(int,int):67:1 |==> 0
+18:LVR:POS:NEG:org.apache.tools.ant.types.Quantifier$3@eval(int,int):67:1 |==> -1
+19:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.Quantifier$3@eval(int,int):67:t == 1 |==> t <= 1
+20:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.Quantifier$3@eval(int,int):67:t == 1 |==> t >= 1
+21:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.Quantifier$3@eval(int,int):67:t == 1 |==> false
+22:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.Quantifier$4@eval(int,int):71:t > f |==> t != f
+23:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.Quantifier$4@eval(int,int):71:t > f |==> t >= f
+24:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.Quantifier$4@eval(int,int):71:t > f |==> false
+25:LVR:0:POS:org.apache.tools.ant.types.Quantifier$5@eval(int,int):75:0 |==> 1
+26:LVR:0:NEG:org.apache.tools.ant.types.Quantifier$5@eval(int,int):75:0 |==> -1
+27:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.Quantifier$5@eval(int,int):75:t == 0 |==> t <= 0
+28:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.Quantifier$5@eval(int,int):75:t == 0 |==> t >= 0
+29:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.Quantifier$5@eval(int,int):75:t == 0 |==> false
+30:EVR:<NEW_ARRAY(org.apache.tools.ant.types.Quantifier.Predicate[])>:<DEFAULT>:org.apache.tools.ant.types.Quantifier:78:new Predicate[VALUES.length] |==> null
+31:LVR:0:POS:org.apache.tools.ant.types.Quantifier:81:0 |==> 1
+32:LVR:0:NEG:org.apache.tools.ant.types.Quantifier:81:0 |==> -1

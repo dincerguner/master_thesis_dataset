@@ -35,6 +35,6 @@ public class LoadFile extends LoadResource {
      * @param srcFile The new SrcFile value
      */
     public final void setSrcFile(final File srcFile) {
-        addConfigured(new FileResource(srcFile));
+        ;
     }
 }

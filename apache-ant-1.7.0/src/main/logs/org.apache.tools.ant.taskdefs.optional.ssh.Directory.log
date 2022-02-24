@@ -1,0 +1,39 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@<init>(java.io.File,org.apache.tools.ant.taskdefs.optional.ssh.Directory):50:this.parent = parent |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@<init>(java.io.File,org.apache.tools.ant.taskdefs.optional.ssh.Directory):51:this.childDirectories = new ArrayList() |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@<init>(java.io.File,org.apache.tools.ant.taskdefs.optional.ssh.Directory):52:this.files = new ArrayList() |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@<init>(java.io.File,org.apache.tools.ant.taskdefs.optional.ssh.Directory):53:this.directory = directory |==> <NO-OP>
+5:COR:childDirectories.contains(directory):TRUE:org.apache.tools.ant.taskdefs.optional.ssh.Directory@addDirectory(org.apache.tools.ant.taskdefs.optional.ssh.Directory):61:childDirectories.contains(directory) |==> false
+6:COR:childDirectories.contains(directory):FALSE:org.apache.tools.ant.taskdefs.optional.ssh.Directory@addDirectory(org.apache.tools.ant.taskdefs.optional.ssh.Directory):61:childDirectories.contains(directory) |==> true
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@addDirectory(org.apache.tools.ant.taskdefs.optional.ssh.Directory):62:childDirectories.add(directory) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@addFile(java.io.File):71:files.add(file) |==> <NO-OP>
+9:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@directoryIterator():79:childDirectories.iterator() |==> null
+10:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@filesIterator():87:files.iterator() |==> null
+11:EVR:<IDENTIFIER(org.apache.tools.ant.taskdefs.optional.ssh.Directory)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getParent():95:parent |==> null
+12:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ssh.Directory@isRoot():103:parent == null |==> false
+13:EVR:<IDENTIFIER(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getDirectory():111:directory |==> null
+14:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):120:0 |==> 1
+15:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):120:0 |==> -1
+16:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):120:i < childDirectories.size() |==> i != childDirectories.size()
+17:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):120:i < childDirectories.size() |==> i <= childDirectories.size()
+18:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):120:i < childDirectories.size() |==> false
+19:EVR:<TYPE_CAST(org.apache.tools.ant.taskdefs.optional.ssh.Directory)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):121:(Directory)childDirectories.get(i) |==> null
+20:COR:current.getDirectory().equals(dir):TRUE:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):122:current.getDirectory().equals(dir) |==> false
+21:COR:current.getDirectory().equals(dir):FALSE:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):122:current.getDirectory().equals(dir) |==> true
+22:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getChild(java.io.File):123:return current; |==> <NO-OP>
+23:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ssh.Directory@equals(java.lang.Object):137:obj == this |==> false
+24:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ssh.Directory@equals(java.lang.Object):138:true |==> false
+25:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@equals(java.lang.Object):138:return Config.__M_NO == 0 && Config.COVERED(24, 24) ? true : Config.__M_NO == 24 ? false : true; |==> <NO-OP>
+26:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ssh.Directory@equals(java.lang.Object):142:false |==> true
+27:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@equals(java.lang.Object):142:return Config.__M_NO == 0 && Config.COVERED(26, 26) ? false : Config.__M_NO == 26 ? true : false; |==> <NO-OP>
+28:EVR:<TYPE_CAST(org.apache.tools.ant.taskdefs.optional.ssh.Directory)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@equals(java.lang.Object):145:(Directory)obj |==> null
+29:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@equals(java.lang.Object):147:this.directory.equals(d.directory) |==> false
+30:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@hashCode():155:directory.hashCode() |==> 0
+31:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath():163:getPath(directory.getAbsolutePath()) |==> null
+32:EVR:<NEW_CLASS(java.util.StringTokenizer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath(java.lang.String):173:new StringTokenizer(thePath, File.separator) |==> null
+33:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath(java.lang.String):175:new String[tokenizer.countTokens()] |==> null
+34:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath(java.lang.String):177:0 |==> 1
+35:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath(java.lang.String):177:0 |==> -1
+36:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath(java.lang.String):179:path[i] = tokenizer.nextToken() |==> <NO-OP>
+37:STD:<INC>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath(java.lang.String):180:i++ |==> <NO-OP>
+38:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@getPath(java.lang.String):183:path |==> null
+39:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.Directory@fileSize():191:files.size() |==> 0

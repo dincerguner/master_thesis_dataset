@@ -42,7 +42,7 @@ public interface BZip2Constants {
     int N_GROUPS = 6;
     int G_SIZE = 50;
     int N_ITERS = 4;
-    int MAX_SELECTORS = (2 + (900000 / G_SIZE));
+    int MAX_SELECTORS = 0;
     int NUM_OVERSHOOT_BYTES = 20;
 
     /**
@@ -53,7 +53,7 @@ public interface BZip2Constants {
      * location, since it could be modified by malicious code.</p>
      */
     int[] rNums = {
-        619, 720, 127, 481, 931, 816, 813, 233, 566, 247,
+        0, 720, 127, 481, 931, 816, 813, 233, 566, 247,
         985, 724, 205, 454, 863, 491, 741, 242, 949, 214,
         733, 859, 335, 708, 621, 574, 73, 654, 730, 472,
         419, 436, 278, 496, 867, 210, 399, 680, 480, 51,

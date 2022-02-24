@@ -1,0 +1,6 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.resources.TarResource@<init>(java.io.File,TarEntry):56:true |==> false
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.TarResource@<init>(java.io.File,TarEntry):57:setEntry(e) |==> <NO-OP>
+3:LVR:TRUE:FALSE:org.apache.tools.ant.types.resources.TarResource@<init>(Resource,TarEntry):67:true |==> false
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.TarResource@<init>(Resource,TarEntry):68:setEntry(e) |==> <NO-OP>
+5:COR:isReference():TRUE:org.apache.tools.ant.types.resources.TarResource@getInputStream():78:isReference() |==> false
+6:COR:isReference():FALSE:org.apache.tools.ant.types.resources.TarResource@getInputStream():78:isReference() |==> true

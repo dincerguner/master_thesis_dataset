@@ -30,7 +30,7 @@ import java.util.ArrayList;
  */
 class FStatP4OutputHandler extends P4HandlerAdapter {
     private P4Fstat parent;
-    private ArrayList existing = new ArrayList();
+    private ArrayList existing = null;
     private ArrayList nonExisting = new ArrayList();
     private static Perl5Util util = new Perl5Util();
 

@@ -31,6 +31,6 @@ public class OutErrSummaryJUnitResultFormatter
      */
     public OutErrSummaryJUnitResultFormatter() {
         super();
-        setWithOutAndErr(true);
+        setWithOutAndErr(false);
     }
 }

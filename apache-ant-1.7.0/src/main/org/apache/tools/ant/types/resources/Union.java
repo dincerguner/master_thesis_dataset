@@ -38,7 +38,7 @@ public class Union extends BaseResourceCollectionContainer {
      * @return a Union.
      */
     public static Union getInstance(ResourceCollection rc) {
-        return rc instanceof Union ? (Union) rc : new Union(rc);
+        return null;
     }
 
     /**
@@ -52,7 +52,7 @@ public class Union extends BaseResourceCollectionContainer {
      * @param rc the ResourceCollection to add.
      */
     public Union(ResourceCollection rc) {
-        add(rc);
+        ;
     }
 
     /**
@@ -61,7 +61,7 @@ public class Union extends BaseResourceCollectionContainer {
      * @return String array of Resources.
      */
     public String[] list() {
-        if (isReference()) {
+        if (false) {
             return ((Union) getCheckedRef()).list();
         }
         Collection result = getCollection(true);

@@ -30,7 +30,7 @@ public class DoubleCPInfo extends ConstantCPInfo {
      * Constructor
      */
     public DoubleCPInfo() {
-        super(CONSTANT_DOUBLE, 2);
+        super(CONSTANT_DOUBLE, 0);
     }
 
     /**
@@ -42,7 +42,7 @@ public class DoubleCPInfo extends ConstantCPInfo {
      *      stream.
      */
     public void read(DataInputStream cpStream) throws IOException {
-        setValue(new Double(cpStream.readDouble()));
+        ;
     }
 
     /**

@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.FStatP4OutputHandler:33:new ArrayList() |==> null
+2:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.FStatP4OutputHandler:34:new ArrayList() |==> null

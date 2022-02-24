@@ -37,7 +37,7 @@ import org.apache.tools.ant.BuildException;
  * http://issues.apache.org/bugzilla/show_bug.cgi?id=31520</a>
  */
 public class Service extends ProjectComponent {
-    private List providerList = new ArrayList();
+    private List providerList = null;
     private String type;
 
     /**

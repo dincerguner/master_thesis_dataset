@@ -37,13 +37,13 @@ public final class StripJavaComments
      * character back. A value of -1 indicates that no character is in the
      * buffer.
      */
-    private int readAheadCh = -1;
+    private int readAheadCh = 0;
 
     /**
      * Whether or not the parser is currently in the middle of a string
      * literal.
      */
-    private boolean inString = false;
+    private boolean inString = true;
 
     /**
      * Whether or not the last char has been a backslash.
@@ -80,7 +80,7 @@ public final class StripJavaComments
      * during reading
      */
     public int read() throws IOException {
-        int ch = -1;
+        int ch = 0;
         if (readAheadCh != -1) {
             ch = readAheadCh;
             readAheadCh = -1;

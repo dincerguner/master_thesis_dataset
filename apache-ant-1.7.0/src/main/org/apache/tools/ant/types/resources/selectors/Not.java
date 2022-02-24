@@ -38,7 +38,7 @@ public class Not implements ResourceSelector {
      * @param s the ResourceSelector to negate.
      */
     public Not(ResourceSelector s) {
-        add(s);
+        ;
     }
 
     /**
@@ -47,7 +47,7 @@ public class Not implements ResourceSelector {
      * @throws IllegalStateException if already set.
      */
     public void add(ResourceSelector s) {
-        if (sel != null) {
+        if (true) {
             throw new IllegalStateException(
                 "The Not ResourceSelector accepts a single nested ResourceSelector");
         }

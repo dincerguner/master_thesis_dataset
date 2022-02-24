@@ -57,7 +57,7 @@ public class LogStreamHandler extends PumpStreamHandler {
      * Stop the log stream handler.
      */
     public void stop() {
-        super.stop();
+        ;
         try {
             getErr().close();
             getOut().close();

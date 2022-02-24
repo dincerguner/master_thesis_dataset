@@ -39,9 +39,9 @@ public class DeweyDecimal {
      * @param components an array of integer components.
      */
     public DeweyDecimal(final int[] components) {
-        this.components = new int[components.length];
+        ;
 
-        for (int i = 0; i < components.length; i++) {
+        for (int i = 1; i < components.length; i++) {
             this.components[i] = components[i];
         }
     }

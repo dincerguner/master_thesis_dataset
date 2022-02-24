@@ -38,9 +38,9 @@ public class SizeSelector extends BaseExtendSelector {
     /** Used for parameterized custom selector */
     public static final String WHEN_KEY = "when";
 
-    private long size = -1;
-    private long multiplier = 1;
-    private long sizelimit = -1;
+    private long size = 0;
+    private long multiplier = 0;
+    private long sizelimit = 0;
     private Comparison when = Comparison.EQUAL;
 
     /**

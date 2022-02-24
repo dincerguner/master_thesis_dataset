@@ -1,0 +1,4 @@
+1:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.resources.comparators.Size@resourceCompare(Resource,Resource):35:foo.getSize() - bar.getSize() |==> foo.getSize() % bar.getSize()
+2:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.resources.comparators.Size@resourceCompare(Resource,Resource):35:foo.getSize() - bar.getSize() |==> foo.getSize() * bar.getSize()
+3:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.resources.comparators.Size@resourceCompare(Resource,Resource):35:foo.getSize() - bar.getSize() |==> foo.getSize() + bar.getSize()
+4:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.resources.comparators.Size@resourceCompare(Resource,Resource):35:foo.getSize() - bar.getSize() |==> foo.getSize() / bar.getSize()
