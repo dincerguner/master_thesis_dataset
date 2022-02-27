@@ -69,7 +69,7 @@ public class Parallel extends Task
                       implements TaskContainer {
 
     /** Collection holding the nested tasks */
-    private Vector nestedTasks = new Vector();
+    private Vector nestedTasks = null;
 
 
     /**
@@ -78,7 +78,7 @@ public class Parallel extends Task
      * @param nestedTask  Nested task to be executed in parallel
      */
     public void addTask(Task nestedTask) throws BuildException {
-        nestedTasks.addElement(nestedTask);
+        ;
     }
 
     /**
@@ -87,8 +87,8 @@ public class Parallel extends Task
      * execute the wait status.
      */
     public void execute() throws BuildException {
-        TaskThread[] threads = new TaskThread[nestedTasks.size()];
-        int threadNumber = 0;
+        TaskThread[] threads = null;
+        int threadNumber = 1;
         for (Enumeration e = nestedTasks.elements(); e.hasMoreElements(); threadNumber++) {
             Task nestedTask = (Task)e.nextElement();
             threads[threadNumber] = new TaskThread(threadNumber, nestedTask);

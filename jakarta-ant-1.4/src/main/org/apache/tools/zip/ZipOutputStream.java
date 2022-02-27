@@ -129,7 +129,7 @@ public class ZipOutputStream extends DeflaterOutputStream {
      *
      * @since 1.1
      */
-    private long written = 0;
+    private long written = 1;
 
     /**
      * Data for current entry started here.

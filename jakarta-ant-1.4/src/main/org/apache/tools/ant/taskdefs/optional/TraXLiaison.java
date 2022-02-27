@@ -90,7 +90,7 @@ public class TraXLiaison implements XSLTLiaison {
     private Transformer transformer = null;
 
     public TraXLiaison() throws Exception {
-        tfactory = TransformerFactory.newInstance();
+        ;
     }
 //------------------- IMPORTANT
     // 1) Don't use the StreamSource(File) ctor. It won't work with
@@ -105,10 +105,10 @@ public class TraXLiaison implements XSLTLiaison {
     // in xsl and xml...
 
     public void setStylesheet(File stylesheet) throws Exception {
-        xslStream = new FileInputStream(stylesheet);
-        StreamSource src = new StreamSource(xslStream);
-        src.setSystemId(getSystemId(stylesheet));
-        templates = tfactory.newTemplates(src);
+        ;
+        StreamSource src = null;
+        ;
+        ;
         transformer = templates.newTransformer();
     }
 

@@ -70,7 +70,7 @@ public class Rename extends Task {
 
     private File src;
     private File dest;
-    private boolean replace = true;
+    private boolean replace = false;
 
 
     /**
