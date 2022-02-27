@@ -52,73 +52,18 @@ echo ... Compiling Ant Classes
 
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\bzip2\*.java %TOOLS%\tar\*.java %TOOLS%\zip\*.java %TOOLS%\ant\*.java %TOOLS%\ant\types\*.java %TOOLS%\ant\taskdefs\*.java %TOOLS%\ant\util\*.java %TOOLS%\ant\util\regexp\RegexpMatcher.java %TOOLS%\ant\util\regexp\RegexpMatcherFactory.java %TOOLS%\ant\taskdefs\condition\*.java %TOOLS%\ant\taskdefs\compilers\*.java 
 
-echo.
-echo ... Copying Required Files
-
-copy %TOOLS%\ant\taskdefs\*.properties %CLASSDIR%\org\apache\tools\ant\taskdefs
-copy %TOOLS%\ant\types\*.properties %CLASSDIR%\org\apache\tools\ant\types
-
-echo.
-echo ... Building Ant Distribution
-
-if not "%OS%"=="Windows_NT" goto win9xStart
-:winNTStart
-@setlocal
-
-REM parse command line arguments
-rem Need to check if we are using the 4NT shell...
-if "%eval[2+2]" == "4" goto setup4NT
-
-rem On NT/2K grab all arguments at once
-set ANT_CMD_LINE_ARGS=%*
-goto doneStart
-
-:setup4NT
-set ANT_CMD_LINE_ARGS=%$
-goto doneStart
-
-:win9xStart
-rem Slurp the command line arguments.  This loop allows for an unlimited number of 
-rem agruments (up to the command line limit, anyway).
-
-set ANT_CMD_LINE_ARGS=
-
-:setupArgs
-if %1a==a goto doneStart
-set ANT_CMD_LINE_ARGS=%ANT_CMD_LINE_ARGS% %1
-shift
-goto setupArgs
-
-:doneStart
-rem This label provides a place for the argument list loop to break out 
-rem and for NT handling to skip to.
-
-"%JAVA%" %ANT_OPTS% org.apache.tools.ant.Main -emacs %ANT_CMD_LINE_ARGS% bootstrap
-
-set ANT_CMD_LINE_ARGS=
-if not "%OS%"=="Windows_NT" goto mainEnd
-:winNTend
-@endlocal
-
-:mainEnd
-
-echo.
-echo ... Cleaning Up Build Directories
-
-if     "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul rmdir/s/q %CLASSDIR%
-if not "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul deltree/y %CLASSDIR%
-
-echo.
-echo ... Done Bootstrapping Ant Distribution
-
-set JAVA=%OLDJAVA%
-set JAVAC=%OLDJAVAC%
-set CLASSPATH=%BOOTOLDCLASSPATH%
-set ANT_HOME=%OLDANTHOME%
-set OLDJAVA=
-set OLDJAVAC=
-set BOOTOLDCLASSPATH=
-set LOCALCLASSPATH=
-set OLDANTHOME=
-set TOOLS=
-
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\filters\util\JavaClassHelper.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\ChangeLogTask.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\ChangeLogWriter.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\listener\MailLogger.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\RedirectingOutputStream.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\CvsTagDiff.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\CvsTagEntry.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\ChangeLogParser.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\util\regexp\RegexpUtil.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\CvsUser.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\CVSEntry.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\input\PropertyFileInputHandler.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\listener\AnsiColorLogger.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\RedirectingStreamHandler.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\ant\taskdefs\cvslib\RCSFile.java
