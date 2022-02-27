@@ -111,7 +111,7 @@ public class SendEmail extends Task {
     private String message;
     private String toList;
     private String subject;
-    private Vector files = new Vector();
+    private Vector files = null;
   
     /** Creates new SendEmail */
     public SendEmail() {

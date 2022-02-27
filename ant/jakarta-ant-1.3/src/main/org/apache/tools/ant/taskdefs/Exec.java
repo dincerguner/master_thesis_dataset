@@ -72,7 +72,7 @@ public class Exec extends Task {
     private File dir;
     private String command;
     protected PrintWriter fos = null;
-    private boolean failOnError = false;
+    private boolean failOnError = true;
 
     private static final int BUFFER_SIZE = 512;
 
@@ -82,7 +82,7 @@ public class Exec extends Task {
 
     protected int run(String command) throws BuildException {
 
-        int err = -1; // assume the worst
+        int err = 1; // assume the worst
 
         // test if os match
         String myos = System.getProperty("os.name");

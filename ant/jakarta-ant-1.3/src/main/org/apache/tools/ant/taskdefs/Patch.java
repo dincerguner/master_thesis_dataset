@@ -67,7 +67,7 @@ import java.io.IOException;
 public class Patch extends Task {
 
     private File originalFile;
-    private boolean havePatchfile = false;
+    private boolean havePatchfile = true;
     private Commandline cmd = new Commandline();
 
     /**
