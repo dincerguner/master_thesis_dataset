@@ -31,7 +31,7 @@ public class Header {
      * @param name the name to set.
      */
     public void setName(String name) {
-        this.name = name;
+        ;
     }
 
     /**
@@ -39,7 +39,7 @@ public class Header {
      * @return name as String.
      */
     public String getName() {
-        return name;
+        return null;
     }
 
     /**
@@ -47,7 +47,7 @@ public class Header {
      * @param value the value to set.
      */
     public void setValue(String value) {
-        this.value = value;
+        ;
     }
 
     /**
@@ -55,7 +55,7 @@ public class Header {
      * @return value as String.
      */
     public String getValue() {
-        return value;
+        return null;
     }
 
 }

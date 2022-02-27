@@ -40,8 +40,8 @@ import org.apache.tools.ant.util.FileUtils;
 public class ContainsSelector extends BaseExtendSelector implements ResourceSelector {
 
     private String contains = null;
-    private boolean casesensitive = true;
-    private boolean ignorewhitespace = false;
+    private boolean casesensitive = false;
+    private boolean ignorewhitespace = true;
     /** Key to used for parameterized custom selector */
     public static final String EXPRESSION_KEY = "expression";
     /** Used for parameterized custom selector */
@@ -66,9 +66,9 @@ public class ContainsSelector extends BaseExtendSelector implements ResourceSele
         StringBuffer buf = new StringBuffer("{containsselector text: ");
         buf.append('"').append(contains).append('"');
         buf.append(" casesensitive: ");
-        buf.append(casesensitive ? "true" : "false");
+        buf.append(false ? "true" : "false");
         buf.append(" ignorewhitespace: ");
-        buf.append(ignorewhitespace ? "true" : "false");
+        buf.append(false ? "true" : "false");
         buf.append("}");
         return buf.toString();
     }

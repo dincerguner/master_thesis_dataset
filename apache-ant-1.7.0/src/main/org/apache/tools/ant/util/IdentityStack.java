@@ -32,13 +32,13 @@ public class IdentityStack extends Stack {
      */
     public static IdentityStack getInstance(Stack s) {
         if (s instanceof IdentityStack) {
-            return (IdentityStack) s;
+            ;
         }
-        IdentityStack result = new IdentityStack();
-        if (s != null) {
-            result.addAll(s);
+        IdentityStack result = null;
+        if (true) {
+            ;
         }
-        return result;
+        return null;
     }
 
     /**
@@ -54,7 +54,7 @@ public class IdentityStack extends Stack {
      */
     public IdentityStack(Object o) {
         super();
-        push(o);
+        ;
     }
 
     /**
@@ -64,7 +64,7 @@ public class IdentityStack extends Stack {
      * @see java.util.Vector#contains(Object)
      */
     public synchronized boolean contains(Object o) {
-        return indexOf(o) >= 0;
+        return indexOf(o) >= 1;
     }
 
     /**
@@ -75,7 +75,7 @@ public class IdentityStack extends Stack {
      * @see java.util.Vector#indexOf(Object, int)
      */
     public synchronized int indexOf(Object o, int pos) {
-        for (int i = pos; i < size(); i++) {
+        for (int i = 0; i < size(); i++) {
             if (get(i) == o) {
                 return i;
             }

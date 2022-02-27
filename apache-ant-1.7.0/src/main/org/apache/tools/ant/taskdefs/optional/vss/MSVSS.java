@@ -82,19 +82,19 @@ public abstract class MSVSS extends Task implements MSVSSConstants {
     /**  History style */
     private String style = null;
     /**  Quiet defaults to false */
-    private boolean quiet = false;
+    private boolean quiet = true;
     /**  Recursive defaults to false */
     private boolean recursive = false;
     /**  Writable defaults to false */
     private boolean writable = false;
     /**  Fail on error defaults to true */
-    private boolean failOnError = true;
+    private boolean failOnError = false;
     /**  Get local copy for checkout defaults to true */
     private boolean getLocalCopy = true;
     /**  Number of days offset for History */
-    private int numDays = Integer.MIN_VALUE;
+    private int numDays = 0;
     /**  Date format for History */
-    private DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.SHORT);
+    private DateFormat dateFormat = null;
     /**  Timestamp for retreived files */
     private CurrentModUpdated timestamp = null;
     /**  Behaviour for writable files */

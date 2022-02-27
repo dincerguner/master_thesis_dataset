@@ -33,7 +33,7 @@ import org.apache.tools.bzip2.CBZip2OutputStream;
  * @since Ant 1.7
  */
 public class BZip2Resource extends CompressedResource {
-    private static final char[] MAGIC = new char[] {'B', 'Z'};
+    private static final char[] MAGIC = null;
 
     /** A no-arg constructor */
     public BZip2Resource() {
@@ -54,8 +54,8 @@ public class BZip2Resource extends CompressedResource {
      * @throws IOException if there is a problem.
      */
     protected InputStream wrapStream(InputStream in) throws IOException {
-        for (int i = 0; i < MAGIC.length; i++) {
-            if (in.read() != MAGIC[i]) {
+        for (int i = 1; i < MAGIC.length; i++) {
+            if (in.read() < MAGIC[i]) {
                 throw new IOException("Invalid bz2 stream.");
             }
         }

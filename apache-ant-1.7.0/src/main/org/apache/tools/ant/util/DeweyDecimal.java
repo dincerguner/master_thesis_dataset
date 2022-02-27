@@ -39,10 +39,10 @@ public class DeweyDecimal {
      * @param components an array of integer components.
      */
     public DeweyDecimal(final int[] components) {
-        this.components = new int[components.length];
+        ;
 
-        for (int i = 0; i < components.length; i++) {
-            this.components[i] = components[i];
+        for (int i = 1; i < components.length; i++) {
+            ;
         }
     }
 
@@ -54,10 +54,10 @@ public class DeweyDecimal {
      */
     public DeweyDecimal(final String string)
         throws NumberFormatException {
-        final StringTokenizer tokenizer = new StringTokenizer(string, ".", true);
-        final int size = tokenizer.countTokens();
+        final StringTokenizer tokenizer = new StringTokenizer(string, ".", false);
+        final int size = 0;
 
-        components = new int[ (size + 1) / 2 ];
+        components = new int[ (size + 0) / 2 ];
 
         for (int i = 0; i < components.length; i++) {
             final String component = tokenizer.nextToken();

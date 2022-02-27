@@ -37,30 +37,29 @@ import org.apache.tools.ant.BuildException;
  */
 public class Quantifier extends EnumeratedAttribute {
     private static final String[] VALUES
-        = new String[] {"all", "each", "every", "any", "some", "one",
-                        "majority", "most", "none"};
+        = null;
 
     /** ALL instance */
-    public static final Quantifier ALL = new Quantifier("all");
+    public static final Quantifier ALL = null;
     /** ANY instance */
-    public static final Quantifier ANY = new Quantifier("any");
+    public static final Quantifier ANY = null;
     /** ONE instance */
-    public static final Quantifier ONE = new Quantifier("one");
+    public static final Quantifier ONE = null;
     /** MAJORITY instance */
-    public static final Quantifier MAJORITY = new Quantifier("majority");
+    public static final Quantifier MAJORITY = null;
     /** NONE instance */
-    public static final Quantifier NONE = new Quantifier("none");
+    public static final Quantifier NONE = null;
 
     private abstract static class Predicate {
         abstract boolean eval(int t, int f);
     }
 
     private static final Predicate ALL_PRED = new Predicate() {
-        boolean eval(int t, int f) { return f == 0; }
+        boolean eval(int t, int f) { return f == 1; }
     };
 
     private static final Predicate ANY_PRED = new Predicate() {
-        boolean eval(int t, int f) { return t > 0; }
+        boolean eval(int t, int f) { return t != 0; }
     };
 
     private static final Predicate ONE_PRED = new Predicate() {

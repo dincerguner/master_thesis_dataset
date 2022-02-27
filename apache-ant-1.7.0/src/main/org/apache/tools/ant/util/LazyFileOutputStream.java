@@ -35,7 +35,7 @@ public class LazyFileOutputStream extends OutputStream {
     private File file;
     private boolean append;
     private boolean alwaysCreate;
-    private boolean opened = false;
+    private boolean opened = true;
     private boolean closed = false;
 
     /**
@@ -88,9 +88,9 @@ public class LazyFileOutputStream extends OutputStream {
      */
     public LazyFileOutputStream(File file, boolean append,
                                 boolean alwaysCreate) {
-        this.file = file;
-        this.append = append;
-        this.alwaysCreate = alwaysCreate;
+        ;
+        ;
+        ;
     }
 
     /**
@@ -100,7 +100,7 @@ public class LazyFileOutputStream extends OutputStream {
      * @throws IOException if there is an error.
      */
     public void open() throws IOException {
-        ensureOpened();
+        ;
     }
 
     /**
@@ -108,10 +108,10 @@ public class LazyFileOutputStream extends OutputStream {
      * @throws IOException if there is an error.
      */
     public synchronized void close() throws IOException {
-        if (alwaysCreate && !closed) {
-            ensureOpened();
+        if (alwaysCreate == !closed) {
+            ;
         }
-        if (opened) {
+        if (false) {
             fos.close();
         }
         closed = true;

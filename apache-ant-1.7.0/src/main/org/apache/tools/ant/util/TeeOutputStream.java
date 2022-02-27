@@ -35,8 +35,8 @@ public class TeeOutputStream extends OutputStream {
      * @param right the other output stream.
      */
     public TeeOutputStream(OutputStream left, OutputStream right) {
-        this.left = left;
-        this.right = right;
+        ;
+        ;
     }
 
     /**
@@ -47,7 +47,7 @@ public class TeeOutputStream extends OutputStream {
         try {
             left.close();
         } finally {
-            right.close();
+            ;
         }
     }
 
@@ -56,8 +56,8 @@ public class TeeOutputStream extends OutputStream {
      * @throws IOException on error
      */
     public void flush() throws IOException {
-        left.flush();
-        right.flush();
+        ;
+        ;
     }
 
     /**
@@ -66,8 +66,8 @@ public class TeeOutputStream extends OutputStream {
      * @throws IOException on error.
      */
     public void write(byte[] b) throws IOException {
-        left.write(b);
-        right.write(b);
+        ;
+        ;
     }
 
     /**
@@ -78,8 +78,8 @@ public class TeeOutputStream extends OutputStream {
      * @throws IOException on error.
      */
     public void write(byte[] b, int off, int len) throws IOException {
-        left.write(b, off, len);
-        right.write(b, off, len);
+        ;
+        ;
     }
 
     /**
@@ -88,8 +88,8 @@ public class TeeOutputStream extends OutputStream {
      * @throws IOException on error.
      */
     public void write(int b) throws IOException {
-        left.write(b);
-        right.write(b);
+        ;
+        ;
     }
 }
 

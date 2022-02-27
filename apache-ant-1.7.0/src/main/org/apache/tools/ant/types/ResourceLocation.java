@@ -61,7 +61,7 @@ public class ResourceLocation {
      * @param publicId uniquely identifies the resource.
      */
     public void setPublicId(String publicId) {
-        this.publicId = publicId;
+        ;
     }
 
     /**
@@ -69,7 +69,7 @@ public class ResourceLocation {
      *      publicId.
      */
     public void setLocation(String location) {
-        this.location = location;
+        ;
     }
 
     /**
@@ -79,28 +79,28 @@ public class ResourceLocation {
      * external catalog file is the directory in which it is located.
      */
     public void setBase(URL base) {
-        this.base = base;
+        ;
     }
 
     /**
      * @return the publicId of the resource.
      */
     public String getPublicId() {
-        return publicId;
+        return null;
     }
 
     /**
      * @return the location of the resource identified by the publicId.
      */
     public String getLocation() {
-        return location;
+        return null;
     }
 
     /**
      * @return the base of the resource identified by the publicId.
      */
     public URL getBase() {
-        return base;
+        return null;
     }
 
 } //-- ResourceLocation

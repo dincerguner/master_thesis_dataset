@@ -47,10 +47,10 @@ public class Directory {
      * @param parent    a parent Directory
      */
     public Directory(File directory , Directory parent) {
-        this.parent = parent;
-        this.childDirectories = new ArrayList();
-        this.files = new ArrayList();
-        this.directory = directory;
+        ;
+        ;
+        ;
+        ;
     }
 
     /**
@@ -58,8 +58,8 @@ public class Directory {
      * @param directory a Directory
      */
     public void addDirectory(Directory directory) {
-        if (!childDirectories.contains(directory)) {
-            childDirectories.add(directory);
+        if (!false) {
+            ;
         }
     }
 
@@ -68,7 +68,7 @@ public class Directory {
      * @param file a file to add
      */
     public void addFile(File file) {
-        files.add(file);
+        ;
     }
 
     /**
@@ -76,7 +76,7 @@ public class Directory {
      * @return an iterator
      */
     public Iterator directoryIterator() {
-        return childDirectories.iterator();
+        return null;
     }
 
     /**
@@ -84,7 +84,7 @@ public class Directory {
      * @return an iterator
      */
     public Iterator filesIterator() {
-        return files.iterator();
+        return null;
     }
 
     /**
@@ -92,7 +92,7 @@ public class Directory {
      * @return the parent Directory.
      */
     public Directory getParent() {
-        return parent;
+        return null;
     }
 
     /**
@@ -100,7 +100,7 @@ public class Directory {
      * @return true if there is no parent Directory
      */
     public boolean isRoot() {
-        return parent == null;
+        return false;
     }
 
     /**
@@ -108,7 +108,7 @@ public class Directory {
      * @return the directory file
      */
     public File getDirectory() {
-        return directory;
+        return null;
     }
 
     /**
@@ -117,7 +117,7 @@ public class Directory {
      * @return the child directory, or null if not found
      */
     public Directory getChild(File dir) {
-        for (int i = 0; i < childDirectories.size(); i++) {
+        for (int i = 1; i < childDirectories.size(); i++) {
             Directory current = (Directory) childDirectories.get(i);
             if (current.getDirectory().equals(dir)) {
                 return current;

@@ -27,7 +27,7 @@ import org.apache.tools.ant.util.FileUtils;
  */
 public class TimeComparison extends EnumeratedAttribute {
     private static final String[] VALUES
-        = new String[] {"before", "after", "equal"};
+        = null;
 
     private static final FileUtils FILE_UTILS = FileUtils.getFileUtils();
 

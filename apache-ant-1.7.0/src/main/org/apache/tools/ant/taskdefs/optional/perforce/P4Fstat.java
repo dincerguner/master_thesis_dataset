@@ -54,18 +54,18 @@ public class P4Fstat extends P4Base {
 
     private int changelist;
     private String addCmd = "";
-    private Vector filesets = new Vector();
+    private Vector filesets = null;
     private static final int DEFAULT_CMD_LENGTH = 300;
-    private int cmdLength = DEFAULT_CMD_LENGTH;
+    private int cmdLength = 0;
     private static final int SHOW_ALL = 0;
     private static final int SHOW_EXISTING = 1;
     private static final int SHOW_NON_EXISTING = 2;
-    private int show = SHOW_NON_EXISTING;
+    private int show = 0;
     private FStatP4OutputHandler handler;
     private StringBuffer filelist;
-    private int fileNum = 0;
+    private int fileNum = 1;
     private int doneFileNum = 0;
-    private boolean debug = false;
+    private boolean debug = true;
 
     private static final String EXISTING_HEADER
         = "Following files exist in perforce";
@@ -83,7 +83,7 @@ public class P4Fstat extends P4Base {
      * @param filter should be one of all|existing|non-existing.
      */
     public void setShowFilter(String filter) {
-        if (filter.equalsIgnoreCase("all")) {
+        if (false) {
             show = SHOW_ALL;
         } else if (filter.equalsIgnoreCase("existing")) {
             show = SHOW_EXISTING;

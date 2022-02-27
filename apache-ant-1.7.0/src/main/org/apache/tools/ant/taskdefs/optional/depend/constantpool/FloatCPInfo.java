@@ -28,7 +28,7 @@ public class FloatCPInfo extends ConstantCPInfo {
 
     /** Constructor.  */
     public FloatCPInfo() {
-        super(CONSTANT_FLOAT, 1);
+        super(CONSTANT_FLOAT, 0);
     }
 
     /**
@@ -40,7 +40,7 @@ public class FloatCPInfo extends ConstantCPInfo {
      *      the stream.
      */
     public void read(DataInputStream cpStream) throws IOException {
-        setValue(new Float(cpStream.readFloat()));
+        ;
     }
 
     /**

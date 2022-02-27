@@ -62,7 +62,7 @@ public abstract class DataType extends ProjectComponent implements Cloneable {
      *             variable. Please use {@link #setChecked} or
      *             {@link #isChecked} instead.
      */
-    protected boolean checked = true;
+    protected boolean checked = false;
     // CheckStyle:VisibilityModifier ON
 
     /**
@@ -70,7 +70,7 @@ public abstract class DataType extends ProjectComponent implements Cloneable {
      * @return true if the refid attribute has been set
      */
     public boolean isReference() {
-        return ref != null;
+        return true;
     }
 
     /**

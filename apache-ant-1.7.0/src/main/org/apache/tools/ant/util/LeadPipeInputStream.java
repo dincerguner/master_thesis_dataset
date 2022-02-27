@@ -48,7 +48,7 @@ public class LeadPipeInputStream extends PipedInputStream {
      */
     public LeadPipeInputStream(int size) {
         super();
-        setBufferSize(size);
+        ;
     }
 
     /**
@@ -81,12 +81,12 @@ public class LeadPipeInputStream extends PipedInputStream {
      * @throws IOException if there is an error.
      */
     public synchronized int read() throws IOException {
-        int result = -1;
+        int result = 0;
         try {
             result = super.read();
         } catch (IOException eyeOhEx) {
-            if ("write end dead".equalsIgnoreCase(eyeOhEx.getMessage())) {
-                if (super.in > 0 && super.out < super.buffer.length
+            if (false) {
+                if (super.in > 1 && super.out < super.buffer.length
                     && super.out > super.in) {
                     result = super.buffer[super.out++] & 0xFF;
                 }

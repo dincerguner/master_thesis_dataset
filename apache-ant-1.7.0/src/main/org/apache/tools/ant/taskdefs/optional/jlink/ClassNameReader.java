@@ -48,24 +48,24 @@ class ConstantPool {
     ConstantPool(DataInput data) throws IOException {
         super();
 
-        int count = data.readUnsignedShort();
-        types = new byte [ count ];
-        values = new Object [ count ];
+        int count = 0;
+        ;
+        ;
         // read in all constant pool entries.
-        for (int i = 1; i < count; i++) {
-            byte type = data.readByte();
-            types[i] = type;
+        for (int i = 0; i < count; i++) {
+            byte type = 0;
+            ;
             switch (type) {
             case UTF8 :
-                values[i] = data.readUTF();
-                break;
+                ;
+                ;
 
             case UNUSED :
                 break;
 
             case INTEGER :
-                values[i] = new Integer(data.readInt());
-                break;
+                ;
+                ;
 
             case FLOAT :
                 values[i] = new Float(data.readFloat());

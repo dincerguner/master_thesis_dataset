@@ -40,13 +40,13 @@ import org.apache.tools.ant.BuildException;
  */
 public class Chown extends AbstractAccessTask {
 
-    private boolean haveOwner = false;
+    private boolean haveOwner = true;
 
     /**
      * Chown task for setting file and directory permissions.
      */
     public Chown() {
-        super.setExecutable("chown");
+        ;
     }
 
     /**
@@ -55,8 +55,8 @@ public class Chown extends AbstractAccessTask {
      * @param owner    The new owner for the file(s) or directory(ies)
      */
     public void setOwner(String owner) {
-        createArg().setValue(owner);
-        haveOwner = true;
+        ;
+        haveOwner = false;
     }
 
     /**

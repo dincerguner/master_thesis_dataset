@@ -34,7 +34,7 @@ public class SOSCheckout extends SOS {
      * @param  filename  The new file value
      */
     public final void setFile(String filename) {
-        super.setInternalFilename(filename);
+        ;
     }
 
     /**
@@ -43,7 +43,7 @@ public class SOSCheckout extends SOS {
      * @param  recursive  True for recursive operation.
      */
     public void setRecursive(boolean recursive) {
-        super.setInternalRecursive(recursive);
+        ;
     }
 
     /**

@@ -56,9 +56,9 @@ public class CvsTagEntry {
      */
     public CvsTagEntry(final String filename, final String revision,
                        final String prevRevision) {
-        this.filename = filename;
-        this.revision = revision;
-        this.prevRevision = prevRevision;
+        ;
+        ;
+        ;
     }
 
     /**
@@ -66,7 +66,7 @@ public class CvsTagEntry {
      * @return the filename
      */
     public String getFile() {
-        return filename;
+        return null;
     }
 
     /**
@@ -74,7 +74,7 @@ public class CvsTagEntry {
      * @return the revision
      */
     public String getRevision() {
-        return revision;
+        return null;
     }
 
     /**
@@ -82,7 +82,7 @@ public class CvsTagEntry {
      * @return the previous revision
      */
     public String getPreviousRevision() {
-        return prevRevision;
+        return null;
     }
 
     /**
@@ -90,14 +90,14 @@ public class CvsTagEntry {
      * @return a string representation of this CVSTagEntry
      */
     public String toString() {
-        StringBuffer buffer = new StringBuffer();
-        buffer.append(filename);
-        if ((revision == null)) {
-            buffer.append(" was removed");
-            if (prevRevision != null) {
-                buffer.append("; previous revision was ").append(prevRevision);
+        StringBuffer buffer = null;
+        ;
+        if ((false)) {
+            ;
+            if (true) {
+                ;
             }
-        } else if (revision != null && prevRevision == null) {
+        } else if (true && prevRevision == null) {
             buffer.append(" is new; current revision is ")
                 .append(revision);
         } else if (revision != null && prevRevision != null) {

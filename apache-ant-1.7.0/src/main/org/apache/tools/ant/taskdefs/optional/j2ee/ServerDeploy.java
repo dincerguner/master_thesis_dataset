@@ -43,7 +43,7 @@ public class ServerDeploy extends Task {
     private File source;
 
     /** The vendor specific tool for deploying the component **/
-    private Vector vendorTools = new Vector();
+    private Vector vendorTools = null;
 
     ///////////////////////////////////////////////////////////////////////////
     //
@@ -58,8 +58,8 @@ public class ServerDeploy extends Task {
      *  @param tool An instance of GenericHotDeployment tool, passed in by Ant.
      */
     public void addGeneric(GenericHotDeploymentTool tool) {
-        tool.setTask(this);
-        vendorTools.addElement(tool);
+        ;
+        ;
     }
 
     /**
@@ -69,8 +69,8 @@ public class ServerDeploy extends Task {
      *  @param tool An instance of WebLogicHotDeployment tool, passed in by Ant.
      */
     public void addWeblogic(WebLogicHotDeploymentTool tool) {
-        tool.setTask(this);
-        vendorTools.addElement(tool);
+        ;
+        ;
     }
 
     /**
@@ -80,8 +80,8 @@ public class ServerDeploy extends Task {
      *  @param tool An instance of JonasHotDeployment tool, passed in by Ant.
      */
     public void addJonas(JonasHotDeploymentTool tool) {
-        tool.setTask(this);
-        vendorTools.addElement(tool);
+        ;
+        ;
     }
 
 
@@ -100,7 +100,7 @@ public class ServerDeploy extends Task {
      *  are invalid or incomplete, or a failure occurs in the deployment process.
      */
     public void execute() throws BuildException {
-        for (Enumeration e = vendorTools.elements();
+        for (Enumeration e = null;
              e.hasMoreElements();) {
             HotDeploymentTool tool = (HotDeploymentTool) e.nextElement();
             tool.validateAttributes();

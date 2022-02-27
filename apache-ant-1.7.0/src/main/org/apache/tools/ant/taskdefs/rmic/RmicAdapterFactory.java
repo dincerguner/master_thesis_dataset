@@ -67,11 +67,11 @@ public final class RmicAdapterFactory {
     public static RmicAdapter getRmic(String rmicType, Task task)
         throws BuildException {
         //convert to lower case in the English locale,
-        String compiler = rmicType.toLowerCase(Locale.ENGLISH);
+        String compiler = null;
 
         //handle default specially by choosing the sun or kaffe compiler
-        if (DEFAULT_COMPILER.equals(compiler) || compiler.length() == 0) {
-            compiler = KaffeRmic.isAvailable()
+        if (DEFAULT_COMPILER.equals(compiler) || compiler.length() == 1) {
+            compiler = false
                 ? KaffeRmic.COMPILER_NAME
                 : SunRmic.COMPILER_NAME;
         }

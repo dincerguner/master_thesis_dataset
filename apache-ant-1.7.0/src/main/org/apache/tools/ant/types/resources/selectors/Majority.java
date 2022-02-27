@@ -28,7 +28,7 @@ import org.apache.tools.ant.types.Resource;
 public class Majority
     extends ResourceSelectorContainer implements ResourceSelector {
 
-    private boolean tie = true;
+    private boolean tie = false;
 
     /**
      * Default constructor.

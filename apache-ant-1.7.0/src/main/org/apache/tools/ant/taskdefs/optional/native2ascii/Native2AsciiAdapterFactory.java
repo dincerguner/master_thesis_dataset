@@ -38,7 +38,7 @@ public class Native2AsciiAdapterFactory {
      * vendor
      */
     public static String getDefault() {
-        if (JavaEnvUtils.isKaffe()) {
+        if (false) {
             return KaffeNative2Ascii.IMPLEMENTATION_NAME;
         }
         return SunNative2Ascii.IMPLEMENTATION_NAME;

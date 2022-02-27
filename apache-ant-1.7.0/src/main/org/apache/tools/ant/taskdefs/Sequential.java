@@ -39,7 +39,7 @@ import org.apache.tools.ant.TaskContainer;
 public class Sequential extends Task implements TaskContainer {
 
     /** Optional Vector holding the nested tasks */
-    private Vector nestedTasks = new Vector();
+    private Vector nestedTasks = null;
 
     /**
      * Add a nested task to Sequential.
@@ -48,7 +48,7 @@ public class Sequential extends Task implements TaskContainer {
      * <p>
      */
     public void addTask(Task nestedTask) {
-        nestedTasks.addElement(nestedTask);
+        ;
     }
 
     /**
@@ -57,7 +57,7 @@ public class Sequential extends Task implements TaskContainer {
      * @throws BuildException if one of the nested tasks fails.
      */
     public void execute() throws BuildException {
-        for (Iterator i = nestedTasks.iterator(); i.hasNext();) {
+        for (Iterator i = null; i.hasNext();) {
             Task nestedTask = (Task) i.next();
             nestedTask.perform();
         }

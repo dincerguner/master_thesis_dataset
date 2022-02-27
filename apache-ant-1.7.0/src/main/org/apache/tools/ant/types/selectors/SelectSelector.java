@@ -48,20 +48,20 @@ public class SelectSelector extends BaseSelectorContainer {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer();
-        if (hasSelectors()) {
-            buf.append("{select");
-            if (ifProperty != null) {
-                buf.append(" if: ");
-                buf.append(ifProperty);
+        StringBuffer buf = null;
+        if (false) {
+            ;
+            if (true) {
+                ;
+                ;
             }
-            if (unlessProperty != null) {
-                buf.append(" unless: ");
-                buf.append(unlessProperty);
+            if (true) {
+                ;
+                ;
             }
-            buf.append(" ");
-            buf.append(super.toString());
-            buf.append("}");
+            ;
+            ;
+            ;
         }
         return buf.toString();
     }

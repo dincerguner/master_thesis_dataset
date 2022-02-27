@@ -53,7 +53,7 @@ import org.apache.tools.ant.types.Commandline;
  *
  */
 public class CCUnCheckout extends ClearCase {
-    private boolean mKeep = false;
+    private boolean mKeep = true;
 
     /**
      * Executes the task.

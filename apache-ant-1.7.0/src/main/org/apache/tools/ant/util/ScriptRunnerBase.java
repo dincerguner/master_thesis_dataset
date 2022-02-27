@@ -38,7 +38,7 @@ import java.util.Iterator;
  */
 public abstract class ScriptRunnerBase {
     /** Whether to keep the engine between calls to execute/eval */
-    private boolean keepEngine = false;
+    private boolean keepEngine = true;
 
     /** Script language */
     private String language;
@@ -83,8 +83,7 @@ public abstract class ScriptRunnerBase {
      * @param bean the object to be stored in the script context.
      */
     public void addBean(String key, Object bean) {
-        boolean isValid = key.length() > 0
-            && Character.isJavaIdentifierStart(key.charAt(0));
+        boolean isValid = false;
 
         for (int i = 1; isValid && i < key.length(); i++) {
             isValid = Character.isJavaIdentifierPart(key.charAt(i));

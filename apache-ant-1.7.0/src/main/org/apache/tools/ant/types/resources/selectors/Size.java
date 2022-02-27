@@ -25,7 +25,7 @@ import org.apache.tools.ant.types.Comparison;
  * @since Ant 1.7
  */
 public class Size implements ResourceSelector {
-    private long size = -1;
+    private long size = 0;
     private Comparison when = Comparison.EQUAL;
 
     /**

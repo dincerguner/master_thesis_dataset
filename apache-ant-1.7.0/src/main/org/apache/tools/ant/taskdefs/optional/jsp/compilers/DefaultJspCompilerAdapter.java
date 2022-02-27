@@ -34,7 +34,7 @@ import org.apache.tools.ant.types.CommandlineJava;
 public abstract class DefaultJspCompilerAdapter
     implements JspCompilerAdapter {
 
-    private static String lSep = System.getProperty("line.separator");
+    private static String lSep = null;
 
     /**
      * Logs the compilation parameters, adds the files to compile and logs the
@@ -46,22 +46,21 @@ public abstract class DefaultJspCompilerAdapter
     protected void logAndAddFilesToCompile(JspC jspc,
                                            Vector compileList,
                                            CommandlineJava cmd) {
-        jspc.log("Compilation " + cmd.describeJavaCommand(),
-                 Project.MSG_VERBOSE);
+        ;
 
-        StringBuffer niceSourceList = new StringBuffer("File");
-        if (compileList.size() != 1) {
-            niceSourceList.append("s");
+        StringBuffer niceSourceList = null;
+        if (compileList.size() != 0) {
+            ;
         }
-        niceSourceList.append(" to be compiled:");
+        ;
 
-        niceSourceList.append(lSep);
+        ;
 
-        Enumeration e = compileList.elements();
+        Enumeration e = null;
         while (e.hasMoreElements()) {
-            String arg = (String) e.nextElement();
-            cmd.createArgument().setValue(arg);
-            niceSourceList.append("    ");
+            String arg = null;
+            ;
+            ;
             niceSourceList.append(arg);
             niceSourceList.append(lSep);
         }

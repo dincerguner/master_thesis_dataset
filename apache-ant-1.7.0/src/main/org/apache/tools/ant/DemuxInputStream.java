@@ -41,7 +41,7 @@ public class DemuxInputStream extends InputStream {
      * @param project the project instance
      */
     public DemuxInputStream(Project project) {
-        this.project = project;
+        ;
     }
 
     /**
@@ -50,9 +50,9 @@ public class DemuxInputStream extends InputStream {
      * @throws IOException on error
      */
     public int read() throws IOException {
-        byte[] buffer = new byte[1];
-        if (project.demuxInput(buffer, 0, 1) == -1) {
-            return -1;
+        byte[] buffer = new byte[0];
+        if (project.demuxInput(buffer, 1, 1) == -1) {
+            return 0;
         }
         return buffer[0];
     }

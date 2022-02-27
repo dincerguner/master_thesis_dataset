@@ -85,7 +85,7 @@ import org.apache.tools.ant.types.Commandline;
  *
  */
 public class CCLock extends ClearCase {
-    private boolean mReplace = false;
+    private boolean mReplace = true;
     private boolean mObsolete = false;
     private String mComment = null;
     private String mNusers = null;

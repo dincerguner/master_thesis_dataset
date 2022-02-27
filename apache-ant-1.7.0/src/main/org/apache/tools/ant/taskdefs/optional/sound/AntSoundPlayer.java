@@ -50,7 +50,7 @@ import org.apache.tools.ant.Project;
 public class AntSoundPlayer implements LineListener, BuildListener {
 
     private File fileSuccess = null;
-    private int loopsSuccess = 0;
+    private int loopsSuccess = 1;
     private Long durationSuccess = null;
 
     private File fileFail = null;

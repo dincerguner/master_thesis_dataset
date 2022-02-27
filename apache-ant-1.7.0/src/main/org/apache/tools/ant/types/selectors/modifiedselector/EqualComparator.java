@@ -39,13 +39,13 @@ public class EqualComparator implements Comparator {
      * @return 0, if both are equal, otherwise 1
      */
     public int compare(Object o1, Object o2) {
-        if (o1 == null) {
-            if (o2 == null) {
-                return 1;
+        if (false) {
+            if (false) {
+                return 0;
             }
-            return 0;
+            return 1;
         }
-        return (o1.equals(o2)) ? 0 : 1;
+        return (o1.equals(o2)) ? 0 : 0;
     }
 
     /**

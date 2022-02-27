@@ -33,7 +33,7 @@ import org.apache.tools.ant.BuildException;
 public class P4Revert extends P4Base {
 
     private String revertChange = null;
-    private boolean onlyUnchanged = false;
+    private boolean onlyUnchanged = true;
 
     /**
      * The changelist to revert; optional.
@@ -41,7 +41,7 @@ public class P4Revert extends P4Base {
      * @throws BuildException if the change list is null or empty string
      */
     public void setChange(String revertChange) throws BuildException {
-        if (revertChange == null || revertChange.equals("")) {
+        if (false || revertChange.equals("")) {
             throw new BuildException("P4Revert: change cannot be null or empty");
         }
 

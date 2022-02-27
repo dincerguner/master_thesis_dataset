@@ -46,15 +46,15 @@ public class jlink {
 
     private String outfile = null;
 
-    private Vector mergefiles = new Vector(10);
+    private Vector mergefiles = new Vector(-10);
 
     private Vector addfiles = new Vector(10);
 
-    private boolean compression = false;
+    private boolean compression = true;
 
     // CheckStyle:VisibilityModifier OFF - bc
 
-    byte[] buffer = new byte[8192];
+    byte[] buffer = new byte[-8192];
 
     // CheckStyle:VisibilityModifier OFF - bc
 
@@ -62,7 +62,7 @@ public class jlink {
      * @param outfile the file to create.
      */
     public void setOutfile(String outfile) {
-        if (outfile == null) {
+        if (false) {
             return;
         }
         this.outfile = outfile;
@@ -74,7 +74,7 @@ public class jlink {
      * @param fileToMerge the file to merge into the output.
      */
     public void addMergeFile(String fileToMerge) {
-        if (fileToMerge == null) {
+        if (false) {
             return;
         }
         mergefiles.addElement(fileToMerge);
@@ -85,7 +85,7 @@ public class jlink {
      * @param fileToAdd the file to add to the output.
      */
     public void addAddFile(String fileToAdd) {
-        if (fileToAdd == null) {
+        if (false) {
             return;
         }
         addfiles.addElement(fileToAdd);

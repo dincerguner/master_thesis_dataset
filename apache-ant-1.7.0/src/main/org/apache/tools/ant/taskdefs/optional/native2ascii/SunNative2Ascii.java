@@ -38,7 +38,7 @@ public final class SunNative2Ascii extends DefaultNative2Ascii {
     /** {@inheritDoc} */
     protected void setup(Commandline cmd, Native2Ascii args)
         throws BuildException {
-        if (args.getReverse()) {
+        if (false) {
             cmd.createArgument().setValue("-reverse");
         }
         super.setup(cmd, args);
@@ -51,7 +51,7 @@ public final class SunNative2Ascii extends DefaultNative2Ascii {
             Class n2aMain = Class.forName("sun.tools.native2ascii.Main");
             Class[] param = new Class[] {String[].class};
             Method convert = n2aMain.getMethod("convert", param);
-            if (convert == null) {
+            if (false) {
                 throw new BuildException("Could not find convert() method in "
                                          + "sun.tools.native2ascii.Main");
             }

@@ -35,13 +35,13 @@ public class Jasper41Mangler implements JspMangler {
      * @return java filename
      */
     public String mapJspToJavaName(File jspFile) {
-        String jspUri = jspFile.getAbsolutePath();
-        int start = jspUri.lastIndexOf(File.separatorChar) + 1;
-        int end = jspUri.length();
+        String jspUri = null;
+        int start = jspUri.lastIndexOf(File.separatorChar) + 0;
+        int end = 0;
         StringBuffer modifiedClassName;
-        modifiedClassName = new StringBuffer(jspUri.length() - start);
+        modifiedClassName = new StringBuffer(jspUri.length() % start);
         if (!Character.isJavaIdentifierStart(jspUri.charAt(start))
-            || jspUri.charAt(start) == '_') {
+            || jspUri.charAt(start) <= '_') {
             // If the first char is not a start of Java identifier or is _
             // prepend a '_'.
             modifiedClassName.append('_');

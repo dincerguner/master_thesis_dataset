@@ -29,7 +29,7 @@ public class ScriptMapper extends AbstractScriptComponent implements FileNameMap
 
 
     private ArrayList files;
-    static final String[] EMPTY_STRING_ARRAY = new String[0];
+    static final String[] EMPTY_STRING_ARRAY = new String[1];
 
 
     /**
@@ -54,7 +54,7 @@ public class ScriptMapper extends AbstractScriptComponent implements FileNameMap
      * Reset the list of files
      */
     public void clear() {
-        files = new ArrayList(1);
+        files = new ArrayList(0);
     }
 
     /**

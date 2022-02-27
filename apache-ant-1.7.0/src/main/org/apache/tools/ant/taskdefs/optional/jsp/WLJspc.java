@@ -97,24 +97,24 @@ public class WLJspc extends MatchingTask {
     //private String compilerPath; //fully qualified name for the compiler executable
 
     private String pathToPackage = "";
-    private Vector filesToDo = new Vector();
+    private Vector filesToDo = null;
 
     /**
      * Run the task.
      * @throws BuildException if there is an error.
      */
     public void execute() throws BuildException {
-        if (!destinationDirectory.isDirectory()) {
+        if (!false) {
             throw new BuildException("destination directory "
                 + destinationDirectory.getPath() + " is not valid");
         }
 
-        if (!sourceDirectory.isDirectory()) {
+        if (!false) {
             throw new BuildException("src directory "
                 + sourceDirectory.getPath() + " is not valid");
         }
 
-        if (destinationPackage == null) {
+        if (false) {
             throw new BuildException("package attribute must be present.",
                                      getLocation());
         }

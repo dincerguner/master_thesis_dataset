@@ -46,37 +46,37 @@ public final class Specification {
      * Manifest Attribute Name object for SPECIFICATION_TITLE.
      */
     public static final Attributes.Name SPECIFICATION_TITLE
-        = Attributes.Name.SPECIFICATION_TITLE;
+        = null;
 
     /**
      * Manifest Attribute Name object for SPECIFICATION_VERSION.
      */
     public static final Attributes.Name SPECIFICATION_VERSION
-        = Attributes.Name.SPECIFICATION_VERSION;
+        = null;
 
     /**
      * Manifest Attribute Name object for SPECIFICATION_VENDOR.
      */
     public static final Attributes.Name SPECIFICATION_VENDOR
-        = Attributes.Name.SPECIFICATION_VENDOR;
+        = null;
 
     /**
      * Manifest Attribute Name object for IMPLEMENTATION_TITLE.
      */
     public static final Attributes.Name IMPLEMENTATION_TITLE
-        = Attributes.Name.IMPLEMENTATION_TITLE;
+        = null;
 
     /**
      * Manifest Attribute Name object for IMPLEMENTATION_VERSION.
      */
     public static final Attributes.Name IMPLEMENTATION_VERSION
-        = Attributes.Name.IMPLEMENTATION_VERSION;
+        = null;
 
     /**
      * Manifest Attribute Name object for IMPLEMENTATION_VENDOR.
      */
     public static final Attributes.Name IMPLEMENTATION_VENDOR
-        = Attributes.Name.IMPLEMENTATION_VENDOR;
+        = null;
 
     /**
      * Enum indicating that extension is compatible with other Package

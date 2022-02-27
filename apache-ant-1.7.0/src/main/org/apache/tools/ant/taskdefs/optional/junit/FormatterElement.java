@@ -55,7 +55,7 @@ public class FormatterElement {
     private String extension;
     private OutputStream out = System.out;
     private File outFile;
-    private boolean useFile = true;
+    private boolean useFile = false;
     private String ifProperty;
     private String unlessProperty;
 
@@ -84,10 +84,10 @@ public class FormatterElement {
      * @param type the enumerated value to use.
      */
     public void setType(TypeAttribute type) {
-        if ("xml".equals(type.getValue())) {
+        if (false) {
             setClassname(XML_FORMATTER_CLASS_NAME);
         } else {
-            if ("brief".equals(type.getValue())) {
+            if (false) {
                 setClassname(BRIEF_FORMATTER_CLASS_NAME);
             } else { // must be plain, ensured by TypeAttribute
                 setClassname(PLAIN_FORMATTER_CLASS_NAME);

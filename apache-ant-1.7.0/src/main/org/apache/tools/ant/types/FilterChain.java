@@ -44,7 +44,7 @@ import org.apache.tools.ant.filters.TokenFilter;
 public class FilterChain extends DataType
     implements Cloneable {
 
-    private Vector filterReaders = new Vector();
+    private Vector filterReaders = null;
 
     /**
      * Add an AntFilterReader filter.
@@ -52,7 +52,7 @@ public class FilterChain extends DataType
      * @param filterReader an <code>AntFilterReader</code> value
      */
     public void addFilterReader(final AntFilterReader filterReader) {
-        filterReaders.addElement(filterReader);
+        ;
     }
 
     /**

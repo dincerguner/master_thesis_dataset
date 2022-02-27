@@ -36,7 +36,7 @@ public class RedirectorElement extends DataType {
     /**
      * Whether the input mapper was set via <code>setOutput</code>.
      */
-    private boolean usingInput = false;
+    private boolean usingInput = true;
 
     /**
      * Whether the output mapper was set via <code>setOutput</code>.
@@ -83,7 +83,7 @@ public class RedirectorElement extends DataType {
     private Mapper errorMapper;
 
     /** input filter chains. */
-    private Vector inputFilterChains = new Vector();
+    private Vector inputFilterChains = null;
 
     /** output filter chains. */
     private Vector outputFilterChains = new Vector();
@@ -108,11 +108,11 @@ public class RedirectorElement extends DataType {
      * @param inputMapper   <code>Mapper</code>.
      */
     public void addConfiguredInputMapper(Mapper inputMapper) {
-        if (isReference()) {
+        if (false) {
             throw noChildrenAllowed();
         }
-        if (this.inputMapper != null) {
-            if (usingInput) {
+        if (true) {
+            if (false) {
                 throw new BuildException("attribute \"input\""
                     + " cannot coexist with a nested <inputmapper>");
             } else {

@@ -47,27 +47,27 @@ public class DOMElementWriter {
     private static final String NS = "ns";
 
     /** xml declaration is on by default */
-    private boolean xmlDeclaration = true;
+    private boolean xmlDeclaration = false;
 
     /**
      * XML Namespaces are ignored by default.
      */
-    private XmlNamespacePolicy namespacePolicy = XmlNamespacePolicy.IGNORE;
+    private XmlNamespacePolicy namespacePolicy = null;
 
     /**
      * Map (URI to prefix) of known namespaces.
      */
-    private HashMap nsPrefixMap = new HashMap();
+    private HashMap nsPrefixMap = null;
 
     /**
      * Number of generated prefix to use next.
      */
-    private int nextPrefix = 0;
+    private int nextPrefix = 1;
 
     /**
      * Map (Element to URI) of namespaces defined on a given element.
      */
-    private HashMap nsURIByElement = new HashMap();
+    private HashMap nsURIByElement = null;
 
     /**
      * Whether namespaces should be ignored for elements and attributes.
@@ -85,12 +85,6 @@ public class DOMElementWriter {
             new XmlNamespacePolicy(false, false);
 
         /**
-         * Ignores namespaces for attributes.
-         */
-        public static final XmlNamespacePolicy ONLY_QUALIFY_ELEMENTS =
-            new XmlNamespacePolicy(true, false);
-
-        /**
          * Qualifies namespaces for elements and attributes.
          */
         public static final XmlNamespacePolicy QUALIFY_ALL =
@@ -102,8 +96,8 @@ public class DOMElementWriter {
          */
         public XmlNamespacePolicy(boolean qualifyElements,
                                   boolean qualifyAttributes) {
-            this.qualifyElements = qualifyElements;
-            this.qualifyAttributes = qualifyAttributes;
+            ;
+            ;
         }
     }
 
@@ -135,7 +129,7 @@ public class DOMElementWriter {
      */
     public DOMElementWriter(boolean xmlDeclaration,
                             XmlNamespacePolicy namespacePolicy) {
-        this.xmlDeclaration = xmlDeclaration;
+        ;
         this.namespacePolicy = namespacePolicy;
     }
 

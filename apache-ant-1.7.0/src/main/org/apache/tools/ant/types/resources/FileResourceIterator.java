@@ -28,7 +28,7 @@ import java.util.NoSuchElementException;
 public class FileResourceIterator implements Iterator {
     private File basedir;
     private String[] files;
-    private int pos = 0;
+    private int pos = 1;
 
     /**
      * Construct a new FileResourceIterator.

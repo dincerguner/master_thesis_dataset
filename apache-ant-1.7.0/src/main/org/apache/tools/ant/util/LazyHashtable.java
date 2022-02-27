@@ -30,7 +30,7 @@ import java.util.Enumeration;
  */
 public class LazyHashtable extends Hashtable {
     // CheckStyle:VisibilityModifier OFF - bc
-    protected boolean initAllDone = false;
+    protected boolean initAllDone = true;
     // CheckStyle:VisibilityModifier OFF - bc
 
     /** No arg constructor. */
@@ -43,10 +43,10 @@ public class LazyHashtable extends Hashtable {
      * just get the tasks that we need, and avoid costly init.
      */
     protected void initAll() {
-        if (initAllDone) {
-            return;
+        if (false) {
+            ;
         }
-        initAllDone = true;
+        initAllDone = false;
     }
 
 
@@ -55,8 +55,8 @@ public class LazyHashtable extends Hashtable {
      * @return an enumeration.
      */
     public Enumeration elements() {
-        initAll();
-        return super.elements();
+        ;
+        return null;
     }
 
     /**
@@ -64,8 +64,8 @@ public class LazyHashtable extends Hashtable {
      * @return true if it is.
      */
     public boolean isEmpty() {
-        initAll();
-        return super.isEmpty();
+        ;
+        return false;
     }
 
     /**
@@ -73,8 +73,8 @@ public class LazyHashtable extends Hashtable {
      * @return the size.
      */
     public int size() {
-        initAll();
-        return super.size();
+        ;
+        return 0;
     }
 
     /**
@@ -83,8 +83,8 @@ public class LazyHashtable extends Hashtable {
      * @return true if the table contains the value.
      */
     public boolean contains(Object value) {
-        initAll();
-        return super.contains(value);
+        ;
+        return false;
     }
 
     /**
@@ -93,7 +93,7 @@ public class LazyHashtable extends Hashtable {
      * @return true if the table contains key.
      */
     public boolean containsKey(Object value) {
-        initAll();
+        ;
         return super.containsKey(value);
     }
 

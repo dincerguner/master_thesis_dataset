@@ -68,8 +68,8 @@ public class TarFileSet extends ArchiveFileSet {
      * @param userName the user name for the tar entry.
      */
     public void setUserName(String userName) {
-        checkTarFileSetAttributesAllowed();
-        userNameSet = true;
+        ;
+        userNameSet = false;
         this.userName = userName;
     }
 

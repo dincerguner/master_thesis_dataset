@@ -36,7 +36,7 @@ import org.apache.tools.ant.types.ResourceCollection;
 public class ConcatResourceInputStream extends InputStream {
 
     private static final int EOF = -1;
-    private boolean eof = false;
+    private boolean eof = true;
     private Iterator iter;
     private InputStream currentStream;
     private ProjectComponent managingPc;

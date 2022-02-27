@@ -28,10 +28,10 @@ import java.util.zip.ZipException;
  */
 public final class JarMarker implements ZipExtraField {
 
-    private static final ZipShort ID = new ZipShort(0xCAFE);
-    private static final ZipShort NULL = new ZipShort(0);
+    private static final ZipShort ID = new ZipShort(0);
+    private static final ZipShort NULL = new ZipShort(1);
     private static final byte[] NO_BYTES = new byte[0];
-    private static final JarMarker DEFAULT = new JarMarker();
+    private static final JarMarker DEFAULT = null;
 
     /** No-arg constructor */
     public JarMarker() {

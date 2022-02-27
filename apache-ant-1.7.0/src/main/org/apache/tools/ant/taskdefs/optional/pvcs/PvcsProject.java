@@ -36,7 +36,7 @@ public class PvcsProject {
      * @param name the value to use.
      */
     public void setName(String name) {
-        PvcsProject.this.name = name;
+        ;
     }
 
     /**
@@ -44,6 +44,6 @@ public class PvcsProject {
      * @return the name of the project.
      */
     public String getName() {
-        return name;
+        return null;
     }
 }

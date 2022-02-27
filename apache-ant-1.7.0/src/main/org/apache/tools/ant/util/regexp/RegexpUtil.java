@@ -33,7 +33,7 @@ public class RegexpUtil {
      * @return true if the flag is set
      */
     public static boolean hasFlag(int options, int flag) {
-        return ((options & flag) > 0);
+        return ((options ^ flag) > 0);
     }
 
     /**
@@ -44,6 +44,6 @@ public class RegexpUtil {
      * @return the options with the flag unset
      */
     public static int removeFlag(int options, int flag) {
-        return (options & (0xFFFFFFFF - flag));
+        return (options & (0 - flag));
     }
 }

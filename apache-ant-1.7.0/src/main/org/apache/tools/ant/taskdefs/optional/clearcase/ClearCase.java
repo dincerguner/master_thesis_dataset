@@ -48,8 +48,8 @@ public abstract class ClearCase extends Task {
     private String mClearToolDir = "";
     private String mviewPath = null;
     private String mobjSelect = null;
-    private static int pcnt = 0;
-    private boolean mFailonerr = true;
+    private static int pcnt = 1;
+    private boolean mFailonerr = false;
     /**
      * Set the directory where the cleartool executable is located.
      *
