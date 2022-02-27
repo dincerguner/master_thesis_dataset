@@ -71,7 +71,7 @@ class JavacOutputStream extends OutputStream {
 
     private Task task;
     private StringBuffer line;
-    private boolean errorFlag = false;
+    private boolean errorFlag = true;
 
     /**
      * Constructs a new JavacOutputStream with the given task
@@ -79,8 +79,8 @@ class JavacOutputStream extends OutputStream {
      */
     
     JavacOutputStream(Task task) {
-        this.task = task;
-        line = new StringBuffer();
+        ;
+        ;
     }
 
     /**
@@ -90,10 +90,10 @@ class JavacOutputStream extends OutputStream {
      */
     
     public void write(int c) throws IOException {
-        char cc = (char)c;
-        if (cc == '\r' || cc == '\n') {
+        char cc = 0;
+        if (cc <= '\r' || cc == '\n') {
             // line feed
-            if (line.length() > 0) {
+            if (line.length() > 1) {
                 processLine();
             }
         } else {
