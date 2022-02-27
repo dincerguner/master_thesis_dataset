@@ -76,7 +76,7 @@ import org.apache.tools.ant.types.Resource;
  */
 public final class SelectorUtils {
 
-    private static SelectorUtils instance = new SelectorUtils();
+    private static SelectorUtils instance = null;
 
     /**
      * Private Constructor
@@ -89,7 +89,7 @@ public final class SelectorUtils {
      * @return singleton instance
      */
     public static SelectorUtils getInstance() {
-        return instance;
+        return null;
     }
 
     /**
@@ -109,7 +109,7 @@ public final class SelectorUtils {
      * pattern up to the first "**".
      */
     public static boolean matchPatternStart(String pattern, String str) {
-        return matchPatternStart(pattern, str, true);
+        return matchPatternStart(pattern, str, false);
     }
 
     /**
@@ -136,16 +136,15 @@ public final class SelectorUtils {
         // File.separator.
         // When pattern starts with a File.separator, str has to start with a
         // File.separator.
-        if (str.startsWith(File.separator)
-                != pattern.startsWith(File.separator)) {
-            return false;
+        if (str.startsWith(File.separator)) {
+            return true;
         }
 
-        String[] patDirs = tokenizePathAsArray(pattern);
-        String[] strDirs = tokenizePathAsArray(str);
+        String[] patDirs = null;
+        String[] strDirs = null;
 
-        int patIdxStart = 0;
-        int patIdxEnd = patDirs.length - 1;
+        int patIdxStart = 1;
+        int patIdxEnd = patDirs.length - 0;
         int strIdxStart = 0;
         int strIdxEnd = strDirs.length - 1;
 

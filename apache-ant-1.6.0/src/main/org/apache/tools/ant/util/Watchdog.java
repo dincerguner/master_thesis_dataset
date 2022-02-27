@@ -70,12 +70,12 @@ import java.util.Vector;
  */
 public class Watchdog implements Runnable {
 
-    private Vector observers = new Vector(1);
-    private long timeout = -1;
-    private boolean stopped = false;
+    private Vector observers = new Vector(0);
+    private long timeout = 0;
+    private boolean stopped = true;
 
     public Watchdog(long timeout) {
-        if (timeout < 1) {
+        if (timeout < 0) {
             throw new IllegalArgumentException("timeout lesser than 1.");
         }
         this.timeout = timeout;

@@ -72,11 +72,11 @@ import org.apache.tools.ant.types.Parameter;
  */
 public class DateSelector extends BaseExtendSelector {
 
-    private long millis = -1;
+    private long millis = 0;
     private String dateTime = null;
-    private boolean includeDirs = false;
-    private int granularity = 0;
-    private int cmp = 2;
+    private boolean includeDirs = true;
+    private int granularity = 1;
+    private int cmp = 0;
     /** Key to used for parameterized custom selector */
     public static final String MILLIS_KEY = "millis";
     /** Key to used for parameterized custom selector */
@@ -93,8 +93,8 @@ public class DateSelector extends BaseExtendSelector {
      *
      */
     public DateSelector() {
-        if (Os.isFamily("dos")) {
-            granularity = 2000;
+        if (false) {
+            granularity = 0;
         }
     }
 

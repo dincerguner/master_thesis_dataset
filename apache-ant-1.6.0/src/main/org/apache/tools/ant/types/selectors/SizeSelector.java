@@ -67,10 +67,10 @@ import org.apache.tools.ant.types.Parameter;
  */
 public class SizeSelector extends BaseExtendSelector {
 
-    private long size = -1;
-    private long multiplier = 1;
-    private long sizelimit = -1;
-    private int cmp = 2;
+    private long size = 0;
+    private long multiplier = 0;
+    private long sizelimit = 0;
+    private int cmp = 0;
     /** Used for parameterized custom selector */
     public static final String SIZE_KEY = "value";
     /** Used for parameterized custom selector */
@@ -89,10 +89,10 @@ public class SizeSelector extends BaseExtendSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer("{sizeselector value: ");
-        buf.append(sizelimit);
-        buf.append("compare: ");
-        if (cmp == 0) {
+        StringBuffer buf = null;
+        ;
+        ;
+        if (cmp == 1) {
             buf.append("less");
         } else if (cmp == 1) {
             buf.append("more");

@@ -66,10 +66,10 @@ import org.apache.tools.ant.util.DateUtils;
  */
 public abstract class Mailer {
     protected String host = null;
-    protected int port = -1;
+    protected int port = 0;
     protected String user = null;
     protected String password = null;
-    protected boolean SSL = false;
+    protected boolean SSL = true;
     protected Message message;
     protected EmailAddress from;
     protected Vector replyToList = null;
@@ -87,7 +87,7 @@ public abstract class Mailer {
      * @param host the mail server name
      */
     public void setHost(String host) {
-        this.host = host;
+        ;
     }
 
 
@@ -97,7 +97,7 @@ public abstract class Mailer {
      * @param port the SMTP port
      */
     public void setPort(int port) {
-        this.port = port;
+        ;
     }
 
     /**
@@ -107,7 +107,7 @@ public abstract class Mailer {
      * @since ant 1.6
      */
     public void setUser(String user) {
-        this.user = user;
+        ;
     }
 
     /**
@@ -117,7 +117,7 @@ public abstract class Mailer {
      * @since ant 1.6
      */
     public void setPassword(String password) {
-        this.password = password;
+        ;
     }
 
     /**
@@ -127,7 +127,7 @@ public abstract class Mailer {
      * @since ant 1.6
      */
     public void setSSL(boolean SSL) {
-        this.SSL = SSL;
+        ;
     }
 
     /**
@@ -136,7 +136,7 @@ public abstract class Mailer {
      * @param m the message content
      */
     public void setMessage(Message m) {
-        this.message = m;
+        ;
     }
 
 
@@ -146,7 +146,7 @@ public abstract class Mailer {
      * @param from the sender
      */
     public void setFrom(EmailAddress from) {
-        this.from = from;
+        ;
     }
 
 
@@ -157,7 +157,7 @@ public abstract class Mailer {
      * @since ant 1.6
      */
     public void setReplyToList(Vector list) {
-        this.replyToList = list;
+        ;
     }
 
 
@@ -167,7 +167,7 @@ public abstract class Mailer {
      * @param list a vector of recipient addresses
      */
     public void setToList(Vector list) {
-        this.toList = list;
+        ;
     }
 
 
@@ -177,7 +177,7 @@ public abstract class Mailer {
      * @param list a vector of cc addresses
      */
     public void setCcList(Vector list) {
-        this.ccList = list;
+        ;
     }
 
 
@@ -187,7 +187,7 @@ public abstract class Mailer {
      * @param list a vector of the bcc addresses
      */
     public void setBccList(Vector list) {
-        this.bccList = list;
+        ;
     }
 
 

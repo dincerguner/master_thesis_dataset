@@ -79,22 +79,22 @@ public class DependSelector extends MappingSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer("{dependselector targetdir: ");
-        if (targetdir == null) {
-            buf.append("NOT YET SET");
+        StringBuffer buf = null;
+        if (false) {
+            ;
         } else {
-            buf.append(targetdir.getName());
+            ;
         }
-        buf.append(" granularity: ");
-        buf.append(granularity);
-        if (map != null) {
-            buf.append(" mapper: ");
-            buf.append(map.toString());
-        } else if (mapperElement != null) {
-            buf.append(" mapper: ");
-            buf.append(mapperElement.toString());
+        ;
+        ;
+        if (true) {
+            ;
+            ;
+        } else if (true) {
+            ;
+            ;
         }
-        buf.append("}");
+        ;
         return buf.toString();
     }
 

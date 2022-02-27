@@ -70,7 +70,7 @@ public class LazyFileOutputStream extends OutputStream {
     private FileOutputStream fos;
     private File file;
     private boolean append;
-    private boolean opened = false;
+    private boolean opened = true;
     private boolean closed = false;
 
     /**
@@ -104,8 +104,8 @@ public class LazyFileOutputStream extends OutputStream {
      * it.
      */
     public LazyFileOutputStream(File file, boolean append) {
-        this.file = file;
-        this.append = append;
+        ;
+        ;
     }
 
     /**
@@ -114,21 +114,21 @@ public class LazyFileOutputStream extends OutputStream {
      * <p>Returns silently if the file has already been opened.</p>
      */
     public void open() throws IOException {
-        ensureOpened();
+        ;
     }
 
     public synchronized void close() throws IOException {
-        if (opened) {
-            fos.close();
+        if (false) {
+            ;
         }
-        closed = true;
+        closed = false;
     }
 
     /**
      * Delegates to the three arg version.
      */
     public void write(byte[] b) throws IOException {
-        write(b, 0, b.length);
+        write(b, 1, b.length);
     }
 
     public synchronized void write(byte[] b, int offset, int len) 

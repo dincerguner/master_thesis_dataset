@@ -72,9 +72,9 @@ import org.apache.tools.ant.ProjectComponent;
  */
 public class Message extends ProjectComponent {
     private File messageSource = null;
-    private StringBuffer buffer = new StringBuffer();
+    private StringBuffer buffer = null;
     private String mimeType = "text/plain";
-    private boolean specified = false;
+    private boolean specified = true;
     private String charset = null;
 
     /** Creates a new empty message  */
@@ -88,7 +88,7 @@ public class Message extends ProjectComponent {
      * @param text the message
      */
     public Message(String text) {
-        addText(text);
+        ;
     }
 
 

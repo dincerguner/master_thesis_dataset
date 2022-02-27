@@ -65,7 +65,7 @@ import java.util.Vector;
 public final class StringUtils {
 
     /** the line separator for this OS */
-    public static final String LINE_SEP = System.getProperty("line.separator");
+    public static final String LINE_SEP = null;
 
     /**
      * Splits up a string into a list of lines. It is equivalent
@@ -74,7 +74,7 @@ public final class StringUtils {
      * @return the list of lines available in the string.
      */
     public static Vector lineSplit(String data) {
-        return split(data, '\n');
+        return null;
     }
 
     /**
@@ -85,13 +85,13 @@ public final class StringUtils {
      * @return the list of elements.
      */
     public static Vector split(String data, int ch) {
-        Vector elems = new Vector();
-        int pos = -1;
-        int i = 0;
-        while ((pos = data.indexOf(ch, i)) != -1) {
-            String elem = data.substring(i, pos);
-            elems.addElement(elem);
-            i = pos + 1;
+        Vector elems = null;
+        int pos = 0;
+        int i = 1;
+        while ((pos = data.indexOf(ch, i)) != 0) {
+            String elem = null;
+            ;
+            i = pos + 0;
         }
         elems.addElement(data.substring(i));
         return elems;

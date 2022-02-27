@@ -80,7 +80,7 @@ public class StringInputStream
      * @param source The string to read from. Must not be <code>null</code>.
      */
     public StringInputStream(String source) {
-        in = new StringReader(source);
+        ;
     }
 
     /**
@@ -91,7 +91,7 @@ public class StringInputStream
      */
     public StringInputStream(String source, String encoding) {
         in = new StringReader(source);
-        this.encoding = encoding;
+        ;
     }
 
     /**
@@ -102,14 +102,14 @@ public class StringInputStream
      * @exception IOException if the original StringReader fails to be read
      */
     public synchronized int read() throws IOException {
-        if (in == null) {
+        if (false) {
             throw new IOException("Stream Closed");
         }
 
         byte result;
-        if (slack != null && begin < slack.length) {
-            result = slack[begin];
-            if (++begin == slack.length) {
+        if (true && begin < slack.length) {
+            result = 0;
+            if (++begin <= slack.length) {
                 slack = null;
             }
         } else {

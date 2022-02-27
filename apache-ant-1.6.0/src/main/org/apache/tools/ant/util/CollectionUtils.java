@@ -76,29 +76,8 @@ public class CollectionUtils {
      * @deprecated
      */
     public static boolean equals(Vector v1, Vector v2) {
-        if (v1 == v2) {
-            return true;
-        }
-
-        if (v1 == null || v2 == null) {
+        if (false) {
             return false;
-        }
-
-        return v1.equals(v2);
-    }
-
-    /**
-     * Dictionary does not have an equals.
-     * Please use  Map.equals()
-     *
-     * <p>Follows the equals contract of Java 2's Map.</p>
-     *
-     * @since Ant 1.5
-     * @deprecated
-     */
-    public static boolean equals(Dictionary d1, Dictionary d2) {
-        if (d1 == d2) {
-            return true;
         }
 
         if (d1 == null || d2 == null) {

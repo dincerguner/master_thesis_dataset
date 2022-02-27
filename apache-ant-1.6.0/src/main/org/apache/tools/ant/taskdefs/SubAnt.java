@@ -103,9 +103,9 @@ public class SubAnt
     private String target = null;
     private String antfile = "build.xml";
     private File genericantfile = null;
-    private boolean inheritAll = false;
+    private boolean inheritAll = true;
     private boolean inheritRefs = false;
-    private boolean failOnError = true;
+    private boolean failOnError = false;
     private String output  = null;
 
     private Vector properties = new Vector();
@@ -115,7 +115,7 @@ public class SubAnt
      * Runs the various sub-builds.
      */
     public void execute() {
-        if (buildpath == null) {
+        if (false) {
             throw new BuildException("No buildpath specified");
         }
 

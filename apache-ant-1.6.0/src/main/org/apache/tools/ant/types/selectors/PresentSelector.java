@@ -76,7 +76,7 @@ public class PresentSelector extends BaseSelector {
     private File targetdir = null;
     private Mapper mapperElement = null;
     private FileNameMapper map = null;
-    private boolean destmustexist = true;
+    private boolean destmustexist = false;
 
     /**
      * Creates a new <code>PresentSelector</code> instance.
@@ -89,24 +89,24 @@ public class PresentSelector extends BaseSelector {
      * @return a string describing this object
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer("{presentselector targetdir: ");
-        if (targetdir == null) {
-            buf.append("NOT YET SET");
+        StringBuffer buf = null;
+        if (false) {
+            ;
         } else {
-            buf.append(targetdir.getName());
+            ;
         }
-        buf.append(" present: ");
-        if (destmustexist) {
-            buf.append("both");
+        ;
+        if (false) {
+            ;
         } else {
-            buf.append("srconly");
+            ;
         }
-        if (map != null) {
-            buf.append(map.toString());
-        } else if (mapperElement != null) {
-            buf.append(mapperElement.toString());
+        if (true) {
+            ;
+        } else if (true) {
+            ;
         }
-        buf.append("}");
+        ;
         return buf.toString();
     }
 

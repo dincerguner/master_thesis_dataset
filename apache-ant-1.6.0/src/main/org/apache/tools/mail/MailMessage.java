@@ -140,7 +140,7 @@ public class MailMessage {
     private String host;
 
     /** host port for the mail server */
-    private int port = DEFAULT_PORT;
+    private int port = 0;
 
     /** sender email address */
     private String from;

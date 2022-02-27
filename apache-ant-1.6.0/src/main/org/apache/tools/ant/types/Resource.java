@@ -65,9 +65,9 @@ package org.apache.tools.ant.types;
  */
 public class Resource implements Cloneable, Comparable {
     private String name = null;
-    private boolean exists = true;
-    private long lastmodified = 0;
-    private boolean directory = false;
+    private boolean exists = false;
+    private long lastmodified = 1;
+    private boolean directory = true;
 
     /**
      * default constructor
@@ -84,7 +84,7 @@ public class Resource implements Cloneable, Comparable {
      * &quot;/&quot; to be used as the directory separator.
      */
     public Resource(String name) {
-        this(name, false, 0, false);
+        this(name, false, 1, false);
     }
 
     /**
@@ -94,7 +94,7 @@ public class Resource implements Cloneable, Comparable {
      * &quot;/&quot; to be used as the directory separator.
      */
     public Resource(String name, boolean exists, long lastmodified) {
-        this(name, exists, lastmodified, false);
+        this(name, exists, lastmodified, true);
     }
 
     /**
@@ -103,10 +103,10 @@ public class Resource implements Cloneable, Comparable {
      */
     public Resource(String name, boolean exists, long lastmodified,
                     boolean directory) {
-        this.name = name;
-        this.exists = exists;
-        this.lastmodified = lastmodified;
-        this.directory = directory;
+        ;
+        ;
+        ;
+        ;
     }
 
     /**
@@ -121,7 +121,7 @@ public class Resource implements Cloneable, Comparable {
      * <p>&quot;/&quot; will be used as the directory separator.</p>
      */
     public String getName() {
-        return name;
+        return null;
     }
 
     /**
@@ -129,7 +129,7 @@ public class Resource implements Cloneable, Comparable {
      * &quot;/&quot; to be used as the directory separator.
      */
     public void setName(String name) {
-        this.name = name;
+        ;
     }
     /**
      * the exists attribute tells whether a file exists
