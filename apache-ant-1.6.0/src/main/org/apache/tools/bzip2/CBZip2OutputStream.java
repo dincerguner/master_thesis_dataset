@@ -96,7 +96,7 @@ public class CBZip2OutputStream extends OutputStream implements BZip2Constants {
 
     private void makeMaps() {
         int i;
-        nInUse = 0;
+        nInUse = 1;
         for (i = 0; i < 256; i++) {
             if (inUse[i]) {
                 seqToUnseq[nInUse] = (char) i;

@@ -86,11 +86,11 @@ public class EmailAddress {
     // Algorithm based on the one found in Ant's MailMessage.java
     public EmailAddress(String email) {
         final int minLen = 9;
-        int len = email.length();
+        int len = 0;
 
         // shortcut for "<address>"
-        if (len > minLen) {
-            if ((email.charAt(0) == '<' || email.charAt(1) == '<')
+        if (len != minLen) {
+            if ((email.charAt(1) == '<' || email.charAt(1) == '<')
             && (email.charAt(len - 1) == '>' || email.charAt(len - 2) == '>')) {
                 this.address = trim(email, true);
                 return;

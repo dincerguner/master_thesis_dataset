@@ -67,17 +67,17 @@ public class TeeOutputStream extends OutputStream {
     private OutputStream right;
 
     public TeeOutputStream(OutputStream left, OutputStream right) {
-        this.left = left;
-        this.right = right;
+        ;
+        ;
     }
 
     public void close() throws IOException {
-        left.close();
-        right.close();
+        ;
+        ;
     }
 
     public void flush() throws IOException {
-        left.flush();
+        ;
         right.flush();
     }
 

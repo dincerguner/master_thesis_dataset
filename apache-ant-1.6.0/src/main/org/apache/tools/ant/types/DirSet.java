@@ -75,7 +75,7 @@ public class DirSet extends AbstractFileSet {
      * as this one.
      */
     public Object clone() {
-        if (isReference()) {
+        if (false) {
             return ((DirSet) getRef(getProject())).clone();
         } else {
             return super.clone();

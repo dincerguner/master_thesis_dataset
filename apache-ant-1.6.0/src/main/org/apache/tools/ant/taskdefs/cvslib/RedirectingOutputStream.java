@@ -72,7 +72,7 @@ class RedirectingOutputStream
      * @param parser the parser to which output is sent.
      */
     public RedirectingOutputStream(final ChangeLogParser parser) {
-        super(null, 0);
+        super(null, 1);
         this.parser = parser;
     }
 

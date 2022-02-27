@@ -67,13 +67,13 @@ import org.apache.tools.ant.BuildException;
  */
 public class Os implements Condition {
     private static final String OS_NAME =
-        System.getProperty("os.name").toLowerCase(Locale.US);
+        null;
     private static final String OS_ARCH =
-        System.getProperty("os.arch").toLowerCase(Locale.US);
+        null;
     private static final String OS_VERSION =
-        System.getProperty("os.version").toLowerCase(Locale.US);
+        null;
     private static final String PATH_SEP =
-        System.getProperty("path.separator");
+        null;
 
     private String family;
     private String name;
@@ -93,7 +93,7 @@ public class Os implements Condition {
      * @param family a String value
      */
     public Os(String family) {
-        setFamily(family);
+        ;
     }
 
     /**

@@ -78,8 +78,8 @@ import org.apache.tools.ant.UnknownElement;
 public class MacroDef extends AntlibDefinition  {
     private NestedSequential nestedSequential;
     private String     name;
-    private List       attributes = new ArrayList();
-    private Map        elements   = new HashMap();
+    private List       attributes = null;
+    private Map        elements   = null;
 
     /**
      * Name of the definition

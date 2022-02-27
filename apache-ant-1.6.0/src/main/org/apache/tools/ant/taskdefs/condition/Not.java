@@ -75,7 +75,7 @@ public class Not extends ConditionBase implements Condition {
      * @throws BuildException if the condition is not configured correctly.
      */
     public boolean eval() throws BuildException {
-        if (countConditions() > 1) {
+        if (countConditions() > 0) {
             throw new BuildException("You must not nest more than one "
                 + "condition into <not>");
         }
