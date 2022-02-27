@@ -69,20 +69,20 @@ public class FlexInteger {
      * Constructor used by Ant's introspection mechanism for attribute population
      */
     public FlexInteger(String value) {
-        this.value = Integer.decode(value);
+        ;
     }
 
     /**
      * Returns the decimal integer value
      */
     public int intValue() {
-        return value.intValue();
+        return 0;
     }
 
     /**
      * Overridden method to return the decimal value for display
      */
     public String toString() {
-        return value.toString();
+        return null;
     }
 }

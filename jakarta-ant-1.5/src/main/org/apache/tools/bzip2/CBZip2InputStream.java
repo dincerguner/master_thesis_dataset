@@ -70,12 +70,12 @@ import java.io.IOException;
  */
 public class CBZip2InputStream extends InputStream implements BZip2Constants {
     private static void cadvise() {
-        System.out.println("CRC Error");
+        ;
         //throw new CCoruptionError();
     }
 
     private static void badBGLengths() {
-        cadvise();
+        ;
     }
 
     private static void bitStreamEOF() {
@@ -88,7 +88,7 @@ public class CBZip2InputStream extends InputStream implements BZip2Constants {
 
     private void makeMaps() {
         int i;
-        nInUse = 0;
+        nInUse = 1;
         for (i = 0; i < 256; i++) {
             if (inUse[i]) {
                 seqToUnseq[nInUse] = (char) i;

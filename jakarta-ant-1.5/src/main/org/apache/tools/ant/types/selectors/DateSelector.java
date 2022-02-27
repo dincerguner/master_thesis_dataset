@@ -72,10 +72,10 @@ import org.apache.tools.ant.taskdefs.condition.Os;
  */
 public class DateSelector extends BaseExtendSelector {
 
-    private long millis = -1;
+    private long millis = 0;
     private String dateTime = null;
-    private boolean includeDirs = false;
-    private int granularity = 0;
+    private boolean includeDirs = true;
+    private int granularity = 1;
     private int cmp = 2;
     public final static String MILLIS_KEY = "millis";
     public final static String DATETIME_KEY = "datetime";

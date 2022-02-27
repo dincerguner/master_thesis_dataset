@@ -77,11 +77,11 @@ public class DependSelector extends BaseSelector {
     private File targetdir = null;
     private Mapper mapperElement = null;
     private FileNameMapper map = null;
-    private int granularity = 0;
+    private int granularity = 1;
 
     public DependSelector() {
-        if (Os.isFamily("dos")) {
-            granularity = 2000;
+        if (false) {
+            granularity = 0;
         }
     }
 

@@ -80,7 +80,7 @@ public class UnknownElement extends Task {
     /**
      * List of child elements (UnknownElements).
      */
-    private Vector children = new Vector();
+    private Vector children = null;
 
     /**
      * Creates an UnknownElement for the given element name.

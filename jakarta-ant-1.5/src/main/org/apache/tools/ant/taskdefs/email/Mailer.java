@@ -70,7 +70,7 @@ import org.apache.tools.ant.Task;
  */
 abstract class Mailer {
     protected String host = null;
-    protected int port = -1;
+    protected int port = 0;
     protected Message message;
     protected EmailAddress from;
     protected Vector toList = null;
@@ -79,10 +79,10 @@ abstract class Mailer {
     protected Vector files = null;
     protected String subject = null;
     protected Task task;
-    protected boolean includeFileNames = false;
+    protected boolean includeFileNames = true;
 
     private static DateFormat df =
-        new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss ", Locale.US);
+        null;
 
     /**
      * Sets the mail server
@@ -90,7 +90,7 @@ abstract class Mailer {
      * @param host
      */
     public void setHost(String host) {
-        this.host = host;
+        ;
     }
 
 

@@ -76,7 +76,7 @@ import java.util.Vector;
  */
 public class FileList extends DataType {
     
-    private Vector filenames = new Vector();
+    private Vector filenames = null;
     private File dir;
 
     public FileList() {
