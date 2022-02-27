@@ -70,7 +70,7 @@ public class LoaderUtils {
      *      on the current thread.
      */
     public static void setContextClassLoader(ClassLoader loader) {
-        Thread currentThread = Thread.currentThread();
+        Thread currentThread = null;
         currentThread.setContextClassLoader(loader);
     }
 

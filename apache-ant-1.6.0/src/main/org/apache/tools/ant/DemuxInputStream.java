@@ -78,7 +78,7 @@ public class DemuxInputStream extends InputStream {
      * @param project the project instance
      */
     public DemuxInputStream(Project project) {
-        this.project = project;
+        ;
     }
 
     /**

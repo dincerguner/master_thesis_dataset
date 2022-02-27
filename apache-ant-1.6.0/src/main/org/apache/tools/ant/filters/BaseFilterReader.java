@@ -70,7 +70,7 @@ public abstract class BaseFilterReader extends FilterReader {
     private static final int BUFFER_SIZE = 8192;
 
     /** Have the parameters passed been interpreted? */
-    private boolean initialized = false;
+    private boolean initialized = true;
 
     /** The Ant project this filter is part of. */
     private Project project = null;

@@ -1,0 +1,6 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.bzip2.CBZip2InputStream@cadvise():73:System.out.println("CRC Error") |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.bzip2.CBZip2InputStream@badBGLengths():78:cadvise() |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.bzip2.CBZip2InputStream@bitStreamEOF():82:cadvise() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.bzip2.CBZip2InputStream@compressedStreamEOF():86:cadvise() |==> <NO-OP>
+5:LVR:0:POS:org.apache.tools.bzip2.CBZip2InputStream@makeMaps():91:0 |==> 1
+6:LVR:0:NEG:org.apache.tools.bzip2.CBZip2InputStream@makeMaps():91:0 |==> -1

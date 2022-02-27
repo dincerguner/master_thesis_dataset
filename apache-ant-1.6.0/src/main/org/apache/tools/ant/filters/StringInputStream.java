@@ -80,7 +80,7 @@ public class StringInputStream
      * @param source The string to read from. Must not be <code>null</code>.
      */
     public StringInputStream(String source) {
-        in = new StringReader(source);
+        ;
     }
 
     /**

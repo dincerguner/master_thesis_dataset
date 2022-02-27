@@ -67,7 +67,7 @@ import org.apache.tools.ant.BuildException;
  */
 public class Os implements Condition {
     private static final String OS_NAME =
-        System.getProperty("os.name").toLowerCase(Locale.US);
+        null;
     private static final String OS_ARCH =
         System.getProperty("os.arch").toLowerCase(Locale.US);
     private static final String OS_VERSION =

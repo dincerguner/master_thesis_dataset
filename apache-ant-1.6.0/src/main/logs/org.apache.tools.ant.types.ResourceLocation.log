@@ -1,0 +1,6 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.ResourceLocation@setPublicId(java.lang.String):110:this.publicId = publicId |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.ResourceLocation@setLocation(java.lang.String):118:this.location = location |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.ResourceLocation@setBase(java.net.URL):128:this.base = base |==> <NO-OP>
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.ResourceLocation@getPublicId():135:publicId |==> null
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.ResourceLocation@getLocation():142:location |==> null
+6:EVR:<IDENTIFIER(java.net.URL)>:<DEFAULT>:org.apache.tools.ant.types.ResourceLocation@getBase():149:base |==> null

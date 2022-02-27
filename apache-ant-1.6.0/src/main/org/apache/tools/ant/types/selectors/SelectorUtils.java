@@ -76,7 +76,7 @@ import org.apache.tools.ant.types.Resource;
  */
 public final class SelectorUtils {
 
-    private static SelectorUtils instance = new SelectorUtils();
+    private static SelectorUtils instance = null;
 
     /**
      * Private Constructor

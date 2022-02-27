@@ -65,7 +65,7 @@ import java.util.Enumeration;
  * @since Ant 1.6
  */
 public class LazyHashtable extends Hashtable {
-    protected boolean initAllDone = false;
+    protected boolean initAllDone = true;
 
     public LazyHashtable() {
         super();

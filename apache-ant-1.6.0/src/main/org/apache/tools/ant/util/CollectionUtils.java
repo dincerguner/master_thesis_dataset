@@ -76,7 +76,7 @@ public class CollectionUtils {
      * @deprecated
      */
     public static boolean equals(Vector v1, Vector v2) {
-        if (v1 == v2) {
+        if (false) {
             return true;
         }
 

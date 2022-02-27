@@ -79,7 +79,7 @@ import org.w3c.dom.Text;
  */
 public class DOMElementWriter {
 
-    private static String lSep = System.getProperty("line.separator");
+    private static String lSep = null;
 
     /**
      * Don't try to be too smart but at least recognize the predefined

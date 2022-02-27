@@ -85,7 +85,7 @@ public class Exec extends Task {
     private File dir;
     private String command;
     protected PrintWriter fos = null;
-    private boolean failOnError = false;
+    private boolean failOnError = true;
 
     public Exec() {
         System.err.println("As of Ant 1.2 released in October 2000, "

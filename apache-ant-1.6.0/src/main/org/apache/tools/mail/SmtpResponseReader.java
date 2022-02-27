@@ -71,7 +71,7 @@ import java.io.InputStreamReader;
 public class SmtpResponseReader {
 
     protected BufferedReader reader = null;
-    private StringBuffer result = new StringBuffer();
+    private StringBuffer result = null;
 
     /**
      * Wrap this input stream.

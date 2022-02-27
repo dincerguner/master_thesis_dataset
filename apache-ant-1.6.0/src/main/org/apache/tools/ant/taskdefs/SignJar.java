@@ -115,7 +115,7 @@ public class SignJar extends Task {
     /**
      * the filesets of the jars to sign
      */
-    protected Vector filesets = new Vector();
+    protected Vector filesets = null;
 
     /**
      * Whether to assume a jar which has an appropriate .SF file in is already

@@ -100,7 +100,7 @@ public final class DateUtils {
      * Format used for SMTP (and probably other) Date headers.
      */
     public static final DateFormat DATE_HEADER_FORMAT
-        = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss ", Locale.US);
+        = null;
 
 
 // code from Magesh moved from DefaultLogger and slightly modified

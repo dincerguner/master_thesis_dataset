@@ -72,7 +72,7 @@ import org.apache.tools.ant.ProjectComponent;
  */
 public class Message extends ProjectComponent {
     private File messageSource = null;
-    private StringBuffer buffer = new StringBuffer();
+    private StringBuffer buffer = null;
     private String mimeType = "text/plain";
     private boolean specified = false;
     private String charset = null;

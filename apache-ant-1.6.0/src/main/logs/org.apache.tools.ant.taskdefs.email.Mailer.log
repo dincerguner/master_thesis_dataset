@@ -1,0 +1,19 @@
+1:LVR:NEG:0:org.apache.tools.ant.taskdefs.email.Mailer:69:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.taskdefs.email.Mailer:69:-1 |==> 1
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.email.Mailer:72:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.email.Mailer:82:false |==> true
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setHost(java.lang.String):90:this.host = host |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setPort(int):100:this.port = port |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setUser(java.lang.String):110:this.user = user |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setPassword(java.lang.String):120:this.password = password |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setSSL(boolean):130:this.SSL = SSL |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setMessage(Message):139:this.message = m |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setFrom(EmailAddress):149:this.from = from |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setReplyToList(java.util.Vector):160:this.replyToList = list |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setToList(java.util.Vector):170:this.toList = list |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setCcList(java.util.Vector):180:this.ccList = list |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setBccList(java.util.Vector):190:this.bccList = list |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setFiles(java.util.Vector):200:this.files = files |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setSubject(java.lang.String):210:this.subject = subject |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setTask(Task):220:this.task = task |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setIncludeFileNames(boolean):230:this.includeFileNames = b |==> <NO-OP>

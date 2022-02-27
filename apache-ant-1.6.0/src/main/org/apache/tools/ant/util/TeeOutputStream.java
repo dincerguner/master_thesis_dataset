@@ -67,7 +67,7 @@ public class TeeOutputStream extends OutputStream {
     private OutputStream right;
 
     public TeeOutputStream(OutputStream left, OutputStream right) {
-        this.left = left;
+        ;
         this.right = right;
     }
 

@@ -71,7 +71,7 @@ class CvsTagEntry {
 
     public CvsTagEntry(String filename, String revision,
                        String prevRevision) {
-        m_filename = filename;
+        ;
         m_revision = revision;
         m_prevRevision = prevRevision;
     }

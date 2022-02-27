@@ -1,0 +1,10 @@
+1:LVR:POS:0:org.apache.tools.ant.util.Watchdog:73:1 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.util.Watchdog:73:1 |==> -1
+3:LVR:NEG:0:org.apache.tools.ant.util.Watchdog:74:-1 |==> 0
+4:LVR:NEG:POS:org.apache.tools.ant.util.Watchdog:74:-1 |==> 1
+5:LVR:FALSE:TRUE:org.apache.tools.ant.util.Watchdog:75:false |==> true
+6:LVR:POS:0:org.apache.tools.ant.util.Watchdog@<init>(long):78:1 |==> 0
+7:LVR:POS:NEG:org.apache.tools.ant.util.Watchdog@<init>(long):78:1 |==> -1
+8:ROR:<(long,long):!=(long,long):org.apache.tools.ant.util.Watchdog@<init>(long):78:timeout < 1 |==> timeout != 1
+9:ROR:<(long,long):<=(long,long):org.apache.tools.ant.util.Watchdog@<init>(long):78:timeout < 1 |==> timeout <= 1
+10:ROR:<(long,long):FALSE(long,long):org.apache.tools.ant.util.Watchdog@<init>(long):78:timeout < 1 |==> false

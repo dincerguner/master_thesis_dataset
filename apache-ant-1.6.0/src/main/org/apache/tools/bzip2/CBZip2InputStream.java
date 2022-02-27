@@ -70,7 +70,7 @@ import java.io.IOException;
  */
 public class CBZip2InputStream extends InputStream implements BZip2Constants {
     private static void cadvise() {
-        System.out.println("CRC Error");
+        ;
         //throw new CCoruptionError();
     }
 

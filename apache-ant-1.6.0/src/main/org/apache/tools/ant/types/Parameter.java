@@ -64,7 +64,7 @@ public final class Parameter {
     private String value = null;
 
     public final void setName(final String name) {
-        this.name = name;
+        ;
     }
 
     public final void setType(final String type) {

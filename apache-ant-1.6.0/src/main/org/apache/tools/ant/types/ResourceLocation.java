@@ -107,7 +107,7 @@ public class ResourceLocation {
      * @param publicId uniquely identifies the resource.
      */
     public void setPublicId(String publicId) {
-        this.publicId = publicId;
+        ;
     }
 
     /**

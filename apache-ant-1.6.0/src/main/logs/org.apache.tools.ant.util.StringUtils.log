@@ -1,0 +1,47 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils:68:System.getProperty("line.separator") |==> null
+2:EVR:<METHOD_INVOCATION(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@lineSplit(java.lang.String):77:split(data, '\n') |==> null
+3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):88:new Vector() |==> null
+4:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):89:-1 |==> 0
+5:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):89:-1 |==> 1
+6:LVR:0:POS:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):90:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):90:0 |==> -1
+8:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):91:-1 |==> 0
+9:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):91:-1 |==> 1
+10:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):91:(pos = data.indexOf(ch, i)) != -1 |==> (pos = data.indexOf(ch, i)) < -1
+11:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):91:(pos = data.indexOf(ch, i)) != -1 |==> (pos = data.indexOf(ch, i)) > -1
+12:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):91:(pos = data.indexOf(ch, i)) != -1 |==> true
+13:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):92:data.substring(i, pos) |==> null
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):93:elems.addElement(elem) |==> <NO-OP>
+15:LVR:POS:0:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):94:1 |==> 0
+16:LVR:POS:NEG:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):94:1 |==> -1
+17:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):94:pos + 1 |==> pos % 1
+18:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):94:pos + 1 |==> pos * 1
+19:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):94:pos + 1 |==> pos - 1
+20:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):94:pos + 1 |==> pos / 1
+21:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):94:i = pos + 1 |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):96:elems.addElement(data.substring(i)) |==> <NO-OP>
+23:EVR:<IDENTIFIER(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@split(java.lang.String,int):97:elems |==> null
+24:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):108:new StringBuffer(data.length()) |==> null
+25:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):109:-1 |==> 0
+26:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):109:-1 |==> 1
+27:LVR:0:POS:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):110:0 |==> 1
+28:LVR:0:NEG:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):110:0 |==> -1
+29:LVR:NEG:0:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):111:-1 |==> 0
+30:LVR:NEG:POS:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):111:-1 |==> 1
+31:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):111:(pos = data.indexOf(from, i)) != -1 |==> (pos = data.indexOf(from, i)) < -1
+32:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):111:(pos = data.indexOf(from, i)) != -1 |==> (pos = data.indexOf(from, i)) > -1
+33:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):111:(pos = data.indexOf(from, i)) != -1 |==> true
+34:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):112:buf.append(data.substring(i, pos)).append(to) |==> <NO-OP>
+35:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):113:pos + from.length() |==> pos % from.length()
+36:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):113:pos + from.length() |==> pos * from.length()
+37:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):113:pos + from.length() |==> pos - from.length()
+38:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):113:pos + from.length() |==> pos / from.length()
+39:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):113:i = pos + from.length() |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):115:buf.append(data.substring(i)) |==> <NO-OP>
+41:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@replace(java.lang.String,java.lang.String,java.lang.String):116:buf.toString() |==> null
+42:EVR:<NEW_CLASS(java.io.StringWriter)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):125:new StringWriter() |==> null
+43:LVR:TRUE:FALSE:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):126:true |==> false
+44:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):127:t.printStackTrace(pw) |==> <NO-OP>
+45:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):128:pw.flush() |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):129:pw.close() |==> <NO-OP>
+47:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.StringUtils@getStackTrace(java.lang.Throwable):130:sw.toString() |==> null

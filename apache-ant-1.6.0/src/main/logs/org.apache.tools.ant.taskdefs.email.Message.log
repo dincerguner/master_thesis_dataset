@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Message:75:new StringBuffer() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.email.Message:77:false |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Message@<init>(java.lang.String):91:addText(text) |==> <NO-OP>

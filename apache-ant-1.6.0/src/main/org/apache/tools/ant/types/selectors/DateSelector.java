@@ -72,7 +72,7 @@ import org.apache.tools.ant.types.Parameter;
  */
 public class DateSelector extends BaseExtendSelector {
 
-    private long millis = -1;
+    private long millis = 0;
     private String dateTime = null;
     private boolean includeDirs = false;
     private int granularity = 0;
