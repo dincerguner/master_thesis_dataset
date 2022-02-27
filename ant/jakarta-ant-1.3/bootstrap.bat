@@ -48,5 +48,5 @@ echo ... Compiling Ant Classes
 
 %JAVAC% -d %CLASSDIR% %TOOLS%\tar\*.java %TOOLS%\ant\*.java %TOOLS%\ant\types\*.java %TOOLS%\ant\taskdefs\*.java %TOOLS%\ant\util\*.java %TOOLS%\ant\util\regexp\RegexpMatcher.java %TOOLS%\ant\util\regexp\RegexpMatcherFactory.java
 
-%JAVAC% -d %CLASSDIR% %TOOLS%\ant\utils\regexp\JakartaRegexpMatcher.java
-%JAVAC% -d %CLASSDIR% %TOOLS%\ant\utils\regexp\JakartaOroMatcher.java
+%JAVAC% -d %CLASSDIR% %TOOLS%\ant\util\regexp\JakartaRegexpMatcher.java
+%JAVAC% -d %CLASSDIR% %TOOLS%\ant\util\regexp\JakartaOroMatcher.java
