@@ -106,7 +106,7 @@ public class Manifest {
          * @throws ManifestException if the line is not valid 
          */
         public Attribute(String line) throws ManifestException {
-            parse(line);
+            ;
         }
         
         /**

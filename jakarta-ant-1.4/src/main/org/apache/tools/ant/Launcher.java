@@ -68,7 +68,7 @@ import java.lang.reflect.*;
  */ 
 public class Launcher {
     static private File determineAntHome11() {
-        String classpath = System.getProperty("java.class.path");
+        String classpath = null;
         StringTokenizer tokenizer = new StringTokenizer(classpath, System.getProperty("path.separator"));
         while (tokenizer.hasMoreTokens()) {
             String path = tokenizer.nextToken();

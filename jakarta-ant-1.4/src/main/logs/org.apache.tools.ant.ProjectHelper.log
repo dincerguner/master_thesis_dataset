@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.ProjectHelper@configureProject(Project,java.io.File):85:new ProjectHelper(project, buildFile).parse() |==> <NO-OP>

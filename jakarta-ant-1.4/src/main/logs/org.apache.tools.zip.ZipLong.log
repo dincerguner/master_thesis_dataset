@@ -1,0 +1,108 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@<init>(long):74:this.value = value |==> <NO-OP>
+2:LVR:0:POS:org.apache.tools.zip.ZipLong@<init>(byte[]):83:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.zip.ZipLong@<init>(byte[]):83:0 |==> -1
+4:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):92:3 |==> 0
+5:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):92:3 |==> -3
+6:AOR:+(int,int):%(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:offset + 3 |==> offset % 3
+7:AOR:+(int,int):*(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:offset + 3 |==> offset * 3
+8:AOR:+(int,int):-(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:offset + 3 |==> offset - 3
+9:AOR:+(int,int):/(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:offset + 3 |==> offset / 3
+10:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):92:24 |==> 0
+11:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):92:24 |==> -24
+12:SOR:<<(int,int):>>(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:bytes[offset + 3] << 24 |==> bytes[offset + 3] >> 24
+13:SOR:<<(int,int):>>>(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:bytes[offset + 3] << 24 |==> bytes[offset + 3] >>> 24
+14:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):92:4278190080L |==> 0L
+15:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):92:4278190080L |==> -4278190080L
+16:LOR:&(long,long):^(long,long):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:(bytes[offset + 3] << 24) & 4278190080L |==> (bytes[offset + 3] << 24) ^ 4278190080L
+17:LOR:&(long,long):|(long,long):org.apache.tools.zip.ZipLong@<init>(byte[],int):92:(bytes[offset + 3] << 24) & 4278190080L |==> (bytes[offset + 3] << 24) | 4278190080L
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@<init>(byte[],int):92:value = (bytes[offset + 3] << 24) & 4278190080L |==> <NO-OP>
+19:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):93:2 |==> 0
+20:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):93:2 |==> -2
+21:AOR:+(int,int):%(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:offset + 2 |==> offset % 2
+22:AOR:+(int,int):*(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:offset + 2 |==> offset * 2
+23:AOR:+(int,int):-(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:offset + 2 |==> offset - 2
+24:AOR:+(int,int):/(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:offset + 2 |==> offset / 2
+25:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):93:16 |==> 0
+26:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):93:16 |==> -16
+27:SOR:<<(int,int):>>(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:bytes[offset + 2] << 16 |==> bytes[offset + 2] >> 16
+28:SOR:<<(int,int):>>>(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:bytes[offset + 2] << 16 |==> bytes[offset + 2] >>> 16
+29:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):93:16711680 |==> 0
+30:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):93:16711680 |==> -16711680
+31:LOR:&(int,int):^(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:(bytes[offset + 2] << 16) & 16711680 |==> (bytes[offset + 2] << 16) ^ 16711680
+32:LOR:&(int,int):|(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):93:(bytes[offset + 2] << 16) & 16711680 |==> (bytes[offset + 2] << 16) | 16711680
+33:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@<init>(byte[],int):93:value += (bytes[offset + 2] << 16) & 16711680 |==> <NO-OP>
+34:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):94:1 |==> 0
+35:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):94:1 |==> -1
+36:AOR:+(int,int):%(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:offset + 1 |==> offset % 1
+37:AOR:+(int,int):*(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:offset + 1 |==> offset * 1
+38:AOR:+(int,int):-(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:offset + 1 |==> offset - 1
+39:AOR:+(int,int):/(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:offset + 1 |==> offset / 1
+40:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):94:8 |==> 0
+41:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):94:8 |==> -8
+42:SOR:<<(int,int):>>(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:bytes[offset + 1] << 8 |==> bytes[offset + 1] >> 8
+43:SOR:<<(int,int):>>>(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:bytes[offset + 1] << 8 |==> bytes[offset + 1] >>> 8
+44:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):94:65280 |==> 0
+45:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):94:65280 |==> -65280
+46:LOR:&(int,int):^(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:(bytes[offset + 1] << 8) & 65280 |==> (bytes[offset + 1] << 8) ^ 65280
+47:LOR:&(int,int):|(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):94:(bytes[offset + 1] << 8) & 65280 |==> (bytes[offset + 1] << 8) | 65280
+48:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@<init>(byte[],int):94:value += (bytes[offset + 1] << 8) & 65280 |==> <NO-OP>
+49:LVR:POS:0:org.apache.tools.zip.ZipLong@<init>(byte[],int):95:255 |==> 0
+50:LVR:POS:NEG:org.apache.tools.zip.ZipLong@<init>(byte[],int):95:255 |==> -255
+51:LOR:&(int,int):^(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):95:bytes[offset] & 255 |==> bytes[offset] ^ 255
+52:LOR:&(int,int):|(int,int):org.apache.tools.zip.ZipLong@<init>(byte[],int):95:bytes[offset] & 255 |==> bytes[offset] | 255
+53:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@<init>(byte[],int):95:value += (bytes[offset] & 255) |==> <NO-OP>
+54:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():104:4 |==> 0
+55:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():104:4 |==> -4
+56:LVR:0:POS:org.apache.tools.zip.ZipLong@getBytes():105:0 |==> 1
+57:LVR:0:NEG:org.apache.tools.zip.ZipLong@getBytes():105:0 |==> -1
+58:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():105:255 |==> 0
+59:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():105:255 |==> -255
+60:LOR:&(long,long):^(long,long):org.apache.tools.zip.ZipLong@getBytes():105:value & 255 |==> value ^ 255
+61:LOR:&(long,long):|(long,long):org.apache.tools.zip.ZipLong@getBytes():105:value & 255 |==> value | 255
+62:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@getBytes():105:result[0] = (byte)((value & 255)) |==> <NO-OP>
+63:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():106:1 |==> 0
+64:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():106:1 |==> -1
+65:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():106:65280 |==> 0
+66:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():106:65280 |==> -65280
+67:LOR:&(long,long):^(long,long):org.apache.tools.zip.ZipLong@getBytes():106:value & 65280 |==> value ^ 65280
+68:LOR:&(long,long):|(long,long):org.apache.tools.zip.ZipLong@getBytes():106:value & 65280 |==> value | 65280
+69:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():106:8 |==> 0
+70:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():106:8 |==> -8
+71:SOR:>>(long,int):<<(long,int):org.apache.tools.zip.ZipLong@getBytes():106:(value & 65280) >> 8 |==> (value & 65280) << 8
+72:SOR:>>(long,int):>>>(long,int):org.apache.tools.zip.ZipLong@getBytes():106:(value & 65280) >> 8 |==> (value & 65280) >>> 8
+73:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@getBytes():106:result[1] = (byte)((value & 65280) >> 8) |==> <NO-OP>
+74:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():107:2 |==> 0
+75:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():107:2 |==> -2
+76:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():107:16711680 |==> 0
+77:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():107:16711680 |==> -16711680
+78:LOR:&(long,long):^(long,long):org.apache.tools.zip.ZipLong@getBytes():107:value & 16711680 |==> value ^ 16711680
+79:LOR:&(long,long):|(long,long):org.apache.tools.zip.ZipLong@getBytes():107:value & 16711680 |==> value | 16711680
+80:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():107:16 |==> 0
+81:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():107:16 |==> -16
+82:SOR:>>(long,int):<<(long,int):org.apache.tools.zip.ZipLong@getBytes():107:(value & 16711680) >> 16 |==> (value & 16711680) << 16
+83:SOR:>>(long,int):>>>(long,int):org.apache.tools.zip.ZipLong@getBytes():107:(value & 16711680) >> 16 |==> (value & 16711680) >>> 16
+84:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@getBytes():107:result[2] = (byte)((value & 16711680) >> 16) |==> <NO-OP>
+85:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():108:3 |==> 0
+86:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():108:3 |==> -3
+87:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():108:4278190080L |==> 0L
+88:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():108:4278190080L |==> -4278190080L
+89:LOR:&(long,long):^(long,long):org.apache.tools.zip.ZipLong@getBytes():108:value & 4278190080L |==> value ^ 4278190080L
+90:LOR:&(long,long):|(long,long):org.apache.tools.zip.ZipLong@getBytes():108:value & 4278190080L |==> value | 4278190080L
+91:LVR:POS:0:org.apache.tools.zip.ZipLong@getBytes():108:24 |==> 0
+92:LVR:POS:NEG:org.apache.tools.zip.ZipLong@getBytes():108:24 |==> -24
+93:SOR:>>(long,int):<<(long,int):org.apache.tools.zip.ZipLong@getBytes():108:(value & 4278190080L) >> 24 |==> (value & 4278190080L) << 24
+94:SOR:>>(long,int):>>>(long,int):org.apache.tools.zip.ZipLong@getBytes():108:(value & 4278190080L) >> 24 |==> (value & 4278190080L) >>> 24
+95:STD:<ASSIGN>:<NO-OP>:org.apache.tools.zip.ZipLong@getBytes():108:result[3] = (byte)((value & 4278190080L) >> 24) |==> <NO-OP>
+96:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.tools.zip.ZipLong@getBytes():109:result |==> null
+97:EVR:<IDENTIFIER(long)>:<DEFAULT>:org.apache.tools.zip.ZipLong@getValue():118:value |==> 0L
+98:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.zip.ZipLong@equals(java.lang.Object):127:o == null |==> false
+99:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.zip.ZipLong@equals(java.lang.Object):127:o == null || !(o instanceof ZipLong) |==> o == null != !(o instanceof ZipLong)
+100:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.zip.ZipLong@equals(java.lang.Object):127:o == null || !(o instanceof ZipLong) |==> o == null
+101:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.zip.ZipLong@equals(java.lang.Object):127:o == null || !(o instanceof ZipLong) |==> !(o instanceof ZipLong)
+102:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.zip.ZipLong@equals(java.lang.Object):127:o == null || !(o instanceof ZipLong) |==> true
+103:LVR:FALSE:TRUE:org.apache.tools.zip.ZipLong@equals(java.lang.Object):128:false |==> true
+104:STD:<RETURN>:<NO-OP>:org.apache.tools.zip.ZipLong@equals(java.lang.Object):128:return Config.__M_NO == 0 && Config.COVERED(103, 103) ? false : Config.__M_NO == 103 ? true : false; |==> <NO-OP>
+105:ROR:==(long,long):<=(long,long):org.apache.tools.zip.ZipLong@equals(java.lang.Object):130:value == ((ZipLong)o).getValue() |==> value <= ((ZipLong)o).getValue()
+106:ROR:==(long,long):>=(long,long):org.apache.tools.zip.ZipLong@equals(java.lang.Object):130:value == ((ZipLong)o).getValue() |==> value >= ((ZipLong)o).getValue()
+107:ROR:==(long,long):FALSE(long,long):org.apache.tools.zip.ZipLong@equals(java.lang.Object):130:value == ((ZipLong)o).getValue() |==> false
+108:EVR:<TYPE_CAST(int)>:<DEFAULT>:org.apache.tools.zip.ZipLong@hashCode():139:(int)value |==> 0

@@ -71,7 +71,7 @@ public class ZipLong implements Cloneable {
      * @since 1.1
      */
     public ZipLong(long value) {
-        this.value = value;
+        ;
     }
 
     /**

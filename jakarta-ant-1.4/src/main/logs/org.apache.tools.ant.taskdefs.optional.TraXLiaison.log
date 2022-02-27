@@ -1,0 +1,21 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@<init>():93:tfactory = TransformerFactory.newInstance() |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@setStylesheet(java.io.File):108:xslStream = new FileInputStream(stylesheet) |==> <NO-OP>
+3:EVR:<NEW_CLASS(javax.xml.transform.stream.StreamSource)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@setStylesheet(java.io.File):109:new StreamSource(xslStream) |==> null
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@setStylesheet(java.io.File):110:src.setSystemId(getSystemId(stylesheet)) |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@setStylesheet(java.io.File):111:templates = tfactory.newTemplates(src) |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@setStylesheet(java.io.File):112:transformer = templates.newTransformer() |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):119:fis = new FileInputStream(infile) |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):120:fos = new FileOutputStream(outfile) |==> <NO-OP>
+9:EVR:<NEW_CLASS(javax.xml.transform.stream.StreamSource)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):121:new StreamSource(fis) |==> null
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):122:src.setSystemId(getSystemId(infile)) |==> <NO-OP>
+11:EVR:<NEW_CLASS(javax.xml.transform.stream.StreamResult)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):123:new StreamResult(fos) |==> null
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):125:res.setSystemId(getSystemId(outfile)) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):127:transformer.transform(src, res) |==> <NO-OP>
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):133:xslStream != null |==> true
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):134:xslStream.close() |==> <NO-OP>
+16:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):138:fis != null |==> true
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):139:fis.close() |==> <NO-OP>
+18:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):143:fos != null |==> true
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@transform(java.io.File,java.io.File):144:fos.close() |==> <NO-OP>
+20:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@getSystemId(java.io.File):155:file.getAbsolutePath() |==> null
+21:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.TraXLiaison@getSystemId(java.io.File):156:path = path.replace('\\', '/') |==> <NO-OP>

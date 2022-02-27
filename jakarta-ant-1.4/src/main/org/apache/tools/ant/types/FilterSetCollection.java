@@ -77,7 +77,7 @@ import org.apache.tools.ant.Task;
  */
 public class FilterSetCollection {
     
-    private Vector filterSets = new Vector();
+    private Vector filterSets = null;
 
     public FilterSetCollection() {
     }

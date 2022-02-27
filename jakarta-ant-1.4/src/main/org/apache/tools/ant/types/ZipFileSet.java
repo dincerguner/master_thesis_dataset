@@ -82,7 +82,7 @@ public class ZipFileSet extends FileSet {
     private File srcFile          = null;
     private String prefix         = "";
     private String fullpath       = "";
-    private boolean hasDir        = false;
+    private boolean hasDir        = true;
 
     /**
      * Set the directory for the fileset.  Prevents both "dir" and "src"

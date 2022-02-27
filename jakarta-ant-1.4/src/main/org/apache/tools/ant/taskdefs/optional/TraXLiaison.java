@@ -90,7 +90,7 @@ public class TraXLiaison implements XSLTLiaison {
     private Transformer transformer = null;
 
     public TraXLiaison() throws Exception {
-        tfactory = TransformerFactory.newInstance();
+        ;
     }
 //------------------- IMPORTANT
     // 1) Don't use the StreamSource(File) ctor. It won't work with

@@ -1,0 +1,191 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter:74:System.getProperty("line.separator") |==> null
+2:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter:75:new StringBuffer() |==> null
+3:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter:81:{"gt", "amp", "lt", "apos", "quot"} |==> null
+4:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):97:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):97:0 |==> -1
+6:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):97:i < indent |==> i != indent
+7:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):97:i < indent |==> i <= indent
+8:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):97:i < indent |==> false
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):98:out.write(indentWith) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):102:out.write("<") |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):103:out.write(element.getTagName()) |==> <NO-OP>
+12:EVR:<METHOD_INVOCATION(org.w3c.dom.NamedNodeMap)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):106:element.getAttributes() |==> null
+13:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):107:0 |==> 1
+14:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):107:0 |==> -1
+15:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):107:i < attrs.getLength() |==> i != attrs.getLength()
+16:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):107:i < attrs.getLength() |==> i <= attrs.getLength()
+17:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):107:i < attrs.getLength() |==> false
+18:EVR:<TYPE_CAST(org.w3c.dom.Attr)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):108:(Attr)attrs.item(i) |==> null
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):109:out.write(" ") |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):110:out.write(attr.getName()) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):111:out.write("=\"") |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):112:out.write(encode(attr.getValue())) |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):113:out.write("\"") |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):115:out.write(">") |==> <NO-OP>
+25:LVR:FALSE:TRUE:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):118:false |==> true
+26:EVR:<METHOD_INVOCATION(org.w3c.dom.NodeList)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):119:element.getChildNodes() |==> null
+27:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):120:0 |==> 1
+28:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):120:0 |==> -1
+29:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):120:i < children.getLength() |==> i != children.getLength()
+30:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):120:i < children.getLength() |==> i <= children.getLength()
+31:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):120:i < children.getLength() |==> false
+32:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):121:children.item(i) |==> null
+33:COR:hasChildren:TRUE:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):126:hasChildren |==> false
+34:COR:hasChildren:FALSE:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):126:hasChildren |==> true
+35:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):127:out.write(lSep) |==> <NO-OP>
+36:LVR:TRUE:FALSE:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):128:true |==> false
+37:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):128:hasChildren = true |==> <NO-OP>
+38:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):130:1 |==> 0
+39:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):130:1 |==> -1
+40:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):130:indent + 1 |==> indent % 1
+41:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):130:indent + 1 |==> indent * 1
+42:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):130:indent + 1 |==> indent - 1
+43:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):130:indent + 1 |==> indent / 1
+44:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):130:write((Element)child, out, indent + 1, indentWith) |==> <NO-OP>
+45:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):131:break; |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):134:out.write(encode(child.getNodeValue())) |==> <NO-OP>
+47:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):135:break; |==> <NO-OP>
+48:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):138:out.write("<![CDATA[") |==> <NO-OP>
+49:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):139:out.write(((Text)child).getData()) |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):140:out.write("]]>") |==> <NO-OP>
+51:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):141:break; |==> <NO-OP>
+52:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):144:out.write('&') |==> <NO-OP>
+53:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):145:out.write(child.getNodeName()) |==> <NO-OP>
+54:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):146:out.write(';') |==> <NO-OP>
+55:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):147:break; |==> <NO-OP>
+56:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):150:out.write("<?") |==> <NO-OP>
+57:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):151:out.write(child.getNodeName()) |==> <NO-OP>
+58:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):152:child.getNodeValue() |==> null
+59:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data != null |==> true
+60:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:0 |==> 1
+61:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:0 |==> -1
+62:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data.length() > 0 |==> data.length() != 0
+63:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data.length() > 0 |==> data.length() >= 0
+64:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data.length() > 0 |==> false
+65:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data != null && data.length() > 0 |==> data != null == data.length() > 0
+66:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data != null && data.length() > 0 |==> false
+67:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data != null && data.length() > 0 |==> data != null
+68:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):153:data != null && data.length() > 0 |==> data.length() > 0
+69:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):154:out.write(' ') |==> <NO-OP>
+70:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):155:out.write(data) |==> <NO-OP>
+71:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):157:out.write("?>") |==> <NO-OP>
+72:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):158:break; |==> <NO-OP>
+73:COR:hasChildren:TRUE:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):165:hasChildren |==> false
+74:COR:hasChildren:FALSE:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):165:hasChildren |==> true
+75:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):166:0 |==> 1
+76:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):166:0 |==> -1
+77:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):166:i < indent |==> i != indent
+78:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):166:i < indent |==> i <= indent
+79:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):166:i < indent |==> false
+80:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):167:out.write(indentWith) |==> <NO-OP>
+81:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):172:out.write("</") |==> <NO-OP>
+82:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):173:out.write(element.getTagName()) |==> <NO-OP>
+83:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):174:out.write(">") |==> <NO-OP>
+84:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):175:out.write(lSep) |==> <NO-OP>
+85:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@write(org.w3c.dom.Element,java.io.Writer,int,java.lang.String):176:out.flush() |==> <NO-OP>
+86:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):183:0 |==> 1
+87:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):183:0 |==> -1
+88:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):183:sb.setLength(0) |==> <NO-OP>
+89:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):184:0 |==> 1
+90:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):184:0 |==> -1
+91:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):184:i < value.length() |==> i != value.length()
+92:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):184:i < value.length() |==> i <= value.length()
+93:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):184:i < value.length() |==> false
+94:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):185:value.charAt(i) |==> 0
+95:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):188:sb.append("&lt;") |==> <NO-OP>
+96:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):189:break; |==> <NO-OP>
+97:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):191:sb.append("&gt;") |==> <NO-OP>
+98:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):192:break; |==> <NO-OP>
+99:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):194:sb.append("&apos;") |==> <NO-OP>
+100:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):195:break; |==> <NO-OP>
+101:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):197:sb.append("&quot;") |==> <NO-OP>
+102:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):198:break; |==> <NO-OP>
+103:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):200:value.indexOf(";", i) |==> 0
+104:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):201:0 |==> 1
+105:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):201:0 |==> -1
+106:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):201:nextSemi < 0 |==> nextSemi != 0
+107:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):201:nextSemi < 0 |==> nextSemi <= 0
+108:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):201:nextSemi < 0 |==> false
+109:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:1 |==> 0
+110:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:1 |==> -1
+111:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:nextSemi + 1 |==> nextSemi % 1
+112:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:nextSemi + 1 |==> nextSemi * 1
+113:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:nextSemi + 1 |==> nextSemi - 1
+114:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:nextSemi + 1 |==> nextSemi / 1
+115:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):201:nextSemi < 0 || !isReference(value.substring(i, nextSemi + 1)) |==> nextSemi < 0 != !isReference(value.substring(i, nextSemi + 1))
+116:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):201:nextSemi < 0 || !isReference(value.substring(i, nextSemi + 1)) |==> nextSemi < 0
+117:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:nextSemi < 0 || !isReference(value.substring(i, nextSemi + 1)) |==> !isReference(value.substring(i, nextSemi + 1))
+118:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):202:nextSemi < 0 || !isReference(value.substring(i, nextSemi + 1)) |==> true
+119:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):203:sb.append("&amp;") |==> <NO-OP>
+120:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):205:sb.append('&') |==> <NO-OP>
+121:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):207:break; |==> <NO-OP>
+122:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):209:sb.append(c) |==> <NO-OP>
+123:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):210:break; |==> <NO-OP>
+124:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DOMElementWriter@encode(java.lang.String):213:sb.toString() |==> null
+125:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:0 |==> 1
+126:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:0 |==> -1
+127:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:ent.charAt(0) == '&' |==> ent.charAt(0) <= '&'
+128:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:ent.charAt(0) == '&' |==> ent.charAt(0) >= '&'
+129:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:ent.charAt(0) == '&' |==> false
+130:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:!(ent.charAt(0) == '&') || !ent.endsWith(";") |==> !(ent.charAt(0) == '&') != !ent.endsWith(";")
+131:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:!(ent.charAt(0) == '&') || !ent.endsWith(";") |==> !(ent.charAt(0) == '&')
+132:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:!(ent.charAt(0) == '&') || !ent.endsWith(";") |==> !ent.endsWith(";")
+133:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):220:!(ent.charAt(0) == '&') || !ent.endsWith(";") |==> true
+134:LVR:FALSE:TRUE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):221:false |==> true
+135:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):221:return Config.__M_NO == 0 && Config.COVERED(134, 134) ? false : Config.__M_NO == 134 ? true : false; |==> <NO-OP>
+136:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):224:1 |==> 0
+137:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):224:1 |==> -1
+138:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):224:ent.charAt(1) == '#' |==> ent.charAt(1) <= '#'
+139:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):224:ent.charAt(1) == '#' |==> ent.charAt(1) >= '#'
+140:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):224:ent.charAt(1) == '#' |==> false
+141:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):225:2 |==> 0
+142:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):225:2 |==> -2
+143:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):225:ent.charAt(2) == 'x' |==> ent.charAt(2) <= 'x'
+144:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):225:ent.charAt(2) == 'x' |==> ent.charAt(2) >= 'x'
+145:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):225:ent.charAt(2) == 'x' |==> false
+146:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:3 |==> 0
+147:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:3 |==> -3
+148:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:1 |==> 0
+149:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:1 |==> -1
+150:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:ent.length() - 1 |==> ent.length() % 1
+151:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:ent.length() - 1 |==> ent.length() * 1
+152:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:ent.length() - 1 |==> ent.length() + 1
+153:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:ent.length() - 1 |==> ent.length() / 1
+154:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:16 |==> 0
+155:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:16 |==> -16
+156:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):227:Integer.parseInt(ent.substring(3, ent.length() - 1), 16) |==> <NO-OP>
+157:LVR:TRUE:FALSE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):228:true |==> false
+158:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):228:return Config.__M_NO == 0 && Config.COVERED(157, 157) ? true : Config.__M_NO == 157 ? false : true; |==> <NO-OP>
+159:LVR:FALSE:TRUE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):230:false |==> true
+160:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):230:return Config.__M_NO == 0 && Config.COVERED(159, 159) ? false : Config.__M_NO == 159 ? true : false; |==> <NO-OP>
+161:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:2 |==> 0
+162:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:2 |==> -2
+163:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:1 |==> 0
+164:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:1 |==> -1
+165:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:ent.length() - 1 |==> ent.length() % 1
+166:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:ent.length() - 1 |==> ent.length() * 1
+167:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:ent.length() - 1 |==> ent.length() + 1
+168:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:ent.length() - 1 |==> ent.length() / 1
+169:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):234:Integer.parseInt(ent.substring(2, ent.length() - 1)) |==> <NO-OP>
+170:LVR:TRUE:FALSE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):235:true |==> false
+171:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):235:return Config.__M_NO == 0 && Config.COVERED(170, 170) ? true : Config.__M_NO == 170 ? false : true; |==> <NO-OP>
+172:LVR:FALSE:TRUE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):237:false |==> true
+173:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):237:return Config.__M_NO == 0 && Config.COVERED(172, 172) ? false : Config.__M_NO == 172 ? true : false; |==> <NO-OP>
+174:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:1 |==> 0
+175:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:1 |==> -1
+176:LVR:POS:0:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:1 |==> 0
+177:LVR:POS:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:1 |==> -1
+178:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:ent.length() - 1 |==> ent.length() % 1
+179:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:ent.length() - 1 |==> ent.length() * 1
+180:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:ent.length() - 1 |==> ent.length() + 1
+181:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):242:ent.length() - 1 |==> ent.length() / 1
+182:LVR:0:POS:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):243:0 |==> 1
+183:LVR:0:NEG:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):243:0 |==> -1
+184:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):243:i < knownEntities.length |==> i != knownEntities.length
+185:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):243:i < knownEntities.length |==> i <= knownEntities.length
+186:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):243:i < knownEntities.length |==> false
+187:COR:name.equals(knownEntities[i]):TRUE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):244:name.equals(knownEntities[i]) |==> false
+188:COR:name.equals(knownEntities[i]):FALSE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):244:name.equals(knownEntities[i]) |==> true
+189:LVR:TRUE:FALSE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):245:true |==> false
+190:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):245:return Config.__M_NO == 0 && Config.COVERED(189, 189) ? true : Config.__M_NO == 189 ? false : true; |==> <NO-OP>
+191:LVR:FALSE:TRUE:org.apache.tools.ant.util.DOMElementWriter@isReference(java.lang.String):248:false |==> true

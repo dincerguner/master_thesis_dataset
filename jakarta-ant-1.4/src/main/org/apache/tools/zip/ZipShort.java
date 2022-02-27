@@ -71,7 +71,7 @@ public class ZipShort implements Cloneable {
      * @since 1.1
      */
     public ZipShort (int value) {
-        this.value = value;
+        ;
     }
 
     /**

@@ -1,0 +1,54 @@
+1:EVR:<NEW_CLASS(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.util.FileUtils:78:new Object() |==> null
+2:EVR:<NEW_CLASS(org.apache.tools.ant.util.FileUtils)>:<DEFAULT>:org.apache.tools.ant.util.FileUtils@newFileUtils():85:new FileUtils() |==> null
+3:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String):100:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String):100:false |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String):100:copyFile(new File(sourceFile), new File(destFile), null, false, false) |==> <NO-OP>
+6:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String,FilterSetCollection):112:false |==> true
+7:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String,FilterSetCollection):112:false |==> true
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String,FilterSetCollection):112:copyFile(new File(sourceFile), new File(destFile), filters, false, false) |==> <NO-OP>
+9:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String,FilterSetCollection,boolean):125:false |==> true
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String,FilterSetCollection,boolean):124:copyFile(new File(sourceFile), new File(destFile), filters, overwrite, false) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.lang.String,java.lang.String,FilterSetCollection,boolean,boolean):140:copyFile(new File(sourceFile), new File(destFile), filters, overwrite, preserveLastModified) |==> <NO-OP>
+12:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File):151:false |==> true
+13:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File):151:false |==> true
+14:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File):151:copyFile(sourceFile, destFile, null, false, false) |==> <NO-OP>
+15:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection):162:false |==> true
+16:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection):162:false |==> true
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection):162:copyFile(sourceFile, destFile, filters, false, false) |==> <NO-OP>
+18:LVR:FALSE:TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean):174:false |==> true
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean):174:copyFile(sourceFile, destFile, filters, overwrite, false) |==> <NO-OP>
+20:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):190:overwrite || !destFile.exists() |==> overwrite != !destFile.exists()
+21:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):190:overwrite || !destFile.exists() |==> overwrite
+22:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):190:overwrite || !destFile.exists() |==> !destFile.exists()
+23:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):190:overwrite || !destFile.exists() |==> true
+24:ROR:<(long,long):!=(long,long):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):191:destFile.lastModified() < sourceFile.lastModified() |==> destFile.lastModified() != sourceFile.lastModified()
+25:ROR:<(long,long):<=(long,long):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):191:destFile.lastModified() < sourceFile.lastModified() |==> destFile.lastModified() <= sourceFile.lastModified()
+26:ROR:<(long,long):FALSE(long,long):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):191:destFile.lastModified() < sourceFile.lastModified() |==> false
+27:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):190:overwrite || !destFile.exists() || destFile.lastModified() < sourceFile.lastModified() |==> (overwrite || !destFile.exists()) != destFile.lastModified() < sourceFile.lastModified()
+28:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):190:overwrite || !destFile.exists() || destFile.lastModified() < sourceFile.lastModified() |==> overwrite || !destFile.exists()
+29:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):191:overwrite || !destFile.exists() || destFile.lastModified() < sourceFile.lastModified() |==> destFile.lastModified() < sourceFile.lastModified()
+30:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):190:overwrite || !destFile.exists() || destFile.lastModified() < sourceFile.lastModified() |==> true
+31:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):193:destFile.exists() && destFile.isFile() |==> destFile.exists() == destFile.isFile()
+32:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):193:destFile.exists() && destFile.isFile() |==> false
+33:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):193:destFile.exists() && destFile.isFile() |==> destFile.exists()
+34:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):193:destFile.exists() && destFile.isFile() |==> destFile.isFile()
+35:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):194:destFile.delete() |==> <NO-OP>
+36:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):199:new File(destFile.getParent()) |==> null
+37:COR:parent.exists():TRUE:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):200:parent.exists() |==> false
+38:COR:parent.exists():FALSE:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):200:parent.exists() |==> true
+39:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):201:parent.mkdirs() |==> <NO-OP>
+40:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):204:filters != null |==> true
+41:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):204:filters != null && filters.hasFilters() |==> filters != null == filters.hasFilters()
+42:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):204:filters != null && filters.hasFilters() |==> false
+43:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):204:filters != null && filters.hasFilters() |==> filters != null
+44:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):204:filters != null && filters.hasFilters() |==> filters.hasFilters()
+45:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):205:new BufferedReader(new FileReader(sourceFile)) |==> null
+46:EVR:<NEW_CLASS(java.io.BufferedWriter)>:<DEFAULT>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):206:new BufferedWriter(new FileWriter(destFile)) |==> null
+47:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):210:in.readLine() |==> null
+48:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):211:line != null |==> true
+49:LVR:0:POS:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):212:0 |==> 1
+50:LVR:0:NEG:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):212:0 |==> -1
+51:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):212:line.length() == 0 |==> line.length() <= 0
+52:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):212:line.length() == 0 |==> line.length() >= 0
+53:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):212:line.length() == 0 |==> false
+54:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.FileUtils@copyFile(java.io.File,java.io.File,FilterSetCollection,boolean,boolean):213:out.newLine() |==> <NO-OP>
