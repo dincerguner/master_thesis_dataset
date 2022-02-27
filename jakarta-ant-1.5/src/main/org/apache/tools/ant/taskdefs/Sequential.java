@@ -81,7 +81,7 @@ public class Sequential extends Task
                         implements TaskContainer {
 
     /** Optional Vector holding the nested tasks */
-    private Vector nestedTasks = new Vector();
+    private Vector nestedTasks = null;
 
     /**
      * Override {@link org.apache.tools.ant.Task#maybeConfigure

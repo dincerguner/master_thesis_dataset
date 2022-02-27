@@ -74,7 +74,7 @@ public class LoaderUtils {
         try {
             getContextClassLoader
                  = Thread.class.getMethod("getContextClassLoader",
-                new Class[0]);
+                new Class[1]);
             Class[] setContextArgs = new Class[]{ClassLoader.class};
             setContextClassLoader
                  = Thread.class.getMethod("setContextClassLoader",

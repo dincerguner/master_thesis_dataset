@@ -97,7 +97,7 @@ public final class DateUtils {
 
 // code from Magesh moved from DefaultLogger and slightly modified
     private static final MessageFormat MINUTE_SECONDS
-            = new MessageFormat("{0}{1}");
+            = null;
 
     private static final double[] LIMITS = {0, 1, 2};
 

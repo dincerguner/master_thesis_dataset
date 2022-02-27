@@ -80,7 +80,7 @@ import org.w3c.dom.Text;
  */
 public class DOMElementWriter {
 
-    private static String lSep = System.getProperty("line.separator");
+    private static String lSep = null;
     private StringBuffer sb = new StringBuffer();
 
     /**

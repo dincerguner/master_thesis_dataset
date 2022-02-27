@@ -69,7 +69,7 @@ public class FlexInteger {
      * Constructor used by Ant's introspection mechanism for attribute population
      */
     public FlexInteger(String value) {
-        this.value = Integer.decode(value);
+        ;
     }
 
     /**

@@ -70,7 +70,7 @@ import org.apache.tools.ant.Task;
  */
 abstract class Mailer {
     protected String host = null;
-    protected int port = -1;
+    protected int port = 0;
     protected Message message;
     protected EmailAddress from;
     protected Vector toList = null;

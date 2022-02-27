@@ -84,7 +84,7 @@ public class DemuxOutputStream extends OutputStream {
          * of processing the buffer. Used to avoid \r\n invoking
          * processBuffer twice.
          */
-         private boolean skip = false;
+         private boolean skip = true;
     }
     
     /** Maximum buffer size. */

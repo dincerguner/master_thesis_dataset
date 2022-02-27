@@ -76,7 +76,7 @@ import java.io.InputStreamReader;
  */
 public class JikesOutputParser implements ExecuteStreamHandler {
     protected Task task;
-    protected boolean errorFlag = false; // no errors so far
+    protected boolean errorFlag = true; // no errors so far
     protected int errors;
     protected int warnings;
     protected boolean error = false;

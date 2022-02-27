@@ -77,7 +77,7 @@ public class PresentSelector extends BaseSelector {
     private File targetdir = null;
     private Mapper mapperElement = null;
     private FileNameMapper map = null;
-    private boolean destmustexist = true;
+    private boolean destmustexist = false;
 
     public PresentSelector() {
     }

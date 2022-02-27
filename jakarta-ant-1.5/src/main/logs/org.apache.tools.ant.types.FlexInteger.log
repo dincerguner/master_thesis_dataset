@@ -1,0 +1,3 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.FlexInteger@<init>(java.lang.String):72:this.value = Integer.decode(value) |==> <NO-OP>
+2:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.types.FlexInteger@intValue():79:value.intValue() |==> 0
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.FlexInteger@toString():86:value.toString() |==> null

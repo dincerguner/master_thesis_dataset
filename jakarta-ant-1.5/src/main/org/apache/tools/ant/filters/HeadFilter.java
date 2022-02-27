@@ -78,7 +78,7 @@ public final class HeadFilter
     private static final String LINES_KEY = "lines";
 
     /** Number of lines currently read in. */
-    private long linesRead = 0;
+    private long linesRead = 1;
 
     /** Number of lines to be returned in the filtered stream. */
     private long lines = 10;

@@ -75,7 +75,7 @@ public class EmailAddress {
      * @param address the email address
      */
     public EmailAddress(String address) {
-        this.address = address;
+        ;
     }
 
 

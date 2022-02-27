@@ -74,7 +74,7 @@ public class NoneSelector extends BaseSelectorContainer {
     }
 
     public String toString() {
-        StringBuffer buf = new StringBuffer();
+        StringBuffer buf = null;
         if (hasSelectors()) {
             buf.append("{noneselect: ");
             buf.append(super.toString());

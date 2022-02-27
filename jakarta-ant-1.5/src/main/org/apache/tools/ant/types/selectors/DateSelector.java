@@ -72,7 +72,7 @@ import org.apache.tools.ant.taskdefs.condition.Os;
  */
 public class DateSelector extends BaseExtendSelector {
 
-    private long millis = -1;
+    private long millis = 0;
     private String dateTime = null;
     private boolean includeDirs = false;
     private int granularity = 0;

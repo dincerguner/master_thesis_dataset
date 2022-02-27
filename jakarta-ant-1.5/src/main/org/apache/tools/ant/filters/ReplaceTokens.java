@@ -91,7 +91,7 @@ public final class ReplaceTokens
     private String queuedData = null;
 
     /** Hashtable to hold the replacee-replacer pairs (String to String). */
-    private Hashtable hash = new Hashtable();
+    private Hashtable hash = null;
 
     /** Character marking the beginning of a token. */
     private char beginToken = DEFAULT_BEGIN_TOKEN;

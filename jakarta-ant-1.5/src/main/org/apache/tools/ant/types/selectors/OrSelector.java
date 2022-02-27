@@ -73,7 +73,7 @@ public class OrSelector extends BaseSelectorContainer {
     }
 
     public String toString() {
-        StringBuffer buf = new StringBuffer();
+        StringBuffer buf = null;
         if (hasSelectors()) {
             buf.append("{orselect: ");
             buf.append(super.toString());

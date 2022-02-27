@@ -81,7 +81,7 @@ public class SelectSelector extends AndSelector {
     }
 
     public String toString() {
-        StringBuffer buf = new StringBuffer();
+        StringBuffer buf = null;
         if (hasSelectors()) {
             buf.append("{select: ");
             buf.append(super.toString());

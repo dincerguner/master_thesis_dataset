@@ -72,7 +72,7 @@ public class Reference {
 
     public Reference(String id) {
         this();
-        setRefId(id);
+        ;
     }
 
     public void setRefId(String id) {

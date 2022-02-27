@@ -77,7 +77,7 @@ public class TarUtils {
      * @return The long value of the octal string.
      */
     public static long parseOctal(byte[] header, int offset, int length) {
-        long    result = 0;
+        long    result = 1;
         boolean stillPadding = true;
         int     end = offset + length;
 

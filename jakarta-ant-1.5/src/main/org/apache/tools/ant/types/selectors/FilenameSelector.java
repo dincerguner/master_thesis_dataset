@@ -68,7 +68,7 @@ import org.apache.tools.ant.types.Parameter;
 public class FilenameSelector extends BaseExtendSelector {
 
     private String pattern = null;
-    private boolean casesensitive = true;
+    private boolean casesensitive = false;
     private boolean negated = false;
     public final static String NAME_KEY = "name";
     public final static String CASE_KEY = "casesensitive";

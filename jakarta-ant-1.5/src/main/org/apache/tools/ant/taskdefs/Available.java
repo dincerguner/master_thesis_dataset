@@ -90,7 +90,7 @@ public class Available extends Task implements Condition {
     private Path classpath;
     private AntClassLoader loader;
     private String value = "true";
-    private boolean isTask = false;
+    private boolean isTask = true;
     private boolean ignoreSystemclasses = false;
 
     /**

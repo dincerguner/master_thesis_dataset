@@ -1,0 +1,605 @@
+1:EVR:<NEW_CLASS(org.apache.tools.ant.types.selectors.SelectorUtils)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils:79:new SelectorUtils() |==> null
+2:EVR:<IDENTIFIER(org.apache.tools.ant.types.selectors.SelectorUtils)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@getInstance():91:instance |==> null
+3:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String):111:true |==> false
+4:ROR:!=(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):137:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> str.startsWith(File.separator)
+5:ROR:!=(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):138:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> pattern.startsWith(File.separator)
+6:ROR:!=(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):137:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> true
+7:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):139:false |==> true
+8:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):139:return Config.__M_NO == 0 && Config.COVERED(7, 7) ? false : Config.__M_NO == 7 ? true : false; |==> <NO-OP>
+9:EVR:<METHOD_INVOCATION(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):142:tokenizePath(pattern) |==> null
+10:EVR:<METHOD_INVOCATION(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):143:tokenizePath(str) |==> null
+11:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):145:0 |==> 1
+12:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):145:0 |==> -1
+13:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):146:1 |==> 0
+14:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):146:1 |==> -1
+15:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):146:patDirs.size() - 1 |==> patDirs.size() % 1
+16:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):146:patDirs.size() - 1 |==> patDirs.size() * 1
+17:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):146:patDirs.size() - 1 |==> patDirs.size() + 1
+18:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):146:patDirs.size() - 1 |==> patDirs.size() / 1
+19:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):147:0 |==> 1
+20:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):147:0 |==> -1
+21:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):148:1 |==> 0
+22:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):148:1 |==> -1
+23:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):148:strDirs.size() - 1 |==> strDirs.size() % 1
+24:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):148:strDirs.size() - 1 |==> strDirs.size() * 1
+25:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):148:strDirs.size() - 1 |==> strDirs.size() + 1
+26:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):148:strDirs.size() - 1 |==> strDirs.size() / 1
+27:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:patIdxStart <= patIdxEnd |==> patIdxStart < patIdxEnd
+28:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:patIdxStart <= patIdxEnd |==> patIdxStart == patIdxEnd
+29:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:patIdxStart <= patIdxEnd |==> true
+30:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+31:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+32:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:strIdxStart <= strIdxEnd |==> true
+33:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd == strIdxStart <= strIdxEnd
+34:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> false
+35:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd
+36:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):151:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> strIdxStart <= strIdxEnd
+37:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):152:(String)patDirs.elementAt(patIdxStart) |==> null
+38:COR:patDir.equals("**"):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):153:patDir.equals("**") |==> false
+39:COR:patDir.equals("**"):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):153:patDir.equals("**") |==> true
+40:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):154:break; |==> <NO-OP>
+41:COR:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):156:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive) |==> false
+42:COR:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):156:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive) |==> true
+43:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):158:false |==> true
+44:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):158:return Config.__M_NO == 0 && Config.COVERED(43, 43) ? false : Config.__M_NO == 43 ? true : false; |==> <NO-OP>
+45:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):160:patIdxStart++ |==> <NO-OP>
+46:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):161:strIdxStart++ |==> <NO-OP>
+47:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):164:strIdxStart > strIdxEnd |==> strIdxStart != strIdxEnd
+48:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):164:strIdxStart > strIdxEnd |==> strIdxStart >= strIdxEnd
+49:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):164:strIdxStart > strIdxEnd |==> false
+50:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):166:true |==> false
+51:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):167:patIdxStart > patIdxEnd |==> patIdxStart != patIdxEnd
+52:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):167:patIdxStart > patIdxEnd |==> patIdxStart >= patIdxEnd
+53:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):167:patIdxStart > patIdxEnd |==> false
+54:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):169:false |==> true
+55:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPatternStart(java.lang.String,java.lang.String,boolean):173:true |==> false
+56:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String):189:true |==> false
+57:ROR:!=(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):211:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> str.startsWith(File.separator)
+58:ROR:!=(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):212:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> pattern.startsWith(File.separator)
+59:ROR:!=(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):211:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> true
+60:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):213:false |==> true
+61:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):213:return Config.__M_NO == 0 && Config.COVERED(60, 60) ? false : Config.__M_NO == 60 ? true : false; |==> <NO-OP>
+62:EVR:<METHOD_INVOCATION(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):216:tokenizePath(pattern) |==> null
+63:EVR:<METHOD_INVOCATION(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):217:tokenizePath(str) |==> null
+64:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):219:0 |==> 1
+65:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):219:0 |==> -1
+66:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):220:1 |==> 0
+67:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):220:1 |==> -1
+68:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):220:patDirs.size() - 1 |==> patDirs.size() % 1
+69:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):220:patDirs.size() - 1 |==> patDirs.size() * 1
+70:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):220:patDirs.size() - 1 |==> patDirs.size() + 1
+71:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):220:patDirs.size() - 1 |==> patDirs.size() / 1
+72:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):221:0 |==> 1
+73:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):221:0 |==> -1
+74:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):222:1 |==> 0
+75:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):222:1 |==> -1
+76:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):222:strDirs.size() - 1 |==> strDirs.size() % 1
+77:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):222:strDirs.size() - 1 |==> strDirs.size() * 1
+78:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):222:strDirs.size() - 1 |==> strDirs.size() + 1
+79:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):222:strDirs.size() - 1 |==> strDirs.size() / 1
+80:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:patIdxStart <= patIdxEnd |==> patIdxStart < patIdxEnd
+81:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:patIdxStart <= patIdxEnd |==> patIdxStart == patIdxEnd
+82:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:patIdxStart <= patIdxEnd |==> true
+83:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+84:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+85:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:strIdxStart <= strIdxEnd |==> true
+86:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd == strIdxStart <= strIdxEnd
+87:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> false
+88:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd
+89:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):225:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> strIdxStart <= strIdxEnd
+90:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):226:(String)patDirs.elementAt(patIdxStart) |==> null
+91:COR:patDir.equals("**"):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):227:patDir.equals("**") |==> false
+92:COR:patDir.equals("**"):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):227:patDir.equals("**") |==> true
+93:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):228:break; |==> <NO-OP>
+94:COR:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):230:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive) |==> false
+95:COR:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):230:match(patDir, (String)strDirs.elementAt(strIdxStart), isCaseSensitive) |==> true
+96:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):232:false |==> true
+97:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):232:return Config.__M_NO == 0 && Config.COVERED(96, 96) ? false : Config.__M_NO == 96 ? true : false; |==> <NO-OP>
+98:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):234:patIdxStart++ |==> <NO-OP>
+99:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):235:strIdxStart++ |==> <NO-OP>
+100:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):237:strIdxStart > strIdxEnd |==> strIdxStart != strIdxEnd
+101:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):237:strIdxStart > strIdxEnd |==> strIdxStart >= strIdxEnd
+102:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):237:strIdxStart > strIdxEnd |==> false
+103:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):239:patIdxStart |==> 0
+104:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):239:i <= patIdxEnd |==> i < patIdxEnd
+105:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):239:i <= patIdxEnd |==> i == patIdxEnd
+106:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):239:i <= patIdxEnd |==> true
+107:COR:patDirs.elementAt(i).equals("**"):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):240:patDirs.elementAt(i).equals("**") |==> false
+108:COR:patDirs.elementAt(i).equals("**"):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):240:patDirs.elementAt(i).equals("**") |==> true
+109:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):241:false |==> true
+110:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):241:return Config.__M_NO == 0 && Config.COVERED(109, 109) ? false : Config.__M_NO == 109 ? true : false; |==> <NO-OP>
+111:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):244:true |==> false
+112:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):244:return Config.__M_NO == 0 && Config.COVERED(111, 111) ? true : Config.__M_NO == 111 ? false : true; |==> <NO-OP>
+113:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):246:patIdxStart > patIdxEnd |==> patIdxStart != patIdxEnd
+114:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):246:patIdxStart > patIdxEnd |==> patIdxStart >= patIdxEnd
+115:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):246:patIdxStart > patIdxEnd |==> false
+116:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):248:false |==> true
+117:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):248:return Config.__M_NO == 0 && Config.COVERED(116, 116) ? false : Config.__M_NO == 116 ? true : false; |==> <NO-OP>
+118:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:patIdxStart <= patIdxEnd |==> patIdxStart < patIdxEnd
+119:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:patIdxStart <= patIdxEnd |==> patIdxStart == patIdxEnd
+120:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:patIdxStart <= patIdxEnd |==> true
+121:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+122:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+123:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:strIdxStart <= strIdxEnd |==> true
+124:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd == strIdxStart <= strIdxEnd
+125:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> false
+126:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart <= patIdxEnd
+127:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):253:patIdxStart <= patIdxEnd && strIdxStart <= strIdxEnd |==> strIdxStart <= strIdxEnd
+128:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):254:(String)patDirs.elementAt(patIdxEnd) |==> null
+129:COR:patDir.equals("**"):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):255:patDir.equals("**") |==> false
+130:COR:patDir.equals("**"):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):255:patDir.equals("**") |==> true
+131:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):256:break; |==> <NO-OP>
+132:COR:match(patDir, (String)strDirs.elementAt(strIdxEnd), isCaseSensitive):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):258:match(patDir, (String)strDirs.elementAt(strIdxEnd), isCaseSensitive) |==> false
+133:COR:match(patDir, (String)strDirs.elementAt(strIdxEnd), isCaseSensitive):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):258:match(patDir, (String)strDirs.elementAt(strIdxEnd), isCaseSensitive) |==> true
+134:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):260:false |==> true
+135:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):260:return Config.__M_NO == 0 && Config.COVERED(134, 134) ? false : Config.__M_NO == 134 ? true : false; |==> <NO-OP>
+136:STD:<DEC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):262:patIdxEnd-- |==> <NO-OP>
+137:STD:<DEC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):263:strIdxEnd-- |==> <NO-OP>
+138:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):265:strIdxStart > strIdxEnd |==> strIdxStart != strIdxEnd
+139:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):265:strIdxStart > strIdxEnd |==> strIdxStart >= strIdxEnd
+140:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):265:strIdxStart > strIdxEnd |==> false
+141:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):267:patIdxStart |==> 0
+142:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):267:i <= patIdxEnd |==> i < patIdxEnd
+143:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):267:i <= patIdxEnd |==> i == patIdxEnd
+144:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):267:i <= patIdxEnd |==> true
+145:COR:patDirs.elementAt(i).equals("**"):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):268:patDirs.elementAt(i).equals("**") |==> false
+146:COR:patDirs.elementAt(i).equals("**"):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):268:patDirs.elementAt(i).equals("**") |==> true
+147:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):269:false |==> true
+148:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):269:return Config.__M_NO == 0 && Config.COVERED(147, 147) ? false : Config.__M_NO == 147 ? true : false; |==> <NO-OP>
+149:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):272:true |==> false
+150:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):272:return Config.__M_NO == 0 && Config.COVERED(149, 149) ? true : Config.__M_NO == 149 ? false : true; |==> <NO-OP>
+151:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:patIdxStart != patIdxEnd |==> patIdxStart < patIdxEnd
+152:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:patIdxStart != patIdxEnd |==> patIdxStart > patIdxEnd
+153:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:patIdxStart != patIdxEnd |==> true
+154:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+155:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+156:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:strIdxStart <= strIdxEnd |==> true
+157:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart != patIdxEnd == strIdxStart <= strIdxEnd
+158:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> false
+159:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart != patIdxEnd
+160:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):275:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> strIdxStart <= strIdxEnd
+161:LVR:NEG:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):276:-1 |==> 0
+162:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):276:-1 |==> 1
+163:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:1 |==> 0
+164:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:1 |==> -1
+165:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:patIdxStart + 1 |==> patIdxStart % 1
+166:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:patIdxStart + 1 |==> patIdxStart * 1
+167:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:patIdxStart + 1 |==> patIdxStart - 1
+168:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:patIdxStart + 1 |==> patIdxStart / 1
+169:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:i <= patIdxEnd |==> i < patIdxEnd
+170:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:i <= patIdxEnd |==> i == patIdxEnd
+171:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):277:i <= patIdxEnd |==> true
+172:COR:patDirs.elementAt(i).equals("**"):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):278:patDirs.elementAt(i).equals("**") |==> false
+173:COR:patDirs.elementAt(i).equals("**"):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):278:patDirs.elementAt(i).equals("**") |==> true
+174:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):279:patIdxTmp = i |==> <NO-OP>
+175:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):280:break; |==> <NO-OP>
+176:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:1 |==> 0
+177:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:1 |==> -1
+178:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:patIdxStart + 1 |==> patIdxStart % 1
+179:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:patIdxStart + 1 |==> patIdxStart * 1
+180:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:patIdxStart + 1 |==> patIdxStart - 1
+181:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:patIdxStart + 1 |==> patIdxStart / 1
+182:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:patIdxTmp == patIdxStart + 1 |==> patIdxTmp <= patIdxStart + 1
+183:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:patIdxTmp == patIdxStart + 1 |==> patIdxTmp >= patIdxStart + 1
+184:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):283:patIdxTmp == patIdxStart + 1 |==> false
+185:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):285:patIdxStart++ |==> <NO-OP>
+186:STD:<CONT>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):286:continue; |==> <NO-OP>
+187:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart |==> patIdxTmp % patIdxStart
+188:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart |==> patIdxTmp * patIdxStart
+189:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart |==> patIdxTmp + patIdxStart
+190:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart |==> patIdxTmp / patIdxStart
+191:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:1 |==> 0
+192:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:1 |==> -1
+193:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart - 1 |==> (patIdxTmp - patIdxStart) % 1
+194:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart - 1 |==> (patIdxTmp - patIdxStart) * 1
+195:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart - 1 |==> patIdxTmp - patIdxStart + 1
+196:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):290:patIdxTmp - patIdxStart - 1 |==> (patIdxTmp - patIdxStart) / 1
+197:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart |==> strIdxEnd % strIdxStart
+198:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart |==> strIdxEnd * strIdxStart
+199:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart |==> strIdxEnd + strIdxStart
+200:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart |==> strIdxEnd / strIdxStart
+201:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:1 |==> 0
+202:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:1 |==> -1
+203:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart + 1 |==> (strIdxEnd - strIdxStart) % 1
+204:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart + 1 |==> (strIdxEnd - strIdxStart) * 1
+205:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart + 1 |==> strIdxEnd - strIdxStart - 1
+206:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):291:strIdxEnd - strIdxStart + 1 |==> (strIdxEnd - strIdxStart) / 1
+207:LVR:NEG:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):292:-1 |==> 0
+208:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):292:-1 |==> 1
+209:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:0 |==> 1
+210:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:0 |==> -1
+211:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:strLength - patLength |==> strLength % patLength
+212:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:strLength - patLength |==> strLength * patLength
+213:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:strLength - patLength |==> strLength + patLength
+214:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:strLength - patLength |==> strLength / patLength
+215:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:i <= strLength - patLength |==> i < strLength - patLength
+216:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:i <= strLength - patLength |==> i == strLength - patLength
+217:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):294:i <= strLength - patLength |==> true
+218:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):295:0 |==> 1
+219:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):295:0 |==> -1
+220:ROR:<(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):295:j < patLength |==> j != patLength
+221:ROR:<(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):295:j < patLength |==> j <= patLength
+222:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):295:j < patLength |==> false
+223:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j |==> patIdxStart % j
+224:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j |==> patIdxStart * j
+225:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j |==> patIdxStart - j
+226:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j |==> patIdxStart / j
+227:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:1 |==> 0
+228:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:1 |==> -1
+229:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j + 1 |==> (patIdxStart + j) % 1
+230:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j + 1 |==> (patIdxStart + j) * 1
+231:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j + 1 |==> patIdxStart + j - 1
+232:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):296:patIdxStart + j + 1 |==> (patIdxStart + j) / 1
+233:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i |==> strIdxStart % i
+234:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i |==> strIdxStart * i
+235:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i |==> strIdxStart - i
+236:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i |==> strIdxStart / i
+237:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i + j |==> (strIdxStart + i) % j
+238:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i + j |==> (strIdxStart + i) * j
+239:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i + j |==> strIdxStart + i - j
+240:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):297:strIdxStart + i + j |==> (strIdxStart + i) / j
+241:COR:match(subPat, subStr, isCaseSensitive):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):298:match(subPat, subStr, isCaseSensitive) |==> false
+242:COR:match(subPat, subStr, isCaseSensitive):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):298:match(subPat, subStr, isCaseSensitive) |==> true
+243:STD:<CONT>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):299:continue strLoop; |==> <NO-OP>
+244:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):303:strIdxStart + i |==> strIdxStart % i
+245:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):303:strIdxStart + i |==> strIdxStart * i
+246:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):303:strIdxStart + i |==> strIdxStart - i
+247:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):303:strIdxStart + i |==> strIdxStart / i
+248:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):303:foundIdx = strIdxStart + i |==> <NO-OP>
+249:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):304:break; |==> <NO-OP>
+250:LVR:NEG:0:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):307:-1 |==> 0
+251:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):307:-1 |==> 1
+252:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):307:foundIdx == -1 |==> foundIdx <= -1
+253:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):307:foundIdx == -1 |==> foundIdx >= -1
+254:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):307:foundIdx == -1 |==> false
+255:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):308:false |==> true
+256:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):308:return Config.__M_NO == 0 && Config.COVERED(255, 255) ? false : Config.__M_NO == 255 ? true : false; |==> <NO-OP>
+257:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):311:patIdxStart = patIdxTmp |==> <NO-OP>
+258:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):312:foundIdx + patLength |==> foundIdx % patLength
+259:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):312:foundIdx + patLength |==> foundIdx * patLength
+260:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):312:foundIdx + patLength |==> foundIdx - patLength
+261:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):312:foundIdx + patLength |==> foundIdx / patLength
+262:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):312:strIdxStart = foundIdx + patLength |==> <NO-OP>
+263:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):315:patIdxStart |==> 0
+264:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):315:i <= patIdxEnd |==> i < patIdxEnd
+265:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):315:i <= patIdxEnd |==> i == patIdxEnd
+266:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):315:i <= patIdxEnd |==> true
+267:COR:patDirs.elementAt(i).equals("**"):TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):316:patDirs.elementAt(i).equals("**") |==> false
+268:COR:patDirs.elementAt(i).equals("**"):FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):316:patDirs.elementAt(i).equals("**") |==> true
+269:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):317:false |==> true
+270:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):317:return Config.__M_NO == 0 && Config.COVERED(269, 269) ? false : Config.__M_NO == 269 ? true : false; |==> <NO-OP>
+271:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@matchPath(java.lang.String,java.lang.String,boolean):321:true |==> false
+272:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String):339:true |==> false
+273:EVR:<METHOD_INVOCATION(char[])>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):361:pattern.toCharArray() |==> null
+274:EVR:<METHOD_INVOCATION(char[])>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):362:str.toCharArray() |==> null
+275:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):363:0 |==> 1
+276:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):363:0 |==> -1
+277:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):364:1 |==> 0
+278:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):364:1 |==> -1
+279:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):364:patArr.length - 1 |==> patArr.length % 1
+280:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):364:patArr.length - 1 |==> patArr.length * 1
+281:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):364:patArr.length - 1 |==> patArr.length + 1
+282:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):364:patArr.length - 1 |==> patArr.length / 1
+283:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):365:0 |==> 1
+284:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):365:0 |==> -1
+285:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):366:1 |==> 0
+286:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):366:1 |==> -1
+287:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):366:strArr.length - 1 |==> strArr.length % 1
+288:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):366:strArr.length - 1 |==> strArr.length * 1
+289:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):366:strArr.length - 1 |==> strArr.length + 1
+290:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):366:strArr.length - 1 |==> strArr.length / 1
+291:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):369:false |==> true
+292:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):370:0 |==> 1
+293:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):370:0 |==> -1
+294:ROR:<(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):370:i < patArr.length |==> i != patArr.length
+295:ROR:<(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):370:i < patArr.length |==> i <= patArr.length
+296:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):370:i < patArr.length |==> false
+297:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):371:patArr[i] == '*' |==> patArr[i] <= '*'
+298:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):371:patArr[i] == '*' |==> patArr[i] >= '*'
+299:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):371:patArr[i] == '*' |==> false
+300:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):372:true |==> false
+301:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):372:containsStar = true |==> <NO-OP>
+302:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):373:break; |==> <NO-OP>
+303:COR:containsStar:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):377:containsStar |==> false
+304:COR:containsStar:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):377:containsStar |==> true
+305:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):379:patIdxEnd != strIdxEnd |==> patIdxEnd < strIdxEnd
+306:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):379:patIdxEnd != strIdxEnd |==> patIdxEnd > strIdxEnd
+307:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):379:patIdxEnd != strIdxEnd |==> true
+308:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):380:false |==> true
+309:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):380:return Config.__M_NO == 0 && Config.COVERED(308, 308) ? false : Config.__M_NO == 308 ? true : false; |==> <NO-OP>
+310:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):382:0 |==> 1
+311:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):382:0 |==> -1
+312:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):382:i <= patIdxEnd |==> i < patIdxEnd
+313:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):382:i <= patIdxEnd |==> i == patIdxEnd
+314:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):382:i <= patIdxEnd |==> true
+315:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):383:patArr[i] |==> 0
+316:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):384:ch != '?' |==> ch < '?'
+317:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):384:ch != '?' |==> ch > '?'
+318:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):384:ch != '?' |==> true
+319:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):385:ch != strArr[i] |==> ch < strArr[i]
+320:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):385:ch != strArr[i] |==> ch > strArr[i]
+321:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):385:ch != strArr[i] |==> true
+322:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):385:isCaseSensitive && ch != strArr[i] |==> isCaseSensitive == (ch != strArr[i])
+323:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):385:isCaseSensitive && ch != strArr[i] |==> false
+324:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):385:isCaseSensitive && ch != strArr[i] |==> isCaseSensitive
+325:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):385:isCaseSensitive && ch != strArr[i] |==> ch != strArr[i]
+326:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):386:false |==> true
+327:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):386:return Config.__M_NO == 0 && Config.COVERED(326, 326) ? false : Config.__M_NO == 326 ? true : false; |==> <NO-OP>
+328:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):388:Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]) |==> Character.toUpperCase(ch) < Character.toUpperCase(strArr[i])
+329:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):388:Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]) |==> Character.toUpperCase(ch) > Character.toUpperCase(strArr[i])
+330:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):388:Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]) |==> true
+331:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):388:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]) |==> !isCaseSensitive == (Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]))
+332:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):388:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]) |==> false
+333:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):388:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]) |==> !isCaseSensitive
+334:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):388:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[i]) |==> Character.toUpperCase(ch) != Character.toUpperCase(strArr[i])
+335:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):390:false |==> true
+336:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):390:return Config.__M_NO == 0 && Config.COVERED(335, 335) ? false : Config.__M_NO == 335 ? true : false; |==> <NO-OP>
+337:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):394:true |==> false
+338:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):394:return Config.__M_NO == 0 && Config.COVERED(337, 337) ? true : Config.__M_NO == 337 ? false : true; |==> <NO-OP>
+339:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):397:0 |==> 1
+340:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):397:0 |==> -1
+341:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):397:patIdxEnd == 0 |==> patIdxEnd <= 0
+342:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):397:patIdxEnd == 0 |==> patIdxEnd >= 0
+343:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):397:patIdxEnd == 0 |==> false
+344:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):398:true |==> false
+345:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):398:return Config.__M_NO == 0 && Config.COVERED(344, 344) ? true : Config.__M_NO == 344 ? false : true; |==> <NO-OP>
+346:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):402:(ch = patArr[patIdxStart]) != '*' |==> (ch = patArr[patIdxStart]) < '*'
+347:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):402:(ch = patArr[patIdxStart]) != '*' |==> (ch = patArr[patIdxStart]) > '*'
+348:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):402:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+349:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):402:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+350:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):402:strIdxStart <= strIdxEnd |==> true
+351:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):402:(ch = patArr[patIdxStart]) != '*' && strIdxStart <= strIdxEnd |==> (ch = patArr[patIdxStart]) != '*' == strIdxStart <= strIdxEnd
+352:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):402:(ch = patArr[patIdxStart]) != '*' && strIdxStart <= strIdxEnd |==> (ch = patArr[patIdxStart]) != '*'
+353:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):403:ch != '?' |==> ch < '?'
+354:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):403:ch != '?' |==> ch > '?'
+355:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):403:ch != '?' |==> true
+356:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):404:ch != strArr[strIdxStart] |==> ch < strArr[strIdxStart]
+357:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):404:ch != strArr[strIdxStart] |==> ch > strArr[strIdxStart]
+358:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):404:ch != strArr[strIdxStart] |==> true
+359:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):404:isCaseSensitive && ch != strArr[strIdxStart] |==> isCaseSensitive == (ch != strArr[strIdxStart])
+360:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):404:isCaseSensitive && ch != strArr[strIdxStart] |==> false
+361:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):404:isCaseSensitive && ch != strArr[strIdxStart] |==> isCaseSensitive
+362:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):404:isCaseSensitive && ch != strArr[strIdxStart] |==> ch != strArr[strIdxStart]
+363:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):405:false |==> true
+364:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):405:return Config.__M_NO == 0 && Config.COVERED(363, 363) ? false : Config.__M_NO == 363 ? true : false; |==> <NO-OP>
+365:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):407:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]) |==> Character.toUpperCase(ch) < Character.toUpperCase(strArr[strIdxStart])
+366:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):407:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]) |==> Character.toUpperCase(ch) > Character.toUpperCase(strArr[strIdxStart])
+367:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):407:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]) |==> true
+368:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):407:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]) |==> !isCaseSensitive == (Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]))
+369:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):407:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]) |==> false
+370:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):407:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]) |==> !isCaseSensitive
+371:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):407:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart]) |==> Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart])
+372:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):409:false |==> true
+373:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):409:return Config.__M_NO == 0 && Config.COVERED(372, 372) ? false : Config.__M_NO == 372 ? true : false; |==> <NO-OP>
+374:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):412:patIdxStart++ |==> <NO-OP>
+375:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):413:strIdxStart++ |==> <NO-OP>
+376:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):415:strIdxStart > strIdxEnd |==> strIdxStart != strIdxEnd
+377:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):415:strIdxStart > strIdxEnd |==> strIdxStart >= strIdxEnd
+378:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):415:strIdxStart > strIdxEnd |==> false
+379:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):418:patIdxStart |==> 0
+380:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):418:i <= patIdxEnd |==> i < patIdxEnd
+381:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):418:i <= patIdxEnd |==> i == patIdxEnd
+382:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):418:i <= patIdxEnd |==> true
+383:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):419:patArr[i] != '*' |==> patArr[i] < '*'
+384:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):419:patArr[i] != '*' |==> patArr[i] > '*'
+385:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):419:patArr[i] != '*' |==> true
+386:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):420:false |==> true
+387:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):420:return Config.__M_NO == 0 && Config.COVERED(386, 386) ? false : Config.__M_NO == 386 ? true : false; |==> <NO-OP>
+388:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):423:true |==> false
+389:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):423:return Config.__M_NO == 0 && Config.COVERED(388, 388) ? true : Config.__M_NO == 388 ? false : true; |==> <NO-OP>
+390:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:(ch = patArr[patIdxEnd]) != '*' |==> (ch = patArr[patIdxEnd]) < '*'
+391:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:(ch = patArr[patIdxEnd]) != '*' |==> (ch = patArr[patIdxEnd]) > '*'
+392:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:(ch = patArr[patIdxEnd]) != '*' |==> true
+393:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+394:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+395:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:strIdxStart <= strIdxEnd |==> true
+396:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:(ch = patArr[patIdxEnd]) != '*' && strIdxStart <= strIdxEnd |==> (ch = patArr[patIdxEnd]) != '*' == strIdxStart <= strIdxEnd
+397:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:(ch = patArr[patIdxEnd]) != '*' && strIdxStart <= strIdxEnd |==> false
+398:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:(ch = patArr[patIdxEnd]) != '*' && strIdxStart <= strIdxEnd |==> (ch = patArr[patIdxEnd]) != '*'
+399:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):427:(ch = patArr[patIdxEnd]) != '*' && strIdxStart <= strIdxEnd |==> strIdxStart <= strIdxEnd
+400:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):428:ch != '?' |==> ch < '?'
+401:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):428:ch != '?' |==> ch > '?'
+402:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):428:ch != '?' |==> true
+403:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):429:ch != strArr[strIdxEnd] |==> ch < strArr[strIdxEnd]
+404:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):429:ch != strArr[strIdxEnd] |==> ch > strArr[strIdxEnd]
+405:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):429:ch != strArr[strIdxEnd] |==> true
+406:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):429:isCaseSensitive && ch != strArr[strIdxEnd] |==> isCaseSensitive == (ch != strArr[strIdxEnd])
+407:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):429:isCaseSensitive && ch != strArr[strIdxEnd] |==> false
+408:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):429:isCaseSensitive && ch != strArr[strIdxEnd] |==> isCaseSensitive
+409:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):429:isCaseSensitive && ch != strArr[strIdxEnd] |==> ch != strArr[strIdxEnd]
+410:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):430:false |==> true
+411:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):430:return Config.__M_NO == 0 && Config.COVERED(410, 410) ? false : Config.__M_NO == 410 ? true : false; |==> <NO-OP>
+412:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):432:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]) |==> Character.toUpperCase(ch) < Character.toUpperCase(strArr[strIdxEnd])
+413:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):432:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]) |==> Character.toUpperCase(ch) > Character.toUpperCase(strArr[strIdxEnd])
+414:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):432:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]) |==> true
+415:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):432:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]) |==> !isCaseSensitive == (Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]))
+416:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):432:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]) |==> false
+417:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):432:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]) |==> !isCaseSensitive
+418:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):432:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd]) |==> Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxEnd])
+419:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):434:false |==> true
+420:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):434:return Config.__M_NO == 0 && Config.COVERED(419, 419) ? false : Config.__M_NO == 419 ? true : false; |==> <NO-OP>
+421:STD:<DEC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):437:patIdxEnd-- |==> <NO-OP>
+422:STD:<DEC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):438:strIdxEnd-- |==> <NO-OP>
+423:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):440:strIdxStart > strIdxEnd |==> strIdxStart != strIdxEnd
+424:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):440:strIdxStart > strIdxEnd |==> strIdxStart >= strIdxEnd
+425:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):440:strIdxStart > strIdxEnd |==> false
+426:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):443:patIdxStart |==> 0
+427:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):443:i <= patIdxEnd |==> i < patIdxEnd
+428:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):443:i <= patIdxEnd |==> i == patIdxEnd
+429:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):443:i <= patIdxEnd |==> true
+430:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):444:patArr[i] != '*' |==> patArr[i] < '*'
+431:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):444:patArr[i] != '*' |==> patArr[i] > '*'
+432:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):444:patArr[i] != '*' |==> true
+433:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):445:false |==> true
+434:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):445:return Config.__M_NO == 0 && Config.COVERED(433, 433) ? false : Config.__M_NO == 433 ? true : false; |==> <NO-OP>
+435:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):448:true |==> false
+436:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):448:return Config.__M_NO == 0 && Config.COVERED(435, 435) ? true : Config.__M_NO == 435 ? false : true; |==> <NO-OP>
+437:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:patIdxStart != patIdxEnd |==> patIdxStart < patIdxEnd
+438:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:patIdxStart != patIdxEnd |==> patIdxStart > patIdxEnd
+439:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:patIdxStart != patIdxEnd |==> true
+440:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:strIdxStart <= strIdxEnd |==> strIdxStart < strIdxEnd
+441:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:strIdxStart <= strIdxEnd |==> strIdxStart == strIdxEnd
+442:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:strIdxStart <= strIdxEnd |==> true
+443:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart != patIdxEnd == strIdxStart <= strIdxEnd
+444:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> false
+445:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> patIdxStart != patIdxEnd
+446:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):453:patIdxStart != patIdxEnd && strIdxStart <= strIdxEnd |==> strIdxStart <= strIdxEnd
+447:LVR:NEG:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):454:-1 |==> 0
+448:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):454:-1 |==> 1
+449:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:1 |==> 0
+450:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:1 |==> -1
+451:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:patIdxStart + 1 |==> patIdxStart % 1
+452:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:patIdxStart + 1 |==> patIdxStart * 1
+453:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:patIdxStart + 1 |==> patIdxStart - 1
+454:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:patIdxStart + 1 |==> patIdxStart / 1
+455:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:i <= patIdxEnd |==> i < patIdxEnd
+456:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:i <= patIdxEnd |==> i == patIdxEnd
+457:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):455:i <= patIdxEnd |==> true
+458:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):456:patArr[i] == '*' |==> patArr[i] <= '*'
+459:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):456:patArr[i] == '*' |==> patArr[i] >= '*'
+460:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):456:patArr[i] == '*' |==> false
+461:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):457:patIdxTmp = i |==> <NO-OP>
+462:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):458:break; |==> <NO-OP>
+463:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:1 |==> 0
+464:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:1 |==> -1
+465:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:patIdxStart + 1 |==> patIdxStart % 1
+466:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:patIdxStart + 1 |==> patIdxStart * 1
+467:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:patIdxStart + 1 |==> patIdxStart - 1
+468:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:patIdxStart + 1 |==> patIdxStart / 1
+469:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:patIdxTmp == patIdxStart + 1 |==> patIdxTmp <= patIdxStart + 1
+470:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:patIdxTmp == patIdxStart + 1 |==> patIdxTmp >= patIdxStart + 1
+471:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):461:patIdxTmp == patIdxStart + 1 |==> false
+472:STD:<INC>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):463:patIdxStart++ |==> <NO-OP>
+473:STD:<CONT>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):464:continue; |==> <NO-OP>
+474:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart |==> patIdxTmp % patIdxStart
+475:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart |==> patIdxTmp * patIdxStart
+476:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart |==> patIdxTmp + patIdxStart
+477:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart |==> patIdxTmp / patIdxStart
+478:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:1 |==> 0
+479:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:1 |==> -1
+480:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart - 1 |==> (patIdxTmp - patIdxStart) % 1
+481:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart - 1 |==> (patIdxTmp - patIdxStart) * 1
+482:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart - 1 |==> patIdxTmp - patIdxStart + 1
+483:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):468:patIdxTmp - patIdxStart - 1 |==> (patIdxTmp - patIdxStart) / 1
+484:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart |==> strIdxEnd % strIdxStart
+485:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart |==> strIdxEnd * strIdxStart
+486:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart |==> strIdxEnd + strIdxStart
+487:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart |==> strIdxEnd / strIdxStart
+488:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:1 |==> 0
+489:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:1 |==> -1
+490:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart + 1 |==> (strIdxEnd - strIdxStart) % 1
+491:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart + 1 |==> (strIdxEnd - strIdxStart) * 1
+492:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart + 1 |==> strIdxEnd - strIdxStart - 1
+493:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):469:strIdxEnd - strIdxStart + 1 |==> (strIdxEnd - strIdxStart) / 1
+494:LVR:NEG:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):470:-1 |==> 0
+495:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):470:-1 |==> 1
+496:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:0 |==> 1
+497:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:0 |==> -1
+498:AOR:-(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:strLength - patLength |==> strLength % patLength
+499:AOR:-(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:strLength - patLength |==> strLength * patLength
+500:AOR:-(int,int):+(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:strLength - patLength |==> strLength + patLength
+501:AOR:-(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:strLength - patLength |==> strLength / patLength
+502:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:i <= strLength - patLength |==> i < strLength - patLength
+503:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:i <= strLength - patLength |==> i == strLength - patLength
+504:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):472:i <= strLength - patLength |==> true
+505:LVR:0:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):473:0 |==> 1
+506:LVR:0:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):473:0 |==> -1
+507:ROR:<(int,int):!=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):473:j < patLength |==> j != patLength
+508:ROR:<(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):473:j < patLength |==> j <= patLength
+509:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):473:j < patLength |==> false
+510:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j |==> patIdxStart % j
+511:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j |==> patIdxStart * j
+512:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j |==> patIdxStart - j
+513:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j |==> patIdxStart / j
+514:LVR:POS:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:1 |==> 0
+515:LVR:POS:NEG:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:1 |==> -1
+516:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j + 1 |==> (patIdxStart + j) % 1
+517:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j + 1 |==> (patIdxStart + j) * 1
+518:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j + 1 |==> patIdxStart + j - 1
+519:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:patIdxStart + j + 1 |==> (patIdxStart + j) / 1
+520:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):474:ch = patArr[patIdxStart + j + 1] |==> <NO-OP>
+521:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):475:ch != '?' |==> ch < '?'
+522:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):475:ch != '?' |==> ch > '?'
+523:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):475:ch != '?' |==> true
+524:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i |==> strIdxStart % i
+525:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i |==> strIdxStart * i
+526:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i |==> strIdxStart - i
+527:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i |==> strIdxStart / i
+528:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i + j |==> (strIdxStart + i) % j
+529:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i + j |==> (strIdxStart + i) * j
+530:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i + j |==> strIdxStart + i - j
+531:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:strIdxStart + i + j |==> (strIdxStart + i) / j
+532:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:ch != strArr[strIdxStart + i + j] |==> ch < strArr[strIdxStart + i + j]
+533:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:ch != strArr[strIdxStart + i + j] |==> ch > strArr[strIdxStart + i + j]
+534:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:ch != strArr[strIdxStart + i + j] |==> true
+535:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:isCaseSensitive && ch != strArr[strIdxStart + i + j] |==> isCaseSensitive == (ch != strArr[strIdxStart + i + j])
+536:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:isCaseSensitive && ch != strArr[strIdxStart + i + j] |==> false
+537:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:isCaseSensitive && ch != strArr[strIdxStart + i + j] |==> isCaseSensitive
+538:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):476:isCaseSensitive && ch != strArr[strIdxStart + i + j] |==> ch != strArr[strIdxStart + i + j]
+539:STD:<CONT>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):477:continue strLoop; |==> <NO-OP>
+540:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i |==> strIdxStart % i
+541:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i |==> strIdxStart * i
+542:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i |==> strIdxStart - i
+543:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i |==> strIdxStart / i
+544:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i + j |==> (strIdxStart + i) % j
+545:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i + j |==> (strIdxStart + i) * j
+546:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i + j |==> strIdxStart + i - j
+547:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):480:strIdxStart + i + j |==> (strIdxStart + i) / j
+548:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):479:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]) |==> Character.toUpperCase(ch) < Character.toUpperCase(strArr[strIdxStart + i + j])
+549:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):479:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]) |==> Character.toUpperCase(ch) > Character.toUpperCase(strArr[strIdxStart + i + j])
+550:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):479:Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]) |==> true
+551:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):479:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]) |==> !isCaseSensitive == (Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]))
+552:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):479:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]) |==> false
+553:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):479:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]) |==> !isCaseSensitive
+554:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):479:!isCaseSensitive && Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j]) |==> Character.toUpperCase(ch) != Character.toUpperCase(strArr[strIdxStart + i + j])
+555:STD:<CONT>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):481:continue strLoop; |==> <NO-OP>
+556:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):486:strIdxStart + i |==> strIdxStart % i
+557:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):486:strIdxStart + i |==> strIdxStart * i
+558:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):486:strIdxStart + i |==> strIdxStart - i
+559:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):486:strIdxStart + i |==> strIdxStart / i
+560:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):486:foundIdx = strIdxStart + i |==> <NO-OP>
+561:LVR:NEG:0:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):490:-1 |==> 0
+562:LVR:NEG:POS:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):490:-1 |==> 1
+563:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):490:foundIdx == -1 |==> foundIdx <= -1
+564:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):490:foundIdx == -1 |==> foundIdx >= -1
+565:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):490:foundIdx == -1 |==> false
+566:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):491:false |==> true
+567:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):491:return Config.__M_NO == 0 && Config.COVERED(566, 566) ? false : Config.__M_NO == 566 ? true : false; |==> <NO-OP>
+568:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):494:patIdxStart = patIdxTmp |==> <NO-OP>
+569:AOR:+(int,int):%(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):495:foundIdx + patLength |==> foundIdx % patLength
+570:AOR:+(int,int):*(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):495:foundIdx + patLength |==> foundIdx * patLength
+571:AOR:+(int,int):-(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):495:foundIdx + patLength |==> foundIdx - patLength
+572:AOR:+(int,int):/(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):495:foundIdx + patLength |==> foundIdx / patLength
+573:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):495:strIdxStart = foundIdx + patLength |==> <NO-OP>
+574:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):500:patIdxStart |==> 0
+575:ROR:<=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):500:i <= patIdxEnd |==> i < patIdxEnd
+576:ROR:<=(int,int):==(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):500:i <= patIdxEnd |==> i == patIdxEnd
+577:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):500:i <= patIdxEnd |==> true
+578:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):501:patArr[i] != '*' |==> patArr[i] < '*'
+579:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):501:patArr[i] != '*' |==> patArr[i] > '*'
+580:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):501:patArr[i] != '*' |==> true
+581:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):502:false |==> true
+582:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):502:return Config.__M_NO == 0 && Config.COVERED(581, 581) ? false : Config.__M_NO == 581 ? true : false; |==> <NO-OP>
+583:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@match(java.lang.String,java.lang.String,boolean):505:true |==> false
+584:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@tokenizePath(java.lang.String):517:new Vector() |==> null
+585:EVR:<NEW_CLASS(java.util.StringTokenizer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@tokenizePath(java.lang.String):518:new StringTokenizer(path, File.separator) |==> null
+586:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@tokenizePath(java.lang.String):520:ret.addElement(st.nextToken()) |==> <NO-OP>
+587:EVR:<IDENTIFIER(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.selectors.SelectorUtils@tokenizePath(java.lang.String):522:ret |==> null
+588:COR:src.exists():TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):541:src.exists() |==> false
+589:COR:src.exists():FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):541:src.exists() |==> true
+590:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):542:false |==> true
+591:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):542:return Config.__M_NO == 0 && Config.COVERED(590, 590) ? false : Config.__M_NO == 590 ? true : false; |==> <NO-OP>
+592:COR:target.exists():TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):544:target.exists() |==> false
+593:COR:target.exists():FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):544:target.exists() |==> true
+594:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):545:true |==> false
+595:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):545:return Config.__M_NO == 0 && Config.COVERED(594, 594) ? true : Config.__M_NO == 594 ? false : true; |==> <NO-OP>
+596:AOR:-(long,long):%(long,long):org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):547:src.lastModified() - granularity |==> src.lastModified() % granularity
+597:AOR:-(long,long):*(long,long):org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):547:src.lastModified() - granularity |==> src.lastModified() * granularity
+598:AOR:-(long,long):+(long,long):org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):547:src.lastModified() - granularity |==> src.lastModified() + granularity
+599:AOR:-(long,long):/(long,long):org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):547:src.lastModified() - granularity |==> src.lastModified() / granularity
+600:ROR:>(long,long):!=(long,long):org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):547:(src.lastModified() - granularity) > target.lastModified() |==> (src.lastModified() - granularity) != target.lastModified()
+601:ROR:>(long,long):>=(long,long):org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):547:(src.lastModified() - granularity) > target.lastModified() |==> (src.lastModified() - granularity) >= target.lastModified()
+602:ROR:>(long,long):FALSE(long,long):org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):547:(src.lastModified() - granularity) > target.lastModified() |==> false
+603:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):548:true |==> false
+604:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):548:return Config.__M_NO == 0 && Config.COVERED(603, 603) ? true : Config.__M_NO == 603 ? false : true; |==> <NO-OP>
+605:LVR:FALSE:TRUE:org.apache.tools.ant.types.selectors.SelectorUtils@isOutOfDate(java.io.File,java.io.File,int):550:false |==> true

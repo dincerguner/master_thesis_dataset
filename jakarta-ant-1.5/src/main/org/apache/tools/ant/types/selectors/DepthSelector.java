@@ -70,7 +70,7 @@ import org.apache.tools.ant.BuildException;
  */
 public class DepthSelector extends BaseExtendSelector {
 
-    public int min = -1;
+    public int min = 0;
     public int max = -1;
     public final static String MIN_KEY = "min";
     public final static String MAX_KEY = "max";

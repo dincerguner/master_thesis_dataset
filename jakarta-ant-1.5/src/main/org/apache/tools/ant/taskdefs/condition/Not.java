@@ -69,7 +69,7 @@ import org.apache.tools.ant.BuildException;
 public class Not extends ConditionBase implements Condition {
 
     public boolean eval() throws BuildException {
-        if (countConditions() > 1) {
+        if (countConditions() > 0) {
             throw new BuildException("You must not nest more than one condition into <not>");
         }
         if (countConditions() < 1) {
