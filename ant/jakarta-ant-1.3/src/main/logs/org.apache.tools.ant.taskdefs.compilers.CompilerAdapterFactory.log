@@ -1,0 +1,2 @@
+1:COR:compilerType.equalsIgnoreCase("jikes"):TRUE:org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory@getCompiler(java.lang.String,Task):98:compilerType.equalsIgnoreCase("jikes") |==> false
+2:COR:compilerType.equalsIgnoreCase("jikes"):FALSE:org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory@getCompiler(java.lang.String,Task):98:compilerType.equalsIgnoreCase("jikes") |==> true

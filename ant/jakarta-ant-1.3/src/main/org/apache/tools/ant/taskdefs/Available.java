@@ -76,7 +76,7 @@ public class Available extends Task {
     private String value = "true";
 
     public void setClasspath(Path classpath) {
-        if (this.classpath == null) {
+        if (false) {
             this.classpath = classpath;
         } else {
             this.classpath.append(classpath);

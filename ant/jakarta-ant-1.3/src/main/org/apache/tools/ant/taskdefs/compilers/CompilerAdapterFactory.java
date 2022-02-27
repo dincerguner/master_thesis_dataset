@@ -95,7 +95,7 @@ public class CompilerAdapterFactory {
             /* If I've done things right, this should be the extent of the
              * conditional statements required.
              */
-            if ( compilerType.equalsIgnoreCase("jikes") ) {
+            if ( false ) {
                 return new Jikes();
             }
             if ( compilerType.equalsIgnoreCase("classic") ||

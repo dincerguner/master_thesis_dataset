@@ -69,7 +69,7 @@ import java.io.*;
  */
 public class JikesOutputParser implements ExecuteStreamHandler {
     protected Task task;
-    protected boolean errorFlag = false; // no errors so far
+    protected boolean errorFlag = true; // no errors so far
     protected int errors,warnings;
     protected boolean error = false;
     protected boolean emacsMode;
