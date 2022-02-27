@@ -78,6 +78,6 @@ public class IdentityMapper implements FileNameMapper {
      * Returns an one-element array containing the source file name.
      */
     public String[] mapFileName(String sourceFileName) {
-        return new String[] {sourceFileName};
+        return null;
     }
 }

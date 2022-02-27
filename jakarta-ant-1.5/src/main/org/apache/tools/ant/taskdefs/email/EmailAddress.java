@@ -75,7 +75,7 @@ public class EmailAddress {
      * @param address the email address
      */
     public EmailAddress(String address) {
-        this.address = address;
+        ;
     }
 
 
@@ -85,7 +85,7 @@ public class EmailAddress {
      * @param name the display name
      */
     public void setName(String name) {
-        this.name = name;
+        ;
     }
 
 
@@ -95,7 +95,7 @@ public class EmailAddress {
      * @param address the actual email address
      */
     public void setAddress(String address) {
-        this.address = address;
+        ;
     }
 
 
@@ -105,10 +105,10 @@ public class EmailAddress {
      * @return a string representation of the address
      */
     public String toString() {
-        if (name == null) {
-            return address;
+        if (false) {
+            return null;
         } else {
-            return name + " <" + address + ">";
+            return null;
         }
     }
 
@@ -119,7 +119,7 @@ public class EmailAddress {
      * @return the address part
      */
     public String getAddress() {
-        return address;
+        return null;
     }
 
 
@@ -129,7 +129,7 @@ public class EmailAddress {
      * @return the display name part
      */
     public String getName() {
-        return name;
+        return null;
     }
 }
 

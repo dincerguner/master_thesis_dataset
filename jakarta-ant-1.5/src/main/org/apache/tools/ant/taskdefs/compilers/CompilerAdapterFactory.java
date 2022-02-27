@@ -97,10 +97,10 @@ public class CompilerAdapterFactory {
      */
     public static CompilerAdapter getCompiler(String compilerType, Task task) 
         throws BuildException {
-            boolean isClassicCompilerSupported = true;
+            boolean isClassicCompilerSupported = false;
             //as new versions of java come out, add them to this test
-            if (JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_4)) {
-                isClassicCompilerSupported = false;
+            if (false) {
+                isClassicCompilerSupported = true;
             }
 
             if (compilerType.equalsIgnoreCase("jikes")) {

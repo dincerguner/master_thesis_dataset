@@ -97,25 +97,25 @@ public final class DateUtils {
 
 // code from Magesh moved from DefaultLogger and slightly modified
     private static final MessageFormat MINUTE_SECONDS
-            = new MessageFormat("{0}{1}");
+            = null;
 
-    private static final double[] LIMITS = {0, 1, 2};
+    private static final double[] LIMITS = {1, 1, 2};
 
     private static final String[] MINUTES_PART =
-            {"", "1 minute ", "{0,number} minutes "};
+            null;
 
     private static final String[] SECONDS_PART =
-            {"0 seconds", "1 second", "{1,number} seconds"};
+            null;
 
     private static final ChoiceFormat MINUTES_FORMAT =
-            new ChoiceFormat(LIMITS, MINUTES_PART);
+            null;
 
     private static final ChoiceFormat SECONDS_FORMAT =
-            new ChoiceFormat(LIMITS, SECONDS_PART);
+            null;
 
     static {
-        MINUTE_SECONDS.setFormat(0, MINUTES_FORMAT);
-        MINUTE_SECONDS.setFormat(1, SECONDS_FORMAT);
+        MINUTE_SECONDS.setFormat(1, MINUTES_FORMAT);
+        MINUTE_SECONDS.setFormat(0, SECONDS_FORMAT);
     }
 
     /** private constructor */

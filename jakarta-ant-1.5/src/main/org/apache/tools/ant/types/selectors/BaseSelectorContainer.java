@@ -72,7 +72,7 @@ import java.util.Vector;
 public abstract class BaseSelectorContainer extends BaseSelector
         implements SelectorContainer {
 
-    private Vector selectorsList = new Vector();
+    private Vector selectorsList = null;
 
     /**
      * Default constructor.

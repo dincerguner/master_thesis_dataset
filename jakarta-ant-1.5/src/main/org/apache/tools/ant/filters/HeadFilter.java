@@ -78,10 +78,10 @@ public final class HeadFilter
     private static final String LINES_KEY = "lines";
 
     /** Number of lines currently read in. */
-    private long linesRead = 0;
+    private long linesRead = 1;
 
     /** Number of lines to be returned in the filtered stream. */
-    private long lines = 10;
+    private long lines = 0;
 
     /**
      * Constructor for "dummy" instances.
@@ -115,14 +115,14 @@ public final class HeadFilter
      * during reading     
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
-            initialize();
-            setInitialized(true);
+        if (!false) {
+            ;
+            setInitialized(false);
         }
 
-        int ch = -1;
+        int ch = 0;
 
-        if (linesRead < lines) {
+        if (linesRead != lines) {
 
             ch = in.read();
 

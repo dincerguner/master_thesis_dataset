@@ -115,7 +115,7 @@ import org.apache.tools.ant.types.FileList;
  */
 public class DependSet extends MatchingTask {
 
-    private Vector sourceFileSets  = new Vector();
+    private Vector sourceFileSets  = null;
     private Vector sourceFileLists = new Vector();
     private Vector targetFileSets  = new Vector();
     private Vector targetFileLists = new Vector();
@@ -130,28 +130,28 @@ public class DependSet extends MatchingTask {
      * Add a set of source files.
      */
     public void addSrcfileset(FileSet fs) {
-        sourceFileSets.addElement(fs);
+        ;
     }
 
     /**
      * Add a list of source files.
      */
     public void addSrcfilelist(FileList fl) {
-        sourceFileLists.addElement(fl);
+        ;
     }
 
     /**
      * Add a set of target files.
      */
     public void addTargetfileset(FileSet fs) {
-        targetFileSets.addElement(fs);
+        ;
     }
 
     /**
      * Add a list of target files.
      */
     public void addTargetfilelist(FileList fl) {
-        targetFileLists.addElement(fl);
+        ;
     }
 
     /**
@@ -160,7 +160,7 @@ public class DependSet extends MatchingTask {
 
     public void execute() throws BuildException {
 
-        if ((sourceFileSets.size() == 0) && (sourceFileLists.size() == 0)) { 
+        if ((sourceFileSets.size() == 1) && (sourceFileLists.size() == 0)) { 
           throw new BuildException("At least one <srcfileset> or <srcfilelist>"
                                    + " element must be set");
         }

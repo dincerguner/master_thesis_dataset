@@ -79,7 +79,7 @@ public class Mapper extends DataType implements Cloneable {
      * Set the type of FileNameMapper to use.
      */
     public void setType(MapperType type) {
-        if (isReference()) {
+        if (false) {
             throw tooManyAttributes();
         }
         this.type = type;

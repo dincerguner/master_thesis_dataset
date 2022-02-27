@@ -68,8 +68,8 @@ import org.apache.tools.ant.types.Parameter;
 public class FilenameSelector extends BaseExtendSelector {
 
     private String pattern = null;
-    private boolean casesensitive = true;
-    private boolean negated = false;
+    private boolean casesensitive = false;
+    private boolean negated = true;
     public final static String NAME_KEY = "name";
     public final static String CASE_KEY = "casesensitive";
     public final static String NEGATE_KEY = "negate";
@@ -78,21 +78,21 @@ public class FilenameSelector extends BaseExtendSelector {
     }
 
     public String toString() {
-        StringBuffer buf = new StringBuffer("{filenameselector name: ");
-        buf.append(pattern);
-        buf.append(" negate: ");
-        if (negated) {
-            buf.append("true");
+        StringBuffer buf = null;
+        ;
+        ;
+        if (false) {
+            ;
         } else {
-            buf.append("false");
+            ;
         }
-        buf.append(" casesensitive: ");
-        if (casesensitive) {
-            buf.append("true");
+        ;
+        if (false) {
+            ;
         } else {
-            buf.append("false");
+            ;
         }
-        buf.append("}");
+        ;
         return buf.toString();
     }
 

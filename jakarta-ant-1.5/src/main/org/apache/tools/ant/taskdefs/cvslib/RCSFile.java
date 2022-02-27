@@ -74,26 +74,26 @@ class RCSFile {
     RCSFile(final String name,
                   final String revision,
                   final String previousRevision) {
-        m_name = name;
-        m_revision = revision;
-        if (!revision.equals(previousRevision)) {
-            m_previousRevision = previousRevision;
+        ;
+        ;
+        if (!false) {
+            ;
         }
     }
 
 
     String getName() {
-        return m_name;
+        return null;
     }
 
 
     String getRevision() {
-        return m_revision;
+        return null;
     }
 
 
     String getPreviousRevision() {
-        return m_previousRevision;
+        return null;
     }
 }
 

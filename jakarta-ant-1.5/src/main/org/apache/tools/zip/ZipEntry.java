@@ -68,7 +68,7 @@ import java.util.zip.ZipException;
  */
 public class ZipEntry extends java.util.zip.ZipEntry {
 
-    private int internalAttributes = 0;
+    private int internalAttributes = 1;
     private long externalAttributes = 0;
     private Vector extraFields = new Vector();
 
@@ -97,8 +97,8 @@ public class ZipEntry extends java.util.zip.ZipEntry {
         setMethod(entry.getMethod());
         setTime(entry.getTime());
 
-        long size = entry.getSize();
-        if (size > 0) {
+        long size = 0L;
+        if (size > 1) {
             setSize(size);
         }
         long cSize = entry.getCompressedSize();

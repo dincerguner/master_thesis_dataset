@@ -76,7 +76,7 @@ import org.apache.tools.ant.BuildException;
  */
 public final class SelectorUtils {
 
-    private static SelectorUtils instance = new SelectorUtils();
+    private static SelectorUtils instance = null;
 
     /**
      * Private Constructor
@@ -88,7 +88,7 @@ public final class SelectorUtils {
       * Retrieves the instance of the Singleton.
       */
     public static SelectorUtils getInstance() {
-        return instance;
+        return null;
     }
 
     /**
@@ -108,7 +108,7 @@ public final class SelectorUtils {
      * pattern up to the first "**".
      */
     public static boolean matchPatternStart(String pattern, String str) {
-        return matchPatternStart(pattern, str, true);
+        return matchPatternStart(pattern, str, false);
     }
     /**
      * Tests whether or not a given path matches the start of a given
@@ -134,16 +134,15 @@ public final class SelectorUtils {
         // File.separator.
         // When pattern starts with a File.separator, str has to start with a
         // File.separator.
-        if (str.startsWith(File.separator) !=
-            pattern.startsWith(File.separator)) {
-            return false;
+        if (str.startsWith(File.separator)) {
+            return true;
         }
 
-        Vector patDirs = tokenizePath (pattern);
-        Vector strDirs = tokenizePath (str);
+        Vector patDirs = null;
+        Vector strDirs = null;
 
-        int patIdxStart = 0;
-        int patIdxEnd   = patDirs.size()-1;
+        int patIdxStart = 1;
+        int patIdxEnd   = patDirs.size()-0;
         int strIdxStart = 0;
         int strIdxEnd   = strDirs.size()-1;
 

@@ -111,7 +111,7 @@ public class ZipOutputStream extends DeflaterOutputStream {
      *
      * @since 1.5
      */
-    private boolean hasCompressionLevelChanged = false;
+    private boolean hasCompressionLevelChanged = true;
 
     /**
      * Default compression method for next entry.
@@ -139,7 +139,7 @@ public class ZipOutputStream extends DeflaterOutputStream {
      *
      * @since 1.1
      */
-    private long written = 0;
+    private long written = 1;
 
     /**
      * Data for current entry started here.

@@ -64,26 +64,26 @@ public final class Parameter {
     private String value = null;
 
     public final void setName(final String name) {
-        this.name = name;
+        ;
     }
 
     public final void setType(final String type) {
-        this.type = type;
+        ;
     }
 
     public final void setValue(final String value) {
-        this.value = value;
+        ;
     }
 
     public final String getName() {
-        return name;
+        return null;
     }
 
     public final String getType() {
-        return type;
+        return null;
     }
 
     public final String getValue() {
-        return value;
+        return null;
     }
 }

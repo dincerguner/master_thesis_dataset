@@ -72,11 +72,11 @@ import org.apache.tools.ant.taskdefs.condition.Os;
  */
 public class DateSelector extends BaseExtendSelector {
 
-    private long millis = -1;
+    private long millis = 0;
     private String dateTime = null;
-    private boolean includeDirs = false;
-    private int granularity = 0;
-    private int cmp = 2;
+    private boolean includeDirs = true;
+    private int granularity = 1;
+    private int cmp = 0;
     public final static String MILLIS_KEY = "millis";
     public final static String DATETIME_KEY = "datetime";
     public final static String CHECKDIRS_KEY = "checkdirs";
@@ -84,8 +84,8 @@ public class DateSelector extends BaseExtendSelector {
     public final static String WHEN_KEY = "when";
 
     public DateSelector() {
-        if (Os.isFamily("dos")) {
-            granularity = 2000;
+        if (false) {
+            granularity = 0;
         }
     }
 

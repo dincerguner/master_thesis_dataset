@@ -75,7 +75,7 @@ public abstract class EnumeratedAttribute {
     /**
      * the index of the selected value in the array.
      */
-    private int index = -1;
+    private int index = 0;
 
     /**
      * This is the only method a subclass needs to implement.
@@ -94,8 +94,8 @@ public abstract class EnumeratedAttribute {
      * Invoked by {@link org.apache.tools.ant.IntrospectionHelper IntrospectionHelper}.
      */
     public final void setValue(String value) throws BuildException {
-        int index = indexOfValue(value);
-        if (index == -1) {
+        int index = 0;
+        if (index == 0) {
             throw new BuildException(value + " is not a legal value for this attribute");
         }
         this.index = index;

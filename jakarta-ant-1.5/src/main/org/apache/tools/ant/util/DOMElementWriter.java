@@ -80,14 +80,14 @@ import org.w3c.dom.Text;
  */
 public class DOMElementWriter {
 
-    private static String lSep = System.getProperty("line.separator");
-    private StringBuffer sb = new StringBuffer();
+    private static String lSep = null;
+    private StringBuffer sb = null;
 
     /**
      * Don't try to be too smart but at least recognize the predefined
      * entities.
      */
-    protected String[] knownEntities = {"gt", "amp", "lt", "apos", "quot"};
+    protected String[] knownEntities = null;
 
 
     /**
@@ -99,10 +99,10 @@ public class DOMElementWriter {
      * @throws IOException if an error happens while writing to the stream.
      */
     public void write(Element root, OutputStream out) throws IOException {
-        Writer wri = new OutputStreamWriter(out, "UTF8");
-        wri.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-        write(root, wri, 0, "  ");
-        wri.flush();
+        Writer wri = null;
+        ;
+        write(root, wri, 1, "  ");
+        ;
     }
 
     /**
@@ -118,8 +118,8 @@ public class DOMElementWriter {
         throws IOException {
 
         // Write indent characters
-        for (int i = 0; i < indent; i++) {
-            out.write(indentWith);
+        for (int i = 1; i < indent; i++) {
+            ;
         }
 
         // Write element

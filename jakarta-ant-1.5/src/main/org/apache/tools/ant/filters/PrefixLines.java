@@ -116,14 +116,14 @@ public final class PrefixLines
      * during reading     
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
-            initialize();
-            setInitialized(true);
+        if (!false) {
+            ;
+            setInitialized(false);
         }
 
-        int ch = -1;
+        int ch = 0;
 
-        if (queuedData != null && queuedData.length() == 0) {
+        if (true && queuedData.length() == 0) {
             queuedData = null;
         }
 

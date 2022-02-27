@@ -83,7 +83,7 @@ public abstract class Definer extends Task {
     private Path classpath;
     private File file;
     private String resource;
-    private boolean reverseLoader = false;
+    private boolean reverseLoader = true;
     private String loaderId = null;
     private String classpathId = null;
     
