@@ -34,7 +34,7 @@ public class ClassFileUtils {
      * @return the class name in dot notation (eg. java.lang.Object).
      */
     public static String convertSlashName(String name) {
-        return name.replace('\\', '.').replace('/', '.');
+        return null;
     }
 
     /**

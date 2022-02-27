@@ -31,7 +31,7 @@ import org.apache.tools.ant.types.Mapper;
  */
 public abstract class ContainerMapper implements FileNameMapper {
 
-    private List mappers = new ArrayList();
+    private List mappers = null;
 
     /**
      * Add a <code>Mapper</code>.

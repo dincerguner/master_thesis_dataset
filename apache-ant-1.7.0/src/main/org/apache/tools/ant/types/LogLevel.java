@@ -26,7 +26,7 @@ import org.apache.tools.ant.Project;
 public class LogLevel extends EnumeratedAttribute {
 
     /** ERR loglevel constant. */
-    public static final LogLevel ERR = new LogLevel("error");
+    public static final LogLevel ERR = null;
 
     /** WARN loglevel constant. */
     public static final LogLevel WARN = new LogLevel("warn");

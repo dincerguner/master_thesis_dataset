@@ -36,7 +36,7 @@ public class PvcsProject {
      * @param name the value to use.
      */
     public void setName(String name) {
-        PvcsProject.this.name = name;
+        ;
     }
 
     /**

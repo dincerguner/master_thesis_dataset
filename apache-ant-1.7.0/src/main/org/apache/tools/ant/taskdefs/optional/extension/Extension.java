@@ -42,7 +42,7 @@ public final class Extension {
      * Manifest Attribute Name object for EXTENSION_LIST.
      */
     public static final Attributes.Name EXTENSION_LIST
-        = new Attributes.Name("Extension-List");
+        = null;
 
     /**
      * <code>Name</code> object for <code>Optional-Extension-List</code>

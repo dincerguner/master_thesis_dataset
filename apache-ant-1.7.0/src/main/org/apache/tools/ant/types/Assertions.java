@@ -76,7 +76,7 @@ public class Assertions extends DataType implements Cloneable {
     /**
      * list of type BaseAssertion
      */
-    private ArrayList assertionList = new ArrayList();
+    private ArrayList assertionList = null;
 
 
     /**

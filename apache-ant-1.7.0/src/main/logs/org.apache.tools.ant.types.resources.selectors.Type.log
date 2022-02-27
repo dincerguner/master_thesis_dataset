@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(org.apache.tools.ant.types.resources.selectors.Type)>:<DEFAULT>:org.apache.tools.ant.types.resources.selectors.Type:34:new Type(new FileDir(FILE_ATTR)) |==> null
+2:EVR:<NEW_CLASS(org.apache.tools.ant.types.resources.selectors.Type)>:<DEFAULT>:org.apache.tools.ant.types.resources.selectors.Type:37:new Type(new FileDir(DIR_ATTR)) |==> null
+3:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.types.resources.selectors.Type$FileDir:43:new String[]{FILE_ATTR, DIR_ATTR} |==> null
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.selectors.Type$FileDir@<init>(java.lang.String):56:setValue(value) |==> <NO-OP>

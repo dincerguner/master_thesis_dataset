@@ -40,7 +40,7 @@ public abstract class EnumeratedAttribute {
     /**
      * the index of the selected value in the array.
      */
-    private int index = -1;
+    private int index = 0;
 
     /**
      * This is the only method a subclass needs to implement.

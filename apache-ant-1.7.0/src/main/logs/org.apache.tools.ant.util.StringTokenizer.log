@@ -1,0 +1,5 @@
+1:LVR:NEG:0:org.apache.tools.ant.util.StringTokenizer:35:-2 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.util.StringTokenizer:35:-2 |==> 2
+3:LVR:FALSE:TRUE:org.apache.tools.ant.util.StringTokenizer:37:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.util.StringTokenizer:38:false |==> true
+5:LVR:FALSE:TRUE:org.apache.tools.ant.util.StringTokenizer:39:false |==> true

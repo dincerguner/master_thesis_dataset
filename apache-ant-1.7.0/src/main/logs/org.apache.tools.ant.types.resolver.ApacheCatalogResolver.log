@@ -1,0 +1,5 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.resolver.ApacheCatalogResolver:78:true |==> false
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resolver.ApacheCatalogResolver:78:CatalogManager.getStaticManager().setIgnoreMissingProperties(true) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resolver.ApacheCatalogResolver:84:System.getProperties().put("xml.catalog.className", ApacheCatalog.class.getName()) |==> <NO-OP>
+4:LVR:FALSE:TRUE:org.apache.tools.ant.types.resolver.ApacheCatalogResolver:87:false |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resolver.ApacheCatalogResolver:87:CatalogManager.getStaticManager().setUseStaticCatalog(false) |==> <NO-OP>

@@ -53,7 +53,7 @@ public class TarResource extends ArchiveResource {
      * @param e the TarEntry.
      */
     public TarResource(File a, TarEntry e) {
-        super(a, true);
+        super(a, false);
         setEntry(e);
     }
 

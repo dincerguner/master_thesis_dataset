@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.FilterSetCollection:41:new Vector() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.FilterSetCollection@<init>(FilterSet):54:addFilterSet(filterSet) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.FilterSetCollection@addFilterSet(FilterSet):64:filterSets.addElement(filterSet) |==> <NO-OP>
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.FilterSetCollection@replaceTokens(java.lang.String):75:line |==> null
+5:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.types.FilterSetCollection@replaceTokens(java.lang.String):76:filterSets.elements() |==> null

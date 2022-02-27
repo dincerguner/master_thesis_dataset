@@ -32,7 +32,7 @@ public final class Parameter {
      * @param name a <code>String</code> value
      */
     public void setName(final String name) {
-        this.name = name;
+        ;
     }
 
     /**

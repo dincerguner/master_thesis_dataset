@@ -28,7 +28,7 @@ import java.io.IOException;
  */
 public class P4OutputStream extends OutputStream {
     private P4Handler handler;
-    private ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+    private ByteArrayOutputStream buffer = null;
     private boolean skip = false;
 
     /**

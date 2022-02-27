@@ -35,7 +35,7 @@ public class SmtpResponseReader {
     // CheckStyle:VisibilityModifier OFF - bc
     protected BufferedReader reader = null;
     // CheckStyle:VisibilityModifier ON
-    private StringBuffer result = new StringBuffer();
+    private StringBuffer result = null;
 
     /**
      * Wrap this input stream.

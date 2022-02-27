@@ -1,0 +1,5 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.resources.selectors.Name:29:true |==> false
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.resources.selectors.Name@setName(java.lang.String):36:pattern = n |==> <NO-OP>
+3:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.resources.selectors.Name@getName():44:pattern |==> null
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.resources.selectors.Name@setCaseSensitive(boolean):52:cs = b |==> <NO-OP>
+5:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.types.resources.selectors.Name@isCaseSensitive():60:cs |==> false

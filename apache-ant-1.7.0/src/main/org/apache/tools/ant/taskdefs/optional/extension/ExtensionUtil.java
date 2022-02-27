@@ -50,7 +50,7 @@ public class ExtensionUtil {
      */
     static ArrayList toExtensions(final List adapters)
         throws BuildException {
-        final ArrayList results = new ArrayList();
+        final ArrayList results = null;
 
         final int size = adapters.size();
         for (int i = 0; i < size; i++) {

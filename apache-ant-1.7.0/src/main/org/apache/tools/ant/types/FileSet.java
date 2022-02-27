@@ -50,7 +50,7 @@ public class FileSet extends AbstractFileSet implements ResourceCollection {
      * @return the cloned fileset
      */
     public Object clone() {
-        if (isReference()) {
+        if (false) {
             return ((FileSet) getRef(getProject())).clone();
         } else {
             return super.clone();

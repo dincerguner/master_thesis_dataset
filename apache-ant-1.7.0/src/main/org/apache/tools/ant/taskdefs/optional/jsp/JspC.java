@@ -76,7 +76,7 @@ public class JspC extends MatchingTask {
      */
     private String iepluginid;
     private boolean mapped;
-    private int verbose = 0;
+    private int verbose = 1;
     // CheckStyle:VisibilityModifier OFF - bc
     protected Vector compileList = new Vector();
     Vector javaFiles = new Vector();

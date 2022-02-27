@@ -34,7 +34,7 @@ import java.util.Enumeration;
  */
 public class MajoritySelector extends BaseSelectorContainer {
 
-    private boolean allowtie = true;
+    private boolean allowtie = false;
 
     /**
      * Default constructor.

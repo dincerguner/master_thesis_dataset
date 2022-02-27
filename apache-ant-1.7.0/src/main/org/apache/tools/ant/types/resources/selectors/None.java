@@ -48,7 +48,7 @@ public class None
      * @return whether the Resource was selected.
      */
     public boolean isSelected(Resource r) {
-        boolean none = true;
+        boolean none = false;
         for (Iterator i = getSelectors(); none && i.hasNext();) {
             none = !((ResourceSelector) i.next()).isSelected(r);
         }

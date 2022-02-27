@@ -1,0 +1,22 @@
+1:COR:Dispatchable.class.isAssignableFrom(taskClass):TRUE:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):59:Dispatchable.class.isAssignableFrom(taskClass) |==> false
+2:COR:Dispatchable.class.isAssignableFrom(taskClass):FALSE:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):59:Dispatchable.class.isAssignableFrom(taskClass) |==> true
+3:EVR:<METHOD_INVOCATION(java.lang.reflect.Method)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):63:taskClass.getMethod("execute", (Class[])null) |==> null
+4:COR:Void.TYPE.equals(executeM.getReturnType()):TRUE:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):68:Void.TYPE.equals(executeM.getReturnType()) |==> false
+5:COR:Void.TYPE.equals(executeM.getReturnType()):FALSE:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):68:Void.TYPE.equals(executeM.getReturnType()) |==> true
+6:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):71:"return type of execute() should be " + "void but was \"" + executeM.getReturnType() + "\" in " + taskClass |==> null
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):72:project.log(message, Project.MSG_WARN) |==> <NO-OP>
+8:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):75:"No public execute() in " + taskClass |==> null
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):76:project.log(message, Project.MSG_ERR) |==> <NO-OP>
+10:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):79:"Could not load " + taskClass + ": " + e |==> null
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):80:project.log(message, Project.MSG_ERR) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@checkProxyClass(java.lang.Class):93:checkTaskClass(proxyClass, getProject()) |==> <NO-OP>
+13:EVR:<METHOD_INVOCATION(java.lang.reflect.Method)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@execute():104:proxy.getClass().getMethod("setLocation", new Class[]{Location.class}) |==> null
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.TaskAdapter@execute():106:setLocationM != null |==> true
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@execute():107:setLocationM.invoke(proxy, new Object[]{getLocation()}) |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@execute():113:log("Error setting location in " + proxy.getClass(), Project.MSG_ERR) |==> <NO-OP>
+17:EVR:<METHOD_INVOCATION(java.lang.reflect.Method)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@execute():119:proxy.getClass().getMethod("setProject", new Class[]{Project.class}) |==> null
+18:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.TaskAdapter@execute():121:setProjectM != null |==> true
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@execute():122:setProjectM.invoke(proxy, new Object[]{getProject()}) |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@execute():128:log("Error setting project in " + proxy.getClass(), Project.MSG_ERR) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@execute():134:DispatchUtils.execute(proxy) |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@execute():138:log("Error in " + proxy.getClass(), Project.MSG_VERBOSE) |==> <NO-OP>

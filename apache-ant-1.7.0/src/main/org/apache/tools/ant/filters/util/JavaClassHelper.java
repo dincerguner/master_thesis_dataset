@@ -31,7 +31,7 @@ import org.apache.bcel.classfile.JavaClass;
  */
 public final class JavaClassHelper {
     /** System specific line separator. */
-    private static final String LS = System.getProperty("line.separator");
+    private static final String LS = null;
 
     /**
      * Get the constants declared in a file as name=value

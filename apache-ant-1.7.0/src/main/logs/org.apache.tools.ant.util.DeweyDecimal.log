@@ -1,0 +1,130 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@<init>(int[]):42:this.components = new int[components.length] |==> <NO-OP>
+2:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@<init>(int[]):44:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@<init>(int[]):44:0 |==> -1
+4:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(int[]):44:i < components.length |==> i != components.length
+5:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(int[]):44:i < components.length |==> i <= components.length
+6:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(int[]):44:i < components.length |==> false
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@<init>(int[]):45:this.components[i] = components[i] |==> <NO-OP>
+8:LVR:TRUE:FALSE:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):57:true |==> false
+9:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):58:tokenizer.countTokens() |==> 0
+10:LVR:POS:0:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:1 |==> 0
+11:LVR:POS:NEG:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:1 |==> -1
+12:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:size + 1 |==> size % 1
+13:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:size + 1 |==> size * 1
+14:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:size + 1 |==> size - 1
+15:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:size + 1 |==> size / 1
+16:LVR:POS:0:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:2 |==> 0
+17:LVR:POS:NEG:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:2 |==> -2
+18:AOR:/(int,int):%(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:(size + 1) / 2 |==> (size + 1) % 2
+19:AOR:/(int,int):*(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:(size + 1) / 2 |==> (size + 1) * 2
+20:AOR:/(int,int):+(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:(size + 1) / 2 |==> (size + 1) + 2
+21:AOR:/(int,int):-(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:(size + 1) / 2 |==> (size + 1) - 2
+22:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):60:components = new int[(size + 1) / 2] |==> <NO-OP>
+23:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):62:0 |==> 1
+24:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):62:0 |==> -1
+25:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):62:i < components.length |==> i != components.length
+26:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):62:i < components.length |==> i <= components.length
+27:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):62:i < components.length |==> false
+28:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):63:tokenizer.nextToken() |==> null
+29:COR:component.equals(""):TRUE:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):64:component.equals("") |==> false
+30:COR:component.equals(""):FALSE:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):64:component.equals("") |==> true
+31:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):68:components[i] = Integer.parseInt(component) |==> <NO-OP>
+32:COR:tokenizer.hasMoreTokens():TRUE:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):71:tokenizer.hasMoreTokens() |==> false
+33:COR:tokenizer.hasMoreTokens():FALSE:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):71:tokenizer.hasMoreTokens() |==> true
+34:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):72:tokenizer.nextToken() |==> <NO-OP>
+35:COR:tokenizer.hasMoreTokens():TRUE:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):75:tokenizer.hasMoreTokens() |==> false
+36:COR:tokenizer.hasMoreTokens():FALSE:org.apache.tools.ant.util.DeweyDecimal@<init>(java.lang.String):75:tokenizer.hasMoreTokens() |==> true
+37:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@getSize():88:components.length |==> 0
+38:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@get(int):98:components[index] |==> 0
+39:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):109:Math.max(other.components.length, components.length) |==> 0
+40:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):111:0 |==> 1
+41:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):111:0 |==> -1
+42:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):111:i < max |==> i != max
+43:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):111:i < max |==> i <= max
+44:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):111:i < max |==> false
+45:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):112:i < components.length |==> i != components.length
+46:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):112:i < components.length |==> i <= components.length
+47:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):112:i < components.length |==> false
+48:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):112:0 |==> 1
+49:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):112:0 |==> -1
+50:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):113:i < other.components.length |==> i != other.components.length
+51:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):113:i < other.components.length |==> i <= other.components.length
+52:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):113:i < other.components.length |==> false
+53:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):113:0 |==> 1
+54:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):113:0 |==> -1
+55:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):115:component2 != component1 |==> component2 < component1
+56:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):115:component2 != component1 |==> component2 > component1
+57:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):115:component2 != component1 |==> true
+58:LVR:FALSE:TRUE:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):116:false |==> true
+59:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):116:return Config.__M_NO == 0 && Config.COVERED(58, 58) ? false : Config.__M_NO == 58 ? true : false; |==> <NO-OP>
+60:LVR:TRUE:FALSE:org.apache.tools.ant.util.DeweyDecimal@isEqual(org.apache.tools.ant.util.DeweyDecimal):120:true |==> false
+61:EVR:<LOGICAL_COMPLEMENT(boolean)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@isLessThan(org.apache.tools.ant.util.DeweyDecimal):131:!isGreaterThanOrEqual(other) |==> false
+62:EVR:<LOGICAL_COMPLEMENT(boolean)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@isLessThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):142:!isGreaterThan(other) |==> false
+63:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):153:Math.max(other.components.length, components.length) |==> 0
+64:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):155:0 |==> 1
+65:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):155:0 |==> -1
+66:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):155:i < max |==> i != max
+67:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):155:i < max |==> i <= max
+68:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):155:i < max |==> false
+69:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):156:i < components.length |==> i != components.length
+70:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):156:i < components.length |==> i <= components.length
+71:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):156:i < components.length |==> false
+72:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):156:0 |==> 1
+73:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):156:0 |==> -1
+74:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):157:i < other.components.length |==> i != other.components.length
+75:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):157:i < other.components.length |==> i <= other.components.length
+76:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):157:i < other.components.length |==> false
+77:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):157:0 |==> 1
+78:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):157:0 |==> -1
+79:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):159:component2 > component1 |==> component2 != component1
+80:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):159:component2 > component1 |==> component2 >= component1
+81:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):159:component2 > component1 |==> false
+82:LVR:FALSE:TRUE:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):160:false |==> true
+83:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):160:return Config.__M_NO == 0 && Config.COVERED(82, 82) ? false : Config.__M_NO == 82 ? true : false; |==> <NO-OP>
+84:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):162:component2 < component1 |==> component2 != component1
+85:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):162:component2 < component1 |==> component2 <= component1
+86:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):162:component2 < component1 |==> false
+87:LVR:TRUE:FALSE:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):163:true |==> false
+88:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):163:return Config.__M_NO == 0 && Config.COVERED(87, 87) ? true : Config.__M_NO == 87 ? false : true; |==> <NO-OP>
+89:LVR:FALSE:TRUE:org.apache.tools.ant.util.DeweyDecimal@isGreaterThan(org.apache.tools.ant.util.DeweyDecimal):167:false |==> true
+90:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):178:Math.max(other.components.length, components.length) |==> 0
+91:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):180:0 |==> 1
+92:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):180:0 |==> -1
+93:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):180:i < max |==> i != max
+94:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):180:i < max |==> i <= max
+95:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):180:i < max |==> false
+96:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):181:i < components.length |==> i != components.length
+97:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):181:i < components.length |==> i <= components.length
+98:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):181:i < components.length |==> false
+99:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):181:0 |==> 1
+100:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):181:0 |==> -1
+101:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):182:i < other.components.length |==> i != other.components.length
+102:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):182:i < other.components.length |==> i <= other.components.length
+103:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):182:i < other.components.length |==> false
+104:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):182:0 |==> 1
+105:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):182:0 |==> -1
+106:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):184:component2 > component1 |==> component2 != component1
+107:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):184:component2 > component1 |==> component2 >= component1
+108:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):184:component2 > component1 |==> false
+109:LVR:FALSE:TRUE:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):185:false |==> true
+110:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):185:return Config.__M_NO == 0 && Config.COVERED(109, 109) ? false : Config.__M_NO == 109 ? true : false; |==> <NO-OP>
+111:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):187:component2 < component1 |==> component2 != component1
+112:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):187:component2 < component1 |==> component2 <= component1
+113:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):187:component2 < component1 |==> false
+114:LVR:TRUE:FALSE:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):188:true |==> false
+115:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):188:return Config.__M_NO == 0 && Config.COVERED(114, 114) ? true : Config.__M_NO == 114 ? false : true; |==> <NO-OP>
+116:LVR:TRUE:FALSE:org.apache.tools.ant.util.DeweyDecimal@isGreaterThanOrEqual(org.apache.tools.ant.util.DeweyDecimal):192:true |==> false
+117:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@toString():201:new StringBuffer() |==> null
+118:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@toString():203:0 |==> 1
+119:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@toString():203:0 |==> -1
+120:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.DeweyDecimal@toString():203:i < components.length |==> i != components.length
+121:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.DeweyDecimal@toString():203:i < components.length |==> i <= components.length
+122:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.DeweyDecimal@toString():203:i < components.length |==> false
+123:LVR:0:POS:org.apache.tools.ant.util.DeweyDecimal@toString():204:0 |==> 1
+124:LVR:0:NEG:org.apache.tools.ant.util.DeweyDecimal@toString():204:0 |==> -1
+125:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.DeweyDecimal@toString():204:i != 0 |==> i < 0
+126:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.DeweyDecimal@toString():204:i != 0 |==> i > 0
+127:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.util.DeweyDecimal@toString():204:i != 0 |==> true
+128:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@toString():205:sb.append('.') |==> <NO-OP>
+129:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.DeweyDecimal@toString():207:sb.append(components[i]) |==> <NO-OP>
+130:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.DeweyDecimal@toString():210:sb.toString() |==> null

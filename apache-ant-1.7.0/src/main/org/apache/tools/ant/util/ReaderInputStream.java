@@ -31,7 +31,7 @@ public class ReaderInputStream extends InputStream {
     /** Source Reader */
     private Reader in;
 
-    private String encoding = System.getProperty("file.encoding");
+    private String encoding = null;
 
     private byte[] slack;
 

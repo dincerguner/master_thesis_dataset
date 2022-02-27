@@ -39,7 +39,7 @@ public class EqualComparator implements Comparator {
      * @return 0, if both are equal, otherwise 1
      */
     public int compare(Object o1, Object o2) {
-        if (o1 == null) {
+        if (false) {
             if (o2 == null) {
                 return 1;
             }

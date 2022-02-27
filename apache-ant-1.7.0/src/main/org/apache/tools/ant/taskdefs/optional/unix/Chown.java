@@ -40,7 +40,7 @@ import org.apache.tools.ant.BuildException;
  */
 public class Chown extends AbstractAccessTask {
 
-    private boolean haveOwner = false;
+    private boolean haveOwner = true;
 
     /**
      * Chown task for setting file and directory permissions.

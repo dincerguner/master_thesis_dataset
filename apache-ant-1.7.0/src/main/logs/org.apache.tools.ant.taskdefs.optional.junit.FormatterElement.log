@@ -1,0 +1,9 @@
+1:EVR:<MEMBER_SELECT(java.io.PrintStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement:56:System.out |==> null
+2:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement:58:true |==> false
+3:COR:"xml".equals(type.getValue()):TRUE:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement@setType(org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute):87:"xml".equals(type.getValue()) |==> false
+4:COR:"xml".equals(type.getValue()):FALSE:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement@setType(org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute):87:"xml".equals(type.getValue()) |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement@setType(org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute):88:setClassname(XML_FORMATTER_CLASS_NAME) |==> <NO-OP>
+6:COR:"brief".equals(type.getValue()):TRUE:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement@setType(org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute):90:"brief".equals(type.getValue()) |==> false
+7:COR:"brief".equals(type.getValue()):FALSE:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement@setType(org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute):90:"brief".equals(type.getValue()) |==> true
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement@setType(org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute):91:setClassname(BRIEF_FORMATTER_CLASS_NAME) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.FormatterElement@setType(org.apache.tools.ant.taskdefs.optional.junit.FormatterElement.TypeAttribute):93:setClassname(PLAIN_FORMATTER_CLASS_NAME) |==> <NO-OP>

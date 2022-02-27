@@ -38,7 +38,7 @@ public class Copydir extends MatchingTask {
 
     private File srcDir;
     private File destDir;
-    private boolean filtering = false;
+    private boolean filtering = true;
     private boolean flatten = false;
     private boolean forceOverwrite = false;
     private Hashtable filecopyList = new Hashtable();

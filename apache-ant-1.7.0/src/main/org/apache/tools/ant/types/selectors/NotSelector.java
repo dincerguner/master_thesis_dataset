@@ -42,7 +42,7 @@ public class NotSelector extends NoneSelector {
      */
     public NotSelector(FileSelector other) {
         this();
-        appendSelector(other);
+        ;
     }
 
     /**

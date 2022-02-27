@@ -58,7 +58,7 @@ public class AncestorAnalyzer extends AbstractAnalyzer {
     protected void determineDependencies(Vector files, Vector classes) {
         // we get the root classes and build up a set of
         // classes upon which they depend
-        Hashtable dependencies = new Hashtable();
+        Hashtable dependencies = null;
         Hashtable containers = new Hashtable();
         Hashtable toAnalyze = new Hashtable();
         Hashtable nextAnalyze = new Hashtable();

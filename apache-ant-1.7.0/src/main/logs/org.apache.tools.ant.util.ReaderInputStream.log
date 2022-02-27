@@ -1,0 +1,108 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ReaderInputStream:34:System.getProperty("file.encoding") |==> null
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@<init>(java.io.Reader):47:in = reader |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@<init>(java.io.Reader,java.lang.String):60:encoding == null |==> false
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@<init>(java.io.Reader,java.lang.String):63:this.encoding = encoding |==> <NO-OP>
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@read():75:in == null |==> false
+6:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@read():80:slack != null |==> true
+7:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.ReaderInputStream@read():80:begin < slack.length |==> begin != slack.length
+8:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.ReaderInputStream@read():80:begin < slack.length |==> begin <= slack.length
+9:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.ReaderInputStream@read():80:begin < slack.length |==> false
+10:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.ReaderInputStream@read():80:slack != null && begin < slack.length |==> slack != null == begin < slack.length
+11:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.ReaderInputStream@read():80:slack != null && begin < slack.length |==> false
+12:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.ReaderInputStream@read():80:slack != null && begin < slack.length |==> slack != null
+13:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.ReaderInputStream@read():80:slack != null && begin < slack.length |==> begin < slack.length
+14:EVR:<ARRAY_ACCESS(byte)>:<DEFAULT>:org.apache.tools.ant.util.ReaderInputStream@read():81:slack[begin] |==> 0
+15:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.ReaderInputStream@read():82:++begin == slack.length |==> ++begin <= slack.length
+16:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.ReaderInputStream@read():82:++begin == slack.length |==> ++begin >= slack.length
+17:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.ReaderInputStream@read():82:++begin == slack.length |==> false
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read():83:slack = null |==> <NO-OP>
+19:LVR:POS:0:org.apache.tools.ant.util.ReaderInputStream@read():86:1 |==> 0
+20:LVR:POS:NEG:org.apache.tools.ant.util.ReaderInputStream@read():86:1 |==> -1
+21:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read():87:0 |==> 1
+22:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read():87:0 |==> -1
+23:LVR:POS:0:org.apache.tools.ant.util.ReaderInputStream@read():87:1 |==> 0
+24:LVR:POS:NEG:org.apache.tools.ant.util.ReaderInputStream@read():87:1 |==> -1
+25:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read():87:0 |==> 1
+26:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read():87:0 |==> -1
+27:ROR:<=(int,int):<(int,int):org.apache.tools.ant.util.ReaderInputStream@read():87:read(buf, 0, 1) <= 0 |==> read(buf, 0, 1) < 0
+28:ROR:<=(int,int):==(int,int):org.apache.tools.ant.util.ReaderInputStream@read():87:read(buf, 0, 1) <= 0 |==> read(buf, 0, 1) == 0
+29:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.util.ReaderInputStream@read():87:read(buf, 0, 1) <= 0 |==> true
+30:LVR:NEG:0:org.apache.tools.ant.util.ReaderInputStream@read():88:-1 |==> 0
+31:LVR:NEG:POS:org.apache.tools.ant.util.ReaderInputStream@read():88:-1 |==> 1
+32:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read():90:0 |==> 1
+33:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read():90:0 |==> -1
+34:LVR:POS:0:org.apache.tools.ant.util.ReaderInputStream@read():94:255 |==> 0
+35:LVR:POS:NEG:org.apache.tools.ant.util.ReaderInputStream@read():94:255 |==> -255
+36:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.ReaderInputStream@read():94:result & 255 |==> result ^ 255
+37:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.ReaderInputStream@read():94:result & 255 |==> result | 255
+38:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):109:in == null |==> false
+39:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):112:0 |==> 1
+40:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):112:0 |==> -1
+41:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):112:len == 0 |==> len <= 0
+42:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):112:len == 0 |==> len >= 0
+43:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):112:len == 0 |==> false
+44:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):113:0 |==> 1
+45:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):113:0 |==> -1
+46:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):113:return Config.__M_NO == 0 && Config.COVERED(44, 45) ? 0 : Config.__M_NO == 45 ? -1 : Config.__M_NO == 44 ? 1 : 0; |==> <NO-OP>
+47:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):115:slack == null |==> false
+48:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):116:new char[len] |==> null
+49:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):117:in.read(buf) |==> 0
+50:LVR:NEG:0:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):118:-1 |==> 0
+51:LVR:NEG:POS:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):118:-1 |==> 1
+52:ROR:==(int,int):<=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):118:n == -1 |==> n <= -1
+53:ROR:==(int,int):>=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):118:n == -1 |==> n >= -1
+54:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):118:n == -1 |==> false
+55:LVR:NEG:0:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):119:-1 |==> 0
+56:LVR:NEG:POS:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):119:-1 |==> 1
+57:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):119:return Config.__M_NO == 0 && Config.COVERED(55, 56) ? -1 : Config.__M_NO == 56 ? 1 : Config.__M_NO == 55 ? 0 : -1; |==> <NO-OP>
+58:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):121:0 |==> 1
+59:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):121:0 |==> -1
+60:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):121:n > 0 |==> n != 0
+61:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):121:n > 0 |==> n >= 0
+62:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):121:n > 0 |==> false
+63:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):122:0 |==> 1
+64:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):122:0 |==> -1
+65:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):122:slack = new String(buf, 0, n).getBytes(encoding) |==> <NO-OP>
+66:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):123:0 |==> 1
+67:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):123:0 |==> -1
+68:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):123:begin = 0 |==> <NO-OP>
+69:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):127:slack.length - begin |==> slack.length % begin
+70:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):127:slack.length - begin |==> slack.length * begin
+71:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):127:slack.length - begin |==> slack.length + begin
+72:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):127:slack.length - begin |==> slack.length / begin
+73:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):127:len > slack.length - begin |==> len != slack.length - begin
+74:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):127:len > slack.length - begin |==> len >= slack.length - begin
+75:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):127:len > slack.length - begin |==> false
+76:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):128:slack.length - begin |==> slack.length % begin
+77:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):128:slack.length - begin |==> slack.length * begin
+78:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):128:slack.length - begin |==> slack.length + begin
+79:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):128:slack.length - begin |==> slack.length / begin
+80:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):128:len = slack.length - begin |==> <NO-OP>
+81:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):131:System.arraycopy(slack, begin, b, off, len) |==> <NO-OP>
+82:ROR:>=(int,int):==(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):133:(begin += len) >= slack.length |==> (begin += len) == slack.length
+83:ROR:>=(int,int):>(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):133:(begin += len) >= slack.length |==> (begin += len) > slack.length
+84:ROR:>=(int,int):TRUE(int,int):org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):133:(begin += len) >= slack.length |==> true
+85:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):134:slack = null |==> <NO-OP>
+86:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.util.ReaderInputStream@read(byte[],int,int):137:len |==> 0
+87:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@mark(int):148:in.mark(limit) |==> <NO-OP>
+88:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@available():160:in == null |==> false
+89:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@available():163:slack != null |==> true
+90:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.ReaderInputStream@available():164:slack.length - begin |==> slack.length % begin
+91:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.ReaderInputStream@available():164:slack.length - begin |==> slack.length * begin
+92:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.ReaderInputStream@available():164:slack.length - begin |==> slack.length + begin
+93:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.ReaderInputStream@available():164:slack.length - begin |==> slack.length / begin
+94:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@available():164:return Config.__M_NO == 93 ? slack.length / begin : Config.__M_NO == 92 ? slack.length + begin : Config.__M_NO == 91 ? slack.length * begin : Config.__M_NO == 90 ? slack.length % begin : Config.__M_NO == 0 && Config.COVERED(90, 93) ? slack.length - begin : slack.length - begin; |==> <NO-OP>
+95:COR:in.ready():TRUE:org.apache.tools.ant.util.ReaderInputStream@available():166:in.ready() |==> false
+96:COR:in.ready():FALSE:org.apache.tools.ant.util.ReaderInputStream@available():166:in.ready() |==> true
+97:LVR:POS:0:org.apache.tools.ant.util.ReaderInputStream@available():167:1 |==> 0
+98:LVR:POS:NEG:org.apache.tools.ant.util.ReaderInputStream@available():167:1 |==> -1
+99:LVR:0:POS:org.apache.tools.ant.util.ReaderInputStream@available():169:0 |==> 1
+100:LVR:0:NEG:org.apache.tools.ant.util.ReaderInputStream@available():169:0 |==> -1
+101:LVR:FALSE:TRUE:org.apache.tools.ant.util.ReaderInputStream@markSupported():177:false |==> true
+102:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@reset():186:in == null |==> false
+103:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@reset():189:slack = null |==> <NO-OP>
+104:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@reset():190:in.reset() |==> <NO-OP>
+105:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.util.ReaderInputStream@close():199:in != null |==> true
+106:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@close():200:in.close() |==> <NO-OP>
+107:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@close():201:slack = null |==> <NO-OP>
+108:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.ReaderInputStream@close():202:in = null |==> <NO-OP>

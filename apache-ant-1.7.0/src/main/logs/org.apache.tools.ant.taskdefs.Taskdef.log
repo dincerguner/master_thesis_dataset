@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Taskdef@<init>():49:setAdapterClass(TaskAdapter.class) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Taskdef@<init>():50:setAdaptToClass(Task.class) |==> <NO-OP>

@@ -33,7 +33,7 @@ import org.apache.tools.bzip2.CBZip2OutputStream;
  * @since Ant 1.7
  */
 public class BZip2Resource extends CompressedResource {
-    private static final char[] MAGIC = new char[] {'B', 'Z'};
+    private static final char[] MAGIC = null;
 
     /** A no-arg constructor */
     public BZip2Resource() {

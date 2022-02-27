@@ -37,8 +37,7 @@ import org.apache.tools.ant.BuildException;
  */
 public class Quantifier extends EnumeratedAttribute {
     private static final String[] VALUES
-        = new String[] {"all", "each", "every", "any", "some", "one",
-                        "majority", "most", "none"};
+        = null;
 
     /** ALL instance */
     public static final Quantifier ALL = new Quantifier("all");

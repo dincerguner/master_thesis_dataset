@@ -116,7 +116,7 @@ public class CSharp extends DotnetCompile {
     /**
      *  file alignment; 0 means let the compiler decide
      */
-    private int fileAlign = 0;
+    private int fileAlign = 1;
 
     /**
      *  use full paths to things

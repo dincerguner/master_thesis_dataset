@@ -45,7 +45,7 @@ public class JakartaOroRegexp extends JakartaOroMatcher implements Regexp {
     public String substitute(String input, String argument, int options)
         throws BuildException {
         // translate \1 to $1 so that the Perl5Substitution will work
-        StringBuffer subst = new StringBuffer();
+        StringBuffer subst = null;
         for (int i = 0; i < argument.length(); i++) {
             char c = argument.charAt(i);
             if (c == '$') {

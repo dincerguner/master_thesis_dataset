@@ -44,7 +44,7 @@ import org.apache.tools.ant.ExitException;
  */
 public class Permissions {
 
-    private List grantedPermissions = new LinkedList();
+    private List grantedPermissions = null;
     private List revokedPermissions = new LinkedList();
     private java.security.Permissions granted = null;
     private SecurityManager origSm = null;

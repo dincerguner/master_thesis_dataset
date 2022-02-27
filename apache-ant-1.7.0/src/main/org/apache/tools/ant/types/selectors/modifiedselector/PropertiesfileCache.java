@@ -65,7 +65,7 @@ public class PropertiesfileCache implements Cache {
     private File cachefile = null;
 
     /** Object for storing the key-value-pairs. */
-    private Properties cache = new Properties();
+    private Properties cache = null;
 
 
     // -----  member variables - internal use  -----

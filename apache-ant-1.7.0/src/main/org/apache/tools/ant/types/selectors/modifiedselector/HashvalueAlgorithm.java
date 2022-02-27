@@ -38,7 +38,7 @@ public class HashvalueAlgorithm implements Algorithm {
      * @return always true
      */
     public boolean isValid() {
-        return true;
+        return false;
     }
 
     /**

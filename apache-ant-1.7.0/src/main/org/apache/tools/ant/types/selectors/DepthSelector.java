@@ -35,7 +35,7 @@ public class DepthSelector extends BaseExtendSelector {
     // CheckStyle:VisibilityModifier OFF - bc
 
     /** min attribute */
-    public int min = -1;
+    public int min = 0;
     /** max attribute */
     public int max = -1;
 

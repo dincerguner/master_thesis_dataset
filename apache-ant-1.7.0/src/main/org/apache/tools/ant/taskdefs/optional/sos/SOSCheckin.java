@@ -34,7 +34,7 @@ public class SOSCheckin extends SOS {
      * @param  filename  The new file value
      */
     public final void setFile(String filename) {
-        super.setInternalFilename(filename);
+        ;
     }
 
     /**

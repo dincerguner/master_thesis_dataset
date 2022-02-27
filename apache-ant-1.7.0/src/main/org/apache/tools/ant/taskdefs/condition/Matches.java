@@ -31,7 +31,7 @@ import org.apache.tools.ant.util.regexp.RegexpMatcher;
 public class Matches extends ProjectComponent implements Condition {
 
     private String  string;
-    private boolean caseSensitive = true;
+    private boolean caseSensitive = false;
     private boolean multiLine = false;
     private boolean singleLine = false;
     private RegularExpression regularExpression;

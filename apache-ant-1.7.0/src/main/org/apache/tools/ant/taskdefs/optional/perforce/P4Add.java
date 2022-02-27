@@ -55,7 +55,7 @@ public class P4Add extends P4Base {
     private static final int DEFAULT_CMD_LENGTH = 450;
     private int changelist;
     private String addCmd = "";
-    private Vector filesets = new Vector();
+    private Vector filesets = null;
     private int cmdLength = DEFAULT_CMD_LENGTH;
 
     /**

@@ -46,7 +46,7 @@ public class Taskdef extends Typedef {
      */
 
     public Taskdef() {
-        setAdapterClass(TaskAdapter.class);
+        ;
         setAdaptToClass(Task.class);
     }
 }

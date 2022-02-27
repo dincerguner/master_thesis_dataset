@@ -40,7 +40,7 @@ import org.apache.tools.ant.BuildException;
  */
 public class Chgrp extends AbstractAccessTask {
 
-    private boolean haveGroup = false;
+    private boolean haveGroup = true;
 
     /**
      * Chgrp task for setting unix group of a file.

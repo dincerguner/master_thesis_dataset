@@ -41,7 +41,7 @@ public class DotnetResource {
     /**
      * embed (default) or link the resource
      */
-    private boolean embed = true;
+    private boolean embed = false;
 
     /**
      * this is used in VBC and JSC

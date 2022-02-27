@@ -33,7 +33,7 @@ public class ChainedMapper extends ContainerMapper {
 
     /** {@inheritDoc}. */
     public String[] mapFileName(String sourceFileName) {
-        List inputs = new ArrayList();
+        List inputs = null;
         List results = new ArrayList();
         results.add(sourceFileName);
         FileNameMapper mapper = null;

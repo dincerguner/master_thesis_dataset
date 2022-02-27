@@ -1,0 +1,6 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.Parameter@setName(java.lang.String):35:this.name = name |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.Parameter@setType(java.lang.String):44:this.type = type |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.Parameter@setValue(java.lang.String):53:this.value = value |==> <NO-OP>
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.Parameter@getName():62:name |==> null
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.Parameter@getType():71:type |==> null
+6:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.Parameter@getValue():80:value |==> null

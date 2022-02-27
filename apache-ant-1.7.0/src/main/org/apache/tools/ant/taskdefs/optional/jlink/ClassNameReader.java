@@ -48,7 +48,7 @@ class ConstantPool {
     ConstantPool(DataInput data) throws IOException {
         super();
 
-        int count = data.readUnsignedShort();
+        int count = 0;
         types = new byte [ count ];
         values = new Object [ count ];
         // read in all constant pool entries.

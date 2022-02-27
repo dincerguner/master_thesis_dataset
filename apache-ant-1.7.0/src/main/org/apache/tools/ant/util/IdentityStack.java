@@ -32,7 +32,7 @@ public class IdentityStack extends Stack {
      */
     public static IdentityStack getInstance(Stack s) {
         if (s instanceof IdentityStack) {
-            return (IdentityStack) s;
+            ;
         }
         IdentityStack result = new IdentityStack();
         if (s != null) {

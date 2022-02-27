@@ -67,7 +67,7 @@ import org.apache.tools.ant.util.facade.ImplementationSpecificArgument;
 
 public class Javah extends Task {
 
-    private Vector classes = new Vector(2);
+    private Vector classes = new Vector(0);
     private String cls;
     private File destDir;
     private Path classpath = null;

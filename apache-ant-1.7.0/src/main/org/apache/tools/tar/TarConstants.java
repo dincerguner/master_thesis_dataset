@@ -99,7 +99,7 @@ public interface TarConstants {
     /**
      * Normal file type.
      */
-    byte   LF_NORMAL = (byte) '0';
+    byte   LF_NORMAL = 0;
 
     /**
      * Link file type.

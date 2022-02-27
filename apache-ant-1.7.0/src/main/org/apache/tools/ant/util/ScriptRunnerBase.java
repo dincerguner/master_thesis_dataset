@@ -38,7 +38,7 @@ import java.util.Iterator;
  */
 public abstract class ScriptRunnerBase {
     /** Whether to keep the engine between calls to execute/eval */
-    private boolean keepEngine = false;
+    private boolean keepEngine = true;
 
     /** Script language */
     private String language;

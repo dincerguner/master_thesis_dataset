@@ -33,7 +33,7 @@ public class FlexInteger {
      * @param value the value to decode
      */
     public FlexInteger(String value) {
-        this.value = Integer.decode(value);
+        ;
     }
 
     /**

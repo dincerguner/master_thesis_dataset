@@ -30,7 +30,7 @@ import org.apache.tools.ant.types.Commandline;
 public class CCMReconfigure extends Continuus {
 
     private String ccmProject = null;
-    private boolean recurse = false;
+    private boolean recurse = true;
     private boolean verbose = false;
 
     /** Constructor for CCMReconfigure. */

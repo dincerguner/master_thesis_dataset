@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.BorlandGenerateClient:46:false |==> true
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.BorlandGenerateClient:58:FORK_MODE |==> null

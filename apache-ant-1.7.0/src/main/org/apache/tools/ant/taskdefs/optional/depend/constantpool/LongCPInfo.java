@@ -28,7 +28,7 @@ public class LongCPInfo extends ConstantCPInfo {
 
     /** Constructor.  */
     public LongCPInfo() {
-        super(CONSTANT_LONG, 2);
+        super(CONSTANT_LONG, 0);
     }
 
     /**

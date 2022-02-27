@@ -26,7 +26,7 @@ import org.apache.tools.ant.types.selectors.SelectorUtils;
  */
 public class Name implements ResourceSelector {
     private String pattern;
-    private boolean cs = true;
+    private boolean cs = false;
 
     /**
      * Set the pattern to compare names against.

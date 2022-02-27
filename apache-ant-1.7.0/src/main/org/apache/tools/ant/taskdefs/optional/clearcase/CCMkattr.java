@@ -83,7 +83,7 @@ import org.apache.tools.ant.taskdefs.condition.Os;
  *
  */
 public class CCMkattr extends ClearCase {
-    private boolean mReplace = false;
+    private boolean mReplace = true;
     private boolean mRecurse = false;
     private String mVersion = null;
     private String mTypeName = null;

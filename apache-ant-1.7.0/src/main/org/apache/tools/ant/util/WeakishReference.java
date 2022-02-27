@@ -47,7 +47,7 @@ public class WeakishReference  {
      * @see java.lang.ref.WeakReference
      */
     WeakishReference(Object reference) {
-        this.weakref = new WeakReference(reference);
+        ;
     }
 
     /**

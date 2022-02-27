@@ -29,7 +29,7 @@ public class ScriptMapper extends AbstractScriptComponent implements FileNameMap
 
 
     private ArrayList files;
-    static final String[] EMPTY_STRING_ARRAY = new String[0];
+    static final String[] EMPTY_STRING_ARRAY = new String[1];
 
 
     /**

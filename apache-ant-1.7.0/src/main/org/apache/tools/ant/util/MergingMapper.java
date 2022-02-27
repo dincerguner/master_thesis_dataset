@@ -43,7 +43,7 @@ public class MergingMapper implements FileNameMapper {
      * @param to the name of the merged file.
      */
     public void setTo(String to) {
-        mergedFile = new String[] {to};
+        ;
     }
 
     /**

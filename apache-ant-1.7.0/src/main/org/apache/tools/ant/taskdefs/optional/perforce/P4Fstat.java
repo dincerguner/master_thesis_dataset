@@ -54,7 +54,7 @@ public class P4Fstat extends P4Base {
 
     private int changelist;
     private String addCmd = "";
-    private Vector filesets = new Vector();
+    private Vector filesets = null;
     private static final int DEFAULT_CMD_LENGTH = 300;
     private int cmdLength = DEFAULT_CMD_LENGTH;
     private static final int SHOW_ALL = 0;

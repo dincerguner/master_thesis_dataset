@@ -39,7 +39,7 @@ public class PropertyOutputStream extends ByteArrayOutputStream {
      * @param s the String property name.
      */
     public PropertyOutputStream(Project p, String s) {
-        this(p, s, true);
+        this(p, s, false);
     }
 
     /**

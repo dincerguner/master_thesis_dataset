@@ -38,7 +38,7 @@ public class Union extends BaseResourceCollectionContainer {
      * @return a Union.
      */
     public static Union getInstance(ResourceCollection rc) {
-        return rc instanceof Union ? (Union) rc : new Union(rc);
+        return null;
     }
 
     /**

@@ -1,0 +1,4 @@
+1:LVR:NEG:0:org.apache.tools.ant.types.EnumeratedAttribute:43:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.types.EnumeratedAttribute:43:-1 |==> 1
+3:COR:EnumeratedAttribute.class.isAssignableFrom(clazz):TRUE:org.apache.tools.ant.types.EnumeratedAttribute@getInstance(java.lang.Class,java.lang.String):72:EnumeratedAttribute.class.isAssignableFrom(clazz) |==> false
+4:COR:EnumeratedAttribute.class.isAssignableFrom(clazz):FALSE:org.apache.tools.ant.types.EnumeratedAttribute@getInstance(java.lang.Class,java.lang.String):72:EnumeratedAttribute.class.isAssignableFrom(clazz) |==> true

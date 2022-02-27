@@ -1,0 +1,132 @@
+1:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jlink.jlink:49:10 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink:49:10 |==> -10
+3:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jlink.jlink:51:10 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink:51:10 |==> -10
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.jlink.jlink:53:false |==> true
+6:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jlink.jlink:57:8192 |==> 0
+7:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink:57:8192 |==> -8192
+8:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jlink.jlink@setOutfile(java.lang.String):65:outfile == null |==> false
+9:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@setOutfile(java.lang.String):66:return; |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@setOutfile(java.lang.String):68:this.outfile = outfile |==> <NO-OP>
+11:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFile(java.lang.String):77:fileToMerge == null |==> false
+12:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFile(java.lang.String):78:return; |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFile(java.lang.String):80:mergefiles.addElement(fileToMerge) |==> <NO-OP>
+14:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFile(java.lang.String):88:fileToAdd == null |==> false
+15:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFile(java.lang.String):89:return; |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFile(java.lang.String):91:addfiles.addElement(fileToAdd) |==> <NO-OP>
+17:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):100:filesToMerge == null |==> false
+18:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):101:return; |==> <NO-OP>
+19:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):103:0 |==> 1
+20:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):103:0 |==> -1
+21:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):103:i < filesToMerge.length |==> i != filesToMerge.length
+22:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):103:i < filesToMerge.length |==> i <= filesToMerge.length
+23:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):103:i < filesToMerge.length |==> false
+24:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addMergeFiles(java.lang.String[]):104:addMergeFile(filesToMerge[i]) |==> <NO-OP>
+25:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):114:filesToAdd == null |==> false
+26:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):115:return; |==> <NO-OP>
+27:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):117:0 |==> 1
+28:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):117:0 |==> -1
+29:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):117:i < filesToAdd.length |==> i != filesToAdd.length
+30:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):117:i < filesToAdd.length |==> i <= filesToAdd.length
+31:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):117:i < filesToAdd.length |==> false
+32:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addAddFiles(java.lang.String[]):118:addAddFile(filesToAdd[i]) |==> <NO-OP>
+33:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@setCompression(boolean):128:this.compression = compress |==> <NO-OP>
+34:EVR:<NEW_CLASS(java.util.zip.ZipOutputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():145:new ZipOutputStream(new FileOutputStream(outfile)) |==> null
+35:COR:compression:TRUE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():147:compression |==> false
+36:COR:compression:FALSE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():147:compression |==> true
+37:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():148:output.setMethod(ZipOutputStream.DEFLATED) |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():149:output.setLevel(Deflater.DEFAULT_COMPRESSION) |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():151:output.setMethod(ZipOutputStream.STORED) |==> <NO-OP>
+40:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():154:mergefiles.elements() |==> null
+41:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():157:(String)merges.nextElement() |==> null
+42:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():158:new File(path) |==> null
+43:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():160:f.getName().endsWith(".jar") || f.getName().endsWith(".zip") |==> f.getName().endsWith(".jar") != f.getName().endsWith(".zip")
+44:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():160:f.getName().endsWith(".jar") || f.getName().endsWith(".zip") |==> f.getName().endsWith(".jar")
+45:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():160:f.getName().endsWith(".jar") || f.getName().endsWith(".zip") |==> f.getName().endsWith(".zip")
+46:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():160:f.getName().endsWith(".jar") || f.getName().endsWith(".zip") |==> true
+47:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():162:mergeZipJarContents(output, f) |==> <NO-OP>
+48:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():166:addAddFile(path) |==> <NO-OP>
+49:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():170:addfiles.elements() |==> null
+50:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():173:(String)adds.nextElement() |==> null
+51:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():174:new File(name) |==> null
+52:COR:f.isDirectory():TRUE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():176:f.isDirectory() |==> false
+53:COR:f.isDirectory():FALSE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():176:f.isDirectory() |==> true
+54:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():178:addDirContents(output, f, f.getName() + '/', compression) |==> <NO-OP>
+55:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():180:addFile(output, f, "", compression) |==> <NO-OP>
+56:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():183:output != null |==> true
+57:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@link():185:output.close() |==> <NO-OP>
+58:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):199:2 |==> 0
+59:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):199:2 |==> -2
+60:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):199:args.length < 2 |==> args.length != 2
+61:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):199:args.length < 2 |==> args.length <= 2
+62:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):199:args.length < 2 |==> false
+63:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):200:System.out.println("usage: jlink output input1 ... inputN") |==> <NO-OP>
+64:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):201:1 |==> 0
+65:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):201:1 |==> -1
+66:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):201:System.exit(1) |==> <NO-OP>
+67:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.jlink.jlink)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):203:new jlink() |==> null
+68:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):205:0 |==> 1
+69:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):205:0 |==> -1
+70:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):205:linker.setOutfile(args[0]) |==> <NO-OP>
+71:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):208:1 |==> 0
+72:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):208:1 |==> -1
+73:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):208:i < args.length |==> i != args.length
+74:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):208:i < args.length |==> i <= args.length
+75:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):208:i < args.length |==> false
+76:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):209:linker.addMergeFile(args[i]) |==> <NO-OP>
+77:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):212:linker.link() |==> <NO-OP>
+78:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@main(java.lang.String[]):214:System.err.print(ex.getMessage()) |==> <NO-OP>
+79:COR:f.exists():TRUE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):225:f.exists() |==> false
+80:COR:f.exists():FALSE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):225:f.exists() |==> true
+81:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):226:return; |==> <NO-OP>
+82:EVR:<NEW_CLASS(java.util.zip.ZipFile)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):228:new ZipFile(f) |==> null
+83:EVR:<METHOD_INVOCATION(java.util.Enumeration<capture#113 of ? extends java.util.zip.ZipEntry>)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):229:zipf.entries() |==> null
+84:EVR:<TYPE_CAST(java.util.zip.ZipEntry)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):232:(ZipEntry)entries.nextElement() |==> null
+85:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):236:inputEntry.getName() |==> null
+86:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):237:inputEntryName.indexOf("META-INF") |==> 0
+87:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):239:0 |==> 1
+88:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):239:0 |==> -1
+89:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):239:index < 0 |==> index != 0
+90:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):239:index < 0 |==> index <= 0
+91:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):239:index < 0 |==> false
+92:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):242:output.putNextEntry(processEntry(zipf, inputEntry)) |==> <NO-OP>
+93:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):250:ex.getMessage() |==> null
+94:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):252:0 |==> 1
+95:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):252:0 |==> -1
+96:ROR:>=(int,int):==(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):252:mess.indexOf("duplicate") >= 0 |==> mess.indexOf("duplicate") == 0
+97:ROR:>=(int,int):>(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):252:mess.indexOf("duplicate") >= 0 |==> mess.indexOf("duplicate") > 0
+98:ROR:>=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):252:mess.indexOf("duplicate") >= 0 |==> true
+99:STD:<CONT>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):254:continue; |==> <NO-OP>
+100:EVR:<METHOD_INVOCATION(java.io.InputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):262:zipf.getInputStream(inputEntry) |==> null
+101:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):263:buffer.length |==> 0
+102:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):264:-1 |==> 0
+103:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):264:-1 |==> 1
+104:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):266:0 |==> 1
+105:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):266:0 |==> -1
+106:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):266:0 |==> 1
+107:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):266:0 |==> -1
+108:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):266:(count = in.read(buffer, 0, len)) > 0 |==> (count = in.read(buffer, 0, len)) != 0
+109:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):266:(count = in.read(buffer, 0, len)) > 0 |==> (count = in.read(buffer, 0, len)) >= 0
+110:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):266:(count = in.read(buffer, 0, len)) > 0 |==> false
+111:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):267:0 |==> 1
+112:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):267:0 |==> -1
+113:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):267:output.write(buffer, 0, count) |==> <NO-OP>
+114:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):269:in.close() |==> <NO-OP>
+115:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):270:output.closeEntry() |==> <NO-OP>
+116:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@mergeZipJarContents(java.util.zip.ZipOutputStream,java.io.File):273:zipf.close() |==> <NO-OP>
+117:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):282:dir.list() |==> null
+118:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):284:0 |==> 1
+119:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):284:0 |==> -1
+120:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):284:i < contents.length |==> i != contents.length
+121:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):284:i < contents.length |==> i <= contents.length
+122:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):284:i < contents.length |==> false
+123:EVR:<ARRAY_ACCESS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):285:contents[i] |==> null
+124:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):286:new File(dir, name) |==> null
+125:COR:file.isDirectory():TRUE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):288:file.isDirectory() |==> false
+126:COR:file.isDirectory():FALSE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):288:file.isDirectory() |==> true
+127:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):289:addDirContents(output, file, prefix + name + '/', compress) |==> <NO-OP>
+128:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@addDirContents(java.util.zip.ZipOutputStream,java.io.File,java.lang.String,boolean):291:addFile(output, file, prefix, compress) |==> <NO-OP>
+129:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@getEntryName(java.io.File,java.lang.String):303:file.getName() |==> null
+130:COR:name.endsWith(".class"):TRUE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@getEntryName(java.io.File,java.lang.String):305:name.endsWith(".class") |==> false
+131:COR:name.endsWith(".class"):FALSE:org.apache.tools.ant.taskdefs.optional.jlink.jlink@getEntryName(java.io.File,java.lang.String):305:name.endsWith(".class") |==> true
+132:EVR:<NEW_CLASS(java.io.FileInputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jlink.jlink@getEntryName(java.io.File,java.lang.String):309:new FileInputStream(file) |==> null

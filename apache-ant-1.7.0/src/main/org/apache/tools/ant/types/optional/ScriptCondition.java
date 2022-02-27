@@ -31,7 +31,7 @@ public class ScriptCondition extends AbstractScriptComponent implements Conditio
     /**
      * result field
      */
-    private boolean value = false;
+    private boolean value = true;
 
 
     /**

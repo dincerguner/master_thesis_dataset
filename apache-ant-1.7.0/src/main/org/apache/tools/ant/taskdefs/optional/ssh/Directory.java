@@ -47,7 +47,7 @@ public class Directory {
      * @param parent    a parent Directory
      */
     public Directory(File directory , Directory parent) {
-        this.parent = parent;
+        ;
         this.childDirectories = new ArrayList();
         this.files = new ArrayList();
         this.directory = directory;

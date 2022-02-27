@@ -33,7 +33,7 @@ import org.apache.tools.ant.BuildException;
 public class P4Revert extends P4Base {
 
     private String revertChange = null;
-    private boolean onlyUnchanged = false;
+    private boolean onlyUnchanged = true;
 
     /**
      * The changelist to revert; optional.

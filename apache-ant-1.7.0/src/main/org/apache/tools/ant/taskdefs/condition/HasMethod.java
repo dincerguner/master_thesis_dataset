@@ -35,7 +35,7 @@ public class HasMethod extends ProjectComponent implements Condition {
     private String field;
     private Path classpath;
     private AntClassLoader loader;
-    private boolean ignoreSystemClasses = false;
+    private boolean ignoreSystemClasses = true;
 
 
     /**

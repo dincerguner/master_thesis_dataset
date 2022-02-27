@@ -32,7 +32,7 @@ import org.apache.tools.ant.types.DataType;
  */
 public class ResourceSelectorContainer extends DataType {
 
-    private Vector v = new Vector();
+    private Vector v = null;
 
     /**
      * Default constructor.

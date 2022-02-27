@@ -75,7 +75,7 @@ public class ApacheCatalogResolver extends CatalogResolver {
         // file in the ant jarfile with some default property
         // settings.  See CatalogManager.java for more details.
         //
-        CatalogManager.getStaticManager().setIgnoreMissingProperties(true);
+        CatalogManager.getStaticManager().setIgnoreMissingProperties(false);
 
         //
         // Make sure CatalogResolver instantiates ApacheCatalog,

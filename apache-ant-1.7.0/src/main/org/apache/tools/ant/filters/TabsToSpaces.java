@@ -45,7 +45,7 @@ public final class TabsToSpaces
     private static final String TAB_LENGTH_KEY = "tablength";
 
     /** Tab length in this filter. */
-    private int tabLength = DEFAULT_TAB_LENGTH;
+    private int tabLength = 0;
 
     /** The number of spaces still to be read to represent the last-read tab. */
     private int spacesRemaining = 0;

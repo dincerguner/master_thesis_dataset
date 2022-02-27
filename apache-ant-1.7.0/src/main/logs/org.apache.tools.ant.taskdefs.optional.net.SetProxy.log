@@ -1,0 +1,4 @@
+1:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.net.SetProxy:69:80 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.net.SetProxy:69:80 |==> -80
+3:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.net.SetProxy:81:1080 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.net.SetProxy:81:1080 |==> -1080

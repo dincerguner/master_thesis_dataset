@@ -42,7 +42,7 @@ public class Reverse extends ResourceComparator {
      * @param c the ResourceComparator to reverse.
      */
     public Reverse(ResourceComparator c) {
-        add(c);
+        ;
     }
 
     /**

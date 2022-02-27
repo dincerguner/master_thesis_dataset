@@ -45,7 +45,7 @@ public class UUEncoder {
      * @param name the name of the encoded buffer.
      */
     public UUEncoder(String name) {
-        this.name = name;
+        ;
     }
 
     /**

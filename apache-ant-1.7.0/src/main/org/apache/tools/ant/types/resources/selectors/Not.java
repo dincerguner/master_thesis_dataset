@@ -38,7 +38,7 @@ public class Not implements ResourceSelector {
      * @param s the ResourceSelector to negate.
      */
     public Not(ResourceSelector s) {
-        add(s);
+        ;
     }
 
     /**

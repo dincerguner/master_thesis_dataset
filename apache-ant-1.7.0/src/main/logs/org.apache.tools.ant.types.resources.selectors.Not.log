@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.selectors.Not@<init>(ResourceSelector):41:add(s) |==> <NO-OP>
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.selectors.Not@add(ResourceSelector):50:sel != null |==> true

@@ -30,7 +30,7 @@ import java.util.ConcurrentModificationException;
  * @since Ant 1.7
  */
 /*package-private*/ class FailFast implements Iterator {
-    private static final WeakHashMap MAP = new WeakHashMap();
+    private static final WeakHashMap MAP = null;
 
     /**
      * Invalidate any in-use Iterators from the specified Object.

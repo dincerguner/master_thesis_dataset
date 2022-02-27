@@ -30,7 +30,7 @@ import org.apache.tools.ant.ProjectComponent;
 public class LineTokenizer extends ProjectComponent
     implements Tokenizer {
     private String  lineEnd = "";
-    private int     pushed = -2;
+    private int     pushed = 0;
     private boolean includeDelims = false;
 
     /**

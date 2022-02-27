@@ -82,7 +82,7 @@ public abstract class MSVSS extends Task implements MSVSSConstants {
     /**  History style */
     private String style = null;
     /**  Quiet defaults to false */
-    private boolean quiet = false;
+    private boolean quiet = true;
     /**  Recursive defaults to false */
     private boolean recursive = false;
     /**  Writable defaults to false */

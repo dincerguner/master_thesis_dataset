@@ -1,0 +1,142 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@<init>(java.lang.String):48:this.name = name |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):61:this.out = out |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):62:encodeBegin() |==> <NO-OP>
+4:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):63:100 |==> 0
+5:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):63:100 |==> -100
+6:AOR:*(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):63:MAX_CHARS_PER_LINE * 100 |==> MAX_CHARS_PER_LINE % 100
+7:AOR:*(int,int):+(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):63:MAX_CHARS_PER_LINE * 100 |==> MAX_CHARS_PER_LINE + 100
+8:AOR:*(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):63:MAX_CHARS_PER_LINE * 100 |==> MAX_CHARS_PER_LINE - 100
+9:AOR:*(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):63:MAX_CHARS_PER_LINE * 100 |==> MAX_CHARS_PER_LINE / 100
+10:LVR:0:POS:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):65:0 |==> 1
+11:LVR:0:NEG:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):65:0 |==> -1
+12:LVR:NEG:0:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):65:-1 |==> 0
+13:LVR:NEG:POS:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):65:-1 |==> 1
+14:ROR:!=(int,int):<(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):65:(count = is.read(buffer, 0, buffer.length)) != -1 |==> (count = is.read(buffer, 0, buffer.length)) < -1
+15:ROR:!=(int,int):>(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):65:(count = is.read(buffer, 0, buffer.length)) != -1 |==> (count = is.read(buffer, 0, buffer.length)) > -1
+16:LVR:0:POS:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):66:0 |==> 1
+17:LVR:0:NEG:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):66:0 |==> -1
+18:LVR:0:POS:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):67:0 |==> 1
+19:LVR:0:NEG:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):67:0 |==> -1
+20:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):67:count > 0 |==> count != 0
+21:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):67:count > 0 |==> count >= 0
+22:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):67:count > 0 |==> false
+23:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):68:count > MAX_CHARS_PER_LINE |==> count != MAX_CHARS_PER_LINE
+24:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):68:count > MAX_CHARS_PER_LINE |==> count >= MAX_CHARS_PER_LINE
+25:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):68:count > MAX_CHARS_PER_LINE |==> false
+26:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):71:encodeLine(buffer, pos, num, out) |==> <NO-OP>
+27:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):72:pos += num |==> <NO-OP>
+28:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):73:count -= num |==> <NO-OP>
+29:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):76:out.flush() |==> <NO-OP>
+30:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encode(java.io.InputStream,java.io.OutputStream):77:encodeEnd() |==> <NO-OP>
+31:EVR:<NEW_CLASS(java.io.PrintStream)>:<DEFAULT>:org.apache.tools.ant.util.UUEncoder@encodeString(java.lang.String):84:new PrintStream(out) |==> null
+32:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeString(java.lang.String):85:writer.print(n) |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeString(java.lang.String):86:writer.flush() |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeBegin():90:encodeString("begin " + DEFAULT_MODE + " " + name + "\n") |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeEnd():94:encodeString(" \nend\n") |==> <NO-OP>
+36:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:63 |==> 0
+37:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:63 |==> -63
+38:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:length & 63 |==> length ^ 63
+39:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:length & 63 |==> length | 63
+40:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:(length & 63) + ' ' |==> (length & 63) % ' '
+41:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:(length & 63) + ' ' |==> (length & 63) * ' '
+42:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:(length & 63) + ' ' |==> (length & 63) - ' '
+43:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:(length & 63) + ' ' |==> (length & 63) / ' '
+44:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):111:out.write((byte)((length & 63) + ' ')) |==> <NO-OP>
+45:LVR:0:POS:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):116:0 |==> 1
+46:LVR:0:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):116:0 |==> -1
+47:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):116:i < length |==> i != length
+48:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):116:i < length |==> i <= length
+49:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):116:i < length |==> false
+50:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):118:1 |==> 0
+51:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):118:1 |==> -1
+52:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):119:1 |==> 0
+53:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):119:1 |==> -1
+54:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):121:offset + i++ |==> offset % i++
+55:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):121:offset + i++ |==> offset * i++
+56:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):121:offset + i++ |==> offset - i++
+57:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):121:offset + i++ |==> offset / i++
+58:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):122:i < length |==> i != length
+59:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):122:i < length |==> i <= length
+60:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):122:i < length |==> false
+61:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):123:offset + i++ |==> offset % i++
+62:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):123:offset + i++ |==> offset * i++
+63:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):123:offset + i++ |==> offset - i++
+64:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):123:offset + i++ |==> offset / i++
+65:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):123:b = data[offset + i++] |==> <NO-OP>
+66:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):124:i < length |==> i != length
+67:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):124:i < length |==> i <= length
+68:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):124:i < length |==> false
+69:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):125:offset + i++ |==> offset % i++
+70:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):125:offset + i++ |==> offset * i++
+71:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):125:offset + i++ |==> offset - i++
+72:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):125:offset + i++ |==> offset / i++
+73:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):125:c = data[offset + i++] |==> <NO-OP>
+74:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:2 |==> 0
+75:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:2 |==> -2
+76:SOR:>>>(int,int):<<(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:a >>> 2 |==> a << 2
+77:SOR:>>>(int,int):>>(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:a >>> 2 |==> a >> 2
+78:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:63 |==> 0
+79:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:63 |==> -63
+80:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:(a >>> 2) & 63 |==> (a >>> 2) ^ 63
+81:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:(a >>> 2) & 63 |==> (a >>> 2) | 63
+82:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:((a >>> 2) & 63) + ' ' |==> ((a >>> 2) & 63) % ' '
+83:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:((a >>> 2) & 63) + ' ' |==> ((a >>> 2) & 63) * ' '
+84:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:((a >>> 2) & 63) + ' ' |==> ((a >>> 2) & 63) - ' '
+85:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):129:((a >>> 2) & 63) + ' ' |==> ((a >>> 2) & 63) / ' '
+86:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:4 |==> 0
+87:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:4 |==> -4
+88:SOR:<<(int,int):>>(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:a << 4 |==> a >> 4
+89:SOR:<<(int,int):>>>(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:a << 4 |==> a >>> 4
+90:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:48 |==> 0
+91:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:48 |==> -48
+92:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(a << 4) & 48 |==> (a << 4) ^ 48
+93:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(a << 4) & 48 |==> (a << 4) | 48
+94:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:4 |==> 0
+95:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:4 |==> -4
+96:SOR:>>>(int,int):<<(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:b >>> 4 |==> b << 4
+97:SOR:>>>(int,int):>>(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:b >>> 4 |==> b >> 4
+98:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:15 |==> 0
+99:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:15 |==> -15
+100:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(b >>> 4) & 15 |==> (b >>> 4) ^ 15
+101:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(b >>> 4) & 15 |==> (b >>> 4) | 15
+102:LOR:|(int,int):&(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:((a << 4) & 48) | ((b >>> 4) & 15) |==> ((a << 4) & 48) & ((b >>> 4) & 15)
+103:LOR:|(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:((a << 4) & 48) | ((b >>> 4) & 15) |==> ((a << 4) & 48) ^ ((b >>> 4) & 15)
+104:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(((a << 4) & 48) | ((b >>> 4) & 15)) + ' ' |==> (((a << 4) & 48) | ((b >>> 4) & 15)) % ' '
+105:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(((a << 4) & 48) | ((b >>> 4) & 15)) + ' ' |==> (((a << 4) & 48) | ((b >>> 4) & 15)) * ' '
+106:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(((a << 4) & 48) | ((b >>> 4) & 15)) + ' ' |==> (((a << 4) & 48) | ((b >>> 4) & 15)) - ' '
+107:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):130:(((a << 4) & 48) | ((b >>> 4) & 15)) + ' ' |==> (((a << 4) & 48) | ((b >>> 4) & 15)) / ' '
+108:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:2 |==> 0
+109:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:2 |==> -2
+110:SOR:<<(int,int):>>(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:b << 2 |==> b >> 2
+111:SOR:<<(int,int):>>>(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:b << 2 |==> b >>> 2
+112:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:60 |==> 0
+113:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:60 |==> -60
+114:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(b << 2) & 60 |==> (b << 2) ^ 60
+115:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(b << 2) & 60 |==> (b << 2) | 60
+116:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:6 |==> 0
+117:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:6 |==> -6
+118:SOR:>>>(int,int):<<(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:c >>> 6 |==> c << 6
+119:SOR:>>>(int,int):>>(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:c >>> 6 |==> c >> 6
+120:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:3 |==> 0
+121:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:3 |==> -3
+122:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(c >>> 6) & 3 |==> (c >>> 6) ^ 3
+123:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(c >>> 6) & 3 |==> (c >>> 6) | 3
+124:LOR:|(int,int):&(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:((b << 2) & 60) | ((c >>> 6) & 3) |==> ((b << 2) & 60) & ((c >>> 6) & 3)
+125:LOR:|(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:((b << 2) & 60) | ((c >>> 6) & 3) |==> ((b << 2) & 60) ^ ((c >>> 6) & 3)
+126:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(((b << 2) & 60) | ((c >>> 6) & 3)) + ' ' |==> (((b << 2) & 60) | ((c >>> 6) & 3)) % ' '
+127:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(((b << 2) & 60) | ((c >>> 6) & 3)) + ' ' |==> (((b << 2) & 60) | ((c >>> 6) & 3)) * ' '
+128:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(((b << 2) & 60) | ((c >>> 6) & 3)) + ' ' |==> (((b << 2) & 60) | ((c >>> 6) & 3)) - ' '
+129:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):131:(((b << 2) & 60) | ((c >>> 6) & 3)) + ' ' |==> (((b << 2) & 60) | ((c >>> 6) & 3)) / ' '
+130:LVR:POS:0:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:63 |==> 0
+131:LVR:POS:NEG:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:63 |==> -63
+132:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:c & 63 |==> c ^ 63
+133:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:c & 63 |==> c | 63
+134:AOR:+(int,int):%(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:(c & 63) + ' ' |==> (c & 63) % ' '
+135:AOR:+(int,int):*(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:(c & 63) + ' ' |==> (c & 63) * ' '
+136:AOR:+(int,int):-(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:(c & 63) + ' ' |==> (c & 63) - ' '
+137:AOR:+(int,int):/(int,int):org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):132:(c & 63) + ' ' |==> (c & 63) / ' '
+138:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):134:out.write(d1) |==> <NO-OP>
+139:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):135:out.write(d2) |==> <NO-OP>
+140:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):136:out.write(d3) |==> <NO-OP>
+141:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):137:out.write(d4) |==> <NO-OP>
+142:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.UUEncoder@encodeLine(byte[],int,int,java.io.OutputStream):141:out.write('\n') |==> <NO-OP>

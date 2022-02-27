@@ -31,7 +31,7 @@ public class Type implements ResourceSelector {
     private static final String DIR_ATTR = "dir";
 
     /** Static file type selector. */
-    public static final Type FILE = new Type(new FileDir(FILE_ATTR));
+    public static final Type FILE = null;
 
     /** Static dir type selector. */
     public static final Type DIR = new Type(new FileDir(DIR_ATTR));

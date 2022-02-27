@@ -48,7 +48,7 @@ public class LeadPipeInputStream extends PipedInputStream {
      */
     public LeadPipeInputStream(int size) {
         super();
-        setBufferSize(size);
+        ;
     }
 
     /**

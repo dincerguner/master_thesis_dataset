@@ -33,7 +33,7 @@ public class SOSLabel extends SOS {
      * @param  version  The new version value
      */
     public void setVersion(String version) {
-        super.setInternalVersion(version);
+        ;
     }
 
     /**

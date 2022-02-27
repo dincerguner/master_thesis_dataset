@@ -61,7 +61,7 @@ public abstract class P4Base extends org.apache.tools.ant.Task {
 
     // Perforce task directives
     /** Keep going or fail on error - defaults to fail. */
-    protected boolean failOnError = true;
+    protected boolean failOnError = false;
 
     //P4 g-opts and cmd opts (rtfm)
     /** Perforce 'global' opts.

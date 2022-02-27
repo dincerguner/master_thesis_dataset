@@ -36,7 +36,7 @@ public class ReflectWrapper {
     public ReflectWrapper(ClassLoader loader, String name) {
         try {
             Class clazz;
-            clazz = Class.forName(name, true, loader);
+            clazz = Class.forName(name, false, loader);
             Constructor constructor;
             constructor = clazz.getConstructor((Class[]) null);
             obj = constructor.newInstance((Object[]) null);

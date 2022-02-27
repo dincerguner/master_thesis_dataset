@@ -47,7 +47,7 @@ public class DOMElementWriter {
     private static final String NS = "ns";
 
     /** xml declaration is on by default */
-    private boolean xmlDeclaration = true;
+    private boolean xmlDeclaration = false;
 
     /**
      * XML Namespaces are ignored by default.

@@ -62,7 +62,7 @@ public class JDependTask extends Task {
     private File outputFile;
     private File dir;
     private Path compileClasspath;
-    private boolean haltonerror = false;
+    private boolean haltonerror = true;
     private boolean fork = false;
     private Long timeout = null;
 

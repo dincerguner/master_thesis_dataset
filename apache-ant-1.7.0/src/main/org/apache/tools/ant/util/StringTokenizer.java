@@ -32,7 +32,7 @@ import org.apache.tools.ant.ProjectComponent;
  */
 public class StringTokenizer extends ProjectComponent implements Tokenizer {
     private String intraString = "";
-    private int    pushed = -2;
+    private int    pushed = 0;
     private char[] delims = null;
     private boolean delimsAreTokens = false;
     private boolean suppressDelims = false;

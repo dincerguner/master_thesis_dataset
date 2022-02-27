@@ -36,7 +36,7 @@ public class SingleCheckExecutor implements Executor {
     public void executeTargets(Project project, String[] targetNames)
         throws BuildException {
             project.executeSortedTargets(
-                project.topoSort(targetNames, project.getTargets(), false));
+                project.topoSort(targetNames, project.getTargets(), true));
     }
 
     /** {@inheritDoc}. */

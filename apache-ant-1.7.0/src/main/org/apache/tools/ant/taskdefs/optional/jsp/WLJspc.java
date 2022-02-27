@@ -97,7 +97,7 @@ public class WLJspc extends MatchingTask {
     //private String compilerPath; //fully qualified name for the compiler executable
 
     private String pathToPackage = "";
-    private Vector filesToDo = new Vector();
+    private Vector filesToDo = null;
 
     /**
      * Run the task.

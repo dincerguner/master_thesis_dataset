@@ -1,0 +1,4 @@
+1:EVR:<CONDITIONAL_EXPRESSION(org.apache.tools.ant.types.resources.Union)>:<DEFAULT>:org.apache.tools.ant.types.resources.Union@getInstance(ResourceCollection):41:rc instanceof Union ? (Union)rc : new Union(rc) |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.Union@<init>(ResourceCollection):55:add(rc) |==> <NO-OP>
+3:COR:isReference():TRUE:org.apache.tools.ant.types.resources.Union@list():64:isReference() |==> false
+4:COR:isReference():FALSE:org.apache.tools.ant.types.resources.Union@list():64:isReference() |==> true

@@ -30,8 +30,7 @@ import org.apache.tools.ant.BuildException;
  */
 public class Comparison extends EnumeratedAttribute {
     private static final String[] VALUES
-        = new String[] {"equal", "greater", "less",
-                        "ne", "ge", "le", "eq", "gt", "lt", "more"};
+        = null;
 
     /** Equal Comparison. */
     public static final Comparison EQUAL = new Comparison("equal");

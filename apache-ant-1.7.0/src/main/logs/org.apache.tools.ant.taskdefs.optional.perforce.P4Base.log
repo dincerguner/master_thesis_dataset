@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.perforce.P4Base:64:true |==> false
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4Base:76:false |==> true

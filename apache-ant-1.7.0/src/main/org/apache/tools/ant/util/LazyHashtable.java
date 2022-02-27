@@ -30,7 +30,7 @@ import java.util.Enumeration;
  */
 public class LazyHashtable extends Hashtable {
     // CheckStyle:VisibilityModifier OFF - bc
-    protected boolean initAllDone = false;
+    protected boolean initAllDone = true;
     // CheckStyle:VisibilityModifier OFF - bc
 
     /** No arg constructor. */

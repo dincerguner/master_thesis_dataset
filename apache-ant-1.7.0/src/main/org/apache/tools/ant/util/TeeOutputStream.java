@@ -35,7 +35,7 @@ public class TeeOutputStream extends OutputStream {
      * @param right the other output stream.
      */
     public TeeOutputStream(OutputStream left, OutputStream right) {
-        this.left = left;
+        ;
         this.right = right;
     }
 

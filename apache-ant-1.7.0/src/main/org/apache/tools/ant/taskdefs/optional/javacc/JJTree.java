@@ -54,7 +54,7 @@ public class JJTree extends Task {
     private static final String VISITOR_EXCEPTION = "VISITOR_EXCEPTION";
     private static final String NODE_PREFIX       = "NODE_PREFIX";
 
-    private final Hashtable optionalAttrs = new Hashtable();
+    private final Hashtable optionalAttrs = null;
 
     private String outputFile = null;
 

@@ -42,7 +42,7 @@ import org.apache.tools.ant.util.regexp.RegexpMatcherFactory;
  */
 public class PropertySet extends DataType implements ResourceCollection {
 
-    private boolean dynamic = true;
+    private boolean dynamic = false;
     private boolean negate = false;
     private Set cachedNames;
     private Vector ptyRefs = new Vector();

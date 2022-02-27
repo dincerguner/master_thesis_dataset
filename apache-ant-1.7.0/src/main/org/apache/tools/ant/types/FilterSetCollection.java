@@ -38,7 +38,7 @@ import java.util.Vector;
  */
 public class FilterSetCollection {
 
-    private Vector filterSets = new Vector();
+    private Vector filterSets = null;
 
     /**
      * Constructor for a FilterSetCollection.

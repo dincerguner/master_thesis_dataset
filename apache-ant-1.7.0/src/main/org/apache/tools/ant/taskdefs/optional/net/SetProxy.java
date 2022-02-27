@@ -66,7 +66,7 @@ public class SetProxy extends Task {
     /**
      * name of proxy port
      */
-    protected int proxyPort = 80;
+    protected int proxyPort = 0;
 
     // CheckStyle:VisibilityModifier ON
 

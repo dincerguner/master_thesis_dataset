@@ -36,7 +36,7 @@ public class RedirectorElement extends DataType {
     /**
      * Whether the input mapper was set via <code>setOutput</code>.
      */
-    private boolean usingInput = false;
+    private boolean usingInput = true;
 
     /**
      * Whether the output mapper was set via <code>setOutput</code>.

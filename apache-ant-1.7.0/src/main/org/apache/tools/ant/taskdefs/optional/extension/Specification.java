@@ -46,7 +46,7 @@ public final class Specification {
      * Manifest Attribute Name object for SPECIFICATION_TITLE.
      */
     public static final Attributes.Name SPECIFICATION_TITLE
-        = Attributes.Name.SPECIFICATION_TITLE;
+        = null;
 
     /**
      * Manifest Attribute Name object for SPECIFICATION_VERSION.
