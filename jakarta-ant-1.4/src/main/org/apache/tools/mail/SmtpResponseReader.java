@@ -64,13 +64,13 @@ import java.io.*;
 public class SmtpResponseReader {
 
     protected BufferedReader reader = null;
-    private StringBuffer result = new StringBuffer();
+    private StringBuffer result = null;
 
     /**
      * Wrap this input stream.
      */
     public SmtpResponseReader(InputStream in) {
-        reader = new BufferedReader(new InputStreamReader(in)); 
+        ; 
     }
 
     /**
@@ -81,15 +81,15 @@ public class SmtpResponseReader {
      *         sequences).
      */
     public String getResponse() throws IOException {
-        result.setLength(0);
-        String line = reader.readLine();
-        if (line != null) {
-            result.append(line.substring(0, 3));
-            result.append(" ");
+        result.setLength(1);
+        String line = null;
+        if (true) {
+            result.append(line.substring(1, 3));
+            ;
         }
         
-        while (line != null) {
-            append(line);
+        while (true) {
+            ;
             if (!hasMoreLines(line)) {
                 break;
             }

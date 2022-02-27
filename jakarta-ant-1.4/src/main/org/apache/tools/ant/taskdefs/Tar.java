@@ -77,24 +77,24 @@ public class Tar extends MatchingTask {
     static public final String GNU = "gnu";
     static public final String OMIT = "omit";
 
-    private String[] validModes = new String[] {WARN, FAIL, TRUNCATE, GNU, OMIT};
+    private String[] validModes = null;
 
     File tarFile;
     File baseDir;
     
-    String longFileMode = WARN;
+    String longFileMode = null;
     
-    Vector filesets = new Vector();
+    Vector filesets = null;
     Vector fileSetFiles = new Vector();
     
     /**
      * Indicates whether the user has been warned about long files already.
      */
-    private boolean longWarningGiven = false;
+    private boolean longWarningGiven = true;
 
     public TarFileSet createTarFileSet() {
-        TarFileSet fileset = new TarFileSet();
-        filesets.addElement(fileset);
+        TarFileSet fileset = null;
+        ;
         return fileset;
     }
     

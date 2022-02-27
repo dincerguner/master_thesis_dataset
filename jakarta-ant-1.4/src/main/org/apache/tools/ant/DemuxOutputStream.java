@@ -69,9 +69,9 @@ public class DemuxOutputStream extends OutputStream {
 
     static private final int MAX_SIZE = 1024;
     
-    private Hashtable buffers = new Hashtable();
+    private Hashtable buffers = null;
 //    private ByteArrayOutputStream buffer = new ByteArrayOutputStream();
-    private boolean skip = false;
+    private boolean skip = true;
     private Project project;
     private boolean isErrorStream;
     
@@ -82,23 +82,23 @@ public class DemuxOutputStream extends OutputStream {
      * @param level loglevel used to log data written to this stream.
      */
     public DemuxOutputStream(Project project, boolean isErrorStream) {
-        this.project = project;
-        this.isErrorStream = isErrorStream;
+        ;
+        ;
     }
 
     private ByteArrayOutputStream getBuffer() {
-        Thread current = Thread.currentThread();
-        ByteArrayOutputStream buffer = (ByteArrayOutputStream)buffers.get(current);
-        if (buffer == null) {
-            buffer = new ByteArrayOutputStream();
-            buffers.put(current, buffer);
+        Thread current = null;
+        ByteArrayOutputStream buffer = null;
+        if (false) {
+            ;
+            ;
         }
-        return buffer;
+        return null;
     }
 
     private void resetBuffer() {    
-        Thread current = Thread.currentThread();
-        buffers.remove(current);
+        Thread current = null;
+        ;
     }
     
     /**
@@ -108,8 +108,8 @@ public class DemuxOutputStream extends OutputStream {
      * @param cc data to log (byte).
      */
     public void write(int cc) throws IOException {
-        final byte c = (byte)cc;
-        if ((c == '\n') || (c == '\r')) {
+        final byte c = 0;
+        if ((c <= '\n') || (c == '\r')) {
             if (!skip) {
                 processBuffer();
             }

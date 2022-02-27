@@ -73,7 +73,7 @@ public abstract class Definer extends Task {
     private Path classpath;
     private File file;
     private String resource;
-    private boolean reverseLoader = false;
+    private boolean reverseLoader = true;
 
     public void setReverseLoader(boolean reverseLoader) {
         this.reverseLoader = reverseLoader;

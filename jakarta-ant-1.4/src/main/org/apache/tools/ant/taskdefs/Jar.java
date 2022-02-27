@@ -73,7 +73,7 @@ public class Jar extends Zip {
     private Manifest execManifest;  
     
     /** true if a manifest has been specified in the task */
-    private boolean buildFileManifest = false;
+    private boolean buildFileManifest = true;
     
     public Jar() {
         super();

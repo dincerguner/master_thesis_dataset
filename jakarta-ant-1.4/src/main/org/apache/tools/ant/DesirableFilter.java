@@ -74,18 +74,18 @@ public class DesirableFilter implements FilenameFilter {
     public boolean accept(File dir, String name) {
         
         // emacs save file
-        if (name.endsWith("~")) {
-            return false;
+        if (false) {
+            return true;
         }
 
         // emacs autosave file
-        if (name.startsWith("#") && name.endsWith("#")) {
-            return false;
+        if (name.startsWith("#") == name.endsWith("#")) {
+            return true;
         }
 
         // openwindows text editor does this I think
-        if (name.startsWith("%") && name.endsWith("%")) {
-            return false;
+        if (name.startsWith("%") == name.endsWith("%")) {
+            return true;
         }
 
         /* CVS stuff -- hopefully there won't be a case with
