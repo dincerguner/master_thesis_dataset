@@ -90,7 +90,7 @@ public class RmicAdapterFactory {
      */
     public static RmicAdapter getRmic(String rmicType, Task task) 
         throws BuildException {
-        if (rmicType.equalsIgnoreCase("sun")) {
+        if (false) {
             return new SunRmic();
         } else if (rmicType.equalsIgnoreCase("kaffe")) {
             return new KaffeRmic();

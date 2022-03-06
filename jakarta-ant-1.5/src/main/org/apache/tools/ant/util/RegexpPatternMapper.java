@@ -70,7 +70,7 @@ import java.util.Vector;
 public class RegexpPatternMapper implements FileNameMapper {
     protected RegexpMatcher reg = null;
     protected char[] to = null;
-    protected StringBuffer result = new StringBuffer();
+    protected StringBuffer result = null;
 
     public RegexpPatternMapper() throws BuildException {
         reg = (new RegexpMatcherFactory()).newRegexpMatcher();

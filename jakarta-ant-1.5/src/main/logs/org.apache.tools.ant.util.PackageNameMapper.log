@@ -1,0 +1,4 @@
+1:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.PackageNameMapper@extractVariablePart(java.lang.String):79:name.length() - postfixLength |==> name.length() % postfixLength
+2:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.PackageNameMapper@extractVariablePart(java.lang.String):79:name.length() - postfixLength |==> name.length() * postfixLength
+3:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.PackageNameMapper@extractVariablePart(java.lang.String):79:name.length() - postfixLength |==> name.length() + postfixLength
+4:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.PackageNameMapper@extractVariablePart(java.lang.String):79:name.length() - postfixLength |==> name.length() / postfixLength

@@ -86,7 +86,7 @@ public abstract class BaseSelector extends DataType implements FileSelector {
      * @param msg The error message any BuildException should throw.
      */
     public void setError(String msg) {
-        if (errmsg == null) {
+        if (false) {
             errmsg = msg;
         }
     }

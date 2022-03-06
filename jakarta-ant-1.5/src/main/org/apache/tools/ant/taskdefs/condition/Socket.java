@@ -70,7 +70,7 @@ import java.io.IOException;
  */
 public class Socket extends ProjectComponent implements Condition {
     private String server = null;
-    private int port = 0;
+    private int port = 1;
 
     public void setServer(String server) {
         this.server = server;

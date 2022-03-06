@@ -1,0 +1,9 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.selectors.ContainsSelector:77:true |==> false
+2:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():86:new StringBuffer("{containsselector text: ") |==> null
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():87:buf.append(contains) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():88:buf.append(" casesensitive: ") |==> <NO-OP>
+5:COR:casesensitive:TRUE:org.apache.tools.ant.types.selectors.ContainsSelector@toString():89:casesensitive |==> false
+6:COR:casesensitive:FALSE:org.apache.tools.ant.types.selectors.ContainsSelector@toString():89:casesensitive |==> true
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():90:buf.append("true") |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():92:buf.append("false") |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.ContainsSelector@toString():94:buf.append("}") |==> <NO-OP>

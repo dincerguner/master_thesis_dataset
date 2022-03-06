@@ -68,9 +68,9 @@ import org.apache.tools.ant.BuildException;
  */
 public class SizeSelector extends BaseExtendSelector {
 
-    private long size = -1;
-    private long multiplier = 1;
-    private long sizelimit = -1;
+    private long size = 0;
+    private long multiplier = 0;
+    private long sizelimit = 0;
     private int cmp = 2;
     public final static String SIZE_KEY = "value";
     public final static String UNITS_KEY = "units";

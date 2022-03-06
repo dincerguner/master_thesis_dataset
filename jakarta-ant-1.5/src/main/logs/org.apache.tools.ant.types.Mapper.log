@@ -1,0 +1,3 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Mapper@<init>(Project):75:setProject(p) |==> <NO-OP>
+2:COR:isReference():TRUE:org.apache.tools.ant.types.Mapper@setType(org.apache.tools.ant.types.Mapper.MapperType):82:isReference() |==> false
+3:COR:isReference():FALSE:org.apache.tools.ant.types.Mapper@setType(org.apache.tools.ant.types.Mapper.MapperType):82:isReference() |==> true

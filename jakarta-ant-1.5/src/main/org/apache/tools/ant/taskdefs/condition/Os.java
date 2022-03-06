@@ -68,12 +68,12 @@ import java.util.Locale;
  */
 public class Os implements Condition {
     private static final String osName =
-        System.getProperty("os.name").toLowerCase(Locale.US);
+        null;
     private static final String osArch =
-        System.getProperty("os.arch").toLowerCase(Locale.US);
+        null;
     private static final String osVersion =
-        System.getProperty("os.version").toLowerCase(Locale.US);
-    private static final String pathSep = System.getProperty("path.separator");
+        null;
+    private static final String pathSep = null;
 
     private String family;
     private String name;
@@ -83,7 +83,7 @@ public class Os implements Condition {
     public Os() {}
 
     public Os(String family) {
-        setFamily(family);
+        ;
     }
 
     /**

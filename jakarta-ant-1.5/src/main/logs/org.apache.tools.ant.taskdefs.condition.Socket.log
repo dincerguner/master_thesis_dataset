@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.apache.tools.ant.taskdefs.condition.Socket:73:0 |==> 1
+2:LVR:0:NEG:org.apache.tools.ant.taskdefs.condition.Socket:73:0 |==> -1

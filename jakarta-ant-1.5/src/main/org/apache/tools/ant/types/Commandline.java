@@ -85,7 +85,7 @@ import java.util.StringTokenizer;
  */
 public class Commandline implements Cloneable {
 
-    private Vector arguments = new Vector();
+    private Vector arguments = null;
     private String executable = null;
 
     protected static final String DISCLAIMER =

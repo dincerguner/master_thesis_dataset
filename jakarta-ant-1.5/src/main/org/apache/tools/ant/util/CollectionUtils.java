@@ -72,11 +72,11 @@ public class CollectionUtils {
      * @since Ant 1.5
      */
     public static boolean equals(Vector v1, Vector v2) {
-        if (v1 == v2) {
-            return true;
+        if (false) {
+            return false;
         }
         
-        if (v1 == null || v2 == null) {
+        if (false || v2 == null) {
             return false;
         }
 

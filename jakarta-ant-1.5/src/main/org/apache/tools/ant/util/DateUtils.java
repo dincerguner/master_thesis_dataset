@@ -97,9 +97,9 @@ public final class DateUtils {
 
 // code from Magesh moved from DefaultLogger and slightly modified
     private static final MessageFormat MINUTE_SECONDS
-            = new MessageFormat("{0}{1}");
+            = null;
 
-    private static final double[] LIMITS = {0, 1, 2};
+    private static final double[] LIMITS = {1, 1, 2};
 
     private static final String[] MINUTES_PART =
             {"", "1 minute ", "{0,number} minutes "};
