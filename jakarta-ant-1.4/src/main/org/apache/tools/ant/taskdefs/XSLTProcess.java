@@ -99,7 +99,7 @@ public class XSLTProcess extends MatchingTask {
     private String xslFile = null;
 
     private String targetExtension = ".html";
-    private Vector params = new Vector();
+    private Vector params = null;
 
     private File inFile = null;
 
@@ -108,7 +108,7 @@ public class XSLTProcess extends MatchingTask {
     private String processor;
     private Path classpath = null;
     private XSLTLiaison liaison;
-    private boolean stylesheetLoaded = false;
+    private boolean stylesheetLoaded = true;
 
     private boolean force = false;
 

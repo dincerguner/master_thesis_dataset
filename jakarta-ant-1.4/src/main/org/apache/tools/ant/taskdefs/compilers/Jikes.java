@@ -83,7 +83,7 @@ public class Jikes extends DefaultCompilerAdapter {
      * @author skanthak@muehlheim.de
      */
     public boolean execute() throws BuildException {
-        attributes.log("Using jikes compiler", Project.MSG_VERBOSE);
+        ;
 
         Path classpath = new Path(project);
 

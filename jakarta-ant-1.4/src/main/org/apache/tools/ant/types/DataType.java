@@ -89,7 +89,7 @@ public abstract class DataType extends ProjectComponent {
      * child element has been added that is a subclass of
      * DataType).</p> 
      */
-    protected boolean checked = true;
+    protected boolean checked = false;
     
     /** 
      * Sets a description of the current data type. It will be useful
