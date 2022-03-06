@@ -1,0 +1,30 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.mail.SmtpResponseReader:67:new StringBuffer() |==> null
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@<init>(java.io.InputStream):73:reader = new BufferedReader(new InputStreamReader(in)) |==> <NO-OP>
+3:LVR:0:POS:org.apache.tools.mail.SmtpResponseReader@getResponse():84:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.mail.SmtpResponseReader@getResponse():84:0 |==> -1
+5:STD:<CALL>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@getResponse():84:result.setLength(0) |==> <NO-OP>
+6:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.mail.SmtpResponseReader@getResponse():85:reader.readLine() |==> null
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.mail.SmtpResponseReader@getResponse():86:line != null |==> true
+8:LVR:0:POS:org.apache.tools.mail.SmtpResponseReader@getResponse():87:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.mail.SmtpResponseReader@getResponse():87:0 |==> -1
+10:LVR:POS:0:org.apache.tools.mail.SmtpResponseReader@getResponse():87:3 |==> 0
+11:LVR:POS:NEG:org.apache.tools.mail.SmtpResponseReader@getResponse():87:3 |==> -3
+12:STD:<CALL>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@getResponse():87:result.append(line.substring(0, 3)) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@getResponse():88:result.append(" ") |==> <NO-OP>
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.mail.SmtpResponseReader@getResponse():91:line != null |==> true
+15:STD:<CALL>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@getResponse():92:append(line) |==> <NO-OP>
+16:COR:hasMoreLines(line):TRUE:org.apache.tools.mail.SmtpResponseReader@getResponse():93:hasMoreLines(line) |==> false
+17:COR:hasMoreLines(line):FALSE:org.apache.tools.mail.SmtpResponseReader@getResponse():93:hasMoreLines(line) |==> true
+18:STD:<BREAK>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@getResponse():94:break; |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@getResponse():96:line = reader.readLine() |==> <NO-OP>
+20:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.mail.SmtpResponseReader@getResponse():98:result.toString().trim() |==> null
+21:STD:<CALL>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@close():105:reader.close() |==> <NO-OP>
+22:LVR:POS:0:org.apache.tools.mail.SmtpResponseReader@hasMoreLines(java.lang.String):112:3 |==> 0
+23:LVR:POS:NEG:org.apache.tools.mail.SmtpResponseReader@hasMoreLines(java.lang.String):112:3 |==> -3
+24:ROR:==(int,int):<=(int,int):org.apache.tools.mail.SmtpResponseReader@hasMoreLines(java.lang.String):112:line.charAt(3) == '-' |==> line.charAt(3) <= '-'
+25:ROR:==(int,int):>=(int,int):org.apache.tools.mail.SmtpResponseReader@hasMoreLines(java.lang.String):112:line.charAt(3) == '-' |==> line.charAt(3) >= '-'
+26:ROR:==(int,int):FALSE(int,int):org.apache.tools.mail.SmtpResponseReader@hasMoreLines(java.lang.String):112:line.charAt(3) == '-' |==> false
+27:LVR:POS:0:org.apache.tools.mail.SmtpResponseReader@append(java.lang.String):119:4 |==> 0
+28:LVR:POS:NEG:org.apache.tools.mail.SmtpResponseReader@append(java.lang.String):119:4 |==> -4
+29:STD:<CALL>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@append(java.lang.String):119:result.append(line.substring(4)) |==> <NO-OP>
+30:STD:<CALL>:<NO-OP>:org.apache.tools.mail.SmtpResponseReader@append(java.lang.String):120:result.append(" ") |==> <NO-OP>
