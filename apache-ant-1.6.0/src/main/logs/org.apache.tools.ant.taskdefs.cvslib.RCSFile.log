@@ -1,0 +1,8 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.RCSFile@<init>(java.lang.String,java.lang.String,java.lang.String):77:m_name = name |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.RCSFile@<init>(java.lang.String,java.lang.String,java.lang.String):78:m_revision = revision |==> <NO-OP>
+3:COR:revision.equals(previousRevision):TRUE:org.apache.tools.ant.taskdefs.cvslib.RCSFile@<init>(java.lang.String,java.lang.String,java.lang.String):79:revision.equals(previousRevision) |==> false
+4:COR:revision.equals(previousRevision):FALSE:org.apache.tools.ant.taskdefs.cvslib.RCSFile@<init>(java.lang.String,java.lang.String,java.lang.String):79:revision.equals(previousRevision) |==> true
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.RCSFile@<init>(java.lang.String,java.lang.String,java.lang.String):80:m_previousRevision = previousRevision |==> <NO-OP>
+6:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.RCSFile@getName():86:m_name |==> null
+7:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.RCSFile@getRevision():91:m_revision |==> null
+8:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.RCSFile@getPreviousRevision():96:m_previousRevision |==> null

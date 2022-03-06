@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.DefBase@setReverseLoader(boolean):86:this.cpDelegate.setReverseLoader(reverseLoader) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.DefBase@setReverseLoader(boolean):87:log("The reverseloader attribute is DEPRECATED. It will be removed", Project.MSG_WARN) |==> <NO-OP>

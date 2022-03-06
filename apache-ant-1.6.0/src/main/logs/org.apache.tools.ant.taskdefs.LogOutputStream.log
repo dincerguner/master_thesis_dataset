@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.io.ByteArrayOutputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.LogOutputStream:86:new ByteArrayOutputStream(INTIAL_SIZE) |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.LogOutputStream:87:false |==> true

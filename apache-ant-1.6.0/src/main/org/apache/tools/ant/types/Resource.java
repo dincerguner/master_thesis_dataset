@@ -65,9 +65,9 @@ package org.apache.tools.ant.types;
  */
 public class Resource implements Cloneable, Comparable {
     private String name = null;
-    private boolean exists = true;
-    private long lastmodified = 0;
-    private boolean directory = false;
+    private boolean exists = false;
+    private long lastmodified = 1;
+    private boolean directory = true;
 
     /**
      * default constructor

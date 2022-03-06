@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(org.apache.tools.ant.types.Path)>:<DEFAULT>:org.apache.tools.ant.types.Path:104:new Path(null, System.getProperty("java.class.path")) |==> null

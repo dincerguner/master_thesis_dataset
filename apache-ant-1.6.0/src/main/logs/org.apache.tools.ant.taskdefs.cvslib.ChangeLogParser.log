@@ -1,0 +1,9 @@
+1:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser:79:new SimpleDateFormat("yyyy/MM/dd HH:mm:ss") |==> null
+2:EVR:<METHOD_INVOCATION(java.util.TimeZone)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser:82:TimeZone.getTimeZone("UTC") |==> null
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser:83:c_inputDate.setTimeZone(utc) |==> <NO-OP>
+4:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser:94:GET_FILE |==> 0
+5:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser:97:new Hashtable() |==> null
+6:EVR:<NEW_ARRAY(CVSEntry[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser@getEntrySetAsArray():105:new CVSEntry[m_entries.size()] |==> null
+7:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser@getEntrySetAsArray():106:m_entries.elements() |==> null
+8:LVR:0:POS:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser@getEntrySetAsArray():107:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser@getEntrySetAsArray():107:0 |==> -1

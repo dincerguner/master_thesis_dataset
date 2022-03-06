@@ -1,0 +1,16 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.filters.TabsToSpaces:85:DEFAULT_TAB_LENGTH |==> 0
+2:LVR:0:POS:org.apache.tools.ant.filters.TabsToSpaces:88:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.filters.TabsToSpaces:88:0 |==> -1
+4:COR:getInitialized():TRUE:org.apache.tools.ant.filters.TabsToSpaces@read():120:getInitialized() |==> false
+5:COR:getInitialized():FALSE:org.apache.tools.ant.filters.TabsToSpaces@read():120:getInitialized() |==> true
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.TabsToSpaces@read():121:initialize() |==> <NO-OP>
+7:LVR:TRUE:FALSE:org.apache.tools.ant.filters.TabsToSpaces@read():122:true |==> false
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.TabsToSpaces@read():122:setInitialized(true) |==> <NO-OP>
+9:LVR:NEG:0:org.apache.tools.ant.filters.TabsToSpaces@read():125:-1 |==> 0
+10:LVR:NEG:POS:org.apache.tools.ant.filters.TabsToSpaces@read():125:-1 |==> 1
+11:LVR:0:POS:org.apache.tools.ant.filters.TabsToSpaces@read():127:0 |==> 1
+12:LVR:0:NEG:org.apache.tools.ant.filters.TabsToSpaces@read():127:0 |==> -1
+13:ROR:>(int,int):!=(int,int):org.apache.tools.ant.filters.TabsToSpaces@read():127:spacesRemaining > 0 |==> spacesRemaining != 0
+14:ROR:>(int,int):>=(int,int):org.apache.tools.ant.filters.TabsToSpaces@read():127:spacesRemaining > 0 |==> spacesRemaining >= 0
+15:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.filters.TabsToSpaces@read():127:spacesRemaining > 0 |==> false
+16:STD:<DEC>:<NO-OP>:org.apache.tools.ant.filters.TabsToSpaces@read():128:spacesRemaining-- |==> <NO-OP>
