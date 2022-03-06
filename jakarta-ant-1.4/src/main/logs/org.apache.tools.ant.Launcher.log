@@ -1,0 +1,8 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.Launcher@determineAntHome11():71:System.getProperty("java.class.path") |==> null
+2:EVR:<NEW_CLASS(java.util.StringTokenizer)>:<DEFAULT>:org.apache.tools.ant.Launcher@determineAntHome11():72:new StringTokenizer(classpath, System.getProperty("path.separator")) |==> null
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.Launcher@determineAntHome11():74:tokenizer.nextToken() |==> null
+4:COR:path.endsWith("ant.jar"):TRUE:org.apache.tools.ant.Launcher@determineAntHome11():75:path.endsWith("ant.jar") |==> false
+5:COR:path.endsWith("ant.jar"):FALSE:org.apache.tools.ant.Launcher@determineAntHome11():75:path.endsWith("ant.jar") |==> true
+6:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.Launcher@determineAntHome11():76:new File(path) |==> null
+7:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.Launcher@determineAntHome11():77:new File(antJarFile.getParent()) |==> null
+8:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.Launcher@determineAntHome11():78:new File(libDirectory.getParent()) |==> null

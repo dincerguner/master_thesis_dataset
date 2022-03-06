@@ -66,7 +66,7 @@ public class UnknownElement extends Task {
 
     private String elementName;
     private Task realTask;
-    private Vector children = new Vector();
+    private Vector children = null;
     
     public UnknownElement (String elementName) {
         this.elementName = elementName;

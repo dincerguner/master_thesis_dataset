@@ -1,0 +1,46 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream:72:new Hashtable() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.DemuxOutputStream:74:false |==> true
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@<init>(Project,boolean):85:this.project = project |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@<init>(Project,boolean):86:this.isErrorStream = isErrorStream |==> <NO-OP>
+5:EVR:<METHOD_INVOCATION(java.lang.Thread)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream@getBuffer():90:Thread.currentThread() |==> null
+6:EVR:<TYPE_CAST(java.io.ByteArrayOutputStream)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream@getBuffer():91:(ByteArrayOutputStream)buffers.get(current) |==> null
+7:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.DemuxOutputStream@getBuffer():92:buffer == null |==> false
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@getBuffer():93:buffer = new ByteArrayOutputStream() |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@getBuffer():94:buffers.put(current, buffer) |==> <NO-OP>
+10:EVR:<IDENTIFIER(java.io.ByteArrayOutputStream)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream@getBuffer():96:buffer |==> null
+11:EVR:<METHOD_INVOCATION(java.lang.Thread)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream@resetBuffer():100:Thread.currentThread() |==> null
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@resetBuffer():101:buffers.remove(current) |==> <NO-OP>
+13:EVR:<TYPE_CAST(byte)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream@write(int):111:(byte)cc |==> 0
+14:ROR:==(int,int):<=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):112:c == '\n' |==> c <= '\n'
+15:ROR:==(int,int):>=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):112:c == '\n' |==> c >= '\n'
+16:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):112:c == '\n' |==> false
+17:ROR:==(int,int):<=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):112:c == '\r' |==> c <= '\r'
+18:ROR:==(int,int):>=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):112:c == '\r' |==> c >= '\r'
+19:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):112:c == '\r' |==> false
+20:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.DemuxOutputStream@write(int):112:(c == '\n') || (c == '\r') |==> (c == '\n') != (c == '\r')
+21:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.DemuxOutputStream@write(int):112:(c == '\n') || (c == '\r') |==> (c == '\n')
+22:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.DemuxOutputStream@write(int):112:(c == '\n') || (c == '\r') |==> (c == '\r')
+23:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.DemuxOutputStream@write(int):112:(c == '\n') || (c == '\r') |==> true
+24:COR:skip:TRUE:org.apache.tools.ant.DemuxOutputStream@write(int):113:skip |==> false
+25:COR:skip:FALSE:org.apache.tools.ant.DemuxOutputStream@write(int):113:skip |==> true
+26:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@write(int):114:processBuffer() |==> <NO-OP>
+27:EVR:<METHOD_INVOCATION(java.io.ByteArrayOutputStream)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream@write(int):117:getBuffer() |==> null
+28:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@write(int):118:buffer.write(cc) |==> <NO-OP>
+29:ROR:>(int,int):!=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):119:buffer.size() > MAX_SIZE |==> buffer.size() != MAX_SIZE
+30:ROR:>(int,int):>=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):119:buffer.size() > MAX_SIZE |==> buffer.size() >= MAX_SIZE
+31:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):119:buffer.size() > MAX_SIZE |==> false
+32:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@write(int):120:processBuffer() |==> <NO-OP>
+33:ROR:==(int,int):<=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):123:c == '\r' |==> c <= '\r'
+34:ROR:==(int,int):>=(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):123:c == '\r' |==> c >= '\r'
+35:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.DemuxOutputStream@write(int):123:c == '\r' |==> false
+36:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@write(int):123:skip = (c == '\r') |==> <NO-OP>
+37:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.DemuxOutputStream@processBuffer():131:getBuffer().toString() |==> null
+38:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@processBuffer():132:project.demuxOutput(output, isErrorStream) |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@processBuffer():133:resetBuffer() |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@close():140:flush() |==> <NO-OP>
+41:LVR:0:POS:org.apache.tools.ant.DemuxOutputStream@flush():147:0 |==> 1
+42:LVR:0:NEG:org.apache.tools.ant.DemuxOutputStream@flush():147:0 |==> -1
+43:ROR:>(int,int):!=(int,int):org.apache.tools.ant.DemuxOutputStream@flush():147:getBuffer().size() > 0 |==> getBuffer().size() != 0
+44:ROR:>(int,int):>=(int,int):org.apache.tools.ant.DemuxOutputStream@flush():147:getBuffer().size() > 0 |==> getBuffer().size() >= 0
+45:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.DemuxOutputStream@flush():147:getBuffer().size() > 0 |==> false
+46:STD:<CALL>:<NO-OP>:org.apache.tools.ant.DemuxOutputStream@flush():148:processBuffer() |==> <NO-OP>
