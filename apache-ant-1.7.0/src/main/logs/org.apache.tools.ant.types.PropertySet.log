@@ -1,0 +1,5 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.types.PropertySet:45:true |==> false
+2:LVR:FALSE:TRUE:org.apache.tools.ant.types.PropertySet:46:false |==> true
+3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.PropertySet:48:new Vector() |==> null
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.PropertySet:49:new Vector() |==> null
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.PropertySet$PropertyRef@setName(java.lang.String):69:assertValid("name", name) |==> <NO-OP>

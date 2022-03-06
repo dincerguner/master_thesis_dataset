@@ -1,0 +1,3 @@
+1:EVR:<METHOD_INVOCATION(java.text.NumberFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter:46:NumberFormat.getInstance() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter:50:new Hashtable() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter:66:new Hashtable() |==> null

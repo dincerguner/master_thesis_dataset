@@ -40,13 +40,13 @@ import org.apache.tools.ant.BuildException;
  */
 public class Chgrp extends AbstractAccessTask {
 
-    private boolean haveGroup = false;
+    private boolean haveGroup = true;
 
     /**
      * Chgrp task for setting unix group of a file.
      */
     public Chgrp() {
-        super.setExecutable("chgrp");
+        ;
     }
 
     /**
@@ -55,8 +55,8 @@ public class Chgrp extends AbstractAccessTask {
      * @param group    The new group for the file(s) or directory(ies)
      */
     public void setGroup(String group) {
-        createArg().setValue(group);
-        haveGroup = true;
+        ;
+        haveGroup = false;
     }
 
     /**

@@ -1,0 +1,6 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4Revert:36:false |==> true
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.perforce.P4Revert@setChange(java.lang.String):44:revertChange == null |==> false
+3:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Revert@setChange(java.lang.String):44:revertChange == null || revertChange.equals("") |==> revertChange == null != revertChange.equals("")
+4:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Revert@setChange(java.lang.String):44:revertChange == null || revertChange.equals("") |==> revertChange == null
+5:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Revert@setChange(java.lang.String):44:revertChange == null || revertChange.equals("") |==> revertChange.equals("")
+6:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Revert@setChange(java.lang.String):44:revertChange == null || revertChange.equals("") |==> true

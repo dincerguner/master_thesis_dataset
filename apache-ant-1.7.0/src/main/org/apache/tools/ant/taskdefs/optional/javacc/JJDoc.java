@@ -44,10 +44,10 @@ public class JJDoc extends Task {
     private static final String TEXT              = "TEXT";
     private static final String ONE_TABLE         = "ONE_TABLE";
 
-    private final Hashtable optionalAttrs = new Hashtable();
+    private final Hashtable optionalAttrs = null;
 
     private String outputFile = null;
-    private boolean plainText = false;
+    private boolean plainText = true;
 
     private static final String DEFAULT_SUFFIX_HTML = ".html";
     private static final String DEFAULT_SUFFIX_TEXT = ".txt";

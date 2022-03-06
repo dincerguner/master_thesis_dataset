@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase:38:new HashMap() |==> null
+2:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase:41:new HashMap() |==> null
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase@execute():50:getScript().executeScript(attributes, nestedElementMap, this) |==> <NO-OP>

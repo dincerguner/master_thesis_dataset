@@ -1,0 +1,1 @@
+1:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.DefBase@hasCpDelegate():44:cpDelegate != null |==> true

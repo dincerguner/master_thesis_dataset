@@ -1,0 +1,5 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler:77:STATE_LOOKING_EJBJAR |==> 0
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler:104:new Hashtable() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler:106:new Hashtable() |==> null
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler:108:false |==> true
+5:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler:110:new Hashtable() |==> null

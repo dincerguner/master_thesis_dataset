@@ -41,7 +41,7 @@ public class Xalan2Executor extends XalanExecutor {
     private static final String APAC = "org.apache.xalan.";
     private static final String SPAC = "com.sun.org.apache.xalan.";
 
-    private TransformerFactory tfactory = TransformerFactory.newInstance();
+    private TransformerFactory tfactory = null;
 
     /** {@inheritDoc}. */
     protected String getImplementation() throws BuildException {

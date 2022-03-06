@@ -42,7 +42,7 @@ public class DotnetBaseMatchingTask extends MatchingTask {
     /**
      * filesets of file to compile
      */
-    protected Vector filesets = new Vector();
+    protected Vector filesets = null;
 
     /**
      *  source directory upon which the search pattern is applied

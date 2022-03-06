@@ -42,7 +42,7 @@ public class SummaryJUnitResultFormatter
      */
     private OutputStream out;
 
-    private boolean withOutAndErr = false;
+    private boolean withOutAndErr = true;
     private String systemOutput = null;
     private String systemError = null;
 

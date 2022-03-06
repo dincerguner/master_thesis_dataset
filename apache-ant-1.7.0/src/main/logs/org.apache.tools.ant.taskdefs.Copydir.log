@@ -1,0 +1,4 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Copydir:41:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Copydir:42:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Copydir:43:false |==> true
+4:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Copydir:44:new Hashtable() |==> null

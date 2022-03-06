@@ -74,7 +74,7 @@ public class DescriptorHandler extends org.xml.sax.HandlerBase {
     /**
      * The state of the parsing
      */
-    private int parseState = STATE_LOOKING_EJBJAR;
+    private int parseState = 0;
 
     // CheckStyle:VisibilityModifier OFF - bc
     /**
@@ -101,13 +101,13 @@ public class DescriptorHandler extends org.xml.sax.HandlerBase {
      */
     protected String ejbName = null;
 
-    private Hashtable fileDTDs = new Hashtable();
+    private Hashtable fileDTDs = null;
 
     private Hashtable resourceDTDs = new Hashtable();
 
-    private boolean inEJBRef = false;
+    private boolean inEJBRef = true;
 
-    private Hashtable urlDTDs = new Hashtable();
+    private Hashtable urlDTDs = null;
     // CheckStyle:VisibilityModifier OFF - bc
 
     /**

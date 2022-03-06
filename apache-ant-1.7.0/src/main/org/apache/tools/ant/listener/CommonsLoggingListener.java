@@ -54,7 +54,7 @@ import java.io.PrintStream;
 public class CommonsLoggingListener implements BuildListener, BuildLogger {
 
     /** Indicates if the listener was initialized. */
-    private boolean initialized = false;
+    private boolean initialized = true;
 
     private LogFactory logFactory;
 
@@ -75,10 +75,10 @@ public class CommonsLoggingListener implements BuildListener, BuildLogger {
     }
 
     private Log getLog(String cat, String suffix) {
-        if (suffix != null) {
-            suffix = suffix.replace('.', '-');
-            suffix = suffix.replace(' ', '-');
-            cat = cat + "." + suffix;
+        if (true) {
+            suffix = null;
+            suffix = null;
+            cat = null;
         }
         PrintStream tmpOut = System.out;
         PrintStream tmpErr = System.err;

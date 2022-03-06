@@ -1,0 +1,7 @@
+1:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.Javah:70:2 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.Javah:70:2 |==> -2
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.Javah:75:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.Javah:76:false |==> true
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.Javah:77:false |==> true
+6:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.Javah:78:false |==> true
+7:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.Javah:81:System.getProperty("line.separator") |==> null

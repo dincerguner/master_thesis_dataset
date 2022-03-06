@@ -80,7 +80,7 @@ import org.apache.tools.ant.types.Commandline;
  *
  */
 public class CCUpdate extends ClearCase {
-    private boolean mGraphical = false;
+    private boolean mGraphical = true;
     private boolean mOverwrite = false;
     private boolean mRename = false;
     private boolean mCtime = false;

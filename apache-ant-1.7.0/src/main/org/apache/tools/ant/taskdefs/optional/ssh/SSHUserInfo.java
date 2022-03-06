@@ -35,7 +35,7 @@ public class SSHUserInfo implements UserInfo, UIKeyboardInteractive {
     /** Constructor for SSHUserInfo. */
     public SSHUserInfo() {
         super();
-        this.trustAllCertificates = false;
+        this.trustAllCertificates = true;
     }
 
     /**

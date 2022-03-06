@@ -61,7 +61,7 @@ public abstract class P4Base extends org.apache.tools.ant.Task {
 
     // Perforce task directives
     /** Keep going or fail on error - defaults to fail. */
-    protected boolean failOnError = true;
+    protected boolean failOnError = false;
 
     //P4 g-opts and cmd opts (rtfm)
     /** Perforce 'global' opts.
@@ -73,7 +73,7 @@ public abstract class P4Base extends org.apache.tools.ant.Task {
 
     /** Set by the task or a handler to indicate that the task has failed.  BuildExceptions
      * can also be thrown to indicate failure. */
-    private boolean inError = false;
+    private boolean inError = true;
 
     /** If inError is set, then errorMessage needs to contain the reason why. */
     private String errorMessage = "";

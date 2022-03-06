@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(org.apache.tools.ant.types.LogLevel)>:<DEFAULT>:org.apache.tools.ant.types.LogLevel:29:new LogLevel("error") |==> null
+2:EVR:<NEW_CLASS(org.apache.tools.ant.types.LogLevel)>:<DEFAULT>:org.apache.tools.ant.types.LogLevel:32:new LogLevel("warn") |==> null
+3:EVR:<NEW_CLASS(org.apache.tools.ant.types.LogLevel)>:<DEFAULT>:org.apache.tools.ant.types.LogLevel:35:new LogLevel("info") |==> null
+4:EVR:<NEW_CLASS(org.apache.tools.ant.types.LogLevel)>:<DEFAULT>:org.apache.tools.ant.types.LogLevel:38:new LogLevel("verbose") |==> null
+5:EVR:<NEW_CLASS(org.apache.tools.ant.types.LogLevel)>:<DEFAULT>:org.apache.tools.ant.types.LogLevel:41:new LogLevel("debug") |==> null
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.LogLevel@<init>(java.lang.String):51:setValue(value) |==> <NO-OP>

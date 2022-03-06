@@ -36,7 +36,7 @@ import org.apache.tools.ant.types.resources.FileResourceIterator;
  */
 public class FileList extends DataType implements ResourceCollection {
 
-    private Vector filenames = new Vector();
+    private Vector filenames = null;
     private File dir;
 
     /**

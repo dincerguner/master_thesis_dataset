@@ -41,13 +41,7 @@ public class P4Resolve extends P4Base {
     private static final String SAFE = "safe";
     private static final String THEIRS = "theirs";
     private static final String YOURS = "yours";
-    private static final String[] RESOLVE_MODES = {
-        AUTOMATIC,
-        FORCE,
-        SAFE,
-        THEIRS,
-        YOURS
-    };
+    private static final String[] RESOLVE_MODES = null;
    /**
     * returns the resolve mode
     * @return  returns the resolve mode

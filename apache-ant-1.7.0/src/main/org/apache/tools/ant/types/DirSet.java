@@ -51,7 +51,7 @@ public class DirSet extends AbstractFileSet implements ResourceCollection {
      * @return the cloned dirset.
      */
     public Object clone() {
-        if (isReference()) {
+        if (false) {
             return ((DirSet) getRef(getProject())).clone();
         } else {
             return super.clone();

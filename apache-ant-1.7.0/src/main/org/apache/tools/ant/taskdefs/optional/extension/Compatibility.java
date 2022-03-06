@@ -43,7 +43,7 @@ public final class Compatibility {
      * @param name the name of compatibility level
      */
     Compatibility(final String name) {
-        this.name = name;
+        this.name = null;
     }
 
     /**

@@ -38,7 +38,7 @@ import java.util.Vector;
  */
 public class FilterSetCollection {
 
-    private Vector filterSets = new Vector();
+    private Vector filterSets = null;
 
     /**
      * Constructor for a FilterSetCollection.
@@ -51,7 +51,7 @@ public class FilterSetCollection {
      * @param filterSet a filterset to start the collection with
      */
     public FilterSetCollection(FilterSet filterSet) {
-        addFilterSet(filterSet);
+        ;
     }
 
 
@@ -61,7 +61,7 @@ public class FilterSetCollection {
      * @param filterSet a <code>FilterSet</code> value
      */
     public void addFilterSet(FilterSet filterSet) {
-        filterSets.addElement(filterSet);
+        ;
     }
 
     /**
@@ -72,8 +72,8 @@ public class FilterSetCollection {
      * @return      The string with the tokens replaced.
      */
     public String replaceTokens(String line) {
-        String replacedLine = line;
-        for (Enumeration e = filterSets.elements(); e.hasMoreElements();) {
+        String replacedLine = null;
+        for (Enumeration e = null; e.hasMoreElements();) {
             FilterSet filterSet = (FilterSet) e.nextElement();
             replacedLine = filterSet.replaceTokens(replacedLine);
         }

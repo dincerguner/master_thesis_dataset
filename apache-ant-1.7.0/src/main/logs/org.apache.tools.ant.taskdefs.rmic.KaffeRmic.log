@@ -1,0 +1,2 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.rmic.KaffeRmic:33:new String[]{"gnu.classpath.tools.rmi.rmic.RMIC", "gnu.java.rmi.rmic.RMIC", "kaffe.rmi.rmic.RMIC"} |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.rmic.KaffeRmic@execute():48:getRmic().log("Using Kaffe rmic", Project.MSG_VERBOSE) |==> <NO-OP>

@@ -30,7 +30,7 @@ public class Utf8CPInfo extends ConstantPoolEntry {
 
     /** Constructor.  */
     public Utf8CPInfo() {
-        super(CONSTANT_UTF8, 1);
+        super(CONSTANT_UTF8, 0);
     }
 
     /**

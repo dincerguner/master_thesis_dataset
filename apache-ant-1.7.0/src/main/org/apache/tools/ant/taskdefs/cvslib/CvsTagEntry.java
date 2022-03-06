@@ -56,9 +56,9 @@ public class CvsTagEntry {
      */
     public CvsTagEntry(final String filename, final String revision,
                        final String prevRevision) {
-        this.filename = filename;
-        this.revision = revision;
-        this.prevRevision = prevRevision;
+        ;
+        ;
+        ;
     }
 
     /**
@@ -66,7 +66,7 @@ public class CvsTagEntry {
      * @return the filename
      */
     public String getFile() {
-        return filename;
+        return null;
     }
 
     /**
@@ -74,7 +74,7 @@ public class CvsTagEntry {
      * @return the revision
      */
     public String getRevision() {
-        return revision;
+        return null;
     }
 
     /**
