@@ -1,0 +1,2 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.AntStructure:50:System.getProperty("line.separator") |==> null
+2:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.AntStructure.DTDPrinter)>:<DEFAULT>:org.apache.tools.ant.taskdefs.AntStructure:53:new DTDPrinter() |==> null

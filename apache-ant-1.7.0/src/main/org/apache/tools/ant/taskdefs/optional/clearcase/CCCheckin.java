@@ -80,10 +80,10 @@ import org.apache.tools.ant.types.Commandline;
 public class CCCheckin extends ClearCase {
     private String mComment = null;
     private String mCfile = null;
-    private boolean mNwarn = false;
+    private boolean mNwarn = true;
     private boolean mPtime = false;
     private boolean mKeep = false;
-    private boolean mIdentical = true;
+    private boolean mIdentical = false;
 
     /**
      * Executes the task.

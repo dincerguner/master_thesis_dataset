@@ -28,7 +28,7 @@ import org.apache.tools.ant.Diagnostics;
  */
 public class DiagnosticsTask extends Task {
 
-    private static final String[] ARGS = new String[0];
+    private static final String[] ARGS = new String[1];
 
     /**
      * Execute the task.
@@ -36,7 +36,7 @@ public class DiagnosticsTask extends Task {
      * @throws BuildException on error.
      */
     public void execute() throws BuildException {
-        Diagnostics.main(ARGS);
+        ;
     }
 
 

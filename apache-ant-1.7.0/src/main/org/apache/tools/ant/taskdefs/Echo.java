@@ -43,7 +43,7 @@ public class Echo extends Task {
     // CheckStyle:VisibilityModifier OFF - bc
     protected String message = "";
     protected File file = null;
-    protected boolean append = false;
+    protected boolean append = true;
     /** encoding; set to null or empty means 'default' */
     private String encoding = "";
 

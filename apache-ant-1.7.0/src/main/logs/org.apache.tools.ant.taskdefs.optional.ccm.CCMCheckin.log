@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckin@<init>():34:setCcmAction(COMMAND_CHECKIN) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckin@<init>():35:setComment("Checkin " + new Date()) |==> <NO-OP>

@@ -1,0 +1,9 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.ComponentHelper:63:new Hashtable() |==> null
+2:LVR:TRUE:FALSE:org.apache.tools.ant.ComponentHelper:65:true |==> false
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.ComponentHelper:68:new Hashtable() |==> null
+4:LVR:TRUE:FALSE:org.apache.tools.ant.ComponentHelper:70:true |==> false
+5:EVR:<NEW_CLASS(java.util.HashSet)>:<DEFAULT>:org.apache.tools.ant.ComponentHelper:73:new HashSet() |==> null
+6:EVR:<NEW_CLASS(java.util.Stack)>:<DEFAULT>:org.apache.tools.ant.ComponentHelper:79:new Stack() |==> null
+7:LVR:POS:0:org.apache.tools.ant.ComponentHelper:120:2 |==> 0
+8:LVR:POS:NEG:org.apache.tools.ant.ComponentHelper:120:2 |==> -2
+9:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.ComponentHelper@getComponentHelper(Project):130:project == null |==> false

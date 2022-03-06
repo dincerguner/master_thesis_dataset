@@ -1,0 +1,3 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.condition.HasMethod:38:false |==> true
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.condition.HasMethod@setClasspath(Path):47:createClasspath().append(classpath) |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.condition.HasMethod@createClasspath():56:this.classpath == null |==> false
