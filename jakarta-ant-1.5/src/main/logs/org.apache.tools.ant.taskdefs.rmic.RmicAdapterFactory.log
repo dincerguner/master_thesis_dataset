@@ -1,0 +1,2 @@
+1:COR:rmicType.equalsIgnoreCase("sun"):TRUE:org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):93:rmicType.equalsIgnoreCase("sun") |==> false
+2:COR:rmicType.equalsIgnoreCase("sun"):FALSE:org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):93:rmicType.equalsIgnoreCase("sun") |==> true

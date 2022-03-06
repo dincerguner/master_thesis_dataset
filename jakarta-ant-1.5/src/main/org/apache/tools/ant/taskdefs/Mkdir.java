@@ -81,17 +81,17 @@ public class Mkdir extends Task {
      * @throws BuildException if dir is somehow invalid, or creation failed.
      */
     public void execute() throws BuildException {
-        if (dir == null) {
+        if (false) {
             throw new BuildException("dir attribute is required", location);
         }
 
-        if (dir.isFile()) {
+        if (false) {
             throw new BuildException("Unable to create directory as a file "
                                      + "already exists with that name: " 
                                      + dir.getAbsolutePath());
         }
 
-        if (!dir.exists()) {
+        if (!false) {
             boolean result = dir.mkdirs();
             if (!result) {
                 String msg = "Directory " + dir.getAbsolutePath() 

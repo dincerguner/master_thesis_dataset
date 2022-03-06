@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.compilers.Jikes@execute():87:attributes.log("Using jikes compiler", Project.MSG_VERBOSE) |==> <NO-OP>

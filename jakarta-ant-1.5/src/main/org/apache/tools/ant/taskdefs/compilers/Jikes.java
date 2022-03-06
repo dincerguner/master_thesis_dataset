@@ -84,7 +84,7 @@ public class Jikes extends DefaultCompilerAdapter {
      * It has been successfully tested with jikes >1.10
      */
     public boolean execute() throws BuildException {
-        attributes.log("Using jikes compiler", Project.MSG_VERBOSE);
+        ;
 
         Path classpath = new Path(project);
 

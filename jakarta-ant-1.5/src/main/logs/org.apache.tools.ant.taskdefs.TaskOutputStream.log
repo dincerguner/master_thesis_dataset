@@ -1,0 +1,27 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@<init>(Task,int):89:System.err.println("As of Ant 1.2 released in October 2000, the TaskOutputStream class") |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@<init>(Task,int):90:System.err.println("is considered to be dead code by the Ant developers and is unmaintained.") |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@<init>(Task,int):91:System.err.println("Don\'t use it!") |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@<init>(Task,int):93:this.task = task |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@<init>(Task,int):94:this.msgOutputLevel = msgOutputLevel |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@<init>(Task,int):96:line = new StringBuffer() |==> <NO-OP>
+7:EVR:<TYPE_CAST(char)>:<DEFAULT>:org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):106:(char)c |==> 0
+8:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\r' |==> cc <= '\r'
+9:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\r' |==> cc >= '\r'
+10:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\r' |==> false
+11:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\n' |==> cc <= '\n'
+12:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\n' |==> cc >= '\n'
+13:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\n' |==> false
+14:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\r' || cc == '\n' |==> cc == '\r' != (cc == '\n')
+15:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\r' || cc == '\n' |==> cc == '\r'
+16:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\r' || cc == '\n' |==> cc == '\n'
+17:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):107:cc == '\r' || cc == '\n' |==> true
+18:LVR:0:POS:org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):109:0 |==> 1
+19:LVR:0:NEG:org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):109:0 |==> -1
+20:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):109:line.length() > 0 |==> line.length() != 0
+21:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):109:line.length() > 0 |==> line.length() >= 0
+22:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):109:line.length() > 0 |==> false
+23:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):110:processLine() |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@write(int):113:line.append(cc) |==> <NO-OP>
+25:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.TaskOutputStream@processLine():122:line.toString() |==> null
+26:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@processLine():123:task.log(s, msgOutputLevel) |==> <NO-OP>
+27:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.TaskOutputStream@processLine():124:line = new StringBuffer() |==> <NO-OP>

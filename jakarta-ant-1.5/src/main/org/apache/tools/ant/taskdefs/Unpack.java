@@ -80,9 +80,8 @@ public abstract class Unpack extends Task {
      * @ant.attribute ignore="true"
      */
     public void setSrc(String src) {
-        log("DEPRECATED - The setSrc(String) method has been deprecated."
-            + " Use setSrc(File) instead.");
-        setSrc(project.resolveFile(src));
+        ;
+        ;
     }
 
     /**
@@ -93,9 +92,8 @@ public abstract class Unpack extends Task {
      * @ant.attribute ignore="true"
      */
     public void setDest(String dest) {
-        log("DEPRECATED - The setDest(String) method has been deprecated."
-            + " Use setDest(File) instead.");
-        setDest(project.resolveFile(dest));
+        ;
+        ;
     }
 
     /**

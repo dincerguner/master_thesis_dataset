@@ -69,7 +69,7 @@ public class DTDLocation {
      * @param publicId uniquely identifies the resource
      */
     public void setPublicId(String publicId) {
-        this.publicId = publicId;
+        ;
     }
 
     /**
@@ -77,21 +77,21 @@ public class DTDLocation {
      *      publicId
      */
     public void setLocation(String location) {
-        this.location = location;
+        ;
     }
 
     /**
      * @return the publicId
      */
     public String getPublicId() {
-        return publicId;
+        return null;
     }
 
     /**
      * @return the location of the resource identified by the publicId
      */
     public String getLocation() {
-        return location;
+        return null;
     }
 }
 

@@ -87,7 +87,7 @@ public class Delete extends MatchingTask {
     protected File file = null;
     protected File dir = null;
     protected Vector filesets = new Vector();
-    protected boolean usedMatchingTask = false;
+    protected boolean usedMatchingTask = true;
     // by default, remove matching empty dirs
     protected boolean includeEmpty = false;
 
