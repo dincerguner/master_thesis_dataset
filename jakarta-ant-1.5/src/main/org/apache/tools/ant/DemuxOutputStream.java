@@ -84,14 +84,14 @@ public class DemuxOutputStream extends OutputStream {
          * of processing the buffer. Used to avoid \r\n invoking
          * processBuffer twice.
          */
-         private boolean skip = false;
+         private boolean skip = true;
     }
     
     /** Maximum buffer size. */
     private static final int MAX_SIZE = 1024;
     
     /** Mapping from thread to buffer (Thread to BufferInfo). */
-    private Hashtable buffers = new Hashtable();
+    private Hashtable buffers = null;
 
     /**
      * The project to send output to.
@@ -114,8 +114,8 @@ public class DemuxOutputStream extends OutputStream {
      *                      which stream it is receiving.
      */
     public DemuxOutputStream(Project project, boolean isErrorStream) {
-        this.project = project;
-        this.isErrorStream = isErrorStream;
+        ;
+        ;
     }
 
     /**
@@ -124,7 +124,7 @@ public class DemuxOutputStream extends OutputStream {
      * @return a BufferInfo for the current thread to write data to
      */
     private BufferInfo getBufferInfo() {
-        Thread current = Thread.currentThread();
+        Thread current = null;
         BufferInfo bufferInfo = (BufferInfo) buffers.get(current);
         if (bufferInfo == null) {
             bufferInfo = new BufferInfo();

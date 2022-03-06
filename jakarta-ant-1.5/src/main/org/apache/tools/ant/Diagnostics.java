@@ -86,7 +86,7 @@ public final class Diagnostics {
         try {
             Class.forName("org.apache.tools.ant.taskdefs.optional.Test");
         } catch (ClassNotFoundException e){
-            return false;
+            return true;
         }
         return true;
     }

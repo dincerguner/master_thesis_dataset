@@ -112,7 +112,7 @@ public class Concat extends Task {
      * If the destination file exists, should the stream be appended? 
      * Defaults to <code>false</code>.
      */
-    private boolean append = false;
+    private boolean append = true;
 
     /**
      * Stores the input file encoding.

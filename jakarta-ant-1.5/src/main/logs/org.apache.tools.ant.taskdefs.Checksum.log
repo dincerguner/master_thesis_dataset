@@ -1,0 +1,10 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Checksum:118:new Vector() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Checksum:122:new Hashtable() |==> null
+3:LVR:POS:0:org.apache.tools.ant.taskdefs.Checksum:134:8 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.taskdefs.Checksum:134:8 |==> -8
+5:LVR:POS:0:org.apache.tools.ant.taskdefs.Checksum:134:1024 |==> 0
+6:LVR:POS:NEG:org.apache.tools.ant.taskdefs.Checksum:134:1024 |==> -1024
+7:AOR:*(int,int):%(int,int):org.apache.tools.ant.taskdefs.Checksum:134:8 * 1024 |==> 8 % 1024
+8:AOR:*(int,int):+(int,int):org.apache.tools.ant.taskdefs.Checksum:134:8 * 1024 |==> 8 + 1024
+9:AOR:*(int,int):-(int,int):org.apache.tools.ant.taskdefs.Checksum:134:8 * 1024 |==> 8 - 1024
+10:AOR:*(int,int):/(int,int):org.apache.tools.ant.taskdefs.Checksum:134:8 * 1024 |==> 8 / 1024

@@ -1,0 +1,27 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.filters.ReplaceTokens:94:new Hashtable() |==> null
+2:EVR:<IDENTIFIER(char)>:<DEFAULT>:org.apache.tools.ant.filters.ReplaceTokens:97:DEFAULT_BEGIN_TOKEN |==> 0
+3:EVR:<IDENTIFIER(char)>:<DEFAULT>:org.apache.tools.ant.filters.ReplaceTokens:100:DEFAULT_END_TOKEN |==> 0
+4:COR:getInitialized():TRUE:org.apache.tools.ant.filters.ReplaceTokens@read():132:getInitialized() |==> false
+5:COR:getInitialized():FALSE:org.apache.tools.ant.filters.ReplaceTokens@read():132:getInitialized() |==> true
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.ReplaceTokens@read():133:initialize() |==> <NO-OP>
+7:LVR:TRUE:FALSE:org.apache.tools.ant.filters.ReplaceTokens@read():134:true |==> false
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.ReplaceTokens@read():134:setInitialized(true) |==> <NO-OP>
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData != null |==> true
+10:LVR:0:POS:org.apache.tools.ant.filters.ReplaceTokens@read():137:0 |==> 1
+11:LVR:0:NEG:org.apache.tools.ant.filters.ReplaceTokens@read():137:0 |==> -1
+12:ROR:>(int,int):!=(int,int):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData.length() > 0 |==> queuedData.length() != 0
+13:ROR:>(int,int):>=(int,int):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData.length() > 0 |==> queuedData.length() >= 0
+14:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData.length() > 0 |==> false
+15:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData != null && queuedData.length() > 0 |==> queuedData != null == queuedData.length() > 0
+16:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData != null && queuedData.length() > 0 |==> false
+17:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData != null && queuedData.length() > 0 |==> queuedData != null
+18:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.filters.ReplaceTokens@read():137:queuedData != null && queuedData.length() > 0 |==> queuedData.length() > 0
+19:LVR:0:POS:org.apache.tools.ant.filters.ReplaceTokens@read():138:0 |==> 1
+20:LVR:0:NEG:org.apache.tools.ant.filters.ReplaceTokens@read():138:0 |==> -1
+21:LVR:POS:0:org.apache.tools.ant.filters.ReplaceTokens@read():139:1 |==> 0
+22:LVR:POS:NEG:org.apache.tools.ant.filters.ReplaceTokens@read():139:1 |==> -1
+23:ROR:>(int,int):!=(int,int):org.apache.tools.ant.filters.ReplaceTokens@read():139:queuedData.length() > 1 |==> queuedData.length() != 1
+24:ROR:>(int,int):>=(int,int):org.apache.tools.ant.filters.ReplaceTokens@read():139:queuedData.length() > 1 |==> queuedData.length() >= 1
+25:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.filters.ReplaceTokens@read():139:queuedData.length() > 1 |==> false
+26:LVR:POS:0:org.apache.tools.ant.filters.ReplaceTokens@read():140:1 |==> 0
+27:LVR:POS:NEG:org.apache.tools.ant.filters.ReplaceTokens@read():140:1 |==> -1
