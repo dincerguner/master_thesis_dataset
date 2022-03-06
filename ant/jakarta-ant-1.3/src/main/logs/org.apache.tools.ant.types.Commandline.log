@@ -1,0 +1,21 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.types.Commandline:87:new Vector() |==> null
+2:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):92:translateCommandline(to_process) |==> null
+3:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp != null |==> true
+4:LVR:0:POS:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:0 |==> -1
+6:ROR:>(int,int):!=(int,int):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp.length > 0 |==> tmp.length != 0
+7:ROR:>(int,int):>=(int,int):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp.length > 0 |==> tmp.length >= 0
+8:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp.length > 0 |==> false
+9:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp != null && tmp.length > 0 |==> tmp != null == tmp.length > 0
+10:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp != null && tmp.length > 0 |==> false
+11:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp != null && tmp.length > 0 |==> tmp != null
+12:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):93:tmp != null && tmp.length > 0 |==> tmp.length > 0
+13:LVR:0:POS:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):94:0 |==> 1
+14:LVR:0:NEG:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):94:0 |==> -1
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):94:setExecutable(tmp[0]) |==> <NO-OP>
+16:LVR:POS:0:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):95:1 |==> 0
+17:LVR:POS:NEG:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):95:1 |==> -1
+18:ROR:<(int,int):!=(int,int):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):95:i < tmp.length |==> i != tmp.length
+19:ROR:<(int,int):<=(int,int):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):95:i < tmp.length |==> i <= tmp.length
+20:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.types.Commandline@<init>(java.lang.String):95:i < tmp.length |==> false
+21:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Commandline@<init>(java.lang.String):96:createArgument().setValue(tmp[i]) |==> <NO-OP>
