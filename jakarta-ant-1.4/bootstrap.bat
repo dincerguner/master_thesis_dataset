@@ -50,36 +50,7 @@ echo ... Compiling Ant Classes
 
 "%JAVAC%" -d %CLASSDIR% %TOOLS%\tar\*.java %TOOLS%\zip\*.java %TOOLS%\ant\*.java %TOOLS%\ant\types\*.java %TOOLS%\ant\taskdefs\*.java %TOOLS%\ant\util\*.java %TOOLS%\ant\util\regexp\RegexpMatcher.java %TOOLS%\ant\util\regexp\RegexpMatcherFactory.java %TOOLS%\ant\taskdefs\condition\*.java %TOOLS%\ant\taskdefs\compilers\*.java 
 
-echo.
-echo ... Copying Required Files
-
-copy %TOOLS%\ant\taskdefs\*.properties %CLASSDIR%\org\apache\tools\ant\taskdefs
-copy %TOOLS%\ant\types\*.properties %CLASSDIR%\org\apache\tools\ant\types
-
-echo.
-echo ... Building Ant Distribution
-
-xcopy /s/q %CLASSDIR% build\classes
-
-"%JAVA%" %ANT_OPTS% org.apache.tools.ant.Main -emacs bootstrap
-
-echo.
-echo ... Cleaning Up Build Directories
-
-if     "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul rmdir/s/q %CLASSDIR%
-if not "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul deltree/y %CLASSDIR%
-
-echo.
-echo ... Done Bootstrapping Ant Distribution
-
-set JAVA=%OLDJAVA%
-set JAVAC=%OLDJAVAC%
-set CLASSPATH=%BOOTOLDCLASSPATH%
-set ANT_HOME=%OLDANTHOME%
-set OLDJAVA=
-set OLDJAVAC=
-set BOOTOLDCLASSPATH=
-set LOCALCLASSPATH=
-set OLDANTHOME=
-set TOOLS=
-
+"%JAVAC%" -d %CLASSDIR% %TOOLS%\ant\util\regexp\JakartaRegexpMatcher.java
+"%JAVAC%" -d %CLASSDIR% %TOOLS%\ant\util\regexp\JakartaOroMatcher.java
+"%JAVAC%" -d %CLASSDIR% %TOOLS%\ant\listener\Log4jListener.java
+"%JAVAC%" -d %CLASSDIR% %TOOLS%\ant\taskdefs\optional\TraXLiaison.java
