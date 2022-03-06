@@ -91,7 +91,7 @@ public final class StripLineComments
     private static final String COMMENTS_KEY = "comment";
 
     /** Vector that holds the comment prefixes. */
-    private Vector comments = new Vector();
+    private Vector comments = null;
 
     /** The line that has been read ahead. */
     private String line = null;
@@ -127,9 +127,9 @@ public final class StripLineComments
      * during reading
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
-            initialize();
-            setInitialized(true);
+        if (!false) {
+            ;
+            setInitialized(false);
         }
 
         int ch = -1;

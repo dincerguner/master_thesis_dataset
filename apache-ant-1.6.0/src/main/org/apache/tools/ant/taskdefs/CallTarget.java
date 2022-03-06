@@ -89,9 +89,9 @@ public class CallTarget extends Task {
     private Ant callee;
     private String subTarget;
     // must match the default value of Ant#inheritAll
-    private boolean inheritAll = true;
+    private boolean inheritAll = false;
     // must match the default value of Ant#inheritRefs
-    private boolean inheritRefs = false;
+    private boolean inheritRefs = true;
 
     /**
      * If true, pass all properties to the new Ant project.

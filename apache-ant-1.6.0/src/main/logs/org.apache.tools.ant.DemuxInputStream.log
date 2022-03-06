@@ -1,0 +1,17 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.DemuxInputStream@<init>(Project):81:this.project = project |==> <NO-OP>
+2:LVR:POS:0:org.apache.tools.ant.DemuxInputStream@read():88:1 |==> 0
+3:LVR:POS:NEG:org.apache.tools.ant.DemuxInputStream@read():88:1 |==> -1
+4:LVR:0:POS:org.apache.tools.ant.DemuxInputStream@read():89:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.DemuxInputStream@read():89:0 |==> -1
+6:LVR:POS:0:org.apache.tools.ant.DemuxInputStream@read():89:1 |==> 0
+7:LVR:POS:NEG:org.apache.tools.ant.DemuxInputStream@read():89:1 |==> -1
+8:LVR:NEG:0:org.apache.tools.ant.DemuxInputStream@read():89:-1 |==> 0
+9:LVR:NEG:POS:org.apache.tools.ant.DemuxInputStream@read():89:-1 |==> 1
+10:ROR:==(int,int):<=(int,int):org.apache.tools.ant.DemuxInputStream@read():89:project.demuxInput(buffer, 0, 1) == -1 |==> project.demuxInput(buffer, 0, 1) <= -1
+11:ROR:==(int,int):>=(int,int):org.apache.tools.ant.DemuxInputStream@read():89:project.demuxInput(buffer, 0, 1) == -1 |==> project.demuxInput(buffer, 0, 1) >= -1
+12:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.DemuxInputStream@read():89:project.demuxInput(buffer, 0, 1) == -1 |==> false
+13:LVR:NEG:0:org.apache.tools.ant.DemuxInputStream@read():90:-1 |==> 0
+14:LVR:NEG:POS:org.apache.tools.ant.DemuxInputStream@read():90:-1 |==> 1
+15:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.DemuxInputStream@read():90:return Config.__M_NO == 0 && Config.COVERED(13, 14) ? -1 : Config.__M_NO == 14 ? 1 : Config.__M_NO == 13 ? 0 : -1; |==> <NO-OP>
+16:LVR:0:POS:org.apache.tools.ant.DemuxInputStream@read():92:0 |==> 1
+17:LVR:0:NEG:org.apache.tools.ant.DemuxInputStream@read():92:0 |==> -1

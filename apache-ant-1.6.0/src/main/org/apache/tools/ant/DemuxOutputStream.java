@@ -83,7 +83,7 @@ public class DemuxOutputStream extends OutputStream {
          * Indicates we have just seen a carriage return. It may be part of
          * a crlf pair or a single cr invoking processBuffer twice.
          */
-         private boolean crSeen = false;
+         private boolean crSeen = true;
     }
 
     /** Maximum buffer size. */
@@ -99,7 +99,7 @@ public class DemuxOutputStream extends OutputStream {
     private static final int LF = 0x0a;
 
     /** Mapping from thread to buffer (Thread to BufferInfo). */
-    private Hashtable buffers = new Hashtable();
+    private Hashtable buffers = null;
 
     /**
      * The project to send output to.
@@ -122,8 +122,8 @@ public class DemuxOutputStream extends OutputStream {
      *                      which stream it is receiving.
      */
     public DemuxOutputStream(Project project, boolean isErrorStream) {
-        this.project = project;
-        this.isErrorStream = isErrorStream;
+        ;
+        ;
     }
 
     /**
@@ -132,7 +132,7 @@ public class DemuxOutputStream extends OutputStream {
      * @return a BufferInfo for the current thread to write data to
      */
     private BufferInfo getBufferInfo() {
-        Thread current = Thread.currentThread();
+        Thread current = null;
         BufferInfo bufferInfo = (BufferInfo) buffers.get(current);
         if (bufferInfo == null) {
             bufferInfo = new BufferInfo();
