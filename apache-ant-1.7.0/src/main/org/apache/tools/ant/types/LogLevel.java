@@ -26,19 +26,19 @@ import org.apache.tools.ant.Project;
 public class LogLevel extends EnumeratedAttribute {
 
     /** ERR loglevel constant. */
-    public static final LogLevel ERR = new LogLevel("error");
+    public static final LogLevel ERR = null;
 
     /** WARN loglevel constant. */
-    public static final LogLevel WARN = new LogLevel("warn");
+    public static final LogLevel WARN = null;
 
     /** INFO loglevel constant. */
-    public static final LogLevel INFO = new LogLevel("info");
+    public static final LogLevel INFO = null;
 
     /** VERBOSE loglevel constant. */
-    public static final LogLevel VERBOSE = new LogLevel("verbose");
+    public static final LogLevel VERBOSE = null;
 
     /** DEBUG loglevel constant. */
-    public static final LogLevel DEBUG = new LogLevel("debug");
+    public static final LogLevel DEBUG = null;
 
     /**
      * Public constructor.

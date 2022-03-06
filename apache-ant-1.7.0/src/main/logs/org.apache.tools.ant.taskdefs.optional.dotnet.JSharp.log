@@ -1,0 +1,3 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.dotnet.JSharp:54:true |==> false
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.dotnet.JSharp:59:false |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.dotnet.JSharp@<init>():65:setExecutable("vjc") |==> <NO-OP>

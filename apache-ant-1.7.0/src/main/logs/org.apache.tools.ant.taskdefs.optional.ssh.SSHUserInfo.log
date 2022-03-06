@@ -1,0 +1,43 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@<init>():38:false |==> true
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@<init>():38:this.trustAllCertificates = false |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@<init>(java.lang.String,boolean):48:this.password = password |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@<init>(java.lang.String,boolean):49:this.trustAllCertificates = trustAllCertificates |==> <NO-OP>
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@getName():57:name |==> null
+6:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@getPassphrase(java.lang.String):66:passphrase |==> null
+7:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@getPassword():74:password |==> null
+8:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@prompt(java.lang.String):83:false |==> true
+9:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@retry():91:false |==> true
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@setName(java.lang.String):99:this.name = name |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@setPassphrase(java.lang.String):107:this.passphrase = passphrase |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@setPassword(java.lang.String):115:this.password = password |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@setTrust(boolean):123:this.trustAllCertificates = trust |==> <NO-OP>
+14:EVR:<MEMBER_SELECT(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@getTrust():130:this.trustAllCertificates |==> false
+15:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@getPassphrase():138:passphrase |==> null
+16:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@getKeyfile():146:keyfile |==> null
+17:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@setKeyfile(java.lang.String):154:this.keyfile = keyfile |==> <NO-OP>
+18:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptPassphrase(java.lang.String):163:true |==> false
+19:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptPassword(java.lang.String):172:true |==> false
+20:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptYesNo(java.lang.String):181:trustAllCertificates |==> false
+21:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:1 |==> 0
+22:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:1 |==> -1
+23:ROR:!=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 |==> prompt.length < 1
+24:ROR:!=(int,int):>(int,int):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 |==> prompt.length > 1
+25:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 |==> true
+26:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:0 |==> 1
+27:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:0 |==> -1
+28:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] |==> prompt.length != 1 != echo[0]
+29:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] |==> prompt.length != 1
+30:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] |==> echo[0]
+31:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] |==> true
+32:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:this.password == null |==> false
+33:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] || this.password == null |==> (prompt.length != 1 || echo[0]) != (this.password == null)
+34:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] || this.password == null |==> prompt.length != 1 || echo[0]
+35:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] || this.password == null |==> this.password == null
+36:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):208:prompt.length != 1 || echo[0] || this.password == null |==> true
+37:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):209:return null; |==> <NO-OP>
+38:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):211:1 |==> 0
+39:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):211:1 |==> -1
+40:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):212:0 |==> 1
+41:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):212:0 |==> -1
+42:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):212:response[0] = this.password |==> <NO-OP>
+43:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ssh.SSHUserInfo@promptKeyboardInteractive(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],boolean[]):213:response |==> null

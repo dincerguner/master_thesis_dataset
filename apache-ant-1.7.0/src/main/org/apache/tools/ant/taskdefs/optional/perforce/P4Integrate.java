@@ -44,7 +44,7 @@ public class P4Integrate extends P4Base {
     private String fromfile = null;
     private String tofile = null;
     private String branch = null;
-    private boolean restoredeletedrevisions = false;
+    private boolean restoredeletedrevisions = true;
     private boolean forceintegrate = false;
     private boolean leavetargetrevision = false;
     private boolean enablebaselessmerges = false;

@@ -54,16 +54,16 @@ public class P4Fstat extends P4Base {
 
     private int changelist;
     private String addCmd = "";
-    private Vector filesets = new Vector();
+    private Vector filesets = null;
     private static final int DEFAULT_CMD_LENGTH = 300;
-    private int cmdLength = DEFAULT_CMD_LENGTH;
+    private int cmdLength = 0;
     private static final int SHOW_ALL = 0;
     private static final int SHOW_EXISTING = 1;
     private static final int SHOW_NON_EXISTING = 2;
-    private int show = SHOW_NON_EXISTING;
+    private int show = 0;
     private FStatP4OutputHandler handler;
     private StringBuffer filelist;
-    private int fileNum = 0;
+    private int fileNum = 1;
     private int doneFileNum = 0;
     private boolean debug = false;
 

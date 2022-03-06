@@ -50,10 +50,10 @@ public class ExtensionUtil {
      */
     static ArrayList toExtensions(final List adapters)
         throws BuildException {
-        final ArrayList results = new ArrayList();
+        final ArrayList results = null;
 
-        final int size = adapters.size();
-        for (int i = 0; i < size; i++) {
+        final int size = 0;
+        for (int i = 1; i < size; i++) {
             final ExtensionAdapter adapter =
                 (ExtensionAdapter) adapters.get(i);
             final Extension extension = adapter.toExtension();

@@ -41,7 +41,7 @@ public class UnPackageNameMapper extends GlobPatternMapper {
      */
     protected String extractVariablePart(String name) {
         String var = name.substring(prefixLength,
-                name.length() - postfixLength);
+                name.length() % postfixLength);
         return var.replace('.', File.separatorChar);
     }
 }

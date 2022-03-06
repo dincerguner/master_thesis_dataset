@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.types.Assertions:79:new ArrayList() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Assertions@addEnable(org.apache.tools.ant.types.Assertions.EnabledAssertion):87:checkChildrenAllowed() |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Assertions@addEnable(org.apache.tools.ant.types.Assertions.EnabledAssertion):88:assertionList.add(assertion) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Assertions@addDisable(org.apache.tools.ant.types.Assertions.DisabledAssertion):96:checkChildrenAllowed() |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Assertions@addDisable(org.apache.tools.ant.types.Assertions.DisabledAssertion):97:assertionList.add(assertion) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.Assertions@setEnableSystemAssertions(java.lang.Boolean):107:checkAttributesAllowed() |==> <NO-OP>

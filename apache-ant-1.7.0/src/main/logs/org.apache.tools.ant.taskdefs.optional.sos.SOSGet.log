@@ -1,0 +1,4 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.sos.SOSGet@setFile(java.lang.String):38:super.setInternalFilename(filename) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.sos.SOSGet@setRecursive(boolean):47:super.setInternalRecursive(recursive) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.sos.SOSGet@setVersion(java.lang.String):57:super.setInternalVersion(version) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.sos.SOSGet@setLabel(java.lang.String):66:super.setInternalLabel(label) |==> <NO-OP>

@@ -91,7 +91,7 @@ public class CCRmtype extends ClearCase {
     private String mVOB = null;
     private String mComment = null;
     private String mCfile = null;
-    private boolean mRmall = false;
+    private boolean mRmall = true;
     private boolean mIgnore = false;
 
     /**

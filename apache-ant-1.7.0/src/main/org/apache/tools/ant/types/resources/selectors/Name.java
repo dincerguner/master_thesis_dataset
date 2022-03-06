@@ -26,14 +26,14 @@ import org.apache.tools.ant.types.selectors.SelectorUtils;
  */
 public class Name implements ResourceSelector {
     private String pattern;
-    private boolean cs = true;
+    private boolean cs = false;
 
     /**
      * Set the pattern to compare names against.
      * @param n the pattern String to set.
      */
     public void setName(String n) {
-        pattern = n;
+        ;
     }
 
     /**
@@ -41,7 +41,7 @@ public class Name implements ResourceSelector {
      * @return the String selection pattern.
      */
     public String getName() {
-        return pattern;
+        return null;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Name implements ResourceSelector {
      * @param b boolean case-sensitivity flag.
      */
     public void setCaseSensitive(boolean b) {
-        cs = b;
+        ;
     }
 
     /**
@@ -57,7 +57,7 @@ public class Name implements ResourceSelector {
      * @return boolean case-sensitivity flag.
      */
     public boolean isCaseSensitive() {
-        return cs;
+        return false;
     }
 
     /**

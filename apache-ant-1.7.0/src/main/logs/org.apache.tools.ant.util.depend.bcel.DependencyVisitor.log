@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.util.depend.bcel.DependencyVisitor:37:new Hashtable() |==> null

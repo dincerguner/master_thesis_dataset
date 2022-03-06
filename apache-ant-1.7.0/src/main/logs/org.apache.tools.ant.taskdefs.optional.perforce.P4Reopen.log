@@ -1,0 +1,5 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.perforce.P4Reopen@setToChange(java.lang.String):43:toChange == null |==> false
+2:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Reopen@setToChange(java.lang.String):43:toChange == null || toChange.equals("") |==> toChange == null != toChange.equals("")
+3:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Reopen@setToChange(java.lang.String):43:toChange == null || toChange.equals("") |==> toChange == null
+4:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Reopen@setToChange(java.lang.String):43:toChange == null || toChange.equals("") |==> toChange.equals("")
+5:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4Reopen@setToChange(java.lang.String):43:toChange == null || toChange.equals("") |==> true

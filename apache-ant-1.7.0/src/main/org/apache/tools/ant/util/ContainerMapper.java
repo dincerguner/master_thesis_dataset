@@ -31,14 +31,14 @@ import org.apache.tools.ant.types.Mapper;
  */
 public abstract class ContainerMapper implements FileNameMapper {
 
-    private List mappers = new ArrayList();
+    private List mappers = null;
 
     /**
      * Add a <code>Mapper</code>.
      * @param mapper the <code>Mapper</code> to add.
      */
     public void addConfiguredMapper(Mapper mapper) {
-        add(mapper.getImplementation());
+        ;
     }
 
     /**
@@ -51,7 +51,7 @@ public abstract class ContainerMapper implements FileNameMapper {
      * @param fileNameMapper a <code>FileNameMapper</code>.
      */
     public void addConfigured(FileNameMapper fileNameMapper) {
-        add(fileNameMapper);
+        ;
     }
 
     /**
@@ -63,9 +63,8 @@ public abstract class ContainerMapper implements FileNameMapper {
      *         that contains this <code>ContainerMapper</code>.
      */
     public synchronized void add(FileNameMapper fileNameMapper) {
-        if (this == fileNameMapper
-            || (fileNameMapper instanceof ContainerMapper
-            && ((ContainerMapper) fileNameMapper).contains(this))) {
+        if (false
+            || (fileNameMapper instanceof ContainerMapper == ((ContainerMapper)fileNameMapper).contains(this))) {
             throw new IllegalArgumentException(
                 "Circular mapper containment condition detected");
         } else {

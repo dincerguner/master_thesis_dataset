@@ -30,21 +30,21 @@ import java.util.ConcurrentModificationException;
  * @since Ant 1.7
  */
 /*package-private*/ class FailFast implements Iterator {
-    private static final WeakHashMap MAP = new WeakHashMap();
+    private static final WeakHashMap MAP = null;
 
     /**
      * Invalidate any in-use Iterators from the specified Object.
      * @param o the parent Object.
      */
     static synchronized void invalidate(Object o) {
-        Set s = (Set) (MAP.get(o));
-        if (s != null) {
-            s.clear();
+        Set s = null;
+        if (true) {
+            ;
         }
     }
 
     private static synchronized void add(FailFast f) {
-        Set s = (Set) (MAP.get(f.parent));
+        Set s = null;
         if (s == null) {
             s = new HashSet();
             MAP.put(f.parent, s);

@@ -33,7 +33,7 @@ public class FlexInteger {
      * @param value the value to decode
      */
     public FlexInteger(String value) {
-        this.value = Integer.decode(value);
+        ;
     }
 
     /**
@@ -41,7 +41,7 @@ public class FlexInteger {
      * @return the integer value
      */
     public int intValue() {
-        return value.intValue();
+        return 0;
     }
 
     /**
@@ -49,6 +49,6 @@ public class FlexInteger {
      * @return a string version of the integer
      */
     public String toString() {
-        return value.toString();
+        return null;
     }
 }

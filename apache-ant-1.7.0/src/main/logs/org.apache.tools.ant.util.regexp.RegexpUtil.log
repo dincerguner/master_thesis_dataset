@@ -1,0 +1,15 @@
+1:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@hasFlag(int,int):36:options & flag |==> options ^ flag
+2:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@hasFlag(int,int):36:options & flag |==> options | flag
+3:LVR:0:POS:org.apache.tools.ant.util.regexp.RegexpUtil@hasFlag(int,int):36:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.util.regexp.RegexpUtil@hasFlag(int,int):36:0 |==> -1
+5:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@hasFlag(int,int):36:(options & flag) > 0 |==> (options & flag) != 0
+6:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@hasFlag(int,int):36:(options & flag) > 0 |==> (options & flag) >= 0
+7:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@hasFlag(int,int):36:(options & flag) > 0 |==> false
+8:LVR:NEG:0:org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:-1 |==> 0
+9:LVR:NEG:POS:org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:-1 |==> 1
+10:AOR:-(int,int):%(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:-1 - flag |==> -1 % flag
+11:AOR:-(int,int):*(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:-1 - flag |==> -1 * flag
+12:AOR:-(int,int):+(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:-1 - flag |==> -1 + flag
+13:AOR:-(int,int):/(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:-1 - flag |==> -1 / flag
+14:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:options & (-1 - flag) |==> options ^ (-1 - flag)
+15:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.regexp.RegexpUtil@removeFlag(int,int):47:options & (-1 - flag) |==> options | (-1 - flag)

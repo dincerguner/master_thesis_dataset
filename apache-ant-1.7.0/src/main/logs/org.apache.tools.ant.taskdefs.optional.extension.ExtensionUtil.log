@@ -1,0 +1,7 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil@toExtensions(java.util.List):53:new ArrayList() |==> null
+2:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil@toExtensions(java.util.List):55:adapters.size() |==> 0
+3:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil@toExtensions(java.util.List):56:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil@toExtensions(java.util.List):56:0 |==> -1
+5:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil@toExtensions(java.util.List):56:i < size |==> i != size
+6:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil@toExtensions(java.util.List):56:i < size |==> i <= size
+7:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil@toExtensions(java.util.List):56:i < size |==> false

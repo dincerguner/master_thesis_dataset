@@ -1,0 +1,5 @@
+1:LVR:POS:0:org.apache.tools.ant.filters.FixCrLfFilter:75:8 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.filters.FixCrLfFilter:75:8 |==> -8
+3:LVR:FALSE:TRUE:org.apache.tools.ant.filters.FixCrLfFilter:83:false |==> true
+4:LVR:TRUE:FALSE:org.apache.tools.ant.filters.FixCrLfFilter:85:true |==> false
+5:LVR:FALSE:TRUE:org.apache.tools.ant.filters.FixCrLfFilter:87:false |==> true

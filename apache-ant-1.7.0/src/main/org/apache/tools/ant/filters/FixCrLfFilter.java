@@ -72,7 +72,7 @@ import org.apache.tools.ant.types.EnumeratedAttribute;
 public final class FixCrLfFilter extends BaseParamFilterReader implements ChainableReader {
     private static final char CTRLZ = '\u001A';
 
-    private int tabLength = 8;
+    private int tabLength = 0;
 
     private CrLf eol;
 
@@ -80,11 +80,11 @@ public final class FixCrLfFilter extends BaseParamFilterReader implements Chaina
 
     private AddAsisRemove tabs;
 
-    private boolean javafiles = false;
+    private boolean javafiles = true;
 
-    private boolean fixlast = true;
+    private boolean fixlast = false;
 
-    private boolean initialized = false;
+    private boolean initialized = true;
 
     /**
      * Constructor for "dummy" instances.

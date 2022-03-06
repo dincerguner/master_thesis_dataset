@@ -1,0 +1,9 @@
+1:COR:args.getReverse():TRUE:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@setup(Commandline,Native2Ascii):41:args.getReverse() |==> false
+2:COR:args.getReverse():FALSE:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@setup(Commandline,Native2Ascii):41:args.getReverse() |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@setup(Commandline,Native2Ascii):42:cmd.createArgument().setValue("-reverse") |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@setup(Commandline,Native2Ascii):44:super.setup(cmd, args) |==> <NO-OP>
+5:EVR:<METHOD_INVOCATION(java.lang.Class<capture#159 of ?>)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@run(Commandline,ProjectComponent):51:Class.forName("sun.tools.native2ascii.Main") |==> null
+6:EVR:<NEW_ARRAY(java.lang.Class[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@run(Commandline,ProjectComponent):52:new Class[]{String[].class} |==> null
+7:EVR:<METHOD_INVOCATION(java.lang.reflect.Method)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@run(Commandline,ProjectComponent):53:n2aMain.getMethod("convert", param) |==> null
+8:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@run(Commandline,ProjectComponent):54:convert == null |==> false
+9:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii@run(Commandline,ProjectComponent):58:n2aMain.newInstance() |==> null

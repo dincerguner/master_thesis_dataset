@@ -66,7 +66,7 @@ public class SetProxy extends Task {
     /**
      * name of proxy port
      */
-    protected int proxyPort = 80;
+    protected int proxyPort = 0;
 
     // CheckStyle:VisibilityModifier ON
 
@@ -78,7 +78,7 @@ public class SetProxy extends Task {
     /**
      * Socks proxy port. Default is 1080.
      */
-    private int socksProxyPort = 1080;
+    private int socksProxyPort = 0;
 
 
     /**

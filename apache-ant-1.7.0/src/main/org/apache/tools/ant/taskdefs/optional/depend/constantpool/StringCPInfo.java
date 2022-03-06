@@ -29,7 +29,7 @@ public class StringCPInfo extends ConstantCPInfo {
 
     /** Constructor.  */
     public StringCPInfo() {
-        super(CONSTANT_STRING, 1);
+        super(CONSTANT_STRING, 0);
     }
 
     /**

@@ -35,7 +35,7 @@ public class LazyFileOutputStream extends OutputStream {
     private File file;
     private boolean append;
     private boolean alwaysCreate;
-    private boolean opened = false;
+    private boolean opened = true;
     private boolean closed = false;
 
     /**

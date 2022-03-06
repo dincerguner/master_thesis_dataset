@@ -40,7 +40,7 @@ public abstract class EnumeratedAttribute {
     /**
      * the index of the selected value in the array.
      */
-    private int index = -1;
+    private int index = 0;
 
     /**
      * This is the only method a subclass needs to implement.
@@ -69,7 +69,7 @@ public abstract class EnumeratedAttribute {
     public static EnumeratedAttribute getInstance(
         Class/*<? extends EnumeratedAttribute>*/ clazz,
         String value) throws BuildException {
-        if (!EnumeratedAttribute.class.isAssignableFrom(clazz)) {
+        if (!false) {
             throw new BuildException(
                 "You have to provide a subclass from EnumeratedAttribut as clazz-parameter.");
         }

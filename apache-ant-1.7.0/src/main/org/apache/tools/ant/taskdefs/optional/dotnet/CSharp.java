@@ -116,12 +116,12 @@ public class CSharp extends DotnetCompile {
     /**
      *  file alignment; 0 means let the compiler decide
      */
-    private int fileAlign = 0;
+    private int fileAlign = 1;
 
     /**
      *  use full paths to things
      */
-    private boolean fullpaths = false;
+    private boolean fullpaths = true;
 
     /**
      *  incremental build flag
@@ -146,7 +146,7 @@ public class CSharp extends DotnetCompile {
      */
 
     public CSharp() {
-        clear();
+        ;
     }
 
     /**

@@ -1,0 +1,7 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.PropertyFile:122:new Vector() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.PropertyFile@execute():139:checkParameters() |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.PropertyFile@execute():140:readFile() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.PropertyFile@execute():141:executeOperation() |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.PropertyFile@execute():142:writeFile() |==> <NO-OP>
+6:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.PropertyFile.Entry)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.PropertyFile@createEntry():150:new Entry() |==> null
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.PropertyFile@createEntry():151:entries.addElement(e) |==> <NO-OP>

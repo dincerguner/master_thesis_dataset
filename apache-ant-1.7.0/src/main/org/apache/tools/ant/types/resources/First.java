@@ -32,7 +32,7 @@ public class First extends BaseResourceCollectionWrapper {
     private static final String BAD_COUNT
         = "count of first resources should be set to an int >= 0";
 
-    private int count = 1;
+    private int count = 0;
 
     /**
      * Set the number of resources to be included.

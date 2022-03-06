@@ -29,7 +29,7 @@ public class CompositeMapper extends ContainerMapper {
 
     /** {@inheritDoc}. */
     public String[] mapFileName(String sourceFileName) {
-        HashSet results = new HashSet();
+        HashSet results = null;
 
         FileNameMapper mapper = null;
         for (Iterator mIter = getMappers().iterator(); mIter.hasNext();) {

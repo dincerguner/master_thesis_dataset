@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.WLJspc:100:new Vector() |==> null
+2:COR:destinationDirectory.isDirectory():TRUE:org.apache.tools.ant.taskdefs.optional.jsp.WLJspc@execute():107:destinationDirectory.isDirectory() |==> false
+3:COR:destinationDirectory.isDirectory():FALSE:org.apache.tools.ant.taskdefs.optional.jsp.WLJspc@execute():107:destinationDirectory.isDirectory() |==> true
+4:COR:sourceDirectory.isDirectory():TRUE:org.apache.tools.ant.taskdefs.optional.jsp.WLJspc@execute():112:sourceDirectory.isDirectory() |==> false
+5:COR:sourceDirectory.isDirectory():FALSE:org.apache.tools.ant.taskdefs.optional.jsp.WLJspc@execute():112:sourceDirectory.isDirectory() |==> true
+6:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jsp.WLJspc@execute():117:destinationPackage == null |==> false

@@ -1,0 +1,12 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):70:rmicType.toLowerCase(Locale.ENGLISH) |==> null
+2:LVR:0:POS:org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:0 |==> -1
+4:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:compiler.length() == 0 |==> compiler.length() <= 0
+5:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:compiler.length() == 0 |==> compiler.length() >= 0
+6:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:compiler.length() == 0 |==> false
+7:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:DEFAULT_COMPILER.equals(compiler) || compiler.length() == 0 |==> DEFAULT_COMPILER.equals(compiler) != (compiler.length() == 0)
+8:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:DEFAULT_COMPILER.equals(compiler) || compiler.length() == 0 |==> DEFAULT_COMPILER.equals(compiler)
+9:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:DEFAULT_COMPILER.equals(compiler) || compiler.length() == 0 |==> compiler.length() == 0
+10:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):73:DEFAULT_COMPILER.equals(compiler) || compiler.length() == 0 |==> true
+11:COR:KaffeRmic.isAvailable():TRUE:org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):74:KaffeRmic.isAvailable() |==> false
+12:COR:KaffeRmic.isAvailable():FALSE:org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory@getRmic(java.lang.String,Task):74:KaffeRmic.isAvailable() |==> true

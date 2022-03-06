@@ -31,16 +31,16 @@ public class Type implements ResourceSelector {
     private static final String DIR_ATTR = "dir";
 
     /** Static file type selector. */
-    public static final Type FILE = new Type(new FileDir(FILE_ATTR));
+    public static final Type FILE = null;
 
     /** Static dir type selector. */
-    public static final Type DIR = new Type(new FileDir(DIR_ATTR));
+    public static final Type DIR = null;
 
     /**
      * Implements the type attribute.
      */
     public static class FileDir extends EnumeratedAttribute {
-        private static final String[] VALUES = new String[] {FILE_ATTR, DIR_ATTR};
+        private static final String[] VALUES = null;
 
         /**
          * Default constructor.
@@ -53,7 +53,7 @@ public class Type implements ResourceSelector {
          * @param value the String EnumeratedAttribute value.
          */
         public FileDir(String value) {
-            setValue(value);
+            ;
         }
 
         /**

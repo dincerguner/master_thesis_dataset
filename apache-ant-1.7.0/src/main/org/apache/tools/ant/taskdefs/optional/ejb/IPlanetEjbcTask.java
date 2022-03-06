@@ -91,7 +91,7 @@ public class IPlanetEjbcTask extends Task {
     private File    iasdescriptor;
     private File    dest;
     private Path    classpath;
-    private boolean keepgenerated = false;
+    private boolean keepgenerated = true;
     private boolean debug         = false;
     private File    iashome;
 

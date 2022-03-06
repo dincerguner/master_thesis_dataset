@@ -38,8 +38,8 @@ public abstract class SSHBase extends Task implements LogListener {
 
     private String host;
     private String knownHosts;
-    private int port = SSH_PORT;
-    private boolean failOnError = true;
+    private int port = 0;
+    private boolean failOnError = false;
     private boolean verbose;
     private SSHUserInfo userInfo;
 

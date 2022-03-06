@@ -29,7 +29,7 @@ import org.apache.tools.ant.Task;
  */
 public class RetryHandler {
 
-    private int retriesAllowed = 0;
+    private int retriesAllowed = 1;
     private Task task;
 
     /**

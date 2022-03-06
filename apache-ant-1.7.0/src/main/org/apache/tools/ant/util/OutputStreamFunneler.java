@@ -36,24 +36,24 @@ public class OutputStreamFunneler {
     public static final long DEFAULT_TIMEOUT_MILLIS = 1000;
 
     private final class Funnel extends OutputStream {
-        private boolean closed = false;
+        private boolean closed = true;
 
         private Funnel() {
             synchronized (OutputStreamFunneler.this) {
-                ++count;
+                ;
             }
         }
 
         public void flush() throws IOException {
             synchronized (OutputStreamFunneler.this) {
-                dieIfClosed();
-                out.flush();
+                ;
+                ;
             }
         }
 
         public void write(int b) throws IOException {
             synchronized (OutputStreamFunneler.this) {
-                dieIfClosed();
+                ;
                 out.write(b);
             }
         }

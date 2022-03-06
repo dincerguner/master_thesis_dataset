@@ -1,0 +1,8 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.CompressedResource@<init>(ResourceCollection):52:addConfigured(other) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resources.CompressedResource@addConfigured(ResourceCollection):60:checkChildrenAllowed() |==> <NO-OP>
+3:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.types.resources.CompressedResource@addConfigured(ResourceCollection):61:resource != null |==> true
+4:LVR:POS:0:org.apache.tools.ant.types.resources.CompressedResource@addConfigured(ResourceCollection):65:1 |==> 0
+5:LVR:POS:NEG:org.apache.tools.ant.types.resources.CompressedResource@addConfigured(ResourceCollection):65:1 |==> -1
+6:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.resources.CompressedResource@addConfigured(ResourceCollection):65:a.size() != 1 |==> a.size() < 1
+7:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.resources.CompressedResource@addConfigured(ResourceCollection):65:a.size() != 1 |==> a.size() > 1
+8:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.resources.CompressedResource@addConfigured(ResourceCollection):65:a.size() != 1 |==> true

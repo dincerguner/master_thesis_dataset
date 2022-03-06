@@ -42,9 +42,7 @@ public class XNewRmic extends ForkingSunRmic {
      * @return a command line that hands off to thw
      */
     protected Commandline setupRmicCommand() {
-        String[] options = new String[] {
-                "-Xnew"
-        };
+        String[] options = null;
         Commandline commandline = super.setupRmicCommand(options);
         return commandline;
     }

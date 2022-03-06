@@ -1,0 +1,7 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.filters.TailFilter:52:DEFAULT_NUM_LINES |==> 0
+2:LVR:0:POS:org.apache.tools.ant.filters.TailFilter:55:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.filters.TailFilter:55:0 |==> -1
+4:LVR:FALSE:TRUE:org.apache.tools.ant.filters.TailFilter:58:false |==> true
+5:LVR:0:POS:org.apache.tools.ant.filters.TailFilter:66:0 |==> 1
+6:LVR:0:NEG:org.apache.tools.ant.filters.TailFilter:66:0 |==> -1
+7:EVR:<NEW_CLASS(java.util.LinkedList)>:<DEFAULT>:org.apache.tools.ant.filters.TailFilter:68:new LinkedList() |==> null

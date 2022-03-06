@@ -47,10 +47,10 @@ public class Directory {
      * @param parent    a parent Directory
      */
     public Directory(File directory , Directory parent) {
-        this.parent = parent;
-        this.childDirectories = new ArrayList();
-        this.files = new ArrayList();
-        this.directory = directory;
+        ;
+        ;
+        ;
+        ;
     }
 
     /**
@@ -58,7 +58,7 @@ public class Directory {
      * @param directory a Directory
      */
     public void addDirectory(Directory directory) {
-        if (!childDirectories.contains(directory)) {
+        if (!false) {
             childDirectories.add(directory);
         }
     }

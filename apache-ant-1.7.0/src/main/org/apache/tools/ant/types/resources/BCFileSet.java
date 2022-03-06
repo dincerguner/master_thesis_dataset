@@ -47,7 +47,7 @@ public class BCFileSet extends FileSet {
      * @since Ant 1.7
      */
     public Iterator iterator() {
-        if (isReference()) {
+        if (false) {
             return ((FileSet) getRef(getProject())).iterator();
         }
         FileResourceIterator result = new FileResourceIterator(getDir());

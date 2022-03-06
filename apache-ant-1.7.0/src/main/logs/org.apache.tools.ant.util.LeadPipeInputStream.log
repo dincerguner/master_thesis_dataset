@@ -1,0 +1,30 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LeadPipeInputStream@<init>(int):51:setBufferSize(size) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.util.LeadPipeInputStream@<init>(java.io.PipedOutputStream,int):74:setBufferSize(size) |==> <NO-OP>
+3:LVR:NEG:0:org.apache.tools.ant.util.LeadPipeInputStream@read():84:-1 |==> 0
+4:LVR:NEG:POS:org.apache.tools.ant.util.LeadPipeInputStream@read():84:-1 |==> 1
+5:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.util.LeadPipeInputStream@read():86:super.read() |==> 0
+6:COR:"write end dead".equalsIgnoreCase(eyeOhEx.getMessage()):TRUE:org.apache.tools.ant.util.LeadPipeInputStream@read():88:"write end dead".equalsIgnoreCase(eyeOhEx.getMessage()) |==> false
+7:COR:"write end dead".equalsIgnoreCase(eyeOhEx.getMessage()):FALSE:org.apache.tools.ant.util.LeadPipeInputStream@read():88:"write end dead".equalsIgnoreCase(eyeOhEx.getMessage()) |==> true
+8:LVR:0:POS:org.apache.tools.ant.util.LeadPipeInputStream@read():89:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.ant.util.LeadPipeInputStream@read():89:0 |==> -1
+10:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 |==> super.in != 0
+11:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 |==> super.in >= 0
+12:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 |==> false
+13:ROR:<(int,int):!=(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.out < super.buffer.length |==> super.out != super.buffer.length
+14:ROR:<(int,int):<=(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.out < super.buffer.length |==> super.out <= super.buffer.length
+15:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.out < super.buffer.length |==> false
+16:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 && super.out < super.buffer.length |==> super.in > 0 == super.out < super.buffer.length
+17:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 && super.out < super.buffer.length |==> false
+18:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 && super.out < super.buffer.length |==> super.in > 0
+19:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 && super.out < super.buffer.length |==> super.out < super.buffer.length
+20:ROR:>(int,int):!=(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():90:super.out > super.in |==> super.out != super.in
+21:ROR:>(int,int):>=(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():90:super.out > super.in |==> super.out >= super.in
+22:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():90:super.out > super.in |==> false
+23:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 && super.out < super.buffer.length && super.out > super.in |==> (super.in > 0 && super.out < super.buffer.length) == super.out > super.in
+24:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():90:super.in > 0 && super.out < super.buffer.length && super.out > super.in |==> false
+25:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():89:super.in > 0 && super.out < super.buffer.length && super.out > super.in |==> super.in > 0 && super.out < super.buffer.length
+26:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.util.LeadPipeInputStream@read():90:super.in > 0 && super.out < super.buffer.length && super.out > super.in |==> super.out > super.in
+27:LVR:POS:0:org.apache.tools.ant.util.LeadPipeInputStream@read():91:255 |==> 0
+28:LVR:POS:NEG:org.apache.tools.ant.util.LeadPipeInputStream@read():91:255 |==> -255
+29:LOR:&(int,int):^(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():91:super.buffer[super.out++] & 255 |==> super.buffer[super.out++] ^ 255
+30:LOR:&(int,int):|(int,int):org.apache.tools.ant.util.LeadPipeInputStream@read():91:super.buffer[super.out++] & 255 |==> super.buffer[super.out++] | 255

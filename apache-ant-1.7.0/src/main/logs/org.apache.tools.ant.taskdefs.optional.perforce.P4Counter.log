@@ -1,0 +1,4 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4Counter:64:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4Counter:68:false |==> true
+3:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.perforce.P4Counter:72:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.perforce.P4Counter:72:0 |==> -1

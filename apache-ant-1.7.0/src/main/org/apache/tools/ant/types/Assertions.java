@@ -76,7 +76,7 @@ public class Assertions extends DataType implements Cloneable {
     /**
      * list of type BaseAssertion
      */
-    private ArrayList assertionList = new ArrayList();
+    private ArrayList assertionList = null;
 
 
     /**
@@ -84,8 +84,8 @@ public class Assertions extends DataType implements Cloneable {
      * @param assertion an enable assertion nested element
      */
     public void addEnable(EnabledAssertion assertion) {
-        checkChildrenAllowed();
-        assertionList.add(assertion);
+        ;
+        ;
     }
 
     /**
@@ -93,8 +93,8 @@ public class Assertions extends DataType implements Cloneable {
      * @param assertion a disable assertion nested element
      */
     public void addDisable(DisabledAssertion assertion) {
-        checkChildrenAllowed();
-        assertionList.add(assertion);
+        ;
+        ;
     }
 
     /**

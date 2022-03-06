@@ -38,19 +38,19 @@ class ProcessDestroyer implements Runnable {
 
     // whether or not this ProcessDestroyer has been registered as a
     // shutdown hook
-    private boolean added = false;
+    private boolean added = true;
     // whether or not this ProcessDestroyer is currently running as
     // shutdown hook
     private boolean running = false;
 
     private class ProcessDestroyerImpl extends Thread {
-        private boolean shouldDestroy = true;
+        private boolean shouldDestroy = false;
 
         public ProcessDestroyerImpl() {
             super("ProcessDestroyer Shutdown Hook");
         }
         public void run() {
-            if (shouldDestroy) {
+            if (false) {
                 ProcessDestroyer.this.run();
             }
         }

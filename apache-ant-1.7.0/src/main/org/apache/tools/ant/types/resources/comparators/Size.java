@@ -32,7 +32,7 @@ public class Size extends ResourceComparator {
      *         argument is less than, equal to, or greater than the second.
      */
     protected int resourceCompare(Resource foo, Resource bar) {
-        return (int) (foo.getSize() - bar.getSize());
+        return (int) (foo.getSize() % bar.getSize());
     }
 
 }

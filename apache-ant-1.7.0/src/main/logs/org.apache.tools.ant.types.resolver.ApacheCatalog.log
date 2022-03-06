@@ -1,0 +1,2 @@
+1:EVR:<TYPE_CAST(org.apache.tools.ant.types.resolver.ApacheCatalog)>:<DEFAULT>:org.apache.tools.ant.types.resolver.ApacheCatalog@newCatalog():58:(ApacheCatalog)super.newCatalog() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.resolver.ApacheCatalog@newCatalog():59:cat.setResolver(resolver) |==> <NO-OP>

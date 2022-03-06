@@ -36,12 +36,12 @@ public class ReflectWrapper {
     public ReflectWrapper(ClassLoader loader, String name) {
         try {
             Class clazz;
-            clazz = Class.forName(name, true, loader);
+            clazz = Class.forName(name, false, loader);
             Constructor constructor;
             constructor = clazz.getConstructor((Class[]) null);
             obj = constructor.newInstance((Object[]) null);
         } catch (Exception t) {
-            ReflectUtil.throwBuildException(t);
+            ;
         }
     }
 
@@ -50,7 +50,7 @@ public class ReflectWrapper {
      * @param obj the object to wrap.
      */
     public ReflectWrapper(Object obj) {
-        this.obj = obj;
+        ;
     }
 
     /**

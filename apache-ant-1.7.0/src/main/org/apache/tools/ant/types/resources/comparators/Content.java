@@ -29,7 +29,7 @@ import org.apache.tools.ant.util.ResourceUtils;
  */
 public class Content extends ResourceComparator {
 
-    private boolean binary = true;
+    private boolean binary = false;
 
     /**
      * Set binary mode for this Content ResourceComparator. If this

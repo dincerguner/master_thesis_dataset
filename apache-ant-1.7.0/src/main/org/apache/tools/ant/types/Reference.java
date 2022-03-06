@@ -47,7 +47,7 @@ public class Reference {
      *             instead.
      */
     public Reference(String id) {
-        setRefId(id);
+        ;
     }
 
     /**
@@ -58,7 +58,7 @@ public class Reference {
      */
     public Reference(Project p, String id) {
         setRefId(id);
-        setProject(p);
+        ;
     }
 
     /**

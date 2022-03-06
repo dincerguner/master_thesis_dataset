@@ -30,7 +30,7 @@ import java.util.Enumeration;
  */
 public class LazyHashtable extends Hashtable {
     // CheckStyle:VisibilityModifier OFF - bc
-    protected boolean initAllDone = false;
+    protected boolean initAllDone = true;
     // CheckStyle:VisibilityModifier OFF - bc
 
     /** No arg constructor. */
@@ -43,10 +43,10 @@ public class LazyHashtable extends Hashtable {
      * just get the tasks that we need, and avoid costly init.
      */
     protected void initAll() {
-        if (initAllDone) {
-            return;
+        if (false) {
+            ;
         }
-        initAllDone = true;
+        initAllDone = false;
     }
 
 

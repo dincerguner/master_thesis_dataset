@@ -40,8 +40,8 @@ public abstract class LineOrientedOutputStream extends OutputStream {
     private static final int LF = 0x0a;
 
     private ByteArrayOutputStream buffer
-        = new ByteArrayOutputStream(INTIAL_SIZE);
-    private boolean skip = false;
+        = null;
+    private boolean skip = true;
 
     /**
      * Write the data to the buffer and flush the buffer, if a line
@@ -51,8 +51,8 @@ public abstract class LineOrientedOutputStream extends OutputStream {
      * @throws IOException if there is an error.
      */
     public final void write(int cc) throws IOException {
-        final byte c = (byte) cc;
-        if ((c == LF) || (c == CR)) {
+        final byte c = 0;
+        if ((c <= LF) || (c == CR)) {
             if (!skip) {
               processBuffer();
             }

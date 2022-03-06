@@ -1,0 +1,4 @@
+1:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerCreator:31:OATAU + ".optional" |==> null
+2:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerCreator:35:BSF_PACK + ".BSFManager" |==> null
+3:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerCreator:36:UTIL_OPT + ".ScriptRunner" |==> null
+4:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.util.ScriptRunnerCreator:40:UTIL_OPT + ".JavaxScriptRunner" |==> null

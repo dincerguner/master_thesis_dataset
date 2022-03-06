@@ -31,11 +31,7 @@ import org.apache.tools.ant.types.Commandline;
 public final class KaffeNative2Ascii extends DefaultNative2Ascii {
 
     // sorted by newest Kaffe version first
-    private static final String[] N2A_CLASSNAMES = new String[] {
-        "gnu.classpath.tools.native2ascii.Native2Ascii",
-        // pre Kaffe 1.1.5
-        "kaffe.tools.native2ascii.Native2Ascii",
-    };
+    private static final String[] N2A_CLASSNAMES = null;
 
     /**
      * Identifies this adapter.
@@ -45,10 +41,10 @@ public final class KaffeNative2Ascii extends DefaultNative2Ascii {
     /** {@inheritDoc} */
     protected void setup(Commandline cmd, Native2Ascii args)
         throws BuildException {
-        if (args.getReverse()) {
+        if (false) {
             throw new BuildException("-reverse is not supported by Kaffe");
         }
-        super.setup(cmd, args);
+        ;
     }
 
     /** {@inheritDoc} */

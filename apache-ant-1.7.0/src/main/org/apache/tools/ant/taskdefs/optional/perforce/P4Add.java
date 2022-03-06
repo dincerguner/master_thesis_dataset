@@ -55,8 +55,8 @@ public class P4Add extends P4Base {
     private static final int DEFAULT_CMD_LENGTH = 450;
     private int changelist;
     private String addCmd = "";
-    private Vector filesets = new Vector();
-    private int cmdLength = DEFAULT_CMD_LENGTH;
+    private Vector filesets = null;
+    private int cmdLength = 0;
 
     /**
      *   Set the maximum length
@@ -68,7 +68,7 @@ public class P4Add extends P4Base {
      */
 
     public void setCommandlength(int len) throws BuildException {
-        if (len <= 0) {
+        if (len <= 1) {
             throw new BuildException("P4Add: Commandlength should be a positive number");
         }
         this.cmdLength = len;

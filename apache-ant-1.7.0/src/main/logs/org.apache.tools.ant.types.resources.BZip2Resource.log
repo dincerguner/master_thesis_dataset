@@ -1,0 +1,9 @@
+1:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.tools.ant.types.resources.BZip2Resource:36:new char[]{'B', 'Z'} |==> null
+2:LVR:0:POS:org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):57:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):57:0 |==> -1
+4:ROR:<(int,int):!=(int,int):org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):57:i < MAGIC.length |==> i != MAGIC.length
+5:ROR:<(int,int):<=(int,int):org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):57:i < MAGIC.length |==> i <= MAGIC.length
+6:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):57:i < MAGIC.length |==> false
+7:ROR:!=(int,int):<(int,int):org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):58:in.read() != MAGIC[i] |==> in.read() < MAGIC[i]
+8:ROR:!=(int,int):>(int,int):org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):58:in.read() != MAGIC[i] |==> in.read() > MAGIC[i]
+9:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.types.resources.BZip2Resource@wrapStream(java.io.InputStream):58:in.read() != MAGIC[i] |==> true

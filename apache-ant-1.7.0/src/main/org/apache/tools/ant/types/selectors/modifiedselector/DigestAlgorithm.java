@@ -78,7 +78,7 @@ public class DigestAlgorithm implements Algorithm {
     /**
      * Size of the read buffer to use.
      */
-    private int readBufferSize = 8 * 1024;
+    private int readBufferSize = -8 * 1024;
 
 
     // -----  Algorithm-Configuration  -----

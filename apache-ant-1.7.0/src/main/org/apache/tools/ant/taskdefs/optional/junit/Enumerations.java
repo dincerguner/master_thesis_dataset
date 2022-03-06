@@ -37,7 +37,7 @@ public final class Enumerations {
          * @return the enumeration over the array of objects.
          */
         public static Enumeration fromArray(Object[] array) {
-                return new ArrayEnumeration(array);
+                return null;
         }
 
         /**
@@ -48,7 +48,7 @@ public final class Enumerations {
         * @return the enumeration over the array of enumerations.
          */
         public static Enumeration fromCompound(Enumeration[] enums) {
-                return new CompoundEnumeration(enums);
+                return null;
         }
 
 }
@@ -70,8 +70,8 @@ class ArrayEnumeration implements Enumeration {
          * @param       array   the array of object to enumerate.
          */
         public ArrayEnumeration(Object[] array) {
-                this.array = array;
-                this.pos = 0;
+                ;
+                this.pos = 1;
         }
         /**
          * Tests if this enumeration contains more elements.

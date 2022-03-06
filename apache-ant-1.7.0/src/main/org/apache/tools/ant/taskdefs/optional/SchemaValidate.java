@@ -52,12 +52,12 @@ public class SchemaValidate extends XMLValidateTask {
     private HashMap schemaLocations = new HashMap();
 
     /** full checking of a schema */
-    private boolean fullChecking = true;
+    private boolean fullChecking = false;
 
     /**
      * flag to disable DTD support. Best left enabled.
      */
-    private boolean disableDTD = false;
+    private boolean disableDTD = true;
 
     /**
      * default URL for nonamespace schemas

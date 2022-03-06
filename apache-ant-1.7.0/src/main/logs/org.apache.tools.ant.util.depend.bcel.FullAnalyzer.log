@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.util.depend.bcel.FullAnalyzer@determineDependencies(java.util.Vector,java.util.Vector):60:new Hashtable() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.util.depend.bcel.FullAnalyzer@determineDependencies(java.util.Vector,java.util.Vector):61:new Hashtable() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.util.depend.bcel.FullAnalyzer@determineDependencies(java.util.Vector,java.util.Vector):62:new Hashtable() |==> null
