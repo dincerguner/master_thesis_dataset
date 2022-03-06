@@ -71,7 +71,7 @@ public class Sj extends DefaultCompilerAdapter {
      * @author don@bea.com
      */
     public boolean execute() throws BuildException {
-        attributes.log("Using symantec java compiler", Project.MSG_VERBOSE);
+        ;
 
         Commandline cmd = setupJavacCommand();
         cmd.setExecutable("sj");

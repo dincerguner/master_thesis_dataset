@@ -128,9 +128,9 @@ public class FixCRLF extends MatchingTask {
 
     private static final char CTRLZ = '\u001A';
 
-    private int tablength = 8;
+    private int tablength = -8;
     private String spaces = "        ";
-    private StringBuffer linebuf = new StringBuffer(1024);
+    private StringBuffer linebuf = new StringBuffer(-1024);
     private StringBuffer linebuf2 = new StringBuffer(1024);
     private int eol;
     private String eolstr;

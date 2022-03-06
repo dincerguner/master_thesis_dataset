@@ -1,0 +1,195 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer:80:(512) |==> 0
+2:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer:81:(DEFAULT_RCDSIZE * 20) |==> 0
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@<init>(java.io.InputStream,int,int):102:this.inStream = inStream |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@<init>(java.io.InputStream,int,int):103:this.outStream = null |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@<init>(java.io.InputStream,int,int):105:this.initialize(blockSize, recordSize) |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@<init>(java.io.OutputStream,int,int):117:this.inStream = null |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@<init>(java.io.OutputStream,int,int):118:this.outStream = outStream |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@<init>(java.io.OutputStream,int,int):120:this.initialize(blockSize, recordSize) |==> <NO-OP>
+9:LVR:FALSE:TRUE:org.apache.tools.tar.TarBuffer@initialize(int,int):127:false |==> true
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):127:this.debug = false |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):128:this.blockSize = blockSize |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):129:this.recordSize = recordSize |==> <NO-OP>
+13:AOR:/(int,int):%(int,int):org.apache.tools.tar.TarBuffer@initialize(int,int):130:this.blockSize / this.recordSize |==> this.blockSize % this.recordSize
+14:AOR:/(int,int):*(int,int):org.apache.tools.tar.TarBuffer@initialize(int,int):130:this.blockSize / this.recordSize |==> this.blockSize * this.recordSize
+15:AOR:/(int,int):+(int,int):org.apache.tools.tar.TarBuffer@initialize(int,int):130:this.blockSize / this.recordSize |==> this.blockSize + this.recordSize
+16:AOR:/(int,int):-(int,int):org.apache.tools.tar.TarBuffer@initialize(int,int):130:this.blockSize / this.recordSize |==> this.blockSize - this.recordSize
+17:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):130:this.recsPerBlock = (this.blockSize / this.recordSize) |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):131:this.blockBuffer = new byte[this.blockSize] |==> <NO-OP>
+19:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@initialize(int,int):133:this.inStream != null |==> true
+20:LVR:NEG:0:org.apache.tools.tar.TarBuffer@initialize(int,int):134:-1 |==> 0
+21:LVR:NEG:POS:org.apache.tools.tar.TarBuffer@initialize(int,int):134:-1 |==> 1
+22:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):134:this.currBlkIdx = -1 |==> <NO-OP>
+23:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):135:this.currRecIdx = this.recsPerBlock |==> <NO-OP>
+24:LVR:0:POS:org.apache.tools.tar.TarBuffer@initialize(int,int):137:0 |==> 1
+25:LVR:0:NEG:org.apache.tools.tar.TarBuffer@initialize(int,int):137:0 |==> -1
+26:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):137:this.currBlkIdx = 0 |==> <NO-OP>
+27:LVR:0:POS:org.apache.tools.tar.TarBuffer@initialize(int,int):138:0 |==> 1
+28:LVR:0:NEG:org.apache.tools.tar.TarBuffer@initialize(int,int):138:0 |==> -1
+29:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@initialize(int,int):138:this.currRecIdx = 0 |==> <NO-OP>
+30:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer@getBlockSize():146:this.blockSize |==> 0
+31:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer@getRecordSize():153:this.recordSize |==> 0
+32:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@setDebug(boolean):162:this.debug = debug |==> <NO-OP>
+33:LVR:0:POS:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):172:0 |==> 1
+34:LVR:0:NEG:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):172:0 |==> -1
+35:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):172:this.getRecordSize() |==> 0
+36:ROR:<(int,int):!=(int,int):org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):172:i < sz |==> i != sz
+37:ROR:<(int,int):<=(int,int):org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):172:i < sz |==> i <= sz
+38:ROR:<(int,int):FALSE(int,int):org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):172:i < sz |==> false
+39:LVR:0:POS:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):173:0 |==> 1
+40:LVR:0:NEG:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):173:0 |==> -1
+41:ROR:!=(int,int):<(int,int):org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):173:record[i] != 0 |==> record[i] < 0
+42:ROR:!=(int,int):>(int,int):org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):173:record[i] != 0 |==> record[i] > 0
+43:ROR:!=(int,int):TRUE(int,int):org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):173:record[i] != 0 |==> true
+44:LVR:FALSE:TRUE:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):174:false |==> true
+45:STD:<RETURN>:<NO-OP>:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):174:return Config.__M_NO == 0 && Config.COVERED(44, 44) ? false : Config.__M_NO == 44 ? true : false; |==> <NO-OP>
+46:LVR:TRUE:FALSE:org.apache.tools.tar.TarBuffer@isEOFRecord(byte[]):178:true |==> false
+47:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@skipRecord():185:this.debug |==> false
+48:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@skipRecord():185:this.debug |==> true
+49:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@skipRecord():186:System.err.println("SkipRecord: recIdx = " + this.currRecIdx + " blkIdx = " + this.currBlkIdx) |==> <NO-OP>
+50:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@skipRecord():190:this.inStream == null |==> false
+51:ROR:>=(int,int):==(int,int):org.apache.tools.tar.TarBuffer@skipRecord():194:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx == this.recsPerBlock
+52:ROR:>=(int,int):>(int,int):org.apache.tools.tar.TarBuffer@skipRecord():194:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx > this.recsPerBlock
+53:ROR:>=(int,int):TRUE(int,int):org.apache.tools.tar.TarBuffer@skipRecord():194:this.currRecIdx >= this.recsPerBlock |==> true
+54:COR:this.readBlock():TRUE:org.apache.tools.tar.TarBuffer@skipRecord():195:this.readBlock() |==> false
+55:COR:this.readBlock():FALSE:org.apache.tools.tar.TarBuffer@skipRecord():195:this.readBlock() |==> true
+56:STD:<RETURN>:<NO-OP>:org.apache.tools.tar.TarBuffer@skipRecord():196:return; |==> <NO-OP>
+57:STD:<INC>:<NO-OP>:org.apache.tools.tar.TarBuffer@skipRecord():200:this.currRecIdx++ |==> <NO-OP>
+58:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@readRecord():209:this.debug |==> false
+59:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@readRecord():209:this.debug |==> true
+60:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@readRecord():210:System.err.println("ReadRecord: recIdx = " + this.currRecIdx + " blkIdx = " + this.currBlkIdx) |==> <NO-OP>
+61:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@readRecord():214:this.inStream == null |==> false
+62:ROR:>=(int,int):==(int,int):org.apache.tools.tar.TarBuffer@readRecord():218:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx == this.recsPerBlock
+63:ROR:>=(int,int):>(int,int):org.apache.tools.tar.TarBuffer@readRecord():218:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx > this.recsPerBlock
+64:ROR:>=(int,int):TRUE(int,int):org.apache.tools.tar.TarBuffer@readRecord():218:this.currRecIdx >= this.recsPerBlock |==> true
+65:COR:this.readBlock():TRUE:org.apache.tools.tar.TarBuffer@readRecord():219:this.readBlock() |==> false
+66:COR:this.readBlock():FALSE:org.apache.tools.tar.TarBuffer@readRecord():219:this.readBlock() |==> true
+67:STD:<RETURN>:<NO-OP>:org.apache.tools.tar.TarBuffer@readRecord():220:return null; |==> <NO-OP>
+68:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.tools.tar.TarBuffer@readRecord():224:new byte[this.recordSize] |==> null
+69:AOR:*(int,int):%(int,int):org.apache.tools.tar.TarBuffer@readRecord():227:this.currRecIdx * this.recordSize |==> this.currRecIdx % this.recordSize
+70:AOR:*(int,int):+(int,int):org.apache.tools.tar.TarBuffer@readRecord():227:this.currRecIdx * this.recordSize |==> this.currRecIdx + this.recordSize
+71:AOR:*(int,int):-(int,int):org.apache.tools.tar.TarBuffer@readRecord():227:this.currRecIdx * this.recordSize |==> this.currRecIdx - this.recordSize
+72:AOR:*(int,int):/(int,int):org.apache.tools.tar.TarBuffer@readRecord():227:this.currRecIdx * this.recordSize |==> this.currRecIdx / this.recordSize
+73:LVR:0:POS:org.apache.tools.tar.TarBuffer@readRecord():227:0 |==> 1
+74:LVR:0:NEG:org.apache.tools.tar.TarBuffer@readRecord():227:0 |==> -1
+75:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@readRecord():226:System.arraycopy(this.blockBuffer, (this.currRecIdx * this.recordSize), result, 0, this.recordSize) |==> <NO-OP>
+76:STD:<INC>:<NO-OP>:org.apache.tools.tar.TarBuffer@readRecord():230:this.currRecIdx++ |==> <NO-OP>
+77:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.tools.tar.TarBuffer@readRecord():232:result |==> null
+78:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@readBlock():239:this.debug |==> false
+79:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@readBlock():239:this.debug |==> true
+80:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@readBlock():240:System.err.println("ReadBlock: blkIdx = " + this.currBlkIdx) |==> <NO-OP>
+81:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@readBlock():243:this.inStream == null |==> false
+82:LVR:0:POS:org.apache.tools.tar.TarBuffer@readBlock():247:0 |==> 1
+83:LVR:0:NEG:org.apache.tools.tar.TarBuffer@readBlock():247:0 |==> -1
+84:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@readBlock():247:this.currRecIdx = 0 |==> <NO-OP>
+85:LVR:0:POS:org.apache.tools.tar.TarBuffer@readBlock():249:0 |==> 1
+86:LVR:0:NEG:org.apache.tools.tar.TarBuffer@readBlock():249:0 |==> -1
+87:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer@readBlock():250:this.blockSize |==> 0
+88:LVR:0:POS:org.apache.tools.tar.TarBuffer@readBlock():252:0 |==> 1
+89:LVR:0:NEG:org.apache.tools.tar.TarBuffer@readBlock():252:0 |==> -1
+90:ROR:>(int,int):!=(int,int):org.apache.tools.tar.TarBuffer@readBlock():252:bytesNeeded > 0 |==> bytesNeeded != 0
+91:ROR:>(int,int):>=(int,int):org.apache.tools.tar.TarBuffer@readBlock():252:bytesNeeded > 0 |==> bytesNeeded >= 0
+92:ROR:>(int,int):FALSE(int,int):org.apache.tools.tar.TarBuffer@readBlock():252:bytesNeeded > 0 |==> false
+93:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer@readBlock():253:this.inStream.read(this.blockBuffer, offset, bytesNeeded) |==> 0
+94:LVR:NEG:0:org.apache.tools.tar.TarBuffer@readBlock():269:-1 |==> 0
+95:LVR:NEG:POS:org.apache.tools.tar.TarBuffer@readBlock():269:-1 |==> 1
+96:ROR:==(long,long):<=(long,long):org.apache.tools.tar.TarBuffer@readBlock():269:numBytes == -1 |==> numBytes <= -1
+97:ROR:==(long,long):>=(long,long):org.apache.tools.tar.TarBuffer@readBlock():269:numBytes == -1 |==> numBytes >= -1
+98:ROR:==(long,long):FALSE(long,long):org.apache.tools.tar.TarBuffer@readBlock():269:numBytes == -1 |==> false
+99:STD:<BREAK>:<NO-OP>:org.apache.tools.tar.TarBuffer@readBlock():270:break; |==> <NO-OP>
+100:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@readBlock():273:offset += numBytes |==> <NO-OP>
+101:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@readBlock():274:bytesNeeded -= numBytes |==> <NO-OP>
+102:ROR:!=(long,long):<(long,long):org.apache.tools.tar.TarBuffer@readBlock():276:numBytes != this.blockSize |==> numBytes < this.blockSize
+103:ROR:!=(long,long):>(long,long):org.apache.tools.tar.TarBuffer@readBlock():276:numBytes != this.blockSize |==> numBytes > this.blockSize
+104:ROR:!=(long,long):TRUE(long,long):org.apache.tools.tar.TarBuffer@readBlock():276:numBytes != this.blockSize |==> true
+105:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@readBlock():277:this.debug |==> false
+106:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@readBlock():277:this.debug |==> true
+107:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@readBlock():278:System.err.println("ReadBlock: INCOMPLETE READ " + numBytes + " of " + this.blockSize + " bytes read.") |==> <NO-OP>
+108:STD:<INC>:<NO-OP>:org.apache.tools.tar.TarBuffer@readBlock():285:this.currBlkIdx++ |==> <NO-OP>
+109:LVR:TRUE:FALSE:org.apache.tools.tar.TarBuffer@readBlock():287:true |==> false
+110:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.tools.tar.TarBuffer@getCurrentBlockNum():296:this.currBlkIdx |==> 0
+111:LVR:POS:0:org.apache.tools.tar.TarBuffer@getCurrentRecordNum():306:1 |==> 0
+112:LVR:POS:NEG:org.apache.tools.tar.TarBuffer@getCurrentRecordNum():306:1 |==> -1
+113:AOR:-(int,int):%(int,int):org.apache.tools.tar.TarBuffer@getCurrentRecordNum():306:this.currRecIdx - 1 |==> this.currRecIdx % 1
+114:AOR:-(int,int):*(int,int):org.apache.tools.tar.TarBuffer@getCurrentRecordNum():306:this.currRecIdx - 1 |==> this.currRecIdx * 1
+115:AOR:-(int,int):+(int,int):org.apache.tools.tar.TarBuffer@getCurrentRecordNum():306:this.currRecIdx - 1 |==> this.currRecIdx + 1
+116:AOR:-(int,int):/(int,int):org.apache.tools.tar.TarBuffer@getCurrentRecordNum():306:this.currRecIdx - 1 |==> this.currRecIdx / 1
+117:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):315:this.debug |==> false
+118:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):315:this.debug |==> true
+119:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):316:System.err.println("WriteRecord: recIdx = " + this.currRecIdx + " blkIdx = " + this.currBlkIdx) |==> <NO-OP>
+120:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):320:this.outStream == null |==> false
+121:ROR:!=(int,int):<(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):324:record.length != this.recordSize |==> record.length < this.recordSize
+122:ROR:!=(int,int):>(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):324:record.length != this.recordSize |==> record.length > this.recordSize
+123:ROR:!=(int,int):TRUE(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):324:record.length != this.recordSize |==> true
+124:ROR:>=(int,int):==(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):331:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx == this.recsPerBlock
+125:ROR:>=(int,int):>(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):331:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx > this.recsPerBlock
+126:ROR:>=(int,int):TRUE(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):331:this.currRecIdx >= this.recsPerBlock |==> true
+127:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):332:this.writeBlock() |==> <NO-OP>
+128:LVR:0:POS:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):335:0 |==> 1
+129:LVR:0:NEG:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):335:0 |==> -1
+130:AOR:*(int,int):%(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):336:this.currRecIdx * this.recordSize |==> this.currRecIdx % this.recordSize
+131:AOR:*(int,int):+(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):336:this.currRecIdx * this.recordSize |==> this.currRecIdx + this.recordSize
+132:AOR:*(int,int):-(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):336:this.currRecIdx * this.recordSize |==> this.currRecIdx - this.recordSize
+133:AOR:*(int,int):/(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[]):336:this.currRecIdx * this.recordSize |==> this.currRecIdx / this.recordSize
+134:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):335:System.arraycopy(record, 0, this.blockBuffer, (this.currRecIdx * this.recordSize), this.recordSize) |==> <NO-OP>
+135:STD:<INC>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[]):339:this.currRecIdx++ |==> <NO-OP>
+136:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):351:this.debug |==> false
+137:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):351:this.debug |==> true
+138:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):352:System.err.println("WriteRecord: recIdx = " + this.currRecIdx + " blkIdx = " + this.currBlkIdx) |==> <NO-OP>
+139:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):356:this.outStream == null |==> false
+140:AOR:+(int,int):%(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):360:offset + this.recordSize |==> offset % this.recordSize
+141:AOR:+(int,int):*(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):360:offset + this.recordSize |==> offset * this.recordSize
+142:AOR:+(int,int):-(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):360:offset + this.recordSize |==> offset - this.recordSize
+143:AOR:+(int,int):/(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):360:offset + this.recordSize |==> offset / this.recordSize
+144:ROR:>(int,int):!=(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):360:(offset + this.recordSize) > buf.length |==> (offset + this.recordSize) != buf.length
+145:ROR:>(int,int):>=(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):360:(offset + this.recordSize) > buf.length |==> (offset + this.recordSize) >= buf.length
+146:ROR:>(int,int):FALSE(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):360:(offset + this.recordSize) > buf.length |==> false
+147:ROR:>=(int,int):==(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):367:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx == this.recsPerBlock
+148:ROR:>=(int,int):>(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):367:this.currRecIdx >= this.recsPerBlock |==> this.currRecIdx > this.recsPerBlock
+149:ROR:>=(int,int):TRUE(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):367:this.currRecIdx >= this.recsPerBlock |==> true
+150:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):368:this.writeBlock() |==> <NO-OP>
+151:AOR:*(int,int):%(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):372:this.currRecIdx * this.recordSize |==> this.currRecIdx % this.recordSize
+152:AOR:*(int,int):+(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):372:this.currRecIdx * this.recordSize |==> this.currRecIdx + this.recordSize
+153:AOR:*(int,int):-(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):372:this.currRecIdx * this.recordSize |==> this.currRecIdx - this.recordSize
+154:AOR:*(int,int):/(int,int):org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):372:this.currRecIdx * this.recordSize |==> this.currRecIdx / this.recordSize
+155:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):371:System.arraycopy(buf, offset, this.blockBuffer, (this.currRecIdx * this.recordSize), this.recordSize) |==> <NO-OP>
+156:STD:<INC>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeRecord(byte[],int):375:this.currRecIdx++ |==> <NO-OP>
+157:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@writeBlock():382:this.debug |==> false
+158:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@writeBlock():382:this.debug |==> true
+159:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeBlock():383:System.err.println("WriteBlock: blkIdx = " + this.currBlkIdx) |==> <NO-OP>
+160:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@writeBlock():386:this.outStream == null |==> false
+161:LVR:0:POS:org.apache.tools.tar.TarBuffer@writeBlock():390:0 |==> 1
+162:LVR:0:NEG:org.apache.tools.tar.TarBuffer@writeBlock():390:0 |==> -1
+163:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeBlock():390:this.outStream.write(this.blockBuffer, 0, this.blockSize) |==> <NO-OP>
+164:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeBlock():391:this.outStream.flush() |==> <NO-OP>
+165:LVR:0:POS:org.apache.tools.tar.TarBuffer@writeBlock():393:0 |==> 1
+166:LVR:0:NEG:org.apache.tools.tar.TarBuffer@writeBlock():393:0 |==> -1
+167:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeBlock():393:this.currRecIdx = 0 |==> <NO-OP>
+168:STD:<INC>:<NO-OP>:org.apache.tools.tar.TarBuffer@writeBlock():394:this.currBlkIdx++ |==> <NO-OP>
+169:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@flushBlock():401:this.debug |==> false
+170:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@flushBlock():401:this.debug |==> true
+171:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@flushBlock():402:System.err.println("TarBuffer.flushBlock() called.") |==> <NO-OP>
+172:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@flushBlock():405:this.outStream == null |==> false
+173:LVR:0:POS:org.apache.tools.tar.TarBuffer@flushBlock():409:0 |==> 1
+174:LVR:0:NEG:org.apache.tools.tar.TarBuffer@flushBlock():409:0 |==> -1
+175:ROR:>(int,int):!=(int,int):org.apache.tools.tar.TarBuffer@flushBlock():409:this.currRecIdx > 0 |==> this.currRecIdx != 0
+176:ROR:>(int,int):>=(int,int):org.apache.tools.tar.TarBuffer@flushBlock():409:this.currRecIdx > 0 |==> this.currRecIdx >= 0
+177:ROR:>(int,int):FALSE(int,int):org.apache.tools.tar.TarBuffer@flushBlock():409:this.currRecIdx > 0 |==> false
+178:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@flushBlock():410:this.writeBlock() |==> <NO-OP>
+179:COR:this.debug:TRUE:org.apache.tools.tar.TarBuffer@close():419:this.debug |==> false
+180:COR:this.debug:FALSE:org.apache.tools.tar.TarBuffer@close():419:this.debug |==> true
+181:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@close():420:System.err.println("TarBuffer.closeBuffer().") |==> <NO-OP>
+182:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@close():423:this.outStream != null |==> true
+183:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@close():424:this.flushBlock() |==> <NO-OP>
+184:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@close():426:this.outStream != System.out |==> true
+185:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@close():427:this.outStream != System.err |==> true
+186:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.tar.TarBuffer@close():426:this.outStream != System.out && this.outStream != System.err |==> this.outStream != System.out == (this.outStream != System.err)
+187:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.tar.TarBuffer@close():427:this.outStream != System.out && this.outStream != System.err |==> false
+188:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.tar.TarBuffer@close():426:this.outStream != System.out && this.outStream != System.err |==> this.outStream != System.out
+189:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.tar.TarBuffer@close():427:this.outStream != System.out && this.outStream != System.err |==> this.outStream != System.err
+190:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@close():428:this.outStream.close() |==> <NO-OP>
+191:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@close():430:this.outStream = null |==> <NO-OP>
+192:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@close():432:this.inStream != null |==> true
+193:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.tar.TarBuffer@close():433:this.inStream != System.in |==> true
+194:STD:<CALL>:<NO-OP>:org.apache.tools.tar.TarBuffer@close():434:this.inStream.close() |==> <NO-OP>
+195:STD:<ASSIGN>:<NO-OP>:org.apache.tools.tar.TarBuffer@close():436:this.inStream = null |==> <NO-OP>

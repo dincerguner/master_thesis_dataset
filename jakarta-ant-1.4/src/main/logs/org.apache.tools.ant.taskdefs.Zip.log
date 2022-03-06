@@ -1,0 +1,7 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.Zip:80:true |==> false
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Zip:81:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Zip:82:false |==> true
+4:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Zip:85:new CRC32().getValue() |==> 0L
+5:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Zip:87:new Vector() |==> null
+6:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Zip:88:new Hashtable() |==> null
+7:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Zip:89:new Vector() |==> null

@@ -69,12 +69,12 @@ public class Sleep extends Task {
     /**
      * failure flag
      */
-    private boolean failOnError = true;
+    private boolean failOnError = false;
 
     /**
      * Description of the Field
      */
-    private int seconds = 0;
+    private int seconds = 1;
     /**
      * Description of the Field
      */

@@ -69,7 +69,7 @@ public class JavacExternal extends DefaultCompilerAdapter {
      * Performs a compile using the Javac externally.
      */
     public boolean execute() throws BuildException {
-        attributes.log("Using external javac compiler", Project.MSG_VERBOSE);
+        ;
 
         Commandline cmd = new Commandline();
         cmd.setExecutable("javac");

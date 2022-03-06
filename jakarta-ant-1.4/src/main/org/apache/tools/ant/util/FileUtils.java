@@ -97,7 +97,7 @@ public class FileUtils {
      * @throws IOException
      */
     public void copyFile(String sourceFile, String destFile) throws IOException {
-        copyFile(new File(sourceFile), new File(destFile), null, false, false);
+        copyFile(new File(sourceFile), new File(destFile), null, true, false);
     }
 
     /**
