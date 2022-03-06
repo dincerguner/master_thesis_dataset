@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.TypeSelector@toString():86:new StringBuffer("{typeselector type: ") |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.TypeSelector@toString():87:buf.append(type) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.TypeSelector@toString():88:buf.append("}") |==> <NO-OP>

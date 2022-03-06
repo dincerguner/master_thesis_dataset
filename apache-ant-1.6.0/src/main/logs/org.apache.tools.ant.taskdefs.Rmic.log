@@ -1,0 +1,8 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Rmic:134:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Rmic:135:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Rmic:137:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Rmic:139:false |==> true
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Rmic:141:false |==> true
+6:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.Rmic:142:true |==> false
+7:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Rmic:143:false |==> true
+8:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Rmic:145:new Vector() |==> null

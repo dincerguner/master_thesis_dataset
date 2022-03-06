@@ -90,7 +90,7 @@ public class UpToDate extends Task implements Condition {
     private String _value;
     private File _sourceFile;
     private File _targetFile;
-    private Vector sourceFileSets = new Vector();
+    private Vector sourceFileSets = null;
 
     protected Mapper mapperElement = null;
 

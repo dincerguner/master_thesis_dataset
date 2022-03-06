@@ -1,0 +1,9 @@
+1:EVR:<METHOD_INVOCATION(java.lang.reflect.Method)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):94:taskClass.getMethod("execute", null) |==> null
+2:COR:Void.TYPE.equals(executeM.getReturnType()):TRUE:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):99:Void.TYPE.equals(executeM.getReturnType()) |==> false
+3:COR:Void.TYPE.equals(executeM.getReturnType()):FALSE:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):99:Void.TYPE.equals(executeM.getReturnType()) |==> true
+4:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):102:"return type of execute() should be " + "void but was \"" + executeM.getReturnType() + "\" in " + taskClass |==> null
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):103:project.log(message, Project.MSG_WARN) |==> <NO-OP>
+6:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):106:"No public execute() in " + taskClass |==> null
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@checkTaskClass(java.lang.Class,Project):107:project.log(message, Project.MSG_ERR) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.TaskAdapter@checkProxyClass(java.lang.Class):119:checkTaskClass(proxyClass, getProject()) |==> <NO-OP>
+9:EVR:<METHOD_INVOCATION(java.lang.Class<capture#364 of ? extends java.lang.Object>)>:<DEFAULT>:org.apache.tools.ant.TaskAdapter@execute():131:proxy.getClass() |==> null

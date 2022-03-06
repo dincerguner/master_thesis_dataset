@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.types.selectors.NoneSelector@toString():80:new StringBuffer() |==> null
+2:COR:hasSelectors():TRUE:org.apache.tools.ant.types.selectors.NoneSelector@toString():81:hasSelectors() |==> false
+3:COR:hasSelectors():FALSE:org.apache.tools.ant.types.selectors.NoneSelector@toString():81:hasSelectors() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.NoneSelector@toString():82:buf.append("{noneselect: ") |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.NoneSelector@toString():83:buf.append(super.toString()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.types.selectors.NoneSelector@toString():84:buf.append("}") |==> <NO-OP>

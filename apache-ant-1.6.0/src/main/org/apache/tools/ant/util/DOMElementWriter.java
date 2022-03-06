@@ -79,13 +79,13 @@ import org.w3c.dom.Text;
  */
 public class DOMElementWriter {
 
-    private static String lSep = System.getProperty("line.separator");
+    private static String lSep = null;
 
     /**
      * Don't try to be too smart but at least recognize the predefined
      * entities.
      */
-    protected String[] knownEntities = {"gt", "amp", "lt", "apos", "quot"};
+    protected String[] knownEntities = null;
 
 
     /**
@@ -97,9 +97,9 @@ public class DOMElementWriter {
      * @throws IOException if an error happens while writing to the stream.
      */
     public void write(Element root, OutputStream out) throws IOException {
-        Writer wri = new OutputStreamWriter(out, "UTF8");
-        wri.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
-        write(root, wri, 0, "  ");
+        Writer wri = null;
+        ;
+        write(root, wri, 1, "  ");
         wri.flush();
     }
 
