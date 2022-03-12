@@ -38,15 +38,11 @@ if not "%OS%" == "Windows_NT" if exist bootstrap\nul deltree/y bootstrap
 if     "%OS%" == "Windows_NT" if exist build\nul rmdir/s/q build
 if not "%OS%" == "Windows_NT" if exist build\nul deltree/y build
 
-SET LOCALCLASSPATH=lib\xercesImpl.jar;lib\xml-apis.jar
-for %%i in (lib\optional\*.jar) do call src\script\lcp.bat %%i
-if exist "%JAVA_HOME%\lib\tools.jar" call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
-if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
-
+SET LOCALCLASSPATH=lib\optional\smack-3.0.4.jar;lib\optional\commons-logging-1.2.jar;lib\optional\commons-logging.jar;lib\optional\commons-beanutils-1.6.1.jar;lib\optional\commons-collections-3.1.jar;lib\optional\commons-dbcp-1.2.jar;lib\optional\commons-httpclient-2.0.1.jar;lib\optional\commons-pool-1.2.jar;lib\optional\geronimo-j2ee-connector_1.5_spec-1.0.jar;lib\optional\geronimo-j2ee-jacc_1.0_spec-1.0.jar;lib\optional\geronimo-j2ee-management_1.0_spec-1.0.jar;lib\optional\geronimo-jms_1.1_spec-1.0.jar;lib\optional\spring-2.0.5.jar;lib\optional\xbean-spring-3.0.jar
 
 set CLASSDIR=build\classes
 
-SET CLASSPATH=%LOCALCLASSPATH%;%CLASSDIR%;src\main;%CLASSPATH%
+SET CLASSPATH=%LOCALCLASSPATH%;%CLASSDIR%;camel-core\src\main\java;%CLASSPATH%
 
 echo JAVA_HOME=%JAVA_HOME%
 echo JAVA=%JAVA%
@@ -63,7 +59,7 @@ echo.
 echo ... Compiling Ant Classes
 
 set TOOLS=camel-core/src/main/java/org/apache/camel
-"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\view\*.java %TOOLS%\*.java %TOOLS%\builder\*.java %TOOLS%\builder\xml\*.java %TOOLS%\converter\*.java %TOOLS%\converter\jaxp\*.java %TOOLS%\util\*.java %TOOLS%\spi\*.java %TOOLS%\processor\*.java %TOOLS%\processor\idempotent\*.java %TOOLS%\processor\loadbalancer\*.java %TOOLS%\impl\*.java %TOOLS%\impl\converter\*.java %TOOLS%\component\file\*.java %TOOLS%\component\direct\*.java %TOOLS%\component\mock\*.java %TOOLS%\component\pojo\timer\*.java %TOOLS%\component\pojo\*.java %TOOLS%\component\processor\*.java %TOOLS%\component\jmx\*.java %TOOLS%\component\queue\*.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\*.java %TOOLS%\view\*.java %TOOLS%\builder\*.java %TOOLS%\builder\xml\*.java %TOOLS%\converter\*.java %TOOLS%\converter\jaxp\*.java %TOOLS%\util\*.java %TOOLS%\spi\*.java %TOOLS%\processor\*.java %TOOLS%\processor\idempotent\*.java %TOOLS%\processor\loadbalancer\*.java %TOOLS%\impl\*.java %TOOLS%\impl\converter\*.java %TOOLS%\component\file\*.java %TOOLS%\component\direct\*.java %TOOLS%\component\mock\*.java %TOOLS%\component\pojo\timer\*.java %TOOLS%\component\pojo\*.java %TOOLS%\component\processor\*.java %TOOLS%\component\jmx\*.java %TOOLS%\component\queue\*.java
 
 set TOOLS=components/camel-activemq/src/main/java/org/apache/camel
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% %TOOLS%\component\activemq\*.java
