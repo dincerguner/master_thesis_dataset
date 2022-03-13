@@ -1,0 +1,70 @@
+@echo off
+
+REM You will need to specify JAVA_HOME if compiling with 1.2 or later.
+
+REM  Licensed to the Apache Software Foundation (ASF) under one or more
+REM  contributor license agreements.  See the NOTICE file distributed with
+REM  this work for additional information regarding copyright ownership.
+REM  The ASF licenses this file to You under the Apache License, Version 2.0
+REM  (the "License"); you may not use this file except in compliance with
+REM  the License.  You may obtain a copy of the License at
+REM
+REM      http://www.apache.org/licenses/LICENSE-2.0
+REM
+REM  Unless required by applicable law or agreed to in writing, software
+REM  distributed under the License is distributed on an "AS IS" BASIS,
+REM  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+REM  See the License for the specific language governing permissions and
+REM  limitations under the License.
+
+set OLDJAVA=%JAVA%
+set OLDJAVAC=%JAVAC%
+set BOOTOLDCLASSPATH=%CLASSPATH%
+set OLDANTHOME=%ANT_HOME%
+
+set ANT_HOME=.
+
+if "" == "%JAVA%"  if "" == "%JAVA_HOME%" set JAVA=java
+if "" == "%JAVA%"                         set JAVA=%JAVA_HOME%\bin\java
+
+if "" == "%JAVAC%" if "" == "%JAVA_HOME%" set JAVAC=javac
+if "" == "%JAVAC%"                        set JAVAC=%JAVA_HOME%\bin\javac
+
+echo.
+echo ... Bootstrapping Ant Distribution
+
+if     "%OS%" == "Windows_NT" if exist bootstrap\nul rmdir/s/q bootstrap
+if not "%OS%" == "Windows_NT" if exist bootstrap\nul deltree/y bootstrap
+if     "%OS%" == "Windows_NT" if exist build\nul rmdir/s/q build
+if not "%OS%" == "Windows_NT" if exist build\nul deltree/y build
+
+SET LOCALCLASSPATH=lib\xercesImpl.jar;lib\xml-apis.jar
+for %%i in (lib\optional\*.jar) do call src\script\lcp.bat %%i
+if exist "%JAVA_HOME%\lib\tools.jar" call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
+if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
+
+set TOOLS=src\main\org\apache\tools
+set CLASSDIR=build\classes
+
+SET CLASSPATH=%LOCALCLASSPATH%;%CLASSDIR%;src\main;%CLASSPATH%
+
+echo JAVA_HOME=%JAVA_HOME%
+echo JAVA=%JAVA%
+echo JAVAC=%JAVAC%
+echo CLASSPATH=%CLASSPATH%
+
+if     "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul rmdir/s/q %CLASSDIR%
+if not "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul deltree/y %CLASSDIR%
+
+if not exist build\nul mkdir build
+if not exist build\classes\nul mkdir build\classes
+
+echo.
+echo ... Compiling Ant Classes
+
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% modules\core\src\main\java\org\apache\synapse\mediators\*.java modules\core\src\main\java\org\apache\synapse\mediators\base\*.java modules\core\src\main\java\org\apache\synapse\mediators\ext\*.java modules\core\src\main\java\org\apache\synapse\mediators\transform\*.java modules\core\src\main\java\org\apache\synapse\mediators\builtin\*.java modules\core\src\main\java\org\apache\synapse\mediators\filters\*.java modules\core\src\main\java\org\apache\synapse\*.java modules\core\src\main\java\org\apache\synapse\metrics\*.java modules\core\src\main\java\org\apache\synapse\util\*.java modules\core\src\main\java\org\apache\synapse\registry\url\*.java modules\core\src\main\java\org\apache\synapse\registry\*.java modules\core\src\main\java\org\apache\synapse\endpoints\*.java modules\core\src\main\java\org\apache\synapse\endpoints\utils\*.java modules\core\src\main\java\org\apache\synapse\endpoints\dispatch\*.java modules\core\src\main\java\org\apache\synapse\endpoints\algorithms\*.java modules\core\src\main\java\org\apache\synapse\config\*.java modules\core\src\main\java\org\apache\synapse\config\xml\*.java modules\core\src\main\java\org\apache\synapse\config\xml\endpoints\*.java modules\core\src\main\java\org\apache\synapse\config\xml\endpoints\utils\*.java modules\core\src\main\java\org\apache\synapse\statistics\*.java modules\core\src\main\java\org\apache\synapse\statistics\impl\*.java modules\core\src\main\java\org\apache\synapse\core\*.java modules\core\src\main\java\org\apache\synapse\core\axis2\*.java
+
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% modules\extensions\src\main\java\org\apache\synapse\mediators\attachment\*.java modules\extensions\src\main\java\org\apache\synapse\mediators\bsf\*.java modules\extensions\src\main\java\org\apache\synapse\mediators\throttle\*.java modules\extensions\src\main\java\org\apache\synapse\mediators\spring\*.java
+
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% modules\nhttp\src\org\apache\axis2\transport\nhttp\*.java modules\nhttp\src\org\apache\axis2\transport\nhttp\util\*.java
+
