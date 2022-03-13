@@ -35,16 +35,16 @@ echo ... Bootstrapping Ant Distribution
 
 if     "%OS%" == "Windows_NT" if exist bootstrap\nul rmdir/s/q bootstrap
 if not "%OS%" == "Windows_NT" if exist bootstrap\nul deltree/y bootstrap
-if     "%OS%" == "Windows_NT" if exist build\nul rmdir/s/q build
-if not "%OS%" == "Windows_NT" if exist build\nul deltree/y build
+if     "%OS%" == "Windows_NT" if exist build2\nul rmdir/s/q build2
+if not "%OS%" == "Windows_NT" if exist build2\nul deltree/y build2
 
-SET LOCALCLASSPATH=build\lib\junit-3.7.jar;build\lib\commons-collections.jar;build\lib\oro.jar;build\lib\log4j-1.1.3.jar;build\lib\bcel-5.0rc1.jar;build\lib\antlr-runtime.jar;build\lib\jdom-b9.jar;build\lib\fop-bin-0_17_0.jar;build\lib\servlet.jar;build\lib\logkit-1.0.1.jar;build\lib\log4j-core-1.1.3.jar;build\lib\werken.xpath.jar;build\lib\w3c.jar;
+SET LOCALCLASSPATH=build\lib\ant.jar;build\lib\junit-3.7.jar;build\lib\commons-collections.jar;build\lib\oro.jar;build\lib\log4j-1.1.3.jar;build\lib\bcel-5.0rc1.jar;build\lib\antlr-runtime.jar;build\lib\jdom-b9.jar;build\lib\fop-bin-0_17_0.jar;build\lib\servlet.jar;build\lib\logkit-1.0.1.jar;build\lib\log4j-core-1.1.3.jar;build\lib\werken.xpath.jar;build\lib\w3c.jar;
 for %%i in (lib\optional\*.jar) do call src\script\lcp.bat %%i
 if exist "%JAVA_HOME%\lib\tools.jar" call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
 if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
 
 set TOOLS=src\main\org\apache\tools
-set CLASSDIR=build\classes
+set CLASSDIR=build2\classes
 
 SET CLASSPATH=%LOCALCLASSPATH%;%CLASSDIR%;src\main;%CLASSPATH%
 
@@ -56,8 +56,8 @@ echo CLASSPATH=%CLASSPATH%
 if     "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul rmdir/s/q %CLASSDIR%
 if not "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul deltree/y %CLASSDIR%
 
-if not exist build\nul mkdir build
-if not exist build\classes\nul mkdir build\classes
+if not exist build2\nul mkdir build2
+if not exist build2\classes\nul mkdir build2\classes
 
 echo.
 echo ... Compiling Ant Classes
