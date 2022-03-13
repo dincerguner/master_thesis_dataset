@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project default="check" name="CheckStyle">
+
+  <property name="checkstyle.cent.dir" value="${cents.dir}/checkstyle.${cent.dir.suffix}"/> 
+ 
+  <target name="check"><!--
+    <checkstyle headerFile="src/etc/RequiredHeader.txt"
+                headerIgnoreLine="4"
+                allowProtected="true">-->
+    
+    <mkdir dir="${xlayout.build.documentation.metrics.dir}/checkstyle"/>
+      
+    <checkstyle allowProtected="true"
+                lcurlyType="ignore"
+                lcurlyMethod="ignore"
+                lcurlyOther="ignore"
+                rcurly="ignore"
+                requirePackageHtml="true"
+                ignoreWhitespace="true"
+                ignoreCastWhitespace="true"
+                failOnViolation="false">
+
+      <formatter type="xml" toFile="${xlayout.build.documentation.metrics.dir}/checkstyle/checkstyle_errors.xml"/>
+                                
+      <fileset dir="${xlayout.source.java.dir}">
+        <include name="**/*.java"/>
+      </fileset>
+      
+    </checkstyle>
+  </target>
+
+</project>

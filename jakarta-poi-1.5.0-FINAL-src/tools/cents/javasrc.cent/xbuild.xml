@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<project default="xjavadocs" name="project build file">
+
+  <property name="javasrc.cent.dir" value="${cents.dir}/javasrc.${cent.dir.suffix}"/> 
+
+          
+  <!-- =================================================================== -->
+  <!-- Prepares the source code                                            -->
+  <!-- =================================================================== -->
+  <target name="-prepare-src">
+
+    <mkdir dir="${xlayout.build.java.dir}"/>
+    <mkdir dir="${xlayout.build.classes.dir}"/>
+    <copy todir="${xlayout.build.java.dir}" filtering="off">
+      <fileset dir="${xlayout.source.java.dir}"/>
+    </copy>
+  </target>
+
+
+  <!-- =================================================================== -->
+  <!-- Creates the API documentation in XML                                -->
+  <!-- =================================================================== -->
+  <target name="javasrc" depends="-prepare-src">
+             
+    <mkdir dir="${xlayout.build.documentation.javadocs.dir}/javasrc"/>
+    
+    
+    <java classname="javasrc.app.Pass1" fork="true" dir="." failonerror="true">
+    
+      <sysproperty key="recurse" value="true"/>
+      <sysproperty key="title" value="Java Code Documentation"/>
+      <sysproperty key="outdir" path="${xlayout.build.documentation.javadocs.dir}/javasrc"/>
+      
+      <arg value="${xlayout.build.java.dir}"/>
+ 
+      <classpath>
+       <fileset dir="${xlayout.library.endorsed.dir}"> 
+          <include name="*.jar"/>
+       </fileset>      
+       <fileset dir="." casesensitive="yes"> 
+        <patternset>
+         <include name="${cents.dir}/*.${cent.dir.suffix}/${cent.lib.dir.name}/*.jar"/>
+        </patternset>
+       </fileset>  
+       <pathelement location="${tools.jar}"/>
+     </classpath>
+    </java>
+
+    <java classname="javasrc.app.Pass2" fork="true" dir="." failonerror="true">
+    
+      <sysproperty key="recurse" value="true"/>
+      <sysproperty key="title" value="Java Code Documentation"/>
+      <sysproperty key="outdir" path="${xlayout.build.documentation.javadocs.dir}/javasrc"/>
+      
+      <arg value="${xlayout.build.java.dir}"/>
+ 
+      <classpath>
+       <fileset dir="${xlayout.library.endorsed.dir}"> 
+          <include name="*.jar"/>
+       </fileset>      
+       <fileset dir="." casesensitive="yes"> 
+        <patternset>
+         <include name="${cents.dir}/*.${cent.dir.suffix}/${cent.lib.dir.name}/*.jar"/>
+        </patternset>
+       </fileset>  
+       <pathelement location="${tools.jar}"/>
+     </classpath>
+    </java>
+    
+  </target>
+
+ 
+  
+</project>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<project default="jdepend-xml" name="JDepend project metrics">
+
+  <property name="jdepend.cent.dir" value="${cents.dir}/jdepend.${cent.dir.suffix}"/> 
+ 
+  <!-- =================================================================== -->
+  <!-- XML version                                                          -->
+  <!-- =================================================================== -->
+  <target name="jdepend-xml">
+
+    <mkdir dir="${xlayout.build.work.dir}"/>
+    <mkdir dir="${xlayout.build.work.dir}/jdepend"/>
+
+    <jdepend2 format="xml" fork="yes" outputfile="${xlayout.build.work.dir}/jdepend/jdepend-report.xml">
+        <sourcespath>
+            <pathelement location="${xlayout.build.java.dir}" />
+        </sourcespath>
+        <classpath>
+       <path> 
+       <fileset dir="." casesensitive="yes"> 
+        <patternset>
+         <include name="${cents.dir}/*.${cent.dir.suffix}/*/*.jar"/>
+         <include name="${cents.dir}/*.${cent.dir.suffix}/*/*.zip"/>
+        </patternset>
+       </fileset>         
+          <fileset dir="${xlayout.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*.jar"/>
+             <include name="*.zip"/>
+           </patternset>
+         </fileset>  
+       </path> 
+
+      <pathelement path="${xlayout.build.classes.dir}" />      
+      <pathelement location="${xlayout.build.test.dir}" />
+      <pathelement location="${xlayout.build.classes.dir}" />
+
+        </classpath>
+    </jdepend2>
+
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- HTML version                                                         -->
+  <!-- =================================================================== -->
+  <target name="jdepend-html" depends="jdepend-xml">
+  
+   <mkdir dir="${xlayout.build.documentation.metrics.dir}"/>
+   <mkdir dir="${xlayout.build.documentation.metrics.dir}/jdepend"/>
+   
+   <copy file="${jdepend.cent.dir}/resources/stylesheets/jdepend.xsl" 
+         todir="${xlayout.build.work.dir}/jdepend" filtering="off"/>
+
+    <style basedir="${xlayout.build.work.dir}/jdepend" 
+           destdir="${xlayout.build.documentation.metrics.dir}/jdepend"
+           includes="jdepend-report.xml" 
+           style="${xlayout.build.work.dir}/jdepend/jdepend.xsl" />
+
+   <copy file="${jdepend.cent.dir}/resources/stylesheets/stylesheet.css" 
+         todir="${xlayout.build.documentation.metrics.dir}/jdepend" filtering="off"/>
+
+  </target>
+
+
+
+</project>  

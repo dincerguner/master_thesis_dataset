@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<project default="compile" name="project build file">
+
+  <property name="centipede.cent.dir" value="${cents.dir}/centipede.${cent.dir.suffix}"/> 
+
+  <property name="package-name"          value="${xgump.module.project.name}"/>
+  <property name="package-ver.V"         value="${xgump.module.project.version.major}"/>
+  <property name="package-ver.v"         value="${xgump.module.project.version.minor}"/>
+  <property name="package-ver.fix"       value="${xgump.module.project.version.fix}"/>
+  <property name="package-ver.tag"       value="${xgump.module.project.version.tag}"/>    
+  <property name="package-short.version" value="${package-ver.V}.${package-ver.v}.${package-ver.fix}"/>
+  <property name="package-version"       value="${package-short.version}-${package-ver.tag}"/>
+          
+  <!-- =================================================================== -->
+  <!-- Prepares the source code                                            -->
+  <!-- =================================================================== -->
+  <target name="-prepare-src">
+
+    <mkdir dir="${xlayout.build.java.dir}"/>
+    <mkdir dir="${xlayout.build.classes.dir}"/>
+    <copy todir="${xlayout.build.java.dir}" filtering="off">
+      <fileset dir="${xlayout.source.java.dir}"/>
+    </copy>
+
+    <mkdir dir="${xlayout.build.scratchpad.java.dir}"/>
+    <mkdir dir="${xlayout.build.scratchpad.classes.dir}"/>
+    <copy todir="${xlayout.build.scratchpad.java.dir}" filtering="off">
+      <fileset dir="${xlayout.source.scratchpad.java.dir}"/>
+    </copy>
+    
+    <mkdir dir="${xlayout.build.examples.java.dir}"/>
+    <mkdir dir="${xlayout.build.examples.classes.dir}"/>
+    <copy todir="${xlayout.build.examples.java.dir}" filtering="off">
+      <fileset dir="${xlayout.source.examples.java.dir}"/>
+    </copy>
+
+    <mkdir dir="${xlayout.build.contributions.java.dir}"/>
+    <mkdir dir="${xlayout.build.contributions.classes.dir}"/>
+    <copy todir="${xlayout.build.contributions.java.dir}" filtering="off">
+      <fileset dir="${xlayout.source.contributions.java.dir}"/>
+    </copy>    
+
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Compiles the source directory                                       -->
+  <!-- =================================================================== -->
+  <target name="compile" depends="-prepare-src"
+          description="Compiles the source code">
+
+    <echo message="Compiling project core with Java ${ant.java.version}, debug ${build.compiler.debug}, optimize ${build.compiler.optimize}, deprecation ${build.compiler.deprecation}"/>
+
+    <javac srcdir=     "${xlayout.build.java.dir}"
+           destdir=    "${xlayout.build.classes.dir}"
+           debug=      "${build.compiler.debug}"
+           optimize=   "${build.compiler.optimize}"
+           deprecation="${build.compiler.deprecation}"
+           target=     "${build.compiler.vm}"
+           nowarn=     "${build.compiler.nowarn}">
+     <classpath>
+       <path>
+          <fileset dir="${xlayout.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*/*.jar"/>
+             <include name="*/*.zip"/>
+           </patternset>
+         </fileset>  
+       </path> 
+     </classpath>
+    </javac>
+
+    <!-- copy all the things that are not classes to the classes dir -->
+    <copy todir="${xlayout.build.classes.dir}" filtering="off">
+      <fileset dir="${xlayout.build.java.dir}">
+           <patternset>
+             <exclude name="**/*.java"/>
+           </patternset>
+         </fileset>        
+    </copy>
+    
+    <echo message="Compiling project scratchpad with Java ${ant.java.version}, debug ${build.compiler.debug}, optimize ${build.compiler.optimize}, deprecation ${build.compiler.deprecation}"/>
+
+    <javac srcdir=     "${xlayout.build.scratchpad.java.dir}"
+           destdir=    "${xlayout.build.scratchpad.classes.dir}"
+           debug=      "${build.compiler.debug}"
+           optimize=   "${build.compiler.optimize}"
+           deprecation="${build.compiler.deprecation}"
+           target=     "${build.compiler.vm}"
+           nowarn=     "${build.compiler.nowarn}">
+     <classpath>
+       <pathelement location="${xlayout.build.classes.dir}"/>
+       <path>
+          <fileset dir="${xlayout.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*/*.jar"/>
+             <include name="*/*.zip"/>
+           </patternset>
+         </fileset>  
+          <fileset dir="${xlayout.source.scratchpad.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*.jar"/>
+             <include name="*.zip"/>
+           </patternset>
+         </fileset>           
+       </path> 
+     </classpath>
+    </javac>
+
+    <!-- copy all the things that are not classes to the classes dir -->
+    <copy todir="${xlayout.build.scratchpad.classes.dir}" filtering="off">
+      <fileset dir="${xlayout.build.scratchpad.java.dir}">
+           <patternset>
+             <exclude name="**/*.java"/>
+           </patternset>
+         </fileset>        
+    </copy>
+    
+    <echo message="Compiling project examples with Java ${ant.java.version}, debug ${build.compiler.debug}, optimize ${build.compiler.optimize}, deprecation ${build.compiler.deprecation}"/>
+
+    <javac srcdir=     "${xlayout.build.examples.java.dir}"
+           destdir=    "${xlayout.build.examples.classes.dir}"
+           debug=      "${build.compiler.debug}"
+           optimize=   "${build.compiler.optimize}"
+           deprecation="${build.compiler.deprecation}"
+           target=     "${build.compiler.vm}"
+           nowarn=     "${build.compiler.nowarn}">
+     <classpath>
+       <pathelement location="${xlayout.build.classes.dir}"/>     
+       <path>
+          <fileset dir="${xlayout.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*/*.jar"/>
+             <include name="*/*.zip"/>
+           </patternset>
+         </fileset>  
+          <fileset dir="${xlayout.source.scratchpad.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*.jar"/>
+             <include name="*.zip"/>
+           </patternset>
+         </fileset>           
+          <fileset dir="${xlayout.source.examples.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*.jar"/>
+             <include name="*.zip"/>
+           </patternset>
+         </fileset>           
+       </path> 
+     </classpath>
+    </javac>
+
+    <!-- copy all the things that are not classes to the classes dir -->
+    <copy todir="${xlayout.build.examples.classes.dir}" filtering="off">
+      <fileset dir="${xlayout.build.examples.java.dir}">
+           <patternset>
+             <exclude name="**/*.java"/>
+           </patternset>
+         </fileset>        
+    </copy>
+    
+    <echo message="Compiling project contributions with Java ${ant.java.version}, debug ${build.compiler.debug}, optimize ${build.compiler.optimize}, deprecation ${build.compiler.deprecation}"/>
+
+    <javac srcdir=     "${xlayout.build.contributions.java.dir}"
+           destdir=    "${xlayout.build.contributions.classes.dir}"
+           debug=      "${build.compiler.debug}"
+           optimize=   "${build.compiler.optimize}"
+           deprecation="${build.compiler.deprecation}"
+           target=     "${build.compiler.vm}"
+           nowarn=     "${build.compiler.nowarn}">
+     <classpath>
+       <pathelement location="${xlayout.build.classes.dir}"/>     
+       <path>
+          <fileset dir="${xlayout.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*/*.jar"/>
+             <include name="*/*.zip"/>
+           </patternset>
+         </fileset>  
+          <fileset dir="${xlayout.source.contributions.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*.jar"/>
+             <include name="*.zip"/>
+           </patternset>
+         </fileset>                
+       </path> 
+     </classpath>
+    </javac>
+    
+    <!-- copy all the things that are not classes to the classes dir -->
+    <copy todir="${xlayout.build.contributions.classes.dir}" filtering="off">
+      <fileset dir="${xlayout.build.contributions.java.dir}">
+           <patternset>
+             <exclude name="**/*.java"/>
+           </patternset>
+         </fileset>        
+    </copy>
+       
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Creates the jar file                                                -->
+  <!-- =================================================================== -->
+  <target name="package" depends="compile" 
+          description="Generates the jar packages">
+
+    <property name="package-name-suffix" value="${package-version}-${DSTAMP}"/>
+       
+    <jar jarfile="${xlayout.build.dir}/${package-name}-${package-name-suffix}.jar">
+      <fileset dir="${xlayout.build.classes.dir}">
+        <include name="**"/>
+      </fileset>
+      <manifest>
+        <attribute name="Built-By" value="${user.name}"/>
+        <section name="common">
+          <attribute name="Specification-Title"    value="${package-name}" />
+          <attribute name="Specification-Version"  value="${package-short.version}" />
+          <attribute name="Specification-Vendor"   value="${xgump.module.vendor}" />
+          <attribute name="Implementation-Title"   value="${package-name}" />
+          <attribute name="Implementation-Version" value="${package-version}" /> 
+          <attribute name="Implementation-Vendor"  value="${xgump.module.vendor}" />
+        </section>
+      </manifest>
+    </jar>
+
+    <jar jarfile="${xlayout.build.dir}/${package-name}-scratchpad-${package-name-suffix}.jar">
+      <fileset dir="${xlayout.build.scratchpad.classes.dir}">
+        <include name="**"/>
+      </fileset>
+      <manifest>
+        <attribute name="Built-By" value="${user.name}"/>
+        <section name="common">
+          <attribute name="Specification-Title"    value="${package-name}" />
+          <attribute name="Specification-Version"  value="${package-short.version}" />
+          <attribute name="Specification-Vendor"   value="${xgump.module.vendor}" />
+          <attribute name="Implementation-Title"   value="${package-name}" />
+          <attribute name="Implementation-Version" value="${package-version}" /> 
+          <attribute name="Implementation-Vendor"  value="${xgump.module.vendor}" />
+        </section>
+      </manifest>      
+    </jar>
+
+    <jar jarfile="${xlayout.build.dir}/${package-name}-examples-${package-name-suffix}.jar">
+      <fileset dir="${xlayout.build.examples.classes.dir}">
+        <include name="**"/>
+      </fileset>
+      <manifest>
+        <attribute name="Built-By" value="${user.name}"/>
+        <section name="common">
+          <attribute name="Specification-Title"    value="${package-name}" />
+          <attribute name="Specification-Version"  value="${package-short.version}" />
+          <attribute name="Specification-Vendor"   value="${xgump.module.vendor}" />
+          <attribute name="Implementation-Title"   value="${package-name}" />
+          <attribute name="Implementation-Version" value="${package-version}" /> 
+          <attribute name="Implementation-Vendor"  value="${xgump.module.vendor}" />
+        </section>
+      </manifest>      
+    </jar>
+
+    <jar jarfile="${xlayout.build.dir}/${package-name}-contrib-${package-name-suffix}.jar">
+      <fileset dir="${xlayout.build.contributions.classes.dir}">
+        <include name="**"/>
+      </fileset>
+      <manifest>
+        <attribute name="Built-By" value="${user.name}"/>
+        <section name="common">
+          <attribute name="Specification-Title"    value="${package-name}" />
+          <attribute name="Specification-Version"  value="${package-short.version}" />
+          <attribute name="Specification-Vendor"   value="${xgump.module.vendor}" />
+          <attribute name="Implementation-Title"   value="${package-name}" />
+          <attribute name="Implementation-Version" value="${package-version}" /> 
+          <attribute name="Implementation-Vendor"  value="${xgump.module.vendor}" />
+        </section>
+      </manifest>      
+    </jar>        
+    
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- Clean target                                                        -->
+  <!-- =================================================================== -->
+  <target name="clean"  description="* Cleans the build directories">
+    <delete dir="${xlayout.build.dir}"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Creates the source distribution                                     -->
+  <!-- =================================================================== -->
+
+  <target name="dist-src" 
+          description="Prepares the source distribution">
+    <mkdir dir="${xlayout.distributions.dir}"/>
+    <mkdir dir="${xlayout.distributions.source.dir}"/>
+
+    <copy todir="${xlayout.distributions.source.dir}" filtering="off">
+      <fileset dir=".">
+         <patternset>
+          <exclude name="build"/>      
+          <exclude name="dist"/>   
+          <exclude name="build/**"/>      
+          <exclude name="dist/**"/>   
+          <exclude name="tools/tmp"/>   
+          <exclude name="tools/tmp/**"/>   
+          <exclude name="tools/cents/*.cent"/>   
+          <exclude name="tools/cents/*.cent/**"/>   
+         </patternset>
+      </fileset>
+    </copy>
+
+    <chmod perm="+x" file="${xlayout.distributions.source.dir}/build.sh"/>
+    <chmod perm="+x" file="${xlayout.distributions.source.dir}/tools/antipede/bin/antRun"/>
+    <fixcrlf srcdir="${xlayout.distributions.source.dir}" includes="**.sh"        eol="lf"/>
+    <fixcrlf srcdir="${xlayout.distributions.source.dir}" includes="antRun"       eol="lf"/>
+    <fixcrlf srcdir="${xlayout.distributions.source.dir}" includes="**.bat"      eol="crlf"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Packages the source distribution as .zip                            -->
+  <!-- =================================================================== -->
+
+  <target name="dist-src-zip" depends="dist-src" 
+          description="Generates the source distribution as a .zip file">
+    <zip zipfile="${xlayout.distributions.dir}/${package-name}-${package-version}-src.zip"
+         basedir="${xlayout.distributions.source.dir}"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Packages the source distribution with .tar.gzip                     -->
+  <!-- =================================================================== -->
+
+  <target name="dist-src-tgz" depends="dist-src" 
+          description="Generates the source distribution as a .tar.gz file">
+    <tar tarfile="${xlayout.distributions.dir}/${package-name}-${package-version}-src.tar"
+         basedir="${xlayout.distributions.source.dir}"
+         longfile="gnu"/>
+    <gzip zipfile="${xlayout.distributions.dir}/${package-name}-${package-version}-src.tar.gz"
+          src="${xlayout.distributions.dir}/${package-name}-${package-version}-src.tar"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Creates the binary distribution                                     -->
+  <!-- =================================================================== -->
+
+  <target name="dist-bin" depends="package" 
+          description="Prepares the binary distribution">
+    <mkdir dir="${xlayout.distributions.dir}"/>
+    <mkdir dir="${xlayout.distributions.bin.dir}"/>
+
+    <!-- copy core libraries -->
+    <mkdir dir="${xlayout.distributions.bin.library.core.dir}"/>   
+    <copy todir="${xlayout.distributions.bin.library.core.dir}" filtering="off">
+      <fileset dir="${xlayout.library.core.dir}"/>
+    </copy>     
+
+    <!-- copy optional libraries -->    
+    <mkdir dir="${xlayout.distributions.bin.library.optional.dir}"/>    
+    <copy todir="${xlayout.distributions.bin.library.optional.dir}" filtering="off">
+      <fileset dir="${xlayout.library.optional.dir}"/>
+    </copy>
+    
+    <!-- copy project jars -->
+    <mkdir dir="${xlayout.distributions.bin.build.dir}"/>    
+    <copy todir="${xlayout.distributions.bin.build.dir}" filtering="off">
+      <fileset dir="${xlayout.build.dir}" casesensitive="no">
+           <patternset>
+             <include name="*.jar"/>
+           </patternset>
+      </fileset>      
+    </copy>
+
+    <!-- copy documentation -->
+    <mkdir dir="${xlayout.distributions.bin.documentation.dir}"/>
+    <copy todir="${xlayout.distributions.bin.documentation.dir}" filtering="off">
+      <fileset dir="${xlayout.build.dir}/docs"/>
+    </copy>
+
+    <!-- copy legal stuff -->
+    <mkdir dir="${xlayout.distributions.bin.legal.dir}"/>    
+    <copy todir="${xlayout.distributions.bin.legal.dir}" filtering="off">
+      <fileset dir="./legal" casesensitive="no">
+           <patternset>
+             <include name="**"/>
+           </patternset>
+      </fileset>     
+    </copy>
+    
+    <!-- copy extra project info -->
+    <copy todir="${xlayout.distributions.bin.dir}" filtering="off">
+      <fileset dir="." casesensitive="no">
+           <patternset>
+             <include name="*.*ml*"/>
+             <include name="*.txt"/>
+             <include name="*.me"/>
+           </patternset>
+      </fileset>
+    </copy>
+
+    <mkdir dir="${xlayout.distributions.bin.dir}/tools/antipede/resources"/>    
+    <copy todir="${xlayout.distributions.bin.dir}/tools/antipede/resources" filtering="off">
+      <fileset dir="./tools/antipede/resources"/>
+    </copy>
+            
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Packages the binary distribution as .zip                            -->
+  <!-- =================================================================== -->
+
+  <target name="dist-bin-zip" depends="dist-bin" 
+          description="Generates the binary distribution as a .zip file">
+    <zip zipfile="${xlayout.distributions.dir}/${package-name}-${package-version}-bin.zip"
+         basedir="${xlayout.distributions.bin.dir}"/>         
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Packages the binary distribution with .tar.gzip                     -->
+  <!-- =================================================================== -->
+
+  <target name="dist-bin-tgz" depends="dist-bin" 
+          description="Generates the binary distribution as a .tar.gz file">
+    <tar tarfile="${xlayout.distributions.dir}/${package-name}-${package-version}-bin.tar"
+         basedir="${xlayout.distributions.bin.dir}"
+         longfile="gnu"/>
+    <gzip zipfile="${xlayout.distributions.dir}/${package-name}-${package-version}-bin.tar.gz"
+          src="${xlayout.distributions.dir}/${package-name}-${package-version}-bin.tar"/>
+                    
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Clean dist                                                       -->
+  <!-- =================================================================== -->
+  <target name="distclean" description="* Cleans everything to the original state">
+    <delete dir="${xlayout.distributions.dir}"/>
+  </target>
+  
+  <!-- =================================================================== -->
+  <!-- Build all distributions                                             -->
+  <!-- =================================================================== -->
+
+  <target name="dist"
+          depends="dist-info, distclean, dist-src-tgz, dist-src-zip, dist-bin-tgz, dist-bin-zip"
+          description="* Generates all distributions (source/binary)">
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Build all distributions                                             -->
+  <!-- =================================================================== -->
+
+  <target name="dist-info">
+    <echo>**********************************************</echo>
+    <echo>*</echo>
+    <echo>*  Build all distributions:</echo> 
+    <echo>*  - source distribution for windows/unix.</echo>
+    <echo>*  - binary distribution for windows/unix.</echo>
+    <echo>*</echo>        
+    <echo>*  This may take a while...</echo>        
+    <echo>*</echo>        
+    <echo>***********************************************</echo>
+    <echo/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Repack unjarred cents                                               -->
+  <!-- =================================================================== -->
+  <target name="jar-cent">  
+    <!--<property name="install.war" value="" />--> 
+    <centipede-user-input name="cent-name">Please select a cent to pack: </centipede-user-input> 
+    <jar baseDir="${cents.dir}" 
+         destFile="${xlayout.build.dir}/${cent-name}.cent.jar"
+         includes="${cent-name}.${cent.dir.suffix}/**"> 
+      <manifest>
+        <attribute name="Built-By" value="${user.name}"/>
+        <section name="common">
+          <attribute name="Specification-Title"    value="Centipede Cent" />
+          <attribute name="Specification-Version"  value="1.0" />
+          <attribute name="Specification-Vendor"   value="Krysalis Project - krysalis.org" />
+          <attribute name="Implementation-Title"   value="${cent-name}-cent" />
+          <attribute name="Implementation-Version" value="${TSTAMP}${DSTAMP}" /> 
+          <attribute name="Implementation-Vendor"  value="${xgump.module.vendor}" />
+        </section>
+      </manifest>    
+   </jar>        
+  </target>  
+
+     
+  <!-- =================================================================== -->
+  <!-- Set a variable if javadoc is already up-to-date.                    -->
+  <!-- =================================================================== -->
+  <target name="-javadocs_check">
+    <uptodate property="javadocs.notrequired" targetfile="${xlayout.build.documentation.javadocs.dir}/packages.html" >
+      <srcfiles dir= "${xlayout.build.java.dir}" includes="**/*.java"/>
+    </uptodate>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- If javadoc is already up-to-date, print a message saying so.        -->
+  <!-- =================================================================== -->
+  <target name="-javadocs_done" if="javadocs.notrequired">
+    <echo message="-------------------------------------------------------------"/>
+    <echo message="Not rebuilding Javadocs, as they are up-to-date:"/>
+    <echo message="  ${xlayout.build.documentation.javadocs.dir}/packages.html is more recent than"/>
+    <echo message="  ${xlayout.build.java.dir}/**/*.java"/>
+    <echo message="-------------------------------------------------------------"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Creates the API documentation                                       -->
+  <!-- =================================================================== -->
+  <target name="javadocs" depends="-prepare-src, -javadocs_check, -javadocs_done"
+      unless="javadocs.notrequired"
+      description="* Generates the API documentation">
+      
+       
+    <mkdir dir="${xlayout.build.documentation.javadocs.dir}"/>
+    <javadoc packagenames="${xgump.module.project.package}.*"
+             sourcepath="${xlayout.build.java.dir}"
+             destdir="${xlayout.build.documentation.javadocs.dir}"
+             author="true"
+             version="true"
+             use="true"
+             failonerror="true"
+             noindex="true"
+             windowtitle="${package-name} ${package-version}  API"
+             doctitle="${package-name} ${package-version}  API"
+             bottom="Copyright &#169; ${YEAR} Apache ${package-name} project. All Rights Reserved."
+             stylesheetfile="${centipede.cent.dir}/resources/stylesheets/javadoc.css">
+ 
+     <classpath>
+       <path>
+          <fileset dir="${xlayout.library.dir}" casesensitive="yes"> 
+           <patternset>
+             <include name="*/*.jar"/>
+             <include name="*/*.zip"/>
+           </patternset>
+         </fileset>  
+       </path> 
+     </classpath>
+     
+    </javadoc>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Centipede splash                                                    -->
+  <!-- =================================================================== -->
+  <target name="splash" description="Centipede gui splash">
+
+   <pathconvert pathsep="," property="centipede.gif.url">
+     <path>
+        <filelist dir="./${centipede.cent.dir}/resources/images" files="centipede.gif"/>
+     </path>
+   </pathconvert>
+     
+   <condition property="gui.safe">
+       <not>
+         <os family="unix" />
+       </not>
+   </condition>
+   
+   <antipede-if>
+     <equals arg1="${gui.safe}" arg2="true" />
+     <then>
+     <splash imageurl="file:/${centipede.gif.url}" showduration="100"/>  
+     </then>
+    <else>
+      <echo message="Unix OS found. Gui splash disabled." />
+    </else>     
+   </antipede-if>    
+
+  </target>
+
+     
+  <!-- =================================================================== -->
+  <!-- Fix line endings in src                                             -->
+  <!-- =================================================================== -->
+  <target name="-fixsrclf" description="Fix lf in src directory (internal use only!)">
+     <fixcrlf srcdir="${xlayout.build.java.dir}" includes="**/*.java" eol="lf"/>
+  </target>
+  
+  <target name="menu" description="menu">          
+    <echo> 
+    --------------------------------------------------------------
+
+          ${xgump.module.project.name} ${xgump.module.project.version.major}.${xgump.module.project.version.minor}   [${YEAR}]
+    
+    --------------------------------------------------------------
+     Using ${ant.version}
+     Build file ${ant.file}
+    --------------------------------------------------------------   
+     These are the most common build targets.   
+     You can also invoke them directly; see build.xml for more info. 
+     Builds will be in /build directory, distributions in /dist.        
+        
+     all -------------- creates the jars and the site      
+     compile ---------- compiles the source code      
+     test ------------- performs the jUnit tests       
+     jar -------------- create the jar files
+     docs ------------- generates the html docs - clean not needed        
+     javadocs --------- generates the API documentation   
+     site ------------- generates the html site (docs+reports)    
+     clean ------------ cleans the build directory    
+     dist ------------- creates src and bin distributions    
+     scratchpad ------- build-run scratchpad code       
+     contrib ---------- build-run contributed code    
+     generate-records - generate excel records    
+     generate-types --- generate word types    
+    
+    </echo>
+    <property name="input.selection" value="all"/>        
+    <centipede-user-input name="input.selection">Please select a target </centipede-user-input>   
+ </target>  
+  
+</project>
