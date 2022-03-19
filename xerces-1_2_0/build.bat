@@ -38,7 +38,7 @@ if not "%OS%" == "Windows_NT" if exist bootstrap\nul deltree/y bootstrap
 if     "%OS%" == "Windows_NT" if exist build\nul rmdir/s/q build
 if not "%OS%" == "Windows_NT" if exist build\nul deltree/y build
 
-SET LOCALCLASSPATH=
+SET LOCALCLASSPATH=lib\sax-2.0.1.jar;lib\jaxp-api-1.4;lib\w3c.jar
 for %%i in (lib\optional\*.jar) do call src\script\lcp.bat %%i
 if exist "%JAVA_HOME%\lib\tools.jar" call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
 if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
@@ -46,7 +46,7 @@ if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\c
 set TOOLS=src\main\org\apache\tools
 set CLASSDIR=build\classes
 
-SET CLASSPATH=%LOCALCLASSPATH%;%CLASSDIR%;src\main;%CLASSPATH%
+SET CLASSPATH=%LOCALCLASSPATH%;%CLASSDIR%;build\classes;%CLASSPATH%
 
 echo JAVA_HOME=%JAVA_HOME%
 echo JAVA=%JAVA%
@@ -62,7 +62,14 @@ if not exist build\classes\nul mkdir build\classes
 echo.
 echo ... Compiling Ant Classes
 
+
+
+
+@REM "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% src\org\apache\wml\*.java src\org\apache\wml\dom\*.java src\org\apache\html\dom\*.java src\org\apache\xml\serialize\*.java src\org\apache\xerces\dom\*.java src\org\apache\xerces\dom\events\*.java src\org\apache\xerces\readers\*.java src\org\apache\xerces\parsers\*.java src\org\apache\xerces\msg\*.java src\org\apache\xerces\utils\*.java src\org\apache\xerces\utils\regex\*.java src\org\apache\xerces\jaxp\*.java src\org\apache\xerces\domx\*.java src\org\apache\xerces\framework\*.java src\org\apache\xerces\validators\common\*.java src\org\apache\xerces\validators\schema\*.java src\org\apache\xerces\validators\datatype\*.java src\org\apache\xerces\validators\dtd\*.java src\org\xml\sax\*.java src\org\xml\sax\ext\*.java src\org\xml\sax\helpers\*.java src\org\w3c\dom\*.java src\org\w3c\dom\traversal\*.java src\org\w3c\dom\events\*.java src\org\w3c\dom\html\*.java src\org\w3c\dom\range\*.java
+
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% src\org\xml\sax\*.java src\org\xml\sax\ext\*.java src\org\xml\sax\helpers\*.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% src\org\w3c\dom\*.java src\org\w3c\dom\events\*.java src\org\w3c\dom\html\*.java src\org\w3c\dom\range\*.java src\org\w3c\dom\traversal\*.java
+
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% src\javax\xml\parsers\*.java
 
-
-"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% src\org\apache\wml\*.java src\org\apache\wml\dom\*.java src\org\apache\html\dom\*.java src\org\apache\xml\serialize\*.java src\org\apache\xerces\dom\*.java src\org\apache\xerces\dom\events\*.java src\org\apache\xerces\readers\*.java src\org\apache\xerces\parsers\*.java src\org\apache\xerces\msg\*.java src\org\apache\xerces\utils\*.java src\org\apache\xerces\utils\regex\*.java src\org\apache\xerces\jaxp\*.java src\org\apache\xerces\domx\*.java src\org\apache\xerces\framework\*.java src\org\apache\xerces\validators\common\*.java src\org\apache\xerces\validators\schema\*.java src\org\apache\xerces\validators\datatype\*.java src\org\apache\xerces\validators\dtd\*.java src\org\xml\sax\*.java src\org\xml\sax\ext\*.java src\org\xml\sax\helpers\*.java src\org\w3c\dom\*.java src\org\w3c\dom\traversal\*.java src\org\w3c\dom\events\*.java src\org\w3c\dom\html\*.java src\org\w3c\dom\range\*.java
+"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% src\org\apache\wml\*.java src\org\apache\wml\dom\*.java src\org\apache\html\dom\*.java src\org\apache\xml\serialize\*.java src\org\apache\xerces\dom\*.java src\org\apache\xerces\dom\events\*.java src\org\apache\xerces\readers\*.java src\org\apache\xerces\parsers\*.java src\org\apache\xerces\msg\*.java src\org\apache\xerces\utils\*.java src\org\apache\xerces\utils\regex\*.java src\org\apache\xerces\jaxp\*.java src\org\apache\xerces\domx\*.java src\org\apache\xerces\framework\*.java src\org\apache\xerces\validators\common\*.java src\org\apache\xerces\validators\schema\*.java src\org\apache\xerces\validators\datatype\*.java src\org\apache\xerces\validators\dtd\*.java
