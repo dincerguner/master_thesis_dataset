@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91"><channel><title>POI Changes</title><link>http://jakarta.apache.org/poi//changes.html</link><description>POI Changes</description><language>en-us</language><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              12561 (Min)	HSSFWorkbook throws Exceptions</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              12730 (Nor)	values dont get copied to another sheet.</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              13224 (Maj)	Exception thrown when cell has =Names call</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              13796 (Nor)	Error Reading Formula Record (optimized if, external link)</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              13921 (Nor)	Sheet name cannot exceed 31 characters and cannot contain :</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              14330 (Nor)	Error reading FormulaRecord</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              14460 (Nor)	Name in Formula - ArrayOutOfBoundsException</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              15228 (Cri)	[Urgent] ArrayIndexoutofbounds Exception. POI - Version 1.8</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              16488 (Maj)	Unable to open written spreadsheet in Excel, but can in Open</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              16559 (Nor)	testCustomPalette.xls crashes Excel 97</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              16560 (Nor)	testBoolErr.xls crashes Excel '97</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              17374 (Min)	HSSFFont - BOLDWEIGHT_NORMAL</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              18800 (Maj)	The sheet made by HSSFWorkbook#cloneSheet() doesn't work cor</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              18846 (Min)	[PATCH][RFE]Refactor the transformation between byte array a</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              19599 (Min)	java.lang.IllegalArgumentException</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              19961 (Nor)	[PATCH] Sheet.getColumnWidth() returns wrong value</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              21066 (Blo)	Can not modify a blank spreadsheet</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              21444 (Enh)	[PATCH] Macro functions</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              21447 (Nor)	[RFE]String Formula Cells</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              21674 (Enh)	[PATCH] Documentation changes for @(Greater|Less|Not)EqualPt</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              21863 (Enh)	[PATCH] build.xml fixes</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              22195 (Nor)	[RFE] [PATCH] Support for Storage Class ID</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              22742 (Cri)	Failed to create HSSFWorkbook!</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              22922 (Cri)	HSSFSheet.shiftRows() throws java.lang.IndexOutOfBoundsExcep</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              22963 (Nor)	org.apache.poi.hpsf.SummaryInformation.getEditTime() should</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              24149 (Maj)	Error passing inputstream to POIFSFileSystem</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              21722 (Nor)	[PATCH] Add a ProtectRecord to Sheets and give control over</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              9576  (Nor) 	[PATCH] DBCELL, INDEX EXTSST (was Acess 97 import)</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              13478 (Blo)	[PATCH] [RFE] POIFS, RawDataBlock: Missing workaround for lo</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              14824 (Nor)	Unable to modify empty sheets</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              12843 (Cri)	[PATCH] Make POI handle chinese better</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              15353 (Nor)	[RFE] creating a cell with a hyperlink</description></item><item><title>All fix</title><link>http://jakarta.apache.org/poi//changes.html</link><description>All fix
+              by 
+              POI-DEVELOPERS
+              :
+              15375 (Blo)	Post 1.5.1 POI causes spreadsheet to become unopenable.</description></item></channel></rss>
