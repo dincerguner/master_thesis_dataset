@@ -63,7 +63,7 @@ echo.
 echo ... Compiling Ant Classes
 
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% com\microstar\xml\*.java
-"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% de\masters_of_disaster\ant\tasks\calculatesize\*.java de\masters_of_disaster\ant\tasks\deb\*.java de\masters_of_disaster\ant\tasks\ar\*.java
+@REM "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% de\masters_of_disaster\ant\tasks\calculatesize\*.java de\masters_of_disaster\ant\tasks\deb\*.java de\masters_of_disaster\ant\tasks\ar\*.java
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% installer\*.java
-"%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% net\sourceforge\jarbundler\*.java
+@REM "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% net\sourceforge\jarbundler\*.java
 "%JAVAC%" %BOOTJAVAC_OPTS% -d %CLASSDIR% org\gjt\sp\util\*.java org\gjt\sp\jedit\*.java org\gjt\sp\jedit\io\*.java org\gjt\sp\jedit\print\*.java org\gjt\sp\jedit\gui\*.java org\gjt\sp\jedit\gui\statusbar\*.java org\gjt\sp\jedit\options\*.java org\gjt\sp\jedit\proto\jeditresource\*.java org\gjt\sp\jedit\bsh\*.java org\gjt\sp\jedit\bsh\commands\*.java org\gjt\sp\jedit\bsh\reflect\*.java org\gjt\sp\jedit\bsh\classpath\*.java org\gjt\sp\jedit\bsh\collection\*.java org\gjt\sp\jedit\bsh\org\objectweb\asm\*.java org\gjt\sp\jedit\msg\*.java org\gjt\sp\jedit\input\*.java org\gjt\sp\jedit\search\*.java org\gjt\sp\jedit\browser\*.java org\gjt\sp\jedit\textarea\*.java org\gjt\sp\jedit\help\*.java org\gjt\sp\jedit\bufferset\*.java org\gjt\sp\jedit\visitors\*.java org\gjt\sp\jedit\bufferio\*.java org\gjt\sp\jedit\menu\*.java org\gjt\sp\jedit\pluginmgr\*.java org\gjt\sp\jedit\indent\*.java org\gjt\sp\jedit\syntax\*.java org\gjt\sp\jedit\buffer\*.java
