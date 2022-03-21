@@ -1,0 +1,24 @@
+2007-11-08 07:17:12,582 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 07:17:13,057 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 07:17:13,201 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 07:17:13,212 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 07:17:13,225 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 07:17:13,354 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : file:key
+2007-11-08 07:17:13,370 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 07:17:13,378 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 07:17:14,205 [-] [main]  INFO XMLConfigurationBuilder Generating the Synapse configuration model by parsing the XML configuration
+2007-11-08 07:17:14,959 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : fault
+2007-11-08 07:17:14,977 [-] [main]  INFO SynapseConfigurationBuilder Loaded Synapse configuration from : ./../../repository/conf/sample/resources/spring/synapse_spring_unittest.xml
+2007-11-08 07:17:15,062 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : conf/sample/resources/spring/springsample.xml
+2007-11-08 08:18:30,753 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 08:18:31,199 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 08:18:31,326 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 08:18:31,336 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 08:18:31,452 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 08:18:31,474 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : file:key
+2007-11-08 08:18:31,488 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 08:18:31,496 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : null
+2007-11-08 08:18:32,157 [-] [main]  INFO XMLConfigurationBuilder Generating the Synapse configuration model by parsing the XML configuration
+2007-11-08 08:18:33,088 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : fault
+2007-11-08 08:18:33,091 [-] [main]  INFO SynapseConfigurationBuilder Loaded Synapse configuration from : ./../../repository/conf/sample/resources/spring/synapse_spring_unittest.xml
+2007-11-08 08:18:33,149 [-] [main]  INFO SimpleURLRegistry ==> Repository fetch of resource with key : conf/sample/resources/spring/springsample.xml
