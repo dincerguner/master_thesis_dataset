@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: BitArray.java,v 1.4 2002/06/12 20:09:26 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

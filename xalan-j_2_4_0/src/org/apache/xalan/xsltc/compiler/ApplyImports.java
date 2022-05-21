@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ApplyImports.java,v 1.10 2002/05/03 14:20:25 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

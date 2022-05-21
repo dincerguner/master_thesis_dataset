@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ExtendedSAX.java,v 1.2 2002/04/24 17:03:16 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

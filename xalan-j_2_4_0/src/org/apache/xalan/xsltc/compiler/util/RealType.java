@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: RealType.java,v 1.3 2002/02/01 20:08:11 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

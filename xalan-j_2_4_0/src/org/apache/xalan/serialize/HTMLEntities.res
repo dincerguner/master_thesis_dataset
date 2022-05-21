@@ -1,6 +1,6 @@
-# $Id: HTMLEntities.res,v 1.4 2001/11/04 05:16:50 sboag Exp $
+# $Id$
 #
-# @version $Revision: 1.4 $ $Date: 2001/11/04 05:16:50 $
+# @version $Revision$ $Date$
 # @author <a href="mailto:arkin@intalio.com">Assaf Arkin</a>
 # This file must be encoded in UTF-8; see org.apache.xalan.serialize.CharInfo
 #

@@ -1,6 +1,6 @@
 
 /*
- * @(#)$Id: XSLTCSource.java,v 1.3 2001/10/30 14:57:54 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

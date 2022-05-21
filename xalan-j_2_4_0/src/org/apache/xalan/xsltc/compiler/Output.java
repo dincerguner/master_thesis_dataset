@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Output.java,v 1.16 2002/06/19 20:01:49 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

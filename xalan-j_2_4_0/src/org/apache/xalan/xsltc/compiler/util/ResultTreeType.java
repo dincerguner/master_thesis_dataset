@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ResultTreeType.java,v 1.12 2002/08/26 15:40:29 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

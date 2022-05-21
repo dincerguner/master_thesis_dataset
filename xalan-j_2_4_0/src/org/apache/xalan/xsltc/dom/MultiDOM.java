@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: MultiDOM.java,v 1.20 2002/06/21 19:15:34 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

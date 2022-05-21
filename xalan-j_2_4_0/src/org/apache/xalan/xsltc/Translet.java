@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Translet.java,v 1.4 2002/07/25 11:44:19 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

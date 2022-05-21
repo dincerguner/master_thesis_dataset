@@ -1,5 +1,5 @@
 /*
- * $Id: IllegalArgumentException.java,v 1.1 2001/07/12 12:54:37 morten Exp $ 
+ * $Id$ 
  *
  * The Apache Software License, Version 1.1
  *

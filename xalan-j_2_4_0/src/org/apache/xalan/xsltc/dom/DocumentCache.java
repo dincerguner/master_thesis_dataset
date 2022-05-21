@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DocumentCache.java,v 1.6 2001/07/20 18:52:09 amiro Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

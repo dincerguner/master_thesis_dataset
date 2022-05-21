@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ObjectType.java,v 1.1 2002/07/25 11:42:13 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

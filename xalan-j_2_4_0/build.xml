@@ -41,7 +41,7 @@ Authors:
 
 Copyright:
   Copyright (c) 1999-2001 The Apache Software Foundation.
-   $Id: build.xml,v 1.175 2002/08/27 20:52:34 ilene Exp $
+   $Id$
 ==================================================================== -->
 
 <project name="Xalan" default="jar" basedir=".">
@@ -185,7 +185,7 @@ Copyright:
   <!-- Creates output build directories and doc prerequistes               -->
   <!-- =================================================================== -->
   <target name="prepare">
-    <echo message="Project:${Name-in-docs} version:${version} build.xml $Revision: 1.175 $"/>
+    <echo message="Project:${Name-in-docs} version:${version} build.xml $Revision$"/>
     <mkdir dir="${build.dir}"/>
     <mkdir dir="${build.classes}"/>
     <!-- Note that all testing-related targets *must* depend on 

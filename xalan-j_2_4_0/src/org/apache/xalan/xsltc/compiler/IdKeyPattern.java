@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: IdKeyPattern.java,v 1.6 2002/02/01 20:07:08 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

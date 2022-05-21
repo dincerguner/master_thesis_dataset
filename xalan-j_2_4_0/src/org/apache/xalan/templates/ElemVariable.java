@@ -556,5 +556,5 @@ public class ElemVariable extends ElemTemplateElement
   	}
   	return false;
   }
-
+
 }

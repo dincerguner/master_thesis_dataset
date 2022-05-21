@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: StripFilter.java,v 1.1 2001/08/27 11:54:35 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

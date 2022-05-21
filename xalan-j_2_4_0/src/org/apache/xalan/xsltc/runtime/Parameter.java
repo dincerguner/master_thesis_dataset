@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Parameter.java,v 1.2 2001/07/09 10:17:55 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

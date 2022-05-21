@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SmartTransformerFactoryImpl.java,v 1.5 2001/12/13 18:55:54 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

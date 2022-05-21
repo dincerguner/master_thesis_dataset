@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SAXOutput.java,v 1.12 2002/06/18 22:29:27 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

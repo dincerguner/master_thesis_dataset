@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: UnresolvedRef.java,v 1.3 2002/05/10 15:38:25 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

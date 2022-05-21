@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Stylesheet.java,v 1.43 2002/07/17 18:52:20 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

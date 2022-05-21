@@ -84,7 +84,7 @@ import org.xml.sax.SAXParseException;
  * when we re-throw errors, etc.</p>
  *
  * @author shane_curcuru@us.ibm.com
- * @version $Id: ListingErrorHandler.java,v 1.2 2002/06/07 17:13:54 sboag Exp $
+ * @version $Id$
  */
 public class ListingErrorHandler implements ErrorHandler, ErrorListener
 {

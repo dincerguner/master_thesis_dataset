@@ -134,5 +134,5 @@ public class AVTPartSimple extends AVTPart
   {
   	// Don't do anything for the subpart for right now.
   }
-
+
 }

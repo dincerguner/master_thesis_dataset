@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NameBase.java,v 1.7 2002/06/20 22:23:41 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

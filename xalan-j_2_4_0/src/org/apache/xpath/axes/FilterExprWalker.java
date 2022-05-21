@@ -341,7 +341,7 @@ public class FilterExprWalker extends AxesWalker
     {
       return m_expr;
     }
-
+
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -349,7 +349,7 @@ public class FilterExprWalker extends AxesWalker
     {
     	exp.exprSetParent(FilterExprWalker.this);
     	m_expr = exp;
-    }
+    }
   }
   
 	/**

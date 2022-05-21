@@ -1,6 +1,6 @@
 
 /*
- * @(#)$Id: LiteralExpr.java,v 1.5 2002/04/24 17:03:15 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

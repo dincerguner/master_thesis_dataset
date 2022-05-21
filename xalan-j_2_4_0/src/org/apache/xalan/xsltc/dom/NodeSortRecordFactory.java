@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NodeSortRecordFactory.java,v 1.7 2001/11/08 14:11:15 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

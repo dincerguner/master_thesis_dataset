@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Step.java,v 1.37 2002/06/27 14:56:29 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

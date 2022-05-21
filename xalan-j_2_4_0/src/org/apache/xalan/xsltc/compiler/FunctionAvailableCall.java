@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: FunctionAvailableCall.java,v 1.11 2002/08/12 11:33:59 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: AbsoluteLocationPath.java,v 1.5 2002/02/01 20:07:08 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

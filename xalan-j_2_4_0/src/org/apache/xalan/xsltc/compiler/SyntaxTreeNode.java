@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SyntaxTreeNode.java,v 1.21 2002/08/26 16:03:00 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

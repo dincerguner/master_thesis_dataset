@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ReferenceType.java,v 1.11 2002/07/30 18:30:28 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

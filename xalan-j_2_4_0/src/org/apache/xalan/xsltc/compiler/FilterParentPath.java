@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: FilterParentPath.java,v 1.10 2002/04/26 18:11:24 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

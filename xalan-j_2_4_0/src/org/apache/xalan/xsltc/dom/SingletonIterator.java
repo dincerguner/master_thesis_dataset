@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SingletonIterator.java,v 1.2 2001/06/13 12:06:25 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ErrorMessages.java,v 1.1 2001/10/31 14:17:55 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

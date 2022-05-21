@@ -545,7 +545,7 @@ public class UnionPathIterator extends LocPathIterator
     {
       return m_exprs[m_index];
     }
-
+
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -569,7 +569,7 @@ public class UnionPathIterator extends LocPathIterator
     		exp.exprSetParent(UnionPathIterator.this);
     	m_exprs[m_index] = (LocPathIterator)exp;
     }
-
+
   }
 
   /**

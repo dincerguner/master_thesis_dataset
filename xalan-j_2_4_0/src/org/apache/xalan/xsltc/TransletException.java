@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TransletException.java,v 1.2 2001/09/19 11:39:41 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

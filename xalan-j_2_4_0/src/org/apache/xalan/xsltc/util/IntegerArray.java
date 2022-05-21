@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: IntegerArray.java,v 1.2 2002/06/26 19:03:06 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

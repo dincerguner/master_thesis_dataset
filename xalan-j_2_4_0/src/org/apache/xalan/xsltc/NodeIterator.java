@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NodeIterator.java,v 1.2 2001/12/04 10:30:07 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

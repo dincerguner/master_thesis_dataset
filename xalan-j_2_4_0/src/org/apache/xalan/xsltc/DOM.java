@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DOM.java,v 1.10 2002/04/24 17:03:14 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

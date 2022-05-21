@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: StreamUnknownOutput.java,v 1.7 2002/06/26 22:55:07 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

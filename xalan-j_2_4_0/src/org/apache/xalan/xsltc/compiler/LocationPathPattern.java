@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: LocationPathPattern.java,v 1.2 2001/06/06 14:32:38 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

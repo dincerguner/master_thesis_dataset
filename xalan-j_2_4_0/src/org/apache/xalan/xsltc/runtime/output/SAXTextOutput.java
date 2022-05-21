@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SAXTextOutput.java,v 1.1 2002/06/10 15:45:59 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

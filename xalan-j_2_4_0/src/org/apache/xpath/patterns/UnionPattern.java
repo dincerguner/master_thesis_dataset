@@ -252,5 +252,5 @@ public class UnionPattern extends Expression
   	
   }
 
-
+
 }

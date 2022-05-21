@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: xpath.lex,v 1.8 2002/04/25 20:23:21 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

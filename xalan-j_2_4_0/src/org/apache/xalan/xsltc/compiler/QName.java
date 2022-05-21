@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: QName.java,v 1.4 2002/05/10 15:40:02 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

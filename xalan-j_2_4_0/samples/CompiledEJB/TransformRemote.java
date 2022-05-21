@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TransformRemote.java,v 1.1 2001/05/23 14:57:44 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

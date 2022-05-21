@@ -1,5 +1,5 @@
 /*
- * $Id: AttributeList.java,v 1.4 2001/06/06 07:41:56 morten Exp $
+ * $Id$
  *
  * The Apache Software License, Version 1.1
  *

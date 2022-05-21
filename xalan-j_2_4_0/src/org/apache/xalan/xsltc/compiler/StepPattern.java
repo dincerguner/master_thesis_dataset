@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: StepPattern.java,v 1.17 2002/07/29 21:30:51 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

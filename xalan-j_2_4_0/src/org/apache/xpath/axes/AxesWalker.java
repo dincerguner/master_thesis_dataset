@@ -623,5 +623,5 @@ public class AxesWalker extends PredicatedNodeTest
   protected int m_axis = -1;
 
   /** The DTM inner traversal class, that corresponds to the super axis. */
-  protected DTMAxisTraverser m_traverser; 
+  protected DTMAxisTraverser m_traverser; 
 }

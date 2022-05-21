@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: OutputSettings.java,v 1.1 2001/07/16 09:06:35 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

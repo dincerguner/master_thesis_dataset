@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Otherwise.java,v 1.3 2001/10/29 11:47:25 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

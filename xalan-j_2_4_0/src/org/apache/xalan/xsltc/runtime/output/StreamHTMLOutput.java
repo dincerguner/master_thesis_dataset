@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: StreamHTMLOutput.java,v 1.17 2002/08/12 19:33:55 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

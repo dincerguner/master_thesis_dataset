@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: CompilerException.java,v 1.1 2001/04/17 18:51:23 sboag Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

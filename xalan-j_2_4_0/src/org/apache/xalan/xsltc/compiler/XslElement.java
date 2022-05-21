@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: XslElement.java,v 1.18 2002/08/23 21:31:32 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

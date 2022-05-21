@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Axis.java,v 1.3 2001/11/08 12:59:42 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

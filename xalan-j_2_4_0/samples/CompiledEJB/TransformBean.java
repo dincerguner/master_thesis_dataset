@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TransformBean.java,v 1.2 2001/07/16 09:05:37 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

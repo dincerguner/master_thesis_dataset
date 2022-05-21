@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: AttributeSet.java,v 1.12 2002/07/09 15:33:56 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

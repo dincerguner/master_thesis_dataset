@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Hashtable.java,v 1.1 2001/05/22 17:27:27 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

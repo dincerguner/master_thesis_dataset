@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DOMImpl.java,v 1.81 2002/08/27 16:55:26 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

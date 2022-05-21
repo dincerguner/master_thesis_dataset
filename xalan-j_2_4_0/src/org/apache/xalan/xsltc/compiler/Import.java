@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Import.java,v 1.16 2002/07/20 23:55:48 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

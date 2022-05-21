@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: StringValueHandler.java,v 1.5 2002/05/14 19:50:21 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

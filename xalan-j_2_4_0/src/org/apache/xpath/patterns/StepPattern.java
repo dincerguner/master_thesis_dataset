@@ -1042,7 +1042,7 @@ public class StepPattern extends NodeTest implements SubContextList, ExpressionO
   {
     return m_relativePathPattern;
   }
-
+
   /**
    * @see ExpressionOwner#setExpression(Expression)
    */
@@ -1087,5 +1087,5 @@ public class StepPattern extends NodeTest implements SubContextList, ExpressionO
   	return true;
   }
 
-
+
 }

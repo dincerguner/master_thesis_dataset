@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DefaultSAXOutputHandler.java,v 1.26 2002/05/16 11:31:45 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

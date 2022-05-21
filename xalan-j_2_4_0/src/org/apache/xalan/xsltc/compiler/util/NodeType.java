@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NodeType.java,v 1.8 2002/07/25 11:45:28 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

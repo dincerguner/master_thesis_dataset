@@ -771,7 +771,8 @@ public class XObject extends Expression implements Serializable, Cloneable
   {
   	assertion(false, "callVisitors should not be called for this object!!!");
   }
-  /**
+
+  /**
    * @see Expression#deepEquals(Expression)
    */
   public boolean deepEquals(Expression expr)

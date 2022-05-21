@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TransformerImpl.java,v 1.57 2002/08/28 20:23:22 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

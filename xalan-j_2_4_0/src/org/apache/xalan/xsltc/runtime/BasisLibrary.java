@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: BasisLibrary.java,v 1.48 2002/08/23 20:06:59 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

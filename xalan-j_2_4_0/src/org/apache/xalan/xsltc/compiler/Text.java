@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Text.java,v 1.12 2002/05/16 14:34:42 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

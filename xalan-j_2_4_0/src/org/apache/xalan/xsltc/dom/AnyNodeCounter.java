@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: AnyNodeCounter.java,v 1.1 2001/04/17 18:52:26 sboag Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

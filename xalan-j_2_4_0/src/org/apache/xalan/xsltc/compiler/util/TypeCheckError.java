@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TypeCheckError.java,v 1.2 2002/07/15 15:57:38 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

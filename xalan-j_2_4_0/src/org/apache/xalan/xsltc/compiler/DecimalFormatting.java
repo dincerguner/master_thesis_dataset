@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DecimalFormatting.java,v 1.9 2002/05/10 15:40:02 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

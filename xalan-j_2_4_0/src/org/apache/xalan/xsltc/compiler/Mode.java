@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Mode.java,v 1.24 2002/07/30 12:46:14 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

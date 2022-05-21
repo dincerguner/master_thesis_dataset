@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DOMAdapter.java,v 1.13 2002/06/21 15:36:01 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Expression.java,v 1.15 2002/08/13 19:12:32 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

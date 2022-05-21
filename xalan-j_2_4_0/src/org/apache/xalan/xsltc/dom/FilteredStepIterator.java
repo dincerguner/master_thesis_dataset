@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: FilteredStepIterator.java,v 1.5 2001/12/04 10:30:07 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

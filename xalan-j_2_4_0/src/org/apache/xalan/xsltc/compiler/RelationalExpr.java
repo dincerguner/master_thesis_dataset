@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: RelationalExpr.java,v 1.13 2002/08/23 19:20:53 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

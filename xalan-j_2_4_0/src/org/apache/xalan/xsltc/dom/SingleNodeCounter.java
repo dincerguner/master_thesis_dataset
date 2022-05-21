@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SingleNodeCounter.java,v 1.2 2001/11/02 11:31:28 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

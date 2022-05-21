@@ -307,7 +307,7 @@ public class WalkingIterator extends LocPathIterator implements ExpressionOwner
   {
     return m_firstWalker;
   }
-
+
   /**
    * @see ExpressionOwner#setExpression(Expression)
    */
@@ -340,5 +340,5 @@ public class WalkingIterator extends LocPathIterator implements ExpressionOwner
 
       return true;
     }
-
+
 }

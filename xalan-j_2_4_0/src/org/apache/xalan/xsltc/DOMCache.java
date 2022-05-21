@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DOMCache.java,v 1.2 2001/11/08 14:11:14 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

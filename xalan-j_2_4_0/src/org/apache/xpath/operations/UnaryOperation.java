@@ -173,7 +173,7 @@ public abstract class UnaryOperation extends Expression implements ExpressionOwn
   {
     return m_right;
   }
-
+
   /**
    * @see ExpressionOwner#setExpression(Expression)
    */
@@ -197,5 +197,5 @@ public abstract class UnaryOperation extends Expression implements ExpressionOwn
   	return true;
   }
 
-
+
 }

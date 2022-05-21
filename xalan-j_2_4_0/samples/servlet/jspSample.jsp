@@ -22,7 +22,7 @@
  * (value of param1 in foo.xsl).
 
  *@author Paul Campbell seapwc@halcyon.com
- *@version $Id: jspSample.jsp,v 1.1 2001/04/27 19:58:40 dleslie Exp $
+ *@version $Id$
  */
  
 

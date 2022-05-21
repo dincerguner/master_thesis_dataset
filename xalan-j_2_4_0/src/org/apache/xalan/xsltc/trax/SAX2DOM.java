@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SAX2DOM.java,v 1.14 2002/06/11 17:03:49 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

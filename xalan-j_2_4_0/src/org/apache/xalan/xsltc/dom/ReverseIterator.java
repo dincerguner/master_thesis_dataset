@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ReverseIterator.java,v 1.3 2001/09/17 08:20:55 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

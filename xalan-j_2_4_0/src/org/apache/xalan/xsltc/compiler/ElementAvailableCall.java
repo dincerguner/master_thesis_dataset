@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ElementAvailableCall.java,v 1.7 2002/06/28 19:58:54 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

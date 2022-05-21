@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Instruction.java,v 1.2 2001/10/30 08:42:55 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: When.java,v 1.10 2002/06/26 21:25:35 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

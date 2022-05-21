@@ -101,5 +101,5 @@ public class Bool extends UnaryOperation
   {
     return m_right.bool(xctxt);
   }
-
+
 }

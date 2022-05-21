@@ -73,7 +73,7 @@ import java.util.Properties;
  * to override encoding names and provide the last printable character
  * for each encoding.
  *
- * @version $Revision: 1.11 $ $Date: 2002/07/25 16:11:22 $
+ * @version $Revision$ $Date$
  * @author <a href="mailto:arkin@intalio.com">Assaf Arkin</a>
  */
 public class Encodings extends Object

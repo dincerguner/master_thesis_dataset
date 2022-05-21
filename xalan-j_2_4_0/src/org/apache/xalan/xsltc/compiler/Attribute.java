@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Attribute.java,v 1.4 2001/08/08 10:57:05 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

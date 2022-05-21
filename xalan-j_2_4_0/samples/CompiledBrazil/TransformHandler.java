@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TransformHandler.java,v 1.2 2001/07/13 10:35:54 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

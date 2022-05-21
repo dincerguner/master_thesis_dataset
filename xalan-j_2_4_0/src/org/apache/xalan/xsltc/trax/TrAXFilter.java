@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TrAXFilter.java,v 1.1 2001/06/26 17:19:58 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

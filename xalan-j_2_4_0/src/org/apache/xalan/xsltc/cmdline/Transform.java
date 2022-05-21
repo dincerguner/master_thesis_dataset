@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Transform.java,v 1.20 2002/06/11 20:11:17 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

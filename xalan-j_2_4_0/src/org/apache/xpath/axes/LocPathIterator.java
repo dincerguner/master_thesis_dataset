@@ -1063,5 +1063,5 @@ public abstract class LocPathIterator extends PredicatedNodeTest
   {
     return getLength();
   }
-
+
 }

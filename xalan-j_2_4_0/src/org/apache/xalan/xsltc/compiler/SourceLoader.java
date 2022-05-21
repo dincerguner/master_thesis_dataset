@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: SourceLoader.java,v 1.1 2001/07/20 15:24:32 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

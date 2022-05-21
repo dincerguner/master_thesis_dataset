@@ -175,7 +175,7 @@ public class FunctionOneArg extends Function implements ExpressionOwner
   {
     return m_arg0;
   }
-
+
   /**
    * @see ExpressionOwner#setExpression(Expression)
    */
@@ -207,5 +207,5 @@ public class FunctionOneArg extends Function implements ExpressionOwner
   	return true;
   }
 
-
+
 }

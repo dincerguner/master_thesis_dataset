@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: TransformServlet.java,v 1.1 2001/05/17 15:36:40 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

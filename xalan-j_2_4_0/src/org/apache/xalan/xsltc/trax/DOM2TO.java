@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DOM2TO.java,v 1.2 2002/08/23 17:41:42 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

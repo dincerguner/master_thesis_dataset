@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NodeCounter.java,v 1.6 2001/11/05 11:26:01 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

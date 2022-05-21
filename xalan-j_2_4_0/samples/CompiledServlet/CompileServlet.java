@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: CompileServlet.java,v 1.2 2001/07/13 10:36:08 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ParentPattern.java,v 1.5 2002/05/06 20:34:17 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

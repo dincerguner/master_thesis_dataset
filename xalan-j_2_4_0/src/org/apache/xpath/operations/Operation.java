@@ -191,7 +191,7 @@ public class Operation extends Expression implements ExpressionOwner
     {
       return m_left;
     }
-
+
     /**
      * @see ExpressionOwner#setExpression(Expression)
      */
@@ -213,7 +213,7 @@ public class Operation extends Expression implements ExpressionOwner
   		m_right.callVisitors(this, visitor);
   	}
   }
-
+
   /**
    * @see ExpressionOwner#getExpression()
    */
@@ -221,7 +221,7 @@ public class Operation extends Expression implements ExpressionOwner
   {
     return m_right;
   }
-
+
   /**
    * @see ExpressionOwner#setExpression(Expression)
    */
@@ -246,5 +246,5 @@ public class Operation extends Expression implements ExpressionOwner
   		return false;
   		
   	return true;
-  }
+  }
 }

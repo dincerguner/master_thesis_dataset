@@ -75,7 +75,7 @@ import org.w3c.dom.Node;
  * @see org.apache.xalan.xslt.EnvironmentCheck
  * @see org.apache.xalan.lib.Extensions
  * @author shane_curcuru@us.ibm.com
- * @version $Id: Hashtree2Node.java,v 1.1 2002/06/21 15:39:34 curcuru Exp $
+ * @version $Id$
  */
 public abstract class Hashtree2Node
 {

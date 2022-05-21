@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: StepIterator.java,v 1.12 2002/06/13 12:43:49 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: JavaCupRedirect.java,v 1.1 2001/04/24 15:51:29 curcuru Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *
@@ -70,7 +70,7 @@ import java.io.InputStream;
  * <code>java org.apache.xalan.xsltc.utils.JavaCupRedirect [args] -stdin filename.ext</code>
  *
  * @author Morten Jorgensen
- * @version $Id: JavaCupRedirect.java,v 1.1 2001/04/24 15:51:29 curcuru Exp $
+ * @version $Id$
  */
 public class JavaCupRedirect {
 

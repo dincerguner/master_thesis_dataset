@@ -391,7 +391,8 @@ public class Variable extends Expression implements PathComponent
   {
   	visitor.visitVariableRef(owner, this);
   }
-  /**
+
+  /**
    * @see Expression#deepEquals(Expression)
    */
   public boolean deepEquals(Expression expr)

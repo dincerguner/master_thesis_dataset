@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NodeIteratorBase.java,v 1.7 2002/05/14 22:12:00 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

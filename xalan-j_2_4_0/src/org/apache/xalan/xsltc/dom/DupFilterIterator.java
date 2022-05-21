@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DupFilterIterator.java,v 1.8 2001/09/26 13:26:25 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

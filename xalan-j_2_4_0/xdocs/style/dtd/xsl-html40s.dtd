@@ -24,7 +24,7 @@
          English documents.
        - Update to HTML 4.01
 
-     $Id: xsl-html40s.dtd,v 1.1 2000/12/05 13:38:18 dleslie Exp $
+     $Id$
 -->
 
 <!-- Predefined XML (REC-XML-19980210) entities -->

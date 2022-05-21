@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: DTDMonitor.java,v 1.7 2001/12/17 15:11:21 morten Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

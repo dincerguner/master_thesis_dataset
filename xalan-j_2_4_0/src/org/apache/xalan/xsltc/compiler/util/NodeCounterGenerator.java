@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NodeCounterGenerator.java,v 1.3 2002/02/01 20:08:10 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

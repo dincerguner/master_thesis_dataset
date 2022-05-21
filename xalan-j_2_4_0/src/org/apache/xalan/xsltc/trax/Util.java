@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: Util.java,v 1.1 2002/07/23 17:40:41 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

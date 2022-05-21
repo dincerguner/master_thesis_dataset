@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ParentLocationPath.java,v 1.19 2002/06/25 20:22:27 santiagopg Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

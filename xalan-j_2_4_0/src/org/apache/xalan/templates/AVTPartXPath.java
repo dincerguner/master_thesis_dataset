@@ -186,5 +186,5 @@ public class AVTPartXPath extends AVTPart
   public void callVisitors(XSLTVisitor visitor)
   {
   	m_xpath.getExpression().callVisitors(m_xpath, visitor);
-  }
+  }
 }

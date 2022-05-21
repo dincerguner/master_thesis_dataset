@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: NodeSortRecordGenerator.java,v 1.4 2002/02/01 20:08:11 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *

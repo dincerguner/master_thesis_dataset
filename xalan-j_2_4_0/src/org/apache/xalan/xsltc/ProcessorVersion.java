@@ -1,5 +1,5 @@
 /*
- * @(#)$Id: ProcessorVersion.java,v 1.1 2001/12/04 12:51:43 tmiller Exp $
+ * @(#)$Id$
  *
  * The Apache Software License, Version 1.1
  *
