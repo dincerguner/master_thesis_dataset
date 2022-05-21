@@ -38,7 +38,7 @@ if not "%OS%" == "Windows_NT" if exist bootstrap\nul deltree/y bootstrap
 if     "%OS%" == "Windows_NT" if exist build\nul rmdir/s/q build
 if not "%OS%" == "Windows_NT" if exist build\nul deltree/y build
 
-SET LOCALCLASSPATH=bin\regexp.jar;bin\ant.jar;bin\java_cup.jar;bin\xml-apis.jar;bin\BCEL.jar;bin\xercesImpl.jar;bin\xalan2jdoc.jar;bin\bsf.jar;bin\stylebook-1.0-b3_xalan-2.jar;bin\JLex.jar;bin\runtime.jar;
+SET LOCALCLASSPATH=bin\regexp.jar;bin\ant.jar;bin\java_cup.jar;bin\xml-apis.jar;bin\BCEL.jar;bin\xercesImpl.jar;bin\xalan2jdoc.jar;bin\bsf.jar;bin\stylebook-1.0-b3_xalan-2.jar;bin\JLex.jar;bin\runtime.jar;bin\xerces.jar;
 for %%i in (lib\optional\*.jar) do call src\script\lcp.bat %%i
 if exist "%JAVA_HOME%\lib\tools.jar" call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
 if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
