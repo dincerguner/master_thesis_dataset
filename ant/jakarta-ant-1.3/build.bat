@@ -1,27 +1,52 @@
 @echo off
 
+REM You will need to specify JAVA_HOME if compiling with 1.2 or later.
+
+set OLDJAVA=%JAVA%
+set OLDJAVAC=%JAVAC%
 set OLDCLASSPATH=%CLASSPATH%
-set REAL_ANT_HOME=%ANT_HOME%
-set ANT_HOME=bootstrap
-if exist bootstrap\lib\ant.jar if exist bootstrap\bin\ant.bat if exist bootstrap\bin\lcp.bat if exist bootstrap\bin\antRun.bat goto runAnt
-call bootstrap.bat
+set OLDANTHOME=%ANT_HOME%
 
-:runAnt
-set LOCALCLASSPATH=lib\parser.jar;lib\jaxp.jar;bootstrap\lib\ant.jar
-for %%i in (lib\optional\*.jar) do call bootstrap\bin\lcp.bat "%%i"
-set CLASSPATH=%LOCALCLASSPATH%;%CLASSPATH%
-set LOCALCLASSPATH=
+set ANT_HOME=.
 
-if not "%REAL_ANT_HOME%" == "" goto install_ant
-call bootstrap\bin\ant.bat %1 %2 %3 %4 %5 %6 %7 %8 %9
-goto cleanup
+if "" == "%JAVA%"  if "" == "%JAVA_HOME%" set JAVA=java
+if "" == "%JAVA%"                         set JAVA=%JAVA_HOME%\bin\java
 
-:install_ant
-call bootstrap\bin\ant.bat -Dant.install="%REAL_ANT_HOME%" %1 %2 %3 %4 %5 %6 %7 %8 %9
+if "" == "%JAVAC%" if "" == "%JAVA_HOME%" set JAVAC=javac
+if "" == "%JAVAC%"                        set JAVAC=%JAVA_HOME%\bin\javac
 
-rem clean up
-:cleanup
-set ANT_HOME=%REAL_ANT_HOME%
-set REAL_ANT_HOME=
-set CLASSPATH=%OLDCLASSPATH%
-set OLDCLASSPATH=
+echo.
+echo ... Bootstrapping Ant Distribution
+
+if     "%OS%" == "Windows_NT" if exist bootstrap rmdir/s/q bootstrap
+if not "%OS%" == "Windows_NT" if exist bootstrap deltree/y bootstrap
+
+SET LOCALCLASSPATH=lib\parser.jar;lib\jaxp.jar;lib\optional\junit.jar;lib\optional\regexp-1.3.jar;lib\optional\jakarta-oro-2.0.jar
+
+if exist %JAVA_HOME%\lib\tools.jar call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
+if exist %JAVA_HOME%\lib\classes.zip call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
+
+set TOOLS=src\main\org\apache\tools
+set CLASSDIR=classes
+
+SET CLASSPATH=%LOCALCLASSPATH%;%CLASSDIR%;src\main;%CLASSPATH%
+
+echo JAVA_HOME=%JAVA_HOME%
+echo JAVA=%JAVA%
+echo JAVAC=%JAVAC%
+echo CLASSPATH=%CLASSPATH%
+
+if     "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul rmdir/s/q %CLASSDIR%
+if not "%OS%" == "Windows_NT" if exist %CLASSDIR%\nul deltree/y %CLASSDIR%
+
+if not exist %CLASSDIR% mkdir %CLASSDIR%
+if not exist build mkdir build
+if not exist build\classes mkdir build\classes
+
+echo.
+echo ... Compiling Ant Classes
+
+%JAVAC% -d %CLASSDIR% %TOOLS%\tar\*.java %TOOLS%\ant\*.java %TOOLS%\ant\types\*.java %TOOLS%\ant\taskdefs\*.java %TOOLS%\ant\util\*.java %TOOLS%\ant\util\regexp\RegexpMatcher.java %TOOLS%\ant\util\regexp\RegexpMatcherFactory.java
+
+%JAVAC% -d %CLASSDIR% %TOOLS%\ant\util\regexp\JakartaRegexpMatcher.java
+%JAVAC% -d %CLASSDIR% %TOOLS%\ant\util\regexp\JakartaOroMatcher.java
