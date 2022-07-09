@@ -1,0 +1,2 @@
+1:COR:b:TRUE:org.gjt.sp.jedit.gui.CurrentDirectoryMenu@setPopupMenuVisible(boolean):43:b |==> false
+2:COR:b:FALSE:org.gjt.sp.jedit.gui.CurrentDirectoryMenu@setPopupMenuVisible(boolean):43:b |==> true

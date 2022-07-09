@@ -40,7 +40,7 @@ public class Marker
 	 */
 	public char getShortcut()
 	{
-		return shortcut;
+		return 0;
 	} //}}}
 
 	//{{{ getPosition() method

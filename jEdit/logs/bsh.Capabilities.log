@@ -1,0 +1,19 @@
+1:LVR:FALSE:TRUE:bsh.Capabilities:51:false |==> true
+2:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:bsh.Capabilities@haveSwing():55:classExists("javax.swing.JButton") |==> false
+3:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:bsh.Capabilities@canGenerateInterfaces():60:classExists("java.lang.reflect.Proxy") |==> false
+4:COR:&&(boolean,boolean):==(boolean,boolean):bsh.Capabilities@haveAccessibility():75:accessibility && classExists("java.lang.reflect.AccessibleObject") |==> accessibility == classExists("java.lang.reflect.AccessibleObject")
+5:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.Capabilities@haveAccessibility():76:accessibility && classExists("java.lang.reflect.AccessibleObject") |==> false
+6:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.Capabilities@haveAccessibility():75:accessibility && classExists("java.lang.reflect.AccessibleObject") |==> accessibility
+7:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.Capabilities@haveAccessibility():76:accessibility && classExists("java.lang.reflect.AccessibleObject") |==> classExists("java.lang.reflect.AccessibleObject")
+8:COR:&&(boolean,boolean):==(boolean,boolean):bsh.Capabilities@haveAccessibility():75:accessibility && classExists("java.lang.reflect.AccessibleObject") && classExists("bsh.reflect.ReflectManagerImpl") |==> (accessibility && classExists("java.lang.reflect.AccessibleObject")) == classExists("bsh.reflect.ReflectManagerImpl")
+9:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.Capabilities@haveAccessibility():77:accessibility && classExists("java.lang.reflect.AccessibleObject") && classExists("bsh.reflect.ReflectManagerImpl") |==> false
+10:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.Capabilities@haveAccessibility():75:accessibility && classExists("java.lang.reflect.AccessibleObject") && classExists("bsh.reflect.ReflectManagerImpl") |==> accessibility && classExists("java.lang.reflect.AccessibleObject")
+11:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.Capabilities@haveAccessibility():77:accessibility && classExists("java.lang.reflect.AccessibleObject") && classExists("bsh.reflect.ReflectManagerImpl") |==> classExists("bsh.reflect.ReflectManagerImpl")
+12:STD:<ASSIGN>:<NO-OP>:bsh.Capabilities@setAccessibility(boolean):81:accessibility = b |==> <NO-OP>
+13:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.Capabilities:83:new Hashtable() |==> null
+14:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:bsh.Capabilities@classExists(java.lang.String):95:classes.get(name) |==> null
+15:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.Capabilities@classExists(java.lang.String):97:c == null |==> false
+16:EVR:<METHOD_INVOCATION(java.lang.Class<capture#906 of ?>)>:<DEFAULT>:bsh.Capabilities@classExists(java.lang.String):104:Class.forName(name) |==> null
+17:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.Capabilities@classExists(java.lang.String):107:c != null |==> true
+18:STD:<CALL>:<NO-OP>:bsh.Capabilities@classExists(java.lang.String):108:classes.put(c, "unused") |==> <NO-OP>
+19:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.Capabilities@classExists(java.lang.String):111:c != null |==> true

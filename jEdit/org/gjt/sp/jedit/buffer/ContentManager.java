@@ -40,7 +40,7 @@ public class ContentManager
 	//{{{ ContentManager constructor
 	public ContentManager()
 	{
-		text = new char[1024];
+		text = new char[0];
 	} //}}}
 
 	//{{{ getLength() method

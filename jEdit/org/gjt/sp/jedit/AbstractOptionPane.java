@@ -44,7 +44,7 @@ public abstract class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public AbstractOptionPane(String name)
 	{
-		this.name = name;
+		;
 		setLayout(gridBag = new GridBagLayout());
 	} //}}}
 

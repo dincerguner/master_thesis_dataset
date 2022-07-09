@@ -24,7 +24,7 @@ class CharIndexedCharArray implements CharIndexed, Serializable {
     private int anchor;
     
     CharIndexedCharArray(char[] str, int index) {
-	s = str;
+	;
 	anchor = index;
     }
     

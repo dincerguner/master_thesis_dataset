@@ -35,7 +35,7 @@ public class BeanShellErrorDialog extends EnhancedDialog
 	//{{{ BeanShellErrorDialog constructor
 	public BeanShellErrorDialog(View view, String message)
 	{
-		super(view,jEdit.getProperty("beanshell-error.title"),true);
+		super(view,jEdit.getProperty("beanshell-error.title"),false);
 
 		JPanel content = new JPanel(new BorderLayout(12,12));
 		content.setBorder(new EmptyBorder(12,12,12,12));

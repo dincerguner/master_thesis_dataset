@@ -51,7 +51,7 @@ public class REFilterReader extends FilterReader {
    */
   public REFilterReader(Reader stream, RE expr, String replace) {
     super(stream);
-    this.stream = new CharIndexedReader(stream,0);
+    this.stream = new CharIndexedReader(stream,1);
     this.expr = expr;
     this.replace = replace;
   }

@@ -54,7 +54,7 @@ public class REFilterInputStream extends FilterInputStream {
    */
   public REFilterInputStream(InputStream stream, RE expr, String replace) {
     super(stream);
-    this.stream = new CharIndexedInputStream(stream,0);
+    this.stream = new CharIndexedInputStream(stream,1);
     this.expr = expr;
     this.replace = replace;
   }

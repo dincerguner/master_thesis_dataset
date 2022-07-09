@@ -125,7 +125,7 @@ public class REException extends Exception {
 
   REException(String msg, int type, int position) { 
     super(msg); 
-    this.type = type;
+    ;
     this.pos = position;
   }
 

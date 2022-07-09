@@ -30,7 +30,7 @@ public class AboutDialog extends EnhancedDialog
 {
 	public AboutDialog(View view)
 	{
-		super(view,jEdit.getProperty("about.title"),true);
+		super(view,jEdit.getProperty("about.title"),false);
 
 		JPanel content = new JPanel(new BorderLayout());
 		content.setBorder(new EmptyBorder(12,12,12,12));
