@@ -1,0 +1,4 @@
+1:LVR:POS:0:org.apache.tools.ant.taskdefs.JDBCTask:141:3 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.taskdefs.JDBCTask:141:3 |==> -3
+3:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.JDBCTask:143:true |==> false
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.JDBCTask:152:false |==> true

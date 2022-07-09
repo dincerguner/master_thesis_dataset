@@ -1,0 +1,15 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:122:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:123:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:124:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:125:false |==> true
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:126:false |==> true
+6:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.Javac:130:true |==> false
+7:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:131:false |==> true
+8:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:132:false |==> true
+9:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:134:false |==> true
+10:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.Javac:139:true |==> false
+11:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Javac:140:false |==> true
+12:LVR:0:POS:org.apache.tools.ant.taskdefs.Javac:141:0 |==> 1
+13:LVR:0:NEG:org.apache.tools.ant.taskdefs.Javac:141:0 |==> -1
+14:COR:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_1):TRUE:org.apache.tools.ant.taskdefs.Javac@<init>():150:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_1) |==> false
+15:COR:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_1):FALSE:org.apache.tools.ant.taskdefs.Javac@<init>():150:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_1) |==> true

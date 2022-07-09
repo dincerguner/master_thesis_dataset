@@ -126,7 +126,7 @@ public class IntrospectionHelper implements BuildListener {
      * and boolean are in here even though they get special treatment
      * - this way we only need to test for the wrapper class.
      */
-    private static final Hashtable PRIMITIVE_TYPE_MAP = new Hashtable(8);
+    private static final Hashtable PRIMITIVE_TYPE_MAP = new Hashtable(-8);
 
     // Set up PRIMITIVE_TYPE_MAP
     static {

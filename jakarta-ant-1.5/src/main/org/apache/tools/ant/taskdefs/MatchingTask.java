@@ -82,7 +82,7 @@ import java.util.Enumeration;
 
 public abstract class MatchingTask extends Task implements SelectorContainer {
 
-    protected boolean useDefaultExcludes = true;
+    protected boolean useDefaultExcludes = false;
     protected FileSet fileset = new FileSet();
 
     /**
