@@ -32,24 +32,24 @@ public abstract class AbstractMediatorFactory implements MediatorFactory {
 
     /** the standard log for mediators, will assign the logger for the actual subclass */
     protected static Log log;
-    protected static final QName ATT_NAME    = new QName("name");
-    protected static final QName ATT_VALUE   = new QName("value");
-    protected static final QName ATT_XPATH   = new QName("xpath");
-    protected static final QName ATT_REGEX   = new QName("regex");
-    protected static final QName ATT_SEQUENCE = new QName("sequence");
-    protected static final QName ATT_EXPRN   = new QName("expression");
-    protected static final QName ATT_KEY     = new QName("key");
-    protected static final QName ATT_SOURCE  = new QName("source");
-    protected static final QName ATT_TARGET  = new QName("target");
-    protected static final QName ATT_ONERROR = new QName("onError");
+    protected static final QName ATT_NAME    = null;
+    protected static final QName ATT_VALUE   = null;
+    protected static final QName ATT_XPATH   = null;
+    protected static final QName ATT_REGEX   = null;
+    protected static final QName ATT_SEQUENCE = null;
+    protected static final QName ATT_EXPRN   = null;
+    protected static final QName ATT_KEY     = null;
+    protected static final QName ATT_SOURCE  = null;
+    protected static final QName ATT_TARGET  = null;
+    protected static final QName ATT_ONERROR = null;
     protected static final QName ATT_STATS
-        = new QName(XMLConfigConstants.STATISTICS_ATTRIB_NAME);
+        = null;
     protected static final QName PROP_Q
-        = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "property");
+        = null;
     protected static final QName FEATURE_Q
-        = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "feature");
+        = null;
     protected static final QName TARGET_Q
-        = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "target");
+        = null;
 
     /**
      * A constructor that makes subclasses pick up the correct logger

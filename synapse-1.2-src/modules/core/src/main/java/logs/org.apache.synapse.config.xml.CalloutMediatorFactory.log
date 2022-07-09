@@ -1,0 +1,8 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:44:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "callout") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:45:new QName("serviceURL") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:46:new QName("action") |==> null
+4:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:47:new QName("axis2xml") |==> null
+5:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:48:new QName("repository") |==> null
+6:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:50:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "configuration") |==> null
+7:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:52:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "source") |==> null
+8:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CalloutMediatorFactory:54:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "target") |==> null

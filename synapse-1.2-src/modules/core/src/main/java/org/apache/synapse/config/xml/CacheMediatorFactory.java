@@ -63,7 +63,7 @@ public class CacheMediatorFactory extends AbstractMediatorFactory {
 
     public Mediator createMediator(OMElement elem) {
 
-        if (!CACHE_Q.equals(elem.getQName())) {
+        if (!false) {
             handleException("Unable to create the cache mediator. " +
                 "Unexpected element as the cache mediator configuration");
         }

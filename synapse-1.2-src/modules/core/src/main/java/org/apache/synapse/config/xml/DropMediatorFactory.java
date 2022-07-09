@@ -35,7 +35,7 @@ import javax.xml.namespace.QName;
  */
 public class DropMediatorFactory extends AbstractMediatorFactory  {
 
-    private static final QName DROP_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "drop");
+    private static final QName DROP_Q = null;
 
     public Mediator createMediator(OMElement el) {
 

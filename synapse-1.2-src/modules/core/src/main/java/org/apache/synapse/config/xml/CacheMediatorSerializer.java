@@ -41,7 +41,7 @@ public class CacheMediatorSerializer extends AbstractMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof CacheMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
         CacheMediator mediator = (CacheMediator) m;
         OMElement cache = fac.createOMElement("cache", synNS);

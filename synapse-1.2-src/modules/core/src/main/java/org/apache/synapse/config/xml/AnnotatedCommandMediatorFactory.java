@@ -45,7 +45,7 @@ import java.util.Iterator;
 public class AnnotatedCommandMediatorFactory extends AbstractMediatorFactory {
 
     private static final QName ANNOTATED_COMMAND_Q =
-        new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "annotatedCommand");
+        null;
 
     public Mediator createMediator(OMElement elem) {
 
