@@ -1,0 +1,7 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.SubAnt:106:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.SubAnt:107:false |==> true
+3:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.SubAnt:108:true |==> false
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.SubAnt:111:new Vector() |==> null
+5:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.SubAnt:112:new Vector() |==> null
+6:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.SubAnt:113:new Vector() |==> null
+7:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.SubAnt@execute():118:buildpath == null |==> false

@@ -1,0 +1,62 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer:71:new Vector() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ProcessDestroyer:79:false |==> true
+3:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.ProcessDestroyer$ProcessDestroyerImpl:82:true |==> false
+4:COR:shouldDestroy:TRUE:org.apache.tools.ant.taskdefs.ProcessDestroyer$ProcessDestroyerImpl@run():88:shouldDestroy |==> false
+5:COR:shouldDestroy:FALSE:org.apache.tools.ant.taskdefs.ProcessDestroyer$ProcessDestroyerImpl@run():88:shouldDestroy |==> true
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer$ProcessDestroyerImpl@run():89:ProcessDestroyer.this.run() |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer$ProcessDestroyerImpl@setShouldDestroy(boolean):94:this.shouldDestroy = shouldDestroy |==> <NO-OP>
+8:EVR:<NEW_ARRAY(java.lang.Class[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@<init>():112:{Thread.class} |==> null
+9:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@<init>():113:addShutdownHookMethod = Runtime.class.getMethod("addShutdownHook", paramTypes) |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@<init>():116:removeShutdownHookMethod = Runtime.class.getMethod("removeShutdownHook", paramTypes) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@<init>():122:e.printStackTrace() |==> <NO-OP>
+12:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():131:addShutdownHookMethod != null |==> true
+13:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():132:destroyProcessThread = new ProcessDestroyerImpl() |==> <NO-OP>
+14:EVR:<NEW_ARRAY(java.lang.Object[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():133:{destroyProcessThread} |==> null
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():135:addShutdownHookMethod.invoke(Runtime.getRuntime(), args) |==> <NO-OP>
+16:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():136:true |==> false
+17:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():136:added = true |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():138:e.printStackTrace() |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@addShutdownHook():140:e.printStackTrace() |==> <NO-OP>
+20:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():150:removeShutdownHookMethod != null |==> true
+21:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():150:destroyProcessThread != null |==> true
+22:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():150:removeShutdownHookMethod != null && destroyProcessThread != null |==> removeShutdownHookMethod != null == (destroyProcessThread != null)
+23:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():150:removeShutdownHookMethod != null && destroyProcessThread != null |==> false
+24:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():150:removeShutdownHookMethod != null && destroyProcessThread != null |==> removeShutdownHookMethod != null
+25:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():150:removeShutdownHookMethod != null && destroyProcessThread != null |==> destroyProcessThread != null
+26:EVR:<NEW_ARRAY(java.lang.Object[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():151:{destroyProcessThread} |==> null
+27:EVR:<TYPE_CAST(java.lang.Boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():154:(Boolean)removeShutdownHookMethod.invoke(Runtime.getRuntime(), args) |==> null
+28:COR:removed.booleanValue():TRUE:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():157:removed.booleanValue() |==> false
+29:COR:removed.booleanValue():FALSE:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():157:removed.booleanValue() |==> true
+30:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():158:System.err.println("Could not remove shutdown hook") |==> <NO-OP>
+31:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():163:false |==> true
+32:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():163:destroyProcessThread.setShouldDestroy(false) |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():164:destroyProcessThread.start() |==> <NO-OP>
+34:LVR:POS:0:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():167:20000 |==> 0
+35:LVR:POS:NEG:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():167:20000 |==> -20000
+36:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():167:destroyProcessThread.join(20000) |==> <NO-OP>
+37:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():172:destroyProcessThread = null |==> <NO-OP>
+38:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():173:false |==> true
+39:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():173:added = false |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():175:e.printStackTrace() |==> <NO-OP>
+41:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@removeShutdownHook():177:e.printStackTrace() |==> <NO-OP>
+42:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@isAddedAsShutdownHook():188:added |==> false
+43:LVR:0:POS:org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):202:0 |==> 1
+44:LVR:0:NEG:org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):202:0 |==> -1
+45:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):202:processes.size() == 0 |==> processes.size() <= 0
+46:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):202:processes.size() == 0 |==> processes.size() >= 0
+47:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):202:processes.size() == 0 |==> false
+48:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):203:addShutdownHook() |==> <NO-OP>
+49:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):205:processes.addElement(process) |==> <NO-OP>
+50:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@add(java.lang.Process):206:processes.contains(process) |==> false
+51:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):220:processes.removeElement(process) |==> false
+52:LVR:0:POS:org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):221:0 |==> 1
+53:LVR:0:NEG:org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):221:0 |==> -1
+54:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):221:processes.size() == 0 |==> processes.size() <= 0
+55:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):221:processes.size() == 0 |==> processes.size() >= 0
+56:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):221:processes.size() == 0 |==> false
+57:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):222:processes.notifyAll() |==> <NO-OP>
+58:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):223:removeShutdownHook() |==> <NO-OP>
+59:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@remove(java.lang.Process):225:processRemoved |==> false
+60:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.ProcessDestroyer@run():234:processes.elements() |==> null
+61:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@run():236:((Process)e.nextElement()).destroy() |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.ProcessDestroyer@run():241:processes.wait() |==> <NO-OP>

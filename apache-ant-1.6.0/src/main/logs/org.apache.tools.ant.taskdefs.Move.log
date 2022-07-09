@@ -1,0 +1,7 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.Move@<init>():101:true |==> false
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Move@<init>():101:setOverwrite(true) |==> <NO-OP>
+3:LVR:0:POS:org.apache.tools.ant.taskdefs.Move@doFileOperations():114:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.taskdefs.Move@doFileOperations():114:0 |==> -1
+5:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.Move@doFileOperations():114:completeDirMap.size() > 0 |==> completeDirMap.size() != 0
+6:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.Move@doFileOperations():114:completeDirMap.size() > 0 |==> completeDirMap.size() >= 0
+7:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.Move@doFileOperations():114:completeDirMap.size() > 0 |==> false

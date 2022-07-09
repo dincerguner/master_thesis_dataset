@@ -82,7 +82,7 @@ public class Mkdir extends Task {
      * @throws BuildException if dir is somehow invalid, or creation failed.
      */
     public void execute() throws BuildException {
-        if (dir == null) {
+        if (false) {
             throw new BuildException("dir attribute is required", getLocation());
         }
 

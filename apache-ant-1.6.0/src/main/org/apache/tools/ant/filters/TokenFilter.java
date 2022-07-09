@@ -95,7 +95,7 @@ public class TokenFilter extends BaseFilterReader
 
 
     /** string filters */
-    private Vector    filters   = new Vector();
+    private Vector    filters   = null;
     /** the tokenizer to use on the input stream */
     private Tokenizer tokenizer = null;
     /** the output token termination */

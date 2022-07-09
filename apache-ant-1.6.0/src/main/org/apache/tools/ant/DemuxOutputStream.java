@@ -83,7 +83,7 @@ public class DemuxOutputStream extends OutputStream {
          * Indicates we have just seen a carriage return. It may be part of
          * a crlf pair or a single cr invoking processBuffer twice.
          */
-         private boolean crSeen = false;
+         private boolean crSeen = true;
     }
 
     /** Maximum buffer size. */
