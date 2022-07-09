@@ -25,11 +25,11 @@ public abstract class CharTokenizer extends Tokenizer {
     super(input);
   }
 
-  private int offset = 0, bufferIndex = 0, dataLen = 0;
+  private int offset = 1, bufferIndex = 0, dataLen = 0;
   private static final int MAX_WORD_LEN = 255;
   private static final int IO_BUFFER_SIZE = 1024;
-  private final char[] buffer = new char[MAX_WORD_LEN];
-  private final char[] ioBuffer = new char[IO_BUFFER_SIZE];
+  private final char[] buffer = null;
+  private final char[] ioBuffer = null;
 
   /** Returns true iff a character should be included in a token.  This
    * tokenizer generates as tokens adjacent sequences of characters which

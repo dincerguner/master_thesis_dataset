@@ -1,0 +1,698 @@
+1:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer:62:false |==> true
+2:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@<init>():67:b = new char[INC] |==> <NO-OP>
+3:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@<init>():68:0 |==> 1
+4:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@<init>():68:0 |==> -1
+5:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@<init>():68:i = 0 |==> <NO-OP>
+6:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@reset():76:0 |==> 1
+7:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@reset():76:0 |==> -1
+8:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@reset():76:i = 0 |==> <NO-OP>
+9:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@reset():76:false |==> true
+10:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@reset():76:dirty = false |==> <NO-OP>
+11:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):83:i + EXTRA |==> i % EXTRA
+12:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):83:i + EXTRA |==> i * EXTRA
+13:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):83:i + EXTRA |==> i - EXTRA
+14:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):83:i + EXTRA |==> i / EXTRA
+15:ROR:<=(int,int):<(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):83:b.length <= i + EXTRA |==> b.length < i + EXTRA
+16:ROR:<=(int,int):==(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):83:b.length <= i + EXTRA |==> b.length == i + EXTRA
+17:ROR:<=(int,int):TRUE(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):83:b.length <= i + EXTRA |==> true
+18:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):84:b.length + INC |==> b.length % INC
+19:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):84:b.length + INC |==> b.length * INC
+20:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):84:b.length + INC |==> b.length - INC
+21:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):84:b.length + INC |==> b.length / INC
+22:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@add(char):85:0 |==> 1
+23:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@add(char):85:0 |==> -1
+24:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):85:c < b.length |==> c != b.length
+25:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):85:c < b.length |==> c <= b.length
+26:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@add(char):85:c < b.length |==> false
+27:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@add(char):86:new_b[c] = b[c] |==> <NO-OP>
+28:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@add(char):87:b = new_b |==> <NO-OP>
+29:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@add(char):89:b[i++] = ch |==> <NO-OP>
+30:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@toString():97:0 |==> 1
+31:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@toString():97:0 |==> -1
+32:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@getResultLength():102:i |==> 0
+33:EVR:<IDENTIFIER(char[])>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@getResultBuffer():109:b |==> null
+34:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@cons(int):116:false |==> true
+35:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@cons(int):116:return Config.__M_NO == 0 && Config.COVERED(34, 34) ? false : Config.__M_NO == 34 ? true : false; |==> <NO-OP>
+36:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@cons(int):118:i == k0 |==> i <= k0
+37:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@cons(int):118:i == k0 |==> i >= k0
+38:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@cons(int):118:i == k0 |==> false
+39:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@cons(int):118:true |==> false
+40:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@cons(int):118:1 |==> 0
+41:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@cons(int):118:1 |==> -1
+42:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@cons(int):118:i - 1 |==> i % 1
+43:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@cons(int):118:i - 1 |==> i * 1
+44:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@cons(int):118:i - 1 |==> i + 1
+45:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@cons(int):118:i - 1 |==> i / 1
+46:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@cons(int):118:return (Config.__M_NO == 38 ? false : Config.__M_NO == 37 ? i >= k0 : Config.__M_NO == 36 ? i <= k0 : Config.__M_NO == 0 && Config.COVERED(36, 38) ? i == k0 : i == k0) ? Config.__M_NO == 0 && Config.COVERED(39, 39) ? true : Config.__M_NO == 39 ? false : true : !cons(Config.__M_NO == 45 ? i / 1 : Config.__M_NO == 44 ? i + 1 : Config.__M_NO == 43 ? i * 1 : Config.__M_NO == 42 ? i % 1 : Config.__M_NO == 0 && Config.COVERED(42, 45) ? i - 1 : i - (Config.__M_NO == 0 && Config.COVERED(40, 41) ? 1 : Config.__M_NO == 41 ? -1 : Config.__M_NO == 40 ? 0 : 1)); |==> <NO-OP>
+47:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@cons(int):120:true |==> false
+48:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@m():136:0 |==> 1
+49:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@m():136:0 |==> -1
+50:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@m():137:k0 |==> 0
+51:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@m():139:i > j |==> i != j
+52:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@m():139:i > j |==> i >= j
+53:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@m():139:i > j |==> false
+54:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():140:return n; |==> <NO-OP>
+55:COR:cons(i):TRUE:org.apache.lucene.analysis.PorterStemmer@m():141:cons(i) |==> false
+56:COR:cons(i):FALSE:org.apache.lucene.analysis.PorterStemmer@m():141:cons(i) |==> true
+57:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():142:break; |==> <NO-OP>
+58:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():143:i++ |==> <NO-OP>
+59:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():145:i++ |==> <NO-OP>
+60:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@m():148:i > j |==> i != j
+61:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@m():148:i > j |==> i >= j
+62:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@m():148:i > j |==> false
+63:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():149:return n; |==> <NO-OP>
+64:COR:cons(i):TRUE:org.apache.lucene.analysis.PorterStemmer@m():150:cons(i) |==> false
+65:COR:cons(i):FALSE:org.apache.lucene.analysis.PorterStemmer@m():150:cons(i) |==> true
+66:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():151:break; |==> <NO-OP>
+67:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():152:i++ |==> <NO-OP>
+68:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():154:i++ |==> <NO-OP>
+69:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():155:n++ |==> <NO-OP>
+70:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@m():157:i > j |==> i != j
+71:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@m():157:i > j |==> i >= j
+72:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@m():157:i > j |==> false
+73:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():158:return n; |==> <NO-OP>
+74:COR:cons(i):TRUE:org.apache.lucene.analysis.PorterStemmer@m():159:cons(i) |==> false
+75:COR:cons(i):FALSE:org.apache.lucene.analysis.PorterStemmer@m():159:cons(i) |==> true
+76:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():160:break; |==> <NO-OP>
+77:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():161:i++ |==> <NO-OP>
+78:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@m():163:i++ |==> <NO-OP>
+79:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@vowelinstem():171:k0 |==> 0
+80:ROR:<=(int,int):<(int,int):org.apache.lucene.analysis.PorterStemmer@vowelinstem():171:i <= j |==> i < j
+81:ROR:<=(int,int):==(int,int):org.apache.lucene.analysis.PorterStemmer@vowelinstem():171:i <= j |==> i == j
+82:ROR:<=(int,int):TRUE(int,int):org.apache.lucene.analysis.PorterStemmer@vowelinstem():171:i <= j |==> true
+83:COR:cons(i):TRUE:org.apache.lucene.analysis.PorterStemmer@vowelinstem():172:cons(i) |==> false
+84:COR:cons(i):FALSE:org.apache.lucene.analysis.PorterStemmer@vowelinstem():172:cons(i) |==> true
+85:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@vowelinstem():173:true |==> false
+86:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@vowelinstem():173:return Config.__M_NO == 0 && Config.COVERED(85, 85) ? true : Config.__M_NO == 85 ? false : true; |==> <NO-OP>
+87:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@vowelinstem():174:false |==> true
+88:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@doublec(int):180:1 |==> 0
+89:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@doublec(int):180:1 |==> -1
+90:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):180:k0 + 1 |==> k0 % 1
+91:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):180:k0 + 1 |==> k0 * 1
+92:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):180:k0 + 1 |==> k0 - 1
+93:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):180:k0 + 1 |==> k0 / 1
+94:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):180:j < k0 + 1 |==> j != k0 + 1
+95:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):180:j < k0 + 1 |==> j <= k0 + 1
+96:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):180:j < k0 + 1 |==> false
+97:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@doublec(int):181:false |==> true
+98:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@doublec(int):181:return Config.__M_NO == 0 && Config.COVERED(97, 97) ? false : Config.__M_NO == 97 ? true : false; |==> <NO-OP>
+99:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@doublec(int):182:1 |==> 0
+100:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@doublec(int):182:1 |==> -1
+101:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):182:j - 1 |==> j % 1
+102:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):182:j - 1 |==> j * 1
+103:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):182:j - 1 |==> j + 1
+104:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):182:j - 1 |==> j / 1
+105:ROR:!=(int,int):<(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):182:b[j] != b[j - 1] |==> b[j] < b[j - 1]
+106:ROR:!=(int,int):>(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):182:b[j] != b[j - 1] |==> b[j] > b[j - 1]
+107:ROR:!=(int,int):TRUE(int,int):org.apache.lucene.analysis.PorterStemmer@doublec(int):182:b[j] != b[j - 1] |==> true
+108:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@doublec(int):183:false |==> true
+109:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@doublec(int):183:return Config.__M_NO == 0 && Config.COVERED(108, 108) ? false : Config.__M_NO == 108 ? true : false; |==> <NO-OP>
+110:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@doublec(int):184:cons(j) |==> false
+111:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@cvc(int):197:2 |==> 0
+112:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@cvc(int):197:2 |==> -2
+113:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:k0 + 2 |==> k0 % 2
+114:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:k0 + 2 |==> k0 * 2
+115:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:k0 + 2 |==> k0 - 2
+116:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:k0 + 2 |==> k0 / 2
+117:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 |==> i != k0 + 2
+118:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 |==> i <= k0 + 2
+119:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 |==> false
+120:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) |==> i < k0 + 2 != !cons(i)
+121:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) |==> i < k0 + 2
+122:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) |==> !cons(i)
+123:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) |==> true
+124:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@cvc(int):197:1 |==> 0
+125:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@cvc(int):197:1 |==> -1
+126:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 1 |==> i % 1
+127:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 1 |==> i * 1
+128:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 1 |==> i + 1
+129:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 1 |==> i / 1
+130:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) |==> (i < k0 + 2 || !cons(i)) != cons(i - 1)
+131:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) |==> i < k0 + 2 || !cons(i)
+132:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) |==> cons(i - 1)
+133:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) |==> true
+134:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@cvc(int):197:2 |==> 0
+135:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@cvc(int):197:2 |==> -2
+136:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 2 |==> i % 2
+137:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 2 |==> i * 2
+138:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 2 |==> i + 2
+139:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i - 2 |==> i / 2
+140:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) || !cons(i - 2) |==> (i < k0 + 2 || !cons(i) || cons(i - 1)) != !cons(i - 2)
+141:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) || !cons(i - 2) |==> i < k0 + 2 || !cons(i) || cons(i - 1)
+142:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) || !cons(i - 2) |==> !cons(i - 2)
+143:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):197:i < k0 + 2 || !cons(i) || cons(i - 1) || !cons(i - 2) |==> true
+144:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@cvc(int):198:false |==> true
+145:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@cvc(int):198:return Config.__M_NO == 0 && Config.COVERED(144, 144) ? false : Config.__M_NO == 144 ? true : false; |==> <NO-OP>
+146:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@cvc(int):200:b[i] |==> 0
+147:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' |==> ch <= 'w'
+148:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' |==> ch >= 'w'
+149:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' |==> false
+150:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'x' |==> ch <= 'x'
+151:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'x' |==> ch >= 'x'
+152:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'x' |==> false
+153:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' |==> ch == 'w' != (ch == 'x')
+154:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' |==> ch == 'w'
+155:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' |==> ch == 'x'
+156:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' |==> true
+157:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'y' |==> ch <= 'y'
+158:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'y' |==> ch >= 'y'
+159:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'y' |==> false
+160:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' || ch == 'y' |==> (ch == 'w' || ch == 'x') != (ch == 'y')
+161:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' || ch == 'y' |==> ch == 'w' || ch == 'x'
+162:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' || ch == 'y' |==> ch == 'y'
+163:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@cvc(int):201:ch == 'w' || ch == 'x' || ch == 'y' |==> true
+164:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@cvc(int):201:false |==> true
+165:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@cvc(int):201:return Config.__M_NO == 0 && Config.COVERED(164, 164) ? false : Config.__M_NO == 164 ? true : false; |==> <NO-OP>
+166:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@cvc(int):203:true |==> false
+167:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):207:s.length() |==> 0
+168:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l |==> k % l
+169:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l |==> k * l
+170:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l |==> k + l
+171:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l |==> k / l
+172:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:1 |==> 0
+173:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:1 |==> -1
+174:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l + 1 |==> (k - l) % 1
+175:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l + 1 |==> (k - l) * 1
+176:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l + 1 |==> k - l - 1
+177:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):208:k - l + 1 |==> (k - l) / 1
+178:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):209:o < k0 |==> o != k0
+179:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):209:o < k0 |==> o <= k0
+180:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):209:o < k0 |==> false
+181:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):210:false |==> true
+182:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):210:return Config.__M_NO == 0 && Config.COVERED(181, 181) ? false : Config.__M_NO == 181 ? true : false; |==> <NO-OP>
+183:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):211:0 |==> 1
+184:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):211:0 |==> -1
+185:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):211:i < l |==> i != l
+186:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):211:i < l |==> i <= l
+187:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):211:i < l |==> false
+188:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):212:o + i |==> o % i
+189:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):212:o + i |==> o * i
+190:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):212:o + i |==> o - i
+191:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):212:o + i |==> o / i
+192:ROR:!=(int,int):<(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):212:b[o + i] != s.charAt(i) |==> b[o + i] < s.charAt(i)
+193:ROR:!=(int,int):>(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):212:b[o + i] != s.charAt(i) |==> b[o + i] > s.charAt(i)
+194:ROR:!=(int,int):TRUE(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):212:b[o + i] != s.charAt(i) |==> true
+195:LVR:FALSE:TRUE:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):213:false |==> true
+196:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):213:return Config.__M_NO == 0 && Config.COVERED(195, 195) ? false : Config.__M_NO == 195 ? true : false; |==> <NO-OP>
+197:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):214:k - l |==> k % l
+198:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):214:k - l |==> k * l
+199:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):214:k - l |==> k + l
+200:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):214:k - l |==> k / l
+201:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):214:j = k - l |==> <NO-OP>
+202:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@ends(java.lang.String):215:true |==> false
+203:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):222:s.length() |==> 0
+204:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):223:1 |==> 0
+205:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):223:1 |==> -1
+206:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):223:j + 1 |==> j % 1
+207:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):223:j + 1 |==> j * 1
+208:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):223:j + 1 |==> j - 1
+209:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):223:j + 1 |==> j / 1
+210:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):224:0 |==> 1
+211:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):224:0 |==> -1
+212:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):224:i < l |==> i != l
+213:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):224:i < l |==> i <= l
+214:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):224:i < l |==> false
+215:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):225:o + i |==> o % i
+216:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):225:o + i |==> o * i
+217:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):225:o + i |==> o - i
+218:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):225:o + i |==> o / i
+219:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):225:b[o + i] = s.charAt(i) |==> <NO-OP>
+220:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):226:j + l |==> j % l
+221:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):226:j + l |==> j * l
+222:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):226:j + l |==> j - l
+223:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):226:j + l |==> j / l
+224:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):226:k = j + l |==> <NO-OP>
+225:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):227:true |==> false
+226:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@setto(java.lang.String):227:dirty = true |==> <NO-OP>
+227:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@r(java.lang.String):232:0 |==> 1
+228:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@r(java.lang.String):232:0 |==> -1
+229:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@r(java.lang.String):232:m() > 0 |==> m() != 0
+230:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@r(java.lang.String):232:m() > 0 |==> m() >= 0
+231:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@r(java.lang.String):232:m() > 0 |==> false
+232:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@r(java.lang.String):232:setto(s) |==> <NO-OP>
+233:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():257:b[k] == 's' |==> b[k] <= 's'
+234:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():257:b[k] == 's' |==> b[k] >= 's'
+235:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step1():257:b[k] == 's' |==> false
+236:COR:ends("sses"):TRUE:org.apache.lucene.analysis.PorterStemmer@step1():258:ends("sses") |==> false
+237:COR:ends("sses"):FALSE:org.apache.lucene.analysis.PorterStemmer@step1():258:ends("sses") |==> true
+238:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step1():258:2 |==> 0
+239:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step1():258:2 |==> -2
+240:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():258:k -= 2 |==> <NO-OP>
+241:COR:ends("ies"):TRUE:org.apache.lucene.analysis.PorterStemmer@step1():259:ends("ies") |==> false
+242:COR:ends("ies"):FALSE:org.apache.lucene.analysis.PorterStemmer@step1():259:ends("ies") |==> true
+243:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():259:setto("i") |==> <NO-OP>
+244:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step1():260:1 |==> 0
+245:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step1():260:1 |==> -1
+246:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@step1():260:k - 1 |==> k % 1
+247:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@step1():260:k - 1 |==> k * 1
+248:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@step1():260:k - 1 |==> k + 1
+249:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@step1():260:k - 1 |==> k / 1
+250:ROR:!=(int,int):<(int,int):org.apache.lucene.analysis.PorterStemmer@step1():260:b[k - 1] != 's' |==> b[k - 1] < 's'
+251:ROR:!=(int,int):>(int,int):org.apache.lucene.analysis.PorterStemmer@step1():260:b[k - 1] != 's' |==> b[k - 1] > 's'
+252:ROR:!=(int,int):TRUE(int,int):org.apache.lucene.analysis.PorterStemmer@step1():260:b[k - 1] != 's' |==> true
+253:STD:<DEC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():260:k-- |==> <NO-OP>
+254:COR:ends("eed"):TRUE:org.apache.lucene.analysis.PorterStemmer@step1():262:ends("eed") |==> false
+255:COR:ends("eed"):FALSE:org.apache.lucene.analysis.PorterStemmer@step1():262:ends("eed") |==> true
+256:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@step1():263:0 |==> 1
+257:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@step1():263:0 |==> -1
+258:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():263:m() > 0 |==> m() != 0
+259:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():263:m() > 0 |==> m() >= 0
+260:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step1():263:m() > 0 |==> false
+261:STD:<DEC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():264:k-- |==> <NO-OP>
+262:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:ends("ed") || ends("ing") |==> ends("ed") != ends("ing")
+263:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:ends("ed") || ends("ing") |==> ends("ed")
+264:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:ends("ed") || ends("ing") |==> ends("ing")
+265:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:ends("ed") || ends("ing") |==> true
+266:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:(ends("ed") || ends("ing")) && vowelinstem() |==> (ends("ed") || ends("ing")) == vowelinstem()
+267:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:(ends("ed") || ends("ing")) && vowelinstem() |==> false
+268:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:(ends("ed") || ends("ing")) && vowelinstem() |==> (ends("ed") || ends("ing"))
+269:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():266:(ends("ed") || ends("ing")) && vowelinstem() |==> vowelinstem()
+270:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():267:k = j |==> <NO-OP>
+271:COR:ends("at"):TRUE:org.apache.lucene.analysis.PorterStemmer@step1():268:ends("at") |==> false
+272:COR:ends("at"):FALSE:org.apache.lucene.analysis.PorterStemmer@step1():268:ends("at") |==> true
+273:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():268:setto("ate") |==> <NO-OP>
+274:COR:ends("bl"):TRUE:org.apache.lucene.analysis.PorterStemmer@step1():269:ends("bl") |==> false
+275:COR:ends("bl"):FALSE:org.apache.lucene.analysis.PorterStemmer@step1():269:ends("bl") |==> true
+276:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():269:setto("ble") |==> <NO-OP>
+277:COR:ends("iz"):TRUE:org.apache.lucene.analysis.PorterStemmer@step1():270:ends("iz") |==> false
+278:COR:ends("iz"):FALSE:org.apache.lucene.analysis.PorterStemmer@step1():270:ends("iz") |==> true
+279:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():270:setto("ize") |==> <NO-OP>
+280:COR:doublec(k):TRUE:org.apache.lucene.analysis.PorterStemmer@step1():271:doublec(k) |==> false
+281:COR:doublec(k):FALSE:org.apache.lucene.analysis.PorterStemmer@step1():271:doublec(k) |==> true
+282:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@step1():272:b[k--] |==> 0
+283:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' |==> ch <= 'l'
+284:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' |==> ch >= 'l'
+285:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' |==> false
+286:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 's' |==> ch <= 's'
+287:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 's' |==> ch >= 's'
+288:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 's' |==> false
+289:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' |==> ch == 'l' != (ch == 's')
+290:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' |==> ch == 'l'
+291:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' |==> ch == 's'
+292:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' |==> true
+293:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'z' |==> ch <= 'z'
+294:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'z' |==> ch >= 'z'
+295:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'z' |==> false
+296:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' || ch == 'z' |==> (ch == 'l' || ch == 's') != (ch == 'z')
+297:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' || ch == 'z' |==> ch == 'l' || ch == 's'
+298:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' || ch == 'z' |==> ch == 'z'
+299:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():273:ch == 'l' || ch == 's' || ch == 'z' |==> true
+300:STD:<INC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():274:k++ |==> <NO-OP>
+301:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step1():276:1 |==> 0
+302:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step1():276:1 |==> -1
+303:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():276:m() == 1 |==> m() <= 1
+304:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step1():276:m() == 1 |==> m() >= 1
+305:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step1():276:m() == 1 |==> false
+306:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():276:m() == 1 && cvc(k) |==> m() == 1 == cvc(k)
+307:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():276:m() == 1 && cvc(k) |==> false
+308:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():276:m() == 1 && cvc(k) |==> m() == 1
+309:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step1():276:m() == 1 && cvc(k) |==> cvc(k)
+310:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step1():277:setto("e") |==> <NO-OP>
+311:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step2():284:ends("y") && vowelinstem() |==> ends("y") == vowelinstem()
+312:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step2():284:ends("y") && vowelinstem() |==> false
+313:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step2():284:ends("y") && vowelinstem() |==> ends("y")
+314:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step2():284:ends("y") && vowelinstem() |==> vowelinstem()
+315:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step2():285:b[k] = 'i' |==> <NO-OP>
+316:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@step2():286:true |==> false
+317:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step2():286:dirty = true |==> <NO-OP>
+318:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step3():295:k == k0 |==> k <= k0
+319:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step3():295:k == k0 |==> k >= k0
+320:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step3():295:k == k0 |==> false
+321:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():295:return; |==> <NO-OP>
+322:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step3():296:1 |==> 0
+323:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step3():296:1 |==> -1
+324:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@step3():296:k - 1 |==> k % 1
+325:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@step3():296:k - 1 |==> k * 1
+326:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@step3():296:k - 1 |==> k + 1
+327:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@step3():296:k - 1 |==> k / 1
+328:COR:ends("ational"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():298:ends("ational") |==> false
+329:COR:ends("ational"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():298:ends("ational") |==> true
+330:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():298:r("ate") |==> <NO-OP>
+331:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():298:break; |==> <NO-OP>
+332:COR:ends("tional"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():299:ends("tional") |==> false
+333:COR:ends("tional"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():299:ends("tional") |==> true
+334:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():299:r("tion") |==> <NO-OP>
+335:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():299:break; |==> <NO-OP>
+336:COR:ends("enci"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():302:ends("enci") |==> false
+337:COR:ends("enci"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():302:ends("enci") |==> true
+338:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():302:r("ence") |==> <NO-OP>
+339:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():302:break; |==> <NO-OP>
+340:COR:ends("anci"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():303:ends("anci") |==> false
+341:COR:ends("anci"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():303:ends("anci") |==> true
+342:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():303:r("ance") |==> <NO-OP>
+343:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():303:break; |==> <NO-OP>
+344:COR:ends("izer"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():306:ends("izer") |==> false
+345:COR:ends("izer"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():306:ends("izer") |==> true
+346:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():306:r("ize") |==> <NO-OP>
+347:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():306:break; |==> <NO-OP>
+348:COR:ends("bli"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():309:ends("bli") |==> false
+349:COR:ends("bli"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():309:ends("bli") |==> true
+350:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():309:r("ble") |==> <NO-OP>
+351:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():309:break; |==> <NO-OP>
+352:COR:ends("alli"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():310:ends("alli") |==> false
+353:COR:ends("alli"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():310:ends("alli") |==> true
+354:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():310:r("al") |==> <NO-OP>
+355:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():310:break; |==> <NO-OP>
+356:COR:ends("entli"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():311:ends("entli") |==> false
+357:COR:ends("entli"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():311:ends("entli") |==> true
+358:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():311:r("ent") |==> <NO-OP>
+359:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():311:break; |==> <NO-OP>
+360:COR:ends("eli"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():312:ends("eli") |==> false
+361:COR:ends("eli"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():312:ends("eli") |==> true
+362:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():312:r("e") |==> <NO-OP>
+363:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():312:break; |==> <NO-OP>
+364:COR:ends("ousli"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():313:ends("ousli") |==> false
+365:COR:ends("ousli"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():313:ends("ousli") |==> true
+366:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():313:r("ous") |==> <NO-OP>
+367:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():313:break; |==> <NO-OP>
+368:COR:ends("ization"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():316:ends("ization") |==> false
+369:COR:ends("ization"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():316:ends("ization") |==> true
+370:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():316:r("ize") |==> <NO-OP>
+371:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():316:break; |==> <NO-OP>
+372:COR:ends("ation"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():317:ends("ation") |==> false
+373:COR:ends("ation"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():317:ends("ation") |==> true
+374:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():317:r("ate") |==> <NO-OP>
+375:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():317:break; |==> <NO-OP>
+376:COR:ends("ator"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():318:ends("ator") |==> false
+377:COR:ends("ator"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():318:ends("ator") |==> true
+378:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():318:r("ate") |==> <NO-OP>
+379:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():318:break; |==> <NO-OP>
+380:COR:ends("alism"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():321:ends("alism") |==> false
+381:COR:ends("alism"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():321:ends("alism") |==> true
+382:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():321:r("al") |==> <NO-OP>
+383:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():321:break; |==> <NO-OP>
+384:COR:ends("iveness"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():322:ends("iveness") |==> false
+385:COR:ends("iveness"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():322:ends("iveness") |==> true
+386:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():322:r("ive") |==> <NO-OP>
+387:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():322:break; |==> <NO-OP>
+388:COR:ends("fulness"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():323:ends("fulness") |==> false
+389:COR:ends("fulness"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():323:ends("fulness") |==> true
+390:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():323:r("ful") |==> <NO-OP>
+391:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():323:break; |==> <NO-OP>
+392:COR:ends("ousness"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():324:ends("ousness") |==> false
+393:COR:ends("ousness"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():324:ends("ousness") |==> true
+394:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():324:r("ous") |==> <NO-OP>
+395:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():324:break; |==> <NO-OP>
+396:COR:ends("aliti"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():327:ends("aliti") |==> false
+397:COR:ends("aliti"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():327:ends("aliti") |==> true
+398:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():327:r("al") |==> <NO-OP>
+399:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():327:break; |==> <NO-OP>
+400:COR:ends("iviti"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():328:ends("iviti") |==> false
+401:COR:ends("iviti"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():328:ends("iviti") |==> true
+402:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():328:r("ive") |==> <NO-OP>
+403:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():328:break; |==> <NO-OP>
+404:COR:ends("biliti"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():329:ends("biliti") |==> false
+405:COR:ends("biliti"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():329:ends("biliti") |==> true
+406:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():329:r("ble") |==> <NO-OP>
+407:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():329:break; |==> <NO-OP>
+408:COR:ends("logi"):TRUE:org.apache.lucene.analysis.PorterStemmer@step3():332:ends("logi") |==> false
+409:COR:ends("logi"):FALSE:org.apache.lucene.analysis.PorterStemmer@step3():332:ends("logi") |==> true
+410:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():332:r("log") |==> <NO-OP>
+411:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step3():332:break; |==> <NO-OP>
+412:COR:ends("icate"):TRUE:org.apache.lucene.analysis.PorterStemmer@step4():341:ends("icate") |==> false
+413:COR:ends("icate"):FALSE:org.apache.lucene.analysis.PorterStemmer@step4():341:ends("icate") |==> true
+414:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():341:r("ic") |==> <NO-OP>
+415:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():341:break; |==> <NO-OP>
+416:COR:ends("ative"):TRUE:org.apache.lucene.analysis.PorterStemmer@step4():342:ends("ative") |==> false
+417:COR:ends("ative"):FALSE:org.apache.lucene.analysis.PorterStemmer@step4():342:ends("ative") |==> true
+418:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():342:r("") |==> <NO-OP>
+419:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():342:break; |==> <NO-OP>
+420:COR:ends("alize"):TRUE:org.apache.lucene.analysis.PorterStemmer@step4():343:ends("alize") |==> false
+421:COR:ends("alize"):FALSE:org.apache.lucene.analysis.PorterStemmer@step4():343:ends("alize") |==> true
+422:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():343:r("al") |==> <NO-OP>
+423:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():343:break; |==> <NO-OP>
+424:COR:ends("iciti"):TRUE:org.apache.lucene.analysis.PorterStemmer@step4():346:ends("iciti") |==> false
+425:COR:ends("iciti"):FALSE:org.apache.lucene.analysis.PorterStemmer@step4():346:ends("iciti") |==> true
+426:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():346:r("ic") |==> <NO-OP>
+427:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():346:break; |==> <NO-OP>
+428:COR:ends("ical"):TRUE:org.apache.lucene.analysis.PorterStemmer@step4():349:ends("ical") |==> false
+429:COR:ends("ical"):FALSE:org.apache.lucene.analysis.PorterStemmer@step4():349:ends("ical") |==> true
+430:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():349:r("ic") |==> <NO-OP>
+431:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():349:break; |==> <NO-OP>
+432:COR:ends("ful"):TRUE:org.apache.lucene.analysis.PorterStemmer@step4():350:ends("ful") |==> false
+433:COR:ends("ful"):FALSE:org.apache.lucene.analysis.PorterStemmer@step4():350:ends("ful") |==> true
+434:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():350:r("") |==> <NO-OP>
+435:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():350:break; |==> <NO-OP>
+436:COR:ends("ness"):TRUE:org.apache.lucene.analysis.PorterStemmer@step4():353:ends("ness") |==> false
+437:COR:ends("ness"):FALSE:org.apache.lucene.analysis.PorterStemmer@step4():353:ends("ness") |==> true
+438:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():353:r("") |==> <NO-OP>
+439:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step4():353:break; |==> <NO-OP>
+440:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():361:k == k0 |==> k <= k0
+441:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():361:k == k0 |==> k >= k0
+442:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step5():361:k == k0 |==> false
+443:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():361:return; |==> <NO-OP>
+444:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step5():362:1 |==> 0
+445:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step5():362:1 |==> -1
+446:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@step5():362:k - 1 |==> k % 1
+447:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@step5():362:k - 1 |==> k * 1
+448:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@step5():362:k - 1 |==> k + 1
+449:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@step5():362:k - 1 |==> k / 1
+450:COR:ends("al"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():364:ends("al") |==> false
+451:COR:ends("al"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():364:ends("al") |==> true
+452:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():364:break; |==> <NO-OP>
+453:COR:ends("ance"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():367:ends("ance") |==> false
+454:COR:ends("ance"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():367:ends("ance") |==> true
+455:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():367:break; |==> <NO-OP>
+456:COR:ends("ence"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():368:ends("ence") |==> false
+457:COR:ends("ence"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():368:ends("ence") |==> true
+458:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():368:break; |==> <NO-OP>
+459:COR:ends("er"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():371:ends("er") |==> false
+460:COR:ends("er"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():371:ends("er") |==> true
+461:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():371:break; |==> <NO-OP>
+462:COR:ends("ic"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():373:ends("ic") |==> false
+463:COR:ends("ic"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():373:ends("ic") |==> true
+464:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():373:break; |==> <NO-OP>
+465:COR:ends("able"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():375:ends("able") |==> false
+466:COR:ends("able"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():375:ends("able") |==> true
+467:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():375:break; |==> <NO-OP>
+468:COR:ends("ible"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():376:ends("ible") |==> false
+469:COR:ends("ible"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():376:ends("ible") |==> true
+470:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():376:break; |==> <NO-OP>
+471:COR:ends("ant"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():378:ends("ant") |==> false
+472:COR:ends("ant"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():378:ends("ant") |==> true
+473:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():378:break; |==> <NO-OP>
+474:COR:ends("ement"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():379:ends("ement") |==> false
+475:COR:ends("ement"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():379:ends("ement") |==> true
+476:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():379:break; |==> <NO-OP>
+477:COR:ends("ment"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():380:ends("ment") |==> false
+478:COR:ends("ment"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():380:ends("ment") |==> true
+479:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():380:break; |==> <NO-OP>
+480:COR:ends("ent"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():382:ends("ent") |==> false
+481:COR:ends("ent"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():382:ends("ent") |==> true
+482:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():382:break; |==> <NO-OP>
+483:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@step5():385:0 |==> 1
+484:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@step5():385:0 |==> -1
+485:ROR:>=(int,int):==(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:j >= 0 |==> j == 0
+486:ROR:>=(int,int):>(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:j >= 0 |==> j > 0
+487:ROR:>=(int,int):TRUE(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:j >= 0 |==> true
+488:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 |==> ends("ion") == j >= 0
+489:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 |==> false
+490:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 |==> ends("ion")
+491:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 |==> j >= 0
+492:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 's' |==> b[j] <= 's'
+493:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 's' |==> b[j] >= 's'
+494:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 's' |==> false
+495:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 't' |==> b[j] <= 't'
+496:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 't' |==> b[j] >= 't'
+497:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 't' |==> false
+498:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 's' || b[j] == 't' |==> b[j] == 's' != (b[j] == 't')
+499:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 's' || b[j] == 't' |==> b[j] == 's'
+500:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 's' || b[j] == 't' |==> b[j] == 't'
+501:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:b[j] == 's' || b[j] == 't' |==> true
+502:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 && (b[j] == 's' || b[j] == 't') |==> (ends("ion") && j >= 0) == (b[j] == 's' || b[j] == 't')
+503:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 && (b[j] == 's' || b[j] == 't') |==> false
+504:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 && (b[j] == 's' || b[j] == 't') |==> ends("ion") && j >= 0
+505:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step5():385:ends("ion") && j >= 0 && (b[j] == 's' || b[j] == 't') |==> (b[j] == 's' || b[j] == 't')
+506:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():385:break; |==> <NO-OP>
+507:COR:ends("ou"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():387:ends("ou") |==> false
+508:COR:ends("ou"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():387:ends("ou") |==> true
+509:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():387:break; |==> <NO-OP>
+510:COR:ends("ism"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():391:ends("ism") |==> false
+511:COR:ends("ism"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():391:ends("ism") |==> true
+512:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():391:break; |==> <NO-OP>
+513:COR:ends("ate"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():394:ends("ate") |==> false
+514:COR:ends("ate"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():394:ends("ate") |==> true
+515:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():394:break; |==> <NO-OP>
+516:COR:ends("iti"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():395:ends("iti") |==> false
+517:COR:ends("iti"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():395:ends("iti") |==> true
+518:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():395:break; |==> <NO-OP>
+519:COR:ends("ous"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():398:ends("ous") |==> false
+520:COR:ends("ous"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():398:ends("ous") |==> true
+521:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():398:break; |==> <NO-OP>
+522:COR:ends("ive"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():401:ends("ive") |==> false
+523:COR:ends("ive"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():401:ends("ive") |==> true
+524:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():401:break; |==> <NO-OP>
+525:COR:ends("ize"):TRUE:org.apache.lucene.analysis.PorterStemmer@step5():404:ends("ize") |==> false
+526:COR:ends("ize"):FALSE:org.apache.lucene.analysis.PorterStemmer@step5():404:ends("ize") |==> true
+527:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():404:break; |==> <NO-OP>
+528:STD:<RETURN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():407:return; |==> <NO-OP>
+529:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step5():409:1 |==> 0
+530:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step5():409:1 |==> -1
+531:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():409:m() > 1 |==> m() != 1
+532:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step5():409:m() > 1 |==> m() >= 1
+533:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step5():409:m() > 1 |==> false
+534:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step5():410:k = j |==> <NO-OP>
+535:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step6():416:j = k |==> <NO-OP>
+536:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():417:b[k] == 'e' |==> b[k] <= 'e'
+537:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():417:b[k] == 'e' |==> b[k] >= 'e'
+538:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step6():417:b[k] == 'e' |==> false
+539:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@step6():418:m() |==> 0
+540:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step6():419:1 |==> 0
+541:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step6():419:1 |==> -1
+542:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:a > 1 |==> a != 1
+543:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:a > 1 |==> a >= 1
+544:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:a > 1 |==> false
+545:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step6():419:1 |==> 0
+546:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step6():419:1 |==> -1
+547:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:a == 1 |==> a <= 1
+548:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:a == 1 |==> a >= 1
+549:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:a == 1 |==> false
+550:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step6():419:1 |==> 0
+551:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step6():419:1 |==> -1
+552:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:k - 1 |==> k % 1
+553:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:k - 1 |==> k * 1
+554:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:k - 1 |==> k + 1
+555:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@step6():419:k - 1 |==> k / 1
+556:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a == 1 && !cvc(k - 1) |==> a == 1 == !cvc(k - 1)
+557:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a == 1 && !cvc(k - 1) |==> false
+558:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a == 1 && !cvc(k - 1) |==> a == 1
+559:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a == 1 && !cvc(k - 1) |==> !cvc(k - 1)
+560:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a > 1 || a == 1 && !cvc(k - 1) |==> a > 1 != (a == 1 && !cvc(k - 1))
+561:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a > 1 || a == 1 && !cvc(k - 1) |==> a > 1
+562:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a > 1 || a == 1 && !cvc(k - 1) |==> a == 1 && !cvc(k - 1)
+563:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():419:a > 1 || a == 1 && !cvc(k - 1) |==> true
+564:STD:<DEC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step6():420:k-- |==> <NO-OP>
+565:ROR:==(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' |==> b[k] <= 'l'
+566:ROR:==(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' |==> b[k] >= 'l'
+567:ROR:==(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' |==> false
+568:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) |==> b[k] == 'l' == doublec(k)
+569:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) |==> false
+570:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) |==> b[k] == 'l'
+571:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) |==> doublec(k)
+572:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@step6():422:1 |==> 0
+573:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@step6():422:1 |==> -1
+574:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():422:m() > 1 |==> m() != 1
+575:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@step6():422:m() > 1 |==> m() >= 1
+576:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@step6():422:m() > 1 |==> false
+577:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) && m() > 1 |==> (b[k] == 'l' && doublec(k)) == m() > 1
+578:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) && m() > 1 |==> false
+579:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) && m() > 1 |==> b[k] == 'l' && doublec(k)
+580:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.lucene.analysis.PorterStemmer@step6():422:b[k] == 'l' && doublec(k) && m() > 1 |==> m() > 1
+581:STD:<DEC>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@step6():423:k-- |==> <NO-OP>
+582:COR:stem(s.toCharArray(), s.length()):TRUE:org.apache.lucene.analysis.PorterStemmer@stem(java.lang.String):431:stem(s.toCharArray(), s.length()) |==> false
+583:COR:stem(s.toCharArray(), s.length()):FALSE:org.apache.lucene.analysis.PorterStemmer@stem(java.lang.String):431:stem(s.toCharArray(), s.length()) |==> true
+584:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@stem(java.lang.String):432:toString() |==> null
+585:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@stem(java.lang.String):434:s |==> null
+586:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@stem(char[]):442:stem(word, word.length) |==> false
+587:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):451:reset() |==> <NO-OP>
+588:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):452:b.length < wordLen |==> b.length != wordLen
+589:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):452:b.length < wordLen |==> b.length <= wordLen
+590:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):452:b.length < wordLen |==> false
+591:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):453:wordLen + EXTRA |==> wordLen % EXTRA
+592:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):453:wordLen + EXTRA |==> wordLen * EXTRA
+593:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):453:wordLen + EXTRA |==> wordLen - EXTRA
+594:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):453:wordLen + EXTRA |==> wordLen / EXTRA
+595:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):454:b = new_b |==> <NO-OP>
+596:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):456:0 |==> 1
+597:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):456:0 |==> -1
+598:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):456:j < wordLen |==> j != wordLen
+599:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):456:j < wordLen |==> j <= wordLen
+600:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):456:j < wordLen |==> false
+601:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):457:offset + j |==> offset % j
+602:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):457:offset + j |==> offset * j
+603:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):457:offset + j |==> offset - j
+604:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):457:offset + j |==> offset / j
+605:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):457:b[j] = wordBuffer[offset + j] |==> <NO-OP>
+606:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):458:i = wordLen |==> <NO-OP>
+607:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):459:0 |==> 1
+608:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@stem(char[],int,int):459:0 |==> -1
+609:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@stem(char[],int):468:0 |==> 1
+610:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@stem(char[],int):468:0 |==> -1
+611:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@stem():477:0 |==> 1
+612:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@stem():477:0 |==> -1
+613:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@stem(int):481:1 |==> 0
+614:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@stem(int):481:1 |==> -1
+615:AOR:-(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):481:i - 1 |==> i % 1
+616:AOR:-(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):481:i - 1 |==> i * 1
+617:AOR:-(int,int):+(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):481:i - 1 |==> i + 1
+618:AOR:-(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):481:i - 1 |==> i / 1
+619:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):481:k = i - 1 |==> <NO-OP>
+620:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):482:k0 = i0 |==> <NO-OP>
+621:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@stem(int):483:1 |==> 0
+622:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@stem(int):483:1 |==> -1
+623:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):483:k0 + 1 |==> k0 % 1
+624:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):483:k0 + 1 |==> k0 * 1
+625:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):483:k0 + 1 |==> k0 - 1
+626:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):483:k0 + 1 |==> k0 / 1
+627:ROR:>(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):483:k > k0 + 1 |==> k != k0 + 1
+628:ROR:>(int,int):>=(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):483:k > k0 + 1 |==> k >= k0 + 1
+629:ROR:>(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):483:k > k0 + 1 |==> false
+630:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):484:step1() |==> <NO-OP>
+631:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):484:step2() |==> <NO-OP>
+632:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):484:step3() |==> <NO-OP>
+633:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):484:step4() |==> <NO-OP>
+634:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):484:step5() |==> <NO-OP>
+635:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):484:step6() |==> <NO-OP>
+636:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@stem(int):488:1 |==> 0
+637:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@stem(int):488:1 |==> -1
+638:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):488:k + 1 |==> k % 1
+639:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):488:k + 1 |==> k * 1
+640:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):488:k + 1 |==> k - 1
+641:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):488:k + 1 |==> k / 1
+642:ROR:!=(int,int):<(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):488:i != k + 1 |==> i < k + 1
+643:ROR:!=(int,int):>(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):488:i != k + 1 |==> i > k + 1
+644:ROR:!=(int,int):TRUE(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):488:i != k + 1 |==> true
+645:LVR:TRUE:FALSE:org.apache.lucene.analysis.PorterStemmer@stem(int):489:true |==> false
+646:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):489:dirty = true |==> <NO-OP>
+647:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@stem(int):490:1 |==> 0
+648:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@stem(int):490:1 |==> -1
+649:AOR:+(int,int):%(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):490:k + 1 |==> k % 1
+650:AOR:+(int,int):*(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):490:k + 1 |==> k * 1
+651:AOR:+(int,int):-(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):490:k + 1 |==> k - 1
+652:AOR:+(int,int):/(int,int):org.apache.lucene.analysis.PorterStemmer@stem(int):490:k + 1 |==> k / 1
+653:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@stem(int):490:i = k + 1 |==> <NO-OP>
+654:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@stem(int):491:dirty |==> false
+655:EVR:<NEW_CLASS(org.apache.lucene.analysis.PorterStemmer)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):499:new PorterStemmer() |==> null
+656:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):501:0 |==> 1
+657:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):501:0 |==> -1
+658:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):501:i < args.length |==> i != args.length
+659:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):501:i < args.length |==> i <= args.length
+660:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):501:i < args.length |==> false
+661:EVR:<NEW_CLASS(java.io.FileInputStream)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):503:new FileInputStream(args[i]) |==> null
+662:LVR:POS:0:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):504:1024 |==> 0
+663:LVR:POS:NEG:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):504:1024 |==> -1024
+664:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):507:in.read(buffer) |==> 0
+665:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):508:0 |==> 1
+666:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):508:0 |==> -1
+667:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):509:s.reset() |==> <NO-OP>
+668:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):512:offset < bufferLen |==> offset != bufferLen
+669:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):512:offset < bufferLen |==> offset <= bufferLen
+670:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):512:offset < bufferLen |==> false
+671:EVR:<ARRAY_ACCESS(byte)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):513:buffer[offset++] |==> 0
+672:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):515:bufferLen = in.read(buffer) |==> <NO-OP>
+673:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):516:0 |==> 1
+674:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):516:0 |==> -1
+675:STD:<ASSIGN>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):516:offset = 0 |==> <NO-OP>
+676:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):517:0 |==> 1
+677:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):517:0 |==> -1
+678:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):517:bufferLen < 0 |==> bufferLen != 0
+679:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):517:bufferLen < 0 |==> bufferLen <= 0
+680:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):517:bufferLen < 0 |==> false
+681:LVR:NEG:0:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):518:-1 |==> 0
+682:LVR:NEG:POS:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):518:-1 |==> 1
+683:EVR:<ARRAY_ACCESS(byte)>:<DEFAULT>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):520:buffer[offset++] |==> 0
+684:COR:Character.isLetter((char)ch):TRUE:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):523:Character.isLetter((char)ch) |==> false
+685:COR:Character.isLetter((char)ch):FALSE:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):523:Character.isLetter((char)ch) |==> true
+686:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):524:s.add(Character.toLowerCase((char)ch)) |==> <NO-OP>
+687:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):527:s.stem() |==> <NO-OP>
+688:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):528:System.out.print(s.toString()) |==> <NO-OP>
+689:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):529:s.reset() |==> <NO-OP>
+690:LVR:0:POS:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):530:0 |==> 1
+691:LVR:0:NEG:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):530:0 |==> -1
+692:ROR:<(int,int):!=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):530:ch < 0 |==> ch != 0
+693:ROR:<(int,int):<=(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):530:ch < 0 |==> ch <= 0
+694:ROR:<(int,int):FALSE(int,int):org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):530:ch < 0 |==> false
+695:STD:<BREAK>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):531:break; |==> <NO-OP>
+696:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):533:System.out.print((char)ch) |==> <NO-OP>
+697:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):538:in.close() |==> <NO-OP>
+698:STD:<CALL>:<NO-OP>:org.apache.lucene.analysis.PorterStemmer@main(java.lang.String[]):541:System.out.println("error reading " + args[i]) |==> <NO-OP>

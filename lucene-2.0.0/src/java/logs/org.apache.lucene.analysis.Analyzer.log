@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.apache.lucene.analysis.Analyzer@getPositionIncrementGap(java.lang.String):55:0 |==> 1
+2:LVR:0:NEG:org.apache.lucene.analysis.Analyzer@getPositionIncrementGap(java.lang.String):55:0 |==> -1

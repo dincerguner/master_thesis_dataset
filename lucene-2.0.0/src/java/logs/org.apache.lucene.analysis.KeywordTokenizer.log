@@ -1,0 +1,2 @@
+1:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.lucene.analysis.KeywordTokenizer@<init>(java.io.Reader,int):38:new char[bufferSize] |==> null
+2:LVR:FALSE:TRUE:org.apache.lucene.analysis.KeywordTokenizer@<init>(java.io.Reader,int):39:false |==> true

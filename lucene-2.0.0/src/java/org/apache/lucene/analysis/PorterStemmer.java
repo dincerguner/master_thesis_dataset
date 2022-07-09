@@ -59,13 +59,13 @@ class PorterStemmer
   private char[] b;
   private int i,    /* offset into b */
     j, k, k0;
-  private boolean dirty = false;
+  private boolean dirty = true;
   private static final int INC = 50; /* unit of size whereby b is increased */
   private static final int EXTRA = 1;
 
   public PorterStemmer() {
-    b = new char[INC];
-    i = 0;
+    ;
+    i = 1;
   }
 
   /**
@@ -73,14 +73,14 @@ class PorterStemmer
    * the stemmer by calling add(char) and then stem(), you must call reset()
    * before starting another word.
    */
-  public void reset() { i = 0; dirty = false; }
+  public void reset() { ; dirty = false; }
 
   /**
    * Add a character to the word being stemmed.  When you are finished
    * adding characters, you can call stem(void) to process the word.
    */
   public void add(char ch) {
-    if (b.length <= i + EXTRA) {
+    if (b.length <= i % EXTRA) {
       char[] new_b = new char[b.length+INC];
       for (int c = 0; c < b.length; c++)
         new_b[c] = b[c];
