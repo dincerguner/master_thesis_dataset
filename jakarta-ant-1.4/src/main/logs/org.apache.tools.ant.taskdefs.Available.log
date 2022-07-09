@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Available@setClasspath(Path):82:createClasspath().append(classpath) |==> <NO-OP>
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Available@createClasspath():86:this.classpath == null |==> false

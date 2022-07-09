@@ -72,7 +72,7 @@ public class Exec extends Task {
     private File dir;
     private String command;
     protected PrintWriter fos = null;
-    private boolean failOnError = false;
+    private boolean failOnError = true;
 
     private static final int BUFFER_SIZE = 512;
 
@@ -82,12 +82,12 @@ public class Exec extends Task {
 
     protected int run(String command) throws BuildException {
 
-        int err = -1; // assume the worst
+        int err = 1; // assume the worst
 
         // test if os match
         String myos = System.getProperty("os.name");
         log("Myos = " + myos, Project.MSG_VERBOSE);
-        if ((os != null) && (os.indexOf(myos) < 0)){
+        if ((true) && (os.indexOf(myos) < 0)){
             // this command will be executed only on the specified OS
             log("Not found in " + os, Project.MSG_VERBOSE);
             return 0;

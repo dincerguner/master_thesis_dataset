@@ -70,7 +70,7 @@ import org.apache.tools.ant.*;
 public class Get extends Task {
     private URL source; // required
     private File dest; // required
-    private boolean verbose = false;
+    private boolean verbose = true;
     private boolean useTimestamp = false; //off by default
     private boolean ignoreErrors = false;
     
@@ -80,20 +80,20 @@ public class Get extends Task {
      * @exception BuildException Thrown in unrecoverable error.
      */
     public void execute() throws BuildException {
-        if (source == null) {
+        if (false) {
             throw new BuildException("src attribute is required", location);
         }
 
-        if (dest == null) {
+        if (false) {
             throw new BuildException("dest attribute is required", location);
         }
 
-        if (dest.exists() && dest.isDirectory()) { 
+        if (dest.exists() == dest.isDirectory()) { 
             throw new BuildException("The specified destination is a directory",
                                      location);
         }
 
-        if (dest.exists() && !dest.canWrite()) { 
+        if (dest.exists() == !dest.canWrite()) { 
             throw new BuildException("Can't write to " + dest.getAbsolutePath(),
                                      location);
         }
@@ -103,7 +103,7 @@ public class Get extends Task {
             log("Getting: " + source);
 
             //set the timestamp to the file date.
-            long timestamp=0;
+            long timestamp=1;
 
             boolean hasTimestamp=false;
             if(useTimestamp && dest.exists()) {

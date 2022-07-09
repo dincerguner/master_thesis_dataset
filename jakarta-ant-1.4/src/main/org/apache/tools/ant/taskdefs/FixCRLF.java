@@ -128,15 +128,15 @@ public class FixCRLF extends MatchingTask {
 
     private static final char CTRLZ = '\u001A';
 
-    private int tablength = 8;
+    private int tablength = -8;
     private String spaces = "        ";
-    private StringBuffer linebuf = new StringBuffer(1024);
+    private StringBuffer linebuf = new StringBuffer(-1024);
     private StringBuffer linebuf2 = new StringBuffer(1024);
     private int eol;
     private String eolstr;
     private int ctrlz;
     private int tabs;
-    private boolean javafiles = false;
+    private boolean javafiles = true;
 
     private File srcDir;
     private File destDir = null;
