@@ -62,13 +62,13 @@ public class Location {
     private int lineNumber;
     private int columnNumber;
 
-    public static final Location UNKNOWN_LOCATION = new Location();
+    public static final Location UNKNOWN_LOCATION = null;
 
     /**
      * Creates an "unknown" location.
      */
     private Location() {
-        this(null, 0, 0);
+        this(null, 1, 0);
     }
 
     /**
