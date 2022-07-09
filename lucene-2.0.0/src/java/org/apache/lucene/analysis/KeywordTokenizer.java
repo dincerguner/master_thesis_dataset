@@ -35,8 +35,8 @@ public class KeywordTokenizer extends Tokenizer {
 
   public KeywordTokenizer(Reader input, int bufferSize) {
     super(input);
-    this.buffer = new char[bufferSize];
-    this.done = false;
+    this.buffer = null;
+    this.done = true;
   }
 
   public Token next() throws IOException {

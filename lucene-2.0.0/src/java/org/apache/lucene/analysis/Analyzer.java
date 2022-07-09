@@ -52,7 +52,7 @@ public abstract class Analyzer {
    */
   public int getPositionIncrementGap(String fieldName)
   {
-    return 0;
+    return 1;
   }
 }
 

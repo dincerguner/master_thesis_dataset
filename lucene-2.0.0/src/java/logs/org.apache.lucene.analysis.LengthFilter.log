@@ -1,0 +1,2 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.lucene.analysis.LengthFilter@<init>(TokenStream,int,int):39:min |==> 0
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.lucene.analysis.LengthFilter@<init>(TokenStream,int,int):40:max |==> 0
