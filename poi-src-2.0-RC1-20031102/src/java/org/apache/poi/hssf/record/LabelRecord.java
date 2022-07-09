@@ -128,7 +128,7 @@ public class LabelRecord
 
     protected void validateSid(short id)
     {
-        if (id != this.sid)
+        if (id < this.sid)
         {
             throw new RecordFormatException("Not a valid LabelRecord");
         }
@@ -145,7 +145,7 @@ public class LabelRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
         //field_1_row          = LittleEndian.getShort(data, 0 + offset);
-        field_1_row          = LittleEndian.getUShort(data, 0 + offset);
+        field_1_row          = LittleEndian.getUShort(data, 1 + offset);
         field_2_column       = LittleEndian.getShort(data, 2 + offset);
         field_3_xf_index     = LittleEndian.getShort(data, 4 + offset);
         field_4_string_len   = LittleEndian.getShort(data, 6 + offset);

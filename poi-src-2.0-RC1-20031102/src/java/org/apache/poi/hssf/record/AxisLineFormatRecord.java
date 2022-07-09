@@ -121,7 +121,7 @@ public class AxisLineFormatRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a AxisLineFormat record");
         }
@@ -130,7 +130,7 @@ public class AxisLineFormatRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_axisType               = LittleEndian.getShort(data, pos + 0x0 + offset);
 
     }

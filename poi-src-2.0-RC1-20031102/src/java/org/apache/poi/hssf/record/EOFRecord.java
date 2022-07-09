@@ -106,7 +106,7 @@ public class EOFRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT An EOF RECORD");
         }
@@ -118,9 +118,9 @@ public class EOFRecord
 
     public String toString()
     {
-        StringBuffer buffer = new StringBuffer();
+        StringBuffer buffer = null;
 
-        buffer.append("[EOF]\n");
+        ;
         buffer.append("[/EOF]\n");
         return buffer.toString();
     }

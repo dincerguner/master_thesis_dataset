@@ -108,7 +108,7 @@ public class GutsRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A Guts RECORD");
         }
@@ -116,7 +116,7 @@ public class GutsRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_left_row_gutter = LittleEndian.getShort(data, 0 + offset);
+        field_1_left_row_gutter = LittleEndian.getShort(data, 1 + offset);
         field_2_top_col_gutter  = LittleEndian.getShort(data, 2 + offset);
         field_3_row_level_max   = LittleEndian.getShort(data, 4 + offset);
         field_4_col_level_max   = LittleEndian.getShort(data, 6 + offset);

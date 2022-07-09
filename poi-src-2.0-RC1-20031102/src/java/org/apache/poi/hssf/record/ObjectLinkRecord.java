@@ -124,7 +124,7 @@ public class ObjectLinkRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a ObjectLink record");
         }
@@ -133,7 +133,7 @@ public class ObjectLinkRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_anchorId               = LittleEndian.getShort(data, pos + 0x0 + offset);
         field_2_link1                  = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_3_link2                  = LittleEndian.getShort(data, pos + 0x4 + offset);

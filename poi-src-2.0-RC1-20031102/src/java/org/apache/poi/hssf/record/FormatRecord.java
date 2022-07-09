@@ -111,7 +111,7 @@ public class FormatRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A FORMAT RECORD");
         }
@@ -119,7 +119,7 @@ public class FormatRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_index_code       = LittleEndian.getShort(data, 0 + offset);
+        field_1_index_code       = LittleEndian.getShort(data, 1 + offset);
         // field_2_formatstring_len = data[ 2 + offset ];
         field_3_unicode_len      = LittleEndian.getShort( data, 2 + offset );
 	field_2_formatstring_len = field_3_unicode_len;

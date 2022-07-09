@@ -1,0 +1,31 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:83:1 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:83:1 |==> -1
+3:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:84:2 |==> 0
+4:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:84:2 |==> -2
+5:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:85:4 |==> 0
+6:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:85:4 |==> -4
+7:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:86:8 |==> 0
+8:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:86:8 |==> -8
+9:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:87:16 |==> 0
+10:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:87:16 |==> -16
+11:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:88:32 |==> 0
+12:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:88:32 |==> -32
+13:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:89:64 |==> 0
+14:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:89:64 |==> -64
+15:LVR:POS:0:org.apache.poi.hssf.record.AxisOptionsRecord:90:128 |==> 0
+16:LVR:POS:NEG:org.apache.poi.hssf.record.AxisOptionsRecord:90:128 |==> -128
+17:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@validateSid(short):136:id != sid |==> id < sid
+18:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@validateSid(short):136:id != sid |==> id > sid
+19:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@validateSid(short):136:id != sid |==> true
+20:LVR:0:POS:org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):145:0 |==> 1
+21:LVR:0:NEG:org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):145:0 |==> -1
+22:LVR:0:POS:org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:0 |==> 1
+23:LVR:0:NEG:org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:0 |==> -1
+24:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 |==> pos % 0
+25:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 |==> pos * 0
+26:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 |==> pos - 0
+27:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 |==> pos / 0
+28:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 + offset |==> (pos + 0) % offset
+29:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 + offset |==> (pos + 0) * offset
+30:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 + offset |==> pos + 0 - offset
+31:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.AxisOptionsRecord@fillFields(byte[],short,int):146:pos + 0 + offset |==> (pos + 0) / offset

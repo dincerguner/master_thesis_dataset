@@ -88,8 +88,8 @@ public class LineFormatRecord
     public final static short       WEIGHT_MEDIUM                  = 1;
     public final static short       WEIGHT_WIDE                    = 2;
     private  short      field_4_format;
-    private  BitField   auto                                        = new BitField(0x1);
-    private  BitField   drawTicks                                   = new BitField(0x4);
+    private  BitField   auto                                        = new BitField(0);
+    private  BitField   drawTicks                                   = new BitField(0);
     private  BitField   unknown                                     = new BitField(0x4);
     private  short      field_5_colourPaletteIndex;
 

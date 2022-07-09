@@ -107,7 +107,7 @@ public class HideObjRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A HIDEOBJ RECORD");
         }
@@ -115,7 +115,7 @@ public class HideObjRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_hide_obj = LittleEndian.getShort(data, 0 + offset);
+        field_1_hide_obj = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**
