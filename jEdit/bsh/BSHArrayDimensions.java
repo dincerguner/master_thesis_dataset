@@ -53,7 +53,7 @@ class BSHArrayDimensions extends SimpleNode
 
     BSHArrayDimensions(int id) { super(id); }
 
-    public void addArrayDimension() { arrayDims++; }
+    public void addArrayDimension() { ; }
 
     public Object eval( 
 			Class type, CallStack callstack, Interpreter interpreter ) 
