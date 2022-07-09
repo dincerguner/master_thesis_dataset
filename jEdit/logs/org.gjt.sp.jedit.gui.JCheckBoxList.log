@@ -1,0 +1,136 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@<init>(java.lang.Object[]):49:setModel(items) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@<init>(java.util.Vector):60:setModel(items) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@setModel(java.lang.Object[]):71:setModel(new CheckBoxListModel(items)) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@setModel(java.lang.Object[]):72:init() |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@setModel(java.util.Vector):83:setModel(new CheckBoxListModel(items)) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@setModel(java.util.Vector):84:init() |==> <NO-OP>
+7:EVR:<NEW_CLASS(java.util.ArrayList<java.lang.Object>)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():90:new ArrayList<Object>() |==> null
+8:EVR:<TYPE_CAST(org.gjt.sp.jedit.gui.CheckBoxListModel)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():91:(CheckBoxListModel)getModel() |==> null
+9:LVR:0:POS:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():92:0 |==> 1
+10:LVR:0:NEG:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():92:0 |==> -1
+11:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():92:i < model.items.size() |==> i != model.items.size()
+12:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():92:i < model.items.size() |==> i <= model.items.size()
+13:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():92:i < model.items.size() |==> false
+14:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():94:model.items.get(i) |==> null
+15:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():95:entry.checked && !entry.caption |==> entry.checked == !entry.caption
+16:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():95:entry.checked && !entry.caption |==> false
+17:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():95:entry.checked && !entry.caption |==> entry.checked
+18:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():95:entry.checked && !entry.caption |==> !entry.caption
+19:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():97:values.add(entry.value) |==> <NO-OP>
+20:EVR:<NEW_ARRAY(java.lang.Object[])>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():101:new Object[values.size()] |==> null
+21:EVR:<METHOD_INVOCATION(java.lang.Object[])>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getCheckedValues():102:values.toArray(retVal) |==> null
+22:EVR:<TYPE_CAST(org.gjt.sp.jedit.gui.CheckBoxListModel)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():109:(CheckBoxListModel)getModel() |==> null
+23:LVR:0:POS:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():110:0 |==> 1
+24:LVR:0:NEG:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():110:0 |==> -1
+25:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():110:i < model.items.size() |==> i != model.items.size()
+26:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():110:i < model.items.size() |==> i <= model.items.size()
+27:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():110:i < model.items.size() |==> false
+28:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():112:model.items.elementAt(i) |==> null
+29:COR:entry.caption:TRUE:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():113:entry.caption |==> false
+30:COR:entry.caption:FALSE:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():113:entry.caption |==> true
+31:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():114:true |==> false
+32:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():114:entry.checked = true |==> <NO-OP>
+33:LVR:0:POS:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():117:0 |==> 1
+34:LVR:0:NEG:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():117:0 |==> -1
+35:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@selectAll():117:model.fireTableRowsUpdated(0, model.getRowCount()) |==> <NO-OP>
+36:EVR:<TYPE_CAST(org.gjt.sp.jedit.gui.CheckBoxListModel)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getValues():123:(CheckBoxListModel)getModel() |==> null
+37:EVR:<NEW_ARRAY(org.gjt.sp.jedit.gui.JCheckBoxList.Entry[])>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getValues():124:new Entry[model.items.size()] |==> null
+38:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@getValues():125:model.items.copyInto(retVal) |==> <NO-OP>
+39:EVR:<IDENTIFIER(org.gjt.sp.jedit.gui.JCheckBoxList.Entry[])>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getValues():126:retVal |==> null
+40:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():132:getSelectedRow() |==> 0
+41:LVR:NEG:0:org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():133:-1 |==> 0
+42:LVR:NEG:POS:org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():133:-1 |==> 1
+43:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():133:row == -1 |==> row <= -1
+44:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():133:row == -1 |==> row >= -1
+45:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():133:row == -1 |==> false
+46:LVR:POS:0:org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():139:1 |==> 0
+47:LVR:POS:NEG:org.gjt.sp.jedit.gui.JCheckBoxList@getSelectedValue():139:1 |==> -1
+48:LVR:0:POS:org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):147:0 |==> 1
+49:LVR:0:NEG:org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):147:0 |==> -1
+50:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):147:column == 0 |==> column <= 0
+51:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):147:column == 0 |==> column >= 0
+52:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):147:column == 0 |==> false
+53:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):149:((CheckBoxListModel)getModel()).items.get(row) |==> null
+54:COR:entry.caption:TRUE:org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):150:entry.caption |==> false
+55:COR:entry.caption:FALSE:org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):150:entry.caption |==> true
+56:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):151:return dummy; |==> <NO-OP>
+57:EVR:<METHOD_INVOCATION(javax.swing.table.TableCellRenderer)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@getCellRenderer(int,int):154:super.getCellRenderer(row, column) |==> null
+58:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():163:dummy = new DummyRenderer() |==> <NO-OP>
+59:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():164:getSelectionModel().setSelectionMode(ListSelectionModel.SINGLE_SELECTION) |==> <NO-OP>
+60:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.JCheckBoxList@init():166:false |==> true
+61:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():166:setShowGrid(false) |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():167:setAutoResizeMode(JTable.AUTO_RESIZE_LAST_COLUMN) |==> <NO-OP>
+63:LVR:0:POS:org.gjt.sp.jedit.gui.JCheckBoxList@init():168:0 |==> 1
+64:LVR:0:NEG:org.gjt.sp.jedit.gui.JCheckBoxList@init():168:0 |==> -1
+65:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList@init():169:new JCheckBox().getPreferredSize().width |==> 0
+66:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():170:column.setPreferredWidth(checkBoxWidth) |==> <NO-OP>
+67:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():171:column.setMinWidth(checkBoxWidth) |==> <NO-OP>
+68:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():172:column.setWidth(checkBoxWidth) |==> <NO-OP>
+69:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():173:column.setMaxWidth(checkBoxWidth) |==> <NO-OP>
+70:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.JCheckBoxList@init():174:false |==> true
+71:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():174:column.setResizable(false) |==> <NO-OP>
+72:LVR:POS:0:org.gjt.sp.jedit.gui.JCheckBoxList@init():176:1 |==> 0
+73:LVR:POS:NEG:org.gjt.sp.jedit.gui.JCheckBoxList@init():176:1 |==> -1
+74:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():176:column = getColumnModel().getColumn(1) |==> <NO-OP>
+75:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList@init():177:column.setCellRenderer(new LabelRenderer()) |==> <NO-OP>
+76:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.JCheckBoxList$Entry@<init>(java.lang.Object):194:true |==> false
+77:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$Entry@<init>(java.lang.Object):194:this.caption = true |==> <NO-OP>
+78:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$Entry@<init>(java.lang.Object):195:this.value = value |==> <NO-OP>
+79:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$Entry@<init>(boolean,java.lang.Object):200:this.checked = checked |==> <NO-OP>
+80:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$Entry@<init>(boolean,java.lang.Object):201:this.value = value |==> <NO-OP>
+81:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList$Entry@isChecked():206:checked |==> false
+82:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList$Entry@getValue():211:value |==> null
+83:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.JCheckBoxList$DummyRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):223:false |==> true
+84:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@<init>():234:plainFont = UIManager.getFont("Tree.font") |==> <NO-OP>
+85:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@<init>():235:boldFont = plainFont.deriveFont(Font.BOLD) |==> <NO-OP>
+86:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):242:super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column) |==> <NO-OP>
+87:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):245:((CheckBoxListModel)getModel()).items.get(row) |==> null
+88:COR:entry.caption:TRUE:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):246:entry.caption |==> false
+89:COR:entry.caption:FALSE:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):246:entry.caption |==> true
+90:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):247:setFont(boldFont) |==> <NO-OP>
+91:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):249:setFont(plainFont) |==> <NO-OP>
+92:EVR:<IDENTIFIER(org.gjt.sp.jedit.gui.JCheckBoxList.LabelRenderer)>:<DEFAULT>:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer@getTableCellRendererComponent(javax.swing.JTable,java.lang.Object,boolean,boolean,int,int):250:this |==> null
+93:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.util.Vector):262:items = new Vector<JCheckBoxList.Entry>(_items.size()) |==> <NO-OP>
+94:LVR:0:POS:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.util.Vector):263:0 |==> 1
+95:LVR:0:NEG:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.util.Vector):263:0 |==> -1
+96:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.util.Vector):263:i < _items.size() |==> i != _items.size()
+97:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.util.Vector):263:i < _items.size() |==> i <= _items.size()
+98:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.util.Vector):263:i < _items.size() |==> false
+99:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.util.Vector):265:items.add(createEntry(_items.elementAt(i))) |==> <NO-OP>
+100:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.lang.Object[]):271:items = new Vector<JCheckBoxList.Entry>(_items.length) |==> <NO-OP>
+101:LVR:0:POS:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.lang.Object[]):272:0 |==> 1
+102:LVR:0:NEG:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.lang.Object[]):272:0 |==> -1
+103:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.lang.Object[]):272:i < _items.length |==> i != _items.length
+104:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.lang.Object[]):272:i < _items.length |==> i <= _items.length
+105:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.lang.Object[]):272:i < _items.length |==> false
+106:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@<init>(java.lang.Object[]):274:items.add(createEntry(_items[i])) |==> <NO-OP>
+107:EVR:<TYPE_CAST(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.CheckBoxListModel@createEntry(java.lang.Object):281:(JCheckBoxList.Entry)obj |==> null
+108:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.CheckBoxListModel@createEntry(java.lang.Object):283:false |==> true
+109:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.CheckBoxListModel@getRowCount():288:items.size() |==> 0
+110:LVR:POS:0:org.gjt.sp.jedit.gui.CheckBoxListModel@getColumnCount():293:2 |==> 0
+111:LVR:POS:NEG:org.gjt.sp.jedit.gui.CheckBoxListModel@getColumnCount():293:2 |==> -2
+112:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.CheckBoxListModel@getValueAt(int,int):304:items.get(row) |==> null
+113:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@getValueAt(int,int):308:return Boolean.valueOf(entry.checked); |==> <NO-OP>
+114:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@getValueAt(int,int):310:return entry.value; |==> <NO-OP>
+115:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@getColumnClass(int):322:return Boolean.class; |==> <NO-OP>
+116:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@getColumnClass(int):324:return String.class; |==> <NO-OP>
+117:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):333:items.get(row) |==> null
+118:LVR:0:POS:org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:0 |==> 1
+119:LVR:0:NEG:org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:0 |==> -1
+120:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:col == 0 |==> col <= 0
+121:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:col == 0 |==> col >= 0
+122:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:col == 0 |==> false
+123:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:col == 0 && !entry.caption |==> col == 0 == !entry.caption
+124:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:col == 0 && !entry.caption |==> false
+125:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:col == 0 && !entry.caption |==> col == 0
+126:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.CheckBoxListModel@isCellEditable(int,int):334:col == 0 && !entry.caption |==> !entry.caption
+127:LVR:0:POS:org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):340:0 |==> 1
+128:LVR:0:NEG:org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):340:0 |==> -1
+129:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):340:col == 0 |==> col <= 0
+130:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):340:col == 0 |==> col >= 0
+131:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):340:col == 0 |==> false
+132:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.JCheckBoxList.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):342:items.get(row) |==> null
+133:COR:entry.caption:TRUE:org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):343:entry.caption |==> false
+134:COR:entry.caption:FALSE:org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):343:entry.caption |==> true
+135:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):345:entry.checked = value.equals(Boolean.TRUE) |==> <NO-OP>
+136:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.CheckBoxListModel@setValueAt(java.lang.Object,int,int):346:fireTableRowsUpdated(row, row) |==> <NO-OP>

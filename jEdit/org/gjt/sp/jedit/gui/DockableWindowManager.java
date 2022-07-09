@@ -158,7 +158,7 @@ import org.gjt.sp.util.Log;
 	//}}}
 
 	// {{{ data members
-	private final Map<PluginJAR, Set<String>> plugins = new HashMap<PluginJAR, Set<String>>(); 
+	private final Map<PluginJAR, Set<String>> plugins = null; 
 	private final Map<String, String> positions = new HashMap<String, String>();
 	protected View view;
 	protected DockableWindowFactory factory;

@@ -48,7 +48,7 @@ public abstract class EBMessage
 	 */
 	protected EBMessage(Object source)
 	{
-		this.source = source;
+		;
 	} //}}}
 
 	//{{{ EBMessage constructor

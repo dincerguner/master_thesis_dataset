@@ -1,0 +1,2 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Token@toString():67:image |==> null
+2:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.Token)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Token@newToken(int):86:new Token() |==> null

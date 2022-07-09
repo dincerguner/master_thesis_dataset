@@ -86,7 +86,7 @@ public abstract class FilteredTableModel<E extends TableModel> extends AbstractT
 	//{{{ FilteredTableModel() constructor
 	protected FilteredTableModel(E delegated)
 	{
-		this.delegated = delegated;
+		;
 		delegated.addTableModelListener(this);
 		resetFilter();
 	} //}}}

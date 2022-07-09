@@ -44,7 +44,7 @@ public class CharsetEncoding implements Encoding
 	//{{{ Constructor
 	public CharsetEncoding(String name)
 	{
-		body = Charset.forName(name);
+		body = null;
 	} //}}}
 
 	//{{{ implements Encoding

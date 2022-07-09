@@ -40,7 +40,7 @@ public class EditAbbrevDialog extends JDialog
 	public EditAbbrevDialog(Frame frame, String abbrev, String expansion,
 		Map abbrevs)
 	{
-		super(frame,jEdit.getProperty("edit-abbrev.title"),true);
+		super(frame,jEdit.getProperty("edit-abbrev.title"),false);
 		init(abbrev, expansion, abbrevs);
 	} //}}}
 

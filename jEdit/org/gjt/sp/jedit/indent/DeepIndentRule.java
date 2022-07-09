@@ -46,7 +46,7 @@ public class DeepIndentRule implements IndentRule
 
 	public DeepIndentRule(char openChar, char closeChar)
 	{
-		this.openChar = openChar;
+		this.openChar = 0;
 		this.closeChar = closeChar;
 	}
 

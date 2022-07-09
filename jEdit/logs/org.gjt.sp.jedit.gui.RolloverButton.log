@@ -1,0 +1,44 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@<init>():57:addMouseListener(new MouseOverHandler()) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@<init>(javax.swing.Icon):70:setIcon(icon) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@updateUI():76:super.updateUI() |==> <NO-OP>
+4:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.RolloverButton@updateUI():78:false |==> true
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@updateUI():78:setBorderPainted(false) |==> <NO-OP>
+6:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.RolloverButton@updateUI():79:false |==> true
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@updateUI():79:setRequestFocusEnabled(false) |==> <NO-OP>
+8:LVR:POS:0:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> 0
+9:LVR:POS:NEG:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> -1
+10:LVR:POS:0:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> 0
+11:LVR:POS:NEG:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> -1
+12:LVR:POS:0:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> 0
+13:LVR:POS:NEG:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> -1
+14:LVR:POS:0:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> 0
+15:LVR:POS:NEG:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:1 |==> -1
+16:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@updateUI():80:setMargin(new Insets(1, 1, 1, 1)) |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@setEnabled(boolean):86:super.setEnabled(b) |==> <NO-OP>
+18:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.RolloverButton@setEnabled(boolean):87:false |==> true
+19:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@setEnabled(boolean):87:setBorderPainted(false) |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@setEnabled(boolean):88:repaint() |==> <NO-OP>
+21:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.RolloverButton@setBorderPainted(boolean):96:true |==> false
+22:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@setBorderPainted(boolean):96:revalidateBlocked = true |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@setBorderPainted(boolean):97:super.setBorderPainted(b) |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@setBorderPainted(boolean):98:setContentAreaFilled(b) |==> <NO-OP>
+25:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.RolloverButton@setBorderPainted(boolean):102:false |==> true
+26:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@setBorderPainted(boolean):102:revalidateBlocked = false |==> <NO-OP>
+27:COR:revalidateBlocked:TRUE:org.gjt.sp.jedit.gui.RolloverButton@revalidate():113:revalidateBlocked |==> false
+28:COR:revalidateBlocked:FALSE:org.gjt.sp.jedit.gui.RolloverButton@revalidate():113:revalidateBlocked |==> true
+29:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@revalidate():114:super.revalidate() |==> <NO-OP>
+30:COR:isEnabled():TRUE:org.gjt.sp.jedit.gui.RolloverButton@paint(java.awt.Graphics):120:isEnabled() |==> false
+31:COR:isEnabled():FALSE:org.gjt.sp.jedit.gui.RolloverButton@paint(java.awt.Graphics):120:isEnabled() |==> true
+32:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@paint(java.awt.Graphics):121:super.paint(g) |==> <NO-OP>
+33:EVR:<TYPE_CAST(java.awt.Graphics2D)>:<DEFAULT>:org.gjt.sp.jedit.gui.RolloverButton@paint(java.awt.Graphics):124:(Graphics2D)g |==> null
+34:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@paint(java.awt.Graphics):125:g2.setComposite(c) |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton@paint(java.awt.Graphics):126:super.paint(g2) |==> <NO-OP>
+36:LVR:POS:0:org.gjt.sp.jedit.gui.RolloverButton:132:0.5F |==> 0.0F
+37:LVR:POS:NEG:org.gjt.sp.jedit.gui.RolloverButton:132:0.5F |==> -0.5F
+38:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.RolloverButton$MouseOverHandler@mouseEntered(java.awt.event.MouseEvent):144:true |==> false
+39:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton$MouseOverHandler@mouseEntered(java.awt.event.MouseEvent):144:setContentAreaFilled(true) |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton$MouseOverHandler@mouseEntered(java.awt.event.MouseEvent):145:setBorderPainted(isEnabled()) |==> <NO-OP>
+41:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.RolloverButton$MouseOverHandler@mouseExited(java.awt.event.MouseEvent):150:false |==> true
+42:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton$MouseOverHandler@mouseExited(java.awt.event.MouseEvent):150:setContentAreaFilled(false) |==> <NO-OP>
+43:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.RolloverButton$MouseOverHandler@mouseExited(java.awt.event.MouseEvent):151:false |==> true
+44:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.RolloverButton$MouseOverHandler@mouseExited(java.awt.event.MouseEvent):151:setBorderPainted(false) |==> <NO-OP>

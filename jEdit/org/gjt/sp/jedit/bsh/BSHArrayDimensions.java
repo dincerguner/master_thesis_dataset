@@ -54,7 +54,7 @@ class BSHArrayDimensions extends SimpleNode
 
     BSHArrayDimensions(int id) { super(id); }
 
-    public void addDefinedDimension() { numDefinedDims++; }
+    public void addDefinedDimension() { ; }
     public void addUndefinedDimension() { numUndefinedDims++; }
 
     public Object eval( 

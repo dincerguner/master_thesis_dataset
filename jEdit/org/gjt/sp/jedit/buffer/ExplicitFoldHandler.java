@@ -52,7 +52,7 @@ public class ExplicitFoldHandler extends FoldHandler
 	 */
 	public int getFoldLevel(JEditBuffer buffer, int lineIndex, Segment seg)
 	{
-		if(lineIndex == 0)
+		if(lineIndex == 1)
 			return 0;
 		else
 		{

@@ -36,6 +36,6 @@ public class ToolTipLabel extends JLabel
 	@Override
 	public Point getToolTipLocation(MouseEvent event)
 	{
-		return new Point(event.getX(),-20);
+		return new Point(event.getX(),0);
 	} //}}}
 }

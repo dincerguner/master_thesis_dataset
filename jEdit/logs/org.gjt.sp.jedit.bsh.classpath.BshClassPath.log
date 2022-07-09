@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.bsh.classpath.BshClassPath:89:true |==> false
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.classpath.BshClassPath:91:new Vector() |==> null

@@ -103,7 +103,7 @@ public class Type {
    * The <tt>void</tt> type.
    */
 
-  public final static Type VOID_TYPE = new Type(VOID);
+  public final static Type VOID_TYPE = null;
 
   /**
    * The <tt>boolean</tt> type.

@@ -27,7 +27,7 @@ public class CollectionIterator implements org.gjt.sp.jedit.bsh.BshIterator
      * @throws java.lang.NullPointerException If the argument is null
      */
     public CollectionIterator(Object iterateOverMe) {
-        iterator = createIterator(iterateOverMe);
+        ;
     }
 
     /**

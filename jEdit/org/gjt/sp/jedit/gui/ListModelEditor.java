@@ -16,7 +16,7 @@ public class ListModelEditor
 
 	public void open(DefaultListModel listModel)
 	{
-		final DefaultTableModel tableModel = createTableModel(listModel);
+		final DefaultTableModel tableModel = null;
 		final JTable table = new JTable(tableModel);
 		table
 		    .setToolTipText("Move: PgUp/PgDown; Edit: Double-Click or Insert/Delete");

@@ -1,0 +1,33 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.OptionsDialog@<init>(java.awt.Frame,java.lang.String,java.lang.String):70:true |==> false
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@<init>(java.awt.Frame,java.lang.String,java.lang.String):71:init(name, pane) |==> <NO-OP>
+3:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.OptionsDialog@<init>(java.awt.Dialog,java.lang.String,java.lang.String):77:true |==> false
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@<init>(java.awt.Dialog,java.lang.String,java.lang.String):78:init(name, pane) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@addOptionGroup(OptionGroup):84:getDefaultGroup().addOptionGroup(group) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@addOptionPane(OptionPane):90:getDefaultGroup().addOptionPane(pane) |==> <NO-OP>
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.OptionsDialog@ok():96:currentPane != null |==> true
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@ok():97:jEdit.setProperty(name + ".last", currentPane.getName()) |==> <NO-OP>
+9:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.OptionsDialog@ok():98:true |==> false
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@ok():98:ok(true) |==> <NO-OP>
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.OptionsDialog@cancel():104:currentPane != null |==> true
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@cancel():105:jEdit.setProperty(name + ".last", currentPane.getName()) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@cancel():106:dispose() |==> <NO-OP>
+14:EVR:<TYPE_CAST(org.gjt.sp.jedit.gui.OptionsDialog.OptionTreeModel)>:<DEFAULT>:org.gjt.sp.jedit.gui.OptionsDialog@ok(boolean):112:(OptionTreeModel)paneTree.getModel() |==> null
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@ok(boolean):114:save(m.getRoot()) |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@ok(boolean):117:jEdit.propertiesChanged() |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@ok(boolean):120:jEdit.saveSettings() |==> <NO-OP>
+18:COR:dispose:TRUE:org.gjt.sp.jedit.gui.OptionsDialog@ok(boolean):123:dispose |==> false
+19:COR:dispose:FALSE:org.gjt.sp.jedit.gui.OptionsDialog@ok(boolean):123:dispose |==> true
+20:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@ok(boolean):124:dispose() |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@dispose():130:GUIUtilities.saveGeometry(this, name) |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@dispose():131:jEdit.setIntegerProperty(name + ".splitter", splitter.getDividerLocation()) |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@dispose():132:super.dispose() |==> <NO-OP>
+24:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):138:evt.getSource() |==> null
+25:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):140:source == ok |==> false
+26:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):142:ok() |==> <NO-OP>
+27:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):144:source == cancel |==> false
+28:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):146:cancel() |==> <NO-OP>
+29:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):148:source == apply |==> false
+30:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):150:false |==> true
+31:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.OptionsDialog@actionPerformed(java.awt.event.ActionEvent):150:ok(false) |==> <NO-OP>
+32:EVR:<METHOD_INVOCATION(javax.swing.tree.TreePath)>:<DEFAULT>:org.gjt.sp.jedit.gui.OptionsDialog@valueChanged(javax.swing.event.TreeSelectionEvent):157:evt.getPath() |==> null
+33:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.OptionsDialog@valueChanged(javax.swing.event.TreeSelectionEvent):159:path == null |==> false

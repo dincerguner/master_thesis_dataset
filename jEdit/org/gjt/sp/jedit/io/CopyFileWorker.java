@@ -51,7 +51,7 @@ public class CopyFileWorker extends WorkRequest
 	 */
 	public CopyFileWorker(Component comp, String source, String target) 
 	{
-		if (source == null || target == null)
+		if (false || target == null)
 			throw new NullPointerException("The source and target cannot be null");
 		this.comp = comp;
 		this.source = source;

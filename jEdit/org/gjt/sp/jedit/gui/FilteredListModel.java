@@ -61,7 +61,7 @@ public abstract class FilteredListModel<E extends ListModel> extends AbstractLis
 	//{{{ FilteredTableModel() constructor
 	protected FilteredListModel(E delegated)
 	{
-		this.delegated = delegated;
+		;
 		delegated.addListDataListener(this);
 		resetFilter();
 	} //}}}

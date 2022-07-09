@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory.ErrorWidget)>:<DEFAULT>:org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory@getWidget(View):49:new ErrorWidget(view) |==> null

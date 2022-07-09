@@ -63,7 +63,7 @@ public class FilePropertiesDialog extends EnhancedDialog
 	 */
 	public FilePropertiesDialog(View view, VFSBrowser browser, VFSFile[] files)
 	{
-		super(view,jEdit.getProperty("vfs.browser.properties.title"),true);
+		super(view,jEdit.getProperty("vfs.browser.properties.title"),false);
 		GUIUtilities.loadGeometry(this,"propdialog");
 
 		this.browser = browser;

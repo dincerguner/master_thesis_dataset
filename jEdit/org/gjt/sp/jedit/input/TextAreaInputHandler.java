@@ -51,7 +51,7 @@ public abstract class TextAreaInputHandler extends AbstractInputHandler<JEditBea
 	//{{{ TextAreaInputHandler constructor
 	protected TextAreaInputHandler(TextArea textArea)
 	{
-		this.textArea = textArea;
+		this.textArea = null;
 		bindings = currentBindings = new Hashtable();
 	} //}}}
 

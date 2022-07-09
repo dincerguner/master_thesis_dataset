@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.HashMap<PluginJAR,java.util.Set<java.lang.String>>)>:<DEFAULT>:org.gjt.sp.jedit.gui.DockableWindowManager:161:new HashMap<PluginJAR, Set<String>>() |==> null
+2:EVR:<NEW_CLASS(java.util.HashMap<java.lang.String,java.lang.String>)>:<DEFAULT>:org.gjt.sp.jedit.gui.DockableWindowManager:162:new HashMap<String, String>() |==> null
+3:EVR:<NEW_CLASS(java.util.HashMap<java.lang.String,javax.swing.JComponent>)>:<DEFAULT>:org.gjt.sp.jedit.gui.DockableWindowManager:165:new HashMap<String, JComponent>() |==> null
+4:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.DockableWindowManager:169:true |==> false

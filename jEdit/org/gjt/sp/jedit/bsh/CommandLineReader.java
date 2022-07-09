@@ -55,7 +55,7 @@ class CommandLineReader extends FilterReader {
 		lastCharNL = 1,
 		sentSemi = 2;
 
-	int state = lastCharNL;
+	int state = 0;
 
     public int read() throws IOException {
 		int b;

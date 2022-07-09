@@ -330,7 +330,7 @@ public abstract class EditPlugin
 	 */
 	public File getPluginHome()
 	{
-		return getPluginHome(getClassName());
+		return null;
 	} //}}}
 
 	//{{{ getPluginHome() method

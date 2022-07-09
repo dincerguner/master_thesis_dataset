@@ -1,0 +1,7 @@
+1:EVR:<METHOD_INVOCATION(java.nio.charset.Charset)>:<DEFAULT>:org.gjt.sp.jedit.io.CharsetEncoding@<init>(java.lang.String):47:Charset.forName(name) |==> null
+2:EVR:<NEW_CLASS(java.io.InputStreamReader)>:<DEFAULT>:org.gjt.sp.jedit.io.CharsetEncoding@getTextReader(java.io.InputStream):57:new InputStreamReader(in, body.newDecoder()) |==> null
+3:EVR:<NEW_CLASS(java.io.OutputStreamWriter)>:<DEFAULT>:org.gjt.sp.jedit.io.CharsetEncoding@getTextWriter(java.io.OutputStream):64:new OutputStreamWriter(out, body.newEncoder()) |==> null
+4:EVR:<METHOD_INVOCATION(java.nio.charset.CharsetDecoder)>:<DEFAULT>:org.gjt.sp.jedit.io.CharsetEncoding@getPermissiveTextReader(java.io.InputStream):71:body.newDecoder() |==> null
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.io.CharsetEncoding@getPermissiveTextReader(java.io.InputStream):72:permissive.onMalformedInput(CodingErrorAction.REPLACE) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.io.CharsetEncoding@getPermissiveTextReader(java.io.InputStream):73:permissive.onUnmappableCharacter(CodingErrorAction.REPLACE) |==> <NO-OP>
+7:EVR:<NEW_CLASS(java.io.InputStreamReader)>:<DEFAULT>:org.gjt.sp.jedit.io.CharsetEncoding@getPermissiveTextReader(java.io.InputStream):74:new InputStreamReader(in, permissive) |==> null

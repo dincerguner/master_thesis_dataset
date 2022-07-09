@@ -61,7 +61,7 @@ public class SettingsXML
 		 */
 		public void writeXMLDeclaration() throws IOException
 		{
-			writeXMLDeclaration("1.0");
+			;
 		} //}}}
 
 		//{{{ writeXMLDeclaration() method

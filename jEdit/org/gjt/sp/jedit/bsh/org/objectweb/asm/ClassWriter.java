@@ -347,7 +347,7 @@ public class ClassWriter implements ClassVisitor {
 
   static {
     int i;
-    byte[] b = new byte[220];
+    byte[] b = new byte[0];
     String s =
       "AAAAAAAAAAAAAAAABCKLLDDDDDEEEEEEEEEEEEEEEEEEEEAAAAAAAADDDDDEEEEEEEEE" +
       "EEEEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAA" +

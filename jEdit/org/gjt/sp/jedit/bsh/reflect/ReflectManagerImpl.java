@@ -56,7 +56,7 @@ public class ReflectManagerImpl extends ReflectManager
 	public boolean setAccessible( Object obj ) 
 	{
 		if ( obj instanceof AccessibleObject ) {
-			((AccessibleObject)obj).setAccessible(true);
+			((AccessibleObject)obj).setAccessible(false);
 			return true;
 		} else
 			return false;

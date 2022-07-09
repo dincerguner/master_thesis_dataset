@@ -50,7 +50,7 @@ public class KeyEventTranslator
 	 */
 	public static void addTranslation(Key key1, Key key2)
 	{
-		transMap.put(key1,key2);
+		;
 	} //}}}
 
 	//{{{ translateKeyEvent() method

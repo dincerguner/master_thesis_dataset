@@ -1,0 +1,5 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.buffer.FoldHandler@getName():66:name |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.FoldHandler@equals(java.lang.Object):110:o == null |==> false
+3:LVR:FALSE:TRUE:org.gjt.sp.jedit.buffer.FoldHandler@equals(java.lang.Object):111:false |==> true
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.FoldHandler@equals(java.lang.Object):113:getClass() == o.getClass() |==> false
+5:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.FoldHandler@hashCode():119:getClass().hashCode() |==> 0

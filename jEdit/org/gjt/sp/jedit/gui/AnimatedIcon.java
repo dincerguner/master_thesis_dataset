@@ -42,7 +42,7 @@ public class AnimatedIcon extends ImageIcon
 	public AnimatedIcon(Image icon, Image[] frames, int rate, Component host)
 	{
 		super(icon);
-		this.icon = icon;
+		;
 		this.frames = frames;
 		delay = 1000/rate;
 		this.host = host;

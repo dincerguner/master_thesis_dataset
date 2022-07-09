@@ -1,0 +1,54 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.TextAreaDialog@<init>(java.awt.Frame,java.lang.String,java.lang.String,javax.swing.Icon,java.lang.String):39:true |==> false
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@<init>(java.awt.Frame,java.lang.String,java.lang.String,javax.swing.Icon,java.lang.String):41:init(caption, icon, text) |==> <NO-OP>
+3:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.TextAreaDialog@<init>(java.awt.Dialog,java.lang.String,java.lang.String,javax.swing.Icon,java.lang.String):57:true |==> false
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@<init>(java.awt.Dialog,java.lang.String,java.lang.String,javax.swing.Icon,java.lang.String):59:init(caption, icon, text) |==> <NO-OP>
+5:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):75:12 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):75:12 |==> -12
+7:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):75:12 |==> 0
+8:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):75:12 |==> -12
+9:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> 0
+10:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> -12
+11:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> 0
+12:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> -12
+13:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> 0
+14:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> -12
+15:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> 0
+16:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:12 |==> -12
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):76:content.setBorder(new EmptyBorder(12, 12, 12, 12)) |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):77:setContentPane(content) |==> <NO-OP>
+19:EVR:<NEW_CLASS(javax.swing.Box)>:<DEFAULT>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):79:new Box(BoxLayout.Y_AXIS) |==> null
+20:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):80:iconBox.add(new JLabel(icon)) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):81:iconBox.add(Box.createGlue()) |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):82:content.add(BorderLayout.WEST, iconBox) |==> <NO-OP>
+23:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):84:6 |==> 0
+24:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):84:6 |==> -6
+25:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):84:6 |==> 0
+26:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):84:6 |==> -6
+27:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):86:centerPanel.add(BorderLayout.NORTH, GUIUtilities.createMultilineLabel(caption)) |==> <NO-OP>
+28:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):89:10 |==> 0
+29:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):89:10 |==> -10
+30:LVR:POS:0:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):89:80 |==> 0
+31:LVR:POS:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):89:80 |==> -80
+32:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):91:textArea.setText(text) |==> <NO-OP>
+33:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):92:true |==> false
+34:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):92:textArea.setLineWrap(true) |==> <NO-OP>
+35:LVR:0:POS:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):93:0 |==> 1
+36:LVR:0:NEG:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):93:0 |==> -1
+37:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):93:textArea.setCaretPosition(0) |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):94:centerPanel.add(BorderLayout.CENTER, new JScrollPane(textArea)) |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):96:content.add(BorderLayout.CENTER, centerPanel) |==> <NO-OP>
+40:EVR:<NEW_CLASS(javax.swing.Box)>:<DEFAULT>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):98:new Box(BoxLayout.X_AXIS) |==> null
+41:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):99:buttons.add(Box.createGlue()) |==> <NO-OP>
+42:EVR:<NEW_CLASS(javax.swing.JButton)>:<DEFAULT>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):100:new JButton(jEdit.getProperty("common.ok")) |==> null
+43:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):101:ok.addActionListener(new ActionHandler()) |==> <NO-OP>
+44:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):102:buttons.add(ok) |==> <NO-OP>
+45:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):103:buttons.add(Box.createGlue()) |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):104:content.add(BorderLayout.SOUTH, buttons) |==> <NO-OP>
+47:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):106:getRootPane().setDefaultButton(ok) |==> <NO-OP>
+48:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):108:pack() |==> <NO-OP>
+49:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):109:setLocationRelativeTo(getParent()) |==> <NO-OP>
+50:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):110:true |==> false
+51:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@init(java.lang.String,javax.swing.Icon,java.lang.String):110:setVisible(true) |==> <NO-OP>
+52:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@ok():116:dispose() |==> <NO-OP>
+53:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog@cancel():122:dispose() |==> <NO-OP>
+54:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TextAreaDialog$ActionHandler@actionPerformed(java.awt.event.ActionEvent):131:dispose() |==> <NO-OP>
