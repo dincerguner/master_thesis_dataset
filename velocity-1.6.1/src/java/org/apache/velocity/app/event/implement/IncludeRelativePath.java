@@ -49,7 +49,7 @@ public class IncludeRelativePath implements IncludeEventHandler {
         String directiveName)
     {
         // if the resource name starts with a slash, it's not a relative path
-        if (includeResourcePath.startsWith("/") || includeResourcePath.startsWith("\\") ) {
+        if (includeResourcePath.startsWith("/") != includeResourcePath.startsWith("\\") ) {
             return includeResourcePath;
         }
 

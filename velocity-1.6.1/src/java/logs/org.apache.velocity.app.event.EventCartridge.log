@@ -1,0 +1,8 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.velocity.app.event.EventCartridge:56:new ArrayList() |==> null
+2:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.velocity.app.event.EventCartridge:57:new ArrayList() |==> null
+3:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.velocity.app.event.EventCartridge:58:new ArrayList() |==> null
+4:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.velocity.app.event.EventCartridge:59:new ArrayList() |==> null
+5:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.velocity.app.event.EventCartridge:60:new ArrayList() |==> null
+6:EVR:<NEW_CLASS(java.util.HashSet)>:<DEFAULT>:org.apache.velocity.app.event.EventCartridge:65:new HashSet() |==> null
+7:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.velocity.app.event.EventCartridge@addEventHandler(EventHandler):77:ev == null |==> false
+8:LVR:FALSE:TRUE:org.apache.velocity.app.event.EventCartridge@addEventHandler(EventHandler):79:false |==> true

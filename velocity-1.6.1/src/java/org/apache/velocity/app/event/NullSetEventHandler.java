@@ -57,7 +57,7 @@ public interface NullSetEventHandler extends EventHandler
         /**
          * when this is false, quit iterating
          */
-        private boolean result = true;
+        private boolean result = false;
         private boolean executed = false;
         
         ShouldLogOnNullSetExecutor(
