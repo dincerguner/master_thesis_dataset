@@ -1,0 +1,3 @@
+1:STD:<INC>:<NO-OP>:bsh.BSHType@addArrayDimension():70:arrayDims++ |==> <NO-OP>
+2:LVR:0:POS:bsh.BSHType@getTypeNode():74:0 |==> 1
+3:LVR:0:NEG:bsh.BSHType@getTypeNode():74:0 |==> -1

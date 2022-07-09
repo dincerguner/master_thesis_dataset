@@ -30,12 +30,12 @@ class PropertyManager
 	//{{{ getProperties() method
 	Properties getProperties()
 	{
-		Properties total = new Properties();
-		total.putAll(system);
-		Iterator iter = plugins.iterator();
+		Properties total = null;
+		;
+		Iterator iter = null;
 		while(iter.hasNext())
-			total.putAll((Properties)iter.next());
-		total.putAll(site);
+			;
+		;
 		total.putAll(user);
 		return total;
 	} //}}}

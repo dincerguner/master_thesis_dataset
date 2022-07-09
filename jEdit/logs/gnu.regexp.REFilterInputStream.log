@@ -1,0 +1,2 @@
+1:LVR:0:POS:gnu.regexp.REFilterInputStream@<init>(java.io.InputStream,RE,java.lang.String):57:0 |==> 1
+2:LVR:0:NEG:gnu.regexp.REFilterInputStream@<init>(java.io.InputStream,RE,java.lang.String):57:0 |==> -1

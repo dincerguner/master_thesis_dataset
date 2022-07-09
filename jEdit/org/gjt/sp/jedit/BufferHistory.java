@@ -45,9 +45,9 @@ public class BufferHistory
 		while(iter.hasNext())
 		{
 			Entry entry = (Entry)iter.next();
-			if(pathsCaseInsensitive)
+			if(false)
 			{
-				if(entry.path.equalsIgnoreCase(path))
+				if(false)
 					return entry;
 			}
 			else

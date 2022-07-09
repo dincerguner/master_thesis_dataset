@@ -1,0 +1,4 @@
+1:COR:Interpreter.DEBUG:TRUE:bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):78:Interpreter.DEBUG |==> false
+2:COR:Interpreter.DEBUG:FALSE:bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):78:Interpreter.DEBUG |==> true
+3:STD:<CALL>:<NO-OP>:bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):79:printStackTrace() |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):81:msg == null |==> false

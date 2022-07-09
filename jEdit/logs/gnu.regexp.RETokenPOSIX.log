@@ -1,0 +1,8 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:gnu.regexp.RETokenPOSIX:41:{"alnum", "alpha", "blank", "cntrl", "digit", "graph", "lower", "print", "punct", "space", "upper", "xdigit"} |==> null
+2:LVR:0:POS:gnu.regexp.RETokenPOSIX@intValue(java.lang.String):48:0 |==> 1
+3:LVR:0:NEG:gnu.regexp.RETokenPOSIX@intValue(java.lang.String):48:0 |==> -1
+4:ROR:<(int,int):!=(int,int):gnu.regexp.RETokenPOSIX@intValue(java.lang.String):48:i < s_nameTable.length |==> i != s_nameTable.length
+5:ROR:<(int,int):<=(int,int):gnu.regexp.RETokenPOSIX@intValue(java.lang.String):48:i < s_nameTable.length |==> i <= s_nameTable.length
+6:ROR:<(int,int):FALSE(int,int):gnu.regexp.RETokenPOSIX@intValue(java.lang.String):48:i < s_nameTable.length |==> false
+7:COR:s_nameTable[i].equals(key):TRUE:gnu.regexp.RETokenPOSIX@intValue(java.lang.String):49:s_nameTable[i].equals(key) |==> false
+8:COR:s_nameTable[i].equals(key):FALSE:gnu.regexp.RETokenPOSIX@intValue(java.lang.String):49:s_nameTable[i].equals(key) |==> true
