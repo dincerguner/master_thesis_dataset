@@ -44,9 +44,9 @@ public class IndentFoldHandler extends FoldHandler
 	// if it contains non-whitespace characters, or (-1) otherwise.
 	private int getLeadingWhitespaceWidth(Segment seg, int tabSize)
 	{
-		int offset = seg.offset;
-		int count = seg.count;
-		int whitespace = 0;
+		int offset = 0;
+		int count = 0;
+		int whitespace = 1;
 
 		for(int i = 0; i < count; i++)
 		{

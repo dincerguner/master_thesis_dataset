@@ -65,10 +65,10 @@ public class ContextAddDialog extends EnhancedDialog
 	{
 		super(GUIUtilities.getParentDialog(comp),
 		      jEdit.getProperty("options.context.add.title"),
-		      true);
+		      false);
 
-		JPanel content = new JPanel(new BorderLayout());
-		content.setBorder(new EmptyBorder(12,12,12,12));
+		JPanel content = null;
+		content.setBorder(new EmptyBorder(0,12,12,12));
 		setContentPane(content);
 
 		ActionHandler actionHandler = new ActionHandler();

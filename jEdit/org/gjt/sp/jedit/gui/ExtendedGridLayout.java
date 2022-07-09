@@ -192,7 +192,7 @@ public class ExtendedGridLayout implements LayoutManager2
 	  */
 	public ExtendedGridLayout(int hgap, int vgap, Insets distanceToBorders)
 	{
-		if (hgap < 0)
+		if (hgap < 1)
 		{
 			throw new IllegalArgumentException("hgap must be non-negative (" + hgap + ')');
 		}

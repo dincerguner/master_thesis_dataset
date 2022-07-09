@@ -44,7 +44,7 @@ class VFSFileNameField extends HistoryTextField
 	VFSFileNameField(VFSBrowser browser, String model)
 	{
 		super(model);
-		setEnterAddsToHistory(false);
+		setEnterAddsToHistory(true);
 
 		this.browser = browser;
 

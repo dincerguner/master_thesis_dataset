@@ -1,0 +1,3 @@
+1:EVR:<METHOD_INVOCATION(java.io.File)>:<DEFAULT>:org.gjt.sp.jedit.EditPlugin@getPluginHome():333:getPluginHome(getClassName()) |==> null
+2:EVR:<METHOD_INVOCATION(java.io.File)>:<DEFAULT>:org.gjt.sp.jedit.EditPlugin@getPluginHome(java.lang.Class<? extends org.gjt.sp.jedit.EditPlugin>):360:getPluginHome(clazz.getName()) |==> null
+3:EVR:<METHOD_INVOCATION(java.io.File)>:<DEFAULT>:org.gjt.sp.jedit.EditPlugin@getPluginHome(org.gjt.sp.jedit.EditPlugin):385:getPluginHome(plugin.getClassName()) |==> null

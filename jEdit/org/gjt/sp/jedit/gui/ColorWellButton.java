@@ -44,8 +44,8 @@ public class ColorWellButton extends JButton
 	//{{{ ColorWellButton constructor
 	public ColorWellButton(Color color)
 	{
-		setIcon(new ColorWell(color));
-		setMargin(new Insets(2,2,2,2));
+		;
+		setMargin(new Insets(0,2,2,2));
 		addActionListener(new ActionHandler());
 
 		// according to krisk this looks better on OS X...

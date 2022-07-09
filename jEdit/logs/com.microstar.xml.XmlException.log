@@ -1,0 +1,8 @@
+1:STD:<ASSIGN>:<NO-OP>:com.microstar.xml.XmlException@<init>(java.lang.String,java.lang.String,int,int):40:this.message = message |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:com.microstar.xml.XmlException@<init>(java.lang.String,java.lang.String,int,int):41:this.systemId = systemId |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:com.microstar.xml.XmlException@<init>(java.lang.String,java.lang.String,int,int):42:this.line = line |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:com.microstar.xml.XmlException@<init>(java.lang.String,java.lang.String,int,int):43:this.column = column |==> <NO-OP>
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:com.microstar.xml.XmlException@getMessage():53:message |==> null
+6:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:com.microstar.xml.XmlException@getSystemId():63:systemId |==> null
+7:EVR:<IDENTIFIER(int)>:<DEFAULT>:com.microstar.xml.XmlException@getLine():73:line |==> 0
+8:EVR:<IDENTIFIER(int)>:<DEFAULT>:com.microstar.xml.XmlException@getColumn():82:column |==> 0

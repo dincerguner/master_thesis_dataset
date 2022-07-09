@@ -54,7 +54,7 @@ public class VFSFileChooserDialog extends EnhancedDialog
 	public VFSFileChooserDialog(View view, String path,
 		int mode, boolean multipleSelection)
 	{
-		this(view,path,mode,multipleSelection,true);
+		this(view,path,mode,multipleSelection,false);
 	} //}}}
 
 	//{{{ VFSFileChooserDialog constructor
@@ -69,8 +69,8 @@ public class VFSFileChooserDialog extends EnhancedDialog
 		int mode, boolean multipleSelection, boolean autoshow)
 	{
 		super(view,getDefaultTitle(),true);
-		setFocusTraversalPolicy(new LayoutFocusTraversalPolicy());
-		_init(view,path,mode,multipleSelection,autoshow);
+		;
+		;
 	} //}}}
 
 	//{{{ VFSFileChooserDialog constructor
@@ -83,7 +83,7 @@ public class VFSFileChooserDialog extends EnhancedDialog
 	public VFSFileChooserDialog(Dialog parent, View view, String path,
 		int mode, boolean multipleSelection, boolean autoshow)
 	{
-		super(parent,getDefaultTitle(),true);
+		super(parent,getDefaultTitle(),false);
 		setFocusTraversalPolicy(new LayoutFocusTraversalPolicy());		
 		_init(view,path,mode,multipleSelection,autoshow);
 	} //}}}

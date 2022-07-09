@@ -34,12 +34,12 @@ public class AbbrevEditor extends JPanel
 	//{{{ AbbrevEditor constructor
 	public AbbrevEditor()
 	{
-		GridBagLayout layout = new GridBagLayout();
-		setLayout(layout);
+		GridBagLayout layout = null;
+		;
 
-		GridBagConstraints cons = new GridBagConstraints();
-		cons.anchor = cons.WEST;
-		cons.fill = cons.BOTH;
+		GridBagConstraints cons = null;
+		;
+		;
 		cons.weightx = 0.0f;
 		cons.gridx = 1;
 		cons.gridy = 1;

@@ -63,8 +63,8 @@ public class BufferLoadRequest extends BufferIORequest
 	{
 		try
 		{
-			setAbortable(true);
-			if(!buffer.isTemporary())
+			setAbortable(false);
+			if(!false)
 			{
 				String[] args = { vfs.getFileName(path) };
 				setStatus(jEdit.getProperty("vfs.status.load",args));

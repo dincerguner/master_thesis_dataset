@@ -1,0 +1,10 @@
+1:COR:weHaveVar(name):TRUE:org.gjt.sp.jedit.bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object,boolean,boolean):79:weHaveVar(name) |==> false
+2:COR:weHaveVar(name):FALSE:org.gjt.sp.jedit.bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object,boolean,boolean):79:weHaveVar(name) |==> true
+3:LVR:FALSE:TRUE:org.gjt.sp.jedit.bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object,boolean,boolean):81:false |==> true
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object,boolean,boolean):81:super.setVariable(name, value, strictJava, false) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object,boolean,boolean):84:getParent().setVariable(name, value, strictJava, recurse) |==> <NO-OP>
+6:LVR:FALSE:TRUE:org.gjt.sp.jedit.bsh.BlockNameSpace@setBlockVariable(java.lang.String,java.lang.Object):96:false |==> true
+7:LVR:FALSE:TRUE:org.gjt.sp.jedit.bsh.BlockNameSpace@setBlockVariable(java.lang.String,java.lang.Object):96:false |==> true
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.BlockNameSpace@setBlockVariable(java.lang.String,java.lang.Object):96:super.setVariable(name, value, false, false) |==> <NO-OP>
+9:LVR:FALSE:TRUE:org.gjt.sp.jedit.bsh.BlockNameSpace@weHaveVar(java.lang.String):108:false |==> true
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.BlockNameSpace@weHaveVar(java.lang.String):108:super.getVariableImpl(name, false) != null |==> true

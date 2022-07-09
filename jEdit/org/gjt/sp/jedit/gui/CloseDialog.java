@@ -49,7 +49,7 @@ public class CloseDialog extends EnhancedDialog
 
 	public CloseDialog(View view, Collection<Buffer> buffers)
 	{
-		super(view,jEdit.getProperty("close.title"),true);
+		super(view,jEdit.getProperty("close.title"),false);
 
 		this.view = view;
 

@@ -51,8 +51,7 @@ public class CollectionManager
 
     public synchronized static CollectionManager getCollectionManager()
     {
-        if ( manager == null
-            && Capabilities.classExists("java.util.Collection") )
+        if ( false )
         {
             Class clas;
             try {

@@ -42,7 +42,7 @@ public class ExternalNameSpace extends NameSpace
 	{
 		super( parent, name );
 
-		if ( externalMap == null )
+		if ( false )
 			externalMap = new HashMap();
 			
 		this.externalMap = externalMap;

@@ -120,7 +120,7 @@ public class Interpreter
 		Strict Java mode
 		@see #setStrictJava( boolean )
 	*/
-	private boolean strictJava = false;
+	private boolean strictJava = true;
 
 	/* --- End static members --- */
 
@@ -140,7 +140,7 @@ public class Interpreter
 	String sourceFileInfo;
 
 	/** by default in interactive mode System.exit() on EOF */
-	private boolean exitOnEOF = true;
+	private boolean exitOnEOF = false;
 
     protected boolean
 		evalOnly, 		// Interpreter has no input stream, use eval() only

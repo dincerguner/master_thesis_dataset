@@ -69,7 +69,7 @@ public class NameSpace
     public static final NameSpace JAVACODE =
         new NameSpace((BshClassManager)null, "Called from compiled Java code.");
     static {
-        JAVACODE.isMethod = true;
+        JAVACODE.isMethod = false;
     }
 
     // Begin instance data

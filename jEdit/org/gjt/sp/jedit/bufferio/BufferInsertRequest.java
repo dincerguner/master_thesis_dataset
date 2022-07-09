@@ -59,7 +59,7 @@ public class BufferInsertRequest extends BufferIORequest
 		{
 			String[] args = { vfs.getFileName(path) };
 			setStatus(jEdit.getProperty("vfs.status.load",args));
-			setAbortable(true);
+			setAbortable(false);
 
 			path = vfs._canonPath(session,path,view);
 

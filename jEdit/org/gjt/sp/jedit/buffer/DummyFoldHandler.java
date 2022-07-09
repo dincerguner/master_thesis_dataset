@@ -51,6 +51,6 @@ public class DummyFoldHandler extends FoldHandler
 	 */
 	public int getFoldLevel(JEditBuffer buffer, int lineIndex, Segment seg)
 	{
-		return 0;
+		return 1;
 	} //}}}
 }
