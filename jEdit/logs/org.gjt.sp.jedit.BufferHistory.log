@@ -1,0 +1,6 @@
+1:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.gjt.sp.jedit.BufferHistory@getEntry(java.lang.String):44:history.iterator() |==> null
+2:EVR:<TYPE_CAST(org.gjt.sp.jedit.BufferHistory.Entry)>:<DEFAULT>:org.gjt.sp.jedit.BufferHistory@getEntry(java.lang.String):47:(Entry)iter.next() |==> null
+3:COR:pathsCaseInsensitive:TRUE:org.gjt.sp.jedit.BufferHistory@getEntry(java.lang.String):48:pathsCaseInsensitive |==> false
+4:COR:pathsCaseInsensitive:FALSE:org.gjt.sp.jedit.BufferHistory@getEntry(java.lang.String):48:pathsCaseInsensitive |==> true
+5:COR:entry.path.equalsIgnoreCase(path):TRUE:org.gjt.sp.jedit.BufferHistory@getEntry(java.lang.String):50:entry.path.equalsIgnoreCase(path) |==> false
+6:COR:entry.path.equalsIgnoreCase(path):FALSE:org.gjt.sp.jedit.BufferHistory@getEntry(java.lang.String):50:entry.path.equalsIgnoreCase(path) |==> true

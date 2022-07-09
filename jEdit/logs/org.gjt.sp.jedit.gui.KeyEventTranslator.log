@@ -1,0 +1,29 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.KeyEventTranslator@addTranslation(org.gjt.sp.jedit.gui.KeyEventTranslator.Key,org.gjt.sp.jedit.gui.KeyEventTranslator.Key):51:transMap.put(key1, key2) |==> <NO-OP>
+2:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):62:evt.getModifiers() |==> 0
+3:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):68:evt.getKeyCode() |==> 0
+4:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):69:keyCode >= KeyEvent.VK_0 |==> keyCode == KeyEvent.VK_0
+5:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):69:keyCode >= KeyEvent.VK_0 |==> keyCode > KeyEvent.VK_0
+6:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):69:keyCode >= KeyEvent.VK_0 |==> true
+7:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):70:keyCode <= KeyEvent.VK_9 |==> keyCode < KeyEvent.VK_9
+8:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):70:keyCode <= KeyEvent.VK_9 |==> keyCode == KeyEvent.VK_9
+9:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):70:keyCode <= KeyEvent.VK_9 |==> true
+10:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):69:keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9 |==> keyCode >= KeyEvent.VK_0 == keyCode <= KeyEvent.VK_9
+11:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):70:keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9 |==> false
+12:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):69:keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9 |==> keyCode >= KeyEvent.VK_0
+13:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):70:keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9 |==> keyCode <= KeyEvent.VK_9
+14:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):71:keyCode >= KeyEvent.VK_A |==> keyCode == KeyEvent.VK_A
+15:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):71:keyCode >= KeyEvent.VK_A |==> keyCode > KeyEvent.VK_A
+16:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):71:keyCode >= KeyEvent.VK_A |==> true
+17:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):72:keyCode <= KeyEvent.VK_Z |==> keyCode < KeyEvent.VK_Z
+18:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):72:keyCode <= KeyEvent.VK_Z |==> keyCode == KeyEvent.VK_Z
+19:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):72:keyCode <= KeyEvent.VK_Z |==> true
+20:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):71:keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z |==> keyCode >= KeyEvent.VK_A == keyCode <= KeyEvent.VK_Z
+21:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):72:keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z |==> false
+22:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):71:keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z |==> keyCode >= KeyEvent.VK_A
+23:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):72:keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z |==> keyCode <= KeyEvent.VK_Z
+24:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):69:(keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9) || (keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z) |==> (keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9) != (keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z)
+25:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):69:(keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9) || (keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z) |==> (keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9)
+26:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):71:(keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9) || (keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z) |==> (keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z)
+27:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):71:(keyCode >= KeyEvent.VK_0 && keyCode <= KeyEvent.VK_9) || (keyCode >= KeyEvent.VK_A && keyCode <= KeyEvent.VK_Z) |==> true
+28:COR:Debug.ALTERNATIVE_DISPATCHER:TRUE:org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):74:Debug.ALTERNATIVE_DISPATCHER |==> false
+29:COR:Debug.ALTERNATIVE_DISPATCHER:FALSE:org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):74:Debug.ALTERNATIVE_DISPATCHER |==> true

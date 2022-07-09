@@ -57,7 +57,7 @@ public class HistoryTextField extends JTextField
 	 */
 	public HistoryTextField(String name)
 	{
-		this(name,false,true);
+		this(name,true,true);
 	} //}}}
 
 	//{{{ HistoryTextField constructor
@@ -72,7 +72,7 @@ public class HistoryTextField extends JTextField
 	 */
 	public HistoryTextField(String name, boolean instantPopups)
 	{
-		this(name,instantPopups,true);
+		this(name,instantPopups,false);
 	} //}}}
 
 	//{{{ HistoryTextField constructor
@@ -90,9 +90,9 @@ public class HistoryTextField extends JTextField
 	public HistoryTextField(String name, boolean instantPopups,
 		boolean enterAddsToHistory)
 	{
-		setModel(name);
+		;
 
-		MouseHandler mouseHandler = new MouseHandler();
+		MouseHandler mouseHandler = null;
 		addMouseListener(mouseHandler);
 		addMouseMotionListener(mouseHandler);
 

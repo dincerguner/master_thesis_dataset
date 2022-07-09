@@ -31,11 +31,11 @@ public class SplashScreen extends JComponent
 {
 	public SplashScreen()
 	{
-		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
-		setBackground(Color.white);
+		;
+		;
 
-		Font font = new Font("Dialog",Font.PLAIN,10);
-		setFont(font);
+		Font font = new Font("Dialog",Font.PLAIN,0);
+		;
 		fm = getFontMetrics(font);
 
 		image = getToolkit().getImage(

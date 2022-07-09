@@ -41,7 +41,7 @@ public class ActionBar extends JPanel
 	//{{{ ActionBar constructor
 	public ActionBar(final View view, boolean temp)
 	{
-		setLayout(new BoxLayout(this,BoxLayout.X_AXIS));
+		;
 
 		this.view = view;
 		this.temp = temp;

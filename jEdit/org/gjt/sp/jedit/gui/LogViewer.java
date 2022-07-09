@@ -41,9 +41,9 @@ public class LogViewer extends JPanel implements DefaultFocusComponent,
 	{
 		super(new BorderLayout());
 
-		JPanel caption = new JPanel();
-		caption.setLayout(new BoxLayout(caption,BoxLayout.X_AXIS));
-		caption.setBorder(new EmptyBorder(6,6,6,6));
+		JPanel caption = null;
+		;
+		caption.setBorder(new EmptyBorder(0,6,6,6));
 
 		String settingsDirectory = jEdit.getSettingsDirectory();
 		if(settingsDirectory != null)

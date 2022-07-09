@@ -1,0 +1,4 @@
+1:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.UrlVFS@<init>():42:READ_CAP | WRITE_CAP |==> READ_CAP & WRITE_CAP
+2:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.UrlVFS@<init>():42:READ_CAP | WRITE_CAP |==> READ_CAP ^ WRITE_CAP
+3:COR:parent.endsWith("/"):TRUE:org.gjt.sp.jedit.io.UrlVFS@constructPath(java.lang.String,java.lang.String):48:parent.endsWith("/") |==> false
+4:COR:parent.endsWith("/"):FALSE:org.gjt.sp.jedit.io.UrlVFS@constructPath(java.lang.String,java.lang.String):48:parent.endsWith("/") |==> true

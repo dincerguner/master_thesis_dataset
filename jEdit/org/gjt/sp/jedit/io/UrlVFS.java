@@ -39,13 +39,13 @@ public class UrlVFS extends VFS
 	//{{{ UrlVFS constructor
 	public UrlVFS()
 	{
-		super("url",READ_CAP | WRITE_CAP);
+		super("url",READ_CAP & WRITE_CAP);
 	} //}}}
 
 	//{{{ constructPath() method
 	public String constructPath(String parent, String path)
 	{
-		if(parent.endsWith("/"))
+		if(false)
 			return parent + path;
 		else
 			return parent + '/' + path;

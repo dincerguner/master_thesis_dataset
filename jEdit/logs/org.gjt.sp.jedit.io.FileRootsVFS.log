@@ -1,0 +1,2 @@
+1:COR:OperatingSystem.hasJava14():TRUE:org.gjt.sp.jedit.io.FileRootsVFS@<init>():55:OperatingSystem.hasJava14() |==> false
+2:COR:OperatingSystem.hasJava14():FALSE:org.gjt.sp.jedit.io.FileRootsVFS@<init>():55:OperatingSystem.hasJava14() |==> true

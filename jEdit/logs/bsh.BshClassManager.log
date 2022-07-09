@@ -1,0 +1,17 @@
+1:EVR:<NEW_CLASS(java.lang.Object)>:<DEFAULT>:bsh.BshClassManager:83:new Object() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:100:new Hashtable() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:106:new Hashtable() |==> null
+4:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:113:new Hashtable() |==> null
+5:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:114:new Hashtable() |==> null
+6:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:116:new Hashtable() |==> null
+7:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:117:new Hashtable() |==> null
+8:COR:&&(boolean,boolean):==(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):131:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") |==> Capabilities.classExists("java.lang.ref.WeakReference") == Capabilities.classExists("java.util.HashMap")
+9:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):132:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") |==> false
+10:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):131:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") |==> Capabilities.classExists("java.lang.ref.WeakReference")
+11:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):132:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") |==> Capabilities.classExists("java.util.HashMap")
+12:COR:&&(boolean,boolean):==(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):131:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") && Capabilities.classExists("bsh.classpath.ClassManagerImpl") |==> (Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap")) == Capabilities.classExists("bsh.classpath.ClassManagerImpl")
+13:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):133:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") && Capabilities.classExists("bsh.classpath.ClassManagerImpl") |==> false
+14:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):131:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") && Capabilities.classExists("bsh.classpath.ClassManagerImpl") |==> Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap")
+15:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.BshClassManager@createClassManager(Interpreter):133:Capabilities.classExists("java.lang.ref.WeakReference") && Capabilities.classExists("java.util.HashMap") && Capabilities.classExists("bsh.classpath.ClassManagerImpl") |==> Capabilities.classExists("bsh.classpath.ClassManagerImpl")
+16:EVR:<METHOD_INVOCATION(java.lang.Class<capture#406 of ?>)>:<DEFAULT>:bsh.BshClassManager@createClassManager(Interpreter):138:Class.forName("bsh.classpath.ClassManagerImpl") |==> null
+17:EVR:<TYPE_CAST(bsh.BshClassManager)>:<DEFAULT>:bsh.BshClassManager@createClassManager(Interpreter):139:(BshClassManager)clas.newInstance() |==> null

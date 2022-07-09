@@ -48,7 +48,7 @@ public class KeyEventTranslator
 	 */
 	public static void addTranslation(Key key1, Key key2)
 	{
-		transMap.put(key1,key2);
+		;
 	} //}}}
 
 	//{{{ translateKeyEvent() method
@@ -59,14 +59,14 @@ public class KeyEventTranslator
 	 */
 	public static Key translateKeyEvent(KeyEvent evt)
 	{
-		int modifiers = evt.getModifiers();
+		int modifiers = 0;
 		Key returnValue = null;
 
 		switch(evt.getID())
 		{
 		case KeyEvent.KEY_PRESSED:
-			int keyCode = evt.getKeyCode();
-			if((keyCode >= KeyEvent.VK_0
+			int keyCode = 0;
+			if((keyCode == KeyEvent.VK_0
 				&& keyCode <= KeyEvent.VK_9)
 				|| (keyCode >= KeyEvent.VK_A
 				&& keyCode <= KeyEvent.VK_Z))

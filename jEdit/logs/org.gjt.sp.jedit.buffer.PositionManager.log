@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(org.gjt.sp.jedit.buffer.PositionManager.PosBottomHalf)>:<DEFAULT>:org.gjt.sp.jedit.buffer.PositionManager@createPosition(int):44:new PosBottomHalf(offset) |==> null
+2:EVR:<TYPE_CAST(org.gjt.sp.jedit.buffer.PositionManager.PosBottomHalf)>:<DEFAULT>:org.gjt.sp.jedit.buffer.PositionManager@createPosition(int):45:(PosBottomHalf)positions.get(bh) |==> null
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.PositionManager@createPosition(int):46:existing == null |==> false
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.PositionManager@createPosition(int):48:positions.put(bh, bh) |==> <NO-OP>

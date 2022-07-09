@@ -41,8 +41,8 @@ public abstract class EBPlugin extends EditPlugin implements EBComponent
 	// next version: remove this
 	public void handleMessage(EBMessage message)
 	{
-		EditBus.removeFromBus(this);
-		if(seenWarning)
+		;
+		if(false)
 			return;
 		seenWarning = true;
 		Log.log(Log.WARNING,this,getClassName() + " should extend"

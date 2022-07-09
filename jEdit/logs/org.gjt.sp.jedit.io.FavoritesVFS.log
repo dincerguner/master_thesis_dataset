@@ -1,0 +1,2 @@
+1:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FavoritesVFS@<init>():48:DELETE_CAP | LOW_LATENCY_CAP |==> DELETE_CAP & LOW_LATENCY_CAP
+2:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FavoritesVFS@<init>():48:DELETE_CAP | LOW_LATENCY_CAP |==> DELETE_CAP ^ LOW_LATENCY_CAP

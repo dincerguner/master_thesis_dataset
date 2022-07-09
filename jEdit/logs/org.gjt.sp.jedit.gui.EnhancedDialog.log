@@ -1,0 +1,54 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@<init>(java.awt.Frame,java.lang.String,boolean):39:_init() |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@<init>(java.awt.Dialog,java.lang.String,boolean):45:_init() |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@_init():54:((Container)getLayeredPane()).addContainerListener(new ContainerHandler()) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@_init():56:getContentPane().addContainerListener(new ContainerHandler()) |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@_init():58:keyHandler = new KeyHandler() |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@_init():59:addKeyListener(keyHandler) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@_init():60:addWindowListener(new WindowHandler()) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog@_init():62:setDefaultCloseOperation(DO_NOTHING_ON_CLOSE) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.event.ContainerEvent):75:componentAdded(evt.getChild()) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.event.ContainerEvent):80:componentRemoved(evt.getChild()) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):85:comp.addKeyListener(keyHandler) |==> <NO-OP>
+12:EVR:<TYPE_CAST(java.awt.Container)>:<DEFAULT>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):88:(Container)comp |==> null
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):89:cont.addContainerListener(this) |==> <NO-OP>
+14:EVR:<METHOD_INVOCATION(java.awt.Component[])>:<DEFAULT>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):90:cont.getComponents() |==> null
+15:LVR:0:POS:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):91:0 |==> 1
+16:LVR:0:NEG:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):91:0 |==> -1
+17:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):91:i < comps.length |==> i != comps.length
+18:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):91:i < comps.length |==> i <= comps.length
+19:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):91:i < comps.length |==> false
+20:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentAdded(java.awt.Component):93:componentAdded(comps[i]) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):100:comp.removeKeyListener(keyHandler) |==> <NO-OP>
+22:EVR:<TYPE_CAST(java.awt.Container)>:<DEFAULT>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):103:(Container)comp |==> null
+23:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):104:cont.removeContainerListener(this) |==> <NO-OP>
+24:EVR:<METHOD_INVOCATION(java.awt.Component[])>:<DEFAULT>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):105:cont.getComponents() |==> null
+25:LVR:0:POS:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):106:0 |==> 1
+26:LVR:0:NEG:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):106:0 |==> -1
+27:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):106:i < comps.length |==> i != comps.length
+28:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):106:i < comps.length |==> i <= comps.length
+29:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):106:i < comps.length |==> false
+30:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$ContainerHandler@componentRemoved(java.awt.Component):108:componentRemoved(comps[i]) |==> <NO-OP>
+31:COR:evt.isConsumed():TRUE:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):118:evt.isConsumed() |==> false
+32:COR:evt.isConsumed():FALSE:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):118:evt.isConsumed() |==> true
+33:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):119:return; |==> <NO-OP>
+34:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):121:evt.getKeyCode() == KeyEvent.VK_ENTER |==> evt.getKeyCode() <= KeyEvent.VK_ENTER
+35:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):121:evt.getKeyCode() == KeyEvent.VK_ENTER |==> evt.getKeyCode() >= KeyEvent.VK_ENTER
+36:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):121:evt.getKeyCode() == KeyEvent.VK_ENTER |==> false
+37:EVR:<METHOD_INVOCATION(java.awt.Component)>:<DEFAULT>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):124:getFocusOwner() |==> null
+38:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):125:comp != null |==> true
+39:EVR:<TYPE_CAST(javax.swing.JComboBox)>:<DEFAULT>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):129:(JComboBox)comp |==> null
+40:COR:combo.isEditable():TRUE:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):130:combo.isEditable() |==> false
+41:COR:combo.isEditable():FALSE:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):130:combo.isEditable() |==> true
+42:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):132:combo.getEditor().getItem() |==> null
+43:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):133:selected != null |==> true
+44:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):134:combo.setSelectedItem(selected) |==> <NO-OP>
+45:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):136:break; |==> <NO-OP>
+46:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):139:comp = comp.getParent() |==> <NO-OP>
+47:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):142:ok() |==> <NO-OP>
+48:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):143:evt.consume() |==> <NO-OP>
+49:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):145:evt.getKeyCode() == KeyEvent.VK_ESCAPE |==> evt.getKeyCode() <= KeyEvent.VK_ESCAPE
+50:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):145:evt.getKeyCode() == KeyEvent.VK_ESCAPE |==> evt.getKeyCode() >= KeyEvent.VK_ESCAPE
+51:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):145:evt.getKeyCode() == KeyEvent.VK_ESCAPE |==> false
+52:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):147:cancel() |==> <NO-OP>
+53:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$KeyHandler@keyPressed(java.awt.event.KeyEvent):148:evt.consume() |==> <NO-OP>
+54:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EnhancedDialog$WindowHandler@windowClosing(java.awt.event.WindowEvent):157:cancel() |==> <NO-OP>
