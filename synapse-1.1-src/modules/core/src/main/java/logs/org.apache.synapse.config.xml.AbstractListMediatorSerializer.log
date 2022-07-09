@@ -1,0 +1,1 @@
+1:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractListMediatorSerializer@serializeChildren(OMElement,java.util.List):34:list.iterator() |==> null
