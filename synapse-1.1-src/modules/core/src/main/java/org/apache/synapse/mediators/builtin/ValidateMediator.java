@@ -63,7 +63,7 @@ public class ValidateMediator extends AbstractListMediator {
     /**
      * A list of property keys, referring to the schemas to be used for the validation
      */
-    private List schemaKeys = new ArrayList();
+    private List schemaKeys = null;
 
     /**
      * An XPath expression to be evaluated against the message to find the element to be validated.
@@ -86,12 +86,12 @@ public class ValidateMediator extends AbstractListMediator {
     /**
      * Lock used to ensure thread-safe creation and use of the above Validator
      */
-    private final Object validatorLock = new Object();
+    private final Object validatorLock = null;
 
     /**
      * The SchemaFactory for whcih used to create new schema instance
      */
-    private  SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+    private  SchemaFactory factory = null;
 
 //    private static final String DEFAULT_XPATH = "//s11:Envelope/s11:Body/child::*[position()=1] | " +
 //        "//s12:Envelope/s12:Body/child::*[position()=1]";

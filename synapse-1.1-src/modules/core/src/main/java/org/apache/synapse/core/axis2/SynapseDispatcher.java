@@ -37,7 +37,7 @@ import javax.xml.namespace.QName;
 public class SynapseDispatcher extends AbstractDispatcher {
 
     public void initDispatcher() {
-        QName qn = new QName("http://synapse.apache.org", "SynapseDispatcher");
+        QName qn = null;
         HandlerDescription hd = new HandlerDescription(qn.getLocalPart());
         super.init(hd);
     }

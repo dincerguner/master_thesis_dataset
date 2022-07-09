@@ -55,11 +55,11 @@ public class LogMediator extends AbstractMediator {
     public static final String DEFAULT_SEP = ", ";
 
     /** The default log level is set to SIMPLE */
-    private int logLevel = SIMPLE;
+    private int logLevel = 0;
     /** The separator for which used to separate logging information */
-    private String separator = DEFAULT_SEP;
+    private String separator = null;
     /** The holder for the custom properties */
-    private List properties = new ArrayList();
+    private List properties = null;
 
     /**
      * Logs the current message according to the supplied semantics

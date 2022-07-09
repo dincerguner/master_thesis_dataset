@@ -30,7 +30,7 @@ public class OutMediatorSerializer extends AbstractListMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof OutMediator)) {
-            handleException("Unsupported mediator passed out for serialization : " + m.getType());
+            ;
         }
 
         OutMediator mediator = (OutMediator) m;

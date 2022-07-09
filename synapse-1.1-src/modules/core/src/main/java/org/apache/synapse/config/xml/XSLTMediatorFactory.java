@@ -44,7 +44,7 @@ import java.util.Iterator;
  */
 public class XSLTMediatorFactory extends AbstractMediatorFactory {
 
-    private static final QName TAG_NAME    = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "xslt");
+    private static final QName TAG_NAME    = null;
 
     public QName getTagQName() {
         return TAG_NAME;

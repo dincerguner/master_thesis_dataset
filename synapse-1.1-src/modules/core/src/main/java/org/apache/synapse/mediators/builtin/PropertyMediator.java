@@ -55,7 +55,7 @@ public class PropertyMediator extends AbstractMediator {
     public static final int ACTION_SET = 0;
     public static final int ACTION_REMOVE = 1;
     /** Set the property (ACTION_SET) or remove it (ACTION_REMOVE). Defaults to ACTION_SET */
-    private int action = ACTION_SET;
+    private int action = 0;
 
     /**
      * Sets a property into the current (local) Synapse Context or into the Axis Message Context

@@ -45,9 +45,9 @@ import java.util.List;
  */
 public class ValidateMediatorFactory extends AbstractListMediatorFactory {
 
-    private static final QName VALIDATE_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "validate");
-    private static final QName ON_FAIL_Q  = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "on-fail");
-    private static final QName SCHEMA_Q   = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "schema");
+    private static final QName VALIDATE_Q = null;
+    private static final QName ON_FAIL_Q  = null;
+    private static final QName SCHEMA_Q   = null;
 
     public Mediator createMediator(OMElement elem) {
 

@@ -42,7 +42,7 @@ public class XSLTMediatorSerializer extends AbstractMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof XSLTMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         XSLTMediator mediator = (XSLTMediator) m;
