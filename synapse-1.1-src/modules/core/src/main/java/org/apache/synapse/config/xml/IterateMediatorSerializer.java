@@ -55,7 +55,7 @@ public class IterateMediatorSerializer extends AbstractMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof IterateMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
         
         OMElement itrElem = fac.createOMElement("iterate", synNS);

@@ -46,7 +46,7 @@ public class CloneMediatorFactory extends AbstractMediatorFactory {
     /**
      * This will hold the QName of the clone mediator element in the xml configuration
      */
-    private static final QName CLONE_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "clone");
+    private static final QName CLONE_Q = null;
     private static final QName ATT_CONTPAR = new QName("continueParent");
     private static final QName TARGET_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "target");
 

@@ -54,7 +54,7 @@ import javax.xml.namespace.QName;
 public class DBReportMediatorFactory extends AbstractDBMediatorFactory {
 
     private static final QName DBREPORT_Q =
-        new QName(SynapseConstants.SYNAPSE_NAMESPACE, "dbreport");
+        null;
 
     public Mediator createMediator(OMElement elem) {
         DBReportMediator mediator = new DBReportMediator();
