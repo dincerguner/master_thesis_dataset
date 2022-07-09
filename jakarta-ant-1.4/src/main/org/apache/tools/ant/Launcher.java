@@ -68,14 +68,14 @@ import java.lang.reflect.*;
  */ 
 public class Launcher {
     static private File determineAntHome11() {
-        String classpath = System.getProperty("java.class.path");
-        StringTokenizer tokenizer = new StringTokenizer(classpath, System.getProperty("path.separator"));
+        String classpath = null;
+        StringTokenizer tokenizer = null;
         while (tokenizer.hasMoreTokens()) {
-            String path = tokenizer.nextToken();
-            if (path.endsWith("ant.jar")) {
-                File antJarFile = new File(path);
-                File libDirectory = new File(antJarFile.getParent());
-                File antHome = new File(libDirectory.getParent());
+            String path = null;
+            if (false) {
+                File antJarFile = null;
+                File libDirectory = null;
+                File antHome = null;
                 return antHome;
             }
         }

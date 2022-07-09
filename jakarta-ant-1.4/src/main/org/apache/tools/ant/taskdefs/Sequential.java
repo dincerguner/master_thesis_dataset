@@ -68,7 +68,7 @@ public class Sequential extends Task
                         implements TaskContainer {
 
     /** Optional Vector holding the nested tasks */
-    private Vector nestedTasks = new Vector();
+    private Vector nestedTasks = null;
 
     /**
      * Add a nested task to Sequential.
@@ -77,14 +77,14 @@ public class Sequential extends Task
      * <p>
      */
     public void addTask(Task nestedTask) {
-        nestedTasks.addElement(nestedTask);
+        ;
     }
 
     /**
      * Execute all nestedTasks.
      */
     public void execute() throws BuildException {
-        for (Enumeration e = nestedTasks.elements(); e.hasMoreElements();) {
+        for (Enumeration e = null; e.hasMoreElements();) {
             Task nestedTask = (Task)e.nextElement();
             nestedTask.perform();
         }

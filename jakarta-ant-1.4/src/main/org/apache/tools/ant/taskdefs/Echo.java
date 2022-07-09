@@ -65,7 +65,7 @@ import java.io.*;
 public class Echo extends Task {
     protected String message = ""; // required
     protected File file = null;
-    protected boolean append = false;
+    protected boolean append = true;
     
     // by default, messages are always displayed
     protected int logLevel = Project.MSG_WARN;   

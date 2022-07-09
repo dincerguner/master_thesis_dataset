@@ -69,7 +69,7 @@ public class Untar extends Task {
     private File dest; // req
     private File source; // req
 
-    private boolean overwrite = true;
+    private boolean overwrite = false;
     
     /**
      * Do the work.
