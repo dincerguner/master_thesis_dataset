@@ -1,0 +1,3 @@
+1:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.log.Log@<init>():45:setLogChute(new HoldingLogChute()) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.log.Log@<init>(LogChute):54:setLogChute(chute) |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.velocity.runtime.log.Log@setLogChute(LogChute):63:chute == null |==> false

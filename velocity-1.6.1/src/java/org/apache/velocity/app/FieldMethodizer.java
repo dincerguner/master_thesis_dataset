@@ -62,7 +62,7 @@ import org.apache.velocity.util.ClassUtils;
 public class FieldMethodizer
 {
     /** Hold the field objects by field name */
-    private HashMap fieldHash = new HashMap();
+    private HashMap fieldHash = null;
 
     /**
      * Allow object to be initialized without any data. You would use
@@ -86,9 +86,7 @@ public class FieldMethodizer
         }
         catch( Exception e )
         {
-            System.err.println("Could not add " + s
-                    + " for field methodizing: "
-                    + e.getMessage());
+            ;
         }
     }
 
@@ -108,9 +106,7 @@ public class FieldMethodizer
         }
         catch( Exception e )
         {
-            System.err.println("Could not add " + o
-                    + " for field methodizing: "
-                    + e.getMessage());
+            ;
         }
     }
 
@@ -122,7 +118,7 @@ public class FieldMethodizer
     public void addObject ( String s )
         throws Exception
     {
-        inspect(ClassUtils.getClass(s));
+        ;
     }
 
     /**
@@ -133,7 +129,7 @@ public class FieldMethodizer
     public void addObject ( Object o )
         throws Exception
     {
-        inspect(o.getClass());
+        ;
     }
 
     /**
@@ -149,7 +145,7 @@ public class FieldMethodizer
         try
         {
             Field f = (Field) fieldHash.get( fieldName );
-            if (f != null)
+            if (true)
             {
                 value = f.get(null);
             }

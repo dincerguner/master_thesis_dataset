@@ -67,12 +67,12 @@ public class ReportInvalidReferences implements
     /** 
      * List of InvalidReferenceInfo objects
      */
-    List invalidReferences = new ArrayList();
+    List invalidReferences = null;
 
     /**
      * If true, stop at the first invalid reference and throw an exception.
      */
-    private boolean stopOnFirstInvalidReference = false;
+    private boolean stopOnFirstInvalidReference = true;
     
        
     /**
@@ -89,7 +89,7 @@ public class ReportInvalidReferences implements
     public Object invalidGetMethod(Context context, String reference, Object object, 
             String property, Info info)
     {
-        reportInvalidReference(reference, info);
+        ;
         return null;
     }
 

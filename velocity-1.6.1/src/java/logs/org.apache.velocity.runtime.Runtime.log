@@ -1,0 +1,5 @@
+1:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.Runtime@init():115:RuntimeSingleton.init() |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.Runtime@setProperty(java.lang.String,java.lang.Object):127:RuntimeSingleton.setProperty(key, value) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.Runtime@setConfiguration(ExtendedProperties):142:RuntimeSingleton.setConfiguration(configuration) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.Runtime@addProperty(java.lang.String,java.lang.Object):166:RuntimeSingleton.addProperty(key, value) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.Runtime@clearProperty(java.lang.String):177:RuntimeSingleton.clearProperty(key) |==> <NO-OP>

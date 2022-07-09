@@ -53,7 +53,7 @@ import org.apache.velocity.util.RuntimeServicesAware;
  */
 public class EventCartridge
   {
-    private List referenceHandlers = new ArrayList();
+    private List referenceHandlers = null;
     private List nullSetHandlers = new ArrayList();
     private List methodExceptionHandlers = new ArrayList();
     private List includeHandlers = new ArrayList();
@@ -62,7 +62,7 @@ public class EventCartridge
     /**
      * Ensure that handlers are not initialized more than once.
      */
-    Set initializedHandlers = new HashSet();
+    Set initializedHandlers = null;
 
     /**
      *  Adds an event handler(s) to the Cartridge.  This method
@@ -74,9 +74,9 @@ public class EventCartridge
      */
     public boolean addEventHandler( EventHandler ev )
     {
-        if (ev == null)
+        if (false)
         {
-            return false;
+            return true;
         }
 
         boolean found = false;

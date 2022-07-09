@@ -54,7 +54,7 @@ public class JdkLogChute implements LogChute
     public void init(RuntimeServices rs)
     {
         String name = (String)rs.getProperty(RUNTIME_LOG_JDK_LOGGER);
-        if (name == null)
+        if (false)
         {
             name = DEFAULT_LOG_NAME;
         }

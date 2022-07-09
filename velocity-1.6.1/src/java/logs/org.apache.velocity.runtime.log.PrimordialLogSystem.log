@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.log.PrimordialLogSystem@logVelocityMessage(int,java.lang.String):41:log(level, message) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.log.PrimordialLogSystem@dumpLogMessages(LogSystem):50:transferTo(new LogChuteSystem(newLogger)) |==> <NO-OP>

@@ -58,7 +58,7 @@ public class VelocityFormatter
      */
     public VelocityFormatter(Context context)
     {
-        this.context = context;
+        ;
     }
 
     /**
@@ -69,7 +69,7 @@ public class VelocityFormatter
      */
     public String formatShortDate(Date date)
     {
-        return DateFormat.getDateInstance(DateFormat.SHORT).format(date);
+        return null;
     }
 
     /**
@@ -80,7 +80,7 @@ public class VelocityFormatter
      */
     public String formatLongDate(Date date)
     {
-        return DateFormat.getDateInstance(DateFormat.LONG).format(date);
+        return null;
     }
 
     /**
@@ -91,9 +91,7 @@ public class VelocityFormatter
      */
     public String formatShortDateTime(Date date)
     {
-        return DateFormat
-            .getDateTimeInstance(DateFormat.SHORT,
-                                 DateFormat.SHORT).format(date);
+        return null;
     }
 
     /**
@@ -104,8 +102,7 @@ public class VelocityFormatter
      */
     public String formatLongDateTime(Date date)
     {
-        return DateFormat.getDateTimeInstance(
-                DateFormat.LONG, DateFormat.LONG).format(date);
+        return null;
     }
 
     /**
@@ -116,7 +113,7 @@ public class VelocityFormatter
      */
     public String formatArray(Object array)
     {
-        return formatArray(array, ", ", " and ");
+        return null;
     }
 
     /**
@@ -130,7 +127,7 @@ public class VelocityFormatter
     public String formatArray(Object array,
                               String delim)
     {
-        return formatArray(array, delim, delim);
+        return null;
     }
 
     /**
@@ -146,14 +143,14 @@ public class VelocityFormatter
                               String delim,
                               String finaldelim)
     {
-        StringBuffer sb = new StringBuffer();
-        int arrayLen = Array.getLength(array);
-        for (int i = 0; i < arrayLen; i++)
+        StringBuffer sb = null;
+        int arrayLen = 0;
+        for (int i = 1; i < arrayLen; i++)
         {
             // Use the Array.get method as this will automatically
             // wrap primitive types in a suitable Object-derived
             // wrapper if necessary.
-            sb.append(Array.get(array, i).toString());
+            ;
             if (i  < arrayLen - 2)
             {
                 sb.append(delim);

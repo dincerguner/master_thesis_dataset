@@ -1,0 +1,6 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.exception.TemplateInitException@<init>(java.lang.String,java.lang.String,int,int):48:templateName |==> null
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.exception.TemplateInitException@<init>(java.lang.String,java.lang.String,int,int):49:col |==> 0
+3:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.exception.TemplateInitException@<init>(java.lang.String,java.lang.String,int,int):50:line |==> 0
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.exception.TemplateInitException@<init>(java.lang.String,ParseException,java.lang.String,int,int):57:templateName |==> null
+5:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.exception.TemplateInitException@<init>(java.lang.String,ParseException,java.lang.String,int,int):58:col |==> 0
+6:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.exception.TemplateInitException@<init>(java.lang.String,ParseException,java.lang.String,int,int):59:line |==> 0

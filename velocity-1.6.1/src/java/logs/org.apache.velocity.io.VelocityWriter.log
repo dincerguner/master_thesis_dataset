@@ -1,0 +1,170 @@
+1:LVR:POS:0:org.apache.velocity.io.VelocityWriter:61:8 |==> 0
+2:LVR:POS:NEG:org.apache.velocity.io.VelocityWriter:61:8 |==> -8
+3:LVR:POS:0:org.apache.velocity.io.VelocityWriter:61:1024 |==> 0
+4:LVR:POS:NEG:org.apache.velocity.io.VelocityWriter:61:1024 |==> -1024
+5:AOR:*(int,int):%(int,int):org.apache.velocity.io.VelocityWriter:61:8 * 1024 |==> 8 % 1024
+6:AOR:*(int,int):+(int,int):org.apache.velocity.io.VelocityWriter:61:8 * 1024 |==> 8 + 1024
+7:AOR:*(int,int):-(int,int):org.apache.velocity.io.VelocityWriter:61:8 * 1024 |==> 8 - 1024
+8:AOR:*(int,int):/(int,int):org.apache.velocity.io.VelocityWriter:61:8 * 1024 |==> 8 / 1024
+9:LVR:TRUE:FALSE:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer):71:true |==> false
+10:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@<init>(int,boolean):79:this.bufferSize = bufferSize |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@<init>(int,boolean):80:this.autoFlush = autoFlush |==> <NO-OP>
+12:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.io.VelocityWriter@getBufferSize():88:bufferSize |==> 0
+13:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.velocity.io.VelocityWriter@isAutoFlush():96:autoFlush |==> false
+14:LVR:0:POS:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):111:0 |==> 1
+15:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):111:0 |==> -1
+16:ROR:<(int,int):!=(int,int):org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):111:sz < 0 |==> sz != 0
+17:ROR:<(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):111:sz < 0 |==> sz <= 0
+18:ROR:<(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):111:sz < 0 |==> false
+19:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):113:this.writer = writer |==> <NO-OP>
+20:LVR:0:POS:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):114:0 |==> 1
+21:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):114:0 |==> -1
+22:ROR:==(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):114:sz == 0 |==> sz <= 0
+23:ROR:==(int,int):>=(int,int):org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):114:sz == 0 |==> sz >= 0
+24:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):114:sz == 0 |==> false
+25:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):114:cb = sz == 0 ? null : new char[sz] |==> <NO-OP>
+26:LVR:0:POS:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):115:0 |==> 1
+27:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):115:0 |==> -1
+28:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@<init>(java.io.Writer,int,boolean):115:nextChar = 0 |==> <NO-OP>
+29:LVR:0:POS:org.apache.velocity.io.VelocityWriter@flushBuffer():125:0 |==> 1
+30:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@flushBuffer():125:0 |==> -1
+31:ROR:==(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@flushBuffer():125:bufferSize == 0 |==> bufferSize <= 0
+32:ROR:==(int,int):>=(int,int):org.apache.velocity.io.VelocityWriter@flushBuffer():125:bufferSize == 0 |==> bufferSize >= 0
+33:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@flushBuffer():125:bufferSize == 0 |==> false
+34:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@flushBuffer():126:return; |==> <NO-OP>
+35:LVR:0:POS:org.apache.velocity.io.VelocityWriter@flushBuffer():127:0 |==> 1
+36:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@flushBuffer():127:0 |==> -1
+37:ROR:==(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@flushBuffer():127:nextChar == 0 |==> nextChar <= 0
+38:ROR:==(int,int):>=(int,int):org.apache.velocity.io.VelocityWriter@flushBuffer():127:nextChar == 0 |==> nextChar >= 0
+39:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@flushBuffer():127:nextChar == 0 |==> false
+40:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@flushBuffer():128:return; |==> <NO-OP>
+41:LVR:0:POS:org.apache.velocity.io.VelocityWriter@flushBuffer():129:0 |==> 1
+42:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@flushBuffer():129:0 |==> -1
+43:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@flushBuffer():129:writer.write(cb, 0, nextChar) |==> <NO-OP>
+44:LVR:0:POS:org.apache.velocity.io.VelocityWriter@flushBuffer():130:0 |==> 1
+45:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@flushBuffer():130:0 |==> -1
+46:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@flushBuffer():130:nextChar = 0 |==> <NO-OP>
+47:LVR:0:POS:org.apache.velocity.io.VelocityWriter@clear():138:0 |==> 1
+48:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@clear():138:0 |==> -1
+49:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@clear():138:nextChar = 0 |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@flush():153:flushBuffer() |==> <NO-OP>
+51:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.velocity.io.VelocityWriter@flush():154:writer != null |==> true
+52:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@flush():156:writer.flush() |==> <NO-OP>
+53:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.velocity.io.VelocityWriter@close():166:writer == null |==> false
+54:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@close():167:return; |==> <NO-OP>
+55:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@close():168:flush() |==> <NO-OP>
+56:AOR:-(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@getRemaining():176:bufferSize - nextChar |==> bufferSize % nextChar
+57:AOR:-(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@getRemaining():176:bufferSize - nextChar |==> bufferSize * nextChar
+58:AOR:-(int,int):+(int,int):org.apache.velocity.io.VelocityWriter@getRemaining():176:bufferSize - nextChar |==> bufferSize + nextChar
+59:AOR:-(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@getRemaining():176:bufferSize - nextChar |==> bufferSize / nextChar
+60:LVR:0:POS:org.apache.velocity.io.VelocityWriter@write(int):187:0 |==> 1
+61:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@write(int):187:0 |==> -1
+62:ROR:==(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@write(int):187:bufferSize == 0 |==> bufferSize <= 0
+63:ROR:==(int,int):>=(int,int):org.apache.velocity.io.VelocityWriter@write(int):187:bufferSize == 0 |==> bufferSize >= 0
+64:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@write(int):187:bufferSize == 0 |==> false
+65:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(int):189:writer.write(c) |==> <NO-OP>
+66:ROR:>=(int,int):==(int,int):org.apache.velocity.io.VelocityWriter@write(int):193:nextChar >= bufferSize |==> nextChar == bufferSize
+67:ROR:>=(int,int):>(int,int):org.apache.velocity.io.VelocityWriter@write(int):193:nextChar >= bufferSize |==> nextChar > bufferSize
+68:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.io.VelocityWriter@write(int):193:nextChar >= bufferSize |==> true
+69:COR:autoFlush:TRUE:org.apache.velocity.io.VelocityWriter@write(int):194:autoFlush |==> false
+70:COR:autoFlush:FALSE:org.apache.velocity.io.VelocityWriter@write(int):194:autoFlush |==> true
+71:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(int):195:flushBuffer() |==> <NO-OP>
+72:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(int):197:bufferOverflow() |==> <NO-OP>
+73:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(int):198:cb[nextChar++] = (char)c |==> <NO-OP>
+74:ROR:<(int,int):!=(int,int):org.apache.velocity.io.VelocityWriter@min(int,int):209:a < b |==> a != b
+75:ROR:<(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@min(int,int):209:a < b |==> a <= b
+76:ROR:<(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@min(int,int):209:a < b |==> false
+77:LVR:0:POS:org.apache.velocity.io.VelocityWriter@write(char[],int,int):231:0 |==> 1
+78:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@write(char[],int,int):231:0 |==> -1
+79:ROR:==(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):231:bufferSize == 0 |==> bufferSize <= 0
+80:ROR:==(int,int):>=(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):231:bufferSize == 0 |==> bufferSize >= 0
+81:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):231:bufferSize == 0 |==> false
+82:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):233:writer.write(cbuf, off, len) |==> <NO-OP>
+83:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):234:return; |==> <NO-OP>
+84:LVR:0:POS:org.apache.velocity.io.VelocityWriter@write(char[],int,int):237:0 |==> 1
+85:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@write(char[],int,int):237:0 |==> -1
+86:ROR:==(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):237:len == 0 |==> len <= 0
+87:ROR:==(int,int):>=(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):237:len == 0 |==> len >= 0
+88:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):237:len == 0 |==> false
+89:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):239:return; |==> <NO-OP>
+90:ROR:>=(int,int):==(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):242:len >= bufferSize |==> len == bufferSize
+91:ROR:>=(int,int):>(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):242:len >= bufferSize |==> len > bufferSize
+92:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):242:len >= bufferSize |==> true
+93:COR:autoFlush:TRUE:org.apache.velocity.io.VelocityWriter@write(char[],int,int):247:autoFlush |==> false
+94:COR:autoFlush:FALSE:org.apache.velocity.io.VelocityWriter@write(char[],int,int):247:autoFlush |==> true
+95:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):248:flushBuffer() |==> <NO-OP>
+96:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):250:bufferOverflow() |==> <NO-OP>
+97:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):251:writer.write(cbuf, off, len) |==> <NO-OP>
+98:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):252:return; |==> <NO-OP>
+99:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):255:off |==> 0
+100:AOR:+(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):255:off + len |==> off % len
+101:AOR:+(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):255:off + len |==> off * len
+102:AOR:+(int,int):-(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):255:off + len |==> off - len
+103:AOR:+(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):255:off + len |==> off / len
+104:ROR:<(int,int):!=(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):256:b < t |==> b != t
+105:ROR:<(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):256:b < t |==> b <= t
+106:ROR:<(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):256:b < t |==> false
+107:AOR:-(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:bufferSize - nextChar |==> bufferSize % nextChar
+108:AOR:-(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:bufferSize - nextChar |==> bufferSize * nextChar
+109:AOR:-(int,int):+(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:bufferSize - nextChar |==> bufferSize + nextChar
+110:AOR:-(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:bufferSize - nextChar |==> bufferSize / nextChar
+111:AOR:-(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:t - b |==> t % b
+112:AOR:-(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:t - b |==> t * b
+113:AOR:-(int,int):+(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:t - b |==> t + b
+114:AOR:-(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):258:t - b |==> t / b
+115:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):259:System.arraycopy(cbuf, b, cb, nextChar, d) |==> <NO-OP>
+116:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):260:b += d |==> <NO-OP>
+117:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):261:nextChar += d |==> <NO-OP>
+118:ROR:>=(int,int):==(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):262:nextChar >= bufferSize |==> nextChar == bufferSize
+119:ROR:>=(int,int):>(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):262:nextChar >= bufferSize |==> nextChar > bufferSize
+120:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.io.VelocityWriter@write(char[],int,int):262:nextChar >= bufferSize |==> true
+121:COR:autoFlush:TRUE:org.apache.velocity.io.VelocityWriter@write(char[],int,int):263:autoFlush |==> false
+122:COR:autoFlush:FALSE:org.apache.velocity.io.VelocityWriter@write(char[],int,int):263:autoFlush |==> true
+123:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):264:flushBuffer() |==> <NO-OP>
+124:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[],int,int):266:bufferOverflow() |==> <NO-OP>
+125:LVR:0:POS:org.apache.velocity.io.VelocityWriter@write(char[]):278:0 |==> 1
+126:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@write(char[]):278:0 |==> -1
+127:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(char[]):278:write(buf, 0, buf.length) |==> <NO-OP>
+128:LVR:0:POS:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):292:0 |==> 1
+129:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):292:0 |==> -1
+130:ROR:==(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):292:bufferSize == 0 |==> bufferSize <= 0
+131:ROR:==(int,int):>=(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):292:bufferSize == 0 |==> bufferSize >= 0
+132:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):292:bufferSize == 0 |==> false
+133:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):294:writer.write(s, off, len) |==> <NO-OP>
+134:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):295:return; |==> <NO-OP>
+135:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):297:off |==> 0
+136:AOR:+(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):297:off + len |==> off % len
+137:AOR:+(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):297:off + len |==> off * len
+138:AOR:+(int,int):-(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):297:off + len |==> off - len
+139:AOR:+(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):297:off + len |==> off / len
+140:ROR:<(int,int):!=(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):298:b < t |==> b != t
+141:ROR:<(int,int):<=(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):298:b < t |==> b <= t
+142:ROR:<(int,int):FALSE(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):298:b < t |==> false
+143:AOR:-(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:bufferSize - nextChar |==> bufferSize % nextChar
+144:AOR:-(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:bufferSize - nextChar |==> bufferSize * nextChar
+145:AOR:-(int,int):+(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:bufferSize - nextChar |==> bufferSize + nextChar
+146:AOR:-(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:bufferSize - nextChar |==> bufferSize / nextChar
+147:AOR:-(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:t - b |==> t % b
+148:AOR:-(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:t - b |==> t * b
+149:AOR:-(int,int):+(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:t - b |==> t + b
+150:AOR:-(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):300:t - b |==> t / b
+151:AOR:+(int,int):%(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):301:b + d |==> b % d
+152:AOR:+(int,int):*(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):301:b + d |==> b * d
+153:AOR:+(int,int):-(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):301:b + d |==> b - d
+154:AOR:+(int,int):/(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):301:b + d |==> b / d
+155:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):301:s.getChars(b, b + d, cb, nextChar) |==> <NO-OP>
+156:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):302:b += d |==> <NO-OP>
+157:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):303:nextChar += d |==> <NO-OP>
+158:ROR:>=(int,int):==(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):304:nextChar >= bufferSize |==> nextChar == bufferSize
+159:ROR:>=(int,int):>(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):304:nextChar >= bufferSize |==> nextChar > bufferSize
+160:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):304:nextChar >= bufferSize |==> true
+161:COR:autoFlush:TRUE:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):305:autoFlush |==> false
+162:COR:autoFlush:FALSE:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):305:autoFlush |==> true
+163:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):306:flushBuffer() |==> <NO-OP>
+164:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String,int,int):308:bufferOverflow() |==> <NO-OP>
+165:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.velocity.io.VelocityWriter@write(java.lang.String):320:s != null |==> true
+166:LVR:0:POS:org.apache.velocity.io.VelocityWriter@write(java.lang.String):322:0 |==> 1
+167:LVR:0:NEG:org.apache.velocity.io.VelocityWriter@write(java.lang.String):322:0 |==> -1
+168:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@write(java.lang.String):322:write(s, 0, s.length()) |==> <NO-OP>
+169:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.VelocityWriter@recycle(java.io.Writer):333:this.writer = writer |==> <NO-OP>
+170:STD:<CALL>:<NO-OP>:org.apache.velocity.io.VelocityWriter@recycle(java.io.Writer):334:clear() |==> <NO-OP>

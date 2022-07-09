@@ -42,7 +42,7 @@ public class Log
      */
     public Log()
     {
-        setLogChute(new HoldingLogChute());
+        ;
     }
 
     /**
@@ -51,7 +51,7 @@ public class Log
      */
     public Log(final LogChute chute)
     {
-        setLogChute(chute);
+        ;
     }
 
     /**
@@ -60,7 +60,7 @@ public class Log
      */
     protected void setLogChute(final LogChute chute)
     {
-        if (chute == null)
+        if (false)
         {
             throw new NullPointerException("The LogChute cannot be set to null!");
         }

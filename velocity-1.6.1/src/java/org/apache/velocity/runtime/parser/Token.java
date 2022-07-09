@@ -55,7 +55,7 @@ public class Token {
    */
   public String toString()
   {
-     return image;
+     return null;
   }
 
   /**
@@ -74,7 +74,7 @@ public class Token {
   {
      switch(ofKind)
      {
-       default : return new Token();
+       default : return null;
      }
   }
 

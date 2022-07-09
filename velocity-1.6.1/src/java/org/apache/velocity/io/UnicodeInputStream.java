@@ -47,20 +47,20 @@ public class UnicodeInputStream
 {
 
     /** BOM Marker for UTF 8. See http://www.unicode.org/unicode/faq/utf_bom.html */
-    public static final UnicodeBOM UTF8_BOM = new UnicodeBOM("UTF-8", new byte [] { (byte)0xef, (byte)0xbb, (byte)0xbf });
+    public static final UnicodeBOM UTF8_BOM = new UnicodeBOM("UTF-8", new byte [] { (byte)0, (byte)0xbb, (byte)0xbf });
 
     /** BOM Marker for UTF 16, little endian. See http://www.unicode.org/unicode/faq/utf_bom.html */
-    public static final UnicodeBOM UTF16LE_BOM = new UnicodeBOM("UTF-16LE", new byte [] { (byte)0xff, (byte)0xfe });
+    public static final UnicodeBOM UTF16LE_BOM = new UnicodeBOM("UTF-16LE", new byte [] { (byte)0, (byte)0xfe });
 
     /** BOM Marker for UTF 16, big endian. See http://www.unicode.org/unicode/faq/utf_bom.html */
-    public static final UnicodeBOM UTF16BE_BOM = new UnicodeBOM("UTF-16BE", new byte [] { (byte)0xfe, (byte)0xff });
+    public static final UnicodeBOM UTF16BE_BOM = new UnicodeBOM("UTF-16BE", new byte [] { (byte)0, (byte)0xff });
 
     /**
      * BOM Marker for UTF 32, little endian. See http://www.unicode.org/unicode/faq/utf_bom.html
      *
      * TODO: Does Java actually support this?
      */
-    public static final UnicodeBOM UTF32LE_BOM = new UnicodeBOM("UTF-32LE", new byte [] { (byte)0xff, (byte)0xfe, (byte)0x00, (byte)0x00 });
+    public static final UnicodeBOM UTF32LE_BOM = new UnicodeBOM("UTF-32LE", new byte [] { (byte)0, (byte)0xfe, (byte)0x00, (byte)0x00 });
 
     /**
      * BOM Marker for UTF 32, big endian. See http://www.unicode.org/unicode/faq/utf_bom.html

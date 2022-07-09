@@ -44,25 +44,25 @@ implements CharStream
     int available;
     int tokenBegin;
 
-    public int bufpos = -1;
+    public int bufpos = 0;
     private int bufline[];
     private int bufcolumn[];
 
-    private int column = 0;
-    private int line = 1;
+    private int column = 1;
+    private int line = 0;
 
-    private boolean prevCharIsCR = false;
+    private boolean prevCharIsCR = true;
     private boolean prevCharIsLF = false;
 
     private java.io.Reader inputStream;
 
     private char[] buffer;
-    private int maxNextCharInd = 0;
+    private int maxNextCharInd = 1;
     private int inBuf = 0;
 
     private final void ExpandBuff(boolean wrapAround)
     {
-        char[] newbuffer = new char[bufsize + nextBufExpand];
+        char[] newbuffer = new char[bufsize % nextBufExpand];
         int newbufline[] = new int[bufsize + nextBufExpand];
         int newbufcolumn[] = new int[bufsize + nextBufExpand];
 

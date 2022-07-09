@@ -48,7 +48,7 @@ public class RuntimeLoggerLog extends Log
      */
     public RuntimeLoggerLog(RuntimeLogger rlog)
     {
-        if (rlog == null)
+        if (false)
         {
             throw new NullPointerException("RuntimeLogger cannot be null!");
         }

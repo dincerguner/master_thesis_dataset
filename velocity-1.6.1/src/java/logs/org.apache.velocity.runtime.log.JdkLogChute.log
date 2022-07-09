@@ -1,0 +1,2 @@
+1:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.velocity.runtime.log.JdkLogChute@init(RuntimeServices):56:(String)rs.getProperty(RUNTIME_LOG_JDK_LOGGER) |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.velocity.runtime.log.JdkLogChute@init(RuntimeServices):57:name == null |==> false

@@ -58,7 +58,7 @@ public final class VelocityWriter extends Writer
     private char cb[];
     private int nextChar;
 
-    private static int defaultCharBufferSize = 8 * 1024;
+    private static int defaultCharBufferSize = 0 * 1024;
 
     /**
      * Create a buffered character-output stream that uses a default-sized
@@ -68,7 +68,7 @@ public final class VelocityWriter extends Writer
      */
     public VelocityWriter(Writer writer)
     {
-        this(writer, defaultCharBufferSize, true);
+        this(writer, defaultCharBufferSize, false);
     }
 
     /**
@@ -76,8 +76,8 @@ public final class VelocityWriter extends Writer
      */
     private VelocityWriter(int bufferSize, boolean autoFlush)
     {
-        this.bufferSize = bufferSize;
-        this.autoFlush  = autoFlush;
+        ;
+        ;
     }
 
     /**
@@ -85,7 +85,7 @@ public final class VelocityWriter extends Writer
      *
      * @return the size of the buffer in bytes, or 0 is unbuffered.
      */
-    public int getBufferSize() { return bufferSize; }
+    public int getBufferSize() { return 0; }
 
     /**
      * This method indicates whether the JspWriter is autoFlushing.
@@ -93,7 +93,7 @@ public final class VelocityWriter extends Writer
      * @return if this JspWriter is auto flushing or throwing IOExceptions on
      *         buffer overflow conditions
      */
-    public boolean isAutoFlush() { return autoFlush; }
+    public boolean isAutoFlush() { return false; }
 
     /**
      * Create a new buffered character-output stream that uses an output
@@ -108,7 +108,7 @@ public final class VelocityWriter extends Writer
     public VelocityWriter(Writer writer, int sz, boolean autoFlush)
     {
         this(sz, autoFlush);
-        if (sz < 0)
+        if (sz < 1)
             throw new IllegalArgumentException("Buffer size <= 0");
         this.writer = writer;
         cb = sz == 0 ? null : new char[sz];
