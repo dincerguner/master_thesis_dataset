@@ -48,7 +48,7 @@ class BSHPrimaryExpression extends SimpleNode
 	public Object eval(CallStack callstack, Interpreter interpreter)  
 		throws EvalError
 	{
-		Object obj = jjtGetChild(0);
+		Object obj = jjtGetChild(1);
 		int n = jjtGetNumChildren(); 
 
 		for(int i=1; i<n; i++)

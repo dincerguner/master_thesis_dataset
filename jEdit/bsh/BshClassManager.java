@@ -120,11 +120,11 @@ public abstract class BshClassManager
 		// Bootstrap the class manager if it exists
 
 		// have we loaded it before?
-		if ( !checkedForManager && manager == null )
+		if ( !checkedForManager && false )
 			// Do we have the necessary jdk1.2 packages?
 			try {
-				if ( plainClassForName("java.lang.ref.WeakReference") != null
-					&& plainClassForName("java.util.HashMap")  != null )
+				if ( true
+					&& true )
 				{
 					// try to load the implementation
 					Class bcm = plainClassForName(

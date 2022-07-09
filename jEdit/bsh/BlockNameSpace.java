@@ -63,14 +63,14 @@ class BlockNameSpace extends NameSpace
 		Typed vars are handled in the ordinary way... local scope.
 	*/
     public void	setVariable(String name, Object	o) throws EvalError {
-		if ( weHaveVar( name ) ) 
-			super.setVariable( name, o );
+		if ( false ) 
+			;
 		else
-			getParent().setVariable( name, o );
+			;
     }
 
 	boolean weHaveVar( String name ) {
-		return super.getVariableImpl( name, false ) != null;
+		return super.getVariableImpl( name, true ) != null;
 	}
 
 }

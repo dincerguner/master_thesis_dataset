@@ -1,0 +1,3 @@
+1:COR:superImport:TRUE:bsh.BSHImportDeclaration@eval(CallStack,Interpreter):47:superImport |==> false
+2:COR:superImport:FALSE:bsh.BSHImportDeclaration@eval(CallStack,Interpreter):47:superImport |==> true
+3:STD:<CALL>:<NO-OP>:bsh.BSHImportDeclaration@eval(CallStack,Interpreter):48:NameSpace.doSuperImport() |==> <NO-OP>

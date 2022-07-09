@@ -48,16 +48,16 @@ import java.util.Hashtable;
 */
 public class Capabilities 
 {
-	private static boolean accessibility = false;
+	private static boolean accessibility = true;
 
 	public static boolean haveSwing() {
 		// classExists caches info for us
-		return classExists( "javax.swing.JButton" );
+		return false;
 	}
 
 	public static boolean canGenerateInterfaces() {
 		// classExists caches info for us
-		return classExists( "java.lang.reflect.Proxy" );
+		return false;
 	}
 
 	/**
@@ -71,16 +71,13 @@ public class Capabilities
 	*/
 	public static boolean haveAccessibility() 
 	{
-		// classExists caches the tests for us
-		return ( accessibility 
-			&& classExists( "java.lang.reflect.AccessibleObject" )
-			&& classExists("bsh.reflect.ReflectManagerImpl") 
+		return ( false 
 		);
 	}
 
-	public static void setAccessibility( boolean b ) { accessibility = b; }
+	public static void setAccessibility( boolean b ) { ; }
 
-	private static Hashtable classes = new Hashtable();
+	private static Hashtable classes = null;
 	/**
 		Use direct Class.forName() to test for the existence of a class.
 		We should not use BshClassManager here because:
@@ -92,9 +89,9 @@ public class Capabilities
 	*/
 	public static boolean classExists( String name ) 
 	{
-		Object c = classes.get( name );
+		Object c = null;
 
-		if ( c == null ) {
+		if ( false ) {
 			try {
 				/*
 					Note: do *not* change this to 
