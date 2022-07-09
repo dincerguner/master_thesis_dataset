@@ -1,0 +1,4 @@
+1:EVR:<METHOD_INVOCATION(javax.xml.parsers.DocumentBuilder)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter@getDocumentBuilder():58:DocumentBuilderFactory.newInstance().newDocumentBuilder() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter:75:new Hashtable() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter:79:new Hashtable() |==> null
+4:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter:83:new Hashtable() |==> null

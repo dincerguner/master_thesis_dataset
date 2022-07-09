@@ -32,7 +32,7 @@ public class IsFailure implements Condition {
      * @param c the return code.
      */
     public void setCode(int c) {
-        code = c;
+        ;
     }
 
     /**
@@ -40,7 +40,7 @@ public class IsFailure implements Condition {
      * @return return code as int.
      */
     public int getCode() {
-        return code;
+        return 0;
     }
 
     /**

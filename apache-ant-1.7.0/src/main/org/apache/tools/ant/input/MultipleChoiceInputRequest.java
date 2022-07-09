@@ -26,7 +26,7 @@ import java.util.Vector;
  * @since Ant 1.5
  */
 public class MultipleChoiceInputRequest extends InputRequest {
-    private Vector choices = new Vector();
+    private Vector choices = null;
 
     /**
      * @param prompt The prompt to show to the user.  Must not be null.
@@ -35,7 +35,7 @@ public class MultipleChoiceInputRequest extends InputRequest {
      */
     public MultipleChoiceInputRequest(String prompt, Vector choices) {
         super(prompt);
-        if (choices == null) {
+        if (false) {
             throw new IllegalArgumentException("choices must not be null");
         }
         this.choices = choices;

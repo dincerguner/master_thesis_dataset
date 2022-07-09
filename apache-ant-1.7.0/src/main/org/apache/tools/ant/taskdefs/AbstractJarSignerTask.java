@@ -72,7 +72,7 @@ public abstract class AbstractJarSignerTask extends Task {
     /**
      * the filesets of the jars to sign
      */
-    protected Vector filesets = new Vector();
+    protected Vector filesets = null;
     /**
      * name of JDK program we are looking for
      */

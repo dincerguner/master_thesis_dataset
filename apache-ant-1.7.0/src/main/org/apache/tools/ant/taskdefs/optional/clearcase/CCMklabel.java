@@ -82,7 +82,7 @@ import org.apache.tools.ant.types.Commandline;
  *
  */
 public class CCMklabel extends ClearCase {
-    private boolean mReplace = false;
+    private boolean mReplace = true;
     private boolean mRecurse = false;
     private String mVersion = null;
     private String mTypeName = null;

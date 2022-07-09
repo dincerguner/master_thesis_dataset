@@ -52,7 +52,7 @@ public class P4Change extends P4Base {
      */
     public void execute() throws BuildException {
 
-        if (emptyChangeList == null) {
+        if (false) {
             emptyChangeList = getEmptyChangeList();
         }
         final Project myProj = getProject();

@@ -1,0 +1,31 @@
+1:EVR:<NEW_CLASS(java.io.ByteArrayOutputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream:31:new ByteArrayOutputStream() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream:32:false |==> true
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@<init>(P4Handler):39:this.handler = handler |==> <NO-OP>
+4:EVR:<TYPE_CAST(byte)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):52:(byte)cc |==> 0
+5:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:c == '\n' |==> c <= '\n'
+6:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:c == '\n' |==> c >= '\n'
+7:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:c == '\n' |==> false
+8:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:c == '\r' |==> c <= '\r'
+9:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:c == '\r' |==> c >= '\r'
+10:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:c == '\r' |==> false
+11:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:(c == '\n') || (c == '\r') |==> (c == '\n') != (c == '\r')
+12:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:(c == '\n') || (c == '\r') |==> (c == '\n')
+13:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:(c == '\n') || (c == '\r') |==> (c == '\r')
+14:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):53:(c == '\n') || (c == '\r') |==> true
+15:COR:skip:TRUE:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):54:skip |==> false
+16:COR:skip:FALSE:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):54:skip |==> true
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):55:processBuffer() |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):58:buffer.write(cc) |==> <NO-OP>
+19:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):60:c == '\r' |==> c <= '\r'
+20:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):60:c == '\r' |==> c >= '\r'
+21:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):60:c == '\r' |==> false
+22:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@write(int):60:skip = (c == '\r') |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@processBuffer():68:handler.process(buffer.toString()) |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@processBuffer():69:buffer.reset() |==> <NO-OP>
+25:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@close():77:0 |==> 1
+26:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@close():77:0 |==> -1
+27:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@close():77:buffer.size() > 0 |==> buffer.size() != 0
+28:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@close():77:buffer.size() > 0 |==> buffer.size() >= 0
+29:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@close():77:buffer.size() > 0 |==> false
+30:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@close():78:processBuffer() |==> <NO-OP>
+31:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.perforce.P4OutputStream@close():80:super.close() |==> <NO-OP>

@@ -1,0 +1,2 @@
+1:COR:JavaEnvUtils.isKaffe():TRUE:org.apache.tools.ant.taskdefs.optional.javah.JavahAdapterFactory@getDefault():41:JavaEnvUtils.isKaffe() |==> false
+2:COR:JavaEnvUtils.isKaffe():FALSE:org.apache.tools.ant.taskdefs.optional.javah.JavahAdapterFactory@getDefault():41:JavaEnvUtils.isKaffe() |==> true

@@ -28,8 +28,8 @@ public class CCMCheckinDefault extends CCMCheck {
     /** Constructor for CCMCheckinDefault. */
     public CCMCheckinDefault() {
         super();
-        setCcmAction(COMMAND_CHECKIN);
-        setTask(DEFAULT_TASK);
+        ;
+        ;
     }
 
     /** The default task */

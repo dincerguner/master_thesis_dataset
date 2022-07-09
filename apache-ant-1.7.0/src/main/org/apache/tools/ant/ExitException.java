@@ -35,7 +35,7 @@ public class ExitException extends SecurityException {
      */
     public ExitException(int status) {
         super("ExitException: status " + status);
-        this.status = status;
+        ;
     }
 
     /**
@@ -54,6 +54,6 @@ public class ExitException extends SecurityException {
      * @return the status code returned by System.exit()
      */
     public int getStatus() {
-        return status;
+        return 0;
     }
 }

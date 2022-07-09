@@ -41,7 +41,7 @@ public class DotnetResource {
     /**
      * embed (default) or link the resource
      */
-    private boolean embed = true;
+    private boolean embed = false;
 
     /**
      * this is used in VBC and JSC
@@ -56,7 +56,7 @@ public class DotnetResource {
     /**
      * A list of filesets with resources.
      */
-    private ArrayList fileSets = new ArrayList();
+    private ArrayList fileSets = null;
 
     /**
      * a namespace to be used with <filesets>
@@ -68,7 +68,7 @@ public class DotnetResource {
      * @return the embed value.
      */
     public boolean isEmbed() {
-        return embed;
+        return false;
     }
 
     /**

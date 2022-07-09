@@ -1,0 +1,2 @@
+1:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.depend.constantpool.FieldRefCPInfo@<init>():41:1 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.depend.constantpool.FieldRefCPInfo@<init>():41:1 |==> -1

@@ -37,7 +37,7 @@ import org.apache.tools.ant.util.ResourceUtils;
 public class ResourcesMatch implements Condition {
 
     private Union resources = null;
-    private boolean asText = false;
+    private boolean asText = true;
 
     /**
      * Set whether to treat resources as if they were text files,

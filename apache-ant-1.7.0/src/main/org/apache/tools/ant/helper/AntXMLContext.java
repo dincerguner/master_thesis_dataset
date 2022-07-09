@@ -49,7 +49,7 @@ public class AntXMLContext {
      * defined. Project maintains a Hashtable, which is not ordered.
      * This will allow description to know the original order.
      */
-    private Vector targetVector = new Vector();
+    private Vector targetVector = null;
 
     /**
      * Parent directory of the build file. Used for resolving entities

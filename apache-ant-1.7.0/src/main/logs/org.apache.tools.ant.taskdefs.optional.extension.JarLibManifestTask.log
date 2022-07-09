@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.extension.JarLibManifestTask:72:new ArrayList() |==> null
+2:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.extension.JarLibManifestTask:78:new ArrayList() |==> null
+3:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.extension.JarLibManifestTask:84:new ArrayList() |==> null

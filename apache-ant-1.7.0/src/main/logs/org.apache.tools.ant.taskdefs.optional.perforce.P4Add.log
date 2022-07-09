@@ -1,0 +1,7 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.P4Add:58:new Vector() |==> null
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.perforce.P4Add:59:DEFAULT_CMD_LENGTH |==> 0
+3:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.perforce.P4Add@setCommandlength(int):71:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.perforce.P4Add@setCommandlength(int):71:0 |==> -1
+5:ROR:<=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4Add@setCommandlength(int):71:len <= 0 |==> len < 0
+6:ROR:<=(int,int):==(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4Add@setCommandlength(int):71:len <= 0 |==> len == 0
+7:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.perforce.P4Add@setCommandlength(int):71:len <= 0 |==> true

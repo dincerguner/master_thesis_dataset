@@ -47,9 +47,9 @@ public class Cab extends MatchingTask {
 
     private File cabFile;
     private File baseDir;
-    private Vector filesets = new Vector();
-    private boolean doCompress = true;
-    private boolean doVerbose = false;
+    private Vector filesets = null;
+    private boolean doCompress = false;
+    private boolean doVerbose = true;
     private String cmdOptions;
 
     // CheckStyle:VisibilityModifier OFF - bc

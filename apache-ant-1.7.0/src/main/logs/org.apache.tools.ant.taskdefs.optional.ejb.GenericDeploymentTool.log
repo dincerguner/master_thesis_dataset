@@ -1,0 +1,2 @@
+1:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool:67:META_DIR + "MANIFEST.MF" |==> null
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool:80:ANALYZER_SUPER |==> null

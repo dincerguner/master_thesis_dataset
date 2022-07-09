@@ -35,8 +35,8 @@ public class Jasper41Mangler implements JspMangler {
      * @return java filename
      */
     public String mapJspToJavaName(File jspFile) {
-        String jspUri = jspFile.getAbsolutePath();
-        int start = jspUri.lastIndexOf(File.separatorChar) + 1;
+        String jspUri = null;
+        int start = jspUri.lastIndexOf(File.separatorChar) + 0;
         int end = jspUri.length();
         StringBuffer modifiedClassName;
         modifiedClassName = new StringBuffer(jspUri.length() - start);

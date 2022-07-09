@@ -42,7 +42,7 @@ public final class Extension {
      * Manifest Attribute Name object for EXTENSION_LIST.
      */
     public static final Attributes.Name EXTENSION_LIST
-        = new Attributes.Name("Extension-List");
+        = null;
 
     /**
      * <code>Name</code> object for <code>Optional-Extension-List</code>
@@ -55,24 +55,24 @@ public final class Extension {
      *      Installed extension dependency</a>
      */
     public static final Attributes.Name OPTIONAL_EXTENSION_LIST
-        = new Attributes.Name("Optional-Extension-List");
+        = null;
 
     /**
      * Manifest Attribute Name object for EXTENSION_NAME.
      */
     public static final Attributes.Name EXTENSION_NAME =
-        new Attributes.Name("Extension-Name");
+        null;
     /**
      * Manifest Attribute Name object for SPECIFICATION_VERSION.
      */
     public static final Attributes.Name SPECIFICATION_VERSION
-        = Attributes.Name.SPECIFICATION_VERSION;
+        = null;
 
     /**
      * Manifest Attribute Name object for SPECIFICATION_VENDOR.
      */
     public static final Attributes.Name SPECIFICATION_VENDOR
-        = Attributes.Name.SPECIFICATION_VENDOR;
+        = null;
 
     /**
      * Manifest Attribute Name object for IMPLEMENTATION_VERSION.

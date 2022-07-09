@@ -1,0 +1,561 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc:94:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc:95:false |==> true
+3:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbcHandler)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc:102:new EjbcHandler() |==> null
+4:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc:111:new Hashtable() |==> null
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):137:this.stdDescriptor = stdDescriptor |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):138:this.iasDescriptor = iasDescriptor |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):139:this.destDirectory = destDirectory |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):140:this.classpath = classpath |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):141:this.parser = parser |==> <NO-OP>
+10:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):147:new ArrayList() |==> null
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):148:classpath != null |==> true
+12:EVR:<NEW_CLASS(java.util.StringTokenizer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):149:new StringTokenizer(classpath, File.pathSeparator) |==> null
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):152:elements.add(st.nextToken()) |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@<init>(java.io.File,java.io.File,java.io.File,java.lang.String,javax.xml.parsers.SAXParser):154:classpathElements = (String[])elements.toArray(new String[elements.size()]) |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@setRetainSource(boolean):168:this.retainSource = retainSource |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@setDebugOutput(boolean):178:this.debugOutput = debugOutput |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@registerDTD(java.lang.String,java.lang.String):191:handler.registerDTD(publicID, location) |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@setIasHomeDir(java.io.File):202:this.iasHomeDir = iasHomeDir |==> <NO-OP>
+19:EVR:<IDENTIFIER(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getEjbFiles():215:ejbFiles |==> null
+20:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getDisplayName():224:displayName |==> null
+21:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():233:new ArrayList() |==> null
+22:EVR:<METHOD_INVOCATION(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():235:handler.getEjbs() |==> null
+23:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():237:0 |==> 1
+24:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():237:0 |==> -1
+25:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():237:i < ejbs.length |==> i != ejbs.length
+26:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():237:i < ejbs.length |==> i <= ejbs.length
+27:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():237:i < ejbs.length |==> false
+28:EVR:<TYPE_CAST(java.util.List)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():238:(List)ejbs[i].getCmpDescriptors() |==> null
+29:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():239:returnList.addAll(descriptors) |==> <NO-OP>
+30:EVR:<TYPE_CAST(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getCmpDescriptors():242:(String[])returnList.toArray(new String[returnList.size()]) |==> null
+31:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):258:false |==> true
+32:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):259:false |==> true
+33:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:args.length < MIN_NUM_ARGS |==> args.length != MIN_NUM_ARGS
+34:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:args.length < MIN_NUM_ARGS |==> args.length <= MIN_NUM_ARGS
+35:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:args.length < MIN_NUM_ARGS |==> false
+36:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:args.length > MAX_NUM_ARGS |==> args.length != MAX_NUM_ARGS
+37:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:args.length > MAX_NUM_ARGS |==> args.length >= MAX_NUM_ARGS
+38:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:args.length > MAX_NUM_ARGS |==> false
+39:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:(args.length < MIN_NUM_ARGS) || (args.length > MAX_NUM_ARGS) |==> (args.length < MIN_NUM_ARGS) != (args.length > MAX_NUM_ARGS)
+40:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:(args.length < MIN_NUM_ARGS) || (args.length > MAX_NUM_ARGS) |==> (args.length < MIN_NUM_ARGS)
+41:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:(args.length < MIN_NUM_ARGS) || (args.length > MAX_NUM_ARGS) |==> (args.length > MAX_NUM_ARGS)
+42:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):262:(args.length < MIN_NUM_ARGS) || (args.length > MAX_NUM_ARGS) |==> true
+43:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):263:usage() |==> <NO-OP>
+44:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):264:return; |==> <NO-OP>
+45:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):267:2 |==> 0
+46:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):267:2 |==> -2
+47:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):267:args.length - 2 |==> args.length % 2
+48:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):267:args.length - 2 |==> args.length * 2
+49:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):267:args.length - 2 |==> args.length + 2
+50:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):267:args.length - 2 |==> args.length / 2
+51:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):268:1 |==> 0
+52:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):268:1 |==> -1
+53:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):268:args.length - 1 |==> args.length % 1
+54:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):268:args.length - 1 |==> args.length * 1
+55:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):268:args.length - 1 |==> args.length + 1
+56:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):268:args.length - 1 |==> args.length / 1
+57:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:0 |==> 1
+58:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:0 |==> -1
+59:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:2 |==> 0
+60:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:2 |==> -2
+61:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:args.length - 2 |==> args.length % 2
+62:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:args.length - 2 |==> args.length * 2
+63:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:args.length - 2 |==> args.length + 2
+64:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:args.length - 2 |==> args.length / 2
+65:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:i < args.length - 2 |==> i != args.length - 2
+66:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:i < args.length - 2 |==> i <= args.length - 2
+67:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):270:i < args.length - 2 |==> false
+68:COR:args[i].equals("-classpath"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):271:args[i].equals("-classpath") |==> false
+69:COR:args[i].equals("-classpath"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):271:args[i].equals("-classpath") |==> true
+70:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):272:classpath = args[++i] |==> <NO-OP>
+71:COR:args[i].equals("-d"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):273:args[i].equals("-d") |==> false
+72:COR:args[i].equals("-d"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):273:args[i].equals("-d") |==> true
+73:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):274:destDirectory = new File(args[++i]) |==> <NO-OP>
+74:COR:args[i].equals("-debug"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):275:args[i].equals("-debug") |==> false
+75:COR:args[i].equals("-debug"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):275:args[i].equals("-debug") |==> true
+76:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):276:true |==> false
+77:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):276:debug = true |==> <NO-OP>
+78:COR:args[i].equals("-keepsource"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):277:args[i].equals("-keepsource") |==> false
+79:COR:args[i].equals("-keepsource"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):277:args[i].equals("-keepsource") |==> true
+80:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):278:true |==> false
+81:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):278:retainSource = true |==> <NO-OP>
+82:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):280:usage() |==> <NO-OP>
+83:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):281:return; |==> <NO-OP>
+84:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):286:classpath == null |==> false
+85:EVR:<METHOD_INVOCATION(java.util.Properties)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):287:System.getProperties() |==> null
+86:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):288:classpath = props.getProperty("java.class.path") |==> <NO-OP>
+87:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):295:destDirectory == null |==> false
+88:EVR:<METHOD_INVOCATION(java.util.Properties)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):296:System.getProperties() |==> null
+89:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):297:destDirectory = new File(props.getProperty("user.dir")) |==> <NO-OP>
+90:EVR:<METHOD_INVOCATION(javax.xml.parsers.SAXParserFactory)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):301:SAXParserFactory.newInstance() |==> null
+91:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):302:true |==> false
+92:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):302:parserFactory.setValidating(true) |==> <NO-OP>
+93:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):304:parser = parserFactory.newSAXParser() |==> <NO-OP>
+94:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):307:System.out.println("An exception was generated while trying to ") |==> <NO-OP>
+95:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):308:System.out.println("create a new SAXParser.") |==> <NO-OP>
+96:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):309:e.printStackTrace() |==> <NO-OP>
+97:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):310:return; |==> <NO-OP>
+98:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):314:new IPlanetEjbc(stdDescriptor, iasDescriptor, destDirectory, classpath, parser) |==> null
+99:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):316:ejbc.setDebugOutput(debug) |==> <NO-OP>
+100:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):317:ejbc.setRetainSource(retainSource) |==> <NO-OP>
+101:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):321:ejbc.execute() |==> <NO-OP>
+102:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):323:System.out.println("An IOException has occurred while reading the " + "XML descriptors (" + e.getMessage() + ").") |==> <NO-OP>
+103:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):325:return; |==> <NO-OP>
+104:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):327:System.out.println("A SAXException has occurred while reading the " + "XML descriptors (" + e.getMessage() + ").") |==> <NO-OP>
+105:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):329:return; |==> <NO-OP>
+106:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):331:System.out.println("An error has occurred while executing the ejbc " + "utility (" + e.getMessage() + ").") |==> <NO-OP>
+107:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@main(java.lang.String[]):333:return; |==> <NO-OP>
+108:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():341:System.out.println("java org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc \\") |==> <NO-OP>
+109:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():342:System.out.println("  [OPTIONS] [EJB 1.1 descriptor] [iAS EJB descriptor]") |==> <NO-OP>
+110:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():343:System.out.println("") |==> <NO-OP>
+111:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():344:System.out.println("Where OPTIONS are:") |==> <NO-OP>
+112:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():345:System.out.println("  -debug -- for additional debugging output") |==> <NO-OP>
+113:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():346:System.out.println("  -keepsource -- to retain Java source files generated") |==> <NO-OP>
+114:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():347:System.out.println("  -classpath [classpath] -- classpath used for compilation") |==> <NO-OP>
+115:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():348:System.out.println("  -d [destination directory] -- directory for compiled classes") |==> <NO-OP>
+116:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():349:System.out.println("") |==> <NO-OP>
+117:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():350:System.out.println("If a classpath is not specified, the system classpath") |==> <NO-OP>
+118:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():351:System.out.println("will be used.  If a destination directory is not specified,") |==> <NO-OP>
+119:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():352:System.out.println("the current working directory will be used (classes will") |==> <NO-OP>
+120:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():353:System.out.println("still be placed in subfolders which correspond to their") |==> <NO-OP>
+121:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():354:System.out.println("package name).") |==> <NO-OP>
+122:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():355:System.out.println("") |==> <NO-OP>
+123:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():356:System.out.println("The EJB home interface, remote interface, and implementation") |==> <NO-OP>
+124:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():357:System.out.println("class must be found in the destination directory.  In") |==> <NO-OP>
+125:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():358:System.out.println("addition, the destination will look for the stubs and skeletons") |==> <NO-OP>
+126:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@usage():359:System.out.println("in the destination directory to ensure they are up to date.") |==> <NO-OP>
+127:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():376:checkConfiguration() |==> <NO-OP>
+128:EVR:<METHOD_INVOCATION(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():378:getEjbs() |==> null
+129:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():380:0 |==> 1
+130:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():380:0 |==> -1
+131:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():380:i < ejbs.length |==> i != ejbs.length
+132:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():380:i < ejbs.length |==> i <= ejbs.length
+133:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():380:i < ejbs.length |==> false
+134:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():381:log("EJBInfo...") |==> <NO-OP>
+135:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():382:log(ejbs[i].toString()) |==> <NO-OP>
+136:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():385:0 |==> 1
+137:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():385:0 |==> -1
+138:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():385:i < ejbs.length |==> i != ejbs.length
+139:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():385:i < ejbs.length |==> i <= ejbs.length
+140:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():385:i < ejbs.length |==> false
+141:EVR:<ARRAY_ACCESS(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():386:ejbs[i] |==> null
+142:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():388:ejb.checkConfiguration(destDirectory) |==> <NO-OP>
+143:COR:ejb.mustBeRecompiled(destDirectory):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():390:ejb.mustBeRecompiled(destDirectory) |==> false
+144:COR:ejb.mustBeRecompiled(destDirectory):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():390:ejb.mustBeRecompiled(destDirectory) |==> true
+145:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():391:log(ejb.getName() + " must be recompiled using ejbc.") |==> <NO-OP>
+146:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():393:buildArgumentList(ejb) |==> null
+147:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():394:callEjbc(arguments) |==> <NO-OP>
+148:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@execute():397:log(ejb.getName() + " is up to date.") |==> <NO-OP>
+149:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):410:new StringBuffer() |==> null
+150:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):411:0 |==> 1
+151:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):411:0 |==> -1
+152:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):411:i < arguments.length |==> i != arguments.length
+153:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):411:i < arguments.length |==> i <= arguments.length
+154:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):411:i < arguments.length |==> false
+155:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):412:args.append(arguments[i]).append(" ") |==> <NO-OP>
+156:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):417:iasHomeDir == null |==> false
+157:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):421:iasHomeDir.toString() + File.separator + "bin" + File.separator |==> null
+158:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):423:command += "ejbc " |==> <NO-OP>
+159:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):425:log(command + args) |==> <NO-OP>
+160:EVR:<METHOD_INVOCATION(java.lang.Process)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):433:Runtime.getRuntime().exec(command + args) |==> null
+161:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.RedirectOutput)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):434:new RedirectOutput(p.getInputStream()) |==> null
+162:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.RedirectOutput)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):435:new RedirectOutput(p.getErrorStream()) |==> null
+163:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):436:output.start() |==> <NO-OP>
+164:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):437:error.start() |==> <NO-OP>
+165:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):438:p.waitFor() |==> <NO-OP>
+166:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):439:p.destroy() |==> <NO-OP>
+167:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):441:log("An IOException has occurred while trying to execute ejbc.") |==> <NO-OP>
+168:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@callEjbc(java.lang.String[]):442:e.printStackTrace() |==> <NO-OP>
+169:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():457:stdDescriptor == null |==> false
+170:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():458:msg += "A standard XML descriptor file must be specified.  " |==> <NO-OP>
+171:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():460:iasDescriptor == null |==> false
+172:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():461:msg += "An iAS-specific XML descriptor file must be specified.  " |==> <NO-OP>
+173:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():463:classpath == null |==> false
+174:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():464:msg += "A classpath must be specified.    " |==> <NO-OP>
+175:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():466:parser == null |==> false
+176:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():467:msg += "An XML parser must be specified.    " |==> <NO-OP>
+177:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():470:destDirectory == null |==> false
+178:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():471:msg += "A destination directory must be specified.  " |==> <NO-OP>
+179:COR:destDirectory.exists():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():472:destDirectory.exists() |==> false
+180:COR:destDirectory.exists():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():472:destDirectory.exists() |==> true
+181:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():473:msg += "The destination directory specified does not exist.  " |==> <NO-OP>
+182:COR:destDirectory.isDirectory():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():474:destDirectory.isDirectory() |==> false
+183:COR:destDirectory.isDirectory():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():474:destDirectory.isDirectory() |==> true
+184:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():475:msg += "The destination specified is not a directory.  " |==> <NO-OP>
+185:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():478:0 |==> 1
+186:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():478:0 |==> -1
+187:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():478:msg.length() > 0 |==> msg.length() != 0
+188:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():478:msg.length() > 0 |==> msg.length() >= 0
+189:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@checkConfiguration():478:msg.length() > 0 |==> false
+190:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getEjbs():502:parser.parse(stdDescriptor, handler) |==> <NO-OP>
+191:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getEjbs():503:parser.parse(iasDescriptor, handler) |==> <NO-OP>
+192:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getEjbs():504:ejbs = handler.getEjbs() |==> <NO-OP>
+193:EVR:<IDENTIFIER(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@getEjbs():506:ejbs |==> null
+194:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):519:new ArrayList() |==> null
+195:COR:debugOutput:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):523:debugOutput |==> false
+196:COR:debugOutput:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):523:debugOutput |==> true
+197:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):524:arguments.add("-debug") |==> <NO-OP>
+198:COR:ejb.getBeantype().equals(STATELESS_SESSION):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):528:ejb.getBeantype().equals(STATELESS_SESSION) |==> false
+199:COR:ejb.getBeantype().equals(STATELESS_SESSION):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):528:ejb.getBeantype().equals(STATELESS_SESSION) |==> true
+200:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):529:arguments.add("-sl") |==> <NO-OP>
+201:COR:ejb.getBeantype().equals(STATEFUL_SESSION):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):530:ejb.getBeantype().equals(STATEFUL_SESSION) |==> false
+202:COR:ejb.getBeantype().equals(STATEFUL_SESSION):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):530:ejb.getBeantype().equals(STATEFUL_SESSION) |==> true
+203:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):531:arguments.add("-sf") |==> <NO-OP>
+204:COR:ejb.getIiop():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):534:ejb.getIiop() |==> false
+205:COR:ejb.getIiop():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):534:ejb.getIiop() |==> true
+206:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):535:arguments.add("-iiop") |==> <NO-OP>
+207:COR:ejb.getCmp():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):538:ejb.getCmp() |==> false
+208:COR:ejb.getCmp():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):538:ejb.getCmp() |==> true
+209:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):539:arguments.add("-cmp") |==> <NO-OP>
+210:COR:retainSource:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):542:retainSource |==> false
+211:COR:retainSource:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):542:retainSource |==> true
+212:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):543:arguments.add("-gs") |==> <NO-OP>
+213:COR:ejb.getHasession():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):546:ejb.getHasession() |==> false
+214:COR:ejb.getHasession():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):546:ejb.getHasession() |==> true
+215:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):547:arguments.add("-fo") |==> <NO-OP>
+216:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):552:arguments.add("-classpath") |==> <NO-OP>
+217:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):553:arguments.add(classpath) |==> <NO-OP>
+218:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):555:arguments.add("-d") |==> <NO-OP>
+219:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):556:arguments.add(destDirectory.toString()) |==> <NO-OP>
+220:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):558:arguments.add(ejb.getHome().getQualifiedClassName()) |==> <NO-OP>
+221:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):559:arguments.add(ejb.getRemote().getQualifiedClassName()) |==> <NO-OP>
+222:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):560:arguments.add(ejb.getImplementation().getQualifiedClassName()) |==> <NO-OP>
+223:EVR:<TYPE_CAST(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@buildArgumentList(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo):563:(String[])arguments.toArray(new String[arguments.size()]) |==> null
+224:COR:debugOutput:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@log(java.lang.String):573:debugOutput |==> false
+225:COR:debugOutput:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@log(java.lang.String):573:debugOutput |==> true
+226:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc@log(java.lang.String):574:System.out.println(msg) |==> <NO-OP>
+227:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler:628:new HashMap() |==> null
+228:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler:629:new HashMap() |==> null
+229:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler:631:new HashMap() |==> null
+230:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler:633:false |==> true
+231:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@<init>():645:registerDTD(PUBLICID_EJB11, DEFAULT_IAS60_EJB11_DTD_LOCATION) |==> <NO-OP>
+232:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@<init>():646:registerDTD(PUBLICID_IPLANET_EJB_60, DEFAULT_IAS60_DTD_LOCATION) |==> <NO-OP>
+233:EVR:<TYPE_CAST(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.EjbInfo[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@getEjbs():657:(EjbInfo[])ejbs.values().toArray(new EjbInfo[ejbs.size()]) |==> null
+234:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@getDisplayName():667:displayName |==> null
+235:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):683:log("Registering: " + location) |==> <NO-OP>
+236:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):684:publicID == null |==> false
+237:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):684:location == null |==> false
+238:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):684:(publicID == null) || (location == null) |==> (publicID == null) != (location == null)
+239:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):684:(publicID == null) || (location == null) |==> (publicID == null)
+240:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):684:(publicID == null) || (location == null) |==> (location == null)
+241:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):684:(publicID == null) || (location == null) |==> true
+242:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):685:return; |==> <NO-OP>
+243:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):688:ClassLoader.getSystemResource(location) != null |==> true
+244:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):689:log("Found resource: " + location) |==> <NO-OP>
+245:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):690:resourceDtds.put(publicID, location) |==> <NO-OP>
+246:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):692:new File(location) |==> null
+247:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):693:dtdFile.exists() && dtdFile.isFile() |==> dtdFile.exists() == dtdFile.isFile()
+248:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):693:dtdFile.exists() && dtdFile.isFile() |==> false
+249:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):693:dtdFile.exists() && dtdFile.isFile() |==> dtdFile.exists()
+250:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):693:dtdFile.exists() && dtdFile.isFile() |==> dtdFile.isFile()
+251:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):694:log("Found file: " + location) |==> <NO-OP>
+252:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@registerDTD(java.lang.String,java.lang.String):695:fileDtds.put(publicID, location) |==> <NO-OP>
+253:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):719:(String)resourceDtds.get(publicId) |==> null
+254:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):720:location != null |==> true
+255:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):721:inputStream = ClassLoader.getSystemResource(location).openStream() |==> <NO-OP>
+256:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):724:location = (String)fileDtds.get(publicId) |==> <NO-OP>
+257:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):725:location != null |==> true
+258:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):726:inputStream = new FileInputStream(location) |==> <NO-OP>
+259:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):730:return super.resolveEntity(publicId, systemId); |==> <NO-OP>
+260:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):733:inputStream == null |==> false
+261:EVR:<METHOD_INVOCATION(org.xml.sax.InputSource)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):734:super.resolveEntity(publicId, systemId) |==> null
+262:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@resolveEntity(java.lang.String,java.lang.String):736:new InputSource(inputStream) |==> null
+263:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):755:currentLoc += "\\" + name |==> <NO-OP>
+264:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):758:currentText = "" |==> <NO-OP>
+265:COR:currentLoc.equals("\\ejb-jar"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):760:currentLoc.equals("\\ejb-jar") |==> false
+266:COR:currentLoc.equals("\\ejb-jar"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):760:currentLoc.equals("\\ejb-jar") |==> true
+267:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):761:false |==> true
+268:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):761:iasDescriptor = false |==> <NO-OP>
+269:COR:currentLoc.equals("\\ias-ejb-jar"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):762:currentLoc.equals("\\ias-ejb-jar") |==> false
+270:COR:currentLoc.equals("\\ias-ejb-jar"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):762:currentLoc.equals("\\ias-ejb-jar") |==> true
+271:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):763:true |==> false
+272:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):763:iasDescriptor = true |==> <NO-OP>
+273:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):766:(name.equals("session")) || (name.equals("entity")) |==> (name.equals("session")) != (name.equals("entity"))
+274:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):766:(name.equals("session")) || (name.equals("entity")) |==> (name.equals("session"))
+275:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):766:(name.equals("session")) || (name.equals("entity")) |==> (name.equals("entity"))
+276:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):766:(name.equals("session")) || (name.equals("entity")) |==> true
+277:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@startElement(java.lang.String,org.xml.sax.AttributeList):767:ejbType = name |==> <NO-OP>
+278:AOR:+(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@characters(char[],int,int):783:start + len |==> start % len
+279:AOR:+(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@characters(char[],int,int):783:start + len |==> start * len
+280:AOR:+(int,int):-(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@characters(char[],int,int):783:start + len |==> start - len
+281:AOR:+(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@characters(char[],int,int):783:start + len |==> start / len
+282:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@characters(char[],int,int):783:currentText += new String(ch).substring(start, start + len) |==> <NO-OP>
+283:COR:iasDescriptor:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):800:iasDescriptor |==> false
+284:COR:iasDescriptor:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):800:iasDescriptor |==> true
+285:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):801:iasCharacters(currentText) |==> <NO-OP>
+286:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):803:stdCharacters(currentText) |==> <NO-OP>
+287:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):811:1 |==> 0
+288:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):811:1 |==> -1
+289:AOR:+(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):811:name.length() + 1 |==> name.length() % 1
+290:AOR:+(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):811:name.length() + 1 |==> name.length() * 1
+291:AOR:+(int,int):-(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):811:name.length() + 1 |==> name.length() - 1
+292:AOR:+(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):811:name.length() + 1 |==> name.length() / 1
+293:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):812:currentLoc.length() |==> 0
+294:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):814:0 |==> 1
+295:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):814:0 |==> -1
+296:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):814:locLength - nameLength |==> locLength % nameLength
+297:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):814:locLength - nameLength |==> locLength * nameLength
+298:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):814:locLength - nameLength |==> locLength + nameLength
+299:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):814:locLength - nameLength |==> locLength / nameLength
+300:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@endElement(java.lang.String):814:currentLoc = currentLoc.substring(0, locLength - nameLength) |==> <NO-OP>
+301:COR:currentLoc.equals("\\ejb-jar\\display-name"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):827:currentLoc.equals("\\ejb-jar\\display-name") |==> false
+302:COR:currentLoc.equals("\\ejb-jar\\display-name"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):827:currentLoc.equals("\\ejb-jar\\display-name") |==> true
+303:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):828:displayName = value |==> <NO-OP>
+304:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):829:return; |==> <NO-OP>
+305:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):832:"\\ejb-jar\\enterprise-beans\\" + ejbType |==> null
+306:COR:currentLoc.equals(base + "\\ejb-name"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):834:currentLoc.equals(base + "\\ejb-name") |==> false
+307:COR:currentLoc.equals(base + "\\ejb-name"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):834:currentLoc.equals(base + "\\ejb-name") |==> true
+308:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):835:currentEjb = (EjbInfo)ejbs.get(value) |==> <NO-OP>
+309:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):836:currentEjb == null |==> false
+310:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):837:currentEjb = new EjbInfo(value) |==> <NO-OP>
+311:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):838:ejbs.put(value, currentEjb) |==> <NO-OP>
+312:COR:currentLoc.equals(base + "\\home"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):840:currentLoc.equals(base + "\\home") |==> false
+313:COR:currentLoc.equals(base + "\\home"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):840:currentLoc.equals(base + "\\home") |==> true
+314:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):841:currentEjb.setHome(value) |==> <NO-OP>
+315:COR:currentLoc.equals(base + "\\remote"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):842:currentLoc.equals(base + "\\remote") |==> false
+316:COR:currentLoc.equals(base + "\\remote"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):842:currentLoc.equals(base + "\\remote") |==> true
+317:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):843:currentEjb.setRemote(value) |==> <NO-OP>
+318:COR:currentLoc.equals(base + "\\ejb-class"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):844:currentLoc.equals(base + "\\ejb-class") |==> false
+319:COR:currentLoc.equals(base + "\\ejb-class"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):844:currentLoc.equals(base + "\\ejb-class") |==> true
+320:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):845:currentEjb.setImplementation(value) |==> <NO-OP>
+321:COR:currentLoc.equals(base + "\\prim-key-class"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):846:currentLoc.equals(base + "\\prim-key-class") |==> false
+322:COR:currentLoc.equals(base + "\\prim-key-class"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):846:currentLoc.equals(base + "\\prim-key-class") |==> true
+323:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):847:currentEjb.setPrimaryKey(value) |==> <NO-OP>
+324:COR:currentLoc.equals(base + "\\session-type"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):848:currentLoc.equals(base + "\\session-type") |==> false
+325:COR:currentLoc.equals(base + "\\session-type"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):848:currentLoc.equals(base + "\\session-type") |==> true
+326:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):849:currentEjb.setBeantype(value) |==> <NO-OP>
+327:COR:currentLoc.equals(base + "\\persistence-type"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):850:currentLoc.equals(base + "\\persistence-type") |==> false
+328:COR:currentLoc.equals(base + "\\persistence-type"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):850:currentLoc.equals(base + "\\persistence-type") |==> true
+329:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@stdCharacters(java.lang.String):851:currentEjb.setCmp(value) |==> <NO-OP>
+330:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):866:"\\ias-ejb-jar\\enterprise-beans\\" + ejbType |==> null
+331:COR:currentLoc.equals(base + "\\ejb-name"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):868:currentLoc.equals(base + "\\ejb-name") |==> false
+332:COR:currentLoc.equals(base + "\\ejb-name"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):868:currentLoc.equals(base + "\\ejb-name") |==> true
+333:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):869:currentEjb = (EjbInfo)ejbs.get(value) |==> <NO-OP>
+334:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):870:currentEjb == null |==> false
+335:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):871:currentEjb = new EjbInfo(value) |==> <NO-OP>
+336:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):872:ejbs.put(value, currentEjb) |==> <NO-OP>
+337:COR:currentLoc.equals(base + "\\iiop"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):874:currentLoc.equals(base + "\\iiop") |==> false
+338:COR:currentLoc.equals(base + "\\iiop"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):874:currentLoc.equals(base + "\\iiop") |==> true
+339:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):875:currentEjb.setIiop(value) |==> <NO-OP>
+340:COR:currentLoc.equals(base + "\\failover-required"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):876:currentLoc.equals(base + "\\failover-required") |==> false
+341:COR:currentLoc.equals(base + "\\failover-required"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):876:currentLoc.equals(base + "\\failover-required") |==> true
+342:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):877:currentEjb.setHasession(value) |==> <NO-OP>
+343:COR:currentLoc.equals(base + "\\persistence-manager" + "\\properties-file-location"):TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):878:currentLoc.equals(base + "\\persistence-manager" + "\\properties-file-location") |==> false
+344:COR:currentLoc.equals(base + "\\persistence-manager" + "\\properties-file-location"):FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):878:currentLoc.equals(base + "\\persistence-manager" + "\\properties-file-location") |==> true
+345:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler@iasCharacters(java.lang.String):880:currentEjb.addCmpDescriptor(value) |==> <NO-OP>
+346:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo:897:false |==> true
+347:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo:898:false |==> true
+348:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo:899:false |==> true
+349:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo:900:new ArrayList() |==> null
+350:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@<init>(java.lang.String):908:this.name = name |==> <NO-OP>
+351:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getName():919:name == null |==> false
+352:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getName():920:implementation == null |==> false
+353:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getName():921:return "[unnamed]"; |==> <NO-OP>
+354:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getName():923:return implementation.getClassName(); |==> <NO-OP>
+355:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getName():926:name |==> null
+356:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setHome(java.lang.String):938:setHome(new Classname(home)) |==> <NO-OP>
+357:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setHome(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname):942:this.home = home |==> <NO-OP>
+358:EVR:<IDENTIFIER(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getHome():946:home |==> null
+359:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setRemote(java.lang.String):950:setRemote(new Classname(remote)) |==> <NO-OP>
+360:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setRemote(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname):954:this.remote = remote |==> <NO-OP>
+361:EVR:<IDENTIFIER(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getRemote():958:remote |==> null
+362:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setImplementation(java.lang.String):962:setImplementation(new Classname(implementation)) |==> <NO-OP>
+363:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setImplementation(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname):966:this.implementation = implementation |==> <NO-OP>
+364:EVR:<IDENTIFIER(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getImplementation():970:implementation |==> null
+365:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setPrimaryKey(java.lang.String):974:setPrimaryKey(new Classname(primaryKey)) |==> <NO-OP>
+366:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setPrimaryKey(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname):978:this.primaryKey = primaryKey |==> <NO-OP>
+367:EVR:<IDENTIFIER(org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc.Classname)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getPrimaryKey():982:primaryKey |==> null
+368:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setBeantype(java.lang.String):986:this.beantype = beantype.toLowerCase() |==> <NO-OP>
+369:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getBeantype():990:beantype |==> null
+370:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setCmp(boolean):994:this.cmp = cmp |==> <NO-OP>
+371:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setCmp(java.lang.String):998:setCmp(cmp.equals("Container")) |==> <NO-OP>
+372:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getCmp():1002:cmp |==> false
+373:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setIiop(boolean):1006:this.iiop = iiop |==> <NO-OP>
+374:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setIiop(java.lang.String):1010:setIiop(iiop.equals("true")) |==> <NO-OP>
+375:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getIiop():1014:iiop |==> false
+376:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setHasession(boolean):1018:this.hasession = hasession |==> <NO-OP>
+377:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@setHasession(java.lang.String):1022:setHasession(hasession.equals("true")) |==> <NO-OP>
+378:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getHasession():1026:hasession |==> false
+379:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@addCmpDescriptor(java.lang.String):1030:cmpDescriptors.add(descriptor) |==> <NO-OP>
+380:EVR:<IDENTIFIER(java.util.List)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@getCmpDescriptors():1034:cmpDescriptors |==> null
+381:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1049:home == null |==> false
+382:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1053:remote == null |==> false
+383:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1057:implementation == null |==> false
+384:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1062:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) |==> (!beantype.equals(ENTITY_BEAN)) == (!beantype.equals(STATELESS_SESSION))
+385:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1063:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) |==> false
+386:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1062:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) |==> (!beantype.equals(ENTITY_BEAN))
+387:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1063:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) |==> (!beantype.equals(STATELESS_SESSION))
+388:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1062:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) && (!beantype.equals(STATEFUL_SESSION)) |==> ((!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION))) == (!beantype.equals(STATEFUL_SESSION))
+389:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1064:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) && (!beantype.equals(STATEFUL_SESSION)) |==> false
+390:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1062:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) && (!beantype.equals(STATEFUL_SESSION)) |==> (!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION))
+391:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1064:(!beantype.equals(ENTITY_BEAN)) && (!beantype.equals(STATELESS_SESSION)) && (!beantype.equals(STATEFUL_SESSION)) |==> (!beantype.equals(STATEFUL_SESSION))
+392:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1069:cmp && (!beantype.equals(ENTITY_BEAN)) |==> cmp == (!beantype.equals(ENTITY_BEAN))
+393:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1069:cmp && (!beantype.equals(ENTITY_BEAN)) |==> false
+394:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1069:cmp && (!beantype.equals(ENTITY_BEAN)) |==> cmp
+395:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1069:cmp && (!beantype.equals(ENTITY_BEAN)) |==> (!beantype.equals(ENTITY_BEAN))
+396:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1070:System.out.println("CMP stubs and skeletons may not be generated" + " for a Session Bean -- the \"cmp\" attribute will be" + " ignoredfor the " + name + " EJB.") |==> <NO-OP>
+397:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1075:hasession && (!beantype.equals(STATEFUL_SESSION)) |==> hasession == (!beantype.equals(STATEFUL_SESSION))
+398:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1075:hasession && (!beantype.equals(STATEFUL_SESSION)) |==> false
+399:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1075:hasession && (!beantype.equals(STATEFUL_SESSION)) |==> hasession
+400:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1075:hasession && (!beantype.equals(STATEFUL_SESSION)) |==> (!beantype.equals(STATEFUL_SESSION))
+401:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1076:System.out.println("Highly available stubs and skeletons may " + "only be generated for a Stateful Session Bean -- the " + "\"hasession\" attribute will be ignored for the " + name + " EJB.") |==> <NO-OP>
+402:COR:remote.getClassFile(buildDir).exists():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1083:remote.getClassFile(buildDir).exists() |==> false
+403:COR:remote.getClassFile(buildDir).exists():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1083:remote.getClassFile(buildDir).exists() |==> true
+404:COR:home.getClassFile(buildDir).exists():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1088:home.getClassFile(buildDir).exists() |==> false
+405:COR:home.getClassFile(buildDir).exists():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1088:home.getClassFile(buildDir).exists() |==> true
+406:COR:implementation.getClassFile(buildDir).exists():TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1093:implementation.getClassFile(buildDir).exists() |==> false
+407:COR:implementation.getClassFile(buildDir).exists():FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@checkConfiguration(java.io.File):1093:implementation.getClassFile(buildDir).exists() |==> true
+408:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@mustBeRecompiled(java.io.File):1114:sourceClassesModified(destDir) |==> 0L
+409:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@mustBeRecompiled(java.io.File):1116:destClassesModified(destDir) |==> 0L
+410:ROR:<(long,long):!=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@mustBeRecompiled(java.io.File):1118:destModified < sourceModified |==> destModified != sourceModified
+411:ROR:<(long,long):<=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@mustBeRecompiled(java.io.File):1118:destModified < sourceModified |==> destModified <= sourceModified
+412:ROR:<(long,long):FALSE(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@mustBeRecompiled(java.io.File):1118:destModified < sourceModified |==> false
+413:EVR:<METHOD_INVOCATION(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1142:remote.getClassFile(buildDir) |==> null
+414:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1143:remoteFile.lastModified() |==> 0L
+415:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1144:-1 |==> 0
+416:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1144:-1 |==> 1
+417:ROR:==(long,long):<=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1144:modified == -1 |==> modified <= -1
+418:ROR:==(long,long):>=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1144:modified == -1 |==> modified >= -1
+419:ROR:==(long,long):FALSE(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1144:modified == -1 |==> false
+420:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1145:System.out.println("The class " + remote.getQualifiedClassName() + " couldn\'t " + "be found on the classpath") |==> <NO-OP>
+421:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1148:-1 |==> 0
+422:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1148:-1 |==> 1
+423:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1148:return Config.__M_NO == 0 && Config.COVERED(421, 422) ? -1 : Config.__M_NO == 422 ? 1 : Config.__M_NO == 421 ? 0 : -1; |==> <NO-OP>
+424:EVR:<IDENTIFIER(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1150:modified |==> 0L
+425:EVR:<METHOD_INVOCATION(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1153:home.getClassFile(buildDir) |==> null
+426:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1154:modified = homeFile.lastModified() |==> <NO-OP>
+427:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1155:-1 |==> 0
+428:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1155:-1 |==> 1
+429:ROR:==(long,long):<=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1155:modified == -1 |==> modified <= -1
+430:ROR:==(long,long):>=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1155:modified == -1 |==> modified >= -1
+431:ROR:==(long,long):FALSE(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1155:modified == -1 |==> false
+432:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1156:System.out.println("The class " + home.getQualifiedClassName() + " couldn\'t be " + "found on the classpath") |==> <NO-OP>
+433:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1159:-1 |==> 0
+434:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1159:-1 |==> 1
+435:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1159:return Config.__M_NO == 0 && Config.COVERED(433, 434) ? -1 : Config.__M_NO == 434 ? 1 : Config.__M_NO == 433 ? 0 : -1; |==> <NO-OP>
+436:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1161:latestModified = Math.max(latestModified, modified) |==> <NO-OP>
+437:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1164:primaryKey != null |==> true
+438:EVR:<METHOD_INVOCATION(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1165:primaryKey.getClassFile(buildDir) |==> null
+439:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1166:modified = pkFile.lastModified() |==> <NO-OP>
+440:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1167:-1 |==> 0
+441:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1167:-1 |==> 1
+442:ROR:==(long,long):<=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1167:modified == -1 |==> modified <= -1
+443:ROR:==(long,long):>=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1167:modified == -1 |==> modified >= -1
+444:ROR:==(long,long):FALSE(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1167:modified == -1 |==> false
+445:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1168:System.out.println("The class " + primaryKey.getQualifiedClassName() + "couldn\'t be " + "found on the classpath") |==> <NO-OP>
+446:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1171:-1 |==> 0
+447:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1171:-1 |==> 1
+448:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1171:return Config.__M_NO == 0 && Config.COVERED(446, 447) ? -1 : Config.__M_NO == 447 ? 1 : Config.__M_NO == 446 ? 0 : -1; |==> <NO-OP>
+449:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1173:latestModified = Math.max(latestModified, modified) |==> <NO-OP>
+450:EVR:<METHOD_INVOCATION(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1187:implementation.getClassFile(buildDir) |==> null
+451:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1188:modified = implFile.lastModified() |==> <NO-OP>
+452:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1189:-1 |==> 0
+453:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1189:-1 |==> 1
+454:ROR:==(long,long):<=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1189:modified == -1 |==> modified <= -1
+455:ROR:==(long,long):>=(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1189:modified == -1 |==> modified >= -1
+456:ROR:==(long,long):FALSE(long,long):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1189:modified == -1 |==> false
+457:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1190:System.out.println("The class " + implementation.getQualifiedClassName() + " couldn\'t be found on the classpath") |==> <NO-OP>
+458:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1193:-1 |==> 0
+459:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1193:-1 |==> 1
+460:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1193:return Config.__M_NO == 0 && Config.COVERED(458, 459) ? -1 : Config.__M_NO == 459 ? 1 : Config.__M_NO == 458 ? 0 : -1; |==> <NO-OP>
+461:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1196:remote.getQualifiedClassName() |==> null
+462:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1197:pathToFile = pathToFile.replace('.', File.separatorChar) + ".class" |==> <NO-OP>
+463:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1198:ejbFiles.put(pathToFile, remoteFile) |==> <NO-OP>
+464:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1200:pathToFile = home.getQualifiedClassName() |==> <NO-OP>
+465:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1201:pathToFile = pathToFile.replace('.', File.separatorChar) + ".class" |==> <NO-OP>
+466:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1202:ejbFiles.put(pathToFile, homeFile) |==> <NO-OP>
+467:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1204:pathToFile = implementation.getQualifiedClassName() |==> <NO-OP>
+468:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1205:pathToFile = pathToFile.replace('.', File.separatorChar) + ".class" |==> <NO-OP>
+469:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1206:ejbFiles.put(pathToFile, implFile) |==> <NO-OP>
+470:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1208:pkFile != null |==> true
+471:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1209:pathToFile = primaryKey.getQualifiedClassName() |==> <NO-OP>
+472:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1210:pathToFile = pathToFile.replace('.', File.separatorChar) + ".class" |==> <NO-OP>
+473:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1211:ejbFiles.put(pathToFile, pkFile) |==> <NO-OP>
+474:EVR:<IDENTIFIER(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@sourceClassesModified(java.io.File):1214:latestModified |==> 0L
+475:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1232:classesToGenerate() |==> null
+476:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1233:new Date().getTime() |==> 0L
+477:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1234:true |==> false
+478:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1240:0 |==> 1
+479:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1240:0 |==> -1
+480:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1240:i < classnames.length |==> i != classnames.length
+481:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1240:i < classnames.length |==> i <= classnames.length
+482:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1240:i < classnames.length |==> false
+483:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1243:classnames[i].replace('.', File.separatorChar) + ".class" |==> null
+484:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1244:new File(destDir, pathToClass) |==> null
+485:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1250:ejbFiles.put(pathToClass, classFile) |==> <NO-OP>
+486:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1252:allClassesFound && classFile.exists() |==> allClassesFound == classFile.exists()
+487:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1252:allClassesFound && classFile.exists() |==> false
+488:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1252:allClassesFound && classFile.exists() |==> allClassesFound
+489:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1252:allClassesFound && classFile.exists() |==> classFile.exists()
+490:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1252:allClassesFound = allClassesFound && classFile.exists() |==> <NO-OP>
+491:COR:allClassesFound:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1254:allClassesFound |==> false
+492:COR:allClassesFound:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1254:allClassesFound |==> true
+493:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1255:classFile.lastModified() |==> 0L
+494:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1258:destClassesModified = Math.min(destClassesModified, fileMod) |==> <NO-OP>
+495:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1262:-1 |==> 0
+496:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@destClassesModified(java.io.File):1262:-1 |==> 1
+497:EVR:<CONDITIONAL_EXPRESSION(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1277:(iiop) ? new String[NUM_CLASSES_WITH_IIOP] : new String[NUM_CLASSES_WITHOUT_IIOP] |==> null
+498:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1280:remote.getPackageName() + "." |==> null
+499:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1281:remote.getClassName() |==> null
+500:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1282:home.getPackageName() + "." |==> null
+501:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1283:home.getClassName() |==> null
+502:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1284:implementation.getPackageName() + "." |==> null
+503:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1285:implementation.getQualifiedWithUnderscores() |==> null
+504:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1286:0 |==> 1
+505:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1286:0 |==> -1
+506:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1288:classnames[index++] = implPkg + "ejb_fac_" + implFullClass |==> <NO-OP>
+507:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1289:classnames[index++] = implPkg + "ejb_home_" + implFullClass |==> <NO-OP>
+508:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1290:classnames[index++] = implPkg + "ejb_skel_" + implFullClass |==> <NO-OP>
+509:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1291:classnames[index++] = remotePkg + "ejb_kcp_skel_" + remoteClass |==> <NO-OP>
+510:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1292:classnames[index++] = homePkg + "ejb_kcp_skel_" + homeClass |==> <NO-OP>
+511:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1293:classnames[index++] = remotePkg + "ejb_kcp_stub_" + remoteClass |==> <NO-OP>
+512:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1294:classnames[index++] = homePkg + "ejb_kcp_stub_" + homeClass |==> <NO-OP>
+513:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1295:classnames[index++] = remotePkg + "ejb_stub_" + remoteClass |==> <NO-OP>
+514:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1296:classnames[index++] = homePkg + "ejb_stub_" + homeClass |==> <NO-OP>
+515:COR:iiop:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1298:iiop |==> false
+516:COR:iiop:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1298:iiop |==> true
+517:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1299:return classnames; |==> <NO-OP>
+518:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1302:classnames[index++] = "org.omg.stub." + remotePkg + "_" + remoteClass + "_Stub" |==> <NO-OP>
+519:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1304:classnames[index++] = "org.omg.stub." + homePkg + "_" + homeClass + "_Stub" |==> <NO-OP>
+520:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1306:classnames[index++] = "org.omg.stub." + remotePkg + "_ejb_RmiCorbaBridge_" + remoteClass + "_Tie" |==> <NO-OP>
+521:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1309:classnames[index++] = "org.omg.stub." + homePkg + "_ejb_RmiCorbaBridge_" + homeClass + "_Tie" |==> <NO-OP>
+522:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1313:classnames[index++] = remotePkg + "ejb_RmiCorbaBridge_" + remoteClass |==> <NO-OP>
+523:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1315:classnames[index++] = homePkg + "ejb_RmiCorbaBridge_" + homeClass |==> <NO-OP>
+524:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@classesToGenerate():1317:classnames |==> null
+525:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@toString():1335:"EJB name: " + name + "\n\r              home:      " + home + "\n\r              remote:    " + remote + "\n\r              impl:      " + implementation + "\n\r              primaryKey: " + primaryKey + "\n\r              beantype:  " + beantype + "\n\r              cmp:       " + cmp + "\n\r              iiop:      " + iiop + "\n\r              hasession: " + hasession |==> null
+526:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@toString():1337:cmpDescriptors.iterator() |==> null
+527:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@toString():1339:s += "\n\r              CMP Descriptor: " + i.next() |==> <NO-OP>
+528:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo@toString():1342:s |==> null
+529:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1366:qualifiedName == null |==> false
+530:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1367:return; |==> <NO-OP>
+531:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1370:this.qualifiedName = qualifiedName |==> <NO-OP>
+532:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1372:qualifiedName.lastIndexOf('.') |==> 0
+533:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1373:-1 |==> 0
+534:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1373:-1 |==> 1
+535:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1373:index == -1 |==> index <= -1
+536:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1373:index == -1 |==> index >= -1
+537:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1373:index == -1 |==> false
+538:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1374:className = qualifiedName |==> <NO-OP>
+539:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1375:packageName = "" |==> <NO-OP>
+540:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1377:0 |==> 1
+541:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1377:0 |==> -1
+542:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1377:packageName = qualifiedName.substring(0, index) |==> <NO-OP>
+543:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1378:1 |==> 0
+544:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1378:1 |==> -1
+545:AOR:+(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1378:index + 1 |==> index % 1
+546:AOR:+(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1378:index + 1 |==> index * 1
+547:AOR:+(int,int):-(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1378:index + 1 |==> index - 1
+548:AOR:+(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1378:index + 1 |==> index / 1
+549:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@<init>(java.lang.String):1378:className = qualifiedName.substring(index + 1) |==> <NO-OP>
+550:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@getQualifiedClassName():1388:qualifiedName |==> null
+551:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@getPackageName():1397:packageName |==> null
+552:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@getClassName():1406:className |==> null
+553:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@getQualifiedWithUnderscores():1419:qualifiedName.replace('.', '_') |==> null
+554:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@getClassFile(java.io.File):1432:qualifiedName.replace('.', File.separatorChar) + ".class" |==> null
+555:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@getClassFile(java.io.File):1433:new File(directory, pathToFile) |==> null
+556:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname@toString():1443:getQualifiedClassName() |==> null
+557:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$RedirectOutput@<init>(java.io.InputStream):1466:this.stream = stream |==> <NO-OP>
+558:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$RedirectOutput@run():1474:new BufferedReader(new InputStreamReader(stream)) |==> null
+559:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$RedirectOutput@run():1479:System.out.println(text) |==> <NO-OP>
+560:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$RedirectOutput@run():1482:e.printStackTrace() |==> <NO-OP>
+561:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$RedirectOutput@run():1485:reader.close() |==> <NO-OP>
