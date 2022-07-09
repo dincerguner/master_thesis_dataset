@@ -56,7 +56,7 @@ public class EvalError extends Exception {
 	String message;
 
 	public EvalError(String s) {
-		setMessage(s);
+		;
 	}
 
 	public EvalError(String s, SimpleNode node) {

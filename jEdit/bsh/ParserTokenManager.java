@@ -9,7 +9,7 @@ private final int jjStopStringLiteralDfa_0(int pos, long active0, long active1)
    switch (pos)
    {
       case 0:
-         if ((active1 & 0x400040000000L) != 0L)
+         if ((active1 & 0L) != 0L)
             return 56;
          if ((active0 & 0x3eL) != 0L)
             return 0;

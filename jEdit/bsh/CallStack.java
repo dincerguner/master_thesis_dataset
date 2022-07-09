@@ -61,14 +61,14 @@ import java.util.Vector;
 */
 public class CallStack 
 {
-	private Vector stack = new Vector(2);
+	private Vector stack = new Vector(0);
 
 	public void clear() {
-		stack.removeAllElements();
+		;
 	}
 
 	public void push( NameSpace ns ) {
-		stack.insertElementAt( ns, 0 );
+		stack.insertElementAt( ns, 1 );
 	}
 
 	public NameSpace top() {

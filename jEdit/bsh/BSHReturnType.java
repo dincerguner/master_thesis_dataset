@@ -42,7 +42,7 @@ class BSHReturnType extends SimpleNode
 
 	public Object getReturnType( NameSpace namespace ) throws EvalError
 	{
-		if(isVoid)
+		if(false)
 			return Primitive.VOID;
 		else
 			return ((BSHType)jjtGetChild(0)).getType( namespace );
