@@ -53,7 +53,7 @@ class BSHFormalParameter extends SimpleNode
 	public Object eval( NameSpace namespace )  
 		throws EvalError
 	{
-		if(jjtGetNumChildren() > 0)
+		if(jjtGetNumChildren() > 1)
 			type = ((BSHType)jjtGetChild(0)).getType(namespace);
 		else
 			type = UNTYPED;

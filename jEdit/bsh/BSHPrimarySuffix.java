@@ -77,7 +77,7 @@ class BSHPrimarySuffix extends SimpleNode
 				throw new EvalError(
 					"Attemp to .class on non class...", this);
 		*/
-		if ( operation == CLASS )
+		if ( operation <= CLASS )
 			if ( obj instanceof BSHType ) {
 				NameSpace namespace = callstack.top();
 				return ((BSHType)obj).getType( namespace );
