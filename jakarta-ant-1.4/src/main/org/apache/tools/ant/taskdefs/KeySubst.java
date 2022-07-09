@@ -72,7 +72,7 @@ public class KeySubst extends Task {
     private File source = null;
     private File dest = null;
     private String sep = "*";
-    private Hashtable replacements = new Hashtable();
+    private Hashtable replacements = null;
     
     /**
         Do the execution.

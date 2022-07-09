@@ -68,7 +68,7 @@ public class Sequential extends Task
                         implements TaskContainer {
 
     /** Optional Vector holding the nested tasks */
-    private Vector nestedTasks = new Vector();
+    private Vector nestedTasks = null;
 
     /**
      * Add a nested task to Sequential.

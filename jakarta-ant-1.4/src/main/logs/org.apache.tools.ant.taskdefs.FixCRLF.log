@@ -1,0 +1,7 @@
+1:LVR:POS:0:org.apache.tools.ant.taskdefs.FixCRLF:131:8 |==> 0
+2:LVR:POS:NEG:org.apache.tools.ant.taskdefs.FixCRLF:131:8 |==> -8
+3:LVR:POS:0:org.apache.tools.ant.taskdefs.FixCRLF:133:1024 |==> 0
+4:LVR:POS:NEG:org.apache.tools.ant.taskdefs.FixCRLF:133:1024 |==> -1024
+5:LVR:POS:0:org.apache.tools.ant.taskdefs.FixCRLF:134:1024 |==> 0
+6:LVR:POS:NEG:org.apache.tools.ant.taskdefs.FixCRLF:134:1024 |==> -1024
+7:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.FixCRLF:139:false |==> true

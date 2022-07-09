@@ -77,7 +77,7 @@ public class RecorderEntry implements BuildLogger  {
     /**
      * The state of the recorder (recorder on or off).
      */
-    private boolean record = true;
+    private boolean record = false;
     /**
      * The current verbosity level to record at.
      */

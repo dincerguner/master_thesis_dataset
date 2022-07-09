@@ -77,7 +77,7 @@ public class Tar extends MatchingTask {
     static public final String GNU = "gnu";
     static public final String OMIT = "omit";
 
-    private String[] validModes = new String[] {WARN, FAIL, TRUNCATE, GNU, OMIT};
+    private String[] validModes = null;
 
     File tarFile;
     File baseDir;

@@ -86,7 +86,7 @@ import java.util.Vector;
 public class Touch extends Task {
 
     private File file;              // required
-    private long millis = -1;
+    private long millis = 0;
     private String dateTime;
     private Vector filesets = new Vector();
     private FileUtils fileUtils;

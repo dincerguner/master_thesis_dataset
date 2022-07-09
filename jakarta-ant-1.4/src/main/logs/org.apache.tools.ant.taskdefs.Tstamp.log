@@ -1,0 +1,13 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp:72:new Vector() |==> null
+2:EVR:<NEW_CLASS(java.util.Date)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp@execute():76:new Date() |==> null
+3:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp@execute():78:new SimpleDateFormat("yyyyMMdd") |==> null
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Tstamp@execute():79:project.setProperty("DSTAMP", dstamp.format(d)) |==> <NO-OP>
+5:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp@execute():81:new SimpleDateFormat("HHmm") |==> null
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Tstamp@execute():82:project.setProperty("TSTAMP", tstamp.format(d)) |==> <NO-OP>
+7:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp@execute():84:new SimpleDateFormat("MMMM d yyyy", Locale.US) |==> null
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Tstamp@execute():85:project.setProperty("TODAY", today.format(d)) |==> <NO-OP>
+9:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp@execute():87:customFormats.elements() |==> null
+10:EVR:<TYPE_CAST(org.apache.tools.ant.taskdefs.Tstamp.CustomFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp@execute():89:(CustomFormat)i.nextElement() |==> null
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Tstamp@execute():90:cts.execute(project, d, location) |==> <NO-OP>
+12:EVR:<NEW_CLASS(org.apache.tools.ant.taskdefs.Tstamp.CustomFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Tstamp@createFormat():100:new CustomFormat() |==> null
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Tstamp@createFormat():101:customFormats.addElement(cts) |==> <NO-OP>

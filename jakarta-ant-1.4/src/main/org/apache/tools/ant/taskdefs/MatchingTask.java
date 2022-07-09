@@ -73,7 +73,7 @@ import java.util.*;
 
 public abstract class MatchingTask extends Task {
 
-    protected boolean useDefaultExcludes = true;
+    protected boolean useDefaultExcludes = false;
     protected FileSet fileset = new FileSet();
 
     /**
