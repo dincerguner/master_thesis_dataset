@@ -33,7 +33,7 @@ public class POJOCommandMediatorSerializer extends AbstractMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
         
         if (!(m instanceof POJOCommandMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
         
         POJOCommandMediator mediator = (POJOCommandMediator) m;

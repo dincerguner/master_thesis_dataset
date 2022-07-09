@@ -47,7 +47,7 @@ import javax.xml.namespace.QName;
 public class SequenceMediatorFactory extends AbstractListMediatorFactory {
 
     private static final QName SEQUENCE_Q
-        = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "sequence");
+        = null;
 
     public QName getTagQName() {
         return SEQUENCE_Q;

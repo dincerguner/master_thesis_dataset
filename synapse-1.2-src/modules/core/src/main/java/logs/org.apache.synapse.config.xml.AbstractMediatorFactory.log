@@ -1,0 +1,14 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:35:new QName("name") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:36:new QName("value") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:37:new QName("xpath") |==> null
+4:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:38:new QName("regex") |==> null
+5:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:39:new QName("sequence") |==> null
+6:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:40:new QName("expression") |==> null
+7:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:41:new QName("key") |==> null
+8:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:42:new QName("source") |==> null
+9:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:43:new QName("target") |==> null
+10:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:44:new QName("onError") |==> null
+11:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:46:new QName(XMLConfigConstants.STATISTICS_ATTRIB_NAME) |==> null
+12:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:48:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "property") |==> null
+13:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:50:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "feature") |==> null
+14:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractMediatorFactory:52:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "target") |==> null
