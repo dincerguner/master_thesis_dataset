@@ -1,0 +1,2 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.runtime.parser.Token@toString():58:image |==> null
+2:EVR:<NEW_CLASS(org.apache.velocity.runtime.parser.Token)>:<DEFAULT>:org.apache.velocity.runtime.parser.Token@newToken(int):77:new Token() |==> null

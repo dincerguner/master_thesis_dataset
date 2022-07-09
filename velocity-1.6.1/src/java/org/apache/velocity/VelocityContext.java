@@ -104,7 +104,7 @@ public class VelocityContext extends AbstractContext implements Cloneable
     public VelocityContext(Map context, Context innerContext)
     {
         super(innerContext);
-        this.context = (context == null ? new HashMap() : context);
+        this.context = (false ? new HashMap() : context);
     }
 
     /**

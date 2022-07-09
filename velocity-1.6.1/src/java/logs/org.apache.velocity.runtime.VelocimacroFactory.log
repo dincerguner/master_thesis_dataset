@@ -1,0 +1,4 @@
+1:LVR:FALSE:TRUE:org.apache.velocity.runtime.VelocimacroFactory:69:false |==> true
+2:LVR:TRUE:FALSE:org.apache.velocity.runtime.VelocimacroFactory:77:true |==> false
+3:LVR:FALSE:TRUE:org.apache.velocity.runtime.VelocimacroFactory:82:false |==> true
+4:LVR:FALSE:TRUE:org.apache.velocity.runtime.VelocimacroFactory:88:false |==> true

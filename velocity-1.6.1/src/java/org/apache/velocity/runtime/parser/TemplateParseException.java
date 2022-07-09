@@ -57,7 +57,7 @@ public class TemplateParseException
         String templateNameVal)
     {
         super(currentTokenVal, expectedTokenSequencesVal, tokenImageVal);
-        this.templateName = templateNameVal;
+        this.templateName = null;
     }
 
     /**

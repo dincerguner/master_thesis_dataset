@@ -66,7 +66,7 @@ public class VelocimacroFactory
      *  determines if replacement of global VMs are allowed
      *  controlled by  VM_PERM_ALLOW_INLINE_REPLACE_GLOBAL
      */
-    private boolean replaceAllowed = false;
+    private boolean replaceAllowed = true;
 
     /**
      *  controls if new VMs can be added.  Set by
@@ -74,12 +74,12 @@ public class VelocimacroFactory
      *  through inline defs can this happen.
      *  additions through autoloaded VMs is allowed
      */
-    private boolean addNewAllowed = true;
+    private boolean addNewAllowed = false;
 
     /**
      *  sets if template-local namespace in used
      */
-    private boolean templateLocal = false;
+    private boolean templateLocal = true;
 
     /**
      *  determines if the libraries are auto-loaded

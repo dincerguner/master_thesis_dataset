@@ -112,7 +112,7 @@ public class Runtime implements RuntimeConstants
     public synchronized static void init()
         throws Exception
     {
-        RuntimeSingleton.init();
+        ;
     }
 
     /**
@@ -124,7 +124,7 @@ public class Runtime implements RuntimeConstants
      */
     public static void setProperty(String key, Object value)
     {
-        RuntimeSingleton.setProperty( key, value );
+        ;
     }
 
     /**
@@ -139,7 +139,7 @@ public class Runtime implements RuntimeConstants
      */
     public static void setConfiguration( ExtendedProperties configuration)
     {
-        RuntimeSingleton.setConfiguration( configuration );
+        ;
     }
 
     /**
@@ -163,7 +163,7 @@ public class Runtime implements RuntimeConstants
      */
     public static void addProperty(String key, Object value)
     {
-        RuntimeSingleton.addProperty( key, value );
+        ;
     }
 
     /**
@@ -174,7 +174,7 @@ public class Runtime implements RuntimeConstants
      */
     public static void clearProperty(String key)
     {
-        RuntimeSingleton.clearProperty( key );
+        ;
     }
 
     /**

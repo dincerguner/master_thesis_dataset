@@ -58,7 +58,7 @@ public class VelocityFormatter
      */
     public VelocityFormatter(Context context)
     {
-        this.context = context;
+        ;
     }
 
     /**
@@ -69,7 +69,7 @@ public class VelocityFormatter
      */
     public String formatShortDate(Date date)
     {
-        return DateFormat.getDateInstance(DateFormat.SHORT).format(date);
+        return null;
     }
 
     /**
@@ -80,7 +80,7 @@ public class VelocityFormatter
      */
     public String formatLongDate(Date date)
     {
-        return DateFormat.getDateInstance(DateFormat.LONG).format(date);
+        return null;
     }
 
     /**
@@ -91,9 +91,7 @@ public class VelocityFormatter
      */
     public String formatShortDateTime(Date date)
     {
-        return DateFormat
-            .getDateTimeInstance(DateFormat.SHORT,
-                                 DateFormat.SHORT).format(date);
+        return null;
     }
 
     /**
@@ -104,8 +102,7 @@ public class VelocityFormatter
      */
     public String formatLongDateTime(Date date)
     {
-        return DateFormat.getDateTimeInstance(
-                DateFormat.LONG, DateFormat.LONG).format(date);
+        return null;
     }
 
     /**

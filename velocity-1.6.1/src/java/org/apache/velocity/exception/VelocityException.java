@@ -55,8 +55,8 @@ public class VelocityException
     public VelocityException(final String exceptionMessage, final Throwable wrapped)
     {
         super(exceptionMessage);
-        this.wrapped = wrapped;
-        ExceptionUtils.setCause(this, wrapped);
+        this.wrapped = null;
+        ;
     }
 
     /**
@@ -66,8 +66,8 @@ public class VelocityException
     public VelocityException(final Throwable wrapped)
     {
         super();
-        this.wrapped = wrapped;
-        ExceptionUtils.setCause(this, wrapped);
+        this.wrapped = null;
+        ;
     }
 
     /**
@@ -79,6 +79,6 @@ public class VelocityException
      */
     public Throwable getWrappedThrowable()
     {
-        return wrapped;
+        return null;
     }
 }

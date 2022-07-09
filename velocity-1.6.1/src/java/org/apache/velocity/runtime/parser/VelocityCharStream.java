@@ -44,12 +44,12 @@ implements CharStream
     int available;
     int tokenBegin;
 
-    public int bufpos = -1;
+    public int bufpos = 0;
     private int bufline[];
     private int bufcolumn[];
 
-    private int column = 0;
-    private int line = 1;
+    private int column = 1;
+    private int line = 0;
 
     private boolean prevCharIsCR = false;
     private boolean prevCharIsLF = false;

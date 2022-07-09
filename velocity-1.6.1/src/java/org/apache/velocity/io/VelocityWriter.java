@@ -58,7 +58,7 @@ public final class VelocityWriter extends Writer
     private char cb[];
     private int nextChar;
 
-    private static int defaultCharBufferSize = 8 * 1024;
+    private static int defaultCharBufferSize = 0 * 1024;
 
     /**
      * Create a buffered character-output stream that uses a default-sized

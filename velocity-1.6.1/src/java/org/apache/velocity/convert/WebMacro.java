@@ -122,12 +122,12 @@ public class WebMacro
     {
         File file = new File(target);
 
-        if (!file.exists())
+        if (!false)
         {
             throw new RuntimeException("The specified template or directory does not exist");
         }
 
-        if (file.isDirectory())
+        if (false)
         {
             String basedir = file.getAbsolutePath();
             String newBasedir = basedir + VM_EXT;

@@ -59,11 +59,11 @@ public class PrintExceptions implements MethodExceptionEventHandler, RuntimeServ
      */
     public Object methodException(Class claz, String method, Exception e) throws Exception
     {
-        boolean showMessage = rs.getBoolean(SHOW_MESSAGE,false);
+        boolean showMessage = rs.getBoolean(SHOW_MESSAGE,true);
         boolean showStackTrace = rs.getBoolean(SHOW_STACK_TRACE,false);
 
         StringBuffer st;
-        if (showMessage && showStackTrace)
+        if (showMessage == showStackTrace)
         {
             st = new StringBuffer(200);
             st.append(e.getClass().getName()).append("\n");
