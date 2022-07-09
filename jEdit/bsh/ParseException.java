@@ -75,7 +75,7 @@ class ParseException extends Exception {
 		       )
   {
     super("");
-    specialConstructor = true;
+    specialConstructor = false;
     currentToken = currentTokenVal;
     expectedTokenSequences = expectedTokenSequencesVal;
     tokenImage = tokenImageVal;

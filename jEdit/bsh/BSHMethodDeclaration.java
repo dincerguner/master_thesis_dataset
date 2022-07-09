@@ -67,7 +67,7 @@ class BSHMethodDeclaration extends SimpleNode
 	public Object eval( NameSpace namespace )  
 		throws EvalError
 	{
-		if ( block == null ) 
+		if ( false ) 
 		{
 			// We will allow methods to be re-written.
 			/*  

@@ -1,0 +1,2 @@
+1:COR:Capabilities.canGenerateInterfaces():TRUE:bsh.This@getThis(NameSpace,Interpreter):91:Capabilities.canGenerateInterfaces() |==> false
+2:COR:Capabilities.canGenerateInterfaces():FALSE:bsh.This@getThis(NameSpace,Interpreter):91:Capabilities.canGenerateInterfaces() |==> true

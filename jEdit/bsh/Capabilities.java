@@ -48,7 +48,7 @@ import java.util.Hashtable;
 */
 public class Capabilities 
 {
-	private static boolean accessibility = false;
+	private static boolean accessibility = true;
 
 	public static boolean haveSwing() {
 		// classExists caches info for us
