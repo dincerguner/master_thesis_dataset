@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.ExitException@<init>(int):70:this.status = status |==> <NO-OP>
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.ExitException@getStatus():74:status |==> 0
