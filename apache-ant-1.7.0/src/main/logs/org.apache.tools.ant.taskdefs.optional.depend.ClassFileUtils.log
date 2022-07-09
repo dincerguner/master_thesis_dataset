@@ -1,0 +1,2 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.depend.ClassFileUtils@convertSlashName(java.lang.String):37:name.replace('\\', '.').replace('/', '.') |==> null
+2:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.depend.ClassFileUtils@convertDotName(java.lang.String):48:dotName.replace('.', '/') |==> null

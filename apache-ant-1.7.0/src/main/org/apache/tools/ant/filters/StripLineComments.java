@@ -54,7 +54,7 @@ public final class StripLineComments
     private static final String COMMENTS_KEY = "comment";
 
     /** Vector that holds the comment prefixes. */
-    private Vector comments = new Vector();
+    private Vector comments = null;
 
     /** The line that has been read ahead. */
     private String line = null;

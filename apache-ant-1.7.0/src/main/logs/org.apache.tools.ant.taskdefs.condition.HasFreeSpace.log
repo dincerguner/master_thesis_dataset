@@ -1,0 +1,4 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.condition.HasFreeSpace@eval():40:validate() |==> <NO-OP>
+2:COR:JavaEnvUtils.isAtLeastJavaVersion("1.6"):TRUE:org.apache.tools.ant.taskdefs.condition.HasFreeSpace@eval():42:JavaEnvUtils.isAtLeastJavaVersion("1.6") |==> false
+3:COR:JavaEnvUtils.isAtLeastJavaVersion("1.6"):FALSE:org.apache.tools.ant.taskdefs.condition.HasFreeSpace@eval():42:JavaEnvUtils.isAtLeastJavaVersion("1.6") |==> true
+4:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.tools.ant.taskdefs.condition.HasFreeSpace@eval():44:new File(partition) |==> null

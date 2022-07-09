@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.LoadFile@setSrcFile(java.io.File):38:addConfigured(new FileResource(srcFile)) |==> <NO-OP>

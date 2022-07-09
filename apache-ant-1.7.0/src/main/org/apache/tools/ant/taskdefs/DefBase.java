@@ -41,7 +41,7 @@ public abstract class DefBase extends AntlibDefinition {
      * @return true if cpDelegate has been created.
      */
     protected boolean hasCpDelegate() {
-        return cpDelegate != null;
+        return true;
     }
 
     /**

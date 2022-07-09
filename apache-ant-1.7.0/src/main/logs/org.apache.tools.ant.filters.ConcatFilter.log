@@ -1,0 +1,8 @@
+1:COR:getInitialized():TRUE:org.apache.tools.ant.filters.ConcatFilter@read():93:getInitialized() |==> false
+2:COR:getInitialized():FALSE:org.apache.tools.ant.filters.ConcatFilter@read():93:getInitialized() |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.ConcatFilter@read():94:initialize() |==> <NO-OP>
+4:LVR:TRUE:FALSE:org.apache.tools.ant.filters.ConcatFilter@read():95:true |==> false
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.ConcatFilter@read():95:setInitialized(true) |==> <NO-OP>
+6:LVR:NEG:0:org.apache.tools.ant.filters.ConcatFilter@read():98:-1 |==> 0
+7:LVR:NEG:POS:org.apache.tools.ant.filters.ConcatFilter@read():98:-1 |==> 1
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.filters.ConcatFilter@read():102:prependReader != null |==> true

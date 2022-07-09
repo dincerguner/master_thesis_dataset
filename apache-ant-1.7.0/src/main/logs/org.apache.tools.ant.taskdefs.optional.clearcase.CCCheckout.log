@@ -1,0 +1,5 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout:97:true |==> false
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout:99:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout:101:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout:102:false |==> true
+5:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout:105:true |==> false

@@ -32,7 +32,7 @@ public class IsFailure implements Condition {
      * @param c the return code.
      */
     public void setCode(int c) {
-        code = c;
+        ;
     }
 
     /**

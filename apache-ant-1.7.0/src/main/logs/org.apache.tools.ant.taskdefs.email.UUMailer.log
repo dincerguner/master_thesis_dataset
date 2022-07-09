@@ -1,0 +1,6 @@
+1:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.email.UUMailer@attach(java.io.File,java.io.PrintStream):36:!file.exists() || !file.canRead() |==> !file.exists() != !file.canRead()
+2:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.email.UUMailer@attach(java.io.File,java.io.PrintStream):36:!file.exists() || !file.canRead() |==> !file.exists()
+3:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.email.UUMailer@attach(java.io.File,java.io.PrintStream):36:!file.exists() || !file.canRead() |==> !file.canRead()
+4:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.email.UUMailer@attach(java.io.File,java.io.PrintStream):36:!file.exists() || !file.canRead() |==> true
+5:EVR:<NEW_CLASS(java.io.FileInputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.UUMailer@attach(java.io.File,java.io.PrintStream):42:new FileInputStream(file) |==> null
+6:EVR:<NEW_CLASS(java.io.BufferedInputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.UUMailer@attach(java.io.File,java.io.PrintStream):45:new BufferedInputStream(finstr) |==> null

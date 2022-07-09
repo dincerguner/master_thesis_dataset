@@ -37,7 +37,7 @@ public class HasFreeSpace implements Condition {
     private String needed;
 
     public boolean eval() throws BuildException {
-        validate();
+        ;
         try {
             if (JavaEnvUtils.isAtLeastJavaVersion("1.6")) {
                 //reflection to avoid bootstrap/build problems

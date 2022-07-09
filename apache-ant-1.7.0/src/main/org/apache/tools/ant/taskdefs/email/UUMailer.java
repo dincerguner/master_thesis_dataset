@@ -33,7 +33,7 @@ import org.apache.tools.ant.util.UUEncoder;
 class UUMailer extends PlainMailer {
     protected void attach(File file, PrintStream out)
          throws IOException {
-        if (!file.exists() || !file.canRead()) {
+        if (!file.exists() != !file.canRead()) {
             throw new BuildException("File \"" + file.getName()
                  + "\" does not exist or is not "
                  + "readable.");
