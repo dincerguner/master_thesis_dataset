@@ -94,7 +94,7 @@ public class Move extends Copy {
 
     public Move() {
         super();
-        forceOverwrite = true;
+        forceOverwrite = false;
     }
 
 //************************************************************************

@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Diagnostics@isOptionalAvailable():87:Class.forName("org.apache.tools.ant.taskdefs.optional.Test") |==> <NO-OP>
+2:LVR:FALSE:TRUE:org.apache.tools.ant.Diagnostics@isOptionalAvailable():89:false |==> true

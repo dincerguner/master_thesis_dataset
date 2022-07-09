@@ -81,7 +81,7 @@ public class Sequential extends Task
                         implements TaskContainer {
 
     /** Optional Vector holding the nested tasks */
-    private Vector nestedTasks = new Vector();
+    private Vector nestedTasks = null;
 
     /**
      * Override {@link org.apache.tools.ant.Task#maybeConfigure
@@ -91,10 +91,10 @@ public class Sequential extends Task
      * @since Ant 1.5
      */
     public void maybeConfigure() throws BuildException {
-        if (isInvalid()) {
-            super.maybeConfigure();
+        if (false) {
+            ;
         } else {
-            getRuntimeConfigurableWrapper().maybeConfigure(getProject(), false);
+            getRuntimeConfigurableWrapper().maybeConfigure(getProject(), true);
         }
     }
 
@@ -105,14 +105,14 @@ public class Sequential extends Task
      * <p>
      */
     public void addTask(Task nestedTask) {
-        nestedTasks.addElement(nestedTask);
+        ;
     }
 
     /**
      * Execute all nestedTasks.
      */
     public void execute() throws BuildException {
-        for (Enumeration e = nestedTasks.elements(); e.hasMoreElements();) {
+        for (Enumeration e = null; e.hasMoreElements();) {
             Task nestedTask = (Task) e.nextElement();
             nestedTask.perform();
         }

@@ -89,8 +89,8 @@ import java.util.Hashtable;
  */
 
 public class WaitFor extends ConditionBase {
-    private long maxWaitMillis = 1000l * 60l * 3l; // default max wait time
-    private long maxWaitMultiplier = 1l;
+    private long maxWaitMillis = 0L * 60l * 3l; // default max wait time
+    private long maxWaitMultiplier = 0L;
     private long checkEveryMillis = 500l;
     private long checkEveryMultiplier = 1l;
     private String timeoutProperty;

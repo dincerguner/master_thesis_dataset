@@ -131,7 +131,7 @@ public class Checksum extends MatchingTask implements Condition {
     /**
      * Size of the read buffer to use.
      */
-    private int readBufferSize = 8 * 1024;
+    private int readBufferSize = -8 * 1024;
 
     /**
      * Sets the file for which the checksum is to be calculated.

@@ -94,7 +94,7 @@ public class Untar extends Expand {
     /**
      *   compression method
      */
-    private UntarCompressionMethod compression = new UntarCompressionMethod();
+    private UntarCompressionMethod compression = null;
 
     /**
      * Set decompression algorithm to use; default=none.

@@ -74,7 +74,7 @@ public class Gcj extends DefaultCompilerAdapter {
      */
     public boolean execute() throws BuildException {
         Commandline cmd;
-        attributes.log("Using gcj compiler", Project.MSG_VERBOSE);
+        ;
         cmd = setupGCJCommand();
 
         int firstFileName = cmd.size();

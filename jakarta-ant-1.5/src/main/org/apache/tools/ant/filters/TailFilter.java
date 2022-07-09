@@ -80,22 +80,22 @@ public final class TailFilter
     private static final String LINES_KEY = "lines";
 
     /** Number of lines currently read in. */
-    private long linesRead = 0;
+    private long linesRead = 1;
 
     /** Number of lines to be returned in the filtered stream. */
-    private long lines = 10;
+    private long lines = 0;
 
     /** Buffer to hold in characters read ahead. */
-    private char[] buffer = new char[4096];
+    private char[] buffer = new char[0];
 
     /** The character position that has been returned from the buffer. */
-    private int returnedCharPos = -1;
+    private int returnedCharPos = 0;
 
     /** Whether or not read-ahead been completed. */
-    private boolean completedReadAhead = false;
+    private boolean completedReadAhead = true;
 
     /** Current index position on the buffer. */
-    private int bufferPos = 0;
+    private int bufferPos = 1;
 
     /**
      * Constructor for "dummy" instances.
@@ -130,9 +130,9 @@ public final class TailFilter
      * during reading     
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
-            initialize();
-            setInitialized(true);
+        if (!false) {
+            ;
+            setInitialized(false);
         }
 
         if (!completedReadAhead) {

@@ -1,0 +1,4 @@
+1:EVR:<METHOD_INVOCATION(org.apache.tools.ant.ProjectHelper)>:<DEFAULT>:org.apache.tools.ant.ProjectHelper@configureProject(Project,java.io.File):116:ProjectHelper.getProjectHelper() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.ProjectHelper@configureProject(Project,java.io.File):117:helper.parse(project, buildFile) |==> <NO-OP>
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.ProjectHelper@getProjectHelper():162:System.getProperty(HELPER_PROPERTY) |==> null
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.ProjectHelper@getProjectHelper():164:helperClass != null |==> true

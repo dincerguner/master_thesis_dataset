@@ -1,0 +1,10 @@
+1:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger:167:PREFIX + SUFFIX |==> null
+2:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger:170:PREFIX + ATTR_DIM + SEPARATOR + FG_RED + SUFFIX |==> null
+3:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger:172:PREFIX + ATTR_DIM + SEPARATOR + FG_MAGENTA + SUFFIX |==> null
+4:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger:174:PREFIX + ATTR_DIM + SEPARATOR + FG_CYAN + SUFFIX |==> null
+5:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger:176:PREFIX + ATTR_DIM + SEPARATOR + FG_GREEN + SUFFIX |==> null
+6:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger:178:PREFIX + ATTR_DIM + SEPARATOR + FG_BLUE + SUFFIX |==> null
+7:LVR:FALSE:TRUE:org.apache.tools.ant.listener.AnsiColorLogger:180:false |==> true
+8:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger@setColors():187:System.getProperty("ant.logger.defaults") |==> null
+9:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.apache.tools.ant.listener.AnsiColorLogger@setColors():194:new Properties() |==> null
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.listener.AnsiColorLogger@setColors():196:userColorFile != null |==> true

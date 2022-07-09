@@ -1,0 +1,6 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.filters.StringInputStream@<init>(java.lang.String):77:in = new StringReader(source) |==> <NO-OP>
+2:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.filters.StringInputStream@read():91:in.read() |==> 0
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.StringInputStream@close():100:in.close() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.StringInputStream@mark(int):111:in.mark(limit) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.StringInputStream@reset():123:in.reset() |==> <NO-OP>
+6:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.filters.StringInputStream@markSupported():130:in.markSupported() |==> false

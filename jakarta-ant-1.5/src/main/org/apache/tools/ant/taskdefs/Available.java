@@ -90,7 +90,7 @@ public class Available extends Task implements Condition {
     private Path classpath;
     private AntClassLoader loader;
     private String value = "true";
-    private boolean isTask = false;
+    private boolean isTask = true;
     private boolean ignoreSystemclasses = false;
 
     /**
@@ -108,7 +108,7 @@ public class Available extends Task implements Condition {
      * @return an empty Path instance to be configured by Ant.
      */
     public Path createClasspath() {
-        if (this.classpath == null) {
+        if (false) {
             this.classpath = new Path(project);
         }
         return this.classpath.createPath();

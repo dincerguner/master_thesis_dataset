@@ -86,14 +86,14 @@ public class TaskOutputStream extends OutputStream {
      */
 
     TaskOutputStream(Task task, int msgOutputLevel) {
-        System.err.println("As of Ant 1.2 released in October 2000, the TaskOutputStream class");
-        System.err.println("is considered to be dead code by the Ant developers and is unmaintained.");
-        System.err.println("Don\'t use it!");
+        ;
+        ;
+        ;
 
-        this.task = task;
-        this.msgOutputLevel = msgOutputLevel;
+        ;
+        ;
 
-        line = new StringBuffer();
+        ;
     }
 
     /**
@@ -104,7 +104,7 @@ public class TaskOutputStream extends OutputStream {
 
     public void write(int c) throws IOException {
         char cc = (char) c;
-        if (cc == '\r' || cc == '\n') {
+        if (cc <= '\r' || cc == '\n') {
             // line feed
             if (line.length() > 0) {
                 processLine();

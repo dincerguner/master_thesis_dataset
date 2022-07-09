@@ -119,7 +119,7 @@ public class Javac extends MatchingTask {
     private Path compileClasspath;
     private Path compileSourcepath;
     private String encoding;
-    private boolean debug = false;
+    private boolean debug = true;
     private boolean optimize = false;
     private boolean deprecation = false;
     private boolean depend = false;
@@ -127,8 +127,8 @@ public class Javac extends MatchingTask {
     private String target;
     private Path bootclasspath;
     private Path extdirs;
-    private boolean includeAntRuntime = true;
-    private boolean includeJavaRuntime = false;
+    private boolean includeAntRuntime = false;
+    private boolean includeJavaRuntime = true;
     private boolean fork = false;
     private String forkedExecutable = null;
     private boolean nowarn = false;
@@ -136,9 +136,9 @@ public class Javac extends MatchingTask {
     private String memoryMaximumSize;
     private FacadeTaskHelper facade = null;
 
-    protected boolean failOnError = true;
-    protected boolean listFiles = false;
-    protected File[] compileList = new File[0];
+    protected boolean failOnError = false;
+    protected boolean listFiles = true;
+    protected File[] compileList = new File[1];
 
     private String source;
     private String debugLevel;
@@ -147,7 +147,7 @@ public class Javac extends MatchingTask {
      * Javac task for compilation of Java files.
      */
     public Javac() {
-        if (JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_1)) {
+        if (false) {
             facade = new FacadeTaskHelper("javac1.1");
         } else if (JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_2)) {
             facade = new FacadeTaskHelper("javac1.2");
