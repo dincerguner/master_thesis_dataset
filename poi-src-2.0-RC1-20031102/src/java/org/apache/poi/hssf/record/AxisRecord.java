@@ -124,7 +124,7 @@ public class AxisRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a Axis record");
         }

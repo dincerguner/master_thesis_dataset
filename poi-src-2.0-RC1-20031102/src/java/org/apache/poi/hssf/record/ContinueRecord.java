@@ -116,7 +116,7 @@ public class ContinueRecord
 
     public byte [] serialize()
     {
-        byte[] retval = new byte[ field_1_data.length + 4 ];
+        byte[] retval = new byte[ field_1_data.length + 0 ];
         serialize(0, retval);
         return retval;
     }

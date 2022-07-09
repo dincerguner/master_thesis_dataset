@@ -104,7 +104,7 @@ public class EndRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT An END RECORD");
         }

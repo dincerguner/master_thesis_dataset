@@ -1,0 +1,9 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.ContinueRecord@serialize():119:4 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.ContinueRecord@serialize():119:4 |==> -4
+3:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.ContinueRecord@serialize():119:field_1_data.length + 4 |==> field_1_data.length % 4
+4:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.ContinueRecord@serialize():119:field_1_data.length + 4 |==> field_1_data.length * 4
+5:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.ContinueRecord@serialize():119:field_1_data.length + 4 |==> field_1_data.length - 4
+6:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.ContinueRecord@serialize():119:field_1_data.length + 4 |==> field_1_data.length / 4
+7:LVR:0:POS:org.apache.poi.hssf.record.ContinueRecord@serialize():120:0 |==> 1
+8:LVR:0:NEG:org.apache.poi.hssf.record.ContinueRecord@serialize():120:0 |==> -1
+9:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.ContinueRecord@serialize():120:serialize(0, retval) |==> <NO-OP>

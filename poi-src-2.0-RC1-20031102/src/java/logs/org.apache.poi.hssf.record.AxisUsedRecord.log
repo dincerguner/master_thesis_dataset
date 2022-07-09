@@ -1,0 +1,15 @@
+1:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.AxisUsedRecord@validateSid(short):120:id != sid |==> id < sid
+2:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.AxisUsedRecord@validateSid(short):120:id != sid |==> id > sid
+3:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.AxisUsedRecord@validateSid(short):120:id != sid |==> true
+4:LVR:0:POS:org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):129:0 |==> 1
+5:LVR:0:NEG:org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):129:0 |==> -1
+6:LVR:0:POS:org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:0 |==> 1
+7:LVR:0:NEG:org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:0 |==> -1
+8:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 |==> pos % 0
+9:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 |==> pos * 0
+10:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 |==> pos - 0
+11:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 |==> pos / 0
+12:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 + offset |==> (pos + 0) % offset
+13:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 + offset |==> (pos + 0) * offset
+14:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 + offset |==> pos + 0 - offset
+15:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.AxisUsedRecord@fillFields(byte[],short,int):130:pos + 0 + offset |==> (pos + 0) / offset

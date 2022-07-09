@@ -110,7 +110,7 @@ public class HSSFUserException extends Exception
     public HSSFUserException(final Throwable reason)
     {
         super();
-        this.reason = reason;
+        ;
     }
 
 
