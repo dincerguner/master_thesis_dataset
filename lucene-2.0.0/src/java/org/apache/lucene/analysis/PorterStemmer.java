@@ -59,7 +59,7 @@ class PorterStemmer
   private char[] b;
   private int i,    /* offset into b */
     j, k, k0;
-  private boolean dirty = false;
+  private boolean dirty = true;
   private static final int INC = 50; /* unit of size whereby b is increased */
   private static final int EXTRA = 1;
 
