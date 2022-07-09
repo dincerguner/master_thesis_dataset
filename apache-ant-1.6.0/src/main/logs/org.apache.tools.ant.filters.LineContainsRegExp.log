@@ -1,0 +1,11 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.filters.LineContainsRegExp:89:new Vector() |==> null
+2:COR:getInitialized():TRUE:org.apache.tools.ant.filters.LineContainsRegExp@read():129:getInitialized() |==> false
+3:COR:getInitialized():FALSE:org.apache.tools.ant.filters.LineContainsRegExp@read():129:getInitialized() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.LineContainsRegExp@read():130:initialize() |==> <NO-OP>
+5:LVR:TRUE:FALSE:org.apache.tools.ant.filters.LineContainsRegExp@read():131:true |==> false
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.LineContainsRegExp@read():131:setInitialized(true) |==> <NO-OP>
+7:LVR:NEG:0:org.apache.tools.ant.filters.LineContainsRegExp@read():134:-1 |==> 0
+8:LVR:NEG:POS:org.apache.tools.ant.filters.LineContainsRegExp@read():134:-1 |==> 1
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.filters.LineContainsRegExp@read():136:line != null |==> true
+10:LVR:0:POS:org.apache.tools.ant.filters.LineContainsRegExp@read():137:0 |==> 1
+11:LVR:0:NEG:org.apache.tools.ant.filters.LineContainsRegExp@read():137:0 |==> -1
