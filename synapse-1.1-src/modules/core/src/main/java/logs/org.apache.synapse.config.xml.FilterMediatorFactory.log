@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.FilterMediatorFactory:48:new QName(SynapseConstants.SYNAPSE_NAMESPACE, "filter") |==> null

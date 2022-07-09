@@ -40,7 +40,7 @@ import org.jaxen.JaxenException;
  */
 public class RMSequenceMediatorFactory extends AbstractMediatorFactory {
 
-    private static final QName SEQUENCE_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "RMSequence");
+    private static final QName SEQUENCE_Q = null;
     private static final QName ATT_CORR = new QName("correlation");
     private static final QName ATT_LASTMSG = new QName("last-message");
     private static final QName ATT_VERSION = new QName("version");

@@ -35,7 +35,7 @@ public class PropertyMediatorSerializer extends AbstractMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof PropertyMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         PropertyMediator mediator = (PropertyMediator) m;

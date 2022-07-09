@@ -1,0 +1,12 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:86:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "url") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:87:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "driver") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:88:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "user") |==> null
+4:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:89:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "password") |==> null
+5:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:91:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "dsName") |==> null
+6:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:92:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "icClass") |==> null
+7:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:94:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "statement") |==> null
+8:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:95:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "sql") |==> null
+9:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:96:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "parameter") |==> null
+10:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:97:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "result") |==> null
+11:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:99:new QName("column") |==> null
+12:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.AbstractDBMediatorFactory:100:new QName("type") |==> null

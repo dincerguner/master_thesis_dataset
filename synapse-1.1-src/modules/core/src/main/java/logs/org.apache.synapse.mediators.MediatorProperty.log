@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.mediators.MediatorProperty:36:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "property") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.mediators.MediatorProperty:37:new QName(XMLConfigConstants.NULL_NAMESPACE, "name") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.mediators.MediatorProperty:38:new QName(XMLConfigConstants.NULL_NAMESPACE, "value") |==> null
+4:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.mediators.MediatorProperty:39:new QName(XMLConfigConstants.NULL_NAMESPACE, "expression") |==> null
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.synapse.mediators.MediatorProperty@getName():48:name |==> null

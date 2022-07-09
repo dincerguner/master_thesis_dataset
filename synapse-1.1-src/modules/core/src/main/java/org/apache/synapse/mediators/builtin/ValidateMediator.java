@@ -63,7 +63,7 @@ public class ValidateMediator extends AbstractListMediator {
     /**
      * A list of property keys, referring to the schemas to be used for the validation
      */
-    private List schemaKeys = new ArrayList();
+    private List schemaKeys = null;
 
     /**
      * An XPath expression to be evaluated against the message to find the element to be validated.

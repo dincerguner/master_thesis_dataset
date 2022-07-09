@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.synapse.mediators.builtin.ValidateMediator:66:new ArrayList() |==> null
+2:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.synapse.mediators.builtin.ValidateMediator:78:new ArrayList() |==> null
+3:EVR:<NEW_CLASS(java.lang.Object)>:<DEFAULT>:org.apache.synapse.mediators.builtin.ValidateMediator:89:new Object() |==> null
+4:EVR:<METHOD_INVOCATION(javax.xml.validation.SchemaFactory)>:<DEFAULT>:org.apache.synapse.mediators.builtin.ValidateMediator:94:SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI) |==> null

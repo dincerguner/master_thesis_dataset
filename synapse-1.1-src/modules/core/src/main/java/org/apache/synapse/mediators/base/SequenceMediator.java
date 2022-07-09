@@ -48,7 +48,7 @@ public class SequenceMediator extends AbstractListMediator {
     /** The name of the error handler which is used to handle error during the mediation */
     private String errorHandler = null;
     /** is this definition dynamic */
-    private boolean dynamic = false;
+    private boolean dynamic = true;
     /** the registry key to load this definition if dynamic */
     private String registryKey = null;
 

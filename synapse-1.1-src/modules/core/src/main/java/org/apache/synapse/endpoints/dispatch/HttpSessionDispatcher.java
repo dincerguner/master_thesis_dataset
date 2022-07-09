@@ -38,7 +38,7 @@ public class HttpSessionDispatcher implements Dispatcher {
      * Map to store session -> endpoint mappings. Synchronized map is used as this is accessed by
      * multiple threds (e.g. multiple clients different sessions).
      */
-    Map sessionMap = Collections.synchronizedMap(new HashMap());
+    Map sessionMap = null;
 
     /**
      * Check if "Cookie" HTTP header is available. If so, check if that cookie is in the session map.

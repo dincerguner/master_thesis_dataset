@@ -41,7 +41,7 @@ public class ClassMediatorSerializer extends AbstractMediatorSerializer  {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof ClassMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
         ClassMediator mediator = (ClassMediator) m;
         OMElement clazz = fac.createOMElement("class", synNS);

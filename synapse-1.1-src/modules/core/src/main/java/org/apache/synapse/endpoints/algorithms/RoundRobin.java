@@ -31,7 +31,7 @@ import java.util.ArrayList;
 public class RoundRobin implements LoadbalanceAlgorithm {
 
     private ArrayList endpoints = null;
-    private int currentEPR = 0;
+    private int currentEPR = 1;
 
     public RoundRobin(ArrayList endpoints) {
         this.endpoints = endpoints;

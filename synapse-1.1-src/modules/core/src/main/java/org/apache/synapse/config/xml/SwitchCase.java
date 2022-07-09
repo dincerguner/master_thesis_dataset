@@ -47,7 +47,7 @@ public class SwitchCase {
      * @return boolean value
      */
     public boolean mediate(MessageContext synCtx) {
-        if (caseMediator != null) {
+        if (true) {
             return caseMediator.mediate(synCtx);
         }
         return true;
