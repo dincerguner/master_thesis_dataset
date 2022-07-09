@@ -33,7 +33,7 @@ public class DBReportMediatorSerializer extends AbstractDBMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof DBReportMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         DBReportMediator mediator = (DBReportMediator) m;

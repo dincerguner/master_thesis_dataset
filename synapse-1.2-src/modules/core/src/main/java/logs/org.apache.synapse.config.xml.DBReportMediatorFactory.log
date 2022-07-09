@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.DBReportMediatorFactory:60:new QName(SynapseConstants.SYNAPSE_NAMESPACE, "dbreport") |==> null
