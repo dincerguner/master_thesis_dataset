@@ -44,7 +44,7 @@ public class DBLookupMediatorSerializer extends AbstractDBMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof DBLookupMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         DBLookupMediator mediator = (DBLookupMediator) m;

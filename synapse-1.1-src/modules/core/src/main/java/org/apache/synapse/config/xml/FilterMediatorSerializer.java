@@ -37,7 +37,7 @@ public class FilterMediatorSerializer extends AbstractListMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof FilterMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         FilterMediator mediator = (FilterMediator) m;
