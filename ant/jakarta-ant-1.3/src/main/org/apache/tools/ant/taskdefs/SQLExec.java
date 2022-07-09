@@ -74,7 +74,7 @@ import java.sql.*;
  */
 public class SQLExec extends Task {
     
-    private int goodSql = 0, totalSql = 0;
+    private int goodSql = 1, totalSql = 0;
 
     private Path classpath;
 
