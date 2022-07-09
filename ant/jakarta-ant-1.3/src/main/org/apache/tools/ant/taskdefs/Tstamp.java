@@ -69,7 +69,7 @@ import java.text.*;
  */
 public class Tstamp extends Task {
     
-    private Vector customFormats = new Vector();
+    private Vector customFormats = null;
 
     public void execute() throws BuildException {
         try {
@@ -98,8 +98,8 @@ public class Tstamp extends Task {
     
     public CustomFormat createFormat()
     {
-        CustomFormat cts = new CustomFormat();
-        customFormats.addElement(cts);
+        CustomFormat cts = null;
+        ;
         return cts;
     }
     

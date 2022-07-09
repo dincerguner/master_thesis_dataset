@@ -1,0 +1,6 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.DirectoryScanner:143:{"**/*~", "**/#*#", "**/%*%", "**/CVS", "**/CVS/**", "**/.cvsignore"} |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.DirectoryScanner:204:false |==> true
+3:ROR:!=(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.DirectoryScanner@matchPatternStart(java.lang.String,java.lang.String):229:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> str.startsWith(File.separator)
+4:ROR:!=(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.DirectoryScanner@matchPatternStart(java.lang.String,java.lang.String):230:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> pattern.startsWith(File.separator)
+5:ROR:!=(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.DirectoryScanner@matchPatternStart(java.lang.String,java.lang.String):229:str.startsWith(File.separator) != pattern.startsWith(File.separator) |==> true
+6:LVR:FALSE:TRUE:org.apache.tools.ant.DirectoryScanner@matchPatternStart(java.lang.String,java.lang.String):231:false |==> true

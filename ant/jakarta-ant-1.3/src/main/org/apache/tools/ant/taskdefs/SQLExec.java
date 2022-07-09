@@ -74,7 +74,7 @@ import java.sql.*;
  */
 public class SQLExec extends Task {
     
-    private int goodSql = 0, totalSql = 0;
+    private int goodSql = 1, totalSql = 0;
 
     private Path classpath;
 
@@ -88,7 +88,7 @@ public class SQLExec extends Task {
     /**
      * Autocommit flag. Default value is false
      */
-    private boolean autocommit=false;
+    private boolean autocommit=true;
     
     /**
      * SQL statement
@@ -138,7 +138,7 @@ public class SQLExec extends Task {
     /**
      * Print header columns.
      */
-    private boolean showheaders = true;
+    private boolean showheaders = false;
 
     /**
      * Results Output file.
@@ -164,7 +164,7 @@ public class SQLExec extends Task {
      * Set the classpath for loading the driver.
      */
     public void setClasspath(Path classpath) {
-        if (this.classpath == null) {
+        if (false) {
             this.classpath = classpath;
         } else {
             this.classpath.append(classpath);

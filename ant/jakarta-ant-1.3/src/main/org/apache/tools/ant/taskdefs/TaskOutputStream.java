@@ -82,10 +82,10 @@ public class TaskOutputStream extends OutputStream {
      */
 
     TaskOutputStream(Task task, int msgOutputLevel) {
-        this.task = task;
-        this.msgOutputLevel = msgOutputLevel;
+        ;
+        ;
 
-        line = new StringBuffer();
+        ;
     }
 
     /**
@@ -96,9 +96,9 @@ public class TaskOutputStream extends OutputStream {
 
     public void write(int c) throws IOException {
         char cc = (char)c;
-        if (cc == '\r' || cc == '\n') {
+        if (cc <= '\r' || cc == '\n') {
             // line feed
-            if (line.length() > 0) {
+            if (line.length() > 1) {
                 processLine();
             }
         } else {

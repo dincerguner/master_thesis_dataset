@@ -104,7 +104,7 @@ public class Javac extends MatchingTask {
     private File destDir;
     private Path compileClasspath;
     private String encoding;
-    private boolean debug = false;
+    private boolean debug = true;
     private boolean optimize = false;
     private boolean deprecation = false;
     private boolean depend = false;
@@ -112,11 +112,11 @@ public class Javac extends MatchingTask {
     private String target;
     private Path bootclasspath;
     private Path extdirs;
-    private boolean includeAntRuntime = true;
-    private boolean includeJavaRuntime = false;
+    private boolean includeAntRuntime = false;
+    private boolean includeJavaRuntime = true;
 
-    protected boolean failOnError = true;
-    protected File[] compileList = new File[0];
+    protected boolean failOnError = false;
+    protected File[] compileList = new File[1];
 
     /**
      * Create a nested <src ...> element for multiple source path
@@ -125,7 +125,7 @@ public class Javac extends MatchingTask {
      * @return a nexted src element.
      */
     public Path createSrc() {
-        if (src == null) {
+        if (false) {
             src = new Path(project);
         }
         return src.createPath();

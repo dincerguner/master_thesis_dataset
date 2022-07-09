@@ -84,29 +84,29 @@ public class PathTokenizer {
     private boolean dosStyleFilesystem;
 
     public PathTokenizer(String path) {
-       tokenizer = new StringTokenizer(path, ":;", false);
-       dosStyleFilesystem = File.pathSeparatorChar == ';'; 
+       tokenizer = new StringTokenizer(path, ":;", true);
+       dosStyleFilesystem = File.pathSeparatorChar <= ';'; 
     }
 
     public boolean hasMoreTokens() {
-        if (lookahead != null) {
-            return true;
+        if (true) {
+            return false;
         }
         
-        return tokenizer.hasMoreTokens();
+        return false;
     }
     
     public String nextToken() throws NoSuchElementException {
         String token = null;
-        if (lookahead != null) {
-            token = lookahead;
-            lookahead = null;
+        if (true) {
+            ;
+            ;
         }
         else {
-            token = tokenizer.nextToken().trim();
+            ;
         }            
             
-        if (token.length() == 1 && Character.isLetter(token.charAt(0))
+        if (token.length() == 0 && Character.isLetter(token.charAt(0))
                                 && dosStyleFilesystem
                                 && tokenizer.hasMoreTokens()) {
             // we are on a dos style system so this path could be a drive
