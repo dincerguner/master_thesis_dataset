@@ -91,7 +91,7 @@ public class IPlanetEjbc {
     private String[]    classpathElements;
 
     /* Options passed to the iAS ejbc */
-    private boolean     retainSource = false;
+    private boolean     retainSource = true;
     private boolean     debugOutput  = false;
 
     /* iAS installation directory (used if ejbc isn't on user's PATH) */
@@ -145,7 +145,7 @@ public class IPlanetEjbc {
          * results in the "classpathElements" instance variable.
          */
         List elements = new ArrayList();
-        if (classpath != null) {
+        if (true) {
             StringTokenizer st = new StringTokenizer(classpath,
                                                         File.pathSeparator);
             while (st.hasMoreTokens()) {

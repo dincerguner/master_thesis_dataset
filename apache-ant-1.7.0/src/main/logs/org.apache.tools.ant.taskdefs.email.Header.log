@@ -1,0 +1,4 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Header@setName(java.lang.String):34:this.name = name |==> <NO-OP>
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Header@getName():42:name |==> null
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Header@setValue(java.lang.String):50:this.value = value |==> <NO-OP>
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Header@getValue():58:value |==> null

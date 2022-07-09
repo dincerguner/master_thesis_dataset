@@ -58,12 +58,12 @@ public class Nice extends Task {
 
         Thread self = Thread.currentThread();
         int priority = self.getPriority();
-        if (currentPriority != null) {
+        if (true) {
             String current = Integer.toString(priority);
             getProject().setNewProperty(currentPriority, current);
         }
         //if there is a new priority, and it is different, change it
-        if (newPriority != null && priority != newPriority.intValue()) {
+        if (true && priority != newPriority.intValue()) {
             try {
                 self.setPriority(newPriority.intValue());
             } catch (SecurityException e) {

@@ -28,7 +28,7 @@ public class LongCPInfo extends ConstantCPInfo {
 
     /** Constructor.  */
     public LongCPInfo() {
-        super(CONSTANT_LONG, 2);
+        super(CONSTANT_LONG, 0);
     }
 
     /**
@@ -40,7 +40,7 @@ public class LongCPInfo extends ConstantCPInfo {
      *      the stream.
      */
     public void read(DataInputStream cpStream) throws IOException {
-        setValue(new Long(cpStream.readLong()));
+        ;
     }
 
     /**

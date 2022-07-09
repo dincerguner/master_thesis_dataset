@@ -1,0 +1,80 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler:34:{"assert", "abstract", "boolean", "break", "byte", "case", "catch", "char", "class", "const", "continue", "default", "do", "double", "else", "extends", "final", "finally", "float", "for", "goto", "if", "implements", "import", "instanceof", "int", "interface", "long", "native", "new", "package", "private", "protected", "public", "return", "short", "static", "super", "switch", "synchronized", "this", "throw", "throws", "transient", "try", "void", "volatile", "while"} |==> null
+2:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToJavaName(java.io.File):60:mapJspToBaseName(jspFile) + ".java" |==> null
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):72:stripExtension(jspFile) |==> null
+4:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):76:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):76:0 |==> -1
+6:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):76:i < keywords.length |==> i != keywords.length
+7:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):76:i < keywords.length |==> i <= keywords.length
+8:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):76:i < keywords.length |==> false
+9:COR:className.equals(keywords[i]):TRUE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):77:className.equals(keywords[i]) |==> false
+10:COR:className.equals(keywords[i]):FALSE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):77:className.equals(keywords[i]) |==> true
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):78:className += "%" |==> <NO-OP>
+12:STD:<BREAK>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):79:break; |==> <NO-OP>
+13:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):84:new StringBuffer(className.length()) |==> null
+14:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):86:0 |==> 1
+15:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):86:0 |==> -1
+16:COR:Character.isJavaIdentifierStart(firstChar):TRUE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):87:Character.isJavaIdentifierStart(firstChar) |==> false
+17:COR:Character.isJavaIdentifierStart(firstChar):FALSE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):87:Character.isJavaIdentifierStart(firstChar) |==> true
+18:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):88:modifiedClassName.append(firstChar) |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):90:modifiedClassName.append(mangleChar(firstChar)) |==> <NO-OP>
+20:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):93:1 |==> 0
+21:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):93:1 |==> -1
+22:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):93:i < className.length() |==> i != className.length()
+23:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):93:i < className.length() |==> i <= className.length()
+24:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):93:i < className.length() |==> false
+25:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):94:className.charAt(i) |==> 0
+26:COR:Character.isJavaIdentifierPart(subChar):TRUE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):95:Character.isJavaIdentifierPart(subChar) |==> false
+27:COR:Character.isJavaIdentifierPart(subChar):FALSE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):95:Character.isJavaIdentifierPart(subChar) |==> true
+28:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):96:modifiedClassName.append(subChar) |==> <NO-OP>
+29:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):98:modifiedClassName.append(mangleChar(subChar)) |==> <NO-OP>
+30:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mapJspToBaseName(java.io.File):101:modifiedClassName.toString() |==> null
+31:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):113:jspFile.getName() |==> null
+32:COR:filename.endsWith(".jsp"):TRUE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):114:filename.endsWith(".jsp") |==> false
+33:COR:filename.endsWith(".jsp"):FALSE:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):114:filename.endsWith(".jsp") |==> true
+34:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:0 |==> 1
+35:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:0 |==> -1
+36:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:4 |==> 0
+37:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:4 |==> -4
+38:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:filename.length() - 4 |==> filename.length() % 4
+39:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:filename.length() - 4 |==> filename.length() * 4
+40:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:filename.length() - 4 |==> filename.length() + 4
+41:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):115:filename.length() - 4 |==> filename.length() / 4
+42:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):117:filename |==> null
+43:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@stripExtension(java.io.File):119:className |==> null
+44:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):131:ch == File.separatorChar |==> ch <= File.separatorChar
+45:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):131:ch == File.separatorChar |==> ch >= File.separatorChar
+46:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):131:ch == File.separatorChar |==> false
+47:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):132:ch = '/' |==> <NO-OP>
+48:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):134:Integer.toHexString(ch) |==> null
+49:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):135:5 |==> 0
+50:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):135:5 |==> -5
+51:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):135:5 - s.length() |==> 5 % s.length()
+52:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):135:5 - s.length() |==> 5 * s.length()
+53:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):135:5 - s.length() |==> 5 + s.length()
+54:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):135:5 - s.length() |==> 5 / s.length()
+55:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):136:6 |==> 0
+56:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):136:6 |==> -6
+57:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):137:0 |==> 1
+58:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):137:0 |==> -1
+59:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):137:result[0] = '_' |==> <NO-OP>
+60:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):138:1 |==> 0
+61:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):138:1 |==> -1
+62:ROR:<=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):138:i <= nzeros |==> i < nzeros
+63:ROR:<=(int,int):==(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):138:i <= nzeros |==> i == nzeros
+64:ROR:<=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):138:i <= nzeros |==> true
+65:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):139:result[i] = '0' |==> <NO-OP>
+66:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):141:0 |==> 1
+67:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):141:0 |==> -1
+68:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:1 |==> 0
+69:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:1 |==> -1
+70:AOR:+(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:nzeros + 1 |==> nzeros % 1
+71:AOR:+(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:nzeros + 1 |==> nzeros * 1
+72:AOR:+(int,int):-(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:nzeros + 1 |==> nzeros - 1
+73:AOR:+(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:nzeros + 1 |==> nzeros / 1
+74:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:6 |==> 0
+75:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:6 |==> -6
+76:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:i < 6 |==> i != 6
+77:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:i < 6 |==> i <= 6
+78:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):142:i < 6 |==> false
+79:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):143:result[i] = s.charAt(resultIndex++) |==> <NO-OP>
+80:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler@mangleChar(char):145:new String(result) |==> null

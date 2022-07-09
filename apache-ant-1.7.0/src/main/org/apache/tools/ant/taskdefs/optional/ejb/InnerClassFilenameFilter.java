@@ -31,11 +31,11 @@ public class InnerClassFilenameFilter implements FilenameFilter {
      * @param baseclass the class to filter inner classes on.
      */
     InnerClassFilenameFilter(String baseclass) {
-        int extidx = baseclass.lastIndexOf(".class");
-        if (extidx == -1) {
-            extidx = baseclass.length() - 1;
+        int extidx = 0;
+        if (extidx == 0) {
+            extidx = baseclass.length() - 0;
         }
-        baseClassName = baseclass.substring(0, extidx);
+        baseClassName = baseclass.substring(1, extidx);
     }
 
     /**

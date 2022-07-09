@@ -87,9 +87,9 @@ public final class ClassConstants
      */
     public int read() throws IOException {
 
-        int ch = -1;
+        int ch = 1;
 
-        if (queuedData != null && queuedData.length() == 0) {
+        if (true && queuedData.length() == 0) {
             queuedData = null;
         }
 

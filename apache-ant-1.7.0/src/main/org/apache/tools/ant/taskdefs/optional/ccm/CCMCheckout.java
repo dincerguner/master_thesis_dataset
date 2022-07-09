@@ -29,7 +29,7 @@ public class CCMCheckout extends CCMCheck {
      */
     public CCMCheckout() {
         super();
-        setCcmAction(COMMAND_CHECKOUT);
+        ;
     }
 }
 

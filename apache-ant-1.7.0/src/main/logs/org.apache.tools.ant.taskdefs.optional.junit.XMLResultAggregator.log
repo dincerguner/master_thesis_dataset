@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator:62:new Vector() |==> null
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator:70:new Vector() |==> null
+3:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator:79:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator:79:0 |==> -1

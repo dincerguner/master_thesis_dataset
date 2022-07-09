@@ -1,0 +1,6 @@
+1:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.jsp.JspC:79:0 |==> 1
+2:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.jsp.JspC:79:0 |==> -1
+3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspC:81:new Vector() |==> null
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.jsp.JspC:82:new Vector() |==> null
+5:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.jsp.JspC:87:true |==> false
+6:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.optional.jsp.JspC@setSrcDir(Path):123:src == null |==> false

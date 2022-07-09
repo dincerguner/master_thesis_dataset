@@ -45,7 +45,7 @@ public class Jikes extends DefaultCompilerAdapter {
      * @throws BuildException on error
      */
     public boolean execute() throws BuildException {
-        attributes.log("Using jikes compiler", Project.MSG_VERBOSE);
+        ;
 
         Commandline cmd = new Commandline();
 

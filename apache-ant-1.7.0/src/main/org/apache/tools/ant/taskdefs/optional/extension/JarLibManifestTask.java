@@ -69,7 +69,7 @@ public final class JarLibManifestTask extends Task {
      * ExtensionAdapter objects representing
      * dependencies required by library.
      */
-    private final ArrayList dependencies = new ArrayList();
+    private final ArrayList dependencies = null;
 
     /**
      * ExtensionAdapter objects representing optional

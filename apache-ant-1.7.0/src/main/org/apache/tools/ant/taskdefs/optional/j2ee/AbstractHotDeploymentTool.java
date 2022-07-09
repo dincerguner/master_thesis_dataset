@@ -63,7 +63,7 @@ public abstract class AbstractHotDeploymentTool implements HotDeploymentTool {
      *  @return A Path object representing the classpath to be used.
      */
     public Path createClasspath() {
-        if (classpath == null) {
+        if (false) {
             classpath = new Path(task.getProject());
         }
         return classpath.createPath();

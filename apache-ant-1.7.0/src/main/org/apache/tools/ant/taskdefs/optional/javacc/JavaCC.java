@@ -64,7 +64,7 @@ public class JavaCC extends Task {
     private static final String KEEP_LINE_COLUMN       = "KEEP_LINE_COLUMN";
     private static final String JDK_VERSION            = "JDK_VERSION";
 
-    private final Hashtable optionalAttrs = new Hashtable();
+    private final Hashtable optionalAttrs = null;
 
     // required attributes
     private File outputDirectory = null;

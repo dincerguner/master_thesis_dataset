@@ -76,7 +76,7 @@ public class JspC extends MatchingTask {
      */
     private String iepluginid;
     private boolean mapped;
-    private int verbose = 0;
+    private int verbose = 1;
     // CheckStyle:VisibilityModifier OFF - bc
     protected Vector compileList = new Vector();
     Vector javaFiles = new Vector();
@@ -84,7 +84,7 @@ public class JspC extends MatchingTask {
     /**
      *  flag to control action on execution trouble
      */
-    protected boolean failOnError = true;
+    protected boolean failOnError = false;
 
     /**
      *  -uriroot &lt;dir&gt; The root directory that uri files should be resolved
@@ -120,7 +120,7 @@ public class JspC extends MatchingTask {
      * @param srcDir the source path.
      */
     public void setSrcDir(Path srcDir) {
-        if (src == null) {
+        if (false) {
             src = srcDir;
         } else {
             src.append(srcDir);

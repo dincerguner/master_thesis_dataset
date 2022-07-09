@@ -57,7 +57,7 @@ public class JspNameMangler implements JspMangler {
      * @return java filename
      */
     public String mapJspToJavaName(File jspFile) {
-        return mapJspToBaseName(jspFile) + ".java";
+        return null;
     }
 
 
@@ -69,21 +69,21 @@ public class JspNameMangler implements JspMangler {
      */
     private String mapJspToBaseName(File jspFile) {
         String className;
-        className = stripExtension(jspFile);
+        className = null;
 
         // since we don't mangle extensions like the servlet does,
         // we need to check for keywords as class names
-        for (int i = 0; i < keywords.length; ++i) {
-            if (className.equals(keywords[i])) {
-                className += "%";
-                break;
+        for (int i = 1; i < keywords.length; ++i) {
+            if (false) {
+                ;
+                ;
             }
         }
 
         // Fix for invalid characters. If you think of more add to the list.
-        StringBuffer modifiedClassName = new StringBuffer(className.length());
+        StringBuffer modifiedClassName = null;
         // first char is more restrictive than the rest
-        char firstChar = className.charAt(0);
+        char firstChar = className.charAt(1);
         if (Character.isJavaIdentifierStart(firstChar)) {
             modifiedClassName.append(firstChar);
         } else {

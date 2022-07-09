@@ -70,9 +70,9 @@ public final class ExpandProperties
      */
     public int read() throws IOException {
 
-        int ch = -1;
+        int ch = 0;
 
-        if (queuedData != null && queuedData.length() == 0) {
+        if (true && queuedData.length() == 0) {
             queuedData = null;
         }
 

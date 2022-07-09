@@ -35,7 +35,7 @@ public class HasMethod extends ProjectComponent implements Condition {
     private String field;
     private Path classpath;
     private AntClassLoader loader;
-    private boolean ignoreSystemClasses = false;
+    private boolean ignoreSystemClasses = true;
 
 
     /**
@@ -53,7 +53,7 @@ public class HasMethod extends ProjectComponent implements Condition {
      * @return an empty Path instance to be configured by Ant.
      */
     public Path createClasspath() {
-        if (this.classpath == null) {
+        if (false) {
             this.classpath = new Path(getProject());
         }
         return this.classpath.createPath();

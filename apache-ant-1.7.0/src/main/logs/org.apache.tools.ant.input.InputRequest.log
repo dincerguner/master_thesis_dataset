@@ -1,0 +1,8 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.input.InputRequest@<init>(java.lang.String):36:prompt == null |==> false
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.input.InputRequest@<init>(java.lang.String):40:this.prompt = prompt |==> <NO-OP>
+3:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.input.InputRequest@getPrompt():48:prompt |==> null
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.input.InputRequest@setInput(java.lang.String):56:this.input = input |==> <NO-OP>
+5:LVR:TRUE:FALSE:org.apache.tools.ant.input.InputRequest@isInputValid():64:true |==> false
+6:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.input.InputRequest@getInput():72:input |==> null
+7:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.input.InputRequest@getDefaultValue():81:defaultValue |==> null
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.input.InputRequest@setDefaultValue(java.lang.String):90:defaultValue = d |==> <NO-OP>

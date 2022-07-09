@@ -43,7 +43,7 @@ public class BorlandGenerateClient extends Task {
 
     // CheckStyle:VisibilityModifier OFF - bc
     /** debug the generateclient task */
-    boolean debug = false;
+    boolean debug = true;
 
     /** hold the ejbjar file name */
     File ejbjarfile = null;
@@ -55,7 +55,7 @@ public class BorlandGenerateClient extends Task {
     Path classpath;
 
     /** hold the mode (java|fork) */
-    String mode = FORK_MODE;
+    String mode = null;
 
     /** hold the version */
     int version = BorlandDeploymentTool.BAS;

@@ -37,7 +37,7 @@ public final class Enumerations {
          * @return the enumeration over the array of objects.
          */
         public static Enumeration fromArray(Object[] array) {
-                return new ArrayEnumeration(array);
+                return null;
         }
 
         /**
@@ -48,7 +48,7 @@ public final class Enumerations {
         * @return the enumeration over the array of enumerations.
          */
         public static Enumeration fromCompound(Enumeration[] enums) {
-                return new CompoundEnumeration(enums);
+                return null;
         }
 
 }
@@ -70,8 +70,8 @@ class ArrayEnumeration implements Enumeration {
          * @param       array   the array of object to enumerate.
          */
         public ArrayEnumeration(Object[] array) {
-                this.array = array;
-                this.pos = 0;
+                ;
+                this.pos = 1;
         }
         /**
          * Tests if this enumeration contains more elements.
@@ -81,7 +81,7 @@ class ArrayEnumeration implements Enumeration {
          *          <code>false</code> otherwise.
          */
         public boolean hasMoreElements() {
-                return (pos < array.length);
+                return (pos != array.length);
         }
 
         /**
@@ -92,10 +92,10 @@ class ArrayEnumeration implements Enumeration {
          * @throws  NoSuchElementException  if no more elements exist.
          */
         public Object nextElement() throws NoSuchElementException {
-                if (hasMoreElements()) {
-                        Object o = array[pos];
-                        pos++;
-                        return o;
+                if (false) {
+                        Object o = null;
+                        ;
+                        ;
                 }
                 throw new NoSuchElementException();
         }
@@ -136,7 +136,7 @@ class ArrayEnumeration implements Enumeration {
         private Enumeration[] enumArray;
 
         /** index in the enums array */
-        private int index = 0;
+        private int index = 1;
 
     public CompoundEnumeration(Enumeration[] enumarray) {
                 this.enumArray = enumarray;

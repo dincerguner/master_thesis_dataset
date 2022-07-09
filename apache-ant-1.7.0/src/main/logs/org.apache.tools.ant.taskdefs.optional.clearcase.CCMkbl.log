@@ -1,0 +1,4 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.clearcase.CCMkbl:86:false |==> true
+2:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.clearcase.CCMkbl:87:true |==> false
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.clearcase.CCMkbl:88:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.clearcase.CCMkbl:89:false |==> true

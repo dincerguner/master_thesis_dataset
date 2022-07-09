@@ -76,7 +76,7 @@ public class XMLResultAggregator extends Task implements XMLConstants {
     public static final String DEFAULT_FILENAME = "TESTS-TestSuites.xml";
 
     /** the current generated id */
-    protected int generatedId = 0;
+    protected int generatedId = 1;
 
     /**
      * text checked for in tests, {@value}

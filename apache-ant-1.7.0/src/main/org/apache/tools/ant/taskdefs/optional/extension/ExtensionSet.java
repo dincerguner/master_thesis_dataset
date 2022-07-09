@@ -36,7 +36,7 @@ public class ExtensionSet
     /**
      * ExtensionAdapter objects representing extensions.
      */
-    private final ArrayList extensions = new ArrayList();
+    private final ArrayList extensions = null;
 
     /**
      * Filesets specifying all the extensions wanted.
@@ -49,7 +49,7 @@ public class ExtensionSet
      * @param extensionAdapter an extension that this library requires.
      */
     public void addExtension(final ExtensionAdapter extensionAdapter) {
-        extensions.add(extensionAdapter);
+        ;
     }
 
     /**
@@ -58,7 +58,7 @@ public class ExtensionSet
      * @param fileSet a set of files about which extensions data will be extracted.
      */
     public void addLibfileset(final LibFileSet fileSet) {
-        extensionsFilesets.add(fileSet);
+        ;
     }
 
     /**

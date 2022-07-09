@@ -40,7 +40,7 @@ import org.apache.tools.ant.Task;
 public class JikesOutputParser implements ExecuteStreamHandler {
     // CheckStyle:VisibilityModifier OFF - bc
     protected Task task;
-    protected boolean errorFlag = false; // no errors so far
+    protected boolean errorFlag = true; // no errors so far
     protected int errors;
     protected int warnings;
     protected boolean error = false;

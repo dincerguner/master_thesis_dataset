@@ -1,0 +1,31 @@
+1:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):34:baseclass.lastIndexOf(".class") |==> 0
+2:LVR:NEG:0:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):35:-1 |==> 0
+3:LVR:NEG:POS:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):35:-1 |==> 1
+4:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):35:extidx == -1 |==> extidx <= -1
+5:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):35:extidx == -1 |==> extidx >= -1
+6:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):35:extidx == -1 |==> false
+7:LVR:POS:0:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):36:1 |==> 0
+8:LVR:POS:NEG:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):36:1 |==> -1
+9:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):36:baseclass.length() - 1 |==> baseclass.length() % 1
+10:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):36:baseclass.length() - 1 |==> baseclass.length() * 1
+11:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):36:baseclass.length() - 1 |==> baseclass.length() + 1
+12:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):36:baseclass.length() - 1 |==> baseclass.length() / 1
+13:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):36:extidx = baseclass.length() - 1 |==> <NO-OP>
+14:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):38:0 |==> 1
+15:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):38:0 |==> -1
+16:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@<init>(java.lang.String):38:baseClassName = baseclass.substring(0, extidx) |==> <NO-OP>
+17:ROR:!=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):48:filename.lastIndexOf(".") != filename.lastIndexOf(".class") |==> filename.lastIndexOf(".") < filename.lastIndexOf(".class")
+18:ROR:!=(int,int):>(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):48:filename.lastIndexOf(".") != filename.lastIndexOf(".class") |==> filename.lastIndexOf(".") > filename.lastIndexOf(".class")
+19:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):48:filename.lastIndexOf(".") != filename.lastIndexOf(".class") |==> true
+20:LVR:0:POS:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):49:0 |==> 1
+21:LVR:0:NEG:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):49:0 |==> -1
+22:ROR:!=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):49:filename.indexOf(baseClassName + "$") != 0 |==> filename.indexOf(baseClassName + "$") < 0
+23:ROR:!=(int,int):>(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):49:filename.indexOf(baseClassName + "$") != 0 |==> filename.indexOf(baseClassName + "$") > 0
+24:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):49:filename.indexOf(baseClassName + "$") != 0 |==> true
+25:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):48:(filename.lastIndexOf(".") != filename.lastIndexOf(".class")) || (filename.indexOf(baseClassName + "$") != 0) |==> (filename.lastIndexOf(".") != filename.lastIndexOf(".class")) != (filename.indexOf(baseClassName + "$") != 0)
+26:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):48:(filename.lastIndexOf(".") != filename.lastIndexOf(".class")) || (filename.indexOf(baseClassName + "$") != 0) |==> (filename.lastIndexOf(".") != filename.lastIndexOf(".class"))
+27:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):49:(filename.lastIndexOf(".") != filename.lastIndexOf(".class")) || (filename.indexOf(baseClassName + "$") != 0) |==> (filename.indexOf(baseClassName + "$") != 0)
+28:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):49:(filename.lastIndexOf(".") != filename.lastIndexOf(".class")) || (filename.indexOf(baseClassName + "$") != 0) |==> true
+29:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):50:false |==> true
+30:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):50:return Config.__M_NO == 0 && Config.COVERED(29, 29) ? false : Config.__M_NO == 29 ? true : false; |==> <NO-OP>
+31:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter@accept(java.io.File,java.lang.String):52:true |==> false

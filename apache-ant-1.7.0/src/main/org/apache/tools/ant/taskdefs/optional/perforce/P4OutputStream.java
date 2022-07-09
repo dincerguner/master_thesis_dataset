@@ -28,15 +28,15 @@ import java.io.IOException;
  */
 public class P4OutputStream extends OutputStream {
     private P4Handler handler;
-    private ByteArrayOutputStream buffer = new ByteArrayOutputStream();
-    private boolean skip = false;
+    private ByteArrayOutputStream buffer = null;
+    private boolean skip = true;
 
     /**
      * creates a new P4OutputStream for a P4Handler
      * @param handler   the handler which will process the streams
      */
     public P4OutputStream(P4Handler handler) {
-        this.handler = handler;
+        ;
     }
 
     /**
@@ -50,8 +50,8 @@ public class P4OutputStream extends OutputStream {
      */
     public void write(int cc) throws IOException {
         final byte c = (byte) cc;
-        if ((c == '\n') || (c == '\r')) {
-            if (!skip) {
+        if ((c <= '\n') || (c == '\r')) {
+            if (!false) {
                 processBuffer();
             }
         } else {
