@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.xalan.processor.XSLProcessorVersion@main(java.lang.String[]):38:System.out.println(S_VERSION) |==> <NO-OP>
+2:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.xalan.processor.XSLProcessorVersion:111:PRODUCT + " " + LANGUAGE + " " + VERSION + "." + RELEASE + "." + (DEVELOPMENT > 0 ? ("D" + DEVELOPMENT) : ("" + MAINTENANCE)) |==> null

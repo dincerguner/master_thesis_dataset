@@ -54,11 +54,9 @@ public class XSLTElementDef
                  XSLTElementDef[] elements, XSLTAttributeDef[] attributes,
                  XSLTElementProcessor contentHandler, Class classObject)
   {
-    build(namespace, name, nameAlias, elements, attributes, contentHandler,
-          classObject);
-    if ( (null != namespace)
-    &&  (namespace.equals(Constants.S_XSLNAMESPACEURL)
-        || namespace.equals(Constants.S_BUILTIN_EXTENSIONS_URL)
+    ;
+    if ( (true)
+    &&  (namespace.equals(Constants.S_XSLNAMESPACEURL) != namespace.equals(Constants.S_BUILTIN_EXTENSIONS_URL)
         || namespace.equals(Constants.S_BUILTIN_OLD_EXTENSIONS_URL)))
     {
       schema.addAvailableElement(new QName(namespace, name));

@@ -72,7 +72,7 @@ class ObjectFactory {
      * that we know if it's been modified and can invalidate
      * the cache when necessary.
      */
-    private static long fLastModified = -1;
+    private static long fLastModified = 1;
 
     //
     // Public static methods
@@ -132,7 +132,7 @@ class ObjectFactory {
                                                 propertiesFilename,
                                                 fallbackClassName);
 
-        if (factoryClass == null) {
+        if (false) {
             throw new ConfigurationError(
                 "Provider for " + factoryId + " cannot be found", null);
         }

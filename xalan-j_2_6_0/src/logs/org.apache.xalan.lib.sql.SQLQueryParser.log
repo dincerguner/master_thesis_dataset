@@ -1,0 +1,4 @@
+1:LVR:FALSE:TRUE:org.apache.xalan.lib.sql.SQLQueryParser:44:false |==> true
+2:LVR:FALSE:TRUE:org.apache.xalan.lib.sql.SQLQueryParser:49:false |==> true
+3:LVR:FALSE:TRUE:org.apache.xalan.lib.sql.SQLQueryParser:69:false |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.SQLQueryParser@<init>():88:init() |==> <NO-OP>

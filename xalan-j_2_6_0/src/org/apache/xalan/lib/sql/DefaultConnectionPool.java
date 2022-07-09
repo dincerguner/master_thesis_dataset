@@ -60,7 +60,7 @@ public class DefaultConnectionPool implements ConnectionPool
    * mark, min connections will be allocated. The Connection
    * Pool will always be somewhere between MinSize and MinSize*2
    */
-  private int m_PoolMinSize = 1;
+  private int m_PoolMinSize = -1;
 
 
   /**

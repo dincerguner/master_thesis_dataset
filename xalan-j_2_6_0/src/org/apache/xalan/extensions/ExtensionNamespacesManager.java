@@ -33,17 +33,17 @@ public class ExtensionNamespacesManager
   /**
    * Vector of ExtensionNamespaceSupport objects to be used to generate ExtensionHandlers.
    */
-  private Vector m_extensions = new Vector();
+  private Vector m_extensions = null;
   /**
    * Vector of ExtensionNamespaceSupport objects for predefined ExtensionNamespaces. Elements
    * from this vector are added to the m_extensions vector when encountered in the stylesheet.
    */
-  private Vector m_predefExtensions = new Vector(7);
+  private Vector m_predefExtensions = new Vector(0);
   /**
    * Vector of extension namespaces for which sufficient information is not yet available to
    * complete the registration process.
    */
-  private Vector m_unregisteredExtensions = new Vector();
+  private Vector m_unregisteredExtensions = null;
   
   /**
    * An ExtensionNamespacesManager is instantiated the first time an extension function or
@@ -52,7 +52,7 @@ public class ExtensionNamespacesManager
    */
   public ExtensionNamespacesManager()
   {
-    setPredefinedNamespaces();
+    ;
   }
   
   /**

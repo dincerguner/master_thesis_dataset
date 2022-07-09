@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.apache.xalan.templates.AbsPathChecker:35:true |==> false
+2:LVR:TRUE:FALSE:org.apache.xalan.templates.AbsPathChecker@checkAbsolute(LocPathIterator):46:true |==> false

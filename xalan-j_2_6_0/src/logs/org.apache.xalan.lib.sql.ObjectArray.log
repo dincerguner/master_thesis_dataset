@@ -1,0 +1,109 @@
+1:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray:34:10 |==> 0
+2:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray:34:10 |==> -10
+3:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray:38:200 |==> 0
+4:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray:38:200 |==> -200
+5:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@<init>():60:10 |==> 0
+6:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@<init>():60:10 |==> -10
+7:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@<init>():60:init(10) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@<init>(int):68:init(minArraySize) |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@init(int):77:m_minArraySize = size |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@init(int):78:m_currentArray = new _ObjectArray(m_minArraySize) |==> <NO-OP>
+11:AOR:/(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):87:idx / m_minArraySize |==> idx % m_minArraySize
+12:AOR:/(int,int):*(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):87:idx / m_minArraySize |==> idx * m_minArraySize
+13:AOR:/(int,int):+(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):87:idx / m_minArraySize |==> idx + m_minArraySize
+14:AOR:/(int,int):-(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):87:idx / m_minArraySize |==> idx - m_minArraySize
+15:AOR:*(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:arrayIndx * m_minArraySize |==> arrayIndx % m_minArraySize
+16:AOR:*(int,int):+(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:arrayIndx * m_minArraySize |==> arrayIndx + m_minArraySize
+17:AOR:*(int,int):-(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:arrayIndx * m_minArraySize |==> arrayIndx - m_minArraySize
+18:AOR:*(int,int):/(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:arrayIndx * m_minArraySize |==> arrayIndx / m_minArraySize
+19:AOR:-(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:idx - (arrayIndx * m_minArraySize) |==> idx % (arrayIndx * m_minArraySize)
+20:AOR:-(int,int):*(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:idx - (arrayIndx * m_minArraySize) |==> idx * (arrayIndx * m_minArraySize)
+21:AOR:-(int,int):+(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:idx - (arrayIndx * m_minArraySize) |==> idx + (arrayIndx * m_minArraySize)
+22:AOR:-(int,int):/(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):88:idx - (arrayIndx * m_minArraySize) |==> idx / (arrayIndx * m_minArraySize)
+23:ROR:<(int,int):!=(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):93:arrayIndx < m_Arrays.size() |==> arrayIndx != m_Arrays.size()
+24:ROR:<(int,int):<=(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):93:arrayIndx < m_Arrays.size() |==> arrayIndx <= m_Arrays.size()
+25:ROR:<(int,int):FALSE(int,int):org.apache.xalan.lib.sql.ObjectArray@getAt(int):93:arrayIndx < m_Arrays.size() |==> false
+26:EVR:<TYPE_CAST(org.apache.xalan.lib.sql.ObjectArray._ObjectArray)>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@getAt(int):95:(_ObjectArray)m_Arrays.elementAt(arrayIndx) |==> null
+27:EVR:<ARRAY_ACCESS(java.lang.Object)>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@getAt(int):96:a.objects[arrayOffset] |==> null
+28:EVR:<ARRAY_ACCESS(java.lang.Object)>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@getAt(int):105:m_currentArray.objects[arrayOffset] |==> null
+29:AOR:/(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):116:idx / m_minArraySize |==> idx % m_minArraySize
+30:AOR:/(int,int):*(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):116:idx / m_minArraySize |==> idx * m_minArraySize
+31:AOR:/(int,int):+(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):116:idx / m_minArraySize |==> idx + m_minArraySize
+32:AOR:/(int,int):-(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):116:idx / m_minArraySize |==> idx - m_minArraySize
+33:AOR:*(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:arrayIndx * m_minArraySize |==> arrayIndx % m_minArraySize
+34:AOR:*(int,int):+(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:arrayIndx * m_minArraySize |==> arrayIndx + m_minArraySize
+35:AOR:*(int,int):-(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:arrayIndx * m_minArraySize |==> arrayIndx - m_minArraySize
+36:AOR:*(int,int):/(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:arrayIndx * m_minArraySize |==> arrayIndx / m_minArraySize
+37:AOR:-(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:idx - (arrayIndx * m_minArraySize) |==> idx % (arrayIndx * m_minArraySize)
+38:AOR:-(int,int):*(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:idx - (arrayIndx * m_minArraySize) |==> idx * (arrayIndx * m_minArraySize)
+39:AOR:-(int,int):+(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:idx - (arrayIndx * m_minArraySize) |==> idx + (arrayIndx * m_minArraySize)
+40:AOR:-(int,int):/(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):117:idx - (arrayIndx * m_minArraySize) |==> idx / (arrayIndx * m_minArraySize)
+41:ROR:<(int,int):!=(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):122:arrayIndx < m_Arrays.size() |==> arrayIndx != m_Arrays.size()
+42:ROR:<(int,int):<=(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):122:arrayIndx < m_Arrays.size() |==> arrayIndx <= m_Arrays.size()
+43:ROR:<(int,int):FALSE(int,int):org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):122:arrayIndx < m_Arrays.size() |==> false
+44:EVR:<TYPE_CAST(org.apache.xalan.lib.sql.ObjectArray._ObjectArray)>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):124:(_ObjectArray)m_Arrays.elementAt(arrayIndx) |==> null
+45:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):125:a.objects[arrayOffset] = obj |==> <NO-OP>
+46:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@setAt(int,java.lang.Object):134:m_currentArray.objects[arrayOffset] = obj |==> <NO-OP>
+47:ROR:>=(int,int):==(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):146:m_nextSlot >= m_minArraySize |==> m_nextSlot == m_minArraySize
+48:ROR:>=(int,int):>(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):146:m_nextSlot >= m_minArraySize |==> m_nextSlot > m_minArraySize
+49:ROR:>=(int,int):TRUE(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):146:m_nextSlot >= m_minArraySize |==> true
+50:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):148:m_Arrays.addElement(m_currentArray) |==> <NO-OP>
+51:LVR:0:POS:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):149:0 |==> 1
+52:LVR:0:NEG:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):149:0 |==> -1
+53:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):149:m_nextSlot = 0 |==> <NO-OP>
+54:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):150:m_currentArray = new _ObjectArray(m_minArraySize) |==> <NO-OP>
+55:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):153:m_currentArray.objects[m_nextSlot] = o |==> <NO-OP>
+56:AOR:*(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:m_Arrays.size() * m_minArraySize |==> m_Arrays.size() % m_minArraySize
+57:AOR:*(int,int):+(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:m_Arrays.size() * m_minArraySize |==> m_Arrays.size() + m_minArraySize
+58:AOR:*(int,int):-(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:m_Arrays.size() * m_minArraySize |==> m_Arrays.size() - m_minArraySize
+59:AOR:*(int,int):/(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:m_Arrays.size() * m_minArraySize |==> m_Arrays.size() / m_minArraySize
+60:AOR:+(int,int):%(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:(m_Arrays.size() * m_minArraySize) + m_nextSlot |==> (m_Arrays.size() * m_minArraySize) % m_nextSlot
+61:AOR:+(int,int):*(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:(m_Arrays.size() * m_minArraySize) + m_nextSlot |==> (m_Arrays.size() * m_minArraySize) * m_nextSlot
+62:AOR:+(int,int):-(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:(m_Arrays.size() * m_minArraySize) + m_nextSlot |==> (m_Arrays.size() * m_minArraySize) - m_nextSlot
+63:AOR:+(int,int):/(int,int):org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):155:(m_Arrays.size() * m_minArraySize) + m_nextSlot |==> (m_Arrays.size() * m_minArraySize) / m_nextSlot
+64:STD:<INC>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):157:m_nextSlot++ |==> <NO-OP>
+65:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@append(java.lang.Object):159:pos |==> 0
+66:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray$_ObjectArray@<init>(int):175:objects = new Object[size] |==> <NO-OP>
+67:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):185:{"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty", "Twenty-One", "Twenty-Two", "Twenty-Three", "Twenty-Four", "Twenty-Five", "Twenty-Six", "Twenty-Seven", "Twenty-Eight", "Twenty-Nine", "Thirty", "Thirty-One", "Thirty-Two", "Thirty-Three", "Thirty-Four", "Thirty-Five", "Thirty-Six", "Thirty-Seven", "Thirty-Eight", "Thirty-Nine"} |==> null
+68:EVR:<NEW_CLASS(org.apache.xalan.lib.sql.ObjectArray)>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):196:new ObjectArray() |==> null
+69:LVR:0:POS:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):198:0 |==> 1
+70:LVR:0:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):198:0 |==> -1
+71:ROR:<(int,int):!=(int,int):org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):198:x < word.length |==> x != word.length
+72:ROR:<(int,int):<=(int,int):org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):198:x < word.length |==> x <= word.length
+73:ROR:<(int,int):FALSE(int,int):org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):198:x < word.length |==> false
+74:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):200:System.out.print(" - " + m_ObjectArray.append(word[x])) |==> <NO-OP>
+75:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):203:System.out.println("\n") |==> <NO-OP>
+76:LVR:0:POS:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):205:0 |==> 1
+77:LVR:0:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):205:0 |==> -1
+78:ROR:<(int,int):!=(int,int):org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):205:x < word.length |==> x != word.length
+79:ROR:<(int,int):<=(int,int):org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):205:x < word.length |==> x <= word.length
+80:ROR:<(int,int):FALSE(int,int):org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):205:x < word.length |==> false
+81:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):207:(String)m_ObjectArray.getAt(x) |==> null
+82:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):208:System.out.println(s) |==> <NO-OP>
+83:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):212:5 |==> 0
+84:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):212:5 |==> -5
+85:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):212:System.out.println((String)m_ObjectArray.getAt(5)) |==> <NO-OP>
+86:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):213:10 |==> 0
+87:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):213:10 |==> -10
+88:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):213:System.out.println((String)m_ObjectArray.getAt(10)) |==> <NO-OP>
+89:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):214:20 |==> 0
+90:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):214:20 |==> -20
+91:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):214:System.out.println((String)m_ObjectArray.getAt(20)) |==> <NO-OP>
+92:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):215:2 |==> 0
+93:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):215:2 |==> -2
+94:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):215:System.out.println((String)m_ObjectArray.getAt(2)) |==> <NO-OP>
+95:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):216:15 |==> 0
+96:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):216:15 |==> -15
+97:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):216:System.out.println((String)m_ObjectArray.getAt(15)) |==> <NO-OP>
+98:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):217:30 |==> 0
+99:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):217:30 |==> -30
+100:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):217:System.out.println((String)m_ObjectArray.getAt(30)) |==> <NO-OP>
+101:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):218:6 |==> 0
+102:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):218:6 |==> -6
+103:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):218:System.out.println((String)m_ObjectArray.getAt(6)) |==> <NO-OP>
+104:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):219:8 |==> 0
+105:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):219:8 |==> -8
+106:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):219:System.out.println((String)m_ObjectArray.getAt(8)) |==> <NO-OP>
+107:LVR:POS:0:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):222:40 |==> 0
+108:LVR:POS:NEG:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):222:40 |==> -40
+109:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.ObjectArray@main(java.lang.String[]):222:System.out.println((String)m_ObjectArray.getAt(40)) |==> <NO-OP>

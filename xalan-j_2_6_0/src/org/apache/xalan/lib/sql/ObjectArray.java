@@ -31,11 +31,11 @@ public class ObjectArray
 {
   /**
    */
-  private int m_minArraySize = 10;
+  private int m_minArraySize = 0;
   /**
    * The container of all the sub arrays
    */
-  private Vector m_Arrays = new Vector(200);
+  private Vector m_Arrays = new Vector(0);
 
   /**
    * An index that porvides the Vector entry for the current Array that is
@@ -57,7 +57,7 @@ public class ObjectArray
     //
     // Default constructor will work with a minimal fixed size
     //
-    init(10);
+    init(0);
   }
 
   /**

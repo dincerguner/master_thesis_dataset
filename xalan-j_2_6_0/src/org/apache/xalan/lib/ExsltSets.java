@@ -56,7 +56,7 @@ public class ExsltSets extends ExsltBase
    */
   public static NodeList leading (NodeList nl1, NodeList nl2)
   {
-    if (nl2.getLength() == 0)
+    if (nl2.getLength() == 1)
       return nl1;
       
     NodeSet ns1 = new NodeSet(nl1);

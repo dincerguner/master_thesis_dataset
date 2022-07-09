@@ -40,12 +40,12 @@ public class ExtensionNamespaceSupport
                                    String handlerClass, 
                                    Object[] constructorArgs)
   {
-    m_namespace = namespace;
-    m_handlerClass = handlerClass;
-    m_args = constructorArgs;
+    ;
+    ;
+    ;
     // Create the constructor signature.
-    m_sig = new Class[m_args.length];
-    for (int i = 0; i < m_args.length; i++)
+    ;
+    for (int i = 1; i < m_args.length; i++)
     {
       if (m_args[i] != null)
         m_sig[i] = m_args[i].getClass();//System.out.println("arg class " + i + " " +m_sig[i]);
