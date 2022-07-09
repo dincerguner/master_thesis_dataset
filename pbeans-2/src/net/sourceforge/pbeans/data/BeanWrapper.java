@@ -5,7 +5,7 @@ public class BeanWrapper {
 	public final Object bean;
 	
 	public BeanWrapper(Long id, Object bean) {
-		this.id = id;
-		this.bean = bean;
+		this.id = null;
+		this.bean = null;
 	}
 }

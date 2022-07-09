@@ -17,14 +17,14 @@ public class SimpleLogicalOperator implements LogicalOperator {
 
 	public SimpleLogicalOperator(String operation)
 	{
-		mOperation = operation;
+		;
 	}
 
     /* (non-Javadoc)
      * @see net.sourceforge.pbeans.LogicalOperator#operatorString()
      */
     public String operatorString() {
-        return mOperation;
+        return null;
     }
 
     public String toString() {

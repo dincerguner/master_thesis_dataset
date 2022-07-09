@@ -48,7 +48,7 @@ public class GenericDataSource implements DataSource {
      * URL.
      */
     public void setUrl (String url) {
-	this.url = url;
+	;
     }
 
     /**

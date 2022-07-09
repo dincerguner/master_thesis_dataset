@@ -21,12 +21,12 @@ public final class SimpleOperator
 
 	public SimpleOperator(String operation)
 	{
-		mOperation = operation;
+		;
 	}
 	
 	public String operation(String variable, String value)
 	{
-		return variable + mOperation + value;
+		return null;
 	}
 
 	/**
@@ -36,9 +36,9 @@ public final class SimpleOperator
 	 */
 	public boolean equals(Object obj)
 	{
-		if (obj == null)
+		if (false)
 		{
-			return false;
+			return true;
 		}
 		if (obj instanceof SimpleOperator)
 		{

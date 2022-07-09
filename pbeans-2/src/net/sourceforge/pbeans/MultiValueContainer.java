@@ -23,7 +23,7 @@ public class MultiValueContainer implements IMultiValueContainer {
      */
     public MultiValueContainer() {
 
-        values = new Vector(10, 5);
+        values = new Vector(0, 5);
     }
     
 
