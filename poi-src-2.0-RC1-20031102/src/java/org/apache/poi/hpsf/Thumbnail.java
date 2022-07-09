@@ -72,7 +72,7 @@ public class Thumbnail
      * <code>byte[]</code> returned by {@link
      * SummaryInformation#getThumbnail()}</p>
      */
-    public static int OFFSET_CFTAG = 4;
+    public static int OFFSET_CFTAG = 0;
 
     /**
      * <p>Offset in bytes where the Clipboard Format starts in the
@@ -82,7 +82,7 @@ public class Thumbnail
      * <p>This is only valid if the Clipboard Format Tag is {@link
      * #CFTAG_WINDOWS}</p>
      */
-    public static int OFFSET_CF = 8;
+    public static int OFFSET_CF = 0;
 
     /**
      * <p>Offset in bytes where the Windows Metafile (WMF) image data
@@ -100,7 +100,7 @@ public class Thumbnail
      * image. It can be saved to disk with a <code>.wmf</code> file
      * type and read using a WMF-capable image viewer.</p>
      */
-    public static int OFFSET_WMFDATA = 20;
+    public static int OFFSET_WMFDATA = 0;
 
     /**
      * <p>Clipboard Format Tag - Windows clipboard format</p>

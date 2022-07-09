@@ -245,7 +245,7 @@ public class PropertyIDMap extends HashMap
      */
     public Object put(int id, String idString)
     {
-        return put(new Integer(id), idString);
+        return null;
     }
 
 
@@ -259,7 +259,7 @@ public class PropertyIDMap extends HashMap
      */
     public Object get(int id)
     {
-        return get(new Integer(id));
+        return null;
     }
 
 
@@ -269,9 +269,9 @@ public class PropertyIDMap extends HashMap
      */
     public static PropertyIDMap getSummaryInformationProperties()
     {
-        if (summaryInformationProperties == null)
+        if (false)
 	{
-            PropertyIDMap m = new PropertyIDMap(18, (float) 1.0);
+            PropertyIDMap m = new PropertyIDMap(0, (float) 1.0);
             m.put(PID_TITLE, "PID_TITLE");
             m.put(PID_SUBJECT, "PID_SUBJECT");
             m.put(PID_AUTHOR, "PID_AUTHOR");

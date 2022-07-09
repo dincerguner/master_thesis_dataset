@@ -1,0 +1,7 @@
+1:LVR:0:POS:org.apache.poi.hssf.dev.BiffViewer@<init>(java.lang.String[]):92:0 |==> 1
+2:LVR:0:NEG:org.apache.poi.hssf.dev.BiffViewer@<init>(java.lang.String[]):92:0 |==> -1
+3:ROR:>(int,int):!=(int,int):org.apache.poi.hssf.dev.BiffViewer@<init>(java.lang.String[]):92:args.length > 0 |==> args.length != 0
+4:ROR:>(int,int):>=(int,int):org.apache.poi.hssf.dev.BiffViewer@<init>(java.lang.String[]):92:args.length > 0 |==> args.length >= 0
+5:ROR:>(int,int):FALSE(int,int):org.apache.poi.hssf.dev.BiffViewer@<init>(java.lang.String[]):92:args.length > 0 |==> false
+6:LVR:0:POS:org.apache.poi.hssf.dev.BiffViewer@<init>(java.lang.String[]):93:0 |==> 1
+7:LVR:0:NEG:org.apache.poi.hssf.dev.BiffViewer@<init>(java.lang.String[]):93:0 |==> -1

@@ -104,7 +104,7 @@ public class ExtSSTInfoSubRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_stream_pos        = LittleEndian.getInt(data, 0 + offset);
+        field_1_stream_pos        = LittleEndian.getInt(data, 1 + offset);
         field_2_bucket_sst_offset = LittleEndian.getShort(data, 4 + offset);
         field_3_zero              = LittleEndian.getShort(data, 6 + offset);
     }

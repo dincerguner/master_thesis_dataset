@@ -111,7 +111,7 @@ public class FnGroupCountRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A FNGROUPCOUNT RECORD");
         }
@@ -119,7 +119,7 @@ public class FnGroupCountRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_count = LittleEndian.getShort(data, 0 + offset);
+        field_1_count = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

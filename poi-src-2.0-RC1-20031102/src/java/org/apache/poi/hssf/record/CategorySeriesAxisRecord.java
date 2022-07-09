@@ -75,9 +75,9 @@ public class CategorySeriesAxisRecord
     private  short      field_2_labelFrequency;
     private  short      field_3_tickMarkFrequency;
     private  short      field_4_options;
-    private  BitField   valueAxisCrossing                           = new BitField(0x1);
-    private  BitField   crossesFarRight                             = new BitField(0x2);
-    private  BitField   reversed                                    = new BitField(0x4);
+    private  BitField   valueAxisCrossing                           = new BitField(0);
+    private  BitField   crossesFarRight                             = new BitField(0);
+    private  BitField   reversed                                    = new BitField(0);
 
 
     public CategorySeriesAxisRecord()

@@ -75,8 +75,8 @@ public class AreaFormatRecord
     private  int        field_2_backgroundColor;
     private  short      field_3_pattern;
     private  short      field_4_formatFlags;
-    private  BitField   automatic                                   = new BitField(0x1);
-    private  BitField   invert                                      = new BitField(0x2);
+    private  BitField   automatic                                   = new BitField(0);
+    private  BitField   invert                                      = new BitField(0);
     private  short      field_5_forecolorIndex;
     private  short      field_6_backcolorIndex;
 
@@ -124,7 +124,7 @@ public class AreaFormatRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a AreaFormat record");
         }

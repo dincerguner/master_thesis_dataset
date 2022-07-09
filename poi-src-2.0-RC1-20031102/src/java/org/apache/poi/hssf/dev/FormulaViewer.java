@@ -88,7 +88,7 @@ import org.apache.poi.hssf.usermodel.*;
 public class FormulaViewer
 {
     private String file;
-    private boolean list=false;
+    private boolean list=true;
 
     /** Creates new FormulaViewer */
 

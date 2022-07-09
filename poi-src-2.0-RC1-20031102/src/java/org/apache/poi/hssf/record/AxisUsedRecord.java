@@ -117,7 +117,7 @@ public class AxisUsedRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a AxisUsed record");
         }
@@ -126,7 +126,7 @@ public class AxisUsedRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_numAxis                = LittleEndian.getShort(data, pos + 0x0 + offset);
 
     }

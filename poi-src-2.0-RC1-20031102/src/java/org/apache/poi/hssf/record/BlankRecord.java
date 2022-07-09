@@ -117,7 +117,7 @@ public class BlankRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
         //field_1_row = LittleEndian.getShort(data, 0 + offset);
-        field_1_row = LittleEndian.getUShort(data, 0 + offset);
+        field_1_row = LittleEndian.getUShort(data, 1 + offset);
         field_2_col = LittleEndian.getShort(data, 2 + offset);
         field_3_xf  = LittleEndian.getShort(data, 4 + offset);
     }

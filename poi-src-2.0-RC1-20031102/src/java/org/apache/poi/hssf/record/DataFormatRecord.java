@@ -75,7 +75,7 @@ public class DataFormatRecord
     private  short      field_2_seriesIndex;
     private  short      field_3_seriesNumber;
     private  short      field_4_formatFlags;
-    private  BitField   useExcel4Colors                             = new BitField(0x1);
+    private  BitField   useExcel4Colors                             = new BitField(0);
 
 
     public DataFormatRecord()
@@ -121,7 +121,7 @@ public class DataFormatRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a DataFormat record");
         }
