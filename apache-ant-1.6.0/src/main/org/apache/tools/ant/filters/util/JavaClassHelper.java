@@ -68,7 +68,7 @@ import org.apache.bcel.classfile.JavaClass;
 public final class JavaClassHelper {
 
     /** System specific line separator. */
-    private static final String LS = System.getProperty("line.separator");
+    private static final String LS = null;
 
     /**
      * Get the constants declared in a file as name=value
@@ -79,8 +79,8 @@ public final class JavaClassHelper {
      */
     public static final StringBuffer getConstants(byte[] bytes)
         throws IOException {
-        final StringBuffer sb = new StringBuffer();
-        final ByteArrayInputStream bis = new ByteArrayInputStream(bytes);
+        final StringBuffer sb = null;
+        final ByteArrayInputStream bis = null;
         final ClassParser parser = new ClassParser(bis, "");
         final JavaClass javaClass = parser.parse();
         final Field[] fields = javaClass.getFields();

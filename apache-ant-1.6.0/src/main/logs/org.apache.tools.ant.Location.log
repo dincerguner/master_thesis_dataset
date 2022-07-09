@@ -1,0 +1,32 @@
+1:EVR:<NEW_CLASS(org.apache.tools.ant.Location)>:<DEFAULT>:org.apache.tools.ant.Location:78:new Location() |==> null
+2:LVR:0:POS:org.apache.tools.ant.Location@<init>():84:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.Location@<init>():84:0 |==> -1
+4:LVR:0:POS:org.apache.tools.ant.Location@<init>():84:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.Location@<init>():84:0 |==> -1
+6:LVR:0:POS:org.apache.tools.ant.Location@<init>(java.lang.String):96:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.Location@<init>(java.lang.String):96:0 |==> -1
+8:LVR:0:POS:org.apache.tools.ant.Location@<init>(java.lang.String):96:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.ant.Location@<init>(java.lang.String):96:0 |==> -1
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.Location@<init>(java.lang.String,int,int):124:fileName != null |==> true
+11:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.Location@<init>(java.lang.String,int,int):124:fileName != null && fileName.startsWith("file:") |==> fileName != null == fileName.startsWith("file:")
+12:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.Location@<init>(java.lang.String,int,int):124:fileName != null && fileName.startsWith("file:") |==> false
+13:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.Location@<init>(java.lang.String,int,int):124:fileName != null && fileName.startsWith("file:") |==> fileName != null
+14:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.Location@<init>(java.lang.String,int,int):124:fileName != null && fileName.startsWith("file:") |==> fileName.startsWith("file:")
+15:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.Location@<init>(java.lang.String,int,int):125:this.fileName = FileUtils.newFileUtils().fromURI(fileName) |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.Location@<init>(java.lang.String,int,int):127:this.fileName = fileName |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.Location@<init>(java.lang.String,int,int):129:this.lineNumber = lineNumber |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.Location@<init>(java.lang.String,int,int):130:this.columnNumber = columnNumber |==> <NO-OP>
+19:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.Location@getFileName():138:fileName |==> null
+20:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.Location@getLineNumber():146:lineNumber |==> 0
+21:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.Location@toString():160:new StringBuffer() |==> null
+22:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.Location@toString():162:fileName != null |==> true
+23:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():163:buf.append(fileName) |==> <NO-OP>
+24:LVR:0:POS:org.apache.tools.ant.Location@toString():165:0 |==> 1
+25:LVR:0:NEG:org.apache.tools.ant.Location@toString():165:0 |==> -1
+26:ROR:!=(int,int):<(int,int):org.apache.tools.ant.Location@toString():165:lineNumber != 0 |==> lineNumber < 0
+27:ROR:!=(int,int):>(int,int):org.apache.tools.ant.Location@toString():165:lineNumber != 0 |==> lineNumber > 0
+28:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.Location@toString():165:lineNumber != 0 |==> true
+29:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():166:buf.append(":") |==> <NO-OP>
+30:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():167:buf.append(lineNumber) |==> <NO-OP>
+31:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():170:buf.append(": ") |==> <NO-OP>
+32:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.Location@toString():173:buf.toString() |==> null

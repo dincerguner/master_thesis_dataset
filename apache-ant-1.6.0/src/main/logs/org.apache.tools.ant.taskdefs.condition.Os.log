@@ -1,0 +1,5 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.condition.Os:70:System.getProperty("os.name").toLowerCase(Locale.US) |==> null
+2:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.condition.Os:72:System.getProperty("os.arch").toLowerCase(Locale.US) |==> null
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.condition.Os:74:System.getProperty("os.version").toLowerCase(Locale.US) |==> null
+4:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.condition.Os:76:System.getProperty("path.separator") |==> null
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.condition.Os@<init>(java.lang.String):96:setFamily(family) |==> <NO-OP>

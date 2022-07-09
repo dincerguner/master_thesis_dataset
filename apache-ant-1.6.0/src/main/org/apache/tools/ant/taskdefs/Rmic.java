@@ -131,7 +131,7 @@ public class Rmic extends MatchingTask {
     private String stubVersion;
     private Path compileClasspath;
     private Path extdirs;
-    private boolean verify = false;
+    private boolean verify = true;
     private boolean filtering = false;
 
     private boolean iiop = false;
@@ -139,8 +139,8 @@ public class Rmic extends MatchingTask {
     private boolean idl  = false;
     private String  idlopts;
     private boolean debug  = false;
-    private boolean includeAntRuntime = true;
-    private boolean includeJavaRuntime = false;
+    private boolean includeAntRuntime = false;
+    private boolean includeJavaRuntime = true;
 
     private Vector compileList = new Vector();
 

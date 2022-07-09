@@ -1,0 +1,3 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.filters.util.JavaClassHelper:71:System.getProperty("line.separator") |==> null
+2:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.filters.util.JavaClassHelper@getConstants(byte[]):82:new StringBuffer() |==> null
+3:EVR:<NEW_CLASS(java.io.ByteArrayInputStream)>:<DEFAULT>:org.apache.tools.ant.filters.util.JavaClassHelper@getConstants(byte[]):83:new ByteArrayInputStream(bytes) |==> null

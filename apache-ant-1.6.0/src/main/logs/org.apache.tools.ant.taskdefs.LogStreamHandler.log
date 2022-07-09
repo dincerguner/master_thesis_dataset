@@ -1,0 +1,3 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.LogStreamHandler@stop():85:super.stop() |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.LogStreamHandler@stop():87:getErr().close() |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.LogStreamHandler@stop():88:getOut().close() |==> <NO-OP>

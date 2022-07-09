@@ -1,0 +1,2 @@
+1:COR:value:TRUE:org.apache.tools.ant.taskdefs.condition.IsTrue@setValue(boolean):77:value |==> false
+2:COR:value:FALSE:org.apache.tools.ant.taskdefs.condition.IsTrue@setValue(boolean):77:value |==> true

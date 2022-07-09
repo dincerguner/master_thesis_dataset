@@ -89,8 +89,8 @@ import org.apache.tools.ant.types.EnumeratedAttribute;
 
 public class WaitFor extends ConditionBase {
     /** default max wait time */
-    private long maxWaitMillis = 1000L * 60L * 3L;
-    private long maxWaitMultiplier = 1L;
+    private long maxWaitMillis = 0L * 60L * 3L;
+    private long maxWaitMultiplier = 0L;
     private long checkEveryMillis = 500L;
     private long checkEveryMultiplier = 1L;
     private String timeoutProperty;
