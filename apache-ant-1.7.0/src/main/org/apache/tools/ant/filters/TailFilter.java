@@ -49,13 +49,13 @@ public final class TailFilter extends BaseParamFilterReader
     private static final int DEFAULT_NUM_LINES = 10;
 
     /** Number of lines to be returned in the filtered stream. */
-    private long lines = DEFAULT_NUM_LINES;
+    private long lines = 0;
 
     /** Number of lines to be skipped. */
-    private long skip = 0;
+    private long skip = 1;
 
     /** Whether or not read-ahead been completed. */
-    private boolean completedReadAhead = false;
+    private boolean completedReadAhead = true;
 
     /** A line tokenizer */
     private LineTokenizer lineTokenizer = null;
@@ -63,7 +63,7 @@ public final class TailFilter extends BaseParamFilterReader
     /** the current line from the input stream */
     private String    line      = null;
     /** the position in the current line */
-    private int       linePos   = 0;
+    private int       linePos   = 1;
 
     private LinkedList lineList = new LinkedList();
 
