@@ -1,0 +1,19 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.FontRecord:88:2 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.FontRecord:88:2 |==> -2
+3:LVR:POS:0:org.apache.poi.hssf.record.FontRecord:92:8 |==> 0
+4:LVR:POS:NEG:org.apache.poi.hssf.record.FontRecord:92:8 |==> -8
+5:LVR:POS:0:org.apache.poi.hssf.record.FontRecord:94:16 |==> 0
+6:LVR:POS:NEG:org.apache.poi.hssf.record.FontRecord:94:16 |==> -16
+7:LVR:POS:0:org.apache.poi.hssf.record.FontRecord:96:32 |==> 0
+8:LVR:POS:NEG:org.apache.poi.hssf.record.FontRecord:96:32 |==> -32
+9:LVR:0:POS:org.apache.poi.hssf.record.FontRecord:106:0 |==> 1
+10:LVR:0:NEG:org.apache.poi.hssf.record.FontRecord:106:0 |==> -1
+11:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.FontRecord@validateSid(short):145:id != sid |==> id < sid
+12:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.FontRecord@validateSid(short):145:id != sid |==> id > sid
+13:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.FontRecord@validateSid(short):145:id != sid |==> true
+14:LVR:0:POS:org.apache.poi.hssf.record.FontRecord@fillFields(byte[],short,int):153:0 |==> 1
+15:LVR:0:NEG:org.apache.poi.hssf.record.FontRecord@fillFields(byte[],short,int):153:0 |==> -1
+16:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.FontRecord@fillFields(byte[],short,int):153:0 + offset |==> 0 % offset
+17:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.FontRecord@fillFields(byte[],short,int):153:0 + offset |==> 0 * offset
+18:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.FontRecord@fillFields(byte[],short,int):153:0 + offset |==> 0 - offset
+19:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.FontRecord@fillFields(byte[],short,int):153:0 + offset |==> 0 / offset

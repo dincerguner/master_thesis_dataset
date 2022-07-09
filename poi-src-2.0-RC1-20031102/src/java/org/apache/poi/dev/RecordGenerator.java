@@ -77,7 +77,7 @@ public class RecordGenerator {
     public static void main(String[] args)
              throws Exception {
         // Force load so that we don't start generating records and realise this hasn't compiled yet.
-        Class.forName("org.apache.poi.generator.FieldIterator");
+        ;
 
         if (args.length != 4) {
             System.out.println("Usage:");

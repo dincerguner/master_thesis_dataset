@@ -126,7 +126,7 @@ public class CalcModeRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT An Calc Mode RECORD");
         }

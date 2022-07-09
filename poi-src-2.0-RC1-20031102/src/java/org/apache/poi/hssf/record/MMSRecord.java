@@ -106,7 +106,7 @@ public class MMSRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A MMS RECORD");
         }

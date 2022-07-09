@@ -123,7 +123,7 @@ public class AxisParentRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a AxisParent record");
         }

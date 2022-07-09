@@ -1,0 +1,85 @@
+1:ROR:!=(int,int):<(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):91:a.length != b.length |==> a.length < b.length
+2:ROR:!=(int,int):>(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):91:a.length != b.length |==> a.length > b.length
+3:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):91:a.length != b.length |==> true
+4:LVR:FALSE:TRUE:org.apache.poi.hpsf.Util@equal(byte[],byte[]):92:false |==> true
+5:STD:<RETURN>:<NO-OP>:org.apache.poi.hpsf.Util@equal(byte[],byte[]):92:return Config.__M_NO == 0 && Config.COVERED(4, 4) ? false : Config.__M_NO == 4 ? true : false; |==> <NO-OP>
+6:LVR:0:POS:org.apache.poi.hpsf.Util@equal(byte[],byte[]):93:0 |==> 1
+7:LVR:0:NEG:org.apache.poi.hpsf.Util@equal(byte[],byte[]):93:0 |==> -1
+8:ROR:<(int,int):!=(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):93:i < a.length |==> i != a.length
+9:ROR:<(int,int):<=(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):93:i < a.length |==> i <= a.length
+10:ROR:<(int,int):FALSE(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):93:i < a.length |==> false
+11:ROR:!=(int,int):<(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):94:a[i] != b[i] |==> a[i] < b[i]
+12:ROR:!=(int,int):>(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):94:a[i] != b[i] |==> a[i] > b[i]
+13:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hpsf.Util@equal(byte[],byte[]):94:a[i] != b[i] |==> true
+14:LVR:FALSE:TRUE:org.apache.poi.hpsf.Util@equal(byte[],byte[]):95:false |==> true
+15:STD:<RETURN>:<NO-OP>:org.apache.poi.hpsf.Util@equal(byte[],byte[]):95:return Config.__M_NO == 0 && Config.COVERED(14, 14) ? false : Config.__M_NO == 14 ? true : false; |==> <NO-OP>
+16:LVR:TRUE:FALSE:org.apache.poi.hpsf.Util@equal(byte[],byte[]):96:true |==> false
+17:LVR:0:POS:org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):114:0 |==> 1
+18:LVR:0:NEG:org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):114:0 |==> -1
+19:ROR:<(int,int):!=(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):114:i < length |==> i != length
+20:ROR:<(int,int):<=(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):114:i < length |==> i <= length
+21:ROR:<(int,int):FALSE(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):114:i < length |==> false
+22:AOR:+(int,int):%(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:dstOffset + i |==> dstOffset % i
+23:AOR:+(int,int):*(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:dstOffset + i |==> dstOffset * i
+24:AOR:+(int,int):-(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:dstOffset + i |==> dstOffset - i
+25:AOR:+(int,int):/(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:dstOffset + i |==> dstOffset / i
+26:AOR:+(int,int):%(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:srcOffset + i |==> srcOffset % i
+27:AOR:+(int,int):*(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:srcOffset + i |==> srcOffset * i
+28:AOR:+(int,int):-(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:srcOffset + i |==> srcOffset - i
+29:AOR:+(int,int):/(int,int):org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:srcOffset + i |==> srcOffset / i
+30:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.Util@copy(byte[],int,int,byte[],int):115:dst[dstOffset + i] = src[srcOffset + i] |==> <NO-OP>
+31:LVR:0:POS:org.apache.poi.hpsf.Util@cat(byte[][]):130:0 |==> 1
+32:LVR:0:NEG:org.apache.poi.hpsf.Util@cat(byte[][]):130:0 |==> -1
+33:LVR:0:POS:org.apache.poi.hpsf.Util@cat(byte[][]):131:0 |==> 1
+34:LVR:0:NEG:org.apache.poi.hpsf.Util@cat(byte[][]):131:0 |==> -1
+35:ROR:<(int,int):!=(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):131:i < byteArrays.length |==> i != byteArrays.length
+36:ROR:<(int,int):<=(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):131:i < byteArrays.length |==> i <= byteArrays.length
+37:ROR:<(int,int):FALSE(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):131:i < byteArrays.length |==> false
+38:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.Util@cat(byte[][]):132:capacity += byteArrays[i].length |==> <NO-OP>
+39:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.poi.hpsf.Util@cat(byte[][]):133:new byte[capacity] |==> null
+40:LVR:0:POS:org.apache.poi.hpsf.Util@cat(byte[][]):134:0 |==> 1
+41:LVR:0:NEG:org.apache.poi.hpsf.Util@cat(byte[][]):134:0 |==> -1
+42:LVR:0:POS:org.apache.poi.hpsf.Util@cat(byte[][]):135:0 |==> 1
+43:LVR:0:NEG:org.apache.poi.hpsf.Util@cat(byte[][]):135:0 |==> -1
+44:ROR:<(int,int):!=(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):135:i < byteArrays.length |==> i != byteArrays.length
+45:ROR:<(int,int):<=(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):135:i < byteArrays.length |==> i <= byteArrays.length
+46:ROR:<(int,int):FALSE(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):135:i < byteArrays.length |==> false
+47:LVR:0:POS:org.apache.poi.hpsf.Util@cat(byte[][]):136:0 |==> 1
+48:LVR:0:NEG:org.apache.poi.hpsf.Util@cat(byte[][]):136:0 |==> -1
+49:ROR:<(int,int):!=(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):136:j < byteArrays[i].length |==> j != byteArrays[i].length
+50:ROR:<(int,int):<=(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):136:j < byteArrays[i].length |==> j <= byteArrays[i].length
+51:ROR:<(int,int):FALSE(int,int):org.apache.poi.hpsf.Util@cat(byte[][]):136:j < byteArrays[i].length |==> false
+52:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.Util@cat(byte[][]):137:result[r++] = byteArrays[i][j] |==> <NO-OP>
+53:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.poi.hpsf.Util@cat(byte[][]):138:result |==> null
+54:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.poi.hpsf.Util@copy(byte[],int,int):155:new byte[length] |==> null
+55:LVR:0:POS:org.apache.poi.hpsf.Util@copy(byte[],int,int):156:0 |==> 1
+56:LVR:0:NEG:org.apache.poi.hpsf.Util@copy(byte[],int,int):156:0 |==> -1
+57:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.Util@copy(byte[],int,int):156:copy(src, offset, length, result, 0) |==> <NO-OP>
+58:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.poi.hpsf.Util@copy(byte[],int,int):157:result |==> null
+59:LVR:POS:0:org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:32 |==> 0
+60:LVR:POS:NEG:org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:32 |==> -32
+61:SOR:<<(long,int):>>(long,int):org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:((long)high) << 32 |==> ((long)high) >> 32
+62:SOR:<<(long,int):>>>(long,int):org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:((long)high) << 32 |==> ((long)high) >>> 32
+63:LVR:POS:0:org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:4294967295L |==> 0L
+64:LVR:POS:NEG:org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:4294967295L |==> -4294967295L
+65:LOR:&(long,long):^(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:low & 4294967295L |==> low ^ 4294967295L
+66:LOR:&(long,long):|(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:low & 4294967295L |==> low | 4294967295L
+67:LOR:|(long,long):&(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:((long)high) << 32 | (low & 4294967295L) |==> ((long)high) << 32 & (low & 4294967295L)
+68:LOR:|(long,long):^(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):187:((long)high) << 32 | (low & 4294967295L) |==> ((long)high) << 32 ^ (low & 4294967295L)
+69:LVR:POS:0:org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:1000 |==> 0
+70:LVR:POS:NEG:org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:1000 |==> -1000
+71:LVR:POS:0:org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:10 |==> 0
+72:LVR:POS:NEG:org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:10 |==> -10
+73:AOR:*(int,int):%(int,int):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:1000 * 10 |==> 1000 % 10
+74:AOR:*(int,int):+(int,int):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:1000 * 10 |==> 1000 + 10
+75:AOR:*(int,int):-(int,int):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:1000 * 10 |==> 1000 - 10
+76:AOR:*(int,int):/(int,int):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:1000 * 10 |==> 1000 / 10
+77:AOR:/(long,long):%(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:filetime / (1000 * 10) |==> filetime % (1000 * 10)
+78:AOR:/(long,long):*(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:filetime / (1000 * 10) |==> filetime * (1000 * 10)
+79:AOR:/(long,long):+(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:filetime / (1000 * 10) |==> filetime + (1000 * 10)
+80:AOR:/(long,long):-(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):188:filetime / (1000 * 10) |==> filetime - (1000 * 10)
+81:AOR:-(long,long):%(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):189:ms_since_16010101 - EPOCH_DIFF |==> ms_since_16010101 % EPOCH_DIFF
+82:AOR:-(long,long):*(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):189:ms_since_16010101 - EPOCH_DIFF |==> ms_since_16010101 * EPOCH_DIFF
+83:AOR:-(long,long):+(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):189:ms_since_16010101 - EPOCH_DIFF |==> ms_since_16010101 + EPOCH_DIFF
+84:AOR:-(long,long):/(long,long):org.apache.poi.hpsf.Util@filetimeToDate(int,int):189:ms_since_16010101 - EPOCH_DIFF |==> ms_since_16010101 / EPOCH_DIFF
+85:EVR:<NEW_CLASS(java.util.Date)>:<DEFAULT>:org.apache.poi.hpsf.Util@filetimeToDate(int,int):190:new Date(ms_since_19700101) |==> null

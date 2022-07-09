@@ -1,0 +1,2 @@
+1:COR:isDocumentSummaryInformation():TRUE:org.apache.poi.hpsf.DocumentSummaryInformation@<init>(PropertySet):96:isDocumentSummaryInformation() |==> false
+2:COR:isDocumentSummaryInformation():FALSE:org.apache.poi.hpsf.DocumentSummaryInformation@<init>(PropertySet):96:isDocumentSummaryInformation() |==> true
