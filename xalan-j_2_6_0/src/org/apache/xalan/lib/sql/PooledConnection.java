@@ -33,7 +33,7 @@ public class PooledConnection
   // boolean flag used to determine if connection is in use
   /**
    */
-  private boolean inuse = false;
+  private boolean inuse = true;
 
   // Constructor that takes the passed in JDBC Connection
   // and stores it in the connection attribute.

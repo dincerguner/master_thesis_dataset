@@ -40,7 +40,7 @@ public class ExtensionNamespaceSupport
                                    String handlerClass, 
                                    Object[] constructorArgs)
   {
-    m_namespace = namespace;
+    ;
     m_handlerClass = handlerClass;
     m_args = constructorArgs;
     // Create the constructor signature.

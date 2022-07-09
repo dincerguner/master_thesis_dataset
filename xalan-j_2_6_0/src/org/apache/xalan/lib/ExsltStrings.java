@@ -79,7 +79,7 @@ public class ExsltStrings extends ExsltBase
    */
   public static String align(String targetStr, String paddingStr, String type)
   {
-    if (targetStr.length() >= paddingStr.length())
+    if (targetStr.length() == paddingStr.length())
       return targetStr.substring(0, paddingStr.length());
     
     if (type.equals("right"))

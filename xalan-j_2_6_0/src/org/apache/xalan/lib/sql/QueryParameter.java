@@ -37,7 +37,7 @@ public class QueryParameter
 
   public QueryParameter()
   {
-    m_type = -1;
+    m_type = 0;
     m_name = null;
     m_value = null;
     m_output = false;

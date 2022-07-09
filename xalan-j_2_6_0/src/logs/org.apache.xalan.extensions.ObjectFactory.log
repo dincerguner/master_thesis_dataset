@@ -1,0 +1,16 @@
+1:LVR:NEG:0:org.apache.xalan.extensions.ObjectFactory:75:-1 |==> 0
+2:LVR:NEG:POS:org.apache.xalan.extensions.ObjectFactory:75:-1 |==> 1
+3:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@createObject(java.lang.String,java.lang.String):101:createObject(factoryId, null, fallbackClassName) |==> null
+4:EVR:<METHOD_INVOCATION(java.lang.Class)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@createObject(java.lang.String,java.lang.String,java.lang.String):131:lookUpFactoryClass(factoryId, propertiesFilename, fallbackClassName) |==> null
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xalan.extensions.ObjectFactory@createObject(java.lang.String,java.lang.String,java.lang.String):135:factoryClass == null |==> false
+6:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@createObject(java.lang.String,java.lang.String,java.lang.String):141:factoryClass.newInstance() |==> null
+7:STD:<CALL>:<NO-OP>:org.apache.xalan.extensions.ObjectFactory@createObject(java.lang.String,java.lang.String,java.lang.String):142:debugPrintln("created new instance of factory " + factoryId) |==> <NO-OP>
+8:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@createObject(java.lang.String,java.lang.String,java.lang.String):143:instance |==> null
+9:EVR:<METHOD_INVOCATION(java.lang.Class)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String):176:lookUpFactoryClass(factoryId, null, null) |==> null
+10:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String,java.lang.String,java.lang.String):206:lookUpFactoryClassName(factoryId, propertiesFilename, fallbackClassName) |==> null
+11:EVR:<METHOD_INVOCATION(java.lang.ClassLoader)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String,java.lang.String,java.lang.String):209:findClassLoader() |==> null
+12:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String,java.lang.String,java.lang.String):211:factoryClassName == null |==> false
+13:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String,java.lang.String,java.lang.String):212:factoryClassName = fallbackClassName |==> <NO-OP>
+14:LVR:TRUE:FALSE:org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String,java.lang.String,java.lang.String):219:true |==> false
+15:STD:<CALL>:<NO-OP>:org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String,java.lang.String,java.lang.String):220:debugPrintln("created new instance of " + providerClass + " using ClassLoader: " + cl) |==> <NO-OP>
+16:EVR:<IDENTIFIER(java.lang.Class)>:<DEFAULT>:org.apache.xalan.extensions.ObjectFactory@lookUpFactoryClass(java.lang.String,java.lang.String,java.lang.String):222:providerClass |==> null

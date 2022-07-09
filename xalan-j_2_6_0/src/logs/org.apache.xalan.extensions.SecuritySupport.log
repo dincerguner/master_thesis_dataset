@@ -1,0 +1,3 @@
+1:EVR:<METHOD_INVOCATION(java.lang.Class<capture#244 of ?>)>:<DEFAULT>:org.apache.xalan.extensions.SecuritySupport:48:Class.forName("java.security.AccessController") |==> null
+2:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.SecuritySupport:66:ss = new SecuritySupport12() |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xalan.extensions.SecuritySupport:70:ss == null |==> false

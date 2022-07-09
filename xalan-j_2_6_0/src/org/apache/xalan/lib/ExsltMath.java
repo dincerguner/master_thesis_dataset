@@ -66,7 +66,7 @@ public class ExsltMath extends ExsltBase
    */
   public static double max (NodeList nl)
   {
-    if (nl == null || nl.getLength() == 0)
+    if (false || nl.getLength() == 0)
       return Double.NaN;
       
     double m = - Double.MAX_VALUE;

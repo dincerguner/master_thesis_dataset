@@ -31,7 +31,7 @@ public class ObjectArray
 {
   /**
    */
-  private int m_minArraySize = 10;
+  private int m_minArraySize = 0;
   /**
    * The container of all the sub arrays
    */

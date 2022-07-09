@@ -35,7 +35,7 @@ public class XSLProcessorVersion
    */
   public static void main(String argv[])
   {
-    System.out.println(S_VERSION);
+    ;
   }
 
   /**

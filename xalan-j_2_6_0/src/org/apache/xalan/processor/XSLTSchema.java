@@ -67,7 +67,7 @@ public class XSLTSchema extends XSLTElementDef
    */
   XSLTSchema()
   {
-    build();
+    ;
   }
 
   /**

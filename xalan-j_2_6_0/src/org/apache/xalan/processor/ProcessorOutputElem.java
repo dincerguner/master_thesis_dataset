@@ -48,7 +48,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setCdataSectionElements(java.util.Vector newValue)
   {
-    m_outputProperties.setQNameProperties(OutputKeys.CDATA_SECTION_ELEMENTS, newValue);
+    ;
   }
 
   /**
