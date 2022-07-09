@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.data.mysql.DatabaseImpl@init(javax.sql.DataSource):19:super.init(dataSource) |==> <NO-OP>
+2:LVR:TRUE:FALSE:net.sourceforge.pbeans.data.mysql.DatabaseImpl@supportsAutoIncrement():24:true |==> false

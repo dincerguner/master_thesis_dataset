@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.Random)>:<DEFAULT>:net.sourceforge.pbeans.data.hsqldb.DatabaseImpl:17:new Random(System.currentTimeMillis()) |==> null
+2:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.data.hsqldb.DatabaseImpl@init(javax.sql.DataSource):24:this.init(dataSource) |==> <NO-OP>
+3:EVR:<PLUS(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.hsqldb.DatabaseImpl@getChangeFieldStatements(java.sql.Connection,java.lang.String,FieldDescriptor,boolean):32:"tmp_" + Math.abs(RAND.nextInt()) |==> null
+4:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.hsqldb.DatabaseImpl@getChangeFieldStatements(java.sql.Connection,java.lang.String,FieldDescriptor,boolean):33:false |==> true

@@ -1,0 +1,35 @@
+1:LVR:POS:0:net.sourceforge.pbeans.data.DefaultDatabaseFactory:11:99 |==> 0
+2:LVR:POS:NEG:net.sourceforge.pbeans.data.DefaultDatabaseFactory:11:99 |==> -99
+3:LVR:POS:0:net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 |==> 0
+4:LVR:POS:NEG:net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 |==> -59
+5:LVR:POS:0:net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:60 |==> 0
+6:LVR:POS:NEG:net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:60 |==> -60
+7:AOR:*(int,int):%(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 |==> 59 % 60
+8:AOR:*(int,int):+(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 |==> 59 + 60
+9:AOR:*(int,int):-(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 |==> 59 - 60
+10:AOR:*(int,int):/(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 |==> 59 / 60
+11:LVR:POS:0:net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:1000 |==> 0
+12:LVR:POS:NEG:net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:1000 |==> -1000
+13:AOR:*(int,int):%(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 * 1000 |==> 59 * 60 % 1000
+14:AOR:*(int,int):+(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 * 1000 |==> 59 * 60 + 1000
+15:AOR:*(int,int):-(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 * 1000 |==> 59 * 60 - 1000
+16:AOR:*(int,int):/(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory:12:59 * 60 * 1000 |==> 59 * 60 / 1000
+17:EVR:<IDENTIFIER(java.lang.ClassLoader)>:<DEFAULT>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@<init>(java.lang.ClassLoader):16:classLoader |==> null
+18:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@setMaxConnections(int):25:this.maxConnections = maxConnections |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@setConnectionTimeout(int):34:this.timeout = timeout |==> <NO-OP>
+20:EVR:<METHOD_INVOCATION(java.sql.Connection)>:<DEFAULT>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):43:dataSource.getConnection() |==> null
+21:EVR:<METHOD_INVOCATION(java.sql.DatabaseMetaData)>:<DEFAULT>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):45:c.getMetaData() |==> null
+22:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):46:dmd.getURL().toLowerCase() |==> null
+23:COR:url.startsWith(prefix):TRUE:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):48:url.startsWith(prefix) |==> false
+24:COR:url.startsWith(prefix):FALSE:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):48:url.startsWith(prefix) |==> true
+25:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):51:url.indexOf(':', prefix.length()) |==> 0
+26:LVR:NEG:0:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):52:-1 |==> 0
+27:LVR:NEG:POS:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):52:-1 |==> 1
+28:ROR:==(int,int):<=(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):52:colonIdx == -1 |==> colonIdx <= -1
+29:ROR:==(int,int):>=(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):52:colonIdx == -1 |==> colonIdx >= -1
+30:ROR:==(int,int):FALSE(int,int):net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):52:colonIdx == -1 |==> false
+31:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):55:url.substring(prefix.length(), colonIdx) |==> null
+32:EVR:<PLUS(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):56:"net.sourceforge.pbeans.data." + dbName + ".DatabaseImpl" |==> null
+33:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):59:this.classLoader == null |==> false
+34:COR:Database.class.isAssignableFrom(clazz):TRUE:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):60:Database.class.isAssignableFrom(clazz) |==> false
+35:COR:Database.class.isAssignableFrom(clazz):FALSE:net.sourceforge.pbeans.data.DefaultDatabaseFactory@getDatabase(javax.sql.DataSource):60:Database.class.isAssignableFrom(clazz) |==> true

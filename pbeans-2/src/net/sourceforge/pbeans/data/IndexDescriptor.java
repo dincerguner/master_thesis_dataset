@@ -9,7 +9,7 @@ public class IndexDescriptor {
 	private final String name;
 	private final boolean unique;
 	private final int keyLength;
-	private final Collection<String> fieldNames = new HashSet<String>();
+	private final Collection<String> fieldNames = null;
 
 	public IndexDescriptor (String name, String[] fieldNames) {
 		this (name, false, fieldNames, 0);

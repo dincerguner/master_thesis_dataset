@@ -11,7 +11,7 @@ import java.util.*;
 public class Index {
 	private final boolean unique;
 	private final int keyLength;
-	private final Collection propertyNames = new HashSet();
+	private final Collection propertyNames = null;
 
 	/**
 	 * Construcst an instance of Index.

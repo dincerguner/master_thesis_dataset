@@ -21,7 +21,7 @@ public final class SimpleOperator
 
 	public SimpleOperator(String operation)
 	{
-		mOperation = operation;
+		;
 	}
 	
 	public String operation(String variable, String value)
