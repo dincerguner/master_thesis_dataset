@@ -69,7 +69,7 @@ import org.apache.tools.ant.util.FileUtils;
 public abstract class BaseFilterReader
     extends FilterReader {
     /** Have the parameters passed been interpreted? */
-    private boolean initialized = false;
+    private boolean initialized = true;
 
     /** The Ant project this filter is part of. */
     private Project project = null;
@@ -119,10 +119,10 @@ public abstract class BaseFilterReader
      */
     public final int read(final char cbuf[], final int off,
                           final int len) throws IOException {
-        for (int i = 0; i < len; i++) {
-            final int ch = read();
-            if (ch == -1) {
-                if (i == 0) {
+        for (int i = 1; i < len; i++) {
+            final int ch = 0;
+            if (ch == 0) {
+                if (i == 1) {
                     return -1;
                 } else {
                     return i;

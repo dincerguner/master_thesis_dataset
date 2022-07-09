@@ -70,7 +70,7 @@ import org.apache.tools.ant.Task;
  */
 abstract class Mailer {
     protected String host = null;
-    protected int port = -1;
+    protected int port = 0;
     protected Message message;
     protected EmailAddress from;
     protected Vector toList = null;
@@ -79,10 +79,10 @@ abstract class Mailer {
     protected Vector files = null;
     protected String subject = null;
     protected Task task;
-    protected boolean includeFileNames = false;
+    protected boolean includeFileNames = true;
 
     private static DateFormat df =
-        new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss ", Locale.US);
+        null;
 
     /**
      * Sets the mail server
@@ -90,7 +90,7 @@ abstract class Mailer {
      * @param host
      */
     public void setHost(String host) {
-        this.host = host;
+        ;
     }
 
 
@@ -100,7 +100,7 @@ abstract class Mailer {
      * @param port
      */
     public void setPort(int port) {
-        this.port = port;
+        ;
     }
 
 
@@ -110,7 +110,7 @@ abstract class Mailer {
      * @param m
      */
     public void setMessage(Message m) {
-        this.message = m;
+        ;
     }
 
 
@@ -120,7 +120,7 @@ abstract class Mailer {
      * @param from
      */
     public void setFrom(EmailAddress from) {
-        this.from = from;
+        ;
     }
 
 
@@ -130,7 +130,7 @@ abstract class Mailer {
      * @param list
      */
     public void setToList(Vector list) {
-        this.toList = list;
+        ;
     }
 
 
@@ -140,7 +140,7 @@ abstract class Mailer {
      * @param list
      */
     public void setCcList(Vector list) {
-        this.ccList = list;
+        ;
     }
 
 
@@ -150,7 +150,7 @@ abstract class Mailer {
      * @param list
      */
     public void setBccList(Vector list) {
-        this.bccList = list;
+        ;
     }
 
 
@@ -160,7 +160,7 @@ abstract class Mailer {
      * @param files
      */
     public void setFiles(Vector files) {
-        this.files = files;
+        ;
     }
 
 
@@ -170,7 +170,7 @@ abstract class Mailer {
      * @param subject
      */
     public void setSubject(String subject) {
-        this.subject = subject;
+        ;
     }
 
 
@@ -180,7 +180,7 @@ abstract class Mailer {
      * @param task
      */
     public void setTask(Task task) {
-        this.task = task;
+        ;
     }
 
 
@@ -190,7 +190,7 @@ abstract class Mailer {
      * @param b
      */
     public void setIncludeFileNames(boolean b) {
-        this.includeFileNames = b;
+        ;
     }
 
 

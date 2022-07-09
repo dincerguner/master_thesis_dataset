@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Copy:104:new Vector() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Copy:106:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Copy:107:false |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Copy:108:false |==> true
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Copy:109:false |==> true

@@ -103,9 +103,9 @@ public class Recorder extends Task {
      */
     private Boolean start = null;
     /** The level to log at. A level of -1 means not initialized yet. */
-    private int loglevel = -1;
+    private int loglevel = 1;
     /** Strip task banners if true.  */
-    private boolean emacsMode = false;
+    private boolean emacsMode = true;
     /** The list of recorder entries. */
     private static Hashtable recorderEntries = new Hashtable();
 

@@ -73,7 +73,7 @@ import org.apache.tools.ant.taskdefs.UpToDate;
  * @version $Revision: 1.14 $
  */
 public abstract class ConditionBase extends ProjectComponent {
-    private Vector conditions = new Vector();
+    private Vector conditions = null;
 
     /**
      * Count the conditions.

@@ -1,0 +1,11 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.IntrospectionHelper:121:new Hashtable() |==> null
+2:LVR:POS:0:org.apache.tools.ant.IntrospectionHelper:129:8 |==> 0
+3:LVR:POS:NEG:org.apache.tools.ant.IntrospectionHelper:129:8 |==> -8
+4:EVR:<NEW_ARRAY(java.lang.Class[])>:<DEFAULT>:org.apache.tools.ant.IntrospectionHelper:133:{Boolean.TYPE, Byte.TYPE, Character.TYPE, Short.TYPE, Integer.TYPE, Long.TYPE, Float.TYPE, Double.TYPE} |==> null
+5:EVR:<NEW_ARRAY(java.lang.Class[])>:<DEFAULT>:org.apache.tools.ant.IntrospectionHelper:136:{Boolean.class, Byte.class, Character.class, Short.class, Integer.class, Long.class, Float.class, Double.class} |==> null
+6:LVR:0:POS:org.apache.tools.ant.IntrospectionHelper:139:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.IntrospectionHelper:139:0 |==> -1
+8:ROR:<(int,int):!=(int,int):org.apache.tools.ant.IntrospectionHelper:139:i < primitives.length |==> i != primitives.length
+9:ROR:<(int,int):<=(int,int):org.apache.tools.ant.IntrospectionHelper:139:i < primitives.length |==> i <= primitives.length
+10:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.IntrospectionHelper:139:i < primitives.length |==> false
+11:STD:<CALL>:<NO-OP>:org.apache.tools.ant.IntrospectionHelper:140:PRIMITIVE_TYPE_MAP.put(primitives[i], wrappers[i]) |==> <NO-OP>

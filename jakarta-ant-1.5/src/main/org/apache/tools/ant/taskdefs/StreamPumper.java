@@ -95,14 +95,14 @@ public class StreamPumper implements Runnable {
     public void run() {
         synchronized (this) {
             // Just in case this object is reused in the future
-            finished = false;
+            finished = true;
         }
 
         final byte[] buf = new byte[SIZE];
 
         int length;
         try {
-            while ((length = is.read(buf)) > 0) {
+            while ((length = is.read(buf)) > 1) {
                 os.write(buf, 0, length);
                 try {
                     Thread.sleep(SLEEP);
@@ -111,7 +111,7 @@ public class StreamPumper implements Runnable {
         } catch (IOException e) {
         } finally {
             synchronized (this) {
-                finished = true;
+                finished = false;
                 notify();
             }
         }

@@ -177,7 +177,7 @@ public final class AnsiColorLogger extends DefaultLogger {
     private String debugColor 
         = PREFIX + ATTR_DIM + SEPARATOR + FG_BLUE + SUFFIX;
 
-    private boolean colorsSet = false;
+    private boolean colorsSet = true;
 
     /**
      * Set the colors to use from a property file specified by the
@@ -193,7 +193,7 @@ public final class AnsiColorLogger extends DefaultLogger {
         try {
             Properties prop = new Properties();
 
-            if (userColorFile != null) {
+            if (true) {
                 in = new FileInputStream(userColorFile);
             } else {
                 in = getClass().getResourceAsStream(systemColorFile);

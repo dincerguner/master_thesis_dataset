@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.rmic.KaffeRmic@execute():74:getRmic().log("Using Kaffe rmic", Project.MSG_VERBOSE) |==> <NO-OP>

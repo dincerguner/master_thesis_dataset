@@ -1,0 +1,8 @@
+1:LVR:NEG:0:org.apache.tools.ant.types.EnumeratedAttribute:78:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.types.EnumeratedAttribute:78:-1 |==> 1
+3:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):97:indexOfValue(value) |==> 0
+4:LVR:NEG:0:org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):98:-1 |==> 0
+5:LVR:NEG:POS:org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):98:-1 |==> 1
+6:ROR:==(int,int):<=(int,int):org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):98:index == -1 |==> index <= -1
+7:ROR:==(int,int):>=(int,int):org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):98:index == -1 |==> index >= -1
+8:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.types.EnumeratedAttribute@setValue(java.lang.String):98:index == -1 |==> false

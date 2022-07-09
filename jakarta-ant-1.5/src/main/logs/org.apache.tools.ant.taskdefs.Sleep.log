@@ -1,0 +1,9 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.Sleep:83:true |==> false
+2:LVR:0:POS:org.apache.tools.ant.taskdefs.Sleep:88:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.taskdefs.Sleep:88:0 |==> -1
+4:LVR:0:POS:org.apache.tools.ant.taskdefs.Sleep:93:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.taskdefs.Sleep:93:0 |==> -1
+6:LVR:0:POS:org.apache.tools.ant.taskdefs.Sleep:97:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.taskdefs.Sleep:97:0 |==> -1
+8:LVR:0:POS:org.apache.tools.ant.taskdefs.Sleep:102:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.ant.taskdefs.Sleep:102:0 |==> -1

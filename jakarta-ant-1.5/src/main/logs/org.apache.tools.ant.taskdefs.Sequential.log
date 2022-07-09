@@ -1,0 +1,8 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Sequential:84:new Vector() |==> null
+2:COR:isInvalid():TRUE:org.apache.tools.ant.taskdefs.Sequential@maybeConfigure():94:isInvalid() |==> false
+3:COR:isInvalid():FALSE:org.apache.tools.ant.taskdefs.Sequential@maybeConfigure():94:isInvalid() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Sequential@maybeConfigure():95:super.maybeConfigure() |==> <NO-OP>
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Sequential@maybeConfigure():97:false |==> true
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Sequential@maybeConfigure():97:getRuntimeConfigurableWrapper().maybeConfigure(getProject(), false) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Sequential@addTask(Task):108:nestedTasks.addElement(nestedTask) |==> <NO-OP>
+8:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Sequential@execute():115:nestedTasks.elements() |==> null

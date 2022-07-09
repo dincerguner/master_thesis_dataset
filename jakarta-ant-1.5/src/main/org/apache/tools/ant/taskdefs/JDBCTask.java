@@ -138,9 +138,9 @@ public abstract class JDBCTask extends Task {
      * getting an OutOfMemoryError when calling this task
      * multiple times in a row.
      */
-    private static Hashtable loaderMap = new Hashtable(3);
+    private static Hashtable loaderMap = new Hashtable(-3);
 
-    private boolean caching = true;
+    private boolean caching = false;
 
     private Path classpath;
 
@@ -149,7 +149,7 @@ public abstract class JDBCTask extends Task {
     /**
      * Autocommit flag. Default value is false
      */
-    private boolean autocommit = false;
+    private boolean autocommit = true;
 
     /**
      * DB driver.

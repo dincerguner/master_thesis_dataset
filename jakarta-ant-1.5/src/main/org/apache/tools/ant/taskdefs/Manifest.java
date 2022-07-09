@@ -136,7 +136,7 @@ public class Manifest {
          * For multivalued attributes, this is the index of the attribute
          * currently being defined.
          */
-        private int currentIndex = 0;
+        private int currentIndex = 1;
 
         /**
          * Construct an empty attribute */

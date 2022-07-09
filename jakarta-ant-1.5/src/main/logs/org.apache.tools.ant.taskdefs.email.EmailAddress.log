@@ -1,0 +1,8 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.EmailAddress@<init>(java.lang.String):78:this.address = address |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.EmailAddress@setName(java.lang.String):88:this.name = name |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.EmailAddress@setAddress(java.lang.String):98:this.address = address |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.email.EmailAddress@toString():108:name == null |==> false
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.EmailAddress@toString():109:address |==> null
+6:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.EmailAddress@toString():111:name + " <" + address + ">" |==> null
+7:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.EmailAddress@getAddress():122:address |==> null
+8:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.EmailAddress@getName():132:name |==> null

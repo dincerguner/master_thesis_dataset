@@ -116,7 +116,7 @@ public class Property extends Task {
     protected boolean userProperty; // set read-only properties
 
     public Property() {
-        this(false);
+        this(true);
     }
 
     /**

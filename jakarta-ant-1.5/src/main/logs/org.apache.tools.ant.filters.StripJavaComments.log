@@ -1,0 +1,10 @@
+1:LVR:NEG:0:org.apache.tools.ant.filters.StripJavaComments:74:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.filters.StripJavaComments:74:-1 |==> 1
+3:LVR:FALSE:TRUE:org.apache.tools.ant.filters.StripJavaComments:80:false |==> true
+4:LVR:NEG:0:org.apache.tools.ant.filters.StripJavaComments@read():112:-1 |==> 0
+5:LVR:NEG:POS:org.apache.tools.ant.filters.StripJavaComments@read():112:-1 |==> 1
+6:LVR:NEG:0:org.apache.tools.ant.filters.StripJavaComments@read():113:-1 |==> 0
+7:LVR:NEG:POS:org.apache.tools.ant.filters.StripJavaComments@read():113:-1 |==> 1
+8:ROR:!=(int,int):<(int,int):org.apache.tools.ant.filters.StripJavaComments@read():113:readAheadCh != -1 |==> readAheadCh < -1
+9:ROR:!=(int,int):>(int,int):org.apache.tools.ant.filters.StripJavaComments@read():113:readAheadCh != -1 |==> readAheadCh > -1
+10:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.filters.StripJavaComments@read():113:readAheadCh != -1 |==> true

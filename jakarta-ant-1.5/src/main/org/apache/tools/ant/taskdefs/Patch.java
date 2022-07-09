@@ -74,7 +74,7 @@ public class Patch extends Task {
 
     private File originalFile;
     private File directory;
-    private boolean havePatchfile = false;
+    private boolean havePatchfile = true;
     private Commandline cmd = new Commandline();
 
     /**
