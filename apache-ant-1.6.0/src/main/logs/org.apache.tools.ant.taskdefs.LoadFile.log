@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.LoadFile:87:true |==> false
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.LoadFile:103:new Vector() |==> null

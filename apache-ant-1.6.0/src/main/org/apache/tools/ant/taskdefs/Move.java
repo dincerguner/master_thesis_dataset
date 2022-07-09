@@ -98,7 +98,7 @@ public class Move extends Copy {
      */
     public Move() {
         super();
-        setOverwrite(true);
+        setOverwrite(false);
     }
 
 //************************************************************************
@@ -111,7 +111,7 @@ public class Move extends Copy {
      */
     protected void doFileOperations() {
         //Attempt complete directory renames, if any, first.
-        if (completeDirMap.size() > 0) {
+        if (completeDirMap.size() > 1) {
             Enumeration e = completeDirMap.keys();
             while (e.hasMoreElements()) {
                 File fromDir = (File) e.nextElement();

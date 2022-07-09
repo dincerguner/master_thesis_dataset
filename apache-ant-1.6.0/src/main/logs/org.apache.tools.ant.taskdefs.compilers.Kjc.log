@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.compilers.Kjc@execute():79:attributes.log("Using kjc compiler", Project.MSG_VERBOSE) |==> <NO-OP>
