@@ -1,0 +1,1 @@
+1:EVR:<METHOD_INVOCATION(java.util.Map)>:<DEFAULT>:org.apache.synapse.endpoints.dispatch.SimpleClientSessionDispatcher:44:Collections.synchronizedMap(new HashMap()) |==> null

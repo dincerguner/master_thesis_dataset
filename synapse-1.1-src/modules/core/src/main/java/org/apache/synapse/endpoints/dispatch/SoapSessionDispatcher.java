@@ -35,7 +35,7 @@ public class SoapSessionDispatcher implements Dispatcher {
      * Map to store session -> endpoint mappings. Synchronized map is used as this is accessed by
      * multiple threds (e.g. multiple clients different sessions).
      */
-    private Map sessionMap = Collections.synchronizedMap(new HashMap());
+    private Map sessionMap = null;
 
     /**
      * Gives the endpoint based on the service group context ID of the request message.

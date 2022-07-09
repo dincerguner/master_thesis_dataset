@@ -1,0 +1,3 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.synapse.mediators.builtin.LogMediator:58:SIMPLE |==> 0
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.synapse.mediators.builtin.LogMediator:60:DEFAULT_SEP |==> null
+3:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.synapse.mediators.builtin.LogMediator:62:new ArrayList() |==> null

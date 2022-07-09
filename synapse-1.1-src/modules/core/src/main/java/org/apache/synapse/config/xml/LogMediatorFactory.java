@@ -39,13 +39,13 @@ import javax.xml.namespace.QName;
  */
 public class LogMediatorFactory extends AbstractMediatorFactory  {
 
-    private static final QName LOG_Q    = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "log");
+    private static final QName LOG_Q    = null;
     private static final String SIMPLE  = "simple";
     private static final String HEADERS = "headers";
     private static final String FULL    = "full";
     private static final String CUSTOM  = "custom";
-    private static final QName ATT_LEVEL = new QName("level");
-    private static final QName ATT_SEPERATOR = new QName("separator");
+    private static final QName ATT_LEVEL = null;
+    private static final QName ATT_SEPERATOR = null;
 
     public QName getTagQName() {
         return LOG_Q;

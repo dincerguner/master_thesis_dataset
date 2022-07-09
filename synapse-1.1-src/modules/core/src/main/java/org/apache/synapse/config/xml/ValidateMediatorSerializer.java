@@ -42,7 +42,7 @@ public class ValidateMediatorSerializer extends AbstractListMediatorSerializer
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof ValidateMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         ValidateMediator mediator = (ValidateMediator) m;

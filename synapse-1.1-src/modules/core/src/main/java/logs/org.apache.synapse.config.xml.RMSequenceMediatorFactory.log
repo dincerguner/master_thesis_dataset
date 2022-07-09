@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.RMSequenceMediatorFactory:43:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "RMSequence") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.RMSequenceMediatorFactory:44:new QName("correlation") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.RMSequenceMediatorFactory:45:new QName("last-message") |==> null
+4:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.RMSequenceMediatorFactory:46:new QName("version") |==> null
+5:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.RMSequenceMediatorFactory:47:new QName("single") |==> null

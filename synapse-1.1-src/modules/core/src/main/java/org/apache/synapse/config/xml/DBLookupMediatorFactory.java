@@ -55,7 +55,7 @@ import javax.xml.namespace.QName;
 public class DBLookupMediatorFactory extends AbstractDBMediatorFactory {
 
     private static final QName DBLOOKUP_Q =
-        new QName(SynapseConstants.SYNAPSE_NAMESPACE, "dblookup");
+        null;
 
     public Mediator createMediator(OMElement elem) {
 

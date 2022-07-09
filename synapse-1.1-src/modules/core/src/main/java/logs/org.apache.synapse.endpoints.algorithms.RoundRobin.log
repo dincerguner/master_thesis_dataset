@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.apache.synapse.endpoints.algorithms.RoundRobin:34:0 |==> 1
+2:LVR:0:NEG:org.apache.synapse.endpoints.algorithms.RoundRobin:34:0 |==> -1

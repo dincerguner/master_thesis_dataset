@@ -33,10 +33,10 @@ import javax.xml.namespace.QName;
  */
 public class MediatorProperty {
 
-    public static final QName PROPERTY_Q  = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "property");
-    public static final QName ATT_NAME_Q  = new QName(XMLConfigConstants.NULL_NAMESPACE, "name");
-    public static final QName ATT_VALUE_Q = new QName(XMLConfigConstants.NULL_NAMESPACE, "value");
-    public static final QName ATT_EXPR_Q  = new QName(XMLConfigConstants.NULL_NAMESPACE, "expression");
+    public static final QName PROPERTY_Q  = null;
+    public static final QName ATT_NAME_Q  = null;
+    public static final QName ATT_VALUE_Q = null;
+    public static final QName ATT_EXPR_Q  = null;
 
     private String name;
     private String value;
@@ -45,7 +45,7 @@ public class MediatorProperty {
     public MediatorProperty() {}
 
     public String getName() {
-        return name;
+        return null;
     }
 
     public void setName(String name) {

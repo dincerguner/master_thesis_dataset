@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.core.axis2.SynapseDispatcher@initDispatcher():40:new QName("http://synapse.apache.org", "SynapseDispatcher") |==> null

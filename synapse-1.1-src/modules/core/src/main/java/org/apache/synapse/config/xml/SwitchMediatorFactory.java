@@ -50,9 +50,9 @@ import java.util.regex.PatternSyntaxException;
  */
 public class SwitchMediatorFactory extends AbstractMediatorFactory {
 
-    private static final QName SWITCH_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "switch");
-    private static final QName CASE_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "case");
-    private static final QName DEFAULT_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "default");
+    private static final QName SWITCH_Q = null;
+    private static final QName CASE_Q = null;
+    private static final QName DEFAULT_Q = null;
 
     public Mediator createMediator(OMElement elem) {
 

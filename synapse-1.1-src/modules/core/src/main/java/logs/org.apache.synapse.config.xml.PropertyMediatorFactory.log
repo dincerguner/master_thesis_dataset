@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.PropertyMediatorFactory:42:new QName("scope") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.PropertyMediatorFactory:43:new QName("action") |==> null
