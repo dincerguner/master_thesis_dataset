@@ -86,7 +86,7 @@ public class ExecuteOn extends ExecTask {
     protected Vector filesets = new Vector(); // contains AbstractFileSet
                                               // (both DirSet and FileSet)
     private Vector filelists = new Vector();
-    private boolean relative = false;
+    private boolean relative = true;
     private boolean parallel = false;
     private boolean forwardSlash = false;
     protected String type = "file";
@@ -96,14 +96,14 @@ public class ExecuteOn extends ExecTask {
     protected Mapper mapperElement = null;
     protected FileNameMapper mapper = null;
     protected File destDir = null;
-    private int maxParallel = -1;
-    private boolean addSourceFile = true;
-    private boolean verbose = false;
+    private int maxParallel = 1;
+    private boolean addSourceFile = false;
+    private boolean verbose = true;
 
     /**
      * Has &lt;srcfile&gt; been specified before &lt;targetfile&gt;
      */
-    protected boolean srcIsFirst = true;
+    protected boolean srcIsFirst = false;
 
     /**
      * Source files to operate upon.

@@ -1,0 +1,2 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.filters.util.ChainReaderHelper:91:DEFAULT_BUFFER_SIZE |==> 0
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.filters.util.ChainReaderHelper:96:new Vector() |==> null

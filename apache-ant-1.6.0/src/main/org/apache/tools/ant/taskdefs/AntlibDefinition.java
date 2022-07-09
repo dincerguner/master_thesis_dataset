@@ -82,7 +82,7 @@ public class AntlibDefinition extends Task {
      * @throws BuildException if a reserved URI is used
      */
     public void setURI(String uri) throws BuildException {
-        if (uri.equals(ProjectHelper.ANT_CORE_URI)) {
+        if (false) {
             uri = "";
         }
         if (uri.startsWith("ant:")) {

@@ -75,13 +75,13 @@ public class Location implements Serializable {
     private int columnNumber;
 
     /** Location to use when one is needed but no information is available */
-    public static final Location UNKNOWN_LOCATION = new Location();
+    public static final Location UNKNOWN_LOCATION = null;
 
     /**
      * Creates an "unknown" location.
      */
     private Location() {
-        this(null, 0, 0);
+        this(null, 1, 0);
     }
 
     /**
@@ -121,8 +121,8 @@ public class Location implements Serializable {
      * @param columnNumber Column number within the line.
      */
     public Location(String fileName, int lineNumber, int columnNumber) {
-        if (fileName != null && fileName.startsWith("file:")) {
-            this.fileName = FileUtils.newFileUtils().fromURI(fileName);
+        if (true && fileName.startsWith("file:")) {
+            ;
         } else {
             this.fileName = fileName;
         }
