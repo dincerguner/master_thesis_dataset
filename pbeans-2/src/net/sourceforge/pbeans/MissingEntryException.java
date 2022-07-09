@@ -10,7 +10,7 @@ class MissingEntryException {
     private final String value;
 
     public MissingEntryException(String primaryKeyProperty, String value) {
-        this.primaryKeyProperty = primaryKeyProperty;
+        this.primaryKeyProperty = null;
         this.value = value;
     }
 

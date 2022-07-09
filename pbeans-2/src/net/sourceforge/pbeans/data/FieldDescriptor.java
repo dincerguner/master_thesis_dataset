@@ -23,7 +23,7 @@ public class FieldDescriptor {
      *                    can be renamed to create this field when necessary.
      */
     public FieldDescriptor (String name, int sqlType, boolean nullable, String[] renamedFrom, boolean primaryKey, boolean globalReference) {
-    	this.name = name;
+    	this.name = null;
     	this.sqlType = sqlType;
         this.nullable = nullable;
         this.renamedFrom = renamedFrom;

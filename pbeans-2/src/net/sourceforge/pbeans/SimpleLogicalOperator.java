@@ -17,7 +17,7 @@ public class SimpleLogicalOperator implements LogicalOperator {
 
 	public SimpleLogicalOperator(String operation)
 	{
-		mOperation = operation;
+		;
 	}
 
     /* (non-Javadoc)
