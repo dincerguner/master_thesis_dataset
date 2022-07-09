@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.POJOCommandMediatorFactory:55:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "pojoCommand") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.POJOCommandMediatorFactory:56:new QName("action") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.POJOCommandMediatorFactory:57:new QName("context-name") |==> null

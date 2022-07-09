@@ -33,7 +33,7 @@ public class RMSequenceMediatorSerializer extends AbstractMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof RMSequenceMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         RMSequenceMediator mediator = (RMSequenceMediator) m;

@@ -37,7 +37,7 @@ public class SynapseMediatorSerializer extends AbstractListMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof SynapseMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         SynapseMediator mediator = (SynapseMediator) m;

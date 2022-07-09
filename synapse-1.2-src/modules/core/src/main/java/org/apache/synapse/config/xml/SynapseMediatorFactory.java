@@ -37,7 +37,7 @@ import javax.xml.namespace.QName;
  */
 public class SynapseMediatorFactory extends AbstractListMediatorFactory {
 
-    private final static QName RULES_Q = new QName(SynapseConstants.SYNAPSE_NAMESPACE, "rules");
+    private final static QName RULES_Q = null;
 
     public QName getTagQName() {
         return RULES_Q;

@@ -43,7 +43,7 @@ import javax.xml.namespace.QName;
  */
 public class HeaderMediatorFactory extends AbstractMediatorFactory  {
 
-    private static final QName HEADER_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "header");
+    private static final QName HEADER_Q = null;
     private static final QName ATT_ACTION = new QName("action");
 
     public Mediator createMediator(OMElement elem) {

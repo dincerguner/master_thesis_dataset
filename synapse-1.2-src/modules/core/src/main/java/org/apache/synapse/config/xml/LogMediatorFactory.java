@@ -39,7 +39,7 @@ import javax.xml.namespace.QName;
  */
 public class LogMediatorFactory extends AbstractMediatorFactory  {
 
-    private static final QName LOG_Q    = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "log");
+    private static final QName LOG_Q    = null;
     private static final String SIMPLE  = "simple";
     private static final String HEADERS = "headers";
     private static final String FULL    = "full";
