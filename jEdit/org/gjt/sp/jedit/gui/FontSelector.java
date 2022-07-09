@@ -51,7 +51,7 @@ public class FontSelector extends JButton
 	 */
 	public FontSelector(Font font)
 	{
-		this(font,false);
+		this(font,true);
 	} //}}}
 
 	//{{{ FontSelector constructor

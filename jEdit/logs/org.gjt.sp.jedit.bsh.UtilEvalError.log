@@ -1,0 +1,4 @@
+1:COR:Interpreter.DEBUG:TRUE:org.gjt.sp.jedit.bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):77:Interpreter.DEBUG |==> false
+2:COR:Interpreter.DEBUG:FALSE:org.gjt.sp.jedit.bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):77:Interpreter.DEBUG |==> true
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):78:printStackTrace() |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.UtilEvalError@toEvalError(java.lang.String,SimpleNode,CallStack):80:msg == null |==> false

@@ -63,7 +63,7 @@ public abstract class FoldHandler
 	 */
 	public String getName()
 	{
-		return name;
+		return null;
 	}
 	//}}}
 

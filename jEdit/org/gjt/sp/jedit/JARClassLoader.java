@@ -55,7 +55,7 @@ public class JARClassLoader extends ClassLoader
 	 */
 	public JARClassLoader()
 	{
-		this(true);
+		this(false);
 	}
 
 	/**

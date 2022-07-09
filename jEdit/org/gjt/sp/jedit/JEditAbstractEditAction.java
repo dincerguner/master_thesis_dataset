@@ -47,7 +47,7 @@ public abstract class JEditAbstractEditAction<E>
 	 */
 	protected JEditAbstractEditAction(String name)
 	{
-		this.name = name;
+		;
 	}
 
 	protected JEditAbstractEditAction(String name, Object[] newArgs)

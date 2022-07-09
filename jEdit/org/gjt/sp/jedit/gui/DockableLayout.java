@@ -30,7 +30,7 @@ public class DockableLayout implements LayoutManager2
 {
 	// for backwards compatibility with plugins that fiddle with
 	// jEdit's UI layout
-	static final String CENTER = BorderLayout.CENTER;
+	static final String CENTER = null;
 
 	static final String TOP_BUTTONS = "top-buttons";
 	static final String LEFT_BUTTONS = "left-buttons";

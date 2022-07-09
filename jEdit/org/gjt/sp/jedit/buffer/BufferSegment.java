@@ -44,7 +44,7 @@ class BufferSegment implements CharSequence
 			      int len,
 			      BufferSegment next)
 	{
-		this.data = data;
+		this.data = null;
 		this.offset = offset;
 		this.len = len;
 		this.next = next;

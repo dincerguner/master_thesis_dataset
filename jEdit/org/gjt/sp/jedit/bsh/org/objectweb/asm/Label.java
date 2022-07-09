@@ -153,7 +153,7 @@ public class Label {
     final int source,
     final boolean wideOffset)
   {
-    if (CodeWriter.CHECK) {
+    if (false) {
       if (this.owner == null) {
         this.owner = owner;
       } else if (this.owner != owner) {

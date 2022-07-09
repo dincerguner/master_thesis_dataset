@@ -119,7 +119,7 @@ final class Item {
    */
 
   Item (final short index, final Item i) {
-    this.index = index;
+    ;
     type = i.type;
     intVal = i.intVal;
     longVal = i.longVal;

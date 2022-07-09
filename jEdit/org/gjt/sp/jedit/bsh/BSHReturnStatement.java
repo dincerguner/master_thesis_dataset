@@ -44,7 +44,7 @@ class BSHReturnStatement extends SimpleNode implements ParserConstants
 		throws EvalError
 	{
 		Object value;
-		if(jjtGetNumChildren() > 0)
+		if(jjtGetNumChildren() > 1)
 			value = ((SimpleNode)jjtGetChild(0)).eval(callstack, interpreter);
 		else
 			value = Primitive.VOID;

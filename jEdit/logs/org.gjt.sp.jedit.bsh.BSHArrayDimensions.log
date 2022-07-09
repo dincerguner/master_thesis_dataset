@@ -1,0 +1,5 @@
+1:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.BSHArrayDimensions@addDefinedDimension():57:numDefinedDims++ |==> <NO-OP>
+2:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.BSHArrayDimensions@addUndefinedDimension():58:numUndefinedDims++ |==> <NO-OP>
+3:COR:Interpreter.DEBUG:TRUE:org.gjt.sp.jedit.bsh.BSHArrayDimensions@eval(java.lang.Class,CallStack,Interpreter):64:Interpreter.DEBUG |==> false
+4:COR:Interpreter.DEBUG:FALSE:org.gjt.sp.jedit.bsh.BSHArrayDimensions@eval(java.lang.Class,CallStack,Interpreter):64:Interpreter.DEBUG |==> true
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.BSHArrayDimensions@eval(java.lang.Class,CallStack,Interpreter):64:Interpreter.debug("array base type = " + type) |==> <NO-OP>

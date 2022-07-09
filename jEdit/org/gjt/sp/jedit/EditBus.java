@@ -117,7 +117,7 @@ public class EditBus
 	 */
 	public static void addToBus(EBComponent comp)
 	{
-		addToBus((Object)comp);
+		;
 	} //}}}
 
 	//{{{ addToBus() method

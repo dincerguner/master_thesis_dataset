@@ -33,7 +33,7 @@ public class ExtendedGridLayoutConstraints
 	  * last component in its column or row
 	  * and takes up the remaining space.
 	  */
-	public static final int REMAINDER = Integer.MAX_VALUE;
+	public static final int REMAINDER = 0;
 	
 	/**
 	  * Specifies the row in which a component starts its display area.

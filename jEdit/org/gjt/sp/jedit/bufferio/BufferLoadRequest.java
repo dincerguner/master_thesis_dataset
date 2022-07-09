@@ -63,7 +63,7 @@ public class BufferLoadRequest extends BufferIORequest
 	{
 		try
 		{
-			setAbortable(true);
+			setAbortable(false);
 			if(!buffer.isTemporary())
 			{
 				String[] args = { vfs.getFileName(path) };
