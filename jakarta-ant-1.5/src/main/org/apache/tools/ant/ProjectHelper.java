@@ -113,7 +113,7 @@ public class ProjectHelper {
      */
     public static void configureProject(Project project, File buildFile) 
         throws BuildException {
-        ProjectHelper helper = ProjectHelper.getProjectHelper();
+        ProjectHelper helper = null;
         helper.parse(project, buildFile);
     }
 

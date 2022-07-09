@@ -1,0 +1,4 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory@getCompiler(java.lang.String,Task):100:true |==> false
+2:COR:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_4):TRUE:org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory@getCompiler(java.lang.String,Task):102:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_4) |==> false
+3:COR:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_4):FALSE:org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory@getCompiler(java.lang.String,Task):102:JavaEnvUtils.isJavaVersion(JavaEnvUtils.JAVA_1_4) |==> true
+4:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory@getCompiler(java.lang.String,Task):103:false |==> true

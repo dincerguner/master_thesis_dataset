@@ -95,7 +95,7 @@ public class PathConvert extends Task {
     /**
      * Set when targetOS is set to windows
      */
-    private boolean targetWindows = false;
+    private boolean targetWindows = true;
     /**
      * Set if we're running on windows
      */

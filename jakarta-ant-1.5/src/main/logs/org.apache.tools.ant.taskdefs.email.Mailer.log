@@ -1,0 +1,79 @@
+1:LVR:NEG:0:org.apache.tools.ant.taskdefs.email.Mailer:73:-1 |==> 0
+2:LVR:NEG:POS:org.apache.tools.ant.taskdefs.email.Mailer:73:-1 |==> 1
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.email.Mailer:82:false |==> true
+4:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Mailer:85:new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss ", Locale.US) |==> null
+5:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setHost(java.lang.String):93:this.host = host |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setPort(int):103:this.port = port |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setMessage(Message):113:this.message = m |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setFrom(EmailAddress):123:this.from = from |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setToList(java.util.Vector):133:this.toList = list |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setCcList(java.util.Vector):143:this.ccList = list |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setBccList(java.util.Vector):153:this.bccList = list |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setFiles(java.util.Vector):163:this.files = files |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setSubject(java.lang.String):173:this.subject = subject |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setTask(Task):183:this.task = task |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@setIncludeFileNames(boolean):193:this.includeFileNames = b |==> <NO-OP>
+16:EVR:<METHOD_INVOCATION(java.util.Calendar)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():212:Calendar.getInstance() |==> null
+17:EVR:<METHOD_INVOCATION(java.util.TimeZone)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():213:cal.getTimeZone() |==> null
+18:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():214:tz.getOffset(cal.get(Calendar.ERA), cal.get(Calendar.YEAR), cal.get(Calendar.MONTH), cal.get(Calendar.DAY_OF_MONTH), cal.get(Calendar.DAY_OF_WEEK), cal.get(Calendar.MILLISECOND)) |==> 0
+19:LVR:0:POS:org.apache.tools.ant.taskdefs.email.Mailer@getDate():220:0 |==> 1
+20:LVR:0:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():220:0 |==> -1
+21:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():220:offset < 0 |==> offset != 0
+22:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():220:offset < 0 |==> offset <= 0
+23:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():220:offset < 0 |==> false
+24:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():221:offset = Math.abs(offset) |==> <NO-OP>
+25:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 |==> 0
+26:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 |==> -60
+27:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 |==> 0
+28:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 |==> -60
+29:AOR:*(int,int):%(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 |==> 60 % 60
+30:AOR:*(int,int):+(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 |==> 60 + 60
+31:AOR:*(int,int):-(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 |==> 60 - 60
+32:AOR:*(int,int):/(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 |==> 60 / 60
+33:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:1000 |==> 0
+34:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:1000 |==> -1000
+35:AOR:*(int,int):%(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 * 1000 |==> 60 * 60 % 1000
+36:AOR:*(int,int):+(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 * 1000 |==> 60 * 60 + 1000
+37:AOR:*(int,int):-(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 * 1000 |==> 60 * 60 - 1000
+38:AOR:*(int,int):/(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:60 * 60 * 1000 |==> 60 * 60 / 1000
+39:AOR:/(int,int):%(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:offset / (60 * 60 * 1000) |==> offset % (60 * 60 * 1000)
+40:AOR:/(int,int):*(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:offset / (60 * 60 * 1000) |==> offset * (60 * 60 * 1000)
+41:AOR:/(int,int):+(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:offset / (60 * 60 * 1000) |==> offset + (60 * 60 * 1000)
+42:AOR:/(int,int):-(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():222:offset / (60 * 60 * 1000) |==> offset - (60 * 60 * 1000)
+43:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 |==> 0
+44:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 |==> -60
+45:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:1000 |==> 0
+46:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:1000 |==> -1000
+47:AOR:*(int,int):%(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * 1000 |==> 60 % 1000
+48:AOR:*(int,int):+(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * 1000 |==> 60 + 1000
+49:AOR:*(int,int):-(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * 1000 |==> 60 - 1000
+50:AOR:*(int,int):/(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * 1000 |==> 60 / 1000
+51:AOR:/(int,int):%(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) |==> offset % (60 * 1000)
+52:AOR:/(int,int):*(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) |==> offset * (60 * 1000)
+53:AOR:/(int,int):+(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) |==> offset + (60 * 1000)
+54:AOR:/(int,int):-(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) |==> offset - (60 * 1000)
+55:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 |==> 0
+56:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 |==> -60
+57:AOR:*(int,int):%(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * hours |==> 60 % hours
+58:AOR:*(int,int):+(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * hours |==> 60 + hours
+59:AOR:*(int,int):-(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * hours |==> 60 - hours
+60:AOR:*(int,int):/(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:60 * hours |==> 60 / hours
+61:AOR:-(int,int):%(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) - 60 * hours |==> offset / (60 * 1000) % (60 * hours)
+62:AOR:-(int,int):*(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) - 60 * hours |==> offset / (60 * 1000) * (60 * hours)
+63:AOR:-(int,int):+(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) - 60 * hours |==> offset / (60 * 1000) + 60 * hours
+64:AOR:-(int,int):/(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():223:offset / (60 * 1000) - 60 * hours |==> offset / (60 * 1000) / (60 * hours)
+65:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():224:10 |==> 0
+66:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():224:10 |==> -10
+67:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():224:hours < 10 |==> hours != 10
+68:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():224:hours < 10 |==> hours <= 10
+69:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():224:hours < 10 |==> false
+70:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():225:tzMarker.append("0") |==> <NO-OP>
+71:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():227:tzMarker.append(hours) |==> <NO-OP>
+72:LVR:POS:0:org.apache.tools.ant.taskdefs.email.Mailer@getDate():228:10 |==> 0
+73:LVR:POS:NEG:org.apache.tools.ant.taskdefs.email.Mailer@getDate():228:10 |==> -10
+74:ROR:<(int,int):!=(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():228:minutes < 10 |==> minutes != 10
+75:ROR:<(int,int):<=(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():228:minutes < 10 |==> minutes <= 10
+76:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.email.Mailer@getDate():228:minutes < 10 |==> false
+77:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():229:tzMarker.append("0") |==> <NO-OP>
+78:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():231:tzMarker.append(minutes) |==> <NO-OP>
+79:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.email.Mailer@getDate():232:df.format(cal.getTime()) + tzMarker.toString() |==> null

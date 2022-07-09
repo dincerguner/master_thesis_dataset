@@ -83,7 +83,7 @@ public class ExecuteWatchdog implements TimeoutObserver {
     private Process process;
 
     /** say whether or not the watchog is currently monitoring a process */
-    private boolean watch = false;
+    private boolean watch = true;
         
     /** exception that might be thrown during the process execution */
     private Exception caught = null;

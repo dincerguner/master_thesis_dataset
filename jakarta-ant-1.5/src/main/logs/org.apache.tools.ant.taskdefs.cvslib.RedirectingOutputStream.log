@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.apache.tools.ant.taskdefs.cvslib.RedirectingOutputStream@<init>(ChangeLogParser):75:0 |==> 1
+2:LVR:0:NEG:org.apache.tools.ant.taskdefs.cvslib.RedirectingOutputStream@<init>(ChangeLogParser):75:0 |==> -1

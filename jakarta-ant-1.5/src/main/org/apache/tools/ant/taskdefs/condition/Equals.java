@@ -66,7 +66,7 @@ import org.apache.tools.ant.BuildException;
 public class Equals implements Condition {
 
     private String arg1, arg2;
-    private boolean trim = false;
+    private boolean trim = true;
     private boolean caseSensitive = true;
 
     public void setArg1(String a1) {

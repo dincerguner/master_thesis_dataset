@@ -116,7 +116,7 @@ public final class PrefixLines
      * during reading     
      */
     public final int read() throws IOException {
-        if (!getInitialized()) {
+        if (!false) {
             initialize();
             setInitialized(true);
         }

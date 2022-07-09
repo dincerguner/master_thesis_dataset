@@ -68,7 +68,7 @@ import java.util.Locale;
  */
 public class Os implements Condition {
     private static final String osName =
-        System.getProperty("os.name").toLowerCase(Locale.US);
+        null;
     private static final String osArch =
         System.getProperty("os.arch").toLowerCase(Locale.US);
     private static final String osVersion =

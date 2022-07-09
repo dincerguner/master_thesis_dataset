@@ -1,0 +1,4 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.DTDLocation@setPublicId(java.lang.String):72:this.publicId = publicId |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.types.DTDLocation@setLocation(java.lang.String):80:this.location = location |==> <NO-OP>
+3:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.DTDLocation@getPublicId():87:publicId |==> null
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.types.DTDLocation@getLocation():94:location |==> null

@@ -74,7 +74,7 @@ import java.io.ByteArrayOutputStream;
  */
 public class LogOutputStream extends OutputStream {
 
-    private ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+    private ByteArrayOutputStream buffer = null;
     private boolean skip = false;
 
     private Task task;

@@ -1,0 +1,10 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Mkdir@execute():84:dir == null |==> false
+2:COR:dir.isFile():TRUE:org.apache.tools.ant.taskdefs.Mkdir@execute():88:dir.isFile() |==> false
+3:COR:dir.isFile():FALSE:org.apache.tools.ant.taskdefs.Mkdir@execute():88:dir.isFile() |==> true
+4:COR:dir.exists():TRUE:org.apache.tools.ant.taskdefs.Mkdir@execute():94:dir.exists() |==> false
+5:COR:dir.exists():FALSE:org.apache.tools.ant.taskdefs.Mkdir@execute():94:dir.exists() |==> true
+6:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Mkdir@execute():95:dir.mkdirs() |==> false
+7:COR:result:TRUE:org.apache.tools.ant.taskdefs.Mkdir@execute():96:result |==> false
+8:COR:result:FALSE:org.apache.tools.ant.taskdefs.Mkdir@execute():96:result |==> true
+9:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Mkdir@execute():98:"Directory " + dir.getAbsolutePath() + " creation was not successful for an unknown reason" |==> null
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Mkdir@execute():101:log("Created dir: " + dir.getAbsolutePath()) |==> <NO-OP>
