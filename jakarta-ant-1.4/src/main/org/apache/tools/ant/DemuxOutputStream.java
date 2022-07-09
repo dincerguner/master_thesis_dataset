@@ -69,7 +69,7 @@ public class DemuxOutputStream extends OutputStream {
 
     static private final int MAX_SIZE = 1024;
     
-    private Hashtable buffers = new Hashtable();
+    private Hashtable buffers = null;
 //    private ByteArrayOutputStream buffer = new ByteArrayOutputStream();
     private boolean skip = false;
     private Project project;
