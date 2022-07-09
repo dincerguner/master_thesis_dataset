@@ -1,0 +1,6 @@
+1:COR:||(boolean,boolean):!=(boolean,boolean):bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object):68:weHaveVar(name) || initMode |==> weHaveVar(name) != initMode
+2:COR:||(boolean,boolean):LHS(boolean,boolean):bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object):68:weHaveVar(name) || initMode |==> weHaveVar(name)
+3:COR:||(boolean,boolean):RHS(boolean,boolean):bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object):68:weHaveVar(name) || initMode |==> initMode
+4:COR:||(boolean,boolean):TRUE(boolean,boolean):bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object):68:weHaveVar(name) || initMode |==> true
+5:STD:<CALL>:<NO-OP>:bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object):69:super.setVariable(name, o) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:bsh.BlockNameSpace@setVariable(java.lang.String,java.lang.Object):71:getParent().setVariable(name, o) |==> <NO-OP>

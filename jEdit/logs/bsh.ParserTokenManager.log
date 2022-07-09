@@ -1,0 +1,323 @@
+1:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:70369817919488L |==> 0L
+2:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:70369817919488L |==> -70369817919488L
+3:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:active1 & 70369817919488L |==> active1 ^ 70369817919488L
+4:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:active1 & 70369817919488L |==> active1 | 70369817919488L
+5:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:0L |==> 1L
+6:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:0L |==> -1L
+7:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:(active1 & 70369817919488L) != 0L |==> (active1 & 70369817919488L) < 0L
+8:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:(active1 & 70369817919488L) != 0L |==> (active1 & 70369817919488L) > 0L
+9:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):12:(active1 & 70369817919488L) != 0L |==> true
+10:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):13:56 |==> 0
+11:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):13:56 |==> -56
+12:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:62L |==> 0L
+13:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:62L |==> -62L
+14:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:active0 & 62L |==> active0 ^ 62L
+15:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:active0 & 62L |==> active0 | 62L
+16:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:0L |==> 1L
+17:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:0L |==> -1L
+18:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:(active0 & 62L) != 0L |==> (active0 & 62L) < 0L
+19:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:(active0 & 62L) != 0L |==> (active0 & 62L) > 0L
+20:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):14:(active0 & 62L) != 0L |==> true
+21:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):15:0 |==> 1
+22:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):15:0 |==> -1
+23:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:32L |==> 0L
+24:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:32L |==> -32L
+25:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:active1 & 32L |==> active1 ^ 32L
+26:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:active1 & 32L |==> active1 | 32L
+27:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:0L |==> 1L
+28:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:0L |==> -1L
+29:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:(active1 & 32L) != 0L |==> (active1 & 32L) < 0L
+30:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:(active1 & 32L) != 0L |==> (active1 & 32L) > 0L
+31:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):16:(active1 & 32L) != 0L |==> true
+32:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):17:11 |==> 0
+33:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):17:11 |==> -11
+34:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:562949953420288L |==> 0L
+35:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:562949953420288L |==> -562949953420288L
+36:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:active0 & 562949953420288L |==> active0 ^ 562949953420288L
+37:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:active0 & 562949953420288L |==> active0 | 562949953420288L
+38:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:0L |==> 1L
+39:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:0L |==> -1L
+40:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:(active0 & 562949953420288L) != 0L |==> (active0 & 562949953420288L) < 0L
+41:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:(active0 & 562949953420288L) != 0L |==> (active0 & 562949953420288L) > 0L
+42:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):18:(active0 & 562949953420288L) != 0L |==> true
+43:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):20:58 |==> 0
+44:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):20:58 |==> -58
+45:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):21:35 |==> 0
+46:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):21:35 |==> -35
+47:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):23:-1 |==> 0
+48:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):23:-1 |==> 1
+49:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:562949413403648L |==> 0L
+50:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:562949413403648L |==> -562949413403648L
+51:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:active0 & 562949413403648L |==> active0 ^ 562949413403648L
+52:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:active0 & 562949413403648L |==> active0 | 562949413403648L
+53:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:0L |==> 1L
+54:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:0L |==> -1L
+55:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:(active0 & 562949413403648L) != 0L |==> (active0 & 562949413403648L) < 0L
+56:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:(active0 & 562949413403648L) != 0L |==> (active0 & 562949413403648L) > 0L
+57:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):25:(active0 & 562949413403648L) != 0L |==> true
+58:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):27:1 |==> 0
+59:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):27:1 |==> -1
+60:ROR:!=(int,int):<(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):27:jjmatchedPos != 1 |==> jjmatchedPos < 1
+61:ROR:!=(int,int):>(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):27:jjmatchedPos != 1 |==> jjmatchedPos > 1
+62:ROR:!=(int,int):TRUE(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):27:jjmatchedPos != 1 |==> true
+63:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):29:58 |==> 0
+64:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):29:58 |==> -58
+65:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):30:1 |==> 0
+66:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):30:1 |==> -1
+67:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):32:35 |==> 0
+68:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):32:35 |==> -35
+69:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:540016640L |==> 0L
+70:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:540016640L |==> -540016640L
+71:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:active0 & 540016640L |==> active0 ^ 540016640L
+72:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:active0 & 540016640L |==> active0 | 540016640L
+73:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:0L |==> 1L
+74:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:0L |==> -1L
+75:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:(active0 & 540016640L) != 0L |==> (active0 & 540016640L) < 0L
+76:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:(active0 & 540016640L) != 0L |==> (active0 & 540016640L) > 0L
+77:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):34:(active0 & 540016640L) != 0L |==> true
+78:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):35:35 |==> 0
+79:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):35:35 |==> -35
+80:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):36:-1 |==> 0
+81:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):36:-1 |==> 1
+82:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:492533292465152L |==> 0L
+83:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:492533292465152L |==> -492533292465152L
+84:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:active0 & 492533292465152L |==> active0 ^ 492533292465152L
+85:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:active0 & 492533292465152L |==> active0 | 492533292465152L
+86:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:0L |==> 1L
+87:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:0L |==> -1L
+88:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:(active0 & 492533292465152L) != 0L |==> (active0 & 492533292465152L) < 0L
+89:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:(active0 & 492533292465152L) != 0L |==> (active0 & 492533292465152L) > 0L
+90:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):38:(active0 & 492533292465152L) != 0L |==> true
+91:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):40:2 |==> 0
+92:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):40:2 |==> -2
+93:ROR:!=(int,int):<(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):40:jjmatchedPos != 2 |==> jjmatchedPos < 2
+94:ROR:!=(int,int):>(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):40:jjmatchedPos != 2 |==> jjmatchedPos > 2
+95:ROR:!=(int,int):TRUE(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):40:jjmatchedPos != 2 |==> true
+96:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):42:58 |==> 0
+97:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):42:58 |==> -58
+98:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):43:2 |==> 0
+99:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):43:2 |==> -2
+100:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):45:35 |==> 0
+101:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):45:35 |==> -35
+102:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:70416123035648L |==> 0L
+103:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:70416123035648L |==> -70416123035648L
+104:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:active0 & 70416123035648L |==> active0 ^ 70416123035648L
+105:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:active0 & 70416123035648L |==> active0 | 70416123035648L
+106:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:0L |==> 1L
+107:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:0L |==> -1L
+108:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:(active0 & 70416123035648L) != 0L |==> (active0 & 70416123035648L) < 0L
+109:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:(active0 & 70416123035648L) != 0L |==> (active0 & 70416123035648L) > 0L
+110:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):47:(active0 & 70416123035648L) != 0L |==> true
+111:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):48:35 |==> 0
+112:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):48:35 |==> -35
+113:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):49:-1 |==> 0
+114:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):49:-1 |==> 1
+115:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:176008032509952L |==> 0L
+116:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:176008032509952L |==> -176008032509952L
+117:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:active0 & 176008032509952L |==> active0 ^ 176008032509952L
+118:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:active0 & 176008032509952L |==> active0 | 176008032509952L
+119:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:0L |==> 1L
+120:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:0L |==> -1L
+121:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:(active0 & 176008032509952L) != 0L |==> (active0 & 176008032509952L) < 0L
+122:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:(active0 & 176008032509952L) != 0L |==> (active0 & 176008032509952L) > 0L
+123:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):51:(active0 & 176008032509952L) != 0L |==> true
+124:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):52:35 |==> 0
+125:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):52:35 |==> -35
+126:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:316533849889792L |==> 0L
+127:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:316533849889792L |==> -316533849889792L
+128:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:active0 & 316533849889792L |==> active0 ^ 316533849889792L
+129:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:active0 & 316533849889792L |==> active0 | 316533849889792L
+130:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:0L |==> 1L
+131:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:0L |==> -1L
+132:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:(active0 & 316533849889792L) != 0L |==> (active0 & 316533849889792L) < 0L
+133:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:(active0 & 316533849889792L) != 0L |==> (active0 & 316533849889792L) > 0L
+134:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):53:(active0 & 316533849889792L) != 0L |==> true
+135:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):55:3 |==> 0
+136:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):55:3 |==> -3
+137:ROR:!=(int,int):<(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):55:jjmatchedPos != 3 |==> jjmatchedPos < 3
+138:ROR:!=(int,int):>(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):55:jjmatchedPos != 3 |==> jjmatchedPos > 3
+139:ROR:!=(int,int):TRUE(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):55:jjmatchedPos != 3 |==> true
+140:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):57:58 |==> 0
+141:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):57:58 |==> -58
+142:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):58:3 |==> 0
+143:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):58:3 |==> -3
+144:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):60:35 |==> 0
+145:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):60:35 |==> -35
+146:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):62:-1 |==> 0
+147:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):62:-1 |==> 1
+148:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:15267537880064L |==> 0L
+149:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:15267537880064L |==> -15267537880064L
+150:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:active0 & 15267537880064L |==> active0 ^ 15267537880064L
+151:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:active0 & 15267537880064L |==> active0 | 15267537880064L
+152:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:0L |==> 1L
+153:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:0L |==> -1L
+154:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:(active0 & 15267537880064L) != 0L |==> (active0 & 15267537880064L) < 0L
+155:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:(active0 & 15267537880064L) != 0L |==> (active0 & 15267537880064L) > 0L
+156:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):64:(active0 & 15267537880064L) != 0L |==> true
+157:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):66:4 |==> 0
+158:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):66:4 |==> -4
+159:ROR:!=(int,int):<(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):66:jjmatchedPos != 4 |==> jjmatchedPos < 4
+160:ROR:!=(int,int):>(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):66:jjmatchedPos != 4 |==> jjmatchedPos > 4
+161:ROR:!=(int,int):TRUE(int,int):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):66:jjmatchedPos != 4 |==> true
+162:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):68:58 |==> 0
+163:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):68:58 |==> -58
+164:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):69:4 |==> 0
+165:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):69:4 |==> -4
+166:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):71:35 |==> 0
+167:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):71:35 |==> -35
+168:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:301266312009728L |==> 0L
+169:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:301266312009728L |==> -301266312009728L
+170:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:active0 & 301266312009728L |==> active0 ^ 301266312009728L
+171:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:active0 & 301266312009728L |==> active0 | 301266312009728L
+172:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:0L |==> 1L
+173:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:0L |==> -1L
+174:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:(active0 & 301266312009728L) != 0L |==> (active0 & 301266312009728L) < 0L
+175:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:(active0 & 301266312009728L) != 0L |==> (active0 & 301266312009728L) > 0L
+176:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):73:(active0 & 301266312009728L) != 0L |==> true
+177:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):74:35 |==> 0
+178:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):74:35 |==> -35
+179:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):75:-1 |==> 0
+180:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):75:-1 |==> 1
+181:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:423088620544L |==> 0L
+182:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:423088620544L |==> -423088620544L
+183:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:active0 & 423088620544L |==> active0 ^ 423088620544L
+184:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:active0 & 423088620544L |==> active0 | 423088620544L
+185:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:0L |==> 1L
+186:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:0L |==> -1L
+187:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:(active0 & 423088620544L) != 0L |==> (active0 & 423088620544L) < 0L
+188:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:(active0 & 423088620544L) != 0L |==> (active0 & 423088620544L) > 0L
+189:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):77:(active0 & 423088620544L) != 0L |==> true
+190:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):79:58 |==> 0
+191:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):79:58 |==> -58
+192:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):80:5 |==> 0
+193:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):80:5 |==> -5
+194:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):81:35 |==> 0
+195:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):81:35 |==> -35
+196:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:14844482813952L |==> 0L
+197:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:14844482813952L |==> -14844482813952L
+198:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:active0 & 14844482813952L |==> active0 ^ 14844482813952L
+199:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:active0 & 14844482813952L |==> active0 | 14844482813952L
+200:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:0L |==> 1L
+201:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:0L |==> -1L
+202:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:(active0 & 14844482813952L) != 0L |==> (active0 & 14844482813952L) < 0L
+203:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:(active0 & 14844482813952L) != 0L |==> (active0 & 14844482813952L) > 0L
+204:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):83:(active0 & 14844482813952L) != 0L |==> true
+205:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):84:35 |==> 0
+206:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):84:35 |==> -35
+207:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):85:-1 |==> 0
+208:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):85:-1 |==> 1
+209:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:137473033216L |==> 0L
+210:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:137473033216L |==> -137473033216L
+211:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:active0 & 137473033216L |==> active0 ^ 137473033216L
+212:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:active0 & 137473033216L |==> active0 | 137473033216L
+213:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:0L |==> 1L
+214:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:0L |==> -1L
+215:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:(active0 & 137473033216L) != 0L |==> (active0 & 137473033216L) < 0L
+216:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:(active0 & 137473033216L) != 0L |==> (active0 & 137473033216L) > 0L
+217:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):87:(active0 & 137473033216L) != 0L |==> true
+218:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):88:35 |==> 0
+219:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):88:35 |==> -35
+220:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:285615587328L |==> 0L
+221:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:285615587328L |==> -285615587328L
+222:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:active0 & 285615587328L |==> active0 ^ 285615587328L
+223:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:active0 & 285615587328L |==> active0 | 285615587328L
+224:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:0L |==> 1L
+225:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:0L |==> -1L
+226:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:(active0 & 285615587328L) != 0L |==> (active0 & 285615587328L) < 0L
+227:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:(active0 & 285615587328L) != 0L |==> (active0 & 285615587328L) > 0L
+228:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):89:(active0 & 285615587328L) != 0L |==> true
+229:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):91:58 |==> 0
+230:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):91:58 |==> -58
+231:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):92:6 |==> 0
+232:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):92:6 |==> -6
+233:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):93:35 |==> 0
+234:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):93:35 |==> -35
+235:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):95:-1 |==> 0
+236:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):95:-1 |==> 1
+237:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:285615325184L |==> 0L
+238:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:285615325184L |==> -285615325184L
+239:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:active0 & 285615325184L |==> active0 ^ 285615325184L
+240:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:active0 & 285615325184L |==> active0 | 285615325184L
+241:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:0L |==> 1L
+242:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:0L |==> -1L
+243:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:(active0 & 285615325184L) != 0L |==> (active0 & 285615325184L) < 0L
+244:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:(active0 & 285615325184L) != 0L |==> (active0 & 285615325184L) > 0L
+245:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):97:(active0 & 285615325184L) != 0L |==> true
+246:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):99:58 |==> 0
+247:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):99:58 |==> -58
+248:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):100:7 |==> 0
+249:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):100:7 |==> -7
+250:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):101:35 |==> 0
+251:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):101:35 |==> -35
+252:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:262144L |==> 0L
+253:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:262144L |==> -262144L
+254:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:active0 & 262144L |==> active0 ^ 262144L
+255:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:active0 & 262144L |==> active0 | 262144L
+256:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:0L |==> 1L
+257:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:0L |==> -1L
+258:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:(active0 & 262144L) != 0L |==> (active0 & 262144L) < 0L
+259:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:(active0 & 262144L) != 0L |==> (active0 & 262144L) > 0L
+260:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):103:(active0 & 262144L) != 0L |==> true
+261:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):104:35 |==> 0
+262:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):104:35 |==> -35
+263:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):105:-1 |==> 0
+264:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):105:-1 |==> 1
+265:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:2147483648L |==> 0L
+266:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:2147483648L |==> -2147483648L
+267:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:active0 & 2147483648L |==> active0 ^ 2147483648L
+268:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:active0 & 2147483648L |==> active0 | 2147483648L
+269:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:0L |==> 1L
+270:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:0L |==> -1L
+271:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:(active0 & 2147483648L) != 0L |==> (active0 & 2147483648L) < 0L
+272:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:(active0 & 2147483648L) != 0L |==> (active0 & 2147483648L) > 0L
+273:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):107:(active0 & 2147483648L) != 0L |==> true
+274:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):109:58 |==> 0
+275:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):109:58 |==> -58
+276:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):110:8 |==> 0
+277:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):110:8 |==> -8
+278:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):111:35 |==> 0
+279:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):111:35 |==> -35
+280:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:283467841536L |==> 0L
+281:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:283467841536L |==> -283467841536L
+282:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:active0 & 283467841536L |==> active0 ^ 283467841536L
+283:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:active0 & 283467841536L |==> active0 | 283467841536L
+284:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:0L |==> 1L
+285:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:0L |==> -1L
+286:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:(active0 & 283467841536L) != 0L |==> (active0 & 283467841536L) < 0L
+287:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:(active0 & 283467841536L) != 0L |==> (active0 & 283467841536L) > 0L
+288:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):113:(active0 & 283467841536L) != 0L |==> true
+289:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):114:35 |==> 0
+290:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):114:35 |==> -35
+291:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):115:-1 |==> 0
+292:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):115:-1 |==> 1
+293:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:2147483648L |==> 0L
+294:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:2147483648L |==> -2147483648L
+295:LOR:&(long,long):^(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:active0 & 2147483648L |==> active0 ^ 2147483648L
+296:LOR:&(long,long):|(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:active0 & 2147483648L |==> active0 | 2147483648L
+297:LVR:0:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:0L |==> 1L
+298:LVR:0:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:0L |==> -1L
+299:ROR:!=(long,long):<(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:(active0 & 2147483648L) != 0L |==> (active0 & 2147483648L) < 0L
+300:ROR:!=(long,long):>(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:(active0 & 2147483648L) != 0L |==> (active0 & 2147483648L) > 0L
+301:ROR:!=(long,long):TRUE(long,long):bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):117:(active0 & 2147483648L) != 0L |==> true
+302:LVR:POS:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):118:35 |==> 0
+303:LVR:POS:NEG:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):118:35 |==> -35
+304:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):119:-1 |==> 0
+305:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):119:-1 |==> 1
+306:LVR:NEG:0:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):121:-1 |==> 0
+307:LVR:NEG:POS:bsh.ParserTokenManager@jjStopStringLiteralDfa_0(int,long,long):121:-1 |==> 1
+308:LVR:POS:0:bsh.ParserTokenManager@jjStartNfa_0(int,long,long):126:1 |==> 0
+309:LVR:POS:NEG:bsh.ParserTokenManager@jjStartNfa_0(int,long,long):126:1 |==> -1
+310:AOR:+(int,int):%(int,int):bsh.ParserTokenManager@jjStartNfa_0(int,long,long):126:pos + 1 |==> pos % 1
+311:AOR:+(int,int):*(int,int):bsh.ParserTokenManager@jjStartNfa_0(int,long,long):126:pos + 1 |==> pos * 1
+312:AOR:+(int,int):-(int,int):bsh.ParserTokenManager@jjStartNfa_0(int,long,long):126:pos + 1 |==> pos - 1
+313:AOR:+(int,int):/(int,int):bsh.ParserTokenManager@jjStartNfa_0(int,long,long):126:pos + 1 |==> pos / 1
+314:EVR:<IDENTIFIER(int)>:<DEFAULT>:bsh.ParserTokenManager@jjStopAtPos(int,int):130:kind |==> 0
+315:EVR:<IDENTIFIER(int)>:<DEFAULT>:bsh.ParserTokenManager@jjStopAtPos(int,int):131:pos |==> 0
+316:LVR:POS:0:bsh.ParserTokenManager@jjStopAtPos(int,int):132:1 |==> 0
+317:LVR:POS:NEG:bsh.ParserTokenManager@jjStopAtPos(int,int):132:1 |==> -1
+318:AOR:+(int,int):%(int,int):bsh.ParserTokenManager@jjStopAtPos(int,int):132:pos + 1 |==> pos % 1
+319:AOR:+(int,int):*(int,int):bsh.ParserTokenManager@jjStopAtPos(int,int):132:pos + 1 |==> pos * 1
+320:AOR:+(int,int):-(int,int):bsh.ParserTokenManager@jjStopAtPos(int,int):132:pos + 1 |==> pos - 1
+321:AOR:+(int,int):/(int,int):bsh.ParserTokenManager@jjStopAtPos(int,int):132:pos + 1 |==> pos / 1
+322:EVR:<IDENTIFIER(int)>:<DEFAULT>:bsh.ParserTokenManager@jjStartNfaWithStates_0(int,int,int):136:kind |==> 0
+323:EVR:<IDENTIFIER(int)>:<DEFAULT>:bsh.ParserTokenManager@jjStartNfaWithStates_0(int,int,int):137:pos |==> 0

@@ -89,7 +89,7 @@ class ParseException extends EvalError {
 		       )
   {
 	this();
-    specialConstructor = true;
+    specialConstructor = false;
     currentToken = currentTokenVal;
     expectedTokenSequences = expectedTokenSequencesVal;
     tokenImage = tokenImageVal;
