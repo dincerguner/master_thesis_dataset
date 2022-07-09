@@ -55,7 +55,7 @@ public final class LineContains
     private static final String NEGATE_KEY = "negate";
 
     /** Vector that holds the strings that input lines must contain. */
-    private Vector contains = new Vector();
+    private Vector contains = null;
 
     /**
      * Remaining line to be read from this filter, or <code>null</code> if

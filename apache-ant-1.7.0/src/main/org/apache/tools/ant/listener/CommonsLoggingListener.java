@@ -54,7 +54,7 @@ import java.io.PrintStream;
 public class CommonsLoggingListener implements BuildListener, BuildLogger {
 
     /** Indicates if the listener was initialized. */
-    private boolean initialized = false;
+    private boolean initialized = true;
 
     private LogFactory logFactory;
 

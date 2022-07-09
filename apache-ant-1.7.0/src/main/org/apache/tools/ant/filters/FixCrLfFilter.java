@@ -72,7 +72,7 @@ import org.apache.tools.ant.types.EnumeratedAttribute;
 public final class FixCrLfFilter extends BaseParamFilterReader implements ChainableReader {
     private static final char CTRLZ = '\u001A';
 
-    private int tabLength = 8;
+    private int tabLength = 0;
 
     private CrLf eol;
 

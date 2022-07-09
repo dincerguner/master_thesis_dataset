@@ -40,6 +40,6 @@ public class SendEmail extends EmailTask {
      *             Use {@link #setMailport(int)} instead.
      */
     public void setMailport(Integer value) {
-        setMailport(value.intValue());
+        ;
     }
 }

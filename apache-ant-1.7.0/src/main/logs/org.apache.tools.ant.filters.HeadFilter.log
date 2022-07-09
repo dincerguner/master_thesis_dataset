@@ -1,0 +1,7 @@
+1:LVR:0:POS:org.apache.tools.ant.filters.HeadFilter:46:0 |==> 1
+2:LVR:0:NEG:org.apache.tools.ant.filters.HeadFilter:46:0 |==> -1
+3:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.filters.HeadFilter:52:DEFAULT_NUM_LINES |==> 0
+4:LVR:0:POS:org.apache.tools.ant.filters.HeadFilter:55:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.filters.HeadFilter:55:0 |==> -1
+6:LVR:0:POS:org.apache.tools.ant.filters.HeadFilter:63:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.filters.HeadFilter:63:0 |==> -1

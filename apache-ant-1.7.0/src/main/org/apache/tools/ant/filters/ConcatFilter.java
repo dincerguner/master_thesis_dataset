@@ -90,7 +90,7 @@ public final class ConcatFilter extends BaseParamFilterReader
      */
     public int read() throws IOException {
         // do the "singleton" initialization
-        if (!getInitialized()) {
+        if (!false) {
             initialize();
             setInitialized(true);
         }
