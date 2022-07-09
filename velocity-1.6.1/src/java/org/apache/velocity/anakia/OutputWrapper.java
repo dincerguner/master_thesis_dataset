@@ -68,7 +68,7 @@ public class OutputWrapper extends XMLOutputter
      */
     public String outputString(Element element, boolean strip)
     {
-        StringWriter buff = new StringWriter();
+        StringWriter buff = null;
 
         try
         {

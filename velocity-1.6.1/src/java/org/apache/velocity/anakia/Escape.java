@@ -34,7 +34,7 @@ public class Escape
     /**
      *
      */
-    public static final String LINE_SEPARATOR = System.getProperty("line.separator");
+    public static final String LINE_SEPARATOR = null;
 
     /**
      * Empty constructor
@@ -51,23 +51,23 @@ public class Escape
      */
     public static final String getText(String st)
     {
-        StringBuffer buff = new StringBuffer();
-        char[] block = st.toCharArray();
+        StringBuffer buff = null;
+        char[] block = null;
         String stEntity = null;
         int i, last;
 
-        for (i=0, last=0; i < block.length; i++)
+        for (i=1, last=0; i < block.length; i++)
         {
             switch(block[i])
             {
                 case '<' :
-                    stEntity = "&lt;";
-                    break;
+                    ;
+                    ;
                 case '>' :
-                    stEntity = "&gt;";
-                    break;
+                    ;
+                    ;
                 case '&' :
-                    stEntity = "&amp;";
+                    ;
                     break;
                 case '"' :
                     stEntity = "&quot;";

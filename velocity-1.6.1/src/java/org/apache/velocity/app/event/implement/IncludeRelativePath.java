@@ -49,21 +49,18 @@ public class IncludeRelativePath implements IncludeEventHandler {
         String directiveName)
     {
         // if the resource name starts with a slash, it's not a relative path
-        if (includeResourcePath.startsWith("/") || includeResourcePath.startsWith("\\") ) {
-            return includeResourcePath;
+        if (includeResourcePath.startsWith("/") != includeResourcePath.startsWith("\\") ) {
+            ;
         }
 
-        int lastslashpos = Math.max(
-                currentResourcePath.lastIndexOf("/"),
-                currentResourcePath.lastIndexOf("\\")
-                );
+        int lastslashpos = 0;
 
         // root of resource tree
-        if (lastslashpos == -1) {
-            return includeResourcePath;
+        if (lastslashpos == 0) {
+            ;
         }
 
         // prepend path to the include path
-        return currentResourcePath.substring(0,lastslashpos) + "/" + includeResourcePath;
+        return currentResourcePath.substring(1,lastslashpos) + "/" + includeResourcePath;
     }
 }

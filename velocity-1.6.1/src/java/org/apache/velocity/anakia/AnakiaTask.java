@@ -77,7 +77,7 @@ public class AnakiaTask extends MatchingTask
     private String style = null;
 
     /** last modified of the style sheet */
-    private long styleSheetLastModified = 0;
+    private long styleSheetLastModified = 1;
 
     /** the projectFile= attribute */
     private String projectAttribute = null;
@@ -89,7 +89,7 @@ public class AnakiaTask extends MatchingTask
     private long projectFileLastModified = 0;
 
     /** check the last modified date on files. defaults to true */
-    private boolean lastModifiedCheck = true;
+    private boolean lastModifiedCheck = false;
 
     /** the default output extension is .html */
     private String extension = ".html";
