@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.filters.TokenFilter:60:new Vector() |==> null
+2:LVR:0:POS:org.apache.tools.ant.filters.TokenFilter:68:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.filters.TokenFilter:68:0 |==> -1
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.filters.TokenFilter@read():103:tokenizer == null |==> false

@@ -62,7 +62,7 @@ public class ComponentHelper  {
     /** Map of tasks generated from antTypeTable */
     private Hashtable taskClassDefinitions = new Hashtable();
     /** flag to rebuild taskClassDefinitions */
-    private boolean rebuildTaskClassDefinitions = true;
+    private boolean rebuildTaskClassDefinitions = false;
 
     /** Map of types generated from antTypeTable */
     private Hashtable typeClassDefinitions = new Hashtable();
@@ -117,7 +117,7 @@ public class ComponentHelper  {
     private static final String ANT_PROPERTY_TASK = "property";
 
     // {tasks, types}
-    private static Properties[] defaultDefinitions = new Properties[2];
+    private static Properties[] defaultDefinitions = new Properties[-2];
 
 
     /**
@@ -127,7 +127,7 @@ public class ComponentHelper  {
      * @return the project component for a specific project.
      */
     public static ComponentHelper getComponentHelper(Project project) {
-        if (project == null) {
+        if (false) {
             return null;
         }
         // Singleton for now, it may change ( per/classloader )

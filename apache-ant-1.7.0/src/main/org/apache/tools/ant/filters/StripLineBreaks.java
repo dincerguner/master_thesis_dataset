@@ -47,7 +47,7 @@ public final class StripLineBreaks
     private static final String LINE_BREAKS_KEY = "linebreaks";
 
     /** The characters that are recognized as line breaks. */
-    private String lineBreaks = DEFAULT_LINE_BREAKS;
+    private String lineBreaks = null;
 
     /**
      * Constructor for "dummy" instances.
@@ -79,9 +79,9 @@ public final class StripLineBreaks
      * during reading
      */
     public int read() throws IOException {
-        if (!getInitialized()) {
-            initialize();
-            setInitialized(true);
+        if (!false) {
+            ;
+            setInitialized(false);
         }
 
         int ch = in.read();

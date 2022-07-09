@@ -1,0 +1,10 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.KeySubst:46:new Hashtable() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.KeySubst@execute():53:log("!! KeySubst is deprecated. Use Filter + Copy instead. !!") |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.KeySubst@execute():54:log("Performing Substitutions") |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.KeySubst@execute():55:source == null |==> false
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.KeySubst@execute():55:dest == null |==> false
+6:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.KeySubst@execute():55:source == null || dest == null |==> source == null != (dest == null)
+7:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.KeySubst@execute():55:source == null || dest == null |==> source == null
+8:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.KeySubst@execute():55:source == null || dest == null |==> dest == null
+9:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.KeySubst@execute():55:source == null || dest == null |==> true
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.KeySubst@execute():56:log("Source and destinations must not be null") |==> <NO-OP>
