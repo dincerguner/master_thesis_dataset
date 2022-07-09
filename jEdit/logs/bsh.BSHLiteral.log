@@ -1,0 +1,1 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.BSHLiteral@eval(CallStack,Interpreter):46:value == null |==> false

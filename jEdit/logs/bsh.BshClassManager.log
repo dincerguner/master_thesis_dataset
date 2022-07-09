@@ -1,0 +1,40 @@
+1:EVR:<NEW_CLASS(java.lang.Object)>:<DEFAULT>:bsh.BshClassManager:90:new Object() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:102:new Hashtable() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.BshClassManager:108:new Hashtable() |==> null
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.BshClassManager@getClassManager():123:manager == null |==> false
+5:COR:&&(boolean,boolean):==(boolean,boolean):bsh.BshClassManager@getClassManager():123:!checkedForManager && manager == null |==> !checkedForManager == (manager == null)
+6:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.BshClassManager@getClassManager():123:!checkedForManager && manager == null |==> false
+7:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.BshClassManager@getClassManager():123:!checkedForManager && manager == null |==> !checkedForManager
+8:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.BshClassManager@getClassManager():123:!checkedForManager && manager == null |==> manager == null
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.BshClassManager@getClassManager():126:plainClassForName("java.lang.ref.WeakReference") != null |==> true
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.BshClassManager@getClassManager():127:plainClassForName("java.util.HashMap") != null |==> true
+11:COR:&&(boolean,boolean):==(boolean,boolean):bsh.BshClassManager@getClassManager():126:plainClassForName("java.lang.ref.WeakReference") != null && plainClassForName("java.util.HashMap") != null |==> plainClassForName("java.lang.ref.WeakReference") != null == (plainClassForName("java.util.HashMap") != null)
+12:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.BshClassManager@getClassManager():127:plainClassForName("java.lang.ref.WeakReference") != null && plainClassForName("java.util.HashMap") != null |==> false
+13:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.BshClassManager@getClassManager():126:plainClassForName("java.lang.ref.WeakReference") != null && plainClassForName("java.util.HashMap") != null |==> plainClassForName("java.lang.ref.WeakReference") != null
+14:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.BshClassManager@getClassManager():127:plainClassForName("java.lang.ref.WeakReference") != null && plainClassForName("java.util.HashMap") != null |==> plainClassForName("java.util.HashMap") != null
+15:EVR:<METHOD_INVOCATION(java.lang.Class)>:<DEFAULT>:bsh.BshClassManager@getClassManager():130:plainClassForName("bsh.classpath.ClassManagerImpl") |==> null
+16:STD:<ASSIGN>:<NO-OP>:bsh.BshClassManager@getClassManager():132:manager = (BshClassManager)bcm.newInstance() |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:bsh.BshClassManager@getClassManager():137:System.err.println("Error loading classmanager: " + e) |==> <NO-OP>
+18:LVR:TRUE:FALSE:bsh.BshClassManager@getClassManager():140:true |==> false
+19:STD:<ASSIGN>:<NO-OP>:bsh.BshClassManager@getClassManager():140:checkedForManager = true |==> <NO-OP>
+20:EVR:<IDENTIFIER(bsh.BshClassManager)>:<DEFAULT>:bsh.BshClassManager@getClassManager():141:manager |==> null
+21:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.BshClassManager@classExists(java.lang.String):145:classForName(name) != null |==> true
+22:EVR:<METHOD_INVOCATION(bsh.BshClassManager)>:<DEFAULT>:bsh.BshClassManager@classForName(java.lang.String):154:getClassManager() |==> null
+23:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.BshClassManager@classForName(java.lang.String):155:manager != null |==> true
+24:EVR:<METHOD_INVOCATION(java.lang.Class)>:<DEFAULT>:bsh.BshClassManager@classForName(java.lang.String):156:manager.getClassForName(name) |==> null
+25:EVR:<METHOD_INVOCATION(java.lang.Class)>:<DEFAULT>:bsh.BshClassManager@classForName(java.lang.String):159:plainClassForName(name) |==> null
+26:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.BshClassManager@plainClassForName(java.lang.String):177:externalClassLoader != null |==> true
+27:EVR:<METHOD_INVOCATION(java.lang.Class<capture#460 of ?>)>:<DEFAULT>:bsh.BshClassManager@plainClassForName(java.lang.String):178:externalClassLoader.loadClass(name) |==> null
+28:EVR:<METHOD_INVOCATION(java.lang.Class<capture#290 of ?>)>:<DEFAULT>:bsh.BshClassManager@plainClassForName(java.lang.String):180:Class.forName(name) |==> null
+29:STD:<CALL>:<NO-OP>:bsh.BshClassManager@plainClassForName(java.lang.String):182:cacheClassInfo(name, c) |==> <NO-OP>
+30:EVR:<IDENTIFIER(java.lang.Class)>:<DEFAULT>:bsh.BshClassManager@plainClassForName(java.lang.String):183:c |==> null
+31:STD:<CALL>:<NO-OP>:bsh.BshClassManager@plainClassForName(java.lang.String):190:cacheClassInfo(name, null) |==> <NO-OP>
+32:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.BshClassManager@cacheClassInfo(java.lang.String,java.lang.Class):203:value != null |==> true
+33:STD:<CALL>:<NO-OP>:bsh.BshClassManager@cacheClassInfo(java.lang.String,java.lang.Class):204:absoluteClassCache.put(name, value) |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:bsh.BshClassManager@cacheClassInfo(java.lang.String,java.lang.Class):206:absoluteNonClasses.put(name, NOVALUE) |==> <NO-OP>
+35:STD:<ASSIGN>:<NO-OP>:bsh.BshClassManager@clearCaches():213:absoluteNonClasses = new Hashtable() |==> <NO-OP>
+36:STD:<ASSIGN>:<NO-OP>:bsh.BshClassManager@clearCaches():214:absoluteClassCache = new Hashtable() |==> <NO-OP>
+37:STD:<CALL>:<NO-OP>:bsh.BshClassManager@addCMListener(bsh.BshClassManager.Listener):224:getClassManager() |==> <NO-OP>
+38:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.BshClassManager@addCMListener(bsh.BshClassManager.Listener):225:manager != null |==> true
+39:STD:<CALL>:<NO-OP>:bsh.BshClassManager@addCMListener(bsh.BshClassManager.Listener):226:manager.addListener(l) |==> <NO-OP>
+40:STD:<ASSIGN>:<NO-OP>:bsh.BshClassManager@setClassLoader(java.lang.ClassLoader):242:externalClassLoader = externalCL |==> <NO-OP>

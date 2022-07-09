@@ -1,0 +1,2 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:bsh.commands.dir:15:{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"} |==> null
+2:STD:<CALL>:<NO-OP>:bsh.commands.dir@invoke(Interpreter,NameSpace):25:invoke(env, namespace, dir) |==> <NO-OP>

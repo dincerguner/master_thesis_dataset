@@ -56,7 +56,7 @@ class Token implements java.io.Serializable {
    */
   public final String toString()
   {
-     return image;
+     return null;
   }
 
   /**
@@ -75,7 +75,7 @@ class Token implements java.io.Serializable {
   {
      switch(ofKind)
      {
-       default : return new Token();
+       default : return null;
      }
   }
 
