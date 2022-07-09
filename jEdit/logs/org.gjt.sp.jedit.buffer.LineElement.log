@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.LineElement@<init>(Buffer,int):43:this.buffer = buffer |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.LineElement@<init>(Buffer,int):44:this.line = line |==> <NO-OP>

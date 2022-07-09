@@ -1,0 +1,5 @@
+1:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:gnu.regexp.CharIndexedReader:30:Integer.MAX_VALUE |==> 0
+2:LVR:NEG:0:gnu.regexp.CharIndexedReader:34:-1 |==> 0
+3:LVR:NEG:POS:gnu.regexp.CharIndexedReader:34:-1 |==> 1
+4:EVR:<IDENTIFIER(int)>:<DEFAULT>:gnu.regexp.CharIndexedReader:36:BUFFER_INCREMENT |==> 0
+5:EVR:<IDENTIFIER(int)>:<DEFAULT>:gnu.regexp.CharIndexedReader:38:UNKNOWN |==> 0

@@ -1,0 +1,7 @@
+1:LVR:0:POS:gnu.regexp.UncheckedRE@<init>(java.lang.Object):52:0 |==> 1
+2:LVR:0:NEG:gnu.regexp.UncheckedRE@<init>(java.lang.Object):52:0 |==> -1
+3:LVR:0:POS:gnu.regexp.UncheckedRE@<init>(java.lang.Object,int,RESyntax):84:0 |==> 1
+4:LVR:0:NEG:gnu.regexp.UncheckedRE@<init>(java.lang.Object,int,RESyntax):84:0 |==> -1
+5:LVR:0:POS:gnu.regexp.UncheckedRE@<init>(java.lang.Object,int,RESyntax):84:0 |==> 1
+6:LVR:0:NEG:gnu.regexp.UncheckedRE@<init>(java.lang.Object,int,RESyntax):84:0 |==> -1
+7:STD:<CALL>:<NO-OP>:gnu.regexp.UncheckedRE@<init>(java.lang.Object,int,RESyntax):84:initialize(pattern, cflags, syntax, 0, 0) |==> <NO-OP>

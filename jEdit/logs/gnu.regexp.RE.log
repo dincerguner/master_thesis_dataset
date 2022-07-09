@@ -1,0 +1,17 @@
+1:EVR:<METHOD_INVOCATION(java.util.ResourceBundle)>:<DEFAULT>:gnu.regexp.RE:109:PropertyResourceBundle.getBundle("gnu/regexp/MessagesBundle", Locale.getDefault()) |==> null
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:gnu.regexp.RE@version():204:VERSION |==> null
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:gnu.regexp.RE@getLocalizedMessage(java.lang.String):209:messages.getString(key) |==> null
+4:LVR:0:POS:gnu.regexp.RE@<init>(java.lang.Object):223:0 |==> 1
+5:LVR:0:NEG:gnu.regexp.RE@<init>(java.lang.Object):223:0 |==> -1
+6:LVR:0:POS:gnu.regexp.RE@<init>(java.lang.Object):223:0 |==> 1
+7:LVR:0:NEG:gnu.regexp.RE@<init>(java.lang.Object):223:0 |==> -1
+8:LVR:0:POS:gnu.regexp.RE@<init>(java.lang.Object):223:0 |==> 1
+9:LVR:0:NEG:gnu.regexp.RE@<init>(java.lang.Object):223:0 |==> -1
+10:LVR:0:POS:gnu.regexp.RE@<init>(java.lang.Object,int):238:0 |==> 1
+11:LVR:0:NEG:gnu.regexp.RE@<init>(java.lang.Object,int):238:0 |==> -1
+12:LVR:0:POS:gnu.regexp.RE@<init>(java.lang.Object,int):238:0 |==> 1
+13:LVR:0:NEG:gnu.regexp.RE@<init>(java.lang.Object,int):238:0 |==> -1
+14:LVR:0:POS:gnu.regexp.RE@<init>(java.lang.Object,int,RESyntax):254:0 |==> 1
+15:LVR:0:NEG:gnu.regexp.RE@<init>(java.lang.Object,int,RESyntax):254:0 |==> -1
+16:LVR:0:POS:gnu.regexp.RE@<init>(java.lang.Object,int,RESyntax):254:0 |==> 1
+17:LVR:0:NEG:gnu.regexp.RE@<init>(java.lang.Object,int,RESyntax):254:0 |==> -1
