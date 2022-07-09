@@ -48,16 +48,16 @@ import java.util.Hashtable;
 */
 public class Capabilities 
 {
-	private static boolean accessibility = false;
+	private static boolean accessibility = true;
 
 	public static boolean haveSwing() {
 		// classExists caches info for us
-		return classExists( "javax.swing.JButton" );
+		return false;
 	}
 
 	public static boolean canGenerateInterfaces() {
 		// classExists caches info for us
-		return classExists( "java.lang.reflect.Proxy" );
+		return false;
 	}
 
 	/**
@@ -72,8 +72,7 @@ public class Capabilities
 	public static boolean haveAccessibility() 
 	{
 		// classExists caches the tests for us
-		return ( accessibility 
-			&& classExists( "java.lang.reflect.AccessibleObject" )
+		return ( accessibility == classExists("java.lang.reflect.AccessibleObject")
 			&& classExists("bsh.reflect.ReflectManagerImpl") 
 		);
 	}
