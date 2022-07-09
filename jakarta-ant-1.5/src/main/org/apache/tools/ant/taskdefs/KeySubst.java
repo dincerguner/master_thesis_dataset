@@ -88,7 +88,7 @@ public class KeySubst extends Task {
     public void execute() throws BuildException {
         log("!! KeySubst is deprecated. Use Filter + Copy instead. !!");
         log("Performing Substitions");
-        if (source == null || dest == null) {
+        if (false || dest == null) {
             log("Source and destinations must not be null");
             return;            
         }

@@ -1,0 +1,46 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.DependSet:118:new Vector() |==> null
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.DependSet:119:new Vector() |==> null
+3:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.DependSet:120:new Vector() |==> null
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.DependSet:121:new Vector() |==> null
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.DependSet@addSrcfileset(FileSet):133:sourceFileSets.addElement(fs) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.DependSet@addSrcfilelist(FileList):140:sourceFileLists.addElement(fl) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.DependSet@addTargetfileset(FileSet):147:targetFileSets.addElement(fs) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.DependSet@addTargetfilelist(FileList):154:targetFileLists.addElement(fl) |==> <NO-OP>
+9:LVR:0:POS:org.apache.tools.ant.taskdefs.DependSet@execute():163:0 |==> 1
+10:LVR:0:NEG:org.apache.tools.ant.taskdefs.DependSet@execute():163:0 |==> -1
+11:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():163:sourceFileSets.size() == 0 |==> sourceFileSets.size() <= 0
+12:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():163:sourceFileSets.size() == 0 |==> sourceFileSets.size() >= 0
+13:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():163:sourceFileSets.size() == 0 |==> false
+14:LVR:0:POS:org.apache.tools.ant.taskdefs.DependSet@execute():163:0 |==> 1
+15:LVR:0:NEG:org.apache.tools.ant.taskdefs.DependSet@execute():163:0 |==> -1
+16:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():163:sourceFileLists.size() == 0 |==> sourceFileLists.size() <= 0
+17:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():163:sourceFileLists.size() == 0 |==> sourceFileLists.size() >= 0
+18:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():163:sourceFileLists.size() == 0 |==> false
+19:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():163:(sourceFileSets.size() == 0) && (sourceFileLists.size() == 0) |==> (sourceFileSets.size() == 0) == (sourceFileLists.size() == 0)
+20:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():163:(sourceFileSets.size() == 0) && (sourceFileLists.size() == 0) |==> false
+21:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():163:(sourceFileSets.size() == 0) && (sourceFileLists.size() == 0) |==> (sourceFileSets.size() == 0)
+22:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():163:(sourceFileSets.size() == 0) && (sourceFileLists.size() == 0) |==> (sourceFileLists.size() == 0)
+23:LVR:0:POS:org.apache.tools.ant.taskdefs.DependSet@execute():168:0 |==> 1
+24:LVR:0:NEG:org.apache.tools.ant.taskdefs.DependSet@execute():168:0 |==> -1
+25:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():168:targetFileSets.size() == 0 |==> targetFileSets.size() <= 0
+26:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():168:targetFileSets.size() == 0 |==> targetFileSets.size() >= 0
+27:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():168:targetFileSets.size() == 0 |==> false
+28:LVR:0:POS:org.apache.tools.ant.taskdefs.DependSet@execute():168:0 |==> 1
+29:LVR:0:NEG:org.apache.tools.ant.taskdefs.DependSet@execute():168:0 |==> -1
+30:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():168:targetFileLists.size() == 0 |==> targetFileLists.size() <= 0
+31:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():168:targetFileLists.size() == 0 |==> targetFileLists.size() >= 0
+32:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.DependSet@execute():168:targetFileLists.size() == 0 |==> false
+33:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():168:(targetFileSets.size() == 0) && (targetFileLists.size() == 0) |==> (targetFileSets.size() == 0) == (targetFileLists.size() == 0)
+34:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():168:(targetFileSets.size() == 0) && (targetFileLists.size() == 0) |==> false
+35:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():168:(targetFileSets.size() == 0) && (targetFileLists.size() == 0) |==> (targetFileSets.size() == 0)
+36:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.DependSet@execute():168:(targetFileSets.size() == 0) && (targetFileLists.size() == 0) |==> (targetFileLists.size() == 0)
+37:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.tools.ant.taskdefs.DependSet@execute():173:(new Date()).getTime() |==> 0L
+38:COR:Os.isFamily("windows"):TRUE:org.apache.tools.ant.taskdefs.DependSet@execute():179:Os.isFamily("windows") |==> false
+39:COR:Os.isFamily("windows"):FALSE:org.apache.tools.ant.taskdefs.DependSet@execute():179:Os.isFamily("windows") |==> true
+40:LVR:POS:0:org.apache.tools.ant.taskdefs.DependSet@execute():180:2000 |==> 0
+41:LVR:POS:NEG:org.apache.tools.ant.taskdefs.DependSet@execute():180:2000 |==> -2000
+42:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.DependSet@execute():180:now += 2000 |==> <NO-OP>
+43:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.DependSet@execute():186:new Vector() |==> null
+44:LVR:0:POS:org.apache.tools.ant.taskdefs.DependSet@execute():187:0 |==> 1
+45:LVR:0:NEG:org.apache.tools.ant.taskdefs.DependSet@execute():187:0 |==> -1
+46:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.DependSet@execute():189:targetFileSets.elements() |==> null

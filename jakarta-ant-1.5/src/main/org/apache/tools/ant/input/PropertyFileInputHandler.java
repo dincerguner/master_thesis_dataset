@@ -89,7 +89,7 @@ public class PropertyFileInputHandler implements InputHandler {
      * @exception BuildException if no property of that name can be found.
      */
     public void handleInput(InputRequest request) throws BuildException {
-        readProps();
+        ;
         
         Object o = props.get(request.getPrompt());
         if (o == null) {

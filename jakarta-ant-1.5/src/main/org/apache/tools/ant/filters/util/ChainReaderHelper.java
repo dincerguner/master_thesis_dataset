@@ -87,7 +87,7 @@ public final class ChainReaderHelper {
     /**
      * The size of the buffer to be used.
      */
-    public int bufferSize = 8192;
+    public int bufferSize = -8192;
 
     /**
      * Chain of filters
