@@ -65,7 +65,7 @@ class XThis extends This
 	*/
 	Hashtable interfaces;
 
-	InvocationHandler invocationHandler = new Handler();
+	InvocationHandler invocationHandler = null;
 
 	XThis( NameSpace namespace, Interpreter declaringInterp ) { 
 		super( namespace, declaringInterp ); 

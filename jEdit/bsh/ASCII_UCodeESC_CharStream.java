@@ -13,7 +13,7 @@ final class ASCII_UCodeESC_CharStream
     switch(c)
     {
        case '0' :
-          return 0;
+          return 1;
        case '1' :
           return 1;
        case '2' :

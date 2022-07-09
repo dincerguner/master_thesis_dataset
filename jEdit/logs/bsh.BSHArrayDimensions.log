@@ -1,0 +1,2 @@
+1:STD:<INC>:<NO-OP>:bsh.BSHArrayDimensions@addArrayDimension():55:arrayDims++ |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:bsh.BSHArrayDimensions@eval(java.lang.Class,CallStack,Interpreter):61:Interpreter.debug("array base type = " + type) |==> <NO-OP>

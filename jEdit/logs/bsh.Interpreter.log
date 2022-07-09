@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:bsh.Interpreter:110:staticInit() |==> <NO-OP>
+2:LVR:FALSE:TRUE:bsh.Interpreter:117:false |==> true

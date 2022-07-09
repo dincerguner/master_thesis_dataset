@@ -65,7 +65,7 @@ public class NameSpace
 	NameSource
 {
 	public static final NameSpace JAVACODE = 
-		new NameSpace("Called from compiled Java code");
+		null;
 
 	// Begin instance data
 	// Note: if we add something here we should reset it in the clear() method.
