@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.io.DataInputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.depend.ClassFile@read(java.io.InputStream):58:new DataInputStream(stream) |==> null
+2:ROR:!=(int,int):<(int,int):org.apache.tools.ant.taskdefs.optional.depend.ClassFile@read(java.io.InputStream):60:classStream.readInt() != CLASS_MAGIC |==> classStream.readInt() < CLASS_MAGIC
+3:ROR:!=(int,int):>(int,int):org.apache.tools.ant.taskdefs.optional.depend.ClassFile@read(java.io.InputStream):60:classStream.readInt() != CLASS_MAGIC |==> classStream.readInt() > CLASS_MAGIC
+4:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.taskdefs.optional.depend.ClassFile@read(java.io.InputStream):60:classStream.readInt() != CLASS_MAGIC |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.depend.ClassFile@read(java.io.InputStream):66:classStream.readUnsignedShort() |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.depend.ClassFile@read(java.io.InputStream):67:classStream.readUnsignedShort() |==> <NO-OP>

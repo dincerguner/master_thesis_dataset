@@ -1,0 +1,12 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.filters.LineContains:58:new Vector() |==> null
+2:LVR:FALSE:TRUE:org.apache.tools.ant.filters.LineContains:67:false |==> true
+3:COR:getInitialized():TRUE:org.apache.tools.ant.filters.LineContains@read():99:getInitialized() |==> false
+4:COR:getInitialized():FALSE:org.apache.tools.ant.filters.LineContains@read():99:getInitialized() |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.LineContains@read():100:initialize() |==> <NO-OP>
+6:LVR:TRUE:FALSE:org.apache.tools.ant.filters.LineContains@read():101:true |==> false
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.LineContains@read():101:setInitialized(true) |==> <NO-OP>
+8:LVR:NEG:0:org.apache.tools.ant.filters.LineContains@read():104:-1 |==> 0
+9:LVR:NEG:POS:org.apache.tools.ant.filters.LineContains@read():104:-1 |==> 1
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.filters.LineContains@read():106:line != null |==> true
+11:LVR:0:POS:org.apache.tools.ant.filters.LineContains@read():107:0 |==> 1
+12:LVR:0:NEG:org.apache.tools.ant.filters.LineContains@read():107:0 |==> -1

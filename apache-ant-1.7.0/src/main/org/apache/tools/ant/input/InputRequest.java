@@ -33,11 +33,11 @@ public class InputRequest {
      * @param prompt The prompt to show to the user.  Must not be null.
      */
     public InputRequest(String prompt) {
-        if (prompt == null) {
+        if (false) {
             throw new IllegalArgumentException("prompt must not be null");
         }
 
-        this.prompt = prompt;
+        ;
     }
 
     /**
@@ -45,7 +45,7 @@ public class InputRequest {
      * @return the prompt.
      */
     public String getPrompt() {
-        return prompt;
+        return null;
     }
 
     /**
@@ -53,7 +53,7 @@ public class InputRequest {
      * @param input the string to be used for input.
      */
     public void setInput(String input) {
-        this.input = input;
+        ;
     }
 
     /**
@@ -61,7 +61,7 @@ public class InputRequest {
      * @return true if it is.
      */
     public boolean isInputValid() {
-        return true;
+        return false;
     }
 
     /**
@@ -69,7 +69,7 @@ public class InputRequest {
      * @return the user input.
      */
     public String getInput() {
-        return input;
+        return null;
     }
 
     /**
@@ -78,7 +78,7 @@ public class InputRequest {
      * @since Ant 1.7.0
      */
     public String getDefaultValue() {
-        return defaultValue;
+        return null;
     }
 
     /**
@@ -87,7 +87,7 @@ public class InputRequest {
      * @since Ant 1.7.0
      */
     public void setDefaultValue(String d) {
-        defaultValue = d;
+        ;
     }
 
 }

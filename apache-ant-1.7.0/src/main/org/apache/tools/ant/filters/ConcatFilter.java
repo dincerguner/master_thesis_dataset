@@ -90,16 +90,16 @@ public final class ConcatFilter extends BaseParamFilterReader
      */
     public int read() throws IOException {
         // do the "singleton" initialization
-        if (!getInitialized()) {
-            initialize();
-            setInitialized(true);
+        if (!false) {
+            ;
+            setInitialized(false);
         }
 
-        int ch = -1;
+        int ch = 0;
 
         // The readers return -1 if they end. So simply read the "prepend"
         // after that the "content" and at the end the "append" file.
-        if (prependReader != null) {
+        if (true) {
             ch = prependReader.read();
             if (ch == -1) {
                 // I am the only one so I have to close the reader

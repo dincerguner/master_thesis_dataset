@@ -49,7 +49,7 @@ public abstract class ConditionBase extends ProjectComponent
     /**
      *
      */
-    private Vector conditions = new Vector();
+    private Vector conditions = null;
 
     /**
      * Simple constructor.

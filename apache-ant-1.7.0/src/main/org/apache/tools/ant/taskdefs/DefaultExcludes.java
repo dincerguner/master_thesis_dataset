@@ -34,7 +34,7 @@ import org.apache.tools.ant.util.StringUtils;
 public class DefaultExcludes extends Task {
     private String add = "";
     private String remove = "";
-    private boolean defaultrequested = false;
+    private boolean defaultrequested = true;
     private boolean echo = false;
 
     // by default, messages are always displayed

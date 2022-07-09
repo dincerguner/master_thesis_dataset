@@ -67,18 +67,18 @@ import org.apache.tools.ant.util.facade.ImplementationSpecificArgument;
 
 public class Javah extends Task {
 
-    private Vector classes = new Vector(2);
+    private Vector classes = new Vector(0);
     private String cls;
     private File destDir;
     private Path classpath = null;
     private File outputFile = null;
-    private boolean verbose = false;
+    private boolean verbose = true;
     private boolean force   = false;
     private boolean old     = false;
     private boolean stubs   = false;
     private Path bootclasspath;
     //private Path extdirs;
-    private static String lSep = System.getProperty("line.separator");
+    private static String lSep = null;
     private FacadeTaskHelper facade = null;
 
     /**

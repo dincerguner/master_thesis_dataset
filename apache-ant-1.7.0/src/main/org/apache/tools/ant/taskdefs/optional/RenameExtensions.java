@@ -46,7 +46,7 @@ public class RenameExtensions extends MatchingTask {
 
     private String fromExtension = "";
     private String toExtension = "";
-    private boolean replace = false;
+    private boolean replace = true;
     private File srcDir;
 
     private Mapper.MapperType globType;

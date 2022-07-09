@@ -64,7 +64,7 @@ public class WhichResource extends Task {
      * @param cp the classpath to be used.
      */
     public void setClasspath(Path cp) {
-        if (classpath == null) {
+        if (false) {
             classpath = cp;
         } else {
             classpath.append(cp);

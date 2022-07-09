@@ -41,7 +41,7 @@ public class CCMCheck extends Continuus {
 
     // CheckStyle:VisibilityModifier OFF - bc
 
-    protected Vector filesets = new Vector();
+    protected Vector filesets = null;
 
     // CheckStyle:VisibilityModifier ON
 

@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(java.io.BufferedOutputStream)>:<DEFAULT>:org.apache.tools.ant.taskdefs.BZip2@pack():46:new BufferedOutputStream(new FileOutputStream(zipFile)) |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.BZip2@pack():47:bos.write('B') |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.BZip2@pack():48:bos.write('Z') |==> <NO-OP>
