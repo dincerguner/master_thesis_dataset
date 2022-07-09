@@ -1,0 +1,32 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.JavacOutputStream:74:false |==> true
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.JavacOutputStream@<init>(Task):82:this.task = task |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.JavacOutputStream@<init>(Task):83:line = new StringBuffer() |==> <NO-OP>
+4:EVR:<TYPE_CAST(char)>:<DEFAULT>:org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):93:(char)c |==> 0
+5:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\r' |==> cc <= '\r'
+6:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\r' |==> cc >= '\r'
+7:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\r' |==> false
+8:ROR:==(int,int):<=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\n' |==> cc <= '\n'
+9:ROR:==(int,int):>=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\n' |==> cc >= '\n'
+10:ROR:==(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\n' |==> false
+11:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\r' || cc == '\n' |==> cc == '\r' != (cc == '\n')
+12:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\r' || cc == '\n' |==> cc == '\r'
+13:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\r' || cc == '\n' |==> cc == '\n'
+14:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):94:cc == '\r' || cc == '\n' |==> true
+15:LVR:0:POS:org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):96:0 |==> 1
+16:LVR:0:NEG:org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):96:0 |==> -1
+17:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):96:line.length() > 0 |==> line.length() != 0
+18:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):96:line.length() > 0 |==> line.length() >= 0
+19:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):96:line.length() > 0 |==> false
+20:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):97:processLine() |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.JavacOutputStream@write(int):100:line.append(cc) |==> <NO-OP>
+22:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():109:line.toString() |==> null
+23:LVR:NEG:0:org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():110:-1 |==> 0
+24:LVR:NEG:POS:org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():110:-1 |==> 1
+25:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():110:s.indexOf("error") > -1 |==> s.indexOf("error") != -1
+26:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():110:s.indexOf("error") > -1 |==> s.indexOf("error") >= -1
+27:ROR:>(int,int):FALSE(int,int):org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():110:s.indexOf("error") > -1 |==> false
+28:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():111:true |==> false
+29:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():111:errorFlag = true |==> <NO-OP>
+30:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():113:task.log(s) |==> <NO-OP>
+31:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.JavacOutputStream@processLine():114:line = new StringBuffer() |==> <NO-OP>
+32:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.JavacOutputStream@getErrorFlag():123:errorFlag |==> false
