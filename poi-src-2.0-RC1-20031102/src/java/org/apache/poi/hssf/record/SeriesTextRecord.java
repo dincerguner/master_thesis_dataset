@@ -120,7 +120,7 @@ public class SeriesTextRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a SeriesText record");
         }
@@ -129,7 +129,7 @@ public class SeriesTextRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_id                     = LittleEndian.getShort(data, pos + 0x0 + offset);
         field_2_textLength             = data[ pos + 0x2 + offset ];
         field_3_undocumented           = data[ pos + 0x3 + offset ];

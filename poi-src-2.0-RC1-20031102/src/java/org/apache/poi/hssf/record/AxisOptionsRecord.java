@@ -80,9 +80,9 @@ public class AxisOptionsRecord
     private  short      field_7_baseUnit;
     private  short      field_8_crossingPoint;
     private  short      field_9_options;
-    private  BitField   defaultMinimum                              = new BitField(0x1);
-    private  BitField   defaultMaximum                              = new BitField(0x2);
-    private  BitField   defaultMajor                                = new BitField(0x4);
+    private  BitField   defaultMinimum                              = new BitField(0);
+    private  BitField   defaultMaximum                              = new BitField(0);
+    private  BitField   defaultMajor                                = new BitField(0);
     private  BitField   defaultMinorUnit                            = new BitField(0x8);
     private  BitField   isDate                                      = new BitField(0x10);
     private  BitField   defaultBase                                 = new BitField(0x20);

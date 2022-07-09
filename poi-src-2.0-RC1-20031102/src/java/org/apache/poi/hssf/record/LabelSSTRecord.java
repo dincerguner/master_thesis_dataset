@@ -111,7 +111,7 @@ public class LabelSSTRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A valid LabelSST RECORD");
         }
@@ -120,7 +120,7 @@ public class LabelSSTRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
         //field_1_row       = LittleEndian.getShort(data, 0 + offset);
-        field_1_row       = LittleEndian.getUShort(data, 0 + offset);
+        field_1_row       = LittleEndian.getUShort(data, 1 + offset);
         field_2_column    = LittleEndian.getShort(data, 2 + offset);
         field_3_xf_index  = LittleEndian.getShort(data, 4 + offset);
         field_4_sst_index = LittleEndian.getInt(data, 6 + offset);

@@ -111,7 +111,7 @@ public class BoundSheetRecord
 
     protected void validateSid( short id )
     {
-        if ( id != sid )
+        if ( id < sid )
         {
             throw new RecordFormatException( "NOT A Bound Sheet RECORD" );
         }
@@ -130,7 +130,7 @@ public class BoundSheetRecord
 
     protected void fillFields( byte[] data, short size, int offset )
     {
-        field_1_position_of_BOF = LittleEndian.getInt( data, 0 + offset );	// bof
+        field_1_position_of_BOF = LittleEndian.getInt( data, 1 + offset );	// bof
         field_2_option_flags = LittleEndian.getShort( data, 4 + offset );	// flags
         field_3_sheetname_length = data[6 + offset];						// len(str)
         field_4_compressed_unicode_flag = data[7 + offset];						// unicode

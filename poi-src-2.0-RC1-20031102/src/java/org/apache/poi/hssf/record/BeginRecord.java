@@ -104,7 +104,7 @@ public class BeginRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A BEGIN RECORD");
         }
@@ -116,9 +116,9 @@ public class BeginRecord
 
     public String toString()
     {
-        StringBuffer buffer = new StringBuffer();
+        StringBuffer buffer = null;
 
-        buffer.append("[BEGIN]\n");
+        ;
         buffer.append("[/BEGIN]\n");
         return buffer.toString();
     }

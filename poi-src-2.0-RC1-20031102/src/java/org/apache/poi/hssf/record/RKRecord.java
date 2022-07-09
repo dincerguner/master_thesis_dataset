@@ -124,7 +124,7 @@ public class RKRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A valid RK RECORD");
         }
@@ -133,7 +133,7 @@ public class RKRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
         //field_1_row       = LittleEndian.getShort(data, 0 + offset);
-        field_1_row       = LittleEndian.getUShort(data, 0 + offset);
+        field_1_row       = LittleEndian.getUShort(data, 1 + offset);
         field_2_col       = LittleEndian.getShort(data, 2 + offset);
         field_3_xf_index  = LittleEndian.getShort(data, 4 + offset);
         field_4_rk_number = LittleEndian.getInt(data, 6 + offset);

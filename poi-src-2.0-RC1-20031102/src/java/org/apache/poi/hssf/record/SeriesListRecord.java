@@ -117,7 +117,7 @@ public class SeriesListRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a SeriesList record");
         }
@@ -126,7 +126,7 @@ public class SeriesListRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_seriesNumbers          = LittleEndian.getShortArray(data, pos + 0x0 + offset);
 
     }

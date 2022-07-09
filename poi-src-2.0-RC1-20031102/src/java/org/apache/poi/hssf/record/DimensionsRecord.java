@@ -110,7 +110,7 @@ public class DimensionsRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A valid DIMENSIONS RECORD");
         }
@@ -118,7 +118,7 @@ public class DimensionsRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_first_row = LittleEndian.getInt(data, 0 + offset);
+        field_1_first_row = LittleEndian.getInt(data, 1 + offset);
         field_2_last_row  = LittleEndian.getInt(data, 4 + offset);
         field_3_first_col = LittleEndian.getShort(data, 8 + offset);
         field_4_last_col  = LittleEndian.getShort(data, 10 + offset);

@@ -86,7 +86,7 @@ public class ModelFactory implements ERFListener
     public ModelFactory()
     {
         super();
-        listeners = new ArrayList(1);
+        listeners = new ArrayList(0);
     }
     
     /**

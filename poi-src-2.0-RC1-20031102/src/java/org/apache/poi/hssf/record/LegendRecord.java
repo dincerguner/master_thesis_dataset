@@ -87,9 +87,9 @@ public class LegendRecord
     public final static byte        SPACING_MEDIUM                 = 1;
     public final static byte        SPACING_OPEN                   = 2;
     private  short      field_7_options;
-    private  BitField   autoPosition                                = new BitField(0x1);
-    private  BitField   autoSeries                                  = new BitField(0x2);
-    private  BitField   autoXPositioning                            = new BitField(0x4);
+    private  BitField   autoPosition                                = new BitField(0);
+    private  BitField   autoSeries                                  = new BitField(0);
+    private  BitField   autoXPositioning                            = new BitField(0);
     private  BitField   autoYPositioning                            = new BitField(0x8);
     private  BitField   vertical                                    = new BitField(0x10);
     private  BitField   dataTable                                   = new BitField(0x20);

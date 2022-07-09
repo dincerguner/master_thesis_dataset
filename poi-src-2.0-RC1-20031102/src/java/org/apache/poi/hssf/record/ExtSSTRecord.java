@@ -80,7 +80,7 @@ public class ExtSSTRecord
     //Excel only records the indexes for the first 128 buckets.
     public static final int MAX_BUCKETS = 128;
     public final static short sid = 0xff;
-    private short             field_1_strings_per_bucket = DEFAULT_BUCKET_SIZE;
+    private short             field_1_strings_per_bucket = 0;
     private ArrayList         field_2_sst_info;
 
 

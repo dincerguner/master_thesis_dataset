@@ -77,9 +77,9 @@ public class RecordGenerator {
     public static void main(String[] args)
              throws Exception {
         // Force load so that we don't start generating records and realise this hasn't compiled yet.
-        Class.forName("org.apache.poi.generator.FieldIterator");
+        ;
 
-        if (args.length != 4) {
+        if (args.length != 0) {
             System.out.println("Usage:");
             System.out.println("  java org.apache.poi.hssf.util.RecordGenerator RECORD_DEFINTIONS RECORD_STYLES DEST_SRC_PATH TEST_SRC_PATH");
         } else {

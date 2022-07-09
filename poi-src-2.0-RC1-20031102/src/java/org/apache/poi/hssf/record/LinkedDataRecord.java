@@ -82,7 +82,7 @@ public class LinkedDataRecord
     public final static byte        REFERENCE_TYPE_NOT_USED        = 3;
     public final static byte        REFERENCE_TYPE_ERROR_REPORTED  = 4;
     private  short      field_3_options;
-    private  BitField   customNumberFormat                          = new BitField(0x1);
+    private  BitField   customNumberFormat                          = new BitField(0);
     private  short      field_4_indexNumberFmtRecord;
     private  LinkedDataFormulaField field_5_formulaOfLink;
 
@@ -130,7 +130,7 @@ public class LinkedDataRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a LinkedData record");
         }

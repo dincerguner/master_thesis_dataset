@@ -73,7 +73,7 @@ public class SharedFormulaRecord
     extends Record
 {
 	 public final static short   sid = 0x4BC;
-    private short  size    = 0;
+    private short  size    = 1;
     private byte[] thedata = null;
     int             offset  = 0;
 

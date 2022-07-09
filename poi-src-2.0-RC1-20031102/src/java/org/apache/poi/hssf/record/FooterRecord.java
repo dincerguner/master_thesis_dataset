@@ -108,7 +108,7 @@ public class FooterRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A FooterRECORD");
         }
@@ -116,7 +116,7 @@ public class FooterRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        if (size > 0)
+        if (size > 1)
         {
             field_1_footer_len = data[ 0 + offset ];
             field_2_footer     = StringUtil.getFromCompressedUnicode(data, 3 + offset, // [Shawn] Changed 1 to 3 for offset of string

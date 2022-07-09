@@ -106,7 +106,7 @@ public class DateWindow1904Record
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A 1904 RECORD");
         }
@@ -114,7 +114,7 @@ public class DateWindow1904Record
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_window = LittleEndian.getShort(data, 0 + offset);
+        field_1_window = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

@@ -85,13 +85,13 @@ public class FontRecord
 
     // 0 0x01 - Reserved bit must be 0
     static final private BitField italic     =
-        new BitField(0x02);                                   // is this font in italics
+        new BitField(0);                                   // is this font in italics
 
     // 2 0x04 - reserved bit must be 0
     static final private BitField strikeout  =
-        new BitField(0x08);                                   // is this font has a line through the center
+        new BitField(0);                                   // is this font has a line through the center
     static final private BitField macoutline = new BitField(
-        0x10);                                                // some weird macintosh thing....but who understands those mac people anyhow
+        0);                                                // some weird macintosh thing....but who understands those mac people anyhow
     static final private BitField macshadow  = new BitField(
         0x20);                                                // some weird macintosh thing....but who understands those mac people anyhow
 

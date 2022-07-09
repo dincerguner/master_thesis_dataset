@@ -74,9 +74,9 @@ public class BarRecord
     private  short      field_1_barSpace;
     private  short      field_2_categorySpace;
     private  short      field_3_formatFlags;
-    private  BitField   horizontal                                  = new BitField(0x1);
-    private  BitField   stacked                                     = new BitField(0x2);
-    private  BitField   displayAsPercentage                         = new BitField(0x4);
+    private  BitField   horizontal                                  = new BitField(0);
+    private  BitField   stacked                                     = new BitField(0);
+    private  BitField   displayAsPercentage                         = new BitField(0);
     private  BitField   shadow                                      = new BitField(0x8);
 
 

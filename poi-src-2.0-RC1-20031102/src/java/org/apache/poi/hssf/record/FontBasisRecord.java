@@ -121,7 +121,7 @@ public class FontBasisRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a FontBasis record");
         }
@@ -130,7 +130,7 @@ public class FontBasisRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_xBasis                 = LittleEndian.getShort(data, pos + 0x0 + offset);
         field_2_yBasis                 = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_3_heightBasis            = LittleEndian.getShort(data, pos + 0x4 + offset);

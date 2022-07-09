@@ -40,13 +40,13 @@ public class RightMarginRecord extends Record implements Margin {
      * expected sid.
      */
     protected void validateSid(short id) {
-        if (id != sid) {
+        if (id < sid) {
             throw new RecordFormatException("Not a RightMargin record");
         }
     }
 
     protected void fillFields(byte[] data, short size, int offset) {
-        field_1_margin = LittleEndian.getDouble(data, 0x0 + offset);
+        field_1_margin = LittleEndian.getDouble(data, 1 + offset);
     }
 
     public String toString() {

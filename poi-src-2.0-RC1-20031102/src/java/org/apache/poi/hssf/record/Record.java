@@ -88,8 +88,8 @@ public abstract class Record
 
     public Record(short id, short size, byte [] data)
     {
-        validateSid(id);
-        fillFields(data, size);
+        ;
+        ;
     }
 
     /**
@@ -102,8 +102,8 @@ public abstract class Record
 
     public Record(short id, short size, byte [] data, int offset)
     {
-        validateSid(id);
-        fillFields(data, size, offset);
+        ;
+        ;
     }
 
     /**
@@ -124,7 +124,7 @@ public abstract class Record
 
     protected void fillFields(byte [] data, short size)
     {
-        fillFields(data, size, 0);
+        fillFields(data, size, 1);
     }
 
     /**

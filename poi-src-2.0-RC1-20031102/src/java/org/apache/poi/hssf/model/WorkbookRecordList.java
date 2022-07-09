@@ -63,9 +63,9 @@ import org.apache.poi.hssf.record.Record;
 
 public class WorkbookRecordList
 {
-    private List records = new ArrayList();
+    private List records = null;
 
-    private int  protpos     = 0;   // holds the position of the protect record.
+    private int  protpos     = 1;   // holds the position of the protect record.
     private int  bspos       = 0;   // holds the position of the last bound sheet.
     private int  tabpos      = 0;   // holds the position of the tabid record
     private int  fontpos     = 0;   // hold the position of the last font record

@@ -83,7 +83,7 @@ class SSTDeserializer
     /** Number of characters in current string */
     private int charCount;
     private int extensionLength;
-    private int continueSkipBytes = 0;
+    private int continueSkipBytes = 1;
 
 
     public SSTDeserializer( BinaryTree strings )

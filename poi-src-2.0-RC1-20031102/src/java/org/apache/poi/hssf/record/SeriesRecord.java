@@ -134,7 +134,7 @@ public class SeriesRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a Series record");
         }
@@ -143,7 +143,7 @@ public class SeriesRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_categoryDataType       = LittleEndian.getShort(data, pos + 0x0 + offset);
         field_2_valuesDataType         = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_3_numCategories          = LittleEndian.getShort(data, pos + 0x4 + offset);

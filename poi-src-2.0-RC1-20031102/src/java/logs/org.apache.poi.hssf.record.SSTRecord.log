@@ -1,0 +1,16 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.SSTRecord:89:2 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.SSTRecord:89:2 |==> -2
+3:AOR:*(int,int):%(int,int):org.apache.poi.hssf.record.SSTRecord:89:2 * LittleEndianConsts.SHORT_SIZE |==> 2 % LittleEndianConsts.SHORT_SIZE
+4:AOR:*(int,int):+(int,int):org.apache.poi.hssf.record.SSTRecord:89:2 * LittleEndianConsts.SHORT_SIZE |==> 2 + LittleEndianConsts.SHORT_SIZE
+5:AOR:*(int,int):-(int,int):org.apache.poi.hssf.record.SSTRecord:89:2 * LittleEndianConsts.SHORT_SIZE |==> 2 - LittleEndianConsts.SHORT_SIZE
+6:AOR:*(int,int):/(int,int):org.apache.poi.hssf.record.SSTRecord:89:2 * LittleEndianConsts.SHORT_SIZE |==> 2 / LittleEndianConsts.SHORT_SIZE
+7:LVR:POS:0:org.apache.poi.hssf.record.SSTRecord:93:2 |==> 0
+8:LVR:POS:NEG:org.apache.poi.hssf.record.SSTRecord:93:2 |==> -2
+9:AOR:*(int,int):%(int,int):org.apache.poi.hssf.record.SSTRecord:93:2 * LittleEndianConsts.INT_SIZE |==> 2 % LittleEndianConsts.INT_SIZE
+10:AOR:*(int,int):+(int,int):org.apache.poi.hssf.record.SSTRecord:93:2 * LittleEndianConsts.INT_SIZE |==> 2 + LittleEndianConsts.INT_SIZE
+11:AOR:*(int,int):-(int,int):org.apache.poi.hssf.record.SSTRecord:93:2 * LittleEndianConsts.INT_SIZE |==> 2 - LittleEndianConsts.INT_SIZE
+12:AOR:*(int,int):/(int,int):org.apache.poi.hssf.record.SSTRecord:93:2 * LittleEndianConsts.INT_SIZE |==> 2 / LittleEndianConsts.INT_SIZE
+13:AOR:-(int,int):%(int,int):org.apache.poi.hssf.record.SSTRecord:96:MAX_RECORD_SIZE - SST_RECORD_OVERHEAD |==> MAX_RECORD_SIZE % SST_RECORD_OVERHEAD
+14:AOR:-(int,int):*(int,int):org.apache.poi.hssf.record.SSTRecord:96:MAX_RECORD_SIZE - SST_RECORD_OVERHEAD |==> MAX_RECORD_SIZE * SST_RECORD_OVERHEAD
+15:AOR:-(int,int):+(int,int):org.apache.poi.hssf.record.SSTRecord:96:MAX_RECORD_SIZE - SST_RECORD_OVERHEAD |==> MAX_RECORD_SIZE + SST_RECORD_OVERHEAD
+16:AOR:-(int,int):/(int,int):org.apache.poi.hssf.record.SSTRecord:96:MAX_RECORD_SIZE - SST_RECORD_OVERHEAD |==> MAX_RECORD_SIZE / SST_RECORD_OVERHEAD

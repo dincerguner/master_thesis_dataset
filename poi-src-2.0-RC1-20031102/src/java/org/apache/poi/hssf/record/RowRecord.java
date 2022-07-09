@@ -82,11 +82,11 @@ public class RowRecord
     // for generated sheets.
     private short             field_6_reserved;
     private short             field_7_option_flags;
-    private BitField          outlineLevel  = new BitField(0x07);
+    private BitField          outlineLevel  = new BitField(0);
 
     // bit 3 reserved
-    private BitField          colapsed      = new BitField(0x10);
-    private BitField          zeroHeight    = new BitField(0x20);
+    private BitField          colapsed      = new BitField(0);
+    private BitField          zeroHeight    = new BitField(0);
     private BitField          badFontHeight = new BitField(0x40);
     private BitField          formatted     = new BitField(0x80);
     private short             field_8_xf_index;   // only if isFormatted

@@ -124,7 +124,7 @@ public class AxisRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a Axis record");
         }
@@ -133,7 +133,7 @@ public class AxisRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_axisType               = LittleEndian.getShort(data, pos + 0x0 + offset);
         field_2_reserved1              = LittleEndian.getInt(data, pos + 0x2 + offset);
         field_3_reserved2              = LittleEndian.getInt(data, pos + 0x6 + offset);

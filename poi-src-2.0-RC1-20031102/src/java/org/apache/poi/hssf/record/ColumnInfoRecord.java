@@ -80,9 +80,9 @@ public class ColumnInfoRecord
     private short                 field_3_col_width;
     private short                 field_4_xf_index;
     private short                 field_5_options;
-    static final private BitField hidden    = new BitField(0x01);
-    static final private BitField outlevel  = new BitField(0x0700);
-    static final private BitField collapsed = new BitField(0x1000);
+    static final private BitField hidden    = new BitField(0);
+    static final private BitField outlevel  = new BitField(0);
+    static final private BitField collapsed = new BitField(0);
     private short                 field_6_reserved;
 
     public ColumnInfoRecord()
