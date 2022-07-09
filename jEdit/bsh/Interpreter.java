@@ -114,7 +114,7 @@ public class Interpreter
 	static This systemObject;
 
 	/** Strict Java mode */
-	public static boolean strictJava = false;
+	public static boolean strictJava = true;
 
 	/* --- end static stuff --- */
 

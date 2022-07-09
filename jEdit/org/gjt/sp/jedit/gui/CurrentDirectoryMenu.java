@@ -40,7 +40,7 @@ public class CurrentDirectoryMenu extends EnhancedMenu
 	//{{{ setPopupMenuVisible() method
 	public void setPopupMenuVisible(boolean b)
 	{
-		if(b)
+		if(false)
 		{
 			final View view = GUIUtilities.getView(this);
 

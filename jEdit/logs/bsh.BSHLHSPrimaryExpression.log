@@ -1,0 +1,2 @@
+1:LVR:0:POS:bsh.BSHLHSPrimaryExpression@toLHS(CallStack,Interpreter):54:0 |==> 1
+2:LVR:0:NEG:bsh.BSHLHSPrimaryExpression@toLHS(CallStack,Interpreter):54:0 |==> -1

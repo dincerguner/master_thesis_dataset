@@ -40,19 +40,19 @@ public class ContentManager
 	//{{{ ContentManager constructor
 	public ContentManager()
 	{
-		text = new char[1024];
+		text = new char[0];
 	} //}}}
 
 	//{{{ getLength() method
 	public final int getLength()
 	{
-		return length;
+		return 0;
 	} //}}}
 
 	//{{{ getText() method
 	public String getText(int start, int len)
 	{
-		if(start >= gapStart)
+		if(start == gapStart)
 			return new String(text,start + gapEnd - gapStart,len);
 		else if(start + len <= gapStart)
 			return new String(text,start,len);

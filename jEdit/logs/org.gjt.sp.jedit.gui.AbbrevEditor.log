@@ -1,0 +1,183 @@
+1:EVR:<NEW_CLASS(java.awt.GridBagLayout)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():38:new GridBagLayout() |==> null
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():39:setLayout(layout) |==> <NO-OP>
+3:EVR:<NEW_CLASS(java.awt.GridBagConstraints)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():41:new GridBagConstraints() |==> null
+4:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():42:cons.anchor = cons.WEST |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():43:cons.fill = cons.BOTH |==> <NO-OP>
+6:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():44:0.0F |==> 1.0F
+7:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():44:0.0F |==> -1.0F
+8:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():44:cons.weightx = 0.0F |==> <NO-OP>
+9:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():45:1 |==> 0
+10:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():45:1 |==> -1
+11:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():45:cons.gridx = 1 |==> <NO-OP>
+12:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():46:1 |==> 0
+13:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():46:1 |==> -1
+14:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():46:cons.gridy = 1 |==> <NO-OP>
+15:EVR:<NEW_CLASS(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():48:new JLabel(jEdit.getProperty("abbrev-editor.abbrev"), SwingConstants.RIGHT) |==> null
+16:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:0 |==> 1
+17:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:0 |==> -1
+18:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:0 |==> 1
+19:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:0 |==> -1
+20:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:0 |==> 1
+21:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:0 |==> -1
+22:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:12 |==> 0
+23:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:12 |==> -12
+24:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():50:label.setBorder(new EmptyBorder(0, 0, 0, 12)) |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():51:layout.setConstraints(label, cons) |==> <NO-OP>
+26:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():52:add(label) |==> <NO-OP>
+27:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():53:cons.gridx++ |==> <NO-OP>
+28:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():54:1.0F |==> 0.0F
+29:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():54:1.0F |==> -1.0F
+30:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():54:cons.weightx = 1.0F |==> <NO-OP>
+31:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():55:abbrev = new JTextField() |==> <NO-OP>
+32:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():56:layout.setConstraints(abbrev, cons) |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():57:add(abbrev) |==> <NO-OP>
+34:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():59:1 |==> 0
+35:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():59:1 |==> -1
+36:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():59:cons.gridx = 1 |==> <NO-OP>
+37:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():60:0.0F |==> 1.0F
+38:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():60:0.0F |==> -1.0F
+39:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():60:cons.weightx = 0.0F |==> <NO-OP>
+40:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():61:2 |==> 0
+41:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():61:2 |==> -2
+42:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():61:cons.gridwidth = 2 |==> <NO-OP>
+43:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():63:cons.gridy++ |==> <NO-OP>
+44:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():64:label = new JLabel(jEdit.getProperty("abbrev-editor.before")) |==> <NO-OP>
+45:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:6 |==> 0
+46:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:6 |==> -6
+47:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:0 |==> 1
+48:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:0 |==> -1
+49:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:3 |==> 0
+50:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:3 |==> -3
+51:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:0 |==> 1
+52:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:0 |==> -1
+53:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():65:label.setBorder(new EmptyBorder(6, 0, 3, 0)) |==> <NO-OP>
+54:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():66:layout.setConstraints(label, cons) |==> <NO-OP>
+55:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():67:add(label) |==> <NO-OP>
+56:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():69:cons.gridy++ |==> <NO-OP>
+57:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():70:1.0F |==> 0.0F
+58:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():70:1.0F |==> -1.0F
+59:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():70:cons.weighty = 1.0F |==> <NO-OP>
+60:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():71:4 |==> 0
+61:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():71:4 |==> -4
+62:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():71:40 |==> 0
+63:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():71:40 |==> -40
+64:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():71:beforeCaret = new JTextArea(4, 40) |==> <NO-OP>
+65:EVR:<NEW_CLASS(javax.swing.JScrollPane)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():72:new JScrollPane(beforeCaret) |==> null
+66:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():73:layout.setConstraints(scroller, cons) |==> <NO-OP>
+67:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():74:add(scroller) |==> <NO-OP>
+68:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():76:cons.gridy++ |==> <NO-OP>
+69:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():77:0.0F |==> 1.0F
+70:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():77:0.0F |==> -1.0F
+71:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():77:cons.weighty = 0.0F |==> <NO-OP>
+72:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():78:label = new JLabel(jEdit.getProperty("abbrev-editor.after")) |==> <NO-OP>
+73:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:6 |==> 0
+74:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:6 |==> -6
+75:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:0 |==> 1
+76:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:0 |==> -1
+77:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:3 |==> 0
+78:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:3 |==> -3
+79:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:0 |==> 1
+80:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:0 |==> -1
+81:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():79:label.setBorder(new EmptyBorder(6, 0, 3, 0)) |==> <NO-OP>
+82:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():80:layout.setConstraints(label, cons) |==> <NO-OP>
+83:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():81:add(label) |==> <NO-OP>
+84:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():83:cons.gridy++ |==> <NO-OP>
+85:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():84:1.0F |==> 0.0F
+86:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():84:1.0F |==> -1.0F
+87:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():84:cons.weighty = 1.0F |==> <NO-OP>
+88:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():85:4 |==> 0
+89:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():85:4 |==> -4
+90:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():85:40 |==> 0
+91:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():85:40 |==> -40
+92:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():85:afterCaret = new JTextArea(4, 40) |==> <NO-OP>
+93:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():86:scroller = new JScrollPane(afterCaret) |==> <NO-OP>
+94:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():87:layout.setConstraints(scroller, cons) |==> <NO-OP>
+95:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@<init>():88:add(scroller) |==> <NO-OP>
+96:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getAbbrev():94:abbrev.getText() |==> null
+97:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setAbbrev(java.lang.String):100:this.abbrev.setText(abbrev) |==> <NO-OP>
+98:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():106:new StringBuffer() |==> null
+99:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():108:beforeCaret.getText() |==> null
+100:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():109:afterCaret.getText() |==> null
+101:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():111:0 |==> 1
+102:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():111:0 |==> -1
+103:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():111:i < beforeCaretText.length() |==> i != beforeCaretText.length()
+104:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():111:i < beforeCaretText.length() |==> i <= beforeCaretText.length()
+105:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():111:i < beforeCaretText.length() |==> false
+106:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():113:beforeCaretText.charAt(i) |==> 0
+107:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():117:buf.append("\\n") |==> <NO-OP>
+108:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():118:break; |==> <NO-OP>
+109:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():120:buf.append("\\t") |==> <NO-OP>
+110:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():121:break; |==> <NO-OP>
+111:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():123:buf.append("\\\\") |==> <NO-OP>
+112:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():124:break; |==> <NO-OP>
+113:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():126:buf.append(ch) |==> <NO-OP>
+114:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():127:break; |==> <NO-OP>
+115:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():131:0 |==> 1
+116:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():131:0 |==> -1
+117:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():131:afterCaretText.length() != 0 |==> afterCaretText.length() < 0
+118:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():131:afterCaretText.length() != 0 |==> afterCaretText.length() > 0
+119:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():131:afterCaretText.length() != 0 |==> true
+120:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():133:buf.append("\\|") |==> <NO-OP>
+121:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():135:0 |==> 1
+122:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():135:0 |==> -1
+123:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():135:i < afterCaretText.length() |==> i != afterCaretText.length()
+124:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():135:i < afterCaretText.length() |==> i <= afterCaretText.length()
+125:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():135:i < afterCaretText.length() |==> false
+126:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():137:afterCaretText.charAt(i) |==> 0
+127:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():141:buf.append("\\n") |==> <NO-OP>
+128:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():142:break; |==> <NO-OP>
+129:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():144:buf.append("\\t") |==> <NO-OP>
+130:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():145:break; |==> <NO-OP>
+131:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():147:buf.append("\\\\") |==> <NO-OP>
+132:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():148:break; |==> <NO-OP>
+133:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():150:buf.append(ch) |==> <NO-OP>
+134:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():151:break; |==> <NO-OP>
+135:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getExpansion():156:buf.toString() |==> null
+136:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):162:expansion == null |==> false
+137:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):164:beforeCaret.setText(null) |==> <NO-OP>
+138:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):165:afterCaret.setText(null) |==> <NO-OP>
+139:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):166:return; |==> <NO-OP>
+140:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):171:new StringBuffer() |==> null
+141:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):173:0 |==> 1
+142:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):173:0 |==> -1
+143:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):173:i < expansion.length() |==> i != expansion.length()
+144:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):173:i < expansion.length() |==> i <= expansion.length()
+145:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):173:i < expansion.length() |==> false
+146:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):175:expansion.charAt(i) |==> 0
+147:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:ch == '\\' |==> ch <= '\\'
+148:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:ch == '\\' |==> ch >= '\\'
+149:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:ch == '\\' |==> false
+150:LVR:POS:0:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:1 |==> 0
+151:LVR:POS:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:1 |==> -1
+152:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:expansion.length() - 1 |==> expansion.length() % 1
+153:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:expansion.length() - 1 |==> expansion.length() * 1
+154:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:expansion.length() - 1 |==> expansion.length() + 1
+155:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:expansion.length() - 1 |==> expansion.length() / 1
+156:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:i != expansion.length() - 1 |==> i < expansion.length() - 1
+157:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:i != expansion.length() - 1 |==> i > expansion.length() - 1
+158:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:i != expansion.length() - 1 |==> true
+159:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:ch == '\\' && i != expansion.length() - 1 |==> ch == '\\' == (i != expansion.length() - 1)
+160:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:ch == '\\' && i != expansion.length() - 1 |==> false
+161:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:ch == '\\' && i != expansion.length() - 1 |==> ch == '\\'
+162:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):177:ch == '\\' && i != expansion.length() - 1 |==> i != expansion.length() - 1
+163:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):179:ch = expansion.charAt(++i) |==> <NO-OP>
+164:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):183:buf.append('\t') |==> <NO-OP>
+165:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):184:break; |==> <NO-OP>
+166:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):186:buf.append('\n') |==> <NO-OP>
+167:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):187:break; |==> <NO-OP>
+168:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):189:beforeCaretText = buf.toString() |==> <NO-OP>
+169:LVR:0:POS:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):190:0 |==> 1
+170:LVR:0:NEG:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):190:0 |==> -1
+171:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):190:buf.setLength(0) |==> <NO-OP>
+172:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):191:break; |==> <NO-OP>
+173:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):193:buf.append(ch) |==> <NO-OP>
+174:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):194:break; |==> <NO-OP>
+175:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):198:buf.append(ch) |==> <NO-OP>
+176:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):201:beforeCaretText == null |==> false
+177:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):202:beforeCaretText = buf.toString() |==> <NO-OP>
+178:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):204:afterCaretText = buf.toString() |==> <NO-OP>
+179:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):206:beforeCaret.setText(beforeCaretText) |==> <NO-OP>
+180:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AbbrevEditor@setExpansion(java.lang.String):207:afterCaret.setText(afterCaretText) |==> <NO-OP>
+181:EVR:<IDENTIFIER(javax.swing.JTextField)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getAbbrevField():213:abbrev |==> null
+182:EVR:<IDENTIFIER(javax.swing.JTextArea)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getBeforeCaretTextArea():219:beforeCaret |==> null
+183:EVR:<IDENTIFIER(javax.swing.JTextArea)>:<DEFAULT>:org.gjt.sp.jedit.gui.AbbrevEditor@getAfterCaretTextArea():225:afterCaret |==> null

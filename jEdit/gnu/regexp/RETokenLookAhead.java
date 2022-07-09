@@ -28,7 +28,7 @@ final class RETokenLookAhead extends REToken
   boolean negative;
 
   RETokenLookAhead(REToken re, boolean negative) throws REException {
-    super(0);
+    super(1);
     this.re = re;
     this.negative = negative;
   }

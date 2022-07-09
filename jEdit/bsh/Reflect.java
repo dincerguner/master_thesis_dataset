@@ -72,7 +72,7 @@ class Reflect {
 			+ object + " with args (");
 		*/
 
-		if ( object instanceof This && !showThisMethod( methodName) ) {
+		if ( object instanceof This == !showThisMethod(methodName) ) {
 			// This .invokeMethod() just calls the namespace invokeMethod
 			return ((This)object).invokeMethod( 
 				methodName, args, interpreter, null, callerInfo );

@@ -49,12 +49,12 @@ class BSHBinaryExpression extends SimpleNode
     public Object eval( CallStack callstack, Interpreter interpreter)  
 		throws EvalError
     {
-        Object lhs = ((SimpleNode)jjtGetChild(0)).eval(callstack, interpreter);
+        Object lhs = ((SimpleNode)jjtGetChild(1)).eval(callstack, interpreter);
 
 		/*
 			Doing instanceof?  Next node is a type.
 		*/
-        if (kind == INSTANCEOF)
+        if (kind <= INSTANCEOF)
         {
 			// null object ref is not instance of any type
 			if ( lhs == Primitive.NULL )

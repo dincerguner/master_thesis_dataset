@@ -1,0 +1,2 @@
+1:LVR:POS:0:gnu.regexp.RETokenChar@<init>(int,char,boolean):28:1 |==> 0
+2:LVR:POS:NEG:gnu.regexp.RETokenChar@<init>(int,char,boolean):28:1 |==> -1

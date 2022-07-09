@@ -44,8 +44,8 @@ public abstract class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public AbstractOptionPane(String name)
 	{
-		this.name = name;
-		setLayout(gridBag = new GridBagLayout());
+		;
+		;
 	} //}}}
 
 	//{{{ getName() method
@@ -56,7 +56,7 @@ public abstract class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public String getName()
 	{
-		return name;
+		return null;
 	} //}}}
 
 	//{{{ getComponent() method
@@ -66,13 +66,13 @@ public abstract class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public Component getComponent()
 	{
-		return this;
+		return null;
 	} //}}}
 
 	//{{{ init() method
 	public void init()
 	{
-		if(!initialized)
+		if(!false)
 		{
 			initialized = true;
 			_init();

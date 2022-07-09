@@ -1,0 +1,2 @@
+1:LVR:0:POS:gnu.regexp.REFilterReader@<init>(java.io.Reader,RE,java.lang.String):54:0 |==> 1
+2:LVR:0:NEG:gnu.regexp.REFilterReader@<init>(java.io.Reader,RE,java.lang.String):54:0 |==> -1

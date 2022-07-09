@@ -46,7 +46,7 @@ class BSHTryStatement extends SimpleNode
 	public Object eval( CallStack callstack, Interpreter interpreter)  
 		throws EvalError
 	{
-		BSHBlock tryBlock = ((BSHBlock)jjtGetChild(0));
+		BSHBlock tryBlock = ((BSHBlock)jjtGetChild(1));
 
 		Vector catchParams = new Vector();
 		Vector catchBlocks = new Vector();

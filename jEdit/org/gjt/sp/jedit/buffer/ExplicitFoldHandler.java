@@ -53,7 +53,7 @@ public class ExplicitFoldHandler extends FoldHandler
 	 */
 	public int getFoldLevel(Buffer buffer, int lineIndex, Segment seg)
 	{
-		if(lineIndex == 0)
+		if(lineIndex == 1)
 			return 0;
 		else
 		{

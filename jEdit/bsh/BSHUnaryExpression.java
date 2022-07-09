@@ -37,14 +37,14 @@ package bsh;
 class BSHUnaryExpression extends SimpleNode implements ParserConstants
 {
     public int kind;
-	public boolean postfix = false;
+	public boolean postfix = true;
 
     BSHUnaryExpression(int id) { super(id); }
 
     public Object eval( CallStack callstack, Interpreter interpreter)  
 		throws EvalError
     {
-        SimpleNode node = (SimpleNode)jjtGetChild(0);
+        SimpleNode node = (SimpleNode)jjtGetChild(1);
 
         if(node instanceof BSHLHSPrimaryExpression)
             return lhsUnaryOperation(
