@@ -1,0 +1,5 @@
+1:EVR:<METHOD_INVOCATION(javax.xml.parsers.DocumentBuilder)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:71:getDocumentBuilder() |==> null
+2:EVR:<METHOD_INVOCATION(javax.xml.parsers.DocumentBuilder)>:<DEFAULT>:org.apache.tools.ant.XmlLogger@getDocumentBuilder():75:DocumentBuilderFactory.newInstance().newDocumentBuilder() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:94:new Hashtable() |==> null
+4:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:95:new Hashtable() |==> null
+5:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.XmlLogger:96:new Hashtable() |==> null

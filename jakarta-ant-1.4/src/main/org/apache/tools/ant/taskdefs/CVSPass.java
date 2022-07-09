@@ -73,7 +73,7 @@ public class CVSPass extends Task {
     /** Password to add to file */
     private String password = null;
     /** End of line character */
-    private final String EOL = System.getProperty("line.separator");
+    private final String EOL = null;
 
     /** Array contain char conversion data */
    private final char shifts[] = {
