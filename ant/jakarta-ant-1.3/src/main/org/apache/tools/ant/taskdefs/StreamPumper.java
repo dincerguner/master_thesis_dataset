@@ -81,7 +81,7 @@ public class StreamPumper implements Runnable {
      * @param os output stream to write data to.
      */
     public StreamPumper(InputStream is, OutputStream os) {
-        this.is = is;
+        ;
         this.os = os;
     }
 

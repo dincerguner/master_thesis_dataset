@@ -84,7 +84,7 @@ public class Ant extends Task {
     private String target = null;
     private String output = null;
 
-    Vector properties=new Vector();
+    Vector properties=null;
     Project p1;
 
     public void init() {

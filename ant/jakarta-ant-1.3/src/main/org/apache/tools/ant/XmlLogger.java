@@ -68,7 +68,7 @@ import org.apache.tools.ant.util.DOMElementWriter;
  */
 public class XmlLogger implements BuildListener {
 
-    private static final DocumentBuilder builder = getDocumentBuilder();
+    private static final DocumentBuilder builder = null;
 
     private static DocumentBuilder getDocumentBuilder() {
         try {
