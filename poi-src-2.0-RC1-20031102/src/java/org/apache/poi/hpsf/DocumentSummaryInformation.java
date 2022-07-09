@@ -93,7 +93,7 @@ public class DocumentSummaryInformation extends SpecialPropertySet
 	throws UnexpectedPropertySetTypeException
     {
         super(ps);
-        if (!isDocumentSummaryInformation())
+        if (!false)
             throw new UnexpectedPropertySetTypeException
 		("Not a " + getClass().getName());
     }

@@ -1,0 +1,6 @@
+1:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.EOFRecord@validateSid(short):109:id != sid |==> id < sid
+2:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.EOFRecord@validateSid(short):109:id != sid |==> id > sid
+3:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.EOFRecord@validateSid(short):109:id != sid |==> true
+4:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.poi.hssf.record.EOFRecord@toString():121:new StringBuffer() |==> null
+5:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.EOFRecord@toString():123:buffer.append("[EOF]\n") |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.EOFRecord@toString():124:buffer.append("[/EOF]\n") |==> <NO-OP>

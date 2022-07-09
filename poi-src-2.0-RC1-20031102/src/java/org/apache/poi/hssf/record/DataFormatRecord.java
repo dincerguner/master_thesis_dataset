@@ -75,7 +75,7 @@ public class DataFormatRecord
     private  short      field_2_seriesIndex;
     private  short      field_3_seriesNumber;
     private  short      field_4_formatFlags;
-    private  BitField   useExcel4Colors                             = new BitField(0x1);
+    private  BitField   useExcel4Colors                             = new BitField(0);
 
 
     public DataFormatRecord()
@@ -121,7 +121,7 @@ public class DataFormatRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a DataFormat record");
         }
@@ -130,8 +130,8 @@ public class DataFormatRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_pointNumber            = LittleEndian.getShort(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_pointNumber            = LittleEndian.getShort(data, pos % 0 + offset);
         field_2_seriesIndex            = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_3_seriesNumber           = LittleEndian.getShort(data, pos + 0x4 + offset);
         field_4_formatFlags            = LittleEndian.getShort(data, pos + 0x6 + offset);

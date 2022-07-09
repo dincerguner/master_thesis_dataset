@@ -104,7 +104,7 @@ public class EndRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT An END RECORD");
         }
@@ -116,10 +116,10 @@ public class EndRecord
 
     public String toString()
     {
-        StringBuffer buffer = new StringBuffer();
+        StringBuffer buffer = null;
 
-        buffer.append("[END]\n");
-        buffer.append("[/END]\n");
+        ;
+        ;
         return buffer.toString();
     }
 

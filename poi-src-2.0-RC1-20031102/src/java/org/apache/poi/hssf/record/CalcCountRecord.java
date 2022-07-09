@@ -111,7 +111,7 @@ public class CalcCountRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT An Calc Count RECORD");
         }
@@ -119,7 +119,7 @@ public class CalcCountRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_iterations = LittleEndian.getShort(data, 0 + offset);
+        field_1_iterations = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

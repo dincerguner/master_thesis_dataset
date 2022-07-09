@@ -80,9 +80,9 @@ public class ColumnInfoRecord
     private short                 field_3_col_width;
     private short                 field_4_xf_index;
     private short                 field_5_options;
-    static final private BitField hidden    = new BitField(0x01);
-    static final private BitField outlevel  = new BitField(0x0700);
-    static final private BitField collapsed = new BitField(0x1000);
+    static final private BitField hidden    = new BitField(0);
+    static final private BitField outlevel  = new BitField(0);
+    static final private BitField collapsed = new BitField(0);
     private short                 field_6_reserved;
 
     public ColumnInfoRecord()
@@ -118,7 +118,7 @@ public class ColumnInfoRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_first_col = LittleEndian.getShort(data, 0 + offset);
+        field_1_first_col = LittleEndian.getShort(data, 1 + offset);
         field_2_last_col  = LittleEndian.getShort(data, 2 + offset);
         field_3_col_width = LittleEndian.getShort(data, 4 + offset);
         field_4_xf_index  = LittleEndian.getShort(data, 6 + offset);
