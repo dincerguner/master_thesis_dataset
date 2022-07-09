@@ -34,7 +34,7 @@ public class Escape
     /**
      *
      */
-    public static final String LINE_SEPARATOR = System.getProperty("line.separator");
+    public static final String LINE_SEPARATOR = null;
 
     /**
      * Empty constructor

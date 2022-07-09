@@ -1,0 +1,125 @@
+1:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:50:239 |==> 0
+2:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:50:239 |==> -239
+3:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:50:187 |==> 0
+4:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:50:187 |==> -187
+5:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:50:191 |==> 0
+6:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:50:191 |==> -191
+7:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:53:255 |==> 0
+8:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:53:255 |==> -255
+9:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:53:254 |==> 0
+10:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:53:254 |==> -254
+11:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:56:254 |==> 0
+12:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:56:254 |==> -254
+13:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:56:255 |==> 0
+14:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:56:255 |==> -255
+15:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:63:255 |==> 0
+16:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:63:255 |==> -255
+17:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:63:254 |==> 0
+18:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:63:254 |==> -254
+19:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream:63:0 |==> 1
+20:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream:63:0 |==> -1
+21:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream:63:0 |==> 1
+22:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream:63:0 |==> -1
+23:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream:70:0 |==> 1
+24:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream:70:0 |==> -1
+25:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream:70:0 |==> 1
+26:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream:70:0 |==> -1
+27:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:70:254 |==> 0
+28:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:70:254 |==> -254
+29:LVR:POS:0:org.apache.velocity.io.UnicodeInputStream:70:255 |==> 0
+30:LVR:POS:NEG:org.apache.velocity.io.UnicodeInputStream:70:255 |==> -255
+31:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream:76:new byte[MAX_BOM_SIZE] |==> null
+32:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream:79:0 |==> 1
+33:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream:79:0 |==> -1
+34:LVR:TRUE:FALSE:org.apache.velocity.io.UnicodeInputStream@<init>(java.io.InputStream):97:true |==> false
+35:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@<init>(java.io.InputStream,boolean):111:skipBOM |==> false
+36:EVR:<NEW_CLASS(java.io.PushbackInputStream)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@<init>(java.io.InputStream,boolean):112:new PushbackInputStream(inputStream, MAX_BOM_SIZE) |==> null
+37:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@<init>(java.io.InputStream,boolean):116:readEncoding() |==> null
+38:EVR:<NEW_CLASS(java.lang.IllegalStateException)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@<init>(java.io.InputStream,boolean):120:new IllegalStateException("Could not read BOM from Stream") |==> null
+39:STD:<CALL>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@<init>(java.io.InputStream,boolean):121:ExceptionUtils.setCause(ex, ioe) |==> <NO-OP>
+40:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@isSkipBOM():133:skipBOM |==> false
+41:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@getEncodingFromStream():145:encoding |==> null
+42:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream@readEncoding():157:0 |==> 1
+43:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream@readEncoding():157:0 |==> -1
+44:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():157:pos = 0 |==> <NO-OP>
+45:COR:readByte():TRUE:org.apache.velocity.io.UnicodeInputStream@readEncoding():162:readByte() |==> false
+46:COR:readByte():FALSE:org.apache.velocity.io.UnicodeInputStream@readEncoding():162:readByte() |==> true
+47:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream@readEncoding():172:0 |==> 1
+48:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream@readEncoding():172:0 |==> -1
+49:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():175:encoding = match(UTF32BE_BOM, null) |==> <NO-OP>
+50:STD:<BREAK>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():176:break; |==> <NO-OP>
+51:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():178:encoding = match(UTF8_BOM, null) |==> <NO-OP>
+52:STD:<BREAK>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():179:break; |==> <NO-OP>
+53:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():181:encoding = match(UTF16BE_BOM, null) |==> <NO-OP>
+54:STD:<BREAK>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():182:break; |==> <NO-OP>
+55:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():184:encoding = match(UTF16LE_BOM, null) |==> <NO-OP>
+56:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.velocity.io.UnicodeInputStream@readEncoding():186:encoding != null |==> true
+57:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():188:encoding = match(UTF32LE_BOM, encoding) |==> <NO-OP>
+58:STD:<BREAK>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():190:break; |==> <NO-OP>
+59:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():193:encoding = null |==> <NO-OP>
+60:STD:<BREAK>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():194:break; |==> <NO-OP>
+61:STD:<CALL>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readEncoding():198:pushback(encoding) |==> <NO-OP>
+62:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.velocity.io.UnicodeInputStream@readEncoding():200:encoding != null |==> true
+63:EVR:<METHOD_INVOCATION(byte[])>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):206:matchEncoding.getBytes() |==> null
+64:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):208:0 |==> 1
+65:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):208:0 |==> -1
+66:ROR:<(int,int):!=(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):208:i < bom.length |==> i != bom.length
+67:ROR:<(int,int):<=(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):208:i < bom.length |==> i <= bom.length
+68:ROR:<(int,int):FALSE(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):208:i < bom.length |==> false
+69:ROR:<=(int,int):<(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):210:pos <= i |==> pos < i
+70:ROR:<=(int,int):==(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):210:pos <= i |==> pos == i
+71:ROR:<=(int,int):TRUE(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):210:pos <= i |==> true
+72:COR:readByte():TRUE:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):212:readByte() |==> false
+73:COR:readByte():FALSE:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):212:readByte() |==> true
+74:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):214:return noMatchEncoding; |==> <NO-OP>
+75:ROR:!=(int,int):<(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):218:bom[i] != buf[i] |==> bom[i] < buf[i]
+76:ROR:!=(int,int):>(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):218:bom[i] != buf[i] |==> bom[i] > buf[i]
+77:ROR:!=(int,int):TRUE(int,int):org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):218:bom[i] != buf[i] |==> true
+78:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):220:return noMatchEncoding; |==> <NO-OP>
+79:EVR:<IDENTIFIER(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@match(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM,org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):224:matchEncoding |==> null
+80:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@readByte():230:inputStream.read() |==> 0
+81:LVR:NEG:0:org.apache.velocity.io.UnicodeInputStream@readByte():231:-1 |==> 0
+82:LVR:NEG:POS:org.apache.velocity.io.UnicodeInputStream@readByte():231:-1 |==> 1
+83:ROR:==(int,int):<=(int,int):org.apache.velocity.io.UnicodeInputStream@readByte():231:res == -1 |==> res <= -1
+84:ROR:==(int,int):>=(int,int):org.apache.velocity.io.UnicodeInputStream@readByte():231:res == -1 |==> res >= -1
+85:ROR:==(int,int):FALSE(int,int):org.apache.velocity.io.UnicodeInputStream@readByte():231:res == -1 |==> false
+86:LVR:FALSE:TRUE:org.apache.velocity.io.UnicodeInputStream@readByte():233:false |==> true
+87:STD:<RETURN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readByte():233:return Config.__M_NO == 0 && Config.COVERED(86, 86) ? false : Config.__M_NO == 86 ? true : false; |==> <NO-OP>
+88:ROR:>=(int,int):==(int,int):org.apache.velocity.io.UnicodeInputStream@readByte():236:pos >= buf.length |==> pos == buf.length
+89:ROR:>=(int,int):>(int,int):org.apache.velocity.io.UnicodeInputStream@readByte():236:pos >= buf.length |==> pos > buf.length
+90:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.io.UnicodeInputStream@readByte():236:pos >= buf.length |==> true
+91:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@readByte():241:buf[pos++] = (byte)res |==> <NO-OP>
+92:LVR:TRUE:FALSE:org.apache.velocity.io.UnicodeInputStream@readByte():242:true |==> false
+93:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):248:pos |==> 0
+94:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):249:0 |==> 1
+95:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):249:0 |==> -1
+96:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):251:matchBOM != null |==> true
+97:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):251:matchBOM != null && skipBOM |==> matchBOM != null == skipBOM
+98:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):251:matchBOM != null && skipBOM |==> false
+99:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):251:matchBOM != null && skipBOM |==> matchBOM != null
+100:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):251:matchBOM != null && skipBOM |==> skipBOM
+101:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):256:start = matchBOM.getBytes().length |==> <NO-OP>
+102:AOR:-(int,int):%(int,int):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):257:pos - start |==> pos % start
+103:AOR:-(int,int):*(int,int):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):257:pos - start |==> pos * start
+104:AOR:-(int,int):+(int,int):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):257:pos - start |==> pos + start
+105:AOR:-(int,int):/(int,int):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):257:pos - start |==> pos / start
+106:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):257:count = (pos - start) |==> <NO-OP>
+107:LVR:0:POS:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):259:0 |==> 1
+108:LVR:0:NEG:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):259:0 |==> -1
+109:ROR:<(int,int):!=(int,int):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):259:count < 0 |==> count != 0
+110:ROR:<(int,int):<=(int,int):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):259:count < 0 |==> count <= 0
+111:ROR:<(int,int):FALSE(int,int):org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):259:count < 0 |==> false
+112:STD:<CALL>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@pushback(org.apache.velocity.io.UnicodeInputStream.UnicodeBOM):265:inputStream.unread(buf, start, count) |==> <NO-OP>
+113:STD:<CALL>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@close():274:inputStream.close() |==> <NO-OP>
+114:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@available():283:inputStream.available() |==> 0
+115:STD:<CALL>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@mark(int):291:inputStream.mark(readlimit) |==> <NO-OP>
+116:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@markSupported():299:inputStream.markSupported() |==> false
+117:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@read():308:inputStream.read() |==> 0
+118:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@read(byte[]):317:inputStream.read(b) |==> 0
+119:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@read(byte[],int,int):326:inputStream.read(b, off, len) |==> 0
+120:STD:<CALL>:<NO-OP>:org.apache.velocity.io.UnicodeInputStream@reset():335:inputStream.reset() |==> <NO-OP>
+121:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream@skip(long):344:inputStream.skip(n) |==> 0L
+122:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream$UnicodeBOM@<init>(java.lang.String,byte[]):361:encoding |==> null
+123:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream$UnicodeBOM@<init>(java.lang.String,byte[]):362:bytes |==> null
+124:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream$UnicodeBOM@getEncoding():367:encoding |==> null
+125:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.velocity.io.UnicodeInputStream$UnicodeBOM@getBytes():372:bytes |==> null

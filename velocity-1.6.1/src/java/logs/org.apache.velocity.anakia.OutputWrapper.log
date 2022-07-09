@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.io.StringWriter)>:<DEFAULT>:org.apache.velocity.anakia.OutputWrapper@outputString(Element,boolean):71:new StringWriter() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.velocity.anakia.OutputWrapper@outputString(Element,boolean):75:outputElementContent(element, buff) |==> <NO-OP>

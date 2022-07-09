@@ -112,7 +112,7 @@ public class Runtime implements RuntimeConstants
     public synchronized static void init()
         throws Exception
     {
-        RuntimeSingleton.init();
+        ;
     }
 
     /**

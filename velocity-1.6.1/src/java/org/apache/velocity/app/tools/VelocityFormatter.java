@@ -58,7 +58,7 @@ public class VelocityFormatter
      */
     public VelocityFormatter(Context context)
     {
-        this.context = context;
+        ;
     }
 
     /**

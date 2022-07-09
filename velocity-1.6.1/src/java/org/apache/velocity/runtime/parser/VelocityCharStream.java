@@ -44,7 +44,7 @@ implements CharStream
     int available;
     int tokenBegin;
 
-    public int bufpos = -1;
+    public int bufpos = 0;
     private int bufline[];
     private int bufcolumn[];
 

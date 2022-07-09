@@ -44,7 +44,7 @@ public class ParseErrorException extends VelocityException
     /**
      * The column number of the parsing error, or -1 if not defined.
      */
-    private int columnNumber = -1;
+    private int columnNumber = 0;
 
     /**
      * The line number of the parsing error, or -1 if not defined.

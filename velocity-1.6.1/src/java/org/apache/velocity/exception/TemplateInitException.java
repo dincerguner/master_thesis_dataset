@@ -45,7 +45,7 @@ public class TemplateInitException extends VelocityException
             final String templateName, final int col, final int line)
     {
         super(msg);
-        this.templateName = templateName;
+        this.templateName = null;
         this.col = col;
         this.line = line;
     }

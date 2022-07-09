@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.apache.velocity.anakia.XPathTool@applyTo(java.lang.String,Document):96:false |==> true
+2:LVR:FALSE:TRUE:org.apache.velocity.anakia.XPathTool@applyTo(java.lang.String,Element):111:false |==> true

@@ -1,0 +1,100 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@<init>(Context):61:this.context = context |==> <NO-OP>
+2:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatShortDate(java.util.Date):72:DateFormat.getDateInstance(DateFormat.SHORT).format(date) |==> null
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatLongDate(java.util.Date):83:DateFormat.getDateInstance(DateFormat.LONG).format(date) |==> null
+4:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatShortDateTime(java.util.Date):96:DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.SHORT).format(date) |==> null
+5:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatLongDateTime(java.util.Date):108:DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG).format(date) |==> null
+6:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object):119:formatArray(array, ", ", " and ") |==> null
+7:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String):133:formatArray(array, delim, delim) |==> null
+8:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):149:new StringBuffer() |==> null
+9:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):150:Array.getLength(array) |==> 0
+10:LVR:0:POS:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):151:0 |==> 1
+11:LVR:0:NEG:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):151:0 |==> -1
+12:ROR:<(int,int):!=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):151:i < arrayLen |==> i != arrayLen
+13:ROR:<(int,int):<=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):151:i < arrayLen |==> i <= arrayLen
+14:ROR:<(int,int):FALSE(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):151:i < arrayLen |==> false
+15:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):156:sb.append(Array.get(array, i).toString()) |==> <NO-OP>
+16:LVR:POS:0:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:2 |==> 0
+17:LVR:POS:NEG:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:2 |==> -2
+18:AOR:-(int,int):%(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:arrayLen - 2 |==> arrayLen % 2
+19:AOR:-(int,int):*(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:arrayLen - 2 |==> arrayLen * 2
+20:AOR:-(int,int):+(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:arrayLen - 2 |==> arrayLen + 2
+21:AOR:-(int,int):/(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:arrayLen - 2 |==> arrayLen / 2
+22:ROR:<(int,int):!=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:i < arrayLen - 2 |==> i != arrayLen - 2
+23:ROR:<(int,int):<=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:i < arrayLen - 2 |==> i <= arrayLen - 2
+24:ROR:<(int,int):FALSE(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):157:i < arrayLen - 2 |==> false
+25:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):159:sb.append(delim) |==> <NO-OP>
+26:LVR:POS:0:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:1 |==> 0
+27:LVR:POS:NEG:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:1 |==> -1
+28:AOR:-(int,int):%(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:arrayLen - 1 |==> arrayLen % 1
+29:AOR:-(int,int):*(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:arrayLen - 1 |==> arrayLen * 1
+30:AOR:-(int,int):+(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:arrayLen - 1 |==> arrayLen + 1
+31:AOR:-(int,int):/(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:arrayLen - 1 |==> arrayLen / 1
+32:ROR:<(int,int):!=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:i < arrayLen - 1 |==> i != arrayLen - 1
+33:ROR:<(int,int):<=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:i < arrayLen - 1 |==> i <= arrayLen - 1
+34:ROR:<(int,int):FALSE(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):161:i < arrayLen - 1 |==> false
+35:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):163:sb.append(finaldelim) |==> <NO-OP>
+36:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatArray(java.lang.Object,java.lang.String,java.lang.String):166:sb.toString() |==> null
+37:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List):177:formatVector(list, ", ", " and ") |==> null
+38:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String):190:formatVector(list, delim, delim) |==> null
+39:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):206:new StringBuffer() |==> null
+40:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):207:list.size() |==> 0
+41:LVR:0:POS:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):208:0 |==> 1
+42:LVR:0:NEG:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):208:0 |==> -1
+43:ROR:<(int,int):!=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):208:i < size |==> i != size
+44:ROR:<(int,int):<=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):208:i < size |==> i <= size
+45:ROR:<(int,int):FALSE(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):208:i < size |==> false
+46:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):210:sb.append(list.get(i)) |==> <NO-OP>
+47:LVR:POS:0:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:2 |==> 0
+48:LVR:POS:NEG:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:2 |==> -2
+49:AOR:-(int,int):%(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:size - 2 |==> size % 2
+50:AOR:-(int,int):*(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:size - 2 |==> size * 2
+51:AOR:-(int,int):+(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:size - 2 |==> size + 2
+52:AOR:-(int,int):/(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:size - 2 |==> size / 2
+53:ROR:<(int,int):!=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:i < size - 2 |==> i != size - 2
+54:ROR:<(int,int):<=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:i < size - 2 |==> i <= size - 2
+55:ROR:<(int,int):FALSE(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):211:i < size - 2 |==> false
+56:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):213:sb.append(delim) |==> <NO-OP>
+57:LVR:POS:0:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:1 |==> 0
+58:LVR:POS:NEG:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:1 |==> -1
+59:AOR:-(int,int):%(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:size - 1 |==> size % 1
+60:AOR:-(int,int):*(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:size - 1 |==> size * 1
+61:AOR:-(int,int):+(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:size - 1 |==> size + 1
+62:AOR:-(int,int):/(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:size - 1 |==> size / 1
+63:ROR:<(int,int):!=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:i < size - 1 |==> i != size - 1
+64:ROR:<(int,int):<=(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:i < size - 1 |==> i <= size - 1
+65:ROR:<(int,int):FALSE(int,int):org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):215:i < size - 1 |==> false
+66:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):217:sb.append(finaldelim) |==> <NO-OP>
+67:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@formatVector(java.util.List,java.lang.String,java.lang.String):220:sb.toString() |==> null
+68:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String):234:limitLen(maxlen, string, "...") |==> null
+69:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):250:string |==> null
+70:ROR:>(int,int):!=(int,int):org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):251:string.length() > maxlen |==> string.length() != maxlen
+71:ROR:>(int,int):>=(int,int):org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):251:string.length() > maxlen |==> string.length() >= maxlen
+72:ROR:>(int,int):FALSE(int,int):org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):251:string.length() > maxlen |==> false
+73:LVR:0:POS:org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):253:0 |==> 1
+74:LVR:0:NEG:org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):253:0 |==> -1
+75:AOR:-(int,int):%(int,int):org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):253:maxlen - suffix.length() |==> maxlen % suffix.length()
+76:AOR:-(int,int):*(int,int):org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):253:maxlen - suffix.length() |==> maxlen * suffix.length()
+77:AOR:-(int,int):+(int,int):org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):253:maxlen - suffix.length() |==> maxlen + suffix.length()
+78:AOR:-(int,int):/(int,int):org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):253:maxlen - suffix.length() |==> maxlen / suffix.length()
+79:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):253:ret = string.substring(0, maxlen - suffix.length()) + suffix |==> <NO-OP>
+80:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@limitLen(int,java.lang.String,java.lang.String):255:ret |==> null
+81:LVR:0:POS:org.apache.velocity.app.tools.VelocityFormatter$VelocityAlternator:275:0 |==> 1
+82:LVR:0:NEG:org.apache.velocity.app.tools.VelocityFormatter$VelocityAlternator:275:0 |==> -1
+83:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter$VelocityAlternator@<init>(java.lang.String[]):284:this.alternates = alternates |==> <NO-OP>
+84:STD:<INC>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter$VelocityAlternator@alternate():294:current++ |==> <NO-OP>
+85:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter$VelocityAlternator@alternate():295:current %= alternates.length |==> <NO-OP>
+86:EVR:<ARRAY_ACCESS(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter$VelocityAlternator@toString():306:alternates[current] |==> null
+87:EVR:<ARRAY_ACCESS(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter$VelocityAutoAlternator@toString():335:alternates[current] |==> null
+88:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter$VelocityAutoAlternator@toString():336:alternate() |==> <NO-OP>
+89:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter$VelocityAutoAlternator@toString():337:s |==> null
+90:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@makeAlternator(java.lang.String,java.lang.String,java.lang.String):366:{alt1, alt2} |==> null
+91:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@makeAlternator(java.lang.String,java.lang.String,java.lang.String):367:context.put(name, new VelocityAlternator(alternates)) |==> <NO-OP>
+92:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@makeAlternator(java.lang.String,java.lang.String,java.lang.String,java.lang.String):387:{alt1, alt2, alt3} |==> null
+93:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@makeAlternator(java.lang.String,java.lang.String,java.lang.String,java.lang.String):388:context.put(name, new VelocityAlternator(alternates)) |==> <NO-OP>
+94:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@makeAlternator(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):406:{alt1, alt2, alt3, alt4} |==> null
+95:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@makeAlternator(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String):407:context.put(name, new VelocityAlternator(alternates)) |==> <NO-OP>
+96:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@makeAutoAlternator(java.lang.String,java.lang.String,java.lang.String):423:{alt1, alt2} |==> null
+97:STD:<CALL>:<NO-OP>:org.apache.velocity.app.tools.VelocityFormatter@makeAutoAlternator(java.lang.String,java.lang.String,java.lang.String):424:context.put(name, new VelocityAutoAlternator(alternates)) |==> <NO-OP>
+98:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.velocity.app.tools.VelocityFormatter@isNull(java.lang.Object,java.lang.Object):436:o == null |==> false
+99:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@isNull(java.lang.Object,java.lang.Object):438:dflt |==> null
+100:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:org.apache.velocity.app.tools.VelocityFormatter@isNull(java.lang.Object,java.lang.Object):442:o |==> null

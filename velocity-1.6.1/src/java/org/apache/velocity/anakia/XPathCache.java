@@ -35,7 +35,7 @@ class XPathCache
 {
     // Cache of already parsed XPath expressions, keyed by String representations
     // of the expression as passed to getXPath().
-    private static final Map XPATH_CACHE = new WeakHashMap();
+    private static final Map XPATH_CACHE = null;
 
     private XPathCache()
     {

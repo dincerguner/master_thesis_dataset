@@ -55,7 +55,7 @@ public class VelocityException
     public VelocityException(final String exceptionMessage, final Throwable wrapped)
     {
         super(exceptionMessage);
-        this.wrapped = wrapped;
+        this.wrapped = null;
         ExceptionUtils.setCause(this, wrapped);
     }
 

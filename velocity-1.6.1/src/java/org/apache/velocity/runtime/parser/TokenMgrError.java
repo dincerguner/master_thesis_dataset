@@ -38,7 +38,7 @@ public class TokenMgrError extends Error
     * equivalents in the given string
     */
    protected static final String addEscapes(String str) {
-      StringBuffer retval = new StringBuffer();
+      StringBuffer retval = null;
       char ch;
       for (int i = 0; i < str.length(); i++) {
         switch (str.charAt(i))

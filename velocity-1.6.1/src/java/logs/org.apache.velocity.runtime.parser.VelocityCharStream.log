@@ -1,0 +1,510 @@
+1:LVR:NEG:0:org.apache.velocity.runtime.parser.VelocityCharStream:47:-1 |==> 0
+2:LVR:NEG:POS:org.apache.velocity.runtime.parser.VelocityCharStream:47:-1 |==> 1
+3:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream:51:0 |==> 1
+4:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream:51:0 |==> -1
+5:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream:52:1 |==> 0
+6:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream:52:1 |==> -1
+7:LVR:FALSE:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream:54:false |==> true
+8:LVR:FALSE:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream:55:false |==> true
+9:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream:60:0 |==> 1
+10:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream:60:0 |==> -1
+11:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream:61:0 |==> 1
+12:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream:61:0 |==> -1
+13:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):65:bufsize + nextBufExpand |==> bufsize % nextBufExpand
+14:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):65:bufsize + nextBufExpand |==> bufsize * nextBufExpand
+15:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):65:bufsize + nextBufExpand |==> bufsize - nextBufExpand
+16:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):65:bufsize + nextBufExpand |==> bufsize / nextBufExpand
+17:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):66:bufsize + nextBufExpand |==> bufsize % nextBufExpand
+18:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):66:bufsize + nextBufExpand |==> bufsize * nextBufExpand
+19:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):66:bufsize + nextBufExpand |==> bufsize - nextBufExpand
+20:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):66:bufsize + nextBufExpand |==> bufsize / nextBufExpand
+21:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):67:bufsize + nextBufExpand |==> bufsize % nextBufExpand
+22:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):67:bufsize + nextBufExpand |==> bufsize * nextBufExpand
+23:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):67:bufsize + nextBufExpand |==> bufsize - nextBufExpand
+24:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):67:bufsize + nextBufExpand |==> bufsize / nextBufExpand
+25:COR:wrapAround:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):71:wrapAround |==> false
+26:COR:wrapAround:FALSE:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):71:wrapAround |==> true
+27:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):73:0 |==> 1
+28:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):73:0 |==> -1
+29:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):73:bufsize - tokenBegin |==> bufsize % tokenBegin
+30:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):73:bufsize - tokenBegin |==> bufsize * tokenBegin
+31:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):73:bufsize - tokenBegin |==> bufsize + tokenBegin
+32:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):73:bufsize - tokenBegin |==> bufsize / tokenBegin
+33:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):73:System.arraycopy(buffer, tokenBegin, newbuffer, 0, bufsize - tokenBegin) |==> <NO-OP>
+34:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):74:0 |==> 1
+35:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):74:0 |==> -1
+36:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):75:bufsize - tokenBegin |==> bufsize % tokenBegin
+37:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):75:bufsize - tokenBegin |==> bufsize * tokenBegin
+38:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):75:bufsize - tokenBegin |==> bufsize + tokenBegin
+39:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):75:bufsize - tokenBegin |==> bufsize / tokenBegin
+40:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):74:System.arraycopy(buffer, 0, newbuffer, bufsize - tokenBegin, bufpos) |==> <NO-OP>
+41:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):76:buffer = newbuffer |==> <NO-OP>
+42:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):78:0 |==> 1
+43:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):78:0 |==> -1
+44:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):78:bufsize - tokenBegin |==> bufsize % tokenBegin
+45:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):78:bufsize - tokenBegin |==> bufsize * tokenBegin
+46:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):78:bufsize - tokenBegin |==> bufsize + tokenBegin
+47:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):78:bufsize - tokenBegin |==> bufsize / tokenBegin
+48:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):78:System.arraycopy(bufline, tokenBegin, newbufline, 0, bufsize - tokenBegin) |==> <NO-OP>
+49:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):79:0 |==> 1
+50:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):79:0 |==> -1
+51:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):79:bufsize - tokenBegin |==> bufsize % tokenBegin
+52:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):79:bufsize - tokenBegin |==> bufsize * tokenBegin
+53:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):79:bufsize - tokenBegin |==> bufsize + tokenBegin
+54:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):79:bufsize - tokenBegin |==> bufsize / tokenBegin
+55:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):79:System.arraycopy(bufline, 0, newbufline, bufsize - tokenBegin, bufpos) |==> <NO-OP>
+56:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):80:bufline = newbufline |==> <NO-OP>
+57:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):82:0 |==> 1
+58:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):82:0 |==> -1
+59:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):82:bufsize - tokenBegin |==> bufsize % tokenBegin
+60:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):82:bufsize - tokenBegin |==> bufsize * tokenBegin
+61:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):82:bufsize - tokenBegin |==> bufsize + tokenBegin
+62:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):82:bufsize - tokenBegin |==> bufsize / tokenBegin
+63:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):82:System.arraycopy(bufcolumn, tokenBegin, newbufcolumn, 0, bufsize - tokenBegin) |==> <NO-OP>
+64:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):83:0 |==> 1
+65:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):83:0 |==> -1
+66:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):83:bufsize - tokenBegin |==> bufsize % tokenBegin
+67:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):83:bufsize - tokenBegin |==> bufsize * tokenBegin
+68:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):83:bufsize - tokenBegin |==> bufsize + tokenBegin
+69:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):83:bufsize - tokenBegin |==> bufsize / tokenBegin
+70:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):83:System.arraycopy(bufcolumn, 0, newbufcolumn, bufsize - tokenBegin, bufpos) |==> <NO-OP>
+71:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):84:bufcolumn = newbufcolumn |==> <NO-OP>
+72:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):86:bufsize - tokenBegin |==> bufsize % tokenBegin
+73:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):86:bufsize - tokenBegin |==> bufsize * tokenBegin
+74:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):86:bufsize - tokenBegin |==> bufsize + tokenBegin
+75:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):86:bufsize - tokenBegin |==> bufsize / tokenBegin
+76:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):86:maxNextCharInd = (bufpos += (bufsize - tokenBegin)) |==> <NO-OP>
+77:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):90:0 |==> 1
+78:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):90:0 |==> -1
+79:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):90:bufsize - tokenBegin |==> bufsize % tokenBegin
+80:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):90:bufsize - tokenBegin |==> bufsize * tokenBegin
+81:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):90:bufsize - tokenBegin |==> bufsize + tokenBegin
+82:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):90:bufsize - tokenBegin |==> bufsize / tokenBegin
+83:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):90:System.arraycopy(buffer, tokenBegin, newbuffer, 0, bufsize - tokenBegin) |==> <NO-OP>
+84:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):91:buffer = newbuffer |==> <NO-OP>
+85:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):93:0 |==> 1
+86:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):93:0 |==> -1
+87:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):93:bufsize - tokenBegin |==> bufsize % tokenBegin
+88:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):93:bufsize - tokenBegin |==> bufsize * tokenBegin
+89:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):93:bufsize - tokenBegin |==> bufsize + tokenBegin
+90:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):93:bufsize - tokenBegin |==> bufsize / tokenBegin
+91:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):93:System.arraycopy(bufline, tokenBegin, newbufline, 0, bufsize - tokenBegin) |==> <NO-OP>
+92:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):94:bufline = newbufline |==> <NO-OP>
+93:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):96:0 |==> 1
+94:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):96:0 |==> -1
+95:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):96:bufsize - tokenBegin |==> bufsize % tokenBegin
+96:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):96:bufsize - tokenBegin |==> bufsize * tokenBegin
+97:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):96:bufsize - tokenBegin |==> bufsize + tokenBegin
+98:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):96:bufsize - tokenBegin |==> bufsize / tokenBegin
+99:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):96:System.arraycopy(bufcolumn, tokenBegin, newbufcolumn, 0, bufsize - tokenBegin) |==> <NO-OP>
+100:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):97:bufcolumn = newbufcolumn |==> <NO-OP>
+101:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):99:maxNextCharInd = (bufpos -= tokenBegin) |==> <NO-OP>
+102:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):108:bufsize += nextBufExpand |==> <NO-OP>
+103:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):109:nextBufExpand = bufsize |==> <NO-OP>
+104:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):110:available = bufsize |==> <NO-OP>
+105:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):111:0 |==> 1
+106:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):111:0 |==> -1
+107:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ExpandBuff(boolean):111:tokenBegin = 0 |==> <NO-OP>
+108:ROR:==(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():116:maxNextCharInd == available |==> maxNextCharInd <= available
+109:ROR:==(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():116:maxNextCharInd == available |==> maxNextCharInd >= available
+110:ROR:==(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():116:maxNextCharInd == available |==> false
+111:ROR:==(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():118:available == bufsize |==> available <= bufsize
+112:ROR:==(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():118:available == bufsize |==> available >= bufsize
+113:ROR:==(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():118:available == bufsize |==> false
+114:ROR:>(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():120:tokenBegin > nextBufExpand |==> tokenBegin != nextBufExpand
+115:ROR:>(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():120:tokenBegin > nextBufExpand |==> tokenBegin >= nextBufExpand
+116:ROR:>(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():120:tokenBegin > nextBufExpand |==> false
+117:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():122:0 |==> 1
+118:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():122:0 |==> -1
+119:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():122:bufpos = maxNextCharInd = 0 |==> <NO-OP>
+120:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():123:available = tokenBegin |==> <NO-OP>
+121:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():125:0 |==> 1
+122:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():125:0 |==> -1
+123:ROR:<(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():125:tokenBegin < 0 |==> tokenBegin != 0
+124:ROR:<(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():125:tokenBegin < 0 |==> tokenBegin <= 0
+125:ROR:<(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():125:tokenBegin < 0 |==> false
+126:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():127:0 |==> 1
+127:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():127:0 |==> -1
+128:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():127:bufpos = maxNextCharInd = 0 |==> <NO-OP>
+129:LVR:FALSE:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():131:false |==> true
+130:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():131:ExpandBuff(false) |==> <NO-OP>
+131:ROR:>(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():134:available > tokenBegin |==> available != tokenBegin
+132:ROR:>(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():134:available > tokenBegin |==> available >= tokenBegin
+133:ROR:>(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():134:available > tokenBegin |==> false
+134:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():136:available = bufsize |==> <NO-OP>
+135:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():138:tokenBegin - available |==> tokenBegin % available
+136:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():138:tokenBegin - available |==> tokenBegin * available
+137:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():138:tokenBegin - available |==> tokenBegin + available
+138:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():138:tokenBegin - available |==> tokenBegin / available
+139:ROR:<(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():138:(tokenBegin - available) < nextBufExpand |==> (tokenBegin - available) != nextBufExpand
+140:ROR:<(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():138:(tokenBegin - available) < nextBufExpand |==> (tokenBegin - available) <= nextBufExpand
+141:ROR:<(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():138:(tokenBegin - available) < nextBufExpand |==> false
+142:LVR:TRUE:FALSE:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():140:true |==> false
+143:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():140:ExpandBuff(true) |==> <NO-OP>
+144:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():144:available = tokenBegin |==> <NO-OP>
+145:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():152:available - maxNextCharInd |==> available % maxNextCharInd
+146:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():152:available - maxNextCharInd |==> available * maxNextCharInd
+147:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():152:available - maxNextCharInd |==> available + maxNextCharInd
+148:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():152:available - maxNextCharInd |==> available / maxNextCharInd
+149:LVR:NEG:0:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():152:-1 |==> 0
+150:LVR:NEG:POS:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():152:-1 |==> 1
+151:ROR:==(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():151:(i = inputStream.read(buffer, maxNextCharInd, available - maxNextCharInd)) == -1 |==> (i = inputStream.read(buffer, maxNextCharInd, available - maxNextCharInd)) <= -1
+152:ROR:==(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():151:(i = inputStream.read(buffer, maxNextCharInd, available - maxNextCharInd)) == -1 |==> (i = inputStream.read(buffer, maxNextCharInd, available - maxNextCharInd)) >= -1
+153:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():154:inputStream.close() |==> <NO-OP>
+154:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():159:maxNextCharInd += i |==> <NO-OP>
+155:STD:<RETURN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():161:return; |==> <NO-OP>
+156:STD:<DEC>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():165:--bufpos |==> <NO-OP>
+157:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():166:0 |==> 1
+158:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():166:0 |==> -1
+159:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():166:backup(0) |==> <NO-OP>
+160:LVR:NEG:0:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():167:-1 |==> 0
+161:LVR:NEG:POS:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():167:-1 |==> 1
+162:ROR:==(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():167:tokenBegin == -1 |==> tokenBegin <= -1
+163:ROR:==(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():167:tokenBegin == -1 |==> tokenBegin >= -1
+164:ROR:==(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():167:tokenBegin == -1 |==> false
+165:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@FillBuff():169:tokenBegin = bufpos |==> <NO-OP>
+166:LVR:NEG:0:org.apache.velocity.runtime.parser.VelocityCharStream@BeginToken():180:-1 |==> 0
+167:LVR:NEG:POS:org.apache.velocity.runtime.parser.VelocityCharStream@BeginToken():180:-1 |==> 1
+168:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@BeginToken():180:tokenBegin = -1 |==> <NO-OP>
+169:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@BeginToken():181:readChar() |==> 0
+170:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@BeginToken():182:tokenBegin = bufpos |==> <NO-OP>
+171:EVR:<IDENTIFIER(char)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@BeginToken():184:c |==> 0
+172:STD:<INC>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):189:column++ |==> <NO-OP>
+173:COR:prevCharIsLF:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):191:prevCharIsLF |==> false
+174:COR:prevCharIsLF:FALSE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):191:prevCharIsLF |==> true
+175:LVR:FALSE:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):193:false |==> true
+176:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):193:prevCharIsLF = false |==> <NO-OP>
+177:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):194:1 |==> 0
+178:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):194:1 |==> -1
+179:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):194:line += (column = 1) |==> <NO-OP>
+180:COR:prevCharIsCR:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):196:prevCharIsCR |==> false
+181:COR:prevCharIsCR:FALSE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):196:prevCharIsCR |==> true
+182:LVR:FALSE:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):198:false |==> true
+183:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):198:prevCharIsCR = false |==> <NO-OP>
+184:ROR:==(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):199:c == '\n' |==> c <= '\n'
+185:ROR:==(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):199:c == '\n' |==> c >= '\n'
+186:ROR:==(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):199:c == '\n' |==> false
+187:LVR:TRUE:FALSE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):201:true |==> false
+188:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):201:prevCharIsLF = true |==> <NO-OP>
+189:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):205:1 |==> 0
+190:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):205:1 |==> -1
+191:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):205:line += (column = 1) |==> <NO-OP>
+192:LVR:TRUE:FALSE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):212:true |==> false
+193:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):212:prevCharIsCR = true |==> <NO-OP>
+194:STD:<BREAK>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):213:break; |==> <NO-OP>
+195:LVR:TRUE:FALSE:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):215:true |==> false
+196:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):215:prevCharIsLF = true |==> <NO-OP>
+197:STD:<BREAK>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):216:break; |==> <NO-OP>
+198:STD:<DEC>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):218:column-- |==> <NO-OP>
+199:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:8 |==> 0
+200:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:8 |==> -8
+201:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:7 |==> 0
+202:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:7 |==> -7
+203:LOR:&(int,int):^(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:column & 7 |==> column ^ 7
+204:LOR:&(int,int):|(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:column & 7 |==> column | 7
+205:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:8 - (column & 7) |==> 8 % (column & 7)
+206:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:8 - (column & 7) |==> 8 * (column & 7)
+207:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:8 - (column & 7) |==> 8 + (column & 7)
+208:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:8 - (column & 7) |==> 8 / (column & 7)
+209:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):219:column += (8 - (column & 7)) |==> <NO-OP>
+210:STD:<BREAK>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):220:break; |==> <NO-OP>
+211:STD:<BREAK>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):222:break; |==> <NO-OP>
+212:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):225:bufline[bufpos] = line |==> <NO-OP>
+213:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@UpdateLineColumn(char):226:bufcolumn[bufpos] = column |==> <NO-OP>
+214:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():234:0 |==> 1
+215:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():234:0 |==> -1
+216:ROR:>(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():234:inBuf > 0 |==> inBuf != 0
+217:ROR:>(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():234:inBuf > 0 |==> inBuf >= 0
+218:ROR:>(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():234:inBuf > 0 |==> false
+219:STD:<DEC>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():236:--inBuf |==> <NO-OP>
+220:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:1 |==> 0
+221:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:1 |==> -1
+222:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:bufsize - 1 |==> bufsize % 1
+223:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:bufsize - 1 |==> bufsize * 1
+224:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:bufsize - 1 |==> bufsize + 1
+225:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:bufsize - 1 |==> bufsize / 1
+226:ROR:==(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:bufpos == bufsize - 1 |==> bufpos <= bufsize - 1
+227:ROR:==(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:bufpos == bufsize - 1 |==> bufpos >= bufsize - 1
+228:ROR:==(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:bufpos == bufsize - 1 |==> false
+229:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:0 |==> 1
+230:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:0 |==> -1
+231:STD:<RETURN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():241:return buffer[(Config.__M_NO == 228 ? false : Config.__M_NO == 227 ? bufpos >= bufsize - 1 : Config.__M_NO == 226 ? bufpos <= bufsize - 1 : Config.__M_NO == 0 && Config.COVERED(226, 228) ? bufpos == bufsize - 1 : bufpos == (Config.__M_NO == 225 ? bufsize / 1 : Config.__M_NO == 224 ? bufsize + 1 : Config.__M_NO == 223 ? bufsize * 1 : Config.__M_NO == 222 ? bufsize % 1 : Config.__M_NO == 0 && Config.COVERED(222, 225) ? bufsize - 1 : bufsize - (Config.__M_NO == 0 && Config.COVERED(220, 221) ? 1 : Config.__M_NO == 221 ? -1 : Config.__M_NO == 220 ? 0 : 1))) ? (bufpos = Config.__M_NO == 0 && Config.COVERED(229, 230) ? 0 : Config.__M_NO == 230 ? -1 : Config.__M_NO == 229 ? 1 : 0) : ++bufpos]; |==> <NO-OP>
+232:ROR:>=(int,int):==(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():244:++bufpos >= maxNextCharInd |==> ++bufpos == maxNextCharInd
+233:ROR:>=(int,int):>(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():244:++bufpos >= maxNextCharInd |==> ++bufpos > maxNextCharInd
+234:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@readChar():244:++bufpos >= maxNextCharInd |==> true
+235:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():246:FillBuff() |==> <NO-OP>
+236:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():252:buffer[bufpos] |==> 0
+237:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():254:UpdateLineColumn(c) |==> <NO-OP>
+238:EVR:<PARENTHESIZED(char)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@readChar():255:(c) |==> 0
+239:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@getColumn():264:bufcolumn[bufpos] |==> 0
+240:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@getLine():273:bufline[bufpos] |==> 0
+241:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@getEndColumn():281:bufcolumn[bufpos] |==> 0
+242:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@getEndLine():289:bufline[bufpos] |==> 0
+243:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@getBeginColumn():297:bufcolumn[tokenBegin] |==> 0
+244:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@getBeginLine():305:bufline[tokenBegin] |==> 0
+245:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@backup(int):314:inBuf += amount |==> <NO-OP>
+246:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@backup(int):315:0 |==> 1
+247:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@backup(int):315:0 |==> -1
+248:ROR:<(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@backup(int):315:(bufpos -= amount) < 0 |==> (bufpos -= amount) != 0
+249:ROR:<(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@backup(int):315:(bufpos -= amount) < 0 |==> (bufpos -= amount) <= 0
+250:ROR:<(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@backup(int):315:(bufpos -= amount) < 0 |==> false
+251:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@backup(int):316:bufpos += bufsize |==> <NO-OP>
+252:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):328:inputStream = dstream |==> <NO-OP>
+253:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):329:line = startline |==> <NO-OP>
+254:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):330:1 |==> 0
+255:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):330:1 |==> -1
+256:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):330:startcolumn - 1 |==> startcolumn % 1
+257:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):330:startcolumn - 1 |==> startcolumn * 1
+258:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):330:startcolumn - 1 |==> startcolumn + 1
+259:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):330:startcolumn - 1 |==> startcolumn / 1
+260:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):330:column = startcolumn - 1 |==> <NO-OP>
+261:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):332:available = bufsize = nextBufExpand = buffersize |==> <NO-OP>
+262:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):333:buffer = new char[buffersize] |==> <NO-OP>
+263:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):334:bufline = new int[buffersize] |==> <NO-OP>
+264:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int,int):335:bufcolumn = new int[buffersize] |==> <NO-OP>
+265:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int):346:4096 |==> 0
+266:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.Reader,int,int):346:4096 |==> -4096
+267:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):357:inputStream = dstream |==> <NO-OP>
+268:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):358:line = startline |==> <NO-OP>
+269:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):359:1 |==> 0
+270:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):359:1 |==> -1
+271:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):359:startcolumn - 1 |==> startcolumn % 1
+272:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):359:startcolumn - 1 |==> startcolumn * 1
+273:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):359:startcolumn - 1 |==> startcolumn + 1
+274:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):359:startcolumn - 1 |==> startcolumn / 1
+275:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):359:column = startcolumn - 1 |==> <NO-OP>
+276:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffer == null |==> false
+277:ROR:!=(int,int):<(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffersize != buffer.length |==> buffersize < buffer.length
+278:ROR:!=(int,int):>(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffersize != buffer.length |==> buffersize > buffer.length
+279:ROR:!=(int,int):TRUE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffersize != buffer.length |==> true
+280:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffer == null || buffersize != buffer.length |==> buffer == null != (buffersize != buffer.length)
+281:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffer == null || buffersize != buffer.length |==> buffer == null
+282:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffer == null || buffersize != buffer.length |==> buffersize != buffer.length
+283:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):361:buffer == null || buffersize != buffer.length |==> true
+284:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):363:available = bufsize = nextBufExpand = buffersize |==> <NO-OP>
+285:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):364:buffer = new char[buffersize] |==> <NO-OP>
+286:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):365:bufline = new int[buffersize] |==> <NO-OP>
+287:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):366:bufcolumn = new int[buffersize] |==> <NO-OP>
+288:LVR:FALSE:TRUE:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):368:false |==> true
+289:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):368:prevCharIsLF = prevCharIsCR = false |==> <NO-OP>
+290:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):369:0 |==> 1
+291:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):369:0 |==> -1
+292:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):369:tokenBegin = inBuf = maxNextCharInd = 0 |==> <NO-OP>
+293:LVR:NEG:0:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):370:-1 |==> 0
+294:LVR:NEG:POS:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):370:-1 |==> 1
+295:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int,int):370:bufpos = -1 |==> <NO-OP>
+296:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int):381:4096 |==> 0
+297:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int):381:4096 |==> -4096
+298:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.Reader,int,int):381:ReInit(dstream, startline, startcolumn, 4096) |==> <NO-OP>
+299:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.InputStream,int,int):403:4096 |==> 0
+300:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@<init>(java.io.InputStream,int,int):403:4096 |==> -4096
+301:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.InputStream,int,int,int):415:ReInit(new java.io.InputStreamReader(dstream), startline, startcolumn, buffersize) |==> <NO-OP>
+302:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.InputStream,int,int):425:4096 |==> 0
+303:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.InputStream,int,int):425:4096 |==> -4096
+304:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@ReInit(java.io.InputStream,int,int):425:ReInit(dstream, startline, startcolumn, 4096) |==> <NO-OP>
+305:ROR:>=(int,int):==(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():432:bufpos >= tokenBegin |==> bufpos == tokenBegin
+306:ROR:>=(int,int):>(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():432:bufpos >= tokenBegin |==> bufpos > tokenBegin
+307:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():432:bufpos >= tokenBegin |==> true
+308:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin |==> bufpos % tokenBegin
+309:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin |==> bufpos * tokenBegin
+310:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin |==> bufpos + tokenBegin
+311:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin |==> bufpos / tokenBegin
+312:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:1 |==> 0
+313:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:1 |==> -1
+314:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin + 1 |==> (bufpos - tokenBegin) % 1
+315:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin + 1 |==> (bufpos - tokenBegin) * 1
+316:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin + 1 |==> bufpos - tokenBegin - 1
+317:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():434:bufpos - tokenBegin + 1 |==> (bufpos - tokenBegin) / 1
+318:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():438:bufsize - tokenBegin |==> bufsize % tokenBegin
+319:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():438:bufsize - tokenBegin |==> bufsize * tokenBegin
+320:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():438:bufsize - tokenBegin |==> bufsize + tokenBegin
+321:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():438:bufsize - tokenBegin |==> bufsize / tokenBegin
+322:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:0 |==> 1
+323:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:0 |==> -1
+324:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:1 |==> 0
+325:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:1 |==> -1
+326:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:bufpos + 1 |==> bufpos % 1
+327:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:bufpos + 1 |==> bufpos * 1
+328:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:bufpos + 1 |==> bufpos - 1
+329:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetImage():439:bufpos + 1 |==> bufpos / 1
+330:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):448:new char[len] |==> null
+331:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:1 |==> 0
+332:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:1 |==> -1
+333:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:bufpos + 1 |==> bufpos % 1
+334:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:bufpos + 1 |==> bufpos * 1
+335:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:bufpos + 1 |==> bufpos - 1
+336:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:bufpos + 1 |==> bufpos / 1
+337:ROR:>=(int,int):==(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:(bufpos + 1) >= len |==> (bufpos + 1) == len
+338:ROR:>=(int,int):>(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:(bufpos + 1) >= len |==> (bufpos + 1) > len
+339:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):450:(bufpos + 1) >= len |==> true
+340:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len |==> bufpos % len
+341:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len |==> bufpos * len
+342:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len |==> bufpos + len
+343:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len |==> bufpos / len
+344:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:1 |==> 0
+345:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:1 |==> -1
+346:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len + 1 |==> (bufpos - len) % 1
+347:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len + 1 |==> (bufpos - len) * 1
+348:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len + 1 |==> bufpos - len - 1
+349:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:bufpos - len + 1 |==> (bufpos - len) / 1
+350:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:0 |==> 1
+351:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:0 |==> -1
+352:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):452:System.arraycopy(buffer, bufpos - len + 1, ret, 0, len) |==> <NO-OP>
+353:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos |==> len % bufpos
+354:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos |==> len * bufpos
+355:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos |==> len + bufpos
+356:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos |==> len / bufpos
+357:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:1 |==> 0
+358:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:1 |==> -1
+359:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos - 1 |==> (len - bufpos) % 1
+360:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos - 1 |==> (len - bufpos) * 1
+361:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos - 1 |==> len - bufpos + 1
+362:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:len - bufpos - 1 |==> (len - bufpos) / 1
+363:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:bufsize - (len - bufpos - 1) |==> bufsize % (len - bufpos - 1)
+364:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:bufsize - (len - bufpos - 1) |==> bufsize * (len - bufpos - 1)
+365:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:bufsize - (len - bufpos - 1) |==> bufsize + (len - bufpos - 1)
+366:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:bufsize - (len - bufpos - 1) |==> bufsize / (len - bufpos - 1)
+367:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:0 |==> 1
+368:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:0 |==> -1
+369:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos |==> len % bufpos
+370:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos |==> len * bufpos
+371:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos |==> len + bufpos
+372:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos |==> len / bufpos
+373:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:1 |==> 0
+374:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:1 |==> -1
+375:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos - 1 |==> (len - bufpos) % 1
+376:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos - 1 |==> (len - bufpos) * 1
+377:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos - 1 |==> len - bufpos + 1
+378:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):457:len - bufpos - 1 |==> (len - bufpos) / 1
+379:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):456:System.arraycopy(buffer, bufsize - (len - bufpos - 1), ret, 0, len - bufpos - 1) |==> <NO-OP>
+380:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:0 |==> 1
+381:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:0 |==> -1
+382:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos |==> len % bufpos
+383:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos |==> len * bufpos
+384:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos |==> len + bufpos
+385:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos |==> len / bufpos
+386:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:1 |==> 0
+387:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:1 |==> -1
+388:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos - 1 |==> (len - bufpos) % 1
+389:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos - 1 |==> (len - bufpos) * 1
+390:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos - 1 |==> len - bufpos + 1
+391:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:len - bufpos - 1 |==> (len - bufpos) / 1
+392:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:1 |==> 0
+393:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:1 |==> -1
+394:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:bufpos + 1 |==> bufpos % 1
+395:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:bufpos + 1 |==> bufpos * 1
+396:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:bufpos + 1 |==> bufpos - 1
+397:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:bufpos + 1 |==> bufpos / 1
+398:STD:<CALL>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):458:System.arraycopy(buffer, 0, ret, len - bufpos - 1, bufpos + 1) |==> <NO-OP>
+399:EVR:<IDENTIFIER(char[])>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@GetSuffix(int):461:ret |==> null
+400:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@Done():469:buffer = null |==> <NO-OP>
+401:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@Done():470:bufline = null |==> <NO-OP>
+402:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@Done():471:bufcolumn = null |==> <NO-OP>
+403:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):481:tokenBegin |==> 0
+404:ROR:>=(int,int):==(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):484:bufpos >= tokenBegin |==> bufpos == tokenBegin
+405:ROR:>=(int,int):>(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):484:bufpos >= tokenBegin |==> bufpos > tokenBegin
+406:ROR:>=(int,int):TRUE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):484:bufpos >= tokenBegin |==> true
+407:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin |==> bufpos % tokenBegin
+408:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin |==> bufpos * tokenBegin
+409:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin |==> bufpos + tokenBegin
+410:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin |==> bufpos / tokenBegin
+411:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf |==> (bufpos - tokenBegin) % inBuf
+412:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf |==> (bufpos - tokenBegin) * inBuf
+413:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf |==> bufpos - tokenBegin - inBuf
+414:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf |==> (bufpos - tokenBegin) / inBuf
+415:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:1 |==> 0
+416:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:1 |==> -1
+417:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf + 1 |==> (bufpos - tokenBegin + inBuf) % 1
+418:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf + 1 |==> (bufpos - tokenBegin + inBuf) * 1
+419:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf + 1 |==> bufpos - tokenBegin + inBuf - 1
+420:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):486:bufpos - tokenBegin + inBuf + 1 |==> (bufpos - tokenBegin + inBuf) / 1
+421:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin |==> bufsize % tokenBegin
+422:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin |==> bufsize * tokenBegin
+423:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin |==> bufsize + tokenBegin
+424:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin |==> bufsize / tokenBegin
+425:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos |==> (bufsize - tokenBegin) % bufpos
+426:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos |==> (bufsize - tokenBegin) * bufpos
+427:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos |==> bufsize - tokenBegin - bufpos
+428:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos |==> (bufsize - tokenBegin) / bufpos
+429:LVR:POS:0:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:1 |==> 0
+430:LVR:POS:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:1 |==> -1
+431:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 |==> (bufsize - tokenBegin + bufpos) % 1
+432:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 |==> (bufsize - tokenBegin + bufpos) * 1
+433:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 |==> bufsize - tokenBegin + bufpos - 1
+434:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 |==> (bufsize - tokenBegin + bufpos) / 1
+435:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 + inBuf |==> (bufsize - tokenBegin + bufpos + 1) % inBuf
+436:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 + inBuf |==> (bufsize - tokenBegin + bufpos + 1) * inBuf
+437:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 + inBuf |==> bufsize - tokenBegin + bufpos + 1 - inBuf
+438:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):490:bufsize - tokenBegin + bufpos + 1 + inBuf |==> (bufsize - tokenBegin + bufpos + 1) / inBuf
+439:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):493:0 |==> 1
+440:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):493:0 |==> -1
+441:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):493:0 |==> 1
+442:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):493:0 |==> -1
+443:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):493:0 |==> 1
+444:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):493:0 |==> -1
+445:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):494:0 |==> 1
+446:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):494:0 |==> -1
+447:LVR:0:POS:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):494:0 |==> 1
+448:LVR:0:NEG:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):494:0 |==> -1
+449:ROR:<(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):496:i < len |==> i != len
+450:ROR:<(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):496:i < len |==> i <= len
+451:ROR:<(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):496:i < len |==> false
+452:AOR:%(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:start % bufsize |==> start * bufsize
+453:AOR:%(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:start % bufsize |==> start + bufsize
+454:AOR:%(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:start % bufsize |==> start - bufsize
+455:AOR:%(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:start % bufsize |==> start / bufsize
+456:AOR:%(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:++start % bufsize |==> ++start * bufsize
+457:AOR:%(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:++start % bufsize |==> ++start + bufsize
+458:AOR:%(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:++start % bufsize |==> ++start - bufsize
+459:AOR:%(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:++start % bufsize |==> ++start / bufsize
+460:ROR:==(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:bufline[j = start % bufsize] == bufline[k = ++start % bufsize] |==> bufline[j = start % bufsize] <= bufline[k = ++start % bufsize]
+461:ROR:==(int,int):>=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:bufline[j = start % bufsize] == bufline[k = ++start % bufsize] |==> bufline[j = start % bufsize] >= bufline[k = ++start % bufsize]
+462:ROR:==(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:bufline[j = start % bufsize] == bufline[k = ++start % bufsize] |==> false
+463:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):496:i < len && bufline[j = start % bufsize] == bufline[k = ++start % bufsize] |==> i < len == (bufline[j = start % bufsize] == bufline[k = ++start % bufsize])
+464:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):496:i < len && bufline[j = start % bufsize] == bufline[k = ++start % bufsize] |==> false
+465:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):496:i < len && bufline[j = start % bufsize] == bufline[k = ++start % bufsize] |==> i < len
+466:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):497:i < len && bufline[j = start % bufsize] == bufline[k = ++start % bufsize] |==> bufline[j = start % bufsize] == bufline[k = ++start % bufsize]
+467:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):499:bufline[j] = newLine |==> <NO-OP>
+468:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] |==> columnDiff % bufcolumn[k]
+469:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] |==> columnDiff * bufcolumn[k]
+470:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] |==> columnDiff - bufcolumn[k]
+471:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] |==> columnDiff / bufcolumn[k]
+472:AOR:-(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] - bufcolumn[j] |==> (columnDiff + bufcolumn[k]) % bufcolumn[j]
+473:AOR:-(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] - bufcolumn[j] |==> (columnDiff + bufcolumn[k]) * bufcolumn[j]
+474:AOR:-(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] - bufcolumn[j] |==> columnDiff + bufcolumn[k] + bufcolumn[j]
+475:AOR:-(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:columnDiff + bufcolumn[k] - bufcolumn[j] |==> (columnDiff + bufcolumn[k]) / bufcolumn[j]
+476:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):500:nextColDiff = columnDiff + bufcolumn[k] - bufcolumn[j] |==> <NO-OP>
+477:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):501:newCol + columnDiff |==> newCol % columnDiff
+478:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):501:newCol + columnDiff |==> newCol * columnDiff
+479:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):501:newCol + columnDiff |==> newCol - columnDiff
+480:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):501:newCol + columnDiff |==> newCol / columnDiff
+481:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):501:bufcolumn[j] = newCol + columnDiff |==> <NO-OP>
+482:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):502:columnDiff = nextColDiff |==> <NO-OP>
+483:STD:<INC>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):503:i++ |==> <NO-OP>
+484:ROR:<(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):506:i < len |==> i != len
+485:ROR:<(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):506:i < len |==> i <= len
+486:ROR:<(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):506:i < len |==> false
+487:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):508:bufline[j] = newLine++ |==> <NO-OP>
+488:AOR:+(int,int):%(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):509:newCol + columnDiff |==> newCol % columnDiff
+489:AOR:+(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):509:newCol + columnDiff |==> newCol * columnDiff
+490:AOR:+(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):509:newCol + columnDiff |==> newCol - columnDiff
+491:AOR:+(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):509:newCol + columnDiff |==> newCol / columnDiff
+492:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):509:bufcolumn[j] = newCol + columnDiff |==> <NO-OP>
+493:ROR:<(int,int):!=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):511:i++ < len |==> i++ != len
+494:ROR:<(int,int):<=(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):511:i++ < len |==> i++ <= len
+495:ROR:<(int,int):FALSE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):511:i++ < len |==> false
+496:AOR:%(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:start % bufsize |==> start * bufsize
+497:AOR:%(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:start % bufsize |==> start + bufsize
+498:AOR:%(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:start % bufsize |==> start - bufsize
+499:AOR:%(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:start % bufsize |==> start / bufsize
+500:AOR:%(int,int):*(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:++start % bufsize |==> ++start * bufsize
+501:AOR:%(int,int):+(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:++start % bufsize |==> ++start + bufsize
+502:AOR:%(int,int):-(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:++start % bufsize |==> ++start - bufsize
+503:AOR:%(int,int):/(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:++start % bufsize |==> ++start / bufsize
+504:ROR:!=(int,int):<(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:bufline[j = start % bufsize] != bufline[++start % bufsize] |==> bufline[j = start % bufsize] < bufline[++start % bufsize]
+505:ROR:!=(int,int):>(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:bufline[j = start % bufsize] != bufline[++start % bufsize] |==> bufline[j = start % bufsize] > bufline[++start % bufsize]
+506:ROR:!=(int,int):TRUE(int,int):org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):513:bufline[j = start % bufsize] != bufline[++start % bufsize] |==> true
+507:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):514:bufline[j] = newLine++ |==> <NO-OP>
+508:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):516:bufline[j] = newLine |==> <NO-OP>
+509:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):520:line = bufline[j] |==> <NO-OP>
+510:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.runtime.parser.VelocityCharStream@adjustBeginLineColumn(int,int):521:column = bufcolumn[j] |==> <NO-OP>

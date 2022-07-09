@@ -1,0 +1,5 @@
+1:EVR:<IDENTIFIER(java.lang.Throwable)>:<DEFAULT>:org.apache.velocity.exception.VelocityException@<init>(java.lang.String,java.lang.Throwable):58:wrapped |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.velocity.exception.VelocityException@<init>(java.lang.String,java.lang.Throwable):59:ExceptionUtils.setCause(this, wrapped) |==> <NO-OP>
+3:EVR:<IDENTIFIER(java.lang.Throwable)>:<DEFAULT>:org.apache.velocity.exception.VelocityException@<init>(java.lang.Throwable):69:wrapped |==> null
+4:STD:<CALL>:<NO-OP>:org.apache.velocity.exception.VelocityException@<init>(java.lang.Throwable):70:ExceptionUtils.setCause(this, wrapped) |==> <NO-OP>
+5:EVR:<IDENTIFIER(java.lang.Throwable)>:<DEFAULT>:org.apache.velocity.exception.VelocityException@getWrappedThrowable():82:wrapped |==> null

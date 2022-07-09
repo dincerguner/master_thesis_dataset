@@ -56,7 +56,7 @@ public class TreeWalker
      */
     public NodeList allElements(Element e)
     {
-        ArrayList theElements = new ArrayList();
+        ArrayList theElements = null;
         treeWalk (e, theElements);
         return new NodeList(theElements, false);
     }

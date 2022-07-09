@@ -1,0 +1,45 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.anakia.Escape:37:System.getProperty("line.separator") |==> null
+2:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.velocity.anakia.Escape@getText(java.lang.String):54:new StringBuffer() |==> null
+3:EVR:<METHOD_INVOCATION(char[])>:<DEFAULT>:org.apache.velocity.anakia.Escape@getText(java.lang.String):55:st.toCharArray() |==> null
+4:LVR:0:POS:org.apache.velocity.anakia.Escape@getText(java.lang.String):59:0 |==> 1
+5:LVR:0:NEG:org.apache.velocity.anakia.Escape@getText(java.lang.String):59:0 |==> -1
+6:LVR:0:POS:org.apache.velocity.anakia.Escape@getText(java.lang.String):59:0 |==> 1
+7:LVR:0:NEG:org.apache.velocity.anakia.Escape@getText(java.lang.String):59:0 |==> -1
+8:ROR:<(int,int):!=(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):59:i < block.length |==> i != block.length
+9:ROR:<(int,int):<=(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):59:i < block.length |==> i <= block.length
+10:ROR:<(int,int):FALSE(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):59:i < block.length |==> false
+11:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):64:stEntity = "&lt;" |==> <NO-OP>
+12:STD:<BREAK>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):65:break; |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):67:stEntity = "&gt;" |==> <NO-OP>
+14:STD:<BREAK>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):68:break; |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):70:stEntity = "&amp;" |==> <NO-OP>
+16:STD:<BREAK>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):71:break; |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):73:stEntity = "&quot;" |==> <NO-OP>
+18:STD:<BREAK>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):74:break; |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):76:stEntity = LINE_SEPARATOR |==> <NO-OP>
+20:STD:<BREAK>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):77:break; |==> <NO-OP>
+21:STD:<BREAK>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):80:break; |==> <NO-OP>
+22:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.velocity.anakia.Escape@getText(java.lang.String):82:stEntity != null |==> true
+23:AOR:-(int,int):%(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):84:i - last |==> i % last
+24:AOR:-(int,int):*(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):84:i - last |==> i * last
+25:AOR:-(int,int):+(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):84:i - last |==> i + last
+26:AOR:-(int,int):/(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):84:i - last |==> i / last
+27:STD:<CALL>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):84:buff.append(block, last, i - last) |==> <NO-OP>
+28:STD:<CALL>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):85:buff.append(stEntity) |==> <NO-OP>
+29:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):86:stEntity = null |==> <NO-OP>
+30:LVR:POS:0:org.apache.velocity.anakia.Escape@getText(java.lang.String):87:1 |==> 0
+31:LVR:POS:NEG:org.apache.velocity.anakia.Escape@getText(java.lang.String):87:1 |==> -1
+32:AOR:+(int,int):%(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):87:i + 1 |==> i % 1
+33:AOR:+(int,int):*(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):87:i + 1 |==> i * 1
+34:AOR:+(int,int):-(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):87:i + 1 |==> i - 1
+35:AOR:+(int,int):/(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):87:i + 1 |==> i / 1
+36:STD:<ASSIGN>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):87:last = i + 1 |==> <NO-OP>
+37:ROR:<(int,int):!=(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):90:last < block.length |==> last != block.length
+38:ROR:<(int,int):<=(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):90:last < block.length |==> last <= block.length
+39:ROR:<(int,int):FALSE(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):90:last < block.length |==> false
+40:AOR:-(int,int):%(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):92:i - last |==> i % last
+41:AOR:-(int,int):*(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):92:i - last |==> i * last
+42:AOR:-(int,int):+(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):92:i - last |==> i + last
+43:AOR:-(int,int):/(int,int):org.apache.velocity.anakia.Escape@getText(java.lang.String):92:i - last |==> i / last
+44:STD:<CALL>:<NO-OP>:org.apache.velocity.anakia.Escape@getText(java.lang.String):92:buff.append(block, last, i - last) |==> <NO-OP>
+45:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.velocity.anakia.Escape@getText(java.lang.String):94:buff.toString() |==> null

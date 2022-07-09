@@ -67,7 +67,7 @@ public class ReportInvalidReferences implements
     /** 
      * List of InvalidReferenceInfo objects
      */
-    List invalidReferences = new ArrayList();
+    List invalidReferences = null;
 
     /**
      * If true, stop at the first invalid reference and throw an exception.

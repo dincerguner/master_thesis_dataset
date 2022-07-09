@@ -77,7 +77,7 @@ public class AnakiaTask extends MatchingTask
     private String style = null;
 
     /** last modified of the style sheet */
-    private long styleSheetLastModified = 0;
+    private long styleSheetLastModified = 1;
 
     /** the projectFile= attribute */
     private String projectAttribute = null;

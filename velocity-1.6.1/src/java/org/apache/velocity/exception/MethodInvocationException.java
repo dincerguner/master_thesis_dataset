@@ -63,7 +63,7 @@ public class MethodInvocationException extends VelocityException implements Exte
     {
         super(message, e);
 
-        this.methodName = methodName;
+        this.methodName = null;
         this.templateName = templateName;
         this.lineNumber = lineNumber;
         this.columnNumber = columnNumber;

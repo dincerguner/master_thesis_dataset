@@ -38,7 +38,7 @@ public class PrimordialLogSystem extends HoldingLogChute implements LogSystem
      */
     public void logVelocityMessage(int level, String message)
     {
-        log(level, message);
+        ;
     }
 
     /**

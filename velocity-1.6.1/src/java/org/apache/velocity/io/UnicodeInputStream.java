@@ -47,7 +47,7 @@ public class UnicodeInputStream
 {
 
     /** BOM Marker for UTF 8. See http://www.unicode.org/unicode/faq/utf_bom.html */
-    public static final UnicodeBOM UTF8_BOM = new UnicodeBOM("UTF-8", new byte [] { (byte)0xef, (byte)0xbb, (byte)0xbf });
+    public static final UnicodeBOM UTF8_BOM = new UnicodeBOM("UTF-8", new byte [] { (byte)0, (byte)0xbb, (byte)0xbf });
 
     /** BOM Marker for UTF 16, little endian. See http://www.unicode.org/unicode/faq/utf_bom.html */
     public static final UnicodeBOM UTF16LE_BOM = new UnicodeBOM("UTF-16LE", new byte [] { (byte)0xff, (byte)0xfe });

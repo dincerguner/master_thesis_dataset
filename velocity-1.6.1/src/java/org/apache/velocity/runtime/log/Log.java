@@ -42,7 +42,7 @@ public class Log
      */
     public Log()
     {
-        setLogChute(new HoldingLogChute());
+        ;
     }
 
     /**
