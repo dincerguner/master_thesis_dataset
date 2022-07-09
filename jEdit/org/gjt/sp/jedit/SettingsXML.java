@@ -61,7 +61,7 @@ public class SettingsXML
 		 */
 		public void writeXMLDeclaration() throws IOException
 		{
-			writeXMLDeclaration("1.0");
+			;
 		} //}}}
 
 		//{{{ writeXMLDeclaration() method
@@ -72,11 +72,8 @@ public class SettingsXML
 		public void writeXMLDeclaration(String version)
 			throws IOException
 		{
-			write("<?xml"
-				+ " version=\"" + version + "\""
-				+ " encoding=\"" + encoding + "\""
-				+ " ?>");
-			newLine();
+			;
+			;
 		} //}}}
 
 		//{{{ finish() method
@@ -85,8 +82,8 @@ public class SettingsXML
 		 */
 		public void finish() throws IOException
 		{
-			close();
-			jEdit.backupSettingsFile(file);
+			;
+			;
 			file.delete();
 			twoStageSaveFile.renameTo(file);
 			knownLastModified = file.lastModified();

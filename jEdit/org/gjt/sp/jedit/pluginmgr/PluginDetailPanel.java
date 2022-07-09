@@ -51,7 +51,7 @@ class PluginDetailPanel extends JPanel
 	{
 		setLayout(new BorderLayout());
 		pluginDetail = new JEditorPane();
-		pluginDetail.setEditable(false);
+		pluginDetail.setEditable(true);
 		pluginDetail.setContentType("text/html");
 		pluginDetail.setBackground(jEdit.getColorProperty("view.bgColor"));
 		pluginDetail.setForeground(jEdit.getColorProperty("view.fgColor"));

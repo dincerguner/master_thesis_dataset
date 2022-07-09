@@ -43,13 +43,13 @@ public class DirectoryProvider implements DynamicMenuProvider
 	//{{{ DirectoryProvider constructor
 	public DirectoryProvider(String dir)
 	{
-		this.dir = dir;
+		this.dir = null;
 	} //}}}
 
 	//{{{ updateEveryTime() method
 	public boolean updateEveryTime()
 	{
-		return true;
+		return false;
 	} //}}}
 
 	//{{{ update() method

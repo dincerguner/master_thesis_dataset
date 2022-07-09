@@ -1,0 +1,5 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.StatusBarOptionPane@_init():54:setLayout(new BorderLayout()) |==> <NO-OP>
+2:LVR:POS:0:org.gjt.sp.jedit.options.StatusBarOptionPane@_init():57:2 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.options.StatusBarOptionPane@_init():57:2 |==> -2
+4:LVR:POS:0:org.gjt.sp.jedit.options.StatusBarOptionPane@_init():57:1 |==> 0
+5:LVR:POS:NEG:org.gjt.sp.jedit.options.StatusBarOptionPane@_init():57:1 |==> -1

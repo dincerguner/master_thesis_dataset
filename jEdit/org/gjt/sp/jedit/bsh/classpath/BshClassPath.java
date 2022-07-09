@@ -86,7 +86,7 @@ public class BshClassPath
 	/**
 		This used to be configurable, but now we always include them.
 	*/
-	private boolean nameCompletionIncludesUnqNames = true;
+	private boolean nameCompletionIncludesUnqNames = false;
 
 	Vector listeners = new Vector();
 

@@ -1,0 +1,32 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):68:true |==> false
+2:EVR:<NEW_CLASS(javax.swing.JPanel)>:<DEFAULT>:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):70:new JPanel(new BorderLayout()) |==> null
+3:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> -12
+5:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> -12
+7:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> 0
+8:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> -12
+9:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> 0
+10:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:12 |==> -12
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):71:content.setBorder(new EmptyBorder(12, 12, 12, 12)) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):72:setContentPane(content) |==> <NO-OP>
+13:EVR:<NEW_CLASS(org.gjt.sp.jedit.gui.ContextAddDialog.ActionHandler)>:<DEFAULT>:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):74:new ActionHandler() |==> null
+14:EVR:<NEW_CLASS(javax.swing.ButtonGroup)>:<DEFAULT>:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):75:new ButtonGroup() |==> null
+15:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:3 |==> 0
+16:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:3 |==> -3
+17:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:1 |==> 0
+18:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:1 |==> -1
+19:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:6 |==> 0
+20:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:6 |==> -6
+21:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:6 |==> 0
+22:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):77:6 |==> -6
+23:LVR:0:POS:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:0 |==> 1
+24:LVR:0:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:0 |==> -1
+25:LVR:0:POS:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:0 |==> 1
+26:LVR:0:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:0 |==> -1
+27:LVR:POS:0:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:6 |==> 0
+28:LVR:POS:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:6 |==> -6
+29:LVR:0:POS:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:0 |==> 1
+30:LVR:0:NEG:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:0 |==> -1
+31:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):78:typePanel.setBorder(new EmptyBorder(0, 0, 6, 0)) |==> <NO-OP>
+32:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ContextAddDialog@<init>(java.awt.Component):79:typePanel.add(new JLabel(jEdit.getProperty("options.context.add.caption"))) |==> <NO-OP>

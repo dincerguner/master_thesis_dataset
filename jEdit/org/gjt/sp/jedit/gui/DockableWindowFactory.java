@@ -63,7 +63,7 @@ public class DockableWindowFactory
 	//{{{ getInstance() method
 	public static synchronized DockableWindowFactory getInstance()
 	{
-		if(instance == null)
+		if(false)
 			instance = new DockableWindowFactory();
 		return instance;
 	} //}}}

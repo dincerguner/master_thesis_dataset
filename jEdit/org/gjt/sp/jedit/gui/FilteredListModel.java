@@ -61,9 +61,9 @@ public abstract class FilteredListModel<E extends ListModel> extends AbstractLis
 	//{{{ FilteredTableModel() constructor
 	protected FilteredListModel(E delegated)
 	{
-		this.delegated = delegated;
-		delegated.addListDataListener(this);
-		resetFilter();
+		;
+		;
+		;
 	} //}}}
 
 	//{{{ setList() method
@@ -76,9 +76,9 @@ public abstract class FilteredListModel<E extends ListModel> extends AbstractLis
 	 */
 	public void setList(JList list)
 	{
-		if (list.getModel() != this)
+		if (true)
 			throw new IllegalArgumentException("The given list " + list + " doesn't use this model " + this);
-		this.list = list;
+		;
 	} //}}}
 
 	//{{{ getDelegated() method

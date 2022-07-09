@@ -3,14 +3,14 @@ package org.gjt.sp.jedit.bsh;
 
 public class ParserTokenManager implements ParserConstants
 {
-  public  java.io.PrintStream debugStream = System.out;
-  public  void setDebugStream(java.io.PrintStream ds) { debugStream = ds; }
+  public  java.io.PrintStream debugStream = null;
+  public  void setDebugStream(java.io.PrintStream ds) { debugStream = null; }
 private final int jjStopStringLiteralDfa_0(int pos, long active0, long active1, long active2)
 {
    switch (pos)
    {
       case 0:
-         if ((active1 & 0x200020000000000L) != 0L)
+         if ((active1 & 0L) != 0L)
             return 56;
          if ((active0 & 0x3eL) != 0L)
             return 0;

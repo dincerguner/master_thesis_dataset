@@ -1,0 +1,1 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.BeanShellAction@<init>(java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean):54:name.replace('.', '_').replace('-', '_') |==> null

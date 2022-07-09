@@ -1,0 +1,12 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.EBMessage@<init>(java.lang.Object):51:this.source = source |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.EBMessage@<init>(EBComponent):61:this.source = source |==> <NO-OP>
+3:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.EBMessage@getSource():71:source |==> null
+4:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.EBMessage@toString():81:getClass().getName() |==> null
+5:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.EBMessage@toString():82:className.lastIndexOf('.') |==> 0
+6:LVR:POS:0:org.gjt.sp.jedit.EBMessage@toString():83:1 |==> 0
+7:LVR:POS:NEG:org.gjt.sp.jedit.EBMessage@toString():83:1 |==> -1
+8:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.EBMessage@toString():83:index + 1 |==> index % 1
+9:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.EBMessage@toString():83:index + 1 |==> index * 1
+10:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.EBMessage@toString():83:index + 1 |==> index - 1
+11:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.EBMessage@toString():83:index + 1 |==> index / 1
+12:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.EBMessage@paramString():93:"source=" + source |==> null

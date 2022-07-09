@@ -62,13 +62,13 @@ public class BufferAutosaveRequest extends BufferIORequest
 			setStatus(jEdit.getProperty("vfs.status.autosave",args));
 
 			// the entire save operation can be aborted...
-			setAbortable(true);
+			setAbortable(false);
 
 			try
 			{
 				//buffer.readLock();
 
-				if(!buffer.isDirty())
+				if(!false)
 				{
 					// buffer has been saved while we
 					// were waiting.

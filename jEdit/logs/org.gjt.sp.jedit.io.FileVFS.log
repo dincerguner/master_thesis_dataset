@@ -1,0 +1,34 @@
+1:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP |==> READ_CAP & WRITE_CAP
+2:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP |==> READ_CAP ^ WRITE_CAP
+3:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP |==> (READ_CAP | WRITE_CAP) & BROWSE_CAP
+4:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP |==> (READ_CAP | WRITE_CAP) ^ BROWSE_CAP
+5:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP) & DELETE_CAP
+6:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP) ^ DELETE_CAP
+7:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP) & RENAME_CAP
+8:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP) ^ RENAME_CAP
+9:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP) & MKDIR_CAP
+10:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP) ^ MKDIR_CAP
+11:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP | LOW_LATENCY_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP) & LOW_LATENCY_CAP
+12:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP | LOW_LATENCY_CAP |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP) ^ LOW_LATENCY_CAP
+13:COR:OperatingSystem.isCaseInsensitiveFS():TRUE:org.gjt.sp.jedit.io.FileVFS@<init>():52:OperatingSystem.isCaseInsensitiveFS() |==> false
+14:COR:OperatingSystem.isCaseInsensitiveFS():FALSE:org.gjt.sp.jedit.io.FileVFS@<init>():52:OperatingSystem.isCaseInsensitiveFS() |==> true
+15:LVR:0:POS:org.gjt.sp.jedit.io.FileVFS@<init>():53:0 |==> 1
+16:LVR:0:NEG:org.gjt.sp.jedit.io.FileVFS@<init>():53:0 |==> -1
+17:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP | LOW_LATENCY_CAP | (OperatingSystem.isCaseInsensitiveFS() ? CASE_INSENSITIVE_CAP : 0) |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP | LOW_LATENCY_CAP) & (OperatingSystem.isCaseInsensitiveFS() ? CASE_INSENSITIVE_CAP : 0)
+18:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@<init>():50:READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP | LOW_LATENCY_CAP | (OperatingSystem.isCaseInsensitiveFS() ? CASE_INSENSITIVE_CAP : 0) |==> (READ_CAP | WRITE_CAP | BROWSE_CAP | DELETE_CAP | RENAME_CAP | MKDIR_CAP | LOW_LATENCY_CAP) ^ (OperatingSystem.isCaseInsensitiveFS() ? CASE_INSENSITIVE_CAP : 0)
+19:COR:OperatingSystem.isDOSDerived():TRUE:org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):62:OperatingSystem.isDOSDerived() |==> false
+20:COR:OperatingSystem.isDOSDerived():FALSE:org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):62:OperatingSystem.isDOSDerived() |==> true
+21:LVR:POS:0:org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:2 |==> 0
+22:LVR:POS:NEG:org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:2 |==> -2
+23:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.length() == 2 |==> path.length() <= 2
+24:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.length() == 2 |==> path.length() >= 2
+25:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.length() == 2 |==> false
+26:LVR:POS:0:org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:1 |==> 0
+27:LVR:POS:NEG:org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:1 |==> -1
+28:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.charAt(1) == ':' |==> path.charAt(1) <= ':'
+29:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.charAt(1) == ':' |==> path.charAt(1) >= ':'
+30:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.charAt(1) == ':' |==> false
+31:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.length() == 2 && path.charAt(1) == ':' |==> path.length() == 2 == (path.charAt(1) == ':')
+32:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.length() == 2 && path.charAt(1) == ':' |==> false
+33:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.length() == 2 && path.charAt(1) == ':' |==> path.length() == 2
+34:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.io.FileVFS@getParentOfPath(java.lang.String):64:path.length() == 2 && path.charAt(1) == ':' |==> path.charAt(1) == ':'

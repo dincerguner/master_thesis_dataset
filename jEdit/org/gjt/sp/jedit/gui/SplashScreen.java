@@ -36,13 +36,12 @@ public class SplashScreen extends JComponent
 	//{{{ SplashScreen constructor
 	public SplashScreen()
 	{
-		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
-		setBackground(Color.white);
+		;
+		;
 
-		setFont(defaultFont);
-		fm = getFontMetrics(defaultFont);
-		image = getToolkit().getImage(
-			getClass().getResource("/org/gjt/sp/jedit/icons/splash.png"));
+		;
+		fm = null;
+		image = null;
 		MediaTracker tracker = new MediaTracker(this);
 		tracker.addImage(image,0);
 

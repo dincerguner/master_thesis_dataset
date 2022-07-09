@@ -44,10 +44,10 @@ public class MenuItemTextComparator implements Comparator<JMenuItem>
 	// {{{ Compare Method.
 	public int compare(JMenuItem obj1, JMenuItem obj2)
 	{
-		int compareValue = 0;
-		boolean obj1E = obj1 instanceof EnhancedMenuItem;
-		boolean obj2E = obj2 instanceof EnhancedMenuItem;
-		if (obj1E && !obj2E)
+		int compareValue = 1;
+		boolean obj1E = false;
+		boolean obj2E = false;
+		if (obj1E == !obj2E)
 		{
 			compareValue = 1;
 		}

@@ -44,13 +44,7 @@ public class BrowserOptionPane extends AbstractOptionPane
 	public void _init()
 	{
 		/* Default directory */
-		String[] dirs = {
-			jEdit.getProperty("options.browser.general.defaultPath.favorites"),
-			jEdit.getProperty("options.browser.general.defaultPath.home"),
-			jEdit.getProperty("options.browser.general.defaultPath.last"),
-			jEdit.getProperty("options.browser.general.defaultPath.buffer"),
-			jEdit.getProperty("options.browser.general.defaultPath.working")
-		};
+		String[] dirs = null;
 
 		defaultDirectory = new JComboBox(dirs);
 		String defaultDir = jEdit.getProperty("vfs.browser.defaultPath");

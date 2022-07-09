@@ -1,0 +1,49 @@
+1:EVR:<MEMBER_SELECT(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.DockableLayout:33:BorderLayout.CENTER |==> null
+2:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.gjt.sp.jedit.gui.DockableLayout@setAlternateLayout():55:isAlternateLayout() |==> false
+3:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.gjt.sp.jedit.gui.DockableLayout@isAlternateLayout():66:alternateLayout |==> false
+4:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@setAlternateLayout(boolean):72:this.alternateLayout = alternateLayout |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.lang.String,java.awt.Component):78:addLayoutComponent(comp, name) |==> <NO-OP>
+6:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):84:cons == null |==> false
+7:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):84:cons == null || CENTER.equals(cons) |==> cons == null != CENTER.equals(cons)
+8:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):84:cons == null || CENTER.equals(cons) |==> cons == null
+9:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):84:cons == null || CENTER.equals(cons) |==> CENTER.equals(cons)
+10:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):84:cons == null || CENTER.equals(cons) |==> true
+11:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):85:center = comp |==> <NO-OP>
+12:COR:DockableWindowManager.TOP.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):86:DockableWindowManager.TOP.equals(cons) |==> false
+13:COR:DockableWindowManager.TOP.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):86:DockableWindowManager.TOP.equals(cons) |==> true
+14:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):87:top = (DockablePanel)comp |==> <NO-OP>
+15:COR:DockableWindowManager.LEFT.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):88:DockableWindowManager.LEFT.equals(cons) |==> false
+16:COR:DockableWindowManager.LEFT.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):88:DockableWindowManager.LEFT.equals(cons) |==> true
+17:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):89:left = (DockablePanel)comp |==> <NO-OP>
+18:COR:DockableWindowManager.BOTTOM.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):90:DockableWindowManager.BOTTOM.equals(cons) |==> false
+19:COR:DockableWindowManager.BOTTOM.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):90:DockableWindowManager.BOTTOM.equals(cons) |==> true
+20:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):91:bottom = (DockablePanel)comp |==> <NO-OP>
+21:COR:DockableWindowManager.RIGHT.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):92:DockableWindowManager.RIGHT.equals(cons) |==> false
+22:COR:DockableWindowManager.RIGHT.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):92:DockableWindowManager.RIGHT.equals(cons) |==> true
+23:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):93:right = (DockablePanel)comp |==> <NO-OP>
+24:COR:TOP_BUTTONS.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):94:TOP_BUTTONS.equals(cons) |==> false
+25:COR:TOP_BUTTONS.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):94:TOP_BUTTONS.equals(cons) |==> true
+26:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):95:topButtons = comp |==> <NO-OP>
+27:COR:LEFT_BUTTONS.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):96:LEFT_BUTTONS.equals(cons) |==> false
+28:COR:LEFT_BUTTONS.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):96:LEFT_BUTTONS.equals(cons) |==> true
+29:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):97:leftButtons = comp |==> <NO-OP>
+30:COR:BOTTOM_BUTTONS.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):98:BOTTOM_BUTTONS.equals(cons) |==> false
+31:COR:BOTTOM_BUTTONS.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):98:BOTTOM_BUTTONS.equals(cons) |==> true
+32:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):99:bottomButtons = comp |==> <NO-OP>
+33:COR:RIGHT_BUTTONS.equals(cons):TRUE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):100:RIGHT_BUTTONS.equals(cons) |==> false
+34:COR:RIGHT_BUTTONS.equals(cons):FALSE:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):100:RIGHT_BUTTONS.equals(cons) |==> true
+35:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@addLayoutComponent(java.awt.Component,java.lang.Object):101:rightButtons = comp |==> <NO-OP>
+36:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):107:center == comp |==> false
+37:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):108:center = null |==> <NO-OP>
+38:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):109:comp == top |==> false
+39:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):110:top = null |==> <NO-OP>
+40:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):111:comp == left |==> false
+41:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):112:left = null |==> <NO-OP>
+42:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):113:comp == bottom |==> false
+43:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):114:bottom = null |==> <NO-OP>
+44:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):115:comp == right |==> false
+45:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.DockableLayout@removeLayoutComponent(java.awt.Component):116:right = null |==> <NO-OP>
+46:LVR:0:POS:org.gjt.sp.jedit.gui.DockableLayout@preferredLayoutSize(java.awt.Container):122:0 |==> 1
+47:LVR:0:NEG:org.gjt.sp.jedit.gui.DockableLayout@preferredLayoutSize(java.awt.Container):122:0 |==> -1
+48:LVR:0:POS:org.gjt.sp.jedit.gui.DockableLayout@preferredLayoutSize(java.awt.Container):122:0 |==> 1
+49:LVR:0:NEG:org.gjt.sp.jedit.gui.DockableLayout@preferredLayoutSize(java.awt.Container):122:0 |==> -1

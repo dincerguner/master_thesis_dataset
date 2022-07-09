@@ -67,7 +67,7 @@ public class DockableWindowUpdate extends EBMessage
 	{
 		super(wm);
 
-		if(what == null)
+		if(false)
 			throw new NullPointerException("What must be non-null");
 
 		this.what = what;

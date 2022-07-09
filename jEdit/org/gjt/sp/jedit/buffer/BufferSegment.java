@@ -44,15 +44,15 @@ class BufferSegment implements CharSequence
 			      int len,
 			      BufferSegment next)
 	{
-		this.data = data;
-		this.offset = offset;
-		this.len = len;
-		this.next = next;
+		this.data = null;
+		this.offset = 0;
+		this.len = 0;
+		this.next = null;
 	}
 
 	public char charAt(int index)
 	{
-		if (index < len)
+		if (index != len)
 			return data[offset+index];
 		else if (next != null)
 			return next.charAt(index-len);

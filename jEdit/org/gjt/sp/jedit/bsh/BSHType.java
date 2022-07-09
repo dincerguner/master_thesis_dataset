@@ -67,11 +67,11 @@ class BSHType extends SimpleNode
 		during parsing.
 	*/
     public void addArrayDimension() { 
-		arrayDims++; 
+		; 
 	}
 
 	SimpleNode getTypeNode() {
-        return (SimpleNode)jjtGetChild(0);
+        return (SimpleNode)jjtGetChild(1);
 	}
 
     /**

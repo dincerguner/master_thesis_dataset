@@ -1,0 +1,2 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.menu.DirectoryProvider@<init>(java.lang.String):46:dir |==> null
+2:LVR:TRUE:FALSE:org.gjt.sp.jedit.menu.DirectoryProvider@updateEveryTime():52:true |==> false

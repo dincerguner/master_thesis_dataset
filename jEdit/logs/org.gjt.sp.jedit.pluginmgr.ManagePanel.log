@@ -1,0 +1,4 @@
+1:LVR:POS:0:org.gjt.sp.jedit.pluginmgr.ManagePanel@<init>(PluginManager):98:12 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.pluginmgr.ManagePanel@<init>(PluginManager):98:12 |==> -12
+3:LVR:POS:0:org.gjt.sp.jedit.pluginmgr.ManagePanel@<init>(PluginManager):98:12 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.pluginmgr.ManagePanel@<init>(PluginManager):98:12 |==> -12

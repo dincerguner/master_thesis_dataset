@@ -103,31 +103,31 @@ public class Type {
    * The <tt>void</tt> type.
    */
 
-  public final static Type VOID_TYPE = new Type(VOID);
+  public final static Type VOID_TYPE = null;
 
   /**
    * The <tt>boolean</tt> type.
    */
 
-  public final static Type BOOLEAN_TYPE = new Type(BOOLEAN);
+  public final static Type BOOLEAN_TYPE = null;
 
   /**
    * The <tt>char</tt> type.
    */
 
-  public final static Type CHAR_TYPE = new Type(CHAR);
+  public final static Type CHAR_TYPE = null;
 
   /**
    * The <tt>byte</tt> type.
    */
 
-  public final static Type BYTE_TYPE = new Type(BYTE);
+  public final static Type BYTE_TYPE = null;
 
   /**
    * The <tt>short</tt> type.
    */
 
-  public final static Type SHORT_TYPE = new Type(SHORT);
+  public final static Type SHORT_TYPE = null;
 
   /**
    * The <tt>int</tt> type.

@@ -1,0 +1,14 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StatusBar@<init>(View):66:setName("StatusBar") |==> <NO-OP>
+2:LVR:POS:0:org.gjt.sp.jedit.gui.StatusBar@<init>(View):67:4 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.gui.StatusBar@<init>(View):67:4 |==> -4
+4:LVR:0:POS:org.gjt.sp.jedit.gui.StatusBar@<init>(View):67:0 |==> 1
+5:LVR:0:NEG:org.gjt.sp.jedit.gui.StatusBar@<init>(View):67:0 |==> -1
+6:LVR:0:POS:org.gjt.sp.jedit.gui.StatusBar@<init>(View):67:0 |==> 1
+7:LVR:0:NEG:org.gjt.sp.jedit.gui.StatusBar@<init>(View):67:0 |==> -1
+8:COR:OperatingSystem.isMacOS():TRUE:org.gjt.sp.jedit.gui.StatusBar@<init>(View):68:OperatingSystem.isMacOS() |==> false
+9:COR:OperatingSystem.isMacOS():FALSE:org.gjt.sp.jedit.gui.StatusBar@<init>(View):68:OperatingSystem.isMacOS() |==> true
+10:LVR:POS:0:org.gjt.sp.jedit.gui.StatusBar@<init>(View):68:18 |==> 0
+11:LVR:POS:NEG:org.gjt.sp.jedit.gui.StatusBar@<init>(View):68:18 |==> -18
+12:LVR:0:POS:org.gjt.sp.jedit.gui.StatusBar@<init>(View):68:0 |==> 1
+13:LVR:0:NEG:org.gjt.sp.jedit.gui.StatusBar@<init>(View):68:0 |==> -1
+14:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StatusBar@<init>(View):67:setBorder(new CompoundBorder(new EmptyBorder(4, 0, 0, (OperatingSystem.isMacOS() ? 18 : 0)), UIManager.getBorder("TextField.border"))) |==> <NO-OP>

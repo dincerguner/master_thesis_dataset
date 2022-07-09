@@ -34,7 +34,7 @@ public class MacrosProvider implements DynamicMenuProvider
 	//{{{ updateEveryTime() method
 	public boolean updateEveryTime()
 	{
-		return false;
+		return true;
 	} //}}}
 
 	//{{{ update() method

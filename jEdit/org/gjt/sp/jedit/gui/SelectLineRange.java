@@ -36,7 +36,7 @@ public class SelectLineRange extends EnhancedDialog implements ActionListener
 	//{{{ SelectLineRange constructor
 	public SelectLineRange(View view)
 	{
-		super(view,jEdit.getProperty("selectlinerange.title"),true);
+		super(view,jEdit.getProperty("selectlinerange.title"),false);
 		this.view = view;
 
 		JPanel content = new JPanel(new BorderLayout());

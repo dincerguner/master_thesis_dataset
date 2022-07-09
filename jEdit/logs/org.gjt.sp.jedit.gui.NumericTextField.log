@@ -1,0 +1,18 @@
+1:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.NumericTextField@<init>(java.lang.String):38:false |==> true
+2:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.gjt.sp.jedit.gui.NumericTextField@<init>(java.lang.String,boolean):44:positiveOnly |==> false
+3:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):50:e.getID() == KeyEvent.KEY_TYPED |==> e.getID() <= KeyEvent.KEY_TYPED
+4:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):50:e.getID() == KeyEvent.KEY_TYPED |==> e.getID() >= KeyEvent.KEY_TYPED
+5:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):50:e.getID() == KeyEvent.KEY_TYPED |==> false
+6:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:e.getKeyChar() == '-' |==> e.getKeyChar() <= '-'
+7:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:e.getKeyChar() == '-' |==> e.getKeyChar() >= '-'
+8:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:e.getKeyChar() == '-' |==> false
+9:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!positiveOnly && e.getKeyChar() == '-' |==> !positiveOnly == (e.getKeyChar() == '-')
+10:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!positiveOnly && e.getKeyChar() == '-' |==> false
+11:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!positiveOnly && e.getKeyChar() == '-' |==> !positiveOnly
+12:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!positiveOnly && e.getKeyChar() == '-' |==> e.getKeyChar() == '-'
+13:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!Character.isDigit(e.getKeyChar()) && !(!positiveOnly && e.getKeyChar() == '-') |==> !Character.isDigit(e.getKeyChar()) == !(!positiveOnly && e.getKeyChar() == '-')
+14:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!Character.isDigit(e.getKeyChar()) && !(!positiveOnly && e.getKeyChar() == '-') |==> false
+15:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!Character.isDigit(e.getKeyChar()) && !(!positiveOnly && e.getKeyChar() == '-') |==> !Character.isDigit(e.getKeyChar())
+16:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):52:!Character.isDigit(e.getKeyChar()) && !(!positiveOnly && e.getKeyChar() == '-') |==> !(!positiveOnly && e.getKeyChar() == '-')
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):54:e.consume() |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.NumericTextField@processKeyEvent(java.awt.event.KeyEvent):57:super.processKeyEvent(e) |==> <NO-OP>

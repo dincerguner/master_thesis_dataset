@@ -1,0 +1,7 @@
+1:EVR:<IDENTIFIER(char)>:<DEFAULT>:org.gjt.sp.jedit.indent.DeepIndentRule@<init>(char,char):49:openChar |==> 0
+2:EVR:<IDENTIFIER(char)>:<DEFAULT>:org.gjt.sp.jedit.indent.DeepIndentRule@<init>(char,char):50:closeChar |==> 0
+3:LVR:NEG:0:org.gjt.sp.jedit.indent.DeepIndentRule@apply(JEditBuffer,int,int,int,java.util.List<IndentAction>):58:-1 |==> 0
+4:LVR:NEG:POS:org.gjt.sp.jedit.indent.DeepIndentRule@apply(JEditBuffer,int,int,int,java.util.List<IndentAction>):58:-1 |==> 1
+5:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.indent.DeepIndentRule@apply(JEditBuffer,int,int,int,java.util.List<IndentAction>):58:prevLineIndex == -1 |==> prevLineIndex <= -1
+6:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.indent.DeepIndentRule@apply(JEditBuffer,int,int,int,java.util.List<IndentAction>):58:prevLineIndex == -1 |==> prevLineIndex >= -1
+7:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.indent.DeepIndentRule@apply(JEditBuffer,int,int,int,java.util.List<IndentAction>):58:prevLineIndex == -1 |==> false

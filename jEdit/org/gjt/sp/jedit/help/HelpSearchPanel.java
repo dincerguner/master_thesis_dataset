@@ -38,7 +38,7 @@ public class HelpSearchPanel extends JPanel
 	//{{{ HelpSearchPanel constructor
 	public HelpSearchPanel(HelpViewerInterface helpViewer)
 	{
-		super(new BorderLayout(6,6));
+		super(new BorderLayout(0,6));
 
 		this.helpViewer = helpViewer;
 

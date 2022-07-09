@@ -1,0 +1,85 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):41:true |==> false
+2:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:false |==> true
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:setResizable(false) |==> <NO-OP>
+4:EVR:<NEW_CLASS(javax.swing.JButton)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):43:new JButton(jEdit.getProperty("common.close")) |==> null
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):44:closeBtn.addActionListener(this) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):45:getRootPane().setDefaultButton(closeBtn) |==> <NO-OP>
+7:EVR:<NEW_CLASS(javax.swing.JPanel)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):47:new JPanel(new BorderLayout()) |==> null
+8:EVR:<NEW_CLASS(org.gjt.sp.jedit.gui.AboutDialog.AboutPanel)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):48:new AboutPanel() |==> null
+9:EVR:<NEW_CLASS(javax.swing.JPanel)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:new JPanel(new FlowLayout()) |==> null
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):50:flowP.add(closeBtn) |==> <NO-OP>
+11:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):51:40 |==> 0
+12:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):51:40 |==> -40
+13:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):51:40 |==> 0
+14:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):51:40 |==> -40
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):51:flowP.add(Box.createRigidArea(new Dimension(40, 40))) |==> <NO-OP>
+16:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):52:10 |==> 0
+17:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):52:10 |==> -10
+18:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):52:0 |==> 1
+19:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):52:0 |==> -1
+20:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):53:p.add(BorderLayout.WEST, Box.createRigidArea(dim)) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):54:p.add(BorderLayout.EAST, Box.createRigidArea(dim)) |==> <NO-OP>
+22:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):55:10 |==> 0
+23:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):55:10 |==> -10
+24:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):55:10 |==> 0
+25:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):55:10 |==> -10
+26:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):55:p.add(BorderLayout.NORTH, Box.createRigidArea(new Dimension(10, 10))) |==> <NO-OP>
+27:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):56:p.add(BorderLayout.SOUTH, flowP) |==> <NO-OP>
+28:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):57:p.add(BorderLayout.CENTER, aboutPanel) |==> <NO-OP>
+29:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):59:closeBtn.setToolTipText(jEdit.getProperty("about.navigate")) |==> <NO-OP>
+30:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog$1@keyPressed(java.awt.event.KeyEvent):64:aboutPanel.handleKeyEvent(e) |==> <NO-OP>
+31:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):60:closeBtn.addKeyListener(new KeyAdapter(){...) |==> <NO-OP>
+32:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):68:setContentPane(p) |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):69:pack() |==> <NO-OP>
+34:EVR:<METHOD_INVOCATION(java.awt.Dimension)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):70:Toolkit.getDefaultToolkit().getScreenSize() |==> null
+35:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.width - getWidth() |==> d.width % getWidth()
+36:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.width - getWidth() |==> d.width * getWidth()
+37:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.width - getWidth() |==> d.width + getWidth()
+38:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.width - getWidth() |==> d.width / getWidth()
+39:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:2 |==> 0
+40:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:2 |==> -2
+41:AOR:/(int,int):%(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.width - getWidth()) / 2 |==> (d.width - getWidth()) % 2
+42:AOR:/(int,int):*(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.width - getWidth()) / 2 |==> (d.width - getWidth()) * 2
+43:AOR:/(int,int):+(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.width - getWidth()) / 2 |==> (d.width - getWidth()) + 2
+44:AOR:/(int,int):-(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.width - getWidth()) / 2 |==> (d.width - getWidth()) - 2
+45:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.height - getHeight() |==> d.height % getHeight()
+46:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.height - getHeight() |==> d.height * getHeight()
+47:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.height - getHeight() |==> d.height + getHeight()
+48:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:d.height - getHeight() |==> d.height / getHeight()
+49:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:2 |==> 0
+50:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:2 |==> -2
+51:AOR:/(int,int):%(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.height - getHeight()) / 2 |==> (d.height - getHeight()) % 2
+52:AOR:/(int,int):*(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.height - getHeight()) / 2 |==> (d.height - getHeight()) * 2
+53:AOR:/(int,int):+(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.height - getHeight()) / 2 |==> (d.height - getHeight()) + 2
+54:AOR:/(int,int):-(int,int):org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:(d.height - getHeight()) / 2 |==> (d.height - getHeight()) - 2
+55:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):71:setLocation((d.width - getWidth()) / 2, (d.height - getHeight()) / 2) |==> <NO-OP>
+56:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog$2@windowClosing(java.awt.event.WindowEvent):77:closeDialog() |==> <NO-OP>
+57:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):72:addWindowListener(new WindowAdapter(){...) |==> <NO-OP>
+58:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):80:true |==> false
+59:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):80:setVisible(true) |==> <NO-OP>
+60:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@actionPerformed(java.awt.event.ActionEvent):86:closeDialog() |==> <NO-OP>
+61:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@closeDialog():92:AboutPanel.stopThread() |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@closeDialog():93:dispose() |==> <NO-OP>
+63:EVR:<METHOD_INVOCATION(java.awt.Font)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:102:UIManager.getFont("Label.font") |==> null
+64:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:103:9.8F |==> 0.0F
+65:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:103:9.8F |==> -9.8F
+66:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:110:0 |==> 1
+67:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:110:0 |==> -1
+68:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:110:0 |==> 1
+69:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:110:0 |==> -1
+70:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:111:0 |==> 1
+71:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:111:0 |==> -1
+72:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:111:0 |==> 1
+73:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:111:0 |==> -1
+74:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> 1
+75:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> -1
+76:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> 1
+77:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> -1
+78:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> 1
+79:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> -1
+80:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> 1
+81:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:112:0 |==> -1
+82:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel:119:false |==> true
+83:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.AboutDialog$AboutPanel@<init>():124:jEdit.getEditServer() != null |==> true
+84:COR:jEdit.isBackgroundModeEnabled():TRUE:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel@<init>():126:jEdit.isBackgroundModeEnabled() |==> false
+85:COR:jEdit.isBackgroundModeEnabled():FALSE:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel@<init>():126:jEdit.isBackgroundModeEnabled() |==> true

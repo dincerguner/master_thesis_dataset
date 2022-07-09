@@ -1,0 +1,4 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.gjt.sp.jedit.bufferio.BufferInsertRequest@run():60:{vfs.getFileName(path)} |==> null
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bufferio.BufferInsertRequest@run():61:setStatus(jEdit.getProperty("vfs.status.load", args)) |==> <NO-OP>
+3:LVR:TRUE:FALSE:org.gjt.sp.jedit.bufferio.BufferInsertRequest@run():62:true |==> false
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bufferio.BufferInsertRequest@run():62:setAbortable(true) |==> <NO-OP>

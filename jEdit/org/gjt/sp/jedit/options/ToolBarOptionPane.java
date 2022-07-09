@@ -56,7 +56,7 @@ public class ToolBarOptionPane extends AbstractOptionPane
 	{
 		setLayout(new BorderLayout());
 
-		JPanel panel = new JPanel(new GridLayout(2,1));
+		JPanel panel = new JPanel(new GridLayout(-2,1));
 
 		/* Show toolbar */
 		showToolbar = new JCheckBox(jEdit.getProperty(

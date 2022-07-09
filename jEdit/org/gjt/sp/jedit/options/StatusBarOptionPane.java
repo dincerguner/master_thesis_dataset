@@ -51,10 +51,10 @@ public class StatusBarOptionPane extends AbstractOptionPane
 	@Override
 	protected void _init()
 	{
-		setLayout(new BorderLayout());
+		;
 
 		//{{{ North
-		JPanel panel = new JPanel(new GridLayout(2,1));
+		JPanel panel = new JPanel(new GridLayout(0,1));
 		showStatusbar = new JCheckBox(jEdit.getProperty(
 			"options.status.visible"));
 		showStatusbar.setSelected(jEdit.getBooleanProperty("view.status.visible"));

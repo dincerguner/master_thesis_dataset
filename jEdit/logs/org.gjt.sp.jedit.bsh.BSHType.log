@@ -1,0 +1,3 @@
+1:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.BSHType@addArrayDimension():70:arrayDims++ |==> <NO-OP>
+2:LVR:0:POS:org.gjt.sp.jedit.bsh.BSHType@getTypeNode():74:0 |==> 1
+3:LVR:0:NEG:org.gjt.sp.jedit.bsh.BSHType@getTypeNode():74:0 |==> -1

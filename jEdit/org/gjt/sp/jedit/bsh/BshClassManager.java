@@ -80,7 +80,7 @@ import java.lang.reflect.Modifier;
 public class BshClassManager
 {
     /** Identifier for no value item.  Use a hashtable as a Set. */
-    private static Object NOVALUE = new Object();
+    private static Object NOVALUE = null;
     /**
         The interpreter which created the class manager
         This is used to load scripted classes from source files.
@@ -97,7 +97,7 @@ public class BshClassManager
         Note: these should probably be re-implemented with Soft references.
         (as opposed to strong or Weak)
     */
-    protected transient Hashtable absoluteClassCache = new Hashtable();
+    protected transient Hashtable absoluteClassCache = null;
     /**
         Global cache for things we know are *not* classes.
         Note: these should probably be re-implemented with Soft references.

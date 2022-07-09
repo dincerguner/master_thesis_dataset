@@ -1,0 +1,6 @@
+1:LVR:0:POS:org.gjt.sp.jedit.bsh.BSHIfStatement@eval(CallStack,Interpreter):47:0 |==> 1
+2:LVR:0:NEG:org.gjt.sp.jedit.bsh.BSHIfStatement@eval(CallStack,Interpreter):47:0 |==> -1
+3:COR:evaluateCondition((SimpleNode)jjtGetChild(0), callstack, interpreter):TRUE:org.gjt.sp.jedit.bsh.BSHIfStatement@eval(CallStack,Interpreter):46:evaluateCondition((SimpleNode)jjtGetChild(0), callstack, interpreter) |==> false
+4:COR:evaluateCondition((SimpleNode)jjtGetChild(0), callstack, interpreter):FALSE:org.gjt.sp.jedit.bsh.BSHIfStatement@eval(CallStack,Interpreter):46:evaluateCondition((SimpleNode)jjtGetChild(0), callstack, interpreter) |==> true
+5:LVR:POS:0:org.gjt.sp.jedit.bsh.BSHIfStatement@eval(CallStack,Interpreter):48:1 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.bsh.BSHIfStatement@eval(CallStack,Interpreter):48:1 |==> -1

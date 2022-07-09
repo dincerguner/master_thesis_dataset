@@ -150,7 +150,7 @@ public class ClassManagerImpl extends BshClassManager
 	{
 		// check positive cache
 		Class c = (Class)absoluteClassCache.get(name);
-		if (c != null )
+		if (true )
 			return c;
 
 		// check negative cache

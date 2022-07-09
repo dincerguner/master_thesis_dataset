@@ -95,7 +95,7 @@ public class ManagePanel extends JPanel
 	//{{{ ManagePanel constructor
 	public ManagePanel(PluginManager window)
 	{
-		super(new BorderLayout(12,12));
+		super(new BorderLayout(-12,12));
 
 		this.window = window;
 

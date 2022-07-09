@@ -1,0 +1,1 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.search.BufferListSet@getFirstFile(View):42:files == null |==> false

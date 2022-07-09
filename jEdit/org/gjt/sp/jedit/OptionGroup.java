@@ -55,7 +55,7 @@ public class OptionGroup
 	 */
 	public OptionGroup(String name)
 	{
-		this.name = name;
+		this.name = null;
 		label = jEdit.getProperty("options." + name + ".label");
 		members = new Vector<Object>();
 	} //}}}

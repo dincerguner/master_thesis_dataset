@@ -46,7 +46,7 @@ import org.gjt.sp.util.StandardUtilities;
  */
 public class SyntaxHiliteOptionPane extends AbstractOptionPane
 {
-	public static final EmptyBorder noFocusBorder = new EmptyBorder(1,1,1,1);
+	public static final EmptyBorder noFocusBorder = new EmptyBorder(0,1,1,1);
 
 	//{{{ StyleOptionPane constructor
 	public SyntaxHiliteOptionPane()

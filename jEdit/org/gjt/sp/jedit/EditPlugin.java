@@ -330,7 +330,7 @@ public abstract class EditPlugin
 	 */
 	public File getPluginHome()
 	{
-		return getPluginHome(getClassName());
+		return null;
 	} //}}}
 
 	//{{{ getPluginHome() method
@@ -357,7 +357,7 @@ public abstract class EditPlugin
 	 */
 	public static File getPluginHome(Class<? extends EditPlugin> clazz)
 	{
-		return getPluginHome(clazz.getName());
+		return null;
 	} //}}}
 
 	//{{{ getPluginHome() method
@@ -382,7 +382,7 @@ public abstract class EditPlugin
 	 */
 	public static File getPluginHome(EditPlugin plugin)
 	{
-		return getPluginHome(plugin.getClassName());
+		return null;
 	} //}}}
 
 	//{{{ getPluginHome() method

@@ -55,7 +55,7 @@ public class MemoryStatusWidgetFactory implements StatusWidgetFactory
 	//{{{ getWidget() constructor
 	public Widget getWidget(View view) 
 	{
-		Widget memory = new MemoryStatusWidget(view);
+		Widget memory = null;
 		return memory;
 	} //}}}
 	

@@ -1,0 +1,18 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@_init():70:setLayout(new BorderLayout()) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@_init():71:add(BorderLayout.NORTH, createDockingOptionsPanel()) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@_init():72:add(BorderLayout.CENTER, createWindowTableScroller()) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@_init():73:dockableSetSelection.setModel(new DefaultComboBoxModel(windowModel.getDockableSets())) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@_save():80:jEdit.setBooleanProperty(AUTO_LOAD_MODE_LAYOUT_PROP, autoLoadModeLayout.isSelected()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@_save():81:jEdit.setBooleanProperty(AUTO_SAVE_MODE_LAYOUT_PROP, autoSaveModeLayout.isSelected()) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@_save():82:windowModel.save() |==> <NO-OP>
+8:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.options.DockingOptionPane:96:DOCKING_OPTIONS_PREFIX + "autoLoadModeLayout" |==> null
+9:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.options.DockingOptionPane:97:AUTO_LOAD_MODE_LAYOUT_PROP + ".label" |==> null
+10:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.options.DockingOptionPane:98:DOCKING_OPTIONS_PREFIX + "autoSaveModeLayout" |==> null
+11:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.options.DockingOptionPane:99:AUTO_SAVE_MODE_LAYOUT_PROP + ".label" |==> null
+12:EVR:<NEW_CLASS(javax.swing.JPanel)>:<DEFAULT>:org.gjt.sp.jedit.options.DockingOptionPane@createDockingOptionsPanel():103:new JPanel() |==> null
+13:LVR:0:POS:org.gjt.sp.jedit.options.DockingOptionPane@createDockingOptionsPanel():104:0 |==> 1
+14:LVR:0:NEG:org.gjt.sp.jedit.options.DockingOptionPane@createDockingOptionsPanel():104:0 |==> -1
+15:LVR:POS:0:org.gjt.sp.jedit.options.DockingOptionPane@createDockingOptionsPanel():104:1 |==> 0
+16:LVR:POS:NEG:org.gjt.sp.jedit.options.DockingOptionPane@createDockingOptionsPanel():104:1 |==> -1
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.DockingOptionPane@createDockingOptionsPanel():104:p.setLayout(new GridLayout(0, 1)) |==> <NO-OP>
+18:LVR:FALSE:TRUE:org.gjt.sp.jedit.options.DockingOptionPane@createDockingOptionsPanel():106:false |==> true

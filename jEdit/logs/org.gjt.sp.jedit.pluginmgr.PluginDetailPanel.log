@@ -1,0 +1,26 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():52:setLayout(new BorderLayout()) |==> <NO-OP>
+2:EVR:<NEW_CLASS(javax.swing.JEditorPane)>:<DEFAULT>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():53:new JEditorPane() |==> null
+3:LVR:FALSE:TRUE:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():54:false |==> true
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():54:pluginDetail.setEditable(false) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():55:pluginDetail.setContentType("text/html") |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():56:pluginDetail.setBackground(jEdit.getColorProperty("view.bgColor")) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():57:pluginDetail.setForeground(jEdit.getColorProperty("view.fgColor")) |==> <NO-OP>
+8:LVR:TRUE:FALSE:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():58:true |==> false
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():58:pluginDetail.putClientProperty(JEditorPane.HONOR_DISPLAY_PROPERTIES, true) |==> <NO-OP>
+10:EVR:<NEW_CLASS(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():59:new JLabel() |==> null
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():60:add(title, BorderLayout.NORTH) |==> <NO-OP>
+12:EVR:<NEW_CLASS(javax.swing.JScrollPane)>:<DEFAULT>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():61:new JScrollPane(pluginDetail) |==> null
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():62:scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER) |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@<init>():63:add(scroll) |==> <NO-OP>
+15:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):69:entry != this.entry |==> true
+16:COR:entry.status.equals(Entry.LOADED):TRUE:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):71:entry.status.equals(Entry.LOADED) |==> false
+17:COR:entry.status.equals(Entry.LOADED):FALSE:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):71:entry.status.equals(Entry.LOADED) |==> true
+18:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):73:title.setText("<html><b>" + entry.name + "</b></html>") |==> <NO-OP>
+19:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):74:new StringBuilder() |==> null
+20:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):76:builder.append("<b>Version</b>: ").append(entry.version).append("<br/>") |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):77:builder.append("<b>Author</b>: ").append(entry.author).append("<br/>") |==> <NO-OP>
+22:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):78:entry.description != null |==> true
+23:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):80:builder.append("<br/>").append(entry.description) |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):82:pluginDetail.setText(builder.toString()) |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):86:title.setText("<html><b>" + entry.jar + "</b></html>") |==> <NO-OP>
+26:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.pluginmgr.PluginDetailPanel@setPlugin(Entry):87:pluginDetail.setText(null) |==> <NO-OP>

@@ -1,0 +1,8 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.JEditAbstractEditAction@<init>(java.lang.String):50:this.name = name |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.JEditAbstractEditAction@<init>(java.lang.String,java.lang.Object[]):55:this.name = name |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.JEditAbstractEditAction@<init>(java.lang.String,java.lang.Object[]):56:this.args = newArgs |==> <NO-OP>
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.JEditAbstractEditAction@getName():66:name |==> null
+5:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.JEditAbstractEditAction@setName(java.lang.String):77:name = newName |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.JEditAbstractEditAction@invoke(E,java.lang.Object[]):95:args = newArgs |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.JEditAbstractEditAction@invoke(E,java.lang.Object[]):96:invoke(arg) |==> <NO-OP>
+8:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.JEditAbstractEditAction@toString():103:name |==> null

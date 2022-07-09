@@ -1,0 +1,39 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@<init>(java.awt.Container,java.awt.Container):38:this.top = top |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@<init>(java.awt.Container,java.awt.Container):39:this.bottom = bottom |==> <NO-OP>
+3:EVR:<NEW_CLASS(org.gjt.sp.jedit.gui.ToolBarManager.Entry)>:<DEFAULT>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):45:new Entry(layer, toolbar) |==> null
+4:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):47:group == View.TOP_GROUP |==> group <= View.TOP_GROUP
+5:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):47:group == View.TOP_GROUP |==> group >= View.TOP_GROUP
+6:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):47:group == View.TOP_GROUP |==> false
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):48:addToolBar(top, topToolBars, entry) |==> <NO-OP>
+8:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):49:group == View.BOTTOM_GROUP |==> group <= View.BOTTOM_GROUP
+9:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):49:group == View.BOTTOM_GROUP |==> group >= View.BOTTOM_GROUP
+10:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):49:group == View.BOTTOM_GROUP |==> false
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(int,int,java.awt.Component):50:addToolBar(bottom, bottomToolBars, entry) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Component):58:removeToolBar(top, topToolBars, toolbar) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Component):59:removeToolBar(bottom, bottomToolBars, toolbar) |==> <NO-OP>
+14:EVR:<NEW_CLASS(java.util.ArrayList<org.gjt.sp.jedit.gui.ToolBarManager.Entry>)>:<DEFAULT>:org.gjt.sp.jedit.gui.ToolBarManager:68:new ArrayList<Entry>() |==> null
+15:EVR:<NEW_CLASS(java.util.ArrayList<org.gjt.sp.jedit.gui.ToolBarManager.Entry>)>:<DEFAULT>:org.gjt.sp.jedit.gui.ToolBarManager:69:new ArrayList<Entry>() |==> null
+16:LVR:0:POS:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):77:0 |==> 1
+17:LVR:0:NEG:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):77:0 |==> -1
+18:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):77:i < toolbars.size() |==> i != toolbars.size()
+19:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):77:i < toolbars.size() |==> i <= toolbars.size()
+20:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):77:i < toolbars.size() |==> false
+21:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):79:entry.layer > toolbars.get(i).layer |==> entry.layer != toolbars.get(i).layer
+22:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):79:entry.layer > toolbars.get(i).layer |==> entry.layer >= toolbars.get(i).layer
+23:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):79:entry.layer > toolbars.get(i).layer |==> false
+24:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):81:toolbars.add(i, entry) |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):82:group.add(entry.toolbar, i) |==> <NO-OP>
+26:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):83:return; |==> <NO-OP>
+27:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):88:toolbars.add(entry) |==> <NO-OP>
+28:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@addToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,org.gjt.sp.jedit.gui.ToolBarManager.Entry):89:group.add(entry.toolbar) |==> <NO-OP>
+29:LVR:0:POS:org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):96:0 |==> 1
+30:LVR:0:NEG:org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):96:0 |==> -1
+31:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):96:i < toolbars.size() |==> i != toolbars.size()
+32:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):96:i < toolbars.size() |==> i <= toolbars.size()
+33:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):96:i < toolbars.size() |==> false
+34:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):98:toolbar == toolbars.get(i).toolbar |==> false
+35:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):100:group.remove(toolbar) |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):101:toolbars.remove(i) |==> <NO-OP>
+37:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager@removeToolBar(java.awt.Container,java.util.List<org.gjt.sp.jedit.gui.ToolBarManager.Entry>,java.awt.Component):103:return; |==> <NO-OP>
+38:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager$Entry@<init>(int,java.awt.Component):118:this.layer = layer |==> <NO-OP>
+39:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ToolBarManager$Entry@<init>(int,java.awt.Component):119:this.toolbar = toolbar |==> <NO-OP>

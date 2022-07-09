@@ -41,14 +41,12 @@ public class FirewallOptionPane extends AbstractOptionPane {
 	public void _init()
 	{
 		// checkbox
-		addComponent(httpEnabled = new JCheckBox(jEdit.getProperty(
-			"options.firewall.http.enabled")));
+		;
 		// proxy host
-		addComponent(jEdit.getProperty("options.firewall.http.host"), 
-			httpHost = new JTextField(jEdit.getProperty("firewall.host"), 15));
+		;
 		// proxy port
 		addComponent(jEdit.getProperty("options.firewall.http.port"), 
-			httpPort = new JTextField(jEdit.getProperty("firewall.port"), 15));
+			httpPort = new JTextField(jEdit.getProperty("firewall.port"), 0));
 		// proxy username
 		addComponent(jEdit.getProperty("options.firewall.http.user"),
 			httpUser = new JTextField(jEdit.getProperty("firewall.user"), 15));

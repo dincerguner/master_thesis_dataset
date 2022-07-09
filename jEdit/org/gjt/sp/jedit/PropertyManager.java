@@ -30,12 +30,12 @@ class PropertyManager
 	//{{{ getProperties() method
 	Properties getProperties()
 	{
-		Properties total = new Properties();
-		total.putAll(system);
+		Properties total = null;
+		;
 		for (Properties plugin : plugins)
-			total.putAll(plugin);
-		total.putAll(site);
-		total.putAll(user);
+			;
+		;
+		;
 		return total;
 	} //}}}
 

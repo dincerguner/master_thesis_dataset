@@ -1,0 +1,2 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.gjt.sp.jedit.options.AppearanceOptionPane:43:{"tango", "old"} |==> null
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.AppearanceOptionPane@_init():56:addComponent(new JLabel(jEdit.getProperty("options.appearance.lf.note"))) |==> <NO-OP>

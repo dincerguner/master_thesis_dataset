@@ -1,0 +1,393 @@
+1:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:106:new Type(VOID) |==> null
+2:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:112:new Type(BOOLEAN) |==> null
+3:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:118:new Type(CHAR) |==> null
+4:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:124:new Type(BYTE) |==> null
+5:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:130:new Type(SHORT) |==> null
+6:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:136:new Type(INT) |==> null
+7:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:142:new Type(FLOAT) |==> null
+8:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:148:new Type(LONG) |==> null
+9:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type:154:new Type(DOUBLE) |==> null
+10:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int):197:sort |==> 0
+11:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int):198:1 |==> 0
+12:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int):198:1 |==> -1
+13:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int):198:this.len = 1 |==> <NO-OP>
+14:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int,char[],int,int):216:sort |==> 0
+15:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int,char[],int,int):217:this.buf = buf |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int,char[],int,int):218:this.off = off |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@<init>(int,char[],int,int):219:this.len = len |==> <NO-OP>
+18:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.String):230:0 |==> 1
+19:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.String):230:0 |==> -1
+20:COR:c.isPrimitive():TRUE:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):241:c.isPrimitive() |==> false
+21:COR:c.isPrimitive():FALSE:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):241:c.isPrimitive() |==> true
+22:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):242:c == Integer.TYPE |==> false
+23:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):243:INT_TYPE |==> null
+24:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):244:c == Void.TYPE |==> false
+25:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):245:VOID_TYPE |==> null
+26:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):246:c == Boolean.TYPE |==> false
+27:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):247:BOOLEAN_TYPE |==> null
+28:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):248:c == Byte.TYPE |==> false
+29:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):249:BYTE_TYPE |==> null
+30:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):250:c == Character.TYPE |==> false
+31:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):251:CHAR_TYPE |==> null
+32:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):252:c == Short.TYPE |==> false
+33:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):253:SHORT_TYPE |==> null
+34:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):254:c == Double.TYPE |==> false
+35:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):255:DOUBLE_TYPE |==> null
+36:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):256:c == Float.TYPE |==> false
+37:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):257:FLOAT_TYPE |==> null
+38:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):259:LONG_TYPE |==> null
+39:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(java.lang.Class):262:getType(getDescriptor(c)) |==> null
+40:EVR:<METHOD_INVOCATION(char[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):276:methodDescriptor.toCharArray() |==> null
+41:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):277:1 |==> 0
+42:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):277:1 |==> -1
+43:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):278:0 |==> 1
+44:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):278:0 |==> -1
+45:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):280:buf[off++] |==> 0
+46:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):281:car == ')' |==> car <= ')'
+47:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):281:car == ')' |==> car >= ')'
+48:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):281:car == ')' |==> false
+49:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):282:break; |==> <NO-OP>
+50:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):283:car == 'L' |==> car <= 'L'
+51:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):283:car == 'L' |==> car >= 'L'
+52:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):283:car == 'L' |==> false
+53:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):284:buf[off++] != ';' |==> buf[off++] < ';'
+54:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):284:buf[off++] != ';' |==> buf[off++] > ';'
+55:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):284:buf[off++] != ';' |==> true
+56:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):286:++size |==> <NO-OP>
+57:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):287:car != '[' |==> car < '['
+58:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):287:car != '[' |==> car > '['
+59:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):287:car != '[' |==> true
+60:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):288:++size |==> <NO-OP>
+61:EVR:<NEW_ARRAY(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):291:new Type[size] |==> null
+62:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):292:1 |==> 0
+63:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):292:1 |==> -1
+64:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):292:off = 1 |==> <NO-OP>
+65:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):293:0 |==> 1
+66:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):293:0 |==> -1
+67:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):293:size = 0 |==> <NO-OP>
+68:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):294:buf[off] != ')' |==> buf[off] < ')'
+69:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):294:buf[off] != ')' |==> buf[off] > ')'
+70:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):294:buf[off] != ')' |==> true
+71:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):295:args[size] = getType(buf, off) |==> <NO-OP>
+72:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):296:off += args[size].len |==> <NO-OP>
+73:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):297:1 |==> 0
+74:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):297:1 |==> -1
+75:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):297:size += 1 |==> <NO-OP>
+76:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.String):299:args |==> null
+77:EVR:<METHOD_INVOCATION(java.lang.Class<?>[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):312:method.getParameterTypes() |==> null
+78:EVR:<NEW_ARRAY(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):313:new Type[classes.length] |==> null
+79:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:1 |==> 0
+80:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:1 |==> -1
+81:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:classes.length - 1 |==> classes.length % 1
+82:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:classes.length - 1 |==> classes.length * 1
+83:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:classes.length - 1 |==> classes.length + 1
+84:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:classes.length - 1 |==> classes.length / 1
+85:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:0 |==> 1
+86:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:0 |==> -1
+87:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:i >= 0 |==> i == 0
+88:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:i >= 0 |==> i > 0
+89:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):314:i >= 0 |==> true
+90:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):315:types[i] = getType(classes[i]) |==> <NO-OP>
+91:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getArgumentTypes(java.lang.reflect.Method):317:types |==> null
+92:EVR:<METHOD_INVOCATION(char[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.String):330:methodDescriptor.toCharArray() |==> null
+93:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.String):331:1 |==> 0
+94:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.String):331:1 |==> -1
+95:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.String):331:methodDescriptor.indexOf(')') + 1 |==> methodDescriptor.indexOf(')') % 1
+96:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.String):331:methodDescriptor.indexOf(')') + 1 |==> methodDescriptor.indexOf(')') * 1
+97:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.String):331:methodDescriptor.indexOf(')') + 1 |==> methodDescriptor.indexOf(')') - 1
+98:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.String):331:methodDescriptor.indexOf(')') + 1 |==> methodDescriptor.indexOf(')') / 1
+99:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getReturnType(java.lang.reflect.Method):344:getType(method.getReturnType()) |==> null
+100:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):358:return VOID_TYPE; |==> <NO-OP>
+101:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):359:return BOOLEAN_TYPE; |==> <NO-OP>
+102:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):360:return CHAR_TYPE; |==> <NO-OP>
+103:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):361:return BYTE_TYPE; |==> <NO-OP>
+104:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):362:return SHORT_TYPE; |==> <NO-OP>
+105:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):363:return INT_TYPE; |==> <NO-OP>
+106:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):364:return FLOAT_TYPE; |==> <NO-OP>
+107:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):365:return LONG_TYPE; |==> <NO-OP>
+108:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):366:return DOUBLE_TYPE; |==> <NO-OP>
+109:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):368:1 |==> 0
+110:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):368:1 |==> -1
+111:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):369:off + len |==> off % len
+112:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):369:off + len |==> off * len
+113:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):369:off + len |==> off - len
+114:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):369:off + len |==> off / len
+115:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):369:buf[off + len] == '[' |==> buf[off + len] <= '['
+116:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):369:buf[off + len] == '[' |==> buf[off + len] >= '['
+117:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):369:buf[off + len] == '[' |==> false
+118:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):370:++len |==> <NO-OP>
+119:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):372:off + len |==> off % len
+120:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):372:off + len |==> off * len
+121:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):372:off + len |==> off - len
+122:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):372:off + len |==> off / len
+123:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):372:buf[off + len] == 'L' |==> buf[off + len] <= 'L'
+124:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):372:buf[off + len] == 'L' |==> buf[off + len] >= 'L'
+125:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):372:buf[off + len] == 'L' |==> false
+126:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):373:++len |==> <NO-OP>
+127:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):374:off + len |==> off % len
+128:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):374:off + len |==> off * len
+129:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):374:off + len |==> off - len
+130:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):374:off + len |==> off / len
+131:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):374:buf[off + len] != ';' |==> buf[off + len] < ';'
+132:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):374:buf[off + len] != ';' |==> buf[off + len] > ';'
+133:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):374:buf[off + len] != ';' |==> true
+134:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):375:++len |==> <NO-OP>
+135:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):378:1 |==> 0
+136:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):378:1 |==> -1
+137:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):378:len + 1 |==> len % 1
+138:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):378:len + 1 |==> len * 1
+139:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):378:len + 1 |==> len - 1
+140:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):378:len + 1 |==> len / 1
+141:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):378:return new Type(ARRAY, buf, off, Config.__M_NO == 140 ? len / 1 : Config.__M_NO == 139 ? len - 1 : Config.__M_NO == 138 ? len * 1 : Config.__M_NO == 137 ? len % 1 : Config.__M_NO == 0 && Config.COVERED(137, 140) ? len + 1 : len + (Config.__M_NO == 0 && Config.COVERED(135, 136) ? 1 : Config.__M_NO == 136 ? -1 : Config.__M_NO == 135 ? 0 : 1)); |==> <NO-OP>
+142:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):381:1 |==> 0
+143:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):381:1 |==> -1
+144:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):382:off + len |==> off % len
+145:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):382:off + len |==> off * len
+146:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):382:off + len |==> off - len
+147:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):382:off + len |==> off / len
+148:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):382:buf[off + len] != ';' |==> buf[off + len] < ';'
+149:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):382:buf[off + len] != ';' |==> buf[off + len] > ';'
+150:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):382:buf[off + len] != ';' |==> true
+151:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):383:++len |==> <NO-OP>
+152:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):385:1 |==> 0
+153:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):385:1 |==> -1
+154:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):385:len + 1 |==> len % 1
+155:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):385:len + 1 |==> len * 1
+156:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):385:len + 1 |==> len - 1
+157:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getType(char[],int):385:len + 1 |==> len / 1
+158:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSort():403:sort |==> 0
+159:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():414:1 |==> 0
+160:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():414:1 |==> -1
+161:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():415:off + i |==> off % i
+162:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():415:off + i |==> off * i
+163:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():415:off + i |==> off - i
+164:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():415:off + i |==> off / i
+165:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():415:buf[off + i] == '[' |==> buf[off + i] <= '['
+166:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():415:buf[off + i] == '[' |==> buf[off + i] >= '['
+167:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():415:buf[off + i] == '[' |==> false
+168:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():416:++i |==> <NO-OP>
+169:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDimensions():418:i |==> 0
+170:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getElementType():429:off + getDimensions() |==> off % getDimensions()
+171:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getElementType():429:off + getDimensions() |==> off * getDimensions()
+172:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getElementType():429:off + getDimensions() |==> off - getDimensions()
+173:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getElementType():429:off + getDimensions() |==> off / getDimensions()
+174:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:1 |==> 0
+175:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:1 |==> -1
+176:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:off + 1 |==> off % 1
+177:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:off + 1 |==> off * 1
+178:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:off + 1 |==> off - 1
+179:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:off + 1 |==> off / 1
+180:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:2 |==> 0
+181:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:2 |==> -2
+182:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:len - 2 |==> len % 2
+183:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:len - 2 |==> len * 2
+184:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:len - 2 |==> len + 2
+185:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getClassName():441:len - 2 |==> len / 2
+186:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:1 |==> 0
+187:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:1 |==> -1
+188:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:off + 1 |==> off % 1
+189:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:off + 1 |==> off * 1
+190:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:off + 1 |==> off - 1
+191:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:off + 1 |==> off / 1
+192:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:2 |==> 0
+193:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:2 |==> -2
+194:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:len - 2 |==> len % 2
+195:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:len - 2 |==> len * 2
+196:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:len - 2 |==> len + 2
+197:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName():453:len - 2 |==> len / 2
+198:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor():467:new StringBuilder() |==> null
+199:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor():468:getDescriptor(buf) |==> <NO-OP>
+200:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor():469:buf.toString() |==> null
+201:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):486:new StringBuilder() |==> null
+202:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):487:buf.append('(') |==> <NO-OP>
+203:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):488:0 |==> 1
+204:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):488:0 |==> -1
+205:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):488:i < argumentTypes.length |==> i != argumentTypes.length
+206:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):488:i < argumentTypes.length |==> i <= argumentTypes.length
+207:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):488:i < argumentTypes.length |==> false
+208:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):489:argumentTypes[i].getDescriptor(buf) |==> <NO-OP>
+209:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):491:buf.append(')') |==> <NO-OP>
+210:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):492:returnType.getDescriptor(buf) |==> <NO-OP>
+211:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(org.gjt.sp.jedit.bsh.org.objectweb.asm.Type,org.gjt.sp.jedit.bsh.org.objectweb.asm.Type[]):493:buf.toString() |==> null
+212:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):505:buf.append('V') |==> <NO-OP>
+213:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):505:return; |==> <NO-OP>
+214:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):506:buf.append('Z') |==> <NO-OP>
+215:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):506:return; |==> <NO-OP>
+216:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):507:buf.append('C') |==> <NO-OP>
+217:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):507:return; |==> <NO-OP>
+218:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):508:buf.append('B') |==> <NO-OP>
+219:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):508:return; |==> <NO-OP>
+220:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):509:buf.append('S') |==> <NO-OP>
+221:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):509:return; |==> <NO-OP>
+222:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):510:buf.append('I') |==> <NO-OP>
+223:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):510:return; |==> <NO-OP>
+224:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):511:buf.append('F') |==> <NO-OP>
+225:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):511:return; |==> <NO-OP>
+226:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):512:buf.append('J') |==> <NO-OP>
+227:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):512:return; |==> <NO-OP>
+228:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):513:buf.append('D') |==> <NO-OP>
+229:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):513:return; |==> <NO-OP>
+230:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder):516:buf.append(this.buf, off, len) |==> <NO-OP>
+231:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getInternalName(java.lang.Class):534:c.getName().replace('.', '/') |==> null
+232:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.Class):545:new StringBuilder() |==> null
+233:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.Class):546:getDescriptor(buf, c) |==> <NO-OP>
+234:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.Class):547:buf.toString() |==> null
+235:EVR:<METHOD_INVOCATION(java.lang.Class<?>[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):558:m.getParameterTypes() |==> null
+236:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):559:new StringBuilder() |==> null
+237:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):560:buf.append('(') |==> <NO-OP>
+238:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):561:0 |==> 1
+239:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):561:0 |==> -1
+240:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):561:i < parameters.length |==> i != parameters.length
+241:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):561:i < parameters.length |==> i <= parameters.length
+242:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):561:i < parameters.length |==> false
+243:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):562:getDescriptor(buf, parameters[i]) |==> <NO-OP>
+244:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):564:buf.append(')') |==> <NO-OP>
+245:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):565:getDescriptor(buf, m.getReturnType()) |==> <NO-OP>
+246:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getMethodDescriptor(java.lang.reflect.Method):566:buf.toString() |==> null
+247:EVR:<IDENTIFIER(java.lang.Class)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):577:c |==> null
+248:COR:d.isPrimitive():TRUE:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):579:d.isPrimitive() |==> false
+249:COR:d.isPrimitive():FALSE:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):579:d.isPrimitive() |==> true
+250:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):581:d == Integer.TYPE |==> false
+251:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):583:d == Void.TYPE |==> false
+252:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):585:d == Boolean.TYPE |==> false
+253:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):587:d == Byte.TYPE |==> false
+254:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):589:d == Character.TYPE |==> false
+255:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):591:d == Short.TYPE |==> false
+256:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):593:d == Double.TYPE |==> false
+257:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):595:d == Float.TYPE |==> false
+258:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):600:buf.append(car) |==> <NO-OP>
+259:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):601:return; |==> <NO-OP>
+260:COR:d.isArray():TRUE:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):602:d.isArray() |==> false
+261:COR:d.isArray():FALSE:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):602:d.isArray() |==> true
+262:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):603:buf.append('[') |==> <NO-OP>
+263:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):604:d = d.getComponentType() |==> <NO-OP>
+264:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):606:buf.append('L') |==> <NO-OP>
+265:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):607:d.getName() |==> null
+266:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):608:name.length() |==> 0
+267:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):609:0 |==> 1
+268:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):609:0 |==> -1
+269:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):609:i < len |==> i != len
+270:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):609:i < len |==> i <= len
+271:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):609:i < len |==> false
+272:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):610:name.charAt(i) |==> 0
+273:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):611:car == '.' |==> car <= '.'
+274:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):611:car == '.' |==> car >= '.'
+275:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):611:car == '.' |==> false
+276:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):611:buf.append(car == '.' ? '/' : car) |==> <NO-OP>
+277:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):613:buf.append(';') |==> <NO-OP>
+278:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getDescriptor(java.lang.StringBuilder,java.lang.Class):614:return; |==> <NO-OP>
+279:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == LONG |==> sort <= LONG
+280:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == LONG |==> sort >= LONG
+281:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == LONG |==> false
+282:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == DOUBLE |==> sort <= DOUBLE
+283:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == DOUBLE |==> sort >= DOUBLE
+284:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == DOUBLE |==> false
+285:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == LONG || sort == DOUBLE |==> sort == LONG != (sort == DOUBLE)
+286:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == LONG || sort == DOUBLE |==> sort == LONG
+287:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == LONG || sort == DOUBLE |==> sort == DOUBLE
+288:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:sort == LONG || sort == DOUBLE |==> true
+289:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:2 |==> 0
+290:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:2 |==> -2
+291:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:1 |==> 0
+292:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getSize():631:1 |==> -1
+293:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IALOAD |==> opcode <= Constants.IALOAD
+294:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IALOAD |==> opcode >= Constants.IALOAD
+295:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IALOAD |==> false
+296:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IASTORE |==> opcode <= Constants.IASTORE
+297:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IASTORE |==> opcode >= Constants.IASTORE
+298:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IASTORE |==> false
+299:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IALOAD || opcode == Constants.IASTORE |==> opcode == Constants.IALOAD != (opcode == Constants.IASTORE)
+300:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IALOAD || opcode == Constants.IASTORE |==> opcode == Constants.IALOAD
+301:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IALOAD || opcode == Constants.IASTORE |==> opcode == Constants.IASTORE
+302:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):646:opcode == Constants.IALOAD || opcode == Constants.IASTORE |==> true
+303:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):649:5 |==> 0
+304:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):649:5 |==> -5
+305:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):649:opcode + 5 |==> opcode % 5
+306:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):649:opcode + 5 |==> opcode * 5
+307:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):649:opcode + 5 |==> opcode - 5
+308:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):649:opcode + 5 |==> opcode / 5
+309:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):649:return Config.__M_NO == 308 ? opcode / 5 : Config.__M_NO == 307 ? opcode - 5 : Config.__M_NO == 306 ? opcode * 5 : Config.__M_NO == 305 ? opcode % 5 : Config.__M_NO == 0 && Config.COVERED(305, 308) ? opcode + 5 : opcode + (Config.__M_NO == 0 && Config.COVERED(303, 304) ? 5 : Config.__M_NO == 304 ? -5 : Config.__M_NO == 303 ? 0 : 5); |==> <NO-OP>
+310:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):652:6 |==> 0
+311:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):652:6 |==> -6
+312:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):652:opcode + 6 |==> opcode % 6
+313:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):652:opcode + 6 |==> opcode * 6
+314:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):652:opcode + 6 |==> opcode - 6
+315:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):652:opcode + 6 |==> opcode / 6
+316:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):652:return Config.__M_NO == 315 ? opcode / 6 : Config.__M_NO == 314 ? opcode - 6 : Config.__M_NO == 313 ? opcode * 6 : Config.__M_NO == 312 ? opcode % 6 : Config.__M_NO == 0 && Config.COVERED(312, 315) ? opcode + 6 : opcode + (Config.__M_NO == 0 && Config.COVERED(310, 311) ? 6 : Config.__M_NO == 311 ? -6 : Config.__M_NO == 310 ? 0 : 6); |==> <NO-OP>
+317:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):654:7 |==> 0
+318:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):654:7 |==> -7
+319:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):654:opcode + 7 |==> opcode % 7
+320:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):654:opcode + 7 |==> opcode * 7
+321:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):654:opcode + 7 |==> opcode - 7
+322:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):654:opcode + 7 |==> opcode / 7
+323:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):654:return Config.__M_NO == 322 ? opcode / 7 : Config.__M_NO == 321 ? opcode - 7 : Config.__M_NO == 320 ? opcode * 7 : Config.__M_NO == 319 ? opcode % 7 : Config.__M_NO == 0 && Config.COVERED(319, 322) ? opcode + 7 : opcode + (Config.__M_NO == 0 && Config.COVERED(317, 318) ? 7 : Config.__M_NO == 318 ? -7 : Config.__M_NO == 317 ? 0 : 7); |==> <NO-OP>
+324:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):656:8 |==> 0
+325:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):656:8 |==> -8
+326:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):656:opcode + 8 |==> opcode % 8
+327:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):656:opcode + 8 |==> opcode * 8
+328:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):656:opcode + 8 |==> opcode - 8
+329:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):656:opcode + 8 |==> opcode / 8
+330:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):656:return Config.__M_NO == 329 ? opcode / 8 : Config.__M_NO == 328 ? opcode - 8 : Config.__M_NO == 327 ? opcode * 8 : Config.__M_NO == 326 ? opcode % 8 : Config.__M_NO == 0 && Config.COVERED(326, 329) ? opcode + 8 : opcode + (Config.__M_NO == 0 && Config.COVERED(324, 325) ? 8 : Config.__M_NO == 325 ? -8 : Config.__M_NO == 324 ? 0 : 8); |==> <NO-OP>
+331:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):658:return opcode; |==> <NO-OP>
+332:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):660:2 |==> 0
+333:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):660:2 |==> -2
+334:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):660:opcode + 2 |==> opcode % 2
+335:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):660:opcode + 2 |==> opcode * 2
+336:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):660:opcode + 2 |==> opcode - 2
+337:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):660:opcode + 2 |==> opcode / 2
+338:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):660:return Config.__M_NO == 337 ? opcode / 2 : Config.__M_NO == 336 ? opcode - 2 : Config.__M_NO == 335 ? opcode * 2 : Config.__M_NO == 334 ? opcode % 2 : Config.__M_NO == 0 && Config.COVERED(334, 337) ? opcode + 2 : opcode + (Config.__M_NO == 0 && Config.COVERED(332, 333) ? 2 : Config.__M_NO == 333 ? -2 : Config.__M_NO == 332 ? 0 : 2); |==> <NO-OP>
+339:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):662:1 |==> 0
+340:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):662:1 |==> -1
+341:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):662:opcode + 1 |==> opcode % 1
+342:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):662:opcode + 1 |==> opcode * 1
+343:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):662:opcode + 1 |==> opcode - 1
+344:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):662:opcode + 1 |==> opcode / 1
+345:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):662:return Config.__M_NO == 344 ? opcode / 1 : Config.__M_NO == 343 ? opcode - 1 : Config.__M_NO == 342 ? opcode * 1 : Config.__M_NO == 341 ? opcode % 1 : Config.__M_NO == 0 && Config.COVERED(341, 344) ? opcode + 1 : opcode + (Config.__M_NO == 0 && Config.COVERED(339, 340) ? 1 : Config.__M_NO == 340 ? -1 : Config.__M_NO == 339 ? 0 : 1); |==> <NO-OP>
+346:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):664:3 |==> 0
+347:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):664:3 |==> -3
+348:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):664:opcode + 3 |==> opcode % 3
+349:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):664:opcode + 3 |==> opcode * 3
+350:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):664:opcode + 3 |==> opcode - 3
+351:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):664:opcode + 3 |==> opcode / 3
+352:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):664:return Config.__M_NO == 351 ? opcode / 3 : Config.__M_NO == 350 ? opcode - 3 : Config.__M_NO == 349 ? opcode * 3 : Config.__M_NO == 348 ? opcode % 3 : Config.__M_NO == 0 && Config.COVERED(348, 351) ? opcode + 3 : opcode + (Config.__M_NO == 0 && Config.COVERED(346, 347) ? 3 : Config.__M_NO == 347 ? -3 : Config.__M_NO == 346 ? 0 : 3); |==> <NO-OP>
+353:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):668:4 |==> 0
+354:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):668:4 |==> -4
+355:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):668:opcode + 4 |==> opcode % 4
+356:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):668:opcode + 4 |==> opcode * 4
+357:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):668:opcode + 4 |==> opcode - 4
+358:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):668:opcode + 4 |==> opcode / 4
+359:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):673:5 |==> 0
+360:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):673:5 |==> -5
+361:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):673:opcode + 5 |==> opcode % 5
+362:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):673:opcode + 5 |==> opcode * 5
+363:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):673:opcode + 5 |==> opcode - 5
+364:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):673:opcode + 5 |==> opcode / 5
+365:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):673:return Config.__M_NO == 364 ? opcode / 5 : Config.__M_NO == 363 ? opcode - 5 : Config.__M_NO == 362 ? opcode * 5 : Config.__M_NO == 361 ? opcode % 5 : Config.__M_NO == 0 && Config.COVERED(361, 364) ? opcode + 5 : opcode + (Config.__M_NO == 0 && Config.COVERED(359, 360) ? 5 : Config.__M_NO == 360 ? -5 : Config.__M_NO == 359 ? 0 : 5); |==> <NO-OP>
+366:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):679:return opcode; |==> <NO-OP>
+367:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):681:2 |==> 0
+368:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):681:2 |==> -2
+369:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):681:opcode + 2 |==> opcode % 2
+370:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):681:opcode + 2 |==> opcode * 2
+371:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):681:opcode + 2 |==> opcode - 2
+372:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):681:opcode + 2 |==> opcode / 2
+373:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):681:return Config.__M_NO == 372 ? opcode / 2 : Config.__M_NO == 371 ? opcode - 2 : Config.__M_NO == 370 ? opcode * 2 : Config.__M_NO == 369 ? opcode % 2 : Config.__M_NO == 0 && Config.COVERED(369, 372) ? opcode + 2 : opcode + (Config.__M_NO == 0 && Config.COVERED(367, 368) ? 2 : Config.__M_NO == 368 ? -2 : Config.__M_NO == 367 ? 0 : 2); |==> <NO-OP>
+374:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):683:1 |==> 0
+375:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):683:1 |==> -1
+376:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):683:opcode + 1 |==> opcode % 1
+377:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):683:opcode + 1 |==> opcode * 1
+378:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):683:opcode + 1 |==> opcode - 1
+379:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):683:opcode + 1 |==> opcode / 1
+380:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):683:return Config.__M_NO == 379 ? opcode / 1 : Config.__M_NO == 378 ? opcode - 1 : Config.__M_NO == 377 ? opcode * 1 : Config.__M_NO == 376 ? opcode % 1 : Config.__M_NO == 0 && Config.COVERED(376, 379) ? opcode + 1 : opcode + (Config.__M_NO == 0 && Config.COVERED(374, 375) ? 1 : Config.__M_NO == 375 ? -1 : Config.__M_NO == 374 ? 0 : 1); |==> <NO-OP>
+381:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):685:3 |==> 0
+382:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):685:3 |==> -3
+383:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):685:opcode + 3 |==> opcode % 3
+384:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):685:opcode + 3 |==> opcode * 3
+385:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):685:opcode + 3 |==> opcode - 3
+386:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):685:opcode + 3 |==> opcode / 3
+387:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):685:return Config.__M_NO == 386 ? opcode / 3 : Config.__M_NO == 385 ? opcode - 3 : Config.__M_NO == 384 ? opcode * 3 : Config.__M_NO == 383 ? opcode % 3 : Config.__M_NO == 0 && Config.COVERED(383, 386) ? opcode + 3 : opcode + (Config.__M_NO == 0 && Config.COVERED(381, 382) ? 3 : Config.__M_NO == 382 ? -3 : Config.__M_NO == 381 ? 0 : 3); |==> <NO-OP>
+388:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):689:4 |==> 0
+389:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):689:4 |==> -4
+390:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):689:opcode + 4 |==> opcode % 4
+391:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):689:opcode + 4 |==> opcode * 4
+392:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):689:opcode + 4 |==> opcode - 4
+393:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.Type@getOpcode(int):689:opcode + 4 |==> opcode / 4

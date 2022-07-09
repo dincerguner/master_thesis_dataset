@@ -5,11 +5,11 @@ import org.gjt.sp.jedit.jEdit;
 
 public class IconTheme extends Object
 {
-	static final String[] builtIn  = new String[] { "tango", "classic" };
+	static final String[] builtIn  = null;
 	
 	public static String[] builtInNames()
 	{
-		return builtIn;
+		return null;
 	}
 
 	public static String get() 

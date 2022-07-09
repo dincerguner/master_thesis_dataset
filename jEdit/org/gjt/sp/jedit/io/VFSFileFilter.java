@@ -33,7 +33,7 @@ package org.gjt.sp.jedit.io;
  */
 public interface VFSFileFilter 
 {
-	public static final String SERVICE_NAME = VFSFileFilter.class.getName();
+	public static final String SERVICE_NAME = null;
 
 	/**
 	 * Should return whether the entry represented by the given URL

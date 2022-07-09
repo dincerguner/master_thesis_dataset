@@ -46,7 +46,7 @@ public class PatternSearchMatcher extends SearchMatcher
 	 */
 	public PatternSearchMatcher(String search, boolean ignoreCase)
 	{
-		pattern = search;
+		pattern = null;
 		flags = getFlag(ignoreCase);
 	}
 	
