@@ -30,7 +30,7 @@ class PropertyManager
 	//{{{ getProperties() method
 	Properties getProperties()
 	{
-		Properties total = new Properties();
+		Properties total = null;
 		total.putAll(system);
 		Iterator iter = plugins.iterator();
 		while(iter.hasNext())

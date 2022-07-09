@@ -1,0 +1,3 @@
+1:STD:<ASSIGN>:<NO-OP>:bsh.ClassIdentifier@<init>(java.lang.Class):41:this.clas = clas |==> <NO-OP>
+2:EVR:<IDENTIFIER(java.lang.Class)>:<DEFAULT>:bsh.ClassIdentifier@getTargetClass():46:clas |==> null
+3:EVR:<PLUS(java.lang.String)>:<DEFAULT>:bsh.ClassIdentifier@toString():50:"Class Identifier: " + clas.getName() |==> null

@@ -1,0 +1,6 @@
+1:STD:<ASSIGN>:<NO-OP>:bsh.collection.CollectionIterator@<init>(java.lang.Object):33:iterator = createIterator(iterateOverMe) |==> <NO-OP>
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.collection.CollectionIterator@createIterator(java.lang.Object):51:iterateOverMe == null |==> false
+3:STD:<RETURN>:<NO-OP>:bsh.collection.CollectionIterator@createIterator(java.lang.Object):56:return (Iterator)iterateOverMe; |==> <NO-OP>
+4:STD:<RETURN>:<NO-OP>:bsh.collection.CollectionIterator@createIterator(java.lang.Object):59:return ((Collection)iterateOverMe).iterator(); |==> <NO-OP>
+5:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:bsh.collection.CollectionIterator@next():77:iterator.next() |==> null
+6:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:bsh.collection.CollectionIterator@hasNext():87:iterator.hasNext() |==> false

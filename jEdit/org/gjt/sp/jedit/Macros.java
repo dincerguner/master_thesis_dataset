@@ -65,7 +65,7 @@ public class Macros
 	public static void showRunScriptDialog(View view)
 	{
 		String[] paths = GUIUtilities.showVFSFileDialog(view,
-			null,JFileChooser.OPEN_DIALOG,true);
+			null,JFileChooser.OPEN_DIALOG,false);
 		if(paths != null)
 		{
 			Buffer buffer = view.getBuffer();

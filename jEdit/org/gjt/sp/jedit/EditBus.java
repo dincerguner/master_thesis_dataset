@@ -80,7 +80,7 @@ public class EditBus
 	{
 		synchronized(components)
 		{
-			components.add(comp);
+			;
 			copyComponents = null;
 		}
 	} //}}}

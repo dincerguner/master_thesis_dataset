@@ -1,0 +1,7 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.buffer.FoldHandler@getName():64:name |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.FoldHandler@equals(java.lang.Object):89:o == null |==> false
+3:LVR:FALSE:TRUE:org.gjt.sp.jedit.buffer.FoldHandler@equals(java.lang.Object):90:false |==> true
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.FoldHandler@equals(java.lang.Object):92:getClass() == o.getClass() |==> false
+5:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.FoldHandler@hashCode():98:getClass().hashCode() |==> 0
+6:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.FoldHandler@registerFoldHandler(org.gjt.sp.jedit.buffer.FoldHandler):108:getFoldHandler(handler.getName()) != null |==> true
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.FoldHandler@registerFoldHandler(org.gjt.sp.jedit.buffer.FoldHandler):110:Log.log(Log.ERROR, FoldHandler.class, "Cannot register more than one fold handler with the same name") |==> <NO-OP>

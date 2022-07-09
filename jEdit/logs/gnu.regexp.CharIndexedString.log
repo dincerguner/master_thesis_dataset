@@ -1,0 +1,25 @@
+1:STD:<ASSIGN>:<NO-OP>:gnu.regexp.CharIndexedString@<init>(java.lang.String,int):28:s = str |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:gnu.regexp.CharIndexedString@<init>(java.lang.String,int):29:len = s.length() |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:gnu.regexp.CharIndexedString@<init>(java.lang.String,int):30:anchor = index |==> <NO-OP>
+4:AOR:+(int,int):%(int,int):gnu.regexp.CharIndexedString@charAt(int):34:anchor + index |==> anchor % index
+5:AOR:+(int,int):*(int,int):gnu.regexp.CharIndexedString@charAt(int):34:anchor + index |==> anchor * index
+6:AOR:+(int,int):-(int,int):gnu.regexp.CharIndexedString@charAt(int):34:anchor + index |==> anchor - index
+7:AOR:+(int,int):/(int,int):gnu.regexp.CharIndexedString@charAt(int):34:anchor + index |==> anchor / index
+8:ROR:<(int,int):!=(int,int):gnu.regexp.CharIndexedString@charAt(int):35:pos < len |==> pos != len
+9:ROR:<(int,int):<=(int,int):gnu.regexp.CharIndexedString@charAt(int):35:pos < len |==> pos <= len
+10:ROR:<(int,int):FALSE(int,int):gnu.regexp.CharIndexedString@charAt(int):35:pos < len |==> false
+11:LVR:0:POS:gnu.regexp.CharIndexedString@charAt(int):35:0 |==> 1
+12:LVR:0:NEG:gnu.regexp.CharIndexedString@charAt(int):35:0 |==> -1
+13:ROR:>=(int,int):==(int,int):gnu.regexp.CharIndexedString@charAt(int):35:pos >= 0 |==> pos == 0
+14:ROR:>=(int,int):>(int,int):gnu.regexp.CharIndexedString@charAt(int):35:pos >= 0 |==> pos > 0
+15:ROR:>=(int,int):TRUE(int,int):gnu.regexp.CharIndexedString@charAt(int):35:pos >= 0 |==> true
+16:COR:&&(boolean,boolean):==(boolean,boolean):gnu.regexp.CharIndexedString@charAt(int):35:(pos < len) && (pos >= 0) |==> (pos < len) == (pos >= 0)
+17:COR:&&(boolean,boolean):FALSE(boolean,boolean):gnu.regexp.CharIndexedString@charAt(int):35:(pos < len) && (pos >= 0) |==> false
+18:COR:&&(boolean,boolean):LHS(boolean,boolean):gnu.regexp.CharIndexedString@charAt(int):35:(pos < len) && (pos >= 0) |==> (pos < len)
+19:COR:&&(boolean,boolean):RHS(boolean,boolean):gnu.regexp.CharIndexedString@charAt(int):35:(pos < len) && (pos >= 0) |==> (pos >= 0)
+20:ROR:<(int,int):!=(int,int):gnu.regexp.CharIndexedString@isValid():39:anchor < len |==> anchor != len
+21:ROR:<(int,int):<=(int,int):gnu.regexp.CharIndexedString@isValid():39:anchor < len |==> anchor <= len
+22:ROR:<(int,int):FALSE(int,int):gnu.regexp.CharIndexedString@isValid():39:anchor < len |==> false
+23:ROR:<(int,int):!=(int,int):gnu.regexp.CharIndexedString@move(int):43:(anchor += index) < len |==> (anchor += index) != len
+24:ROR:<(int,int):<=(int,int):gnu.regexp.CharIndexedString@move(int):43:(anchor += index) < len |==> (anchor += index) <= len
+25:ROR:<(int,int):FALSE(int,int):gnu.regexp.CharIndexedString@move(int):43:(anchor += index) < len |==> false

@@ -30,7 +30,7 @@ public class CollectionIterator implements bsh.BshIterator
 	 * @throws java.lang.NullPointerException If the argument is null
 	 */	
 	public CollectionIterator(Object iterateOverMe) {
-		iterator = createIterator(iterateOverMe);	
+		;	
 	}
 
 	/**

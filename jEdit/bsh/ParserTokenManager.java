@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class ParserTokenManager implements ParserConstants
 {
-  public  java.io.PrintStream debugStream = System.out;
+  public  java.io.PrintStream debugStream = null;
   public  void setDebugStream(java.io.PrintStream ds) { debugStream = ds; }
 private final int jjStopStringLiteralDfa_0(int pos, long active0, long active1, long active2)
 {

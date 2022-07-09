@@ -1,0 +1,40 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.Modifiers@addModifier(int,java.lang.String):22:modifiers == null |==> false
+2:STD:<ASSIGN>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):23:modifiers = new Hashtable() |==> <NO-OP>
+3:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:bsh.Modifiers@addModifier(int,java.lang.String):24:modifiers.put(name, Void.TYPE) |==> null
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.Modifiers@addModifier(int,java.lang.String):25:got != null |==> true
+5:LVR:0:POS:bsh.Modifiers@addModifier(int,java.lang.String):28:0 |==> 1
+6:LVR:0:NEG:bsh.Modifiers@addModifier(int,java.lang.String):28:0 |==> -1
+7:COR:hasModifier("private"):TRUE:bsh.Modifiers@addModifier(int,java.lang.String):29:hasModifier("private") |==> false
+8:COR:hasModifier("private"):FALSE:bsh.Modifiers@addModifier(int,java.lang.String):29:hasModifier("private") |==> true
+9:STD:<INC>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):29:++count |==> <NO-OP>
+10:COR:hasModifier("protected"):TRUE:bsh.Modifiers@addModifier(int,java.lang.String):30:hasModifier("protected") |==> false
+11:COR:hasModifier("protected"):FALSE:bsh.Modifiers@addModifier(int,java.lang.String):30:hasModifier("protected") |==> true
+12:STD:<INC>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):30:++count |==> <NO-OP>
+13:COR:hasModifier("public"):TRUE:bsh.Modifiers@addModifier(int,java.lang.String):31:hasModifier("public") |==> false
+14:COR:hasModifier("public"):FALSE:bsh.Modifiers@addModifier(int,java.lang.String):31:hasModifier("public") |==> true
+15:STD:<INC>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):31:++count |==> <NO-OP>
+16:LVR:POS:0:bsh.Modifiers@addModifier(int,java.lang.String):32:1 |==> 0
+17:LVR:POS:NEG:bsh.Modifiers@addModifier(int,java.lang.String):32:1 |==> -1
+18:ROR:>(int,int):!=(int,int):bsh.Modifiers@addModifier(int,java.lang.String):32:count > 1 |==> count != 1
+19:ROR:>(int,int):>=(int,int):bsh.Modifiers@addModifier(int,java.lang.String):32:count > 1 |==> count >= 1
+20:ROR:>(int,int):FALSE(int,int):bsh.Modifiers@addModifier(int,java.lang.String):32:count > 1 |==> false
+21:STD:<CALL>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):39:validateForClass() |==> <NO-OP>
+22:STD:<BREAK>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):40:break; |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):42:validateForMethod() |==> <NO-OP>
+24:STD:<BREAK>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):43:break; |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):45:validateForField() |==> <NO-OP>
+26:STD:<BREAK>:<NO-OP>:bsh.Modifiers@addModifier(int,java.lang.String):46:break; |==> <NO-OP>
+27:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.Modifiers@hasModifier(java.lang.String):52:modifiers == null |==> false
+28:STD:<ASSIGN>:<NO-OP>:bsh.Modifiers@hasModifier(java.lang.String):53:modifiers = new Hashtable() |==> <NO-OP>
+29:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.Modifiers@hasModifier(java.lang.String):54:modifiers.get(name) != null |==> true
+30:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForMethod():60:insureNo("volatile", "Method") |==> <NO-OP>
+31:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForMethod():61:insureNo("transient", "Method") |==> <NO-OP>
+32:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForField():65:insureNo("synchronized", "Variable") |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForField():66:insureNo("native", "Variable") |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForField():67:insureNo("abstract", "Variable") |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForClass():71:validateForMethod() |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForClass():72:insureNo("native", "Class") |==> <NO-OP>
+37:STD:<CALL>:<NO-OP>:bsh.Modifiers@validateForClass():73:insureNo("synchronized", "Class") |==> <NO-OP>
+38:COR:hasModifier(modifier):TRUE:bsh.Modifiers@insureNo(java.lang.String,java.lang.String):78:hasModifier(modifier) |==> false
+39:COR:hasModifier(modifier):FALSE:bsh.Modifiers@insureNo(java.lang.String,java.lang.String):78:hasModifier(modifier) |==> true
+40:EVR:<PLUS(java.lang.String)>:<DEFAULT>:bsh.Modifiers@toString():85:"Modifiers: " + modifiers |==> null

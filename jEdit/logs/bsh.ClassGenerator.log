@@ -1,0 +1,2 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.ClassGenerator@getClassGenerator():13:cg == null |==> false
+2:EVR:<METHOD_INVOCATION(java.lang.Class<capture#604 of ?>)>:<DEFAULT>:bsh.ClassGenerator@getClassGenerator():16:Class.forName("bsh.ClassGeneratorImpl") |==> null

@@ -1,0 +1,37 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.CollectionManager@getCollectionManager():56:manager == null |==> false
+2:COR:&&(boolean,boolean):==(boolean,boolean):bsh.CollectionManager@getCollectionManager():56:manager == null && Capabilities.classExists("java.util.Collection") |==> manager == null == Capabilities.classExists("java.util.Collection")
+3:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.CollectionManager@getCollectionManager():57:manager == null && Capabilities.classExists("java.util.Collection") |==> false
+4:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.CollectionManager@getCollectionManager():56:manager == null && Capabilities.classExists("java.util.Collection") |==> manager == null
+5:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.CollectionManager@getCollectionManager():57:manager == null && Capabilities.classExists("java.util.Collection") |==> Capabilities.classExists("java.util.Collection")
+6:EVR:<METHOD_INVOCATION(java.lang.Class<capture#339 of ?>)>:<DEFAULT>:bsh.CollectionManager@getCollectionManager():61:Class.forName("bsh.collection.CollectionManagerImpl") |==> null
+7:STD:<ASSIGN>:<NO-OP>:bsh.CollectionManager@getCollectionManager():62:manager = (CollectionManager)clas.newInstance() |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:bsh.CollectionManager@getCollectionManager():64:Interpreter.debug("unable to load CollectionManagerImpl: " + e) |==> <NO-OP>
+9:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.CollectionManager@getCollectionManager():68:manager == null |==> false
+10:STD:<ASSIGN>:<NO-OP>:bsh.CollectionManager@getCollectionManager():69:manager = new CollectionManager() |==> <NO-OP>
+11:EVR:<IDENTIFIER(bsh.CollectionManager)>:<DEFAULT>:bsh.CollectionManager@getCollectionManager():71:manager |==> null
+12:STD:<CALL>:<NO-OP>:bsh.CollectionManager@isBshIterable(java.lang.Object):80:getBshIterator(obj) |==> <NO-OP>
+13:LVR:TRUE:FALSE:bsh.CollectionManager@isBshIterable(java.lang.Object):81:true |==> false
+14:LVR:FALSE:TRUE:bsh.CollectionManager@isBshIterable(java.lang.Object):83:false |==> true
+15:EVR:<NEW_CLASS(bsh.CollectionManager.BasicBshIterator)>:<DEFAULT>:bsh.CollectionManager@getBshIterator(java.lang.Object):90:new BasicBshIterator(obj) |==> null
+16:EVR:<INSTANCE_OF(boolean)>:<DEFAULT>:bsh.CollectionManager@isMap(java.lang.Object):94:obj instanceof Hashtable |==> false
+17:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:bsh.CollectionManager@getFromMap(java.lang.Object,java.lang.Object):98:((Hashtable)map).get(key) |==> null
+18:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:bsh.CollectionManager@putInMap(java.lang.Object,java.lang.Object,java.lang.Object):103:((Hashtable)map).put(key, value) |==> null
+19:STD:<ASSIGN>:<NO-OP>:bsh.CollectionManager$BasicBshIterator@<init>(java.lang.Object):130:enumeration = createEnumeration(iterateOverMe) |==> <NO-OP>
+20:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):148:iterateOverMe == null |==> false
+21:STD:<RETURN>:<NO-OP>:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):153:return (Enumeration)iterateOverMe; |==> <NO-OP>
+22:STD:<RETURN>:<NO-OP>:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):156:return ((Vector)iterateOverMe).elements(); |==> <NO-OP>
+23:COR:iterateOverMe.getClass().isArray():TRUE:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):158:iterateOverMe.getClass().isArray() |==> false
+24:COR:iterateOverMe.getClass().isArray():FALSE:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):158:iterateOverMe.getClass().isArray() |==> true
+25:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):159:iterateOverMe |==> null
+26:LVR:0:POS:bsh.CollectionManager$BasicBshIterator$1:161:0 |==> 1
+27:LVR:0:NEG:bsh.CollectionManager$BasicBshIterator$1:161:0 |==> -1
+28:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:bsh.CollectionManager$BasicBshIterator$1:161:Array.getLength(array) |==> 0
+29:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:bsh.CollectionManager$BasicBshIterator$1@nextElement():163:Array.get(array, index++) |==> null
+30:ROR:<(int,int):!=(int,int):bsh.CollectionManager$BasicBshIterator$1@hasMoreElements():165:index < length |==> index != length
+31:ROR:<(int,int):<=(int,int):bsh.CollectionManager$BasicBshIterator$1@hasMoreElements():165:index < length |==> index <= length
+32:ROR:<(int,int):FALSE(int,int):bsh.CollectionManager$BasicBshIterator$1@hasMoreElements():165:index < length |==> false
+33:STD:<RETURN>:<NO-OP>:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):160:return new Enumeration(){...) |==> <NO-OP>
+34:STD:<RETURN>:<NO-OP>:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):170:return createEnumeration(((String)iterateOverMe).toCharArray()); |==> <NO-OP>
+35:STD:<RETURN>:<NO-OP>:bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):173:return createEnumeration(iterateOverMe.toString().toCharArray()); |==> <NO-OP>
+36:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:bsh.CollectionManager$BasicBshIterator@next():186:enumeration.nextElement() |==> null
+37:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:bsh.CollectionManager$BasicBshIterator@hasNext():196:enumeration.hasMoreElements() |==> false
