@@ -1,0 +1,5 @@
+1:STD:<CALL>:<NO-OP>:bsh.EvalError@<init>(java.lang.String,SimpleNode,CallStack):57:setMessage(s) |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:bsh.EvalError@<init>(java.lang.String,SimpleNode,CallStack):58:this.node = node |==> <NO-OP>
+3:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.EvalError@<init>(java.lang.String,SimpleNode,CallStack):60:callstack != null |==> true
+4:STD:<ASSIGN>:<NO-OP>:bsh.EvalError@<init>(java.lang.String,SimpleNode,CallStack):61:this.callstack = callstack.copy() |==> <NO-OP>
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.EvalError@toString():70:node != null |==> true

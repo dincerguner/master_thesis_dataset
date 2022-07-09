@@ -1,0 +1,8 @@
+1:LVR:0:POS:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):50:0 |==> 1
+2:LVR:0:NEG:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):50:0 |==> -1
+3:LVR:POS:0:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):51:1 |==> 0
+4:LVR:POS:NEG:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):51:1 |==> -1
+5:LVR:POS:0:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):52:2 |==> 0
+6:LVR:POS:NEG:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):52:2 |==> -2
+7:COR:BSHIfStatement.evaluateCondition(cond, callstack, interpreter):TRUE:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):54:BSHIfStatement.evaluateCondition(cond, callstack, interpreter) |==> false
+8:COR:BSHIfStatement.evaluateCondition(cond, callstack, interpreter):FALSE:bsh.BSHTernaryExpression@eval(CallStack,Interpreter):54:BSHIfStatement.evaluateCondition(cond, callstack, interpreter) |==> true

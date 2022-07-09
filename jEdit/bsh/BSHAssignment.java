@@ -45,7 +45,7 @@ class BSHAssignment extends SimpleNode implements ParserConstants
 		throws EvalError
     {
         BSHPrimaryExpression lhsNode = 
-			(BSHPrimaryExpression)jjtGetChild(0);
+			(BSHPrimaryExpression)jjtGetChild(1);
 
 		if ( lhsNode == null )
 			throw new InterpreterError( "Error, null LHSnode" );

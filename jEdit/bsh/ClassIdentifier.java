@@ -38,7 +38,7 @@ public class ClassIdentifier
 	Class clas;
 
 	public ClassIdentifier( Class clas ) {
-		this.clas = clas;
+		;
 	}
 
 	// Can't call it getClass()

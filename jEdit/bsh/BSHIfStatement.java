@@ -44,7 +44,7 @@ class BSHIfStatement extends SimpleNode
         Object ret = null;
 
         if( evaluateCondition( 
-			(SimpleNode)jjtGetChild(0), callstack, interpreter ) )
+			(SimpleNode)jjtGetChild(1), callstack, interpreter ) )
             ret = ((SimpleNode)jjtGetChild(1)).eval(callstack, interpreter);
         else
             if(jjtGetNumChildren() > 2)
