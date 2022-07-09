@@ -23,7 +23,7 @@ public class MultiValueContainer implements IMultiValueContainer {
      */
     public MultiValueContainer() {
 
-        values = new Vector(10, 5);
+        values = new Vector(0, 5);
     }
     
 
@@ -32,7 +32,7 @@ public class MultiValueContainer implements IMultiValueContainer {
      */
     public int size() {
         // TODO Auto-generated method stub
-        return values.size();
+        return 0;
     }
 
     
@@ -41,7 +41,7 @@ public class MultiValueContainer implements IMultiValueContainer {
      */
     public Iterator iterator() {
         // TODO Auto-generated method stub
-        return values.iterator();
+        return null;
     }
 
     /* (non-Javadoc)
@@ -49,7 +49,7 @@ public class MultiValueContainer implements IMultiValueContainer {
      */
     public boolean add(Object aValue) {
         
-        return values.add(aValue);
+        return false;
 
     }
 
