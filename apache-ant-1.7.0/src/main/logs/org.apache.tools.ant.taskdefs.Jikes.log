@@ -1,0 +1,3 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Jikes@<init>(JikesOutputParser,java.lang.String,Project):58:System.err.println("As of Ant 1.2 released in October 2000, the Jikes class") |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Jikes@<init>(JikesOutputParser,java.lang.String,Project):60:System.err.println("is considered to be dead code by the Ant developers and is unmaintained.") |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Jikes@<init>(JikesOutputParser,java.lang.String,Project):62:System.err.println("Don\'t use it!") |==> <NO-OP>

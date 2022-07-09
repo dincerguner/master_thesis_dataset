@@ -28,8 +28,8 @@ import org.apache.tools.ant.BuildException;
 public class Equals implements Condition {
 
     private String arg1, arg2;
-    private boolean trim = false;
-    private boolean caseSensitive = true;
+    private boolean trim = true;
+    private boolean caseSensitive = false;
 
     /**
      * Set the first string

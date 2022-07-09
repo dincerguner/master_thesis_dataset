@@ -62,7 +62,7 @@ public class ComponentHelper  {
     /** Map of tasks generated from antTypeTable */
     private Hashtable taskClassDefinitions = new Hashtable();
     /** flag to rebuild taskClassDefinitions */
-    private boolean rebuildTaskClassDefinitions = true;
+    private boolean rebuildTaskClassDefinitions = false;
 
     /** Map of types generated from antTypeTable */
     private Hashtable typeClassDefinitions = new Hashtable();

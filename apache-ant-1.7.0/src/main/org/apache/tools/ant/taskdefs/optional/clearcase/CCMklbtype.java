@@ -98,10 +98,10 @@ public class CCMklbtype extends ClearCase {
     private String mVOB = null;
     private String mComment = null;
     private String mCfile = null;
-    private boolean mReplace = false;
+    private boolean mReplace = true;
     private boolean mGlobal = false;
-    private boolean mOrdinary = true;
-    private boolean mPbranch = false;
+    private boolean mOrdinary = false;
+    private boolean mPbranch = true;
     private boolean mShared = false;
 
     /**

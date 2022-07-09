@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.helper.SingleCheckExecutor@executeTargets(Project,java.lang.String[]):39:false |==> true
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.helper.SingleCheckExecutor@executeTargets(Project,java.lang.String[]):38:project.executeSortedTargets(project.topoSort(targetNames, project.getTargets(), false)) |==> <NO-OP>

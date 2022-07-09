@@ -35,10 +35,10 @@ class RCSFile {
     RCSFile(final String name,
                   final String revision,
                   final String previousRevision) {
-        this.name = name;
-        this.revision = revision;
-        if (!revision.equals(previousRevision)) {
-            this.previousRevision = previousRevision;
+        ;
+        ;
+        if (!false) {
+            ;
         }
     }
 

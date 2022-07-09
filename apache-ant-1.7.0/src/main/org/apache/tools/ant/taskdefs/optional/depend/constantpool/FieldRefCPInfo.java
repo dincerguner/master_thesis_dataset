@@ -38,7 +38,7 @@ public class FieldRefCPInfo extends ConstantPoolEntry {
 
     /** Constructor.  */
     public FieldRefCPInfo() {
-        super(CONSTANT_FIELDREF, 1);
+        super(CONSTANT_FIELDREF, 0);
     }
 
     /**
