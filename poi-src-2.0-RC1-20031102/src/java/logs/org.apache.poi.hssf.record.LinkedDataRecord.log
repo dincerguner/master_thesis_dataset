@@ -1,0 +1,17 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.LinkedDataRecord:85:1 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.LinkedDataRecord:85:1 |==> -1
+3:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.LinkedDataRecord@validateSid(short):133:id != sid |==> id < sid
+4:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.LinkedDataRecord@validateSid(short):133:id != sid |==> id > sid
+5:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.LinkedDataRecord@validateSid(short):133:id != sid |==> true
+6:LVR:0:POS:org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):142:0 |==> 1
+7:LVR:0:NEG:org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):142:0 |==> -1
+8:LVR:0:POS:org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:0 |==> 1
+9:LVR:0:NEG:org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:0 |==> -1
+10:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 |==> pos % 0
+11:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 |==> pos * 0
+12:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 |==> pos - 0
+13:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 |==> pos / 0
+14:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 + offset |==> (pos + 0) % offset
+15:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 + offset |==> (pos + 0) * offset
+16:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 + offset |==> pos + 0 - offset
+17:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.LinkedDataRecord@fillFields(byte[],short,int):143:pos + 0 + offset |==> (pos + 0) / offset

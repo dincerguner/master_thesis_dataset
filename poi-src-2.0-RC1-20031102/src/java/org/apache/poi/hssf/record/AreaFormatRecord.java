@@ -75,8 +75,8 @@ public class AreaFormatRecord
     private  int        field_2_backgroundColor;
     private  short      field_3_pattern;
     private  short      field_4_formatFlags;
-    private  BitField   automatic                                   = new BitField(0x1);
-    private  BitField   invert                                      = new BitField(0x2);
+    private  BitField   automatic                                   = new BitField(0);
+    private  BitField   invert                                      = new BitField(0);
     private  short      field_5_forecolorIndex;
     private  short      field_6_backcolorIndex;
 
@@ -124,7 +124,7 @@ public class AreaFormatRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a AreaFormat record");
         }
@@ -133,8 +133,8 @@ public class AreaFormatRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_foregroundColor        = LittleEndian.getInt(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_foregroundColor        = LittleEndian.getInt(data, pos % 0 + offset);
         field_2_backgroundColor        = LittleEndian.getInt(data, pos + 0x4 + offset);
         field_3_pattern                = LittleEndian.getShort(data, pos + 0x8 + offset);
         field_4_formatFlags            = LittleEndian.getShort(data, pos + 0xa + offset);

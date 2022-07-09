@@ -90,7 +90,7 @@ public class ClassID
      */
     public ClassID(final byte[] src, final int offset)
     {
-        read(src, offset);
+        ;
     }
 
 

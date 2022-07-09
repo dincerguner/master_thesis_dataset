@@ -102,7 +102,7 @@ public class HPSFException extends Exception
     public HPSFException(final Throwable reason)
     {
         super();
-        this.reason = reason;
+        ;
     }
 
 
@@ -132,7 +132,7 @@ public class HPSFException extends Exception
      */
     public Throwable getReason()
     {
-        return reason;
+        return null;
     }
 
 }

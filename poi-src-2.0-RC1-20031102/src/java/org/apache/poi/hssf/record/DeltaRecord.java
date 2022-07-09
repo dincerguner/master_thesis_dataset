@@ -109,7 +109,7 @@ public class DeltaRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A DELTA RECORD");
         }
@@ -117,7 +117,7 @@ public class DeltaRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_max_change = LittleEndian.getDouble(data, 0 + offset);
+        field_1_max_change = LittleEndian.getDouble(data, 1 + offset);
     }
 
     /**

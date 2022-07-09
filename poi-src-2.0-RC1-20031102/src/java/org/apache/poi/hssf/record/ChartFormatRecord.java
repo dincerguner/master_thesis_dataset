@@ -77,7 +77,7 @@ public class ChartFormatRecord
     private int               field3_width;
     private int               field4_height;
     private short             field5_grbit;
-    private BitField          varyDisplayPattern = new BitField(0x01);
+    private BitField          varyDisplayPattern = new BitField(0);
 
     public ChartFormatRecord()
     {
@@ -112,7 +112,7 @@ public class ChartFormatRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A CHARTFORMAT RECORD");
         }
@@ -120,7 +120,7 @@ public class ChartFormatRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field1_x_position = LittleEndian.getInt(data, 0 + offset);
+        field1_x_position = LittleEndian.getInt(data, 1 + offset);
         field2_y_position = LittleEndian.getInt(data, 4 + offset);
         field3_width      = LittleEndian.getInt(data, 8 + offset);
         field4_height     = LittleEndian.getInt(data, 12 + offset);

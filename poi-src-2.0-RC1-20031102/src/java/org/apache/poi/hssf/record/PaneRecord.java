@@ -125,7 +125,7 @@ public class PaneRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a Pane record");
         }
@@ -134,8 +134,8 @@ public class PaneRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_x                      = LittleEndian.getShort(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_x                      = LittleEndian.getShort(data, pos % 0 + offset);
         field_2_y                      = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_3_topRow                 = LittleEndian.getShort(data, pos + 0x4 + offset);
         field_4_leftColumn             = LittleEndian.getShort(data, pos + 0x6 + offset);

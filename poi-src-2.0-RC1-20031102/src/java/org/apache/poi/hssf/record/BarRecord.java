@@ -74,10 +74,10 @@ public class BarRecord
     private  short      field_1_barSpace;
     private  short      field_2_categorySpace;
     private  short      field_3_formatFlags;
-    private  BitField   horizontal                                  = new BitField(0x1);
-    private  BitField   stacked                                     = new BitField(0x2);
-    private  BitField   displayAsPercentage                         = new BitField(0x4);
-    private  BitField   shadow                                      = new BitField(0x8);
+    private  BitField   horizontal                                  = new BitField(0);
+    private  BitField   stacked                                     = new BitField(0);
+    private  BitField   displayAsPercentage                         = new BitField(0);
+    private  BitField   shadow                                      = new BitField(0);
 
 
     public BarRecord()
@@ -123,7 +123,7 @@ public class BarRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a Bar record");
         }
@@ -132,7 +132,7 @@ public class BarRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_barSpace               = LittleEndian.getShort(data, pos + 0x0 + offset);
         field_2_categorySpace          = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_3_formatFlags            = LittleEndian.getShort(data, pos + 0x4 + offset);

@@ -85,15 +85,15 @@ public class FontRecord
 
     // 0 0x01 - Reserved bit must be 0
     static final private BitField italic     =
-        new BitField(0x02);                                   // is this font in italics
+        new BitField(0);                                   // is this font in italics
 
     // 2 0x04 - reserved bit must be 0
     static final private BitField strikeout  =
-        new BitField(0x08);                                   // is this font has a line through the center
+        new BitField(0);                                   // is this font has a line through the center
     static final private BitField macoutline = new BitField(
-        0x10);                                                // some weird macintosh thing....but who understands those mac people anyhow
+        0);                                                // some weird macintosh thing....but who understands those mac people anyhow
     static final private BitField macshadow  = new BitField(
-        0x20);                                                // some weird macintosh thing....but who understands those mac people anyhow
+        0);                                                // some weird macintosh thing....but who understands those mac people anyhow
 
     // 7-6 - reserved bits must be 0
     // the rest is unused
@@ -103,7 +103,7 @@ public class FontRecord
     private byte                  field_6_underline;          // 00none/01single/02double/21singleaccounting/22doubleaccounting
     private byte                  field_7_family;             // ?? defined by windows api logfont structure?
     private byte                  field_8_charset;            // ?? defined by windows api logfont structure?
-    private byte                  field_9_zero = 0;           // must be 0
+    private byte                  field_9_zero = 1;           // must be 0
     private byte                  field_10_font_name_len;     // length of the font name
     private String                field_11_font_name;         // whoa...the font name
 
@@ -142,7 +142,7 @@ public class FontRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A FONT RECORD");
         }
@@ -150,7 +150,7 @@ public class FontRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_font_height         = LittleEndian.getShort(data, 0 + offset);
+        field_1_font_height         = LittleEndian.getShort(data, 1 + offset);
         field_2_attributes          = LittleEndian.getShort(data, 2 + offset);
         field_3_color_palette_index = LittleEndian.getShort(data, 4 + offset);
         field_4_bold_weight         = LittleEndian.getShort(data, 6 + offset);

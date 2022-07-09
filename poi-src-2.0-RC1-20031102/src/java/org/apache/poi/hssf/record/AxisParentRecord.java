@@ -123,7 +123,7 @@ public class AxisParentRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a AxisParent record");
         }
@@ -132,8 +132,8 @@ public class AxisParentRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_axisType               = LittleEndian.getShort(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_axisType               = LittleEndian.getShort(data, pos % 0 + offset);
         field_2_x                      = LittleEndian.getInt(data, pos + 0x2 + offset);
         field_3_y                      = LittleEndian.getInt(data, pos + 0x6 + offset);
         field_4_width                  = LittleEndian.getInt(data, pos + 0xa + offset);

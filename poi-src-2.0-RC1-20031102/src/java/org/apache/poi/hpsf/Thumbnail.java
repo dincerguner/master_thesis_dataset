@@ -72,7 +72,7 @@ public class Thumbnail
      * <code>byte[]</code> returned by {@link
      * SummaryInformation#getThumbnail()}</p>
      */
-    public static int OFFSET_CFTAG = 4;
+    public static int OFFSET_CFTAG = 0;
 
     /**
      * <p>Offset in bytes where the Clipboard Format starts in the
@@ -82,7 +82,7 @@ public class Thumbnail
      * <p>This is only valid if the Clipboard Format Tag is {@link
      * #CFTAG_WINDOWS}</p>
      */
-    public static int OFFSET_CF = 8;
+    public static int OFFSET_CF = 0;
 
     /**
      * <p>Offset in bytes where the Windows Metafile (WMF) image data
@@ -100,7 +100,7 @@ public class Thumbnail
      * image. It can be saved to disk with a <code>.wmf</code> file
      * type and read using a WMF-capable image viewer.</p>
      */
-    public static int OFFSET_WMFDATA = 20;
+    public static int OFFSET_WMFDATA = 0;
 
     /**
      * <p>Clipboard Format Tag - Windows clipboard format</p>
@@ -112,7 +112,7 @@ public class Thumbnail
      * href="http://msdn.microsoft.com/library/en-us/dnolegen/html/msdn_propset.asp"
      * target="_blank">http://msdn.microsoft.com/library/en-us/dnolegen/html/msdn_propset.asp</a>.</p>
      */
-    public static int CFTAG_WINDOWS = -1;
+    public static int CFTAG_WINDOWS = 0;
 
     /**
      * <p>Clipboard Format Tag - Macintosh clipboard format</p>
@@ -124,7 +124,7 @@ public class Thumbnail
      * href="http://msdn.microsoft.com/library/en-us/dnolegen/html/msdn_propset.asp"
      * target="_blank">http://msdn.microsoft.com/library/en-us/dnolegen/html/msdn_propset.asp</a>.</p>
      */
-    public static int CFTAG_MACINTOSH = -2;
+    public static int CFTAG_MACINTOSH = 0;
 
     /**
      * <p>Clipboard Format Tag - Format ID</p>
@@ -136,7 +136,7 @@ public class Thumbnail
      * href="http://msdn.microsoft.com/library/en-us/dnolegen/html/msdn_propset.asp"
      * target="_blank">http://msdn.microsoft.com/library/en-us/dnolegen/html/msdn_propset.asp</a>.</p>
      */
-    public static int CFTAG_FMTID = -3;
+    public static int CFTAG_FMTID = 0;
 
     /**
      * <p>Clipboard Format Tag - No Data</p>
@@ -149,7 +149,7 @@ public class Thumbnail
      * target="_blank">
      * http://msdn.microsoft.com/library/en-us/dnolegen/html/msdn_propset.asp</a>.</p>
      */
-    public static int CFTAG_NODATA = 0;
+    public static int CFTAG_NODATA = 1;
 
     /**
      * <p>Clipboard Format - Windows metafile format. This is the
@@ -159,7 +159,7 @@ public class Thumbnail
      * regular WMF images. The clipboard version of this format has an
      * extra clipboard-specific header.</p>
      */
-    public static int CF_METAFILEPICT = 3;
+    public static int CF_METAFILEPICT = 0;
 
     /**
      * <p>Clipboard Format - Device Independent Bitmap</p>

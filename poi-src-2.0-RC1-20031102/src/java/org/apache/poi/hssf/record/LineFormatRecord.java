@@ -88,8 +88,8 @@ public class LineFormatRecord
     public final static short       WEIGHT_MEDIUM                  = 1;
     public final static short       WEIGHT_WIDE                    = 2;
     private  short      field_4_format;
-    private  BitField   auto                                        = new BitField(0x1);
-    private  BitField   drawTicks                                   = new BitField(0x4);
+    private  BitField   auto                                        = new BitField(0);
+    private  BitField   drawTicks                                   = new BitField(0);
     private  BitField   unknown                                     = new BitField(0x4);
     private  short      field_5_colourPaletteIndex;
 
@@ -137,7 +137,7 @@ public class LineFormatRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a LineFormat record");
         }
@@ -146,8 +146,8 @@ public class LineFormatRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_lineColor              = LittleEndian.getInt(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_lineColor              = LittleEndian.getInt(data, pos % 0 + offset);
         field_2_linePattern            = LittleEndian.getShort(data, pos + 0x4 + offset);
         field_3_weight                 = LittleEndian.getShort(data, pos + 0x6 + offset);
         field_4_format                 = LittleEndian.getShort(data, pos + 0x8 + offset);

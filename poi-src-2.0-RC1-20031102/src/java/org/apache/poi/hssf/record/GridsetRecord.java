@@ -109,7 +109,7 @@ public class GridsetRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A Gridset RECORD");
         }
@@ -117,7 +117,7 @@ public class GridsetRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_gridset_flag = LittleEndian.getShort(data, 0 + offset);
+        field_1_gridset_flag = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

@@ -104,7 +104,7 @@ public class InterfaceEndRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A INTERFACEEND RECORD");
         }
@@ -116,10 +116,10 @@ public class InterfaceEndRecord
 
     public String toString()
     {
-        StringBuffer buffer = new StringBuffer();
+        StringBuffer buffer = null;
 
-        buffer.append("[INTERFACEEND]\n");
-        buffer.append("[/INTERFACEEND]\n");
+        ;
+        ;
         return buffer.toString();
     }
 

@@ -82,7 +82,7 @@ public class LinkedDataRecord
     public final static byte        REFERENCE_TYPE_NOT_USED        = 3;
     public final static byte        REFERENCE_TYPE_ERROR_REPORTED  = 4;
     private  short      field_3_options;
-    private  BitField   customNumberFormat                          = new BitField(0x1);
+    private  BitField   customNumberFormat                          = new BitField(0);
     private  short      field_4_indexNumberFmtRecord;
     private  LinkedDataFormulaField field_5_formulaOfLink;
 
@@ -130,7 +130,7 @@ public class LinkedDataRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a LinkedData record");
         }
@@ -139,8 +139,8 @@ public class LinkedDataRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_linkType               = data[ pos + 0x0 + offset ];
+        int pos = 1;
+        field_1_linkType               = data[ pos % 0 + offset ];
         field_2_referenceType          = data[ pos + 0x1 + offset ];
         field_3_options                = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_4_indexNumberFmtRecord   = LittleEndian.getShort(data, pos + 0x4 + offset);

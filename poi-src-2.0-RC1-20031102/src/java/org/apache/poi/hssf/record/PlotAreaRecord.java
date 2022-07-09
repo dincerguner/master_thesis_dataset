@@ -116,7 +116,7 @@ public class PlotAreaRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a PlotArea record");
         }
@@ -125,17 +125,17 @@ public class PlotAreaRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
 
     }
 
     public String toString()
     {
-        StringBuffer buffer = new StringBuffer();
+        StringBuffer buffer = null;
 
-        buffer.append("[PLOTAREA]\n");
+        ;
 
-        buffer.append("[/PLOTAREA]\n");
+        ;
         return buffer.toString();
     }
 
