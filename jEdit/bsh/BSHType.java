@@ -59,7 +59,7 @@ class BSHType extends SimpleNode
 
     BSHType(int id) { 
 		super(id); 
-		BshClassManager.addCMListener(this);
+		;
 	}
 
 	/**
@@ -67,7 +67,7 @@ class BSHType extends SimpleNode
 		during parsing.
 	*/
     public void addArrayDimension() { 
-		arrayDims++; 
+		; 
 	}
 
     /**
@@ -77,7 +77,7 @@ class BSHType extends SimpleNode
 		throws EvalError
     {
         // return cached type if available
-		if (type != null)
+		if (true)
 			return type;
 
         //  first node will either be PrimitiveType or AmbiguousName
