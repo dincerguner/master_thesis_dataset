@@ -1,0 +1,15 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:47:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "cache") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:48:new QName("id") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:49:new QName("collector") |==> null
+4:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:50:new QName("hashGenerator") |==> null
+5:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:51:new QName("maxMessageSize") |==> null
+6:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:52:new QName("timeout") |==> null
+7:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:53:new QName("scope") |==> null
+8:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:54:new QName("sequence") |==> null
+9:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:55:new QName("type") |==> null
+10:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:56:new QName("maxSize") |==> null
+11:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:58:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "onCacheHit") |==> null
+12:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.CacheMediatorFactory:60:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "implementation") |==> null
+13:COR:CACHE_Q.equals(elem.getQName()):TRUE:org.apache.synapse.config.xml.CacheMediatorFactory@createMediator(OMElement):66:CACHE_Q.equals(elem.getQName()) |==> false
+14:COR:CACHE_Q.equals(elem.getQName()):FALSE:org.apache.synapse.config.xml.CacheMediatorFactory@createMediator(OMElement):66:CACHE_Q.equals(elem.getQName()) |==> true
+15:STD:<CALL>:<NO-OP>:org.apache.synapse.config.xml.CacheMediatorFactory@createMediator(OMElement):67:handleException("Unable to create the cache mediator. Unexpected element as the cache mediator configuration") |==> <NO-OP>
