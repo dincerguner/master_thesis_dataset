@@ -1,0 +1,6 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.collection.CollectionIterator@<init>(java.lang.Object):30:iterator = createIterator(iterateOverMe) |==> <NO-OP>
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.collection.CollectionIterator@createIterator(java.lang.Object):48:iterateOverMe == null |==> false
+3:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.collection.CollectionIterator@createIterator(java.lang.Object):53:return (Iterator)iterateOverMe; |==> <NO-OP>
+4:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.collection.CollectionIterator@createIterator(java.lang.Object):56:return ((Collection)iterateOverMe).iterator(); |==> <NO-OP>
+5:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.bsh.collection.CollectionIterator@next():74:iterator.next() |==> null
+6:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.gjt.sp.jedit.bsh.collection.CollectionIterator@hasNext():84:iterator.hasNext() |==> false

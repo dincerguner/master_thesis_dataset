@@ -53,7 +53,7 @@ public class DiscreteFilesClassLoader extends BshClassLoader
 	public static class ClassSourceMap extends HashMap 
 	{
 		public void put( String name, ClassSource source ) {
-			super.put( name, source );
+			;
 		}
 		public ClassSource get( String name ) {
 			return (ClassSource)super.get( name );

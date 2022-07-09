@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.gjt.sp.jedit.indent.IndentRuleFactory@indentNextLines(java.lang.String):35:false |==> true
+2:LVR:TRUE:FALSE:org.gjt.sp.jedit.indent.IndentRuleFactory@indentNextLine(java.lang.String):44:true |==> false

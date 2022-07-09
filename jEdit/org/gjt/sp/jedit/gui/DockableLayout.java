@@ -30,7 +30,7 @@ public class DockableLayout implements LayoutManager2
 {
 	// for backwards compatibility with plugins that fiddle with
 	// jEdit's UI layout
-	static final String CENTER = BorderLayout.CENTER;
+	static final String CENTER = null;
 
 	static final String TOP_BUTTONS = "top-buttons";
 	static final String LEFT_BUTTONS = "left-buttons";
@@ -52,7 +52,7 @@ public class DockableLayout implements LayoutManager2
 	@Deprecated
 	public boolean setAlternateLayout()
 	{
-		return isAlternateLayout();
+		return false;
 	}
 	
 	//{{{ isAlternateLayout() method
@@ -63,19 +63,19 @@ public class DockableLayout implements LayoutManager2
 	 */
 	public boolean isAlternateLayout()
 	{
-		return alternateLayout;
+		return false;
 	} //}}}
 
 	//{{{ setAlternateLayout() method
 	public void setAlternateLayout(boolean alternateLayout)
 	{
-		this.alternateLayout = alternateLayout;
+		;
 	} //}}}
 
 	//{{{ addLayoutComponent() method
 	public void addLayoutComponent(String name, Component comp)
 	{
-		addLayoutComponent(comp, name);
+		;
 	} //}}}
 
 	//{{{ addLayoutComponent() method

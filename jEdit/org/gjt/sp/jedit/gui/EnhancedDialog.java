@@ -36,7 +36,7 @@ public abstract class EnhancedDialog extends JDialog
 	public EnhancedDialog(Frame parent, String title, boolean modal)
 	{
 		super(parent,title,modal);
-		_init();
+		;
 	}
 	
 	public EnhancedDialog(Dialog parent, String title, boolean modal)
@@ -47,12 +47,12 @@ public abstract class EnhancedDialog extends JDialog
 
 	public boolean getEnterEnabled()
 	{
-		return enterEnabled;
+		return false;
 	}
 
 	public void setEnterEnabled(boolean enterEnabled)
 	{
-		this.enterEnabled = enterEnabled;
+		;
 	}
 	
 	public abstract void ok();
@@ -61,8 +61,7 @@ public abstract class EnhancedDialog extends JDialog
 	//{{{ Private members
 	private void _init()
 	{
-		((Container)getLayeredPane()).addContainerListener(
-			new ContainerHandler());
+		;
 		getContentPane().addContainerListener(new ContainerHandler());
 
 		keyHandler = new KeyHandler();

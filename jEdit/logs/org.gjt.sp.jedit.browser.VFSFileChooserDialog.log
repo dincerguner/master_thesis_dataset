@@ -1,0 +1,10 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(View,java.lang.String,int,boolean):57:true |==> false
+2:LVR:TRUE:FALSE:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(View,java.lang.String,int,boolean,boolean):71:true |==> false
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(View,java.lang.String,int,boolean,boolean):72:setFocusTraversalPolicy(new LayoutFocusTraversalPolicy()) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(View,java.lang.String,int,boolean,boolean):73:_init(view, path, mode, multipleSelection, autoshow) |==> <NO-OP>
+5:LVR:TRUE:FALSE:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(java.awt.Dialog,View,java.lang.String,int,boolean,boolean):86:true |==> false
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(java.awt.Dialog,View,java.lang.String,int,boolean,boolean):87:setFocusTraversalPolicy(new LayoutFocusTraversalPolicy()) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(java.awt.Dialog,View,java.lang.String,int,boolean,boolean):88:_init(view, path, mode, multipleSelection, autoshow) |==> <NO-OP>
+8:LVR:TRUE:FALSE:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(java.awt.Frame,View,java.lang.String,int,boolean,boolean):100:true |==> false
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(java.awt.Frame,View,java.lang.String,int,boolean,boolean):101:setFocusTraversalPolicy(new LayoutFocusTraversalPolicy()) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.browser.VFSFileChooserDialog@<init>(java.awt.Frame,View,java.lang.String,int,boolean,boolean):102:_init(view, path, mode, multipleSelection, autoshow) |==> <NO-OP>

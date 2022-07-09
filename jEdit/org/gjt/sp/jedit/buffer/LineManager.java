@@ -45,7 +45,7 @@ public class LineManager
 	//{{{ LineManager constructor
 	public LineManager()
 	{
-		endOffsets = new int[1];
+		endOffsets = new int[0];
 		endOffsets[0] = 1;
 		foldLevels = new short[1];
 		lineContext = new TokenMarker.LineContext[1];

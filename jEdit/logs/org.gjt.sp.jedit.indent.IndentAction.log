@@ -1,0 +1,6 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.indent.IndentAction$Collapse@calculateIndent(JEditBuffer,int,int,int):61:newIndent |==> 0
+2:LVR:TRUE:FALSE:org.gjt.sp.jedit.indent.IndentAction$Collapse@keepChecking():66:true |==> false
+3:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.indent.IndentAction$Reset@calculateIndent(JEditBuffer,int,int,int):79:oldIndent |==> 0
+4:LVR:TRUE:FALSE:org.gjt.sp.jedit.indent.IndentAction$Reset@keepChecking():84:true |==> false
+5:LVR:POS:0:org.gjt.sp.jedit.indent.IndentAction$Increase@<init>():94:1 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.indent.IndentAction$Increase@<init>():94:1 |==> -1

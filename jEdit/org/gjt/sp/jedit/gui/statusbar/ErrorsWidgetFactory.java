@@ -46,7 +46,7 @@ public class ErrorsWidgetFactory implements StatusWidgetFactory
 	//{{{ getWidget() method
 	public Widget getWidget(View view)
 	{
-		Widget errorWidget = new ErrorWidget(view);
+		Widget errorWidget = null;
 		return errorWidget;
 	} //}}}
 

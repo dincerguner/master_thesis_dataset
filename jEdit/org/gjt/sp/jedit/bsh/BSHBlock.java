@@ -36,7 +36,7 @@ package org.gjt.sp.jedit.bsh;
 
 class BSHBlock extends SimpleNode
 {
-	public boolean isSynchronized = false;
+	public boolean isSynchronized = true;
 
 	BSHBlock(int id) { super(id); }
 

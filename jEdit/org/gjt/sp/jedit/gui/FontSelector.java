@@ -51,7 +51,7 @@ public class FontSelector extends JButton
 	 */
 	public FontSelector(Font font)
 	{
-		this(font,false);
+		this(font,true);
 	} //}}}
 
 	//{{{ FontSelector constructor
@@ -63,12 +63,12 @@ public class FontSelector extends JButton
 	 */
 	public FontSelector(Font font, boolean antiAlias)
 	{
-		setFont(font);
-		this.antiAlias = antiAlias;
+		;
+		;
 
-		updateText();
+		;
 
-		setRequestFocusEnabled(false);
+		setRequestFocusEnabled(true);
 
 		addActionListener(new ActionHandler());
 	} //}}}

@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.gjt.sp.jedit.browser.VFSFileNameField@<init>(VFSBrowser,java.lang.String):47:false |==> true
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.browser.VFSFileNameField@<init>(VFSBrowser,java.lang.String):47:setEnterAddsToHistory(false) |==> <NO-OP>

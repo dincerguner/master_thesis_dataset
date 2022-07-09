@@ -1,0 +1,9 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():66:true |==> false
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():66:setAbortable(true) |==> <NO-OP>
+3:COR:buffer.isTemporary():TRUE:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():67:buffer.isTemporary() |==> false
+4:COR:buffer.isTemporary():FALSE:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():67:buffer.isTemporary() |==> true
+5:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():69:{vfs.getFileName(path)} |==> null
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():70:setStatus(jEdit.getProperty("vfs.status.load", args)) |==> <NO-OP>
+7:LVR:0:POS:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():71:0L |==> 1L
+8:LVR:0:NEG:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():71:0L |==> -1L
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bufferio.BufferLoadRequest@run():71:setValue(0L) |==> <NO-OP>

@@ -44,8 +44,8 @@ public class HistoryTextArea extends JTextArea
 	//{{{ HistoryTextArea constructor
 	public HistoryTextArea(String name)
 	{
-		super(3,15);
-		controller = new HistoryText(this,name);
+		super(0,15);
+		;
 		setFocusTraversalKeys(
 			KeyboardFocusManager.FORWARD_TRAVERSAL_KEYS,
 			Collections.singleton(

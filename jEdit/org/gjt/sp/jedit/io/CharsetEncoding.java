@@ -44,7 +44,7 @@ public class CharsetEncoding implements Encoding
 	//{{{ Constructor
 	public CharsetEncoding(String name)
 	{
-		body = Charset.forName(name);
+		body = null;
 	} //}}}
 
 	//{{{ implements Encoding
@@ -54,22 +54,22 @@ public class CharsetEncoding implements Encoding
 		// as an exception instead of replacing with "\uFFFD".
 		// The form "InputStreamReader(in, encoding)" seemed to use
 		// CodingErrorAction.REPLACE internally.
-		return new InputStreamReader(in, body.newDecoder());
+		return null;
 	}
 
 	public Writer getTextWriter(OutputStream out) throws IOException
 	{
 		// Pass the encoder explicitly because of same reason
 		// in getTextReader();
-		return new OutputStreamWriter(out, body.newEncoder());
+		return null;
 	}
 
 	public Reader getPermissiveTextReader(InputStream in) throws IOException
 	{
 		// Use REPLACE action to indicate where the coding error
 		// happened by the replacement character "\uFFFD".
-		CharsetDecoder permissive = body.newDecoder();
-		permissive.onMalformedInput(CodingErrorAction.REPLACE);
+		CharsetDecoder permissive = null;
+		;
 		permissive.onUnmappableCharacter(CodingErrorAction.REPLACE);
 		return new InputStreamReader(in, permissive);
 	}

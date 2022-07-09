@@ -1,0 +1,12 @@
+1:LVR:0:POS:org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):69:0 |==> 1
+2:LVR:0:NEG:org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):69:0 |==> -1
+3:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):69:jjtGetNumChildren() > 0 |==> jjtGetNumChildren() != 0
+4:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):69:jjtGetNumChildren() > 0 |==> jjtGetNumChildren() >= 0
+5:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):69:jjtGetNumChildren() > 0 |==> false
+6:LVR:0:POS:org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):71:0 |==> 1
+7:LVR:0:NEG:org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):71:0 |==> -1
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):79:typeNode != null |==> true
+9:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):79:(typeNode != null) && initializer instanceof BSHArrayInitializer |==> (typeNode != null) == initializer instanceof BSHArrayInitializer
+10:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):80:(typeNode != null) && initializer instanceof BSHArrayInitializer |==> false
+11:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):79:(typeNode != null) && initializer instanceof BSHArrayInitializer |==> (typeNode != null)
+12:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.BSHVariableDeclarator@eval(BSHType,CallStack,Interpreter):80:(typeNode != null) && initializer instanceof BSHArrayInitializer |==> initializer instanceof BSHArrayInitializer

@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.NameSpace)>:<DEFAULT>:org.gjt.sp.jedit.bsh.NameSpace:70:new NameSpace((BshClassManager)null, "Called from compiled Java code.") |==> null
+2:LVR:TRUE:FALSE:org.gjt.sp.jedit.bsh.NameSpace:72:true |==> false

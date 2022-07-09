@@ -1,0 +1,40 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):22:modifiers == null |==> false
+2:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):23:modifiers = new Hashtable() |==> <NO-OP>
+3:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):25:modifiers.put(name, Void.TYPE) |==> null
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):26:existing != null |==> true
+5:LVR:0:POS:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):29:0 |==> 1
+6:LVR:0:NEG:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):29:0 |==> -1
+7:COR:hasModifier("private"):TRUE:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):30:hasModifier("private") |==> false
+8:COR:hasModifier("private"):FALSE:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):30:hasModifier("private") |==> true
+9:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):30:++count |==> <NO-OP>
+10:COR:hasModifier("protected"):TRUE:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):31:hasModifier("protected") |==> false
+11:COR:hasModifier("protected"):FALSE:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):31:hasModifier("protected") |==> true
+12:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):31:++count |==> <NO-OP>
+13:COR:hasModifier("public"):TRUE:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):32:hasModifier("public") |==> false
+14:COR:hasModifier("public"):FALSE:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):32:hasModifier("public") |==> true
+15:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):32:++count |==> <NO-OP>
+16:LVR:POS:0:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):33:1 |==> 0
+17:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):33:1 |==> -1
+18:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):33:count > 1 |==> count != 1
+19:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):33:count > 1 |==> count >= 1
+20:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):33:count > 1 |==> false
+21:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):40:validateForClass() |==> <NO-OP>
+22:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):41:break; |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):43:validateForMethod() |==> <NO-OP>
+24:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):44:break; |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):46:validateForField() |==> <NO-OP>
+26:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@addModifier(int,java.lang.String):47:break; |==> <NO-OP>
+27:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.Modifiers@hasModifier(java.lang.String):53:modifiers == null |==> false
+28:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@hasModifier(java.lang.String):54:modifiers = new Hashtable() |==> <NO-OP>
+29:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.Modifiers@hasModifier(java.lang.String):55:modifiers.get(name) != null |==> true
+30:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForMethod():61:insureNo("volatile", "Method") |==> <NO-OP>
+31:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForMethod():62:insureNo("transient", "Method") |==> <NO-OP>
+32:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForField():66:insureNo("synchronized", "Variable") |==> <NO-OP>
+33:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForField():67:insureNo("native", "Variable") |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForField():68:insureNo("abstract", "Variable") |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForClass():72:validateForMethod() |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForClass():73:insureNo("native", "Class") |==> <NO-OP>
+37:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Modifiers@validateForClass():74:insureNo("synchronized", "Class") |==> <NO-OP>
+38:COR:hasModifier(modifier):TRUE:org.gjt.sp.jedit.bsh.Modifiers@insureNo(java.lang.String,java.lang.String):79:hasModifier(modifier) |==> false
+39:COR:hasModifier(modifier):FALSE:org.gjt.sp.jedit.bsh.Modifiers@insureNo(java.lang.String,java.lang.String):79:hasModifier(modifier) |==> true
+40:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Modifiers@toString():86:"Modifiers: " + modifiers |==> null

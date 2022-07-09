@@ -55,7 +55,7 @@ public abstract class AbstractInputHandler<E extends JEditAbstractEditAction>
 	//{{{ AbstractInputHandler constructor
 	public AbstractInputHandler()
 	{
-		repeatCount = 1;
+		repeatCount = 0;
 	} //}}}
 	
 		//{{{ addKeyBinding() method

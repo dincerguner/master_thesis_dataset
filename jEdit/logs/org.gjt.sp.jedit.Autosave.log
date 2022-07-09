@@ -1,0 +1,39 @@
+1:LVR:0:POS:org.gjt.sp.jedit.Autosave@setInterval(int):41:0 |==> 1
+2:LVR:0:NEG:org.gjt.sp.jedit.Autosave@setInterval(int):41:0 |==> -1
+3:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.Autosave@setInterval(int):41:interval == 0 |==> interval <= 0
+4:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.Autosave@setInterval(int):41:interval == 0 |==> interval >= 0
+5:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.Autosave@setInterval(int):41:interval == 0 |==> false
+6:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.Autosave@setInterval(int):43:timer != null |==> true
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Autosave@setInterval(int):45:timer.stop() |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Autosave@setInterval(int):46:timer = null |==> <NO-OP>
+9:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.Autosave@setInterval(int):49:return; |==> <NO-OP>
+10:LVR:POS:0:org.gjt.sp.jedit.Autosave@setInterval(int):52:1000 |==> 0
+11:LVR:POS:NEG:org.gjt.sp.jedit.Autosave@setInterval(int):52:1000 |==> -1000
+12:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Autosave@setInterval(int):52:interval *= 1000 |==> <NO-OP>
+13:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.Autosave@setInterval(int):54:timer == null |==> false
+14:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Autosave@setInterval(int):56:timer = new Timer(interval, new Autosave()) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Autosave@setInterval(int):57:timer.start() |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Autosave@setInterval(int):60:timer.setDelay(interval) |==> <NO-OP>
+17:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.Autosave@stop():66:timer != null |==> true
+18:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Autosave@stop():67:timer.stop() |==> <NO-OP>
+19:LVR:0:POS:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):73:0 |==> 1
+20:LVR:0:NEG:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):73:0 |==> -1
+21:LVR:0:POS:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):73:0 |==> 1
+22:LVR:0:NEG:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):73:0 |==> -1
+23:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):73:jEdit.getIntegerProperty("autosave", 0) == 0 |==> jEdit.getIntegerProperty("autosave", 0) <= 0
+24:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):73:jEdit.getIntegerProperty("autosave", 0) == 0 |==> jEdit.getIntegerProperty("autosave", 0) >= 0
+25:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):73:jEdit.getIntegerProperty("autosave", 0) == 0 |==> false
+26:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):74:return; |==> <NO-OP>
+27:LVR:0:POS:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):86:0 |==> 1
+28:LVR:0:NEG:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):86:0 |==> -1
+29:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):86:jEdit.getViewCount() != 0 |==> jEdit.getViewCount() < 0
+30:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):86:jEdit.getViewCount() != 0 |==> jEdit.getViewCount() > 0
+31:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):86:jEdit.getViewCount() != 0 |==> true
+32:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):86:jEdit.getViewCount() != 0 && PerspectiveManager.isPerspectiveDirty() |==> jEdit.getViewCount() != 0 == PerspectiveManager.isPerspectiveDirty()
+33:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):87:jEdit.getViewCount() != 0 && PerspectiveManager.isPerspectiveDirty() |==> false
+34:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):86:jEdit.getViewCount() != 0 && PerspectiveManager.isPerspectiveDirty() |==> jEdit.getViewCount() != 0
+35:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):87:jEdit.getViewCount() != 0 && PerspectiveManager.isPerspectiveDirty() |==> PerspectiveManager.isPerspectiveDirty()
+36:LVR:FALSE:TRUE:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):89:false |==> true
+37:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):89:PerspectiveManager.setPerspectiveDirty(false) |==> <NO-OP>
+38:LVR:TRUE:FALSE:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):90:true |==> false
+39:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Autosave@actionPerformed(java.awt.event.ActionEvent):90:PerspectiveManager.savePerspective(true) |==> <NO-OP>

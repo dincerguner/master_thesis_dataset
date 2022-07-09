@@ -66,7 +66,7 @@ class BSHVariableDeclarator extends SimpleNode
 		// null value means no value
 		Object value = null;
 
-        if ( jjtGetNumChildren() > 0 ) 
+        if ( jjtGetNumChildren() > 1 ) 
 		{
             SimpleNode initializer = (SimpleNode)jjtGetChild(0);
 

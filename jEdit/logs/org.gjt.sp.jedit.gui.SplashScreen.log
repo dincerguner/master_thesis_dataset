@@ -1,0 +1,21 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():39:setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR)) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():40:setBackground(Color.white) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():42:setFont(defaultFont) |==> <NO-OP>
+4:EVR:<METHOD_INVOCATION(java.awt.FontMetrics)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():43:getFontMetrics(defaultFont) |==> null
+5:EVR:<METHOD_INVOCATION(java.awt.Image)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():44:getToolkit().getImage(getClass().getResource("/org/gjt/sp/jedit/icons/splash.png")) |==> null
+6:EVR:<NEW_CLASS(java.awt.MediaTracker)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():46:new MediaTracker(this) |==> null
+7:LVR:0:POS:org.gjt.sp.jedit.gui.SplashScreen@<init>():47:0 |==> 1
+8:LVR:0:NEG:org.gjt.sp.jedit.gui.SplashScreen@<init>():47:0 |==> -1
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():47:tracker.addImage(image, 0) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():51:tracker.waitForAll() |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():55:Log.log(Log.ERROR, this, e) |==> <NO-OP>
+12:EVR:<METHOD_INVOCATION(java.awt.Dimension)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():57:getToolkit().getScreenSize() |==> null
+13:EVR:<NEW_CLASS(javax.swing.JWindow)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():58:new JWindow() |==> null
+14:EVR:<METHOD_INVOCATION(java.awt.GraphicsEnvironment)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():59:GraphicsEnvironment.getLocalGraphicsEnvironment() |==> null
+15:EVR:<METHOD_INVOCATION(java.awt.GraphicsDevice[])>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():60:ge.getScreenDevices() |==> null
+16:LVR:0:POS:org.gjt.sp.jedit.gui.SplashScreen@<init>():61:0 |==> 1
+17:LVR:0:NEG:org.gjt.sp.jedit.gui.SplashScreen@<init>():61:0 |==> -1
+18:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.SplashScreen@<init>():62:gd != null |==> true
+19:EVR:<METHOD_INVOCATION(java.awt.GraphicsConfiguration)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():64:gd.getDefaultConfiguration() |==> null
+20:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.SplashScreen@<init>():65:gconf != null |==> true
+21:EVR:<METHOD_INVOCATION(java.awt.Rectangle)>:<DEFAULT>:org.gjt.sp.jedit.gui.SplashScreen@<init>():67:gconf.getBounds() |==> null

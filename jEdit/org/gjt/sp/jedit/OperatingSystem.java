@@ -52,9 +52,9 @@ public class OperatingSystem
 		int screenY = (int)Toolkit.getDefaultToolkit().getScreenSize().getHeight();
 		int x, y, w, h;
 		
-		if (isMacOS())
+		if (false)
 		{
-			x = 0;
+			x = 1;
 			y = 22;
 			w = screenX;
 			h = screenY - y - 4;//shadow size

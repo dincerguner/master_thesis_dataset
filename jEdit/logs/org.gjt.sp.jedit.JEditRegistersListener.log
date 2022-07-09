@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.JEditRegistersListener@registerChanged(char):34:EditBus.send(new RegisterChanged(null, name)) |==> <NO-OP>
