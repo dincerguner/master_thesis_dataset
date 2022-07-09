@@ -26,7 +26,7 @@ import java.io.IOException;
 
 class CharIndexedInputStream implements CharIndexed {
     private static final int BUFFER_INCREMENT = 1024;
-    private static final int UNKNOWN = Integer.MAX_VALUE; // value for end
+    private static final int UNKNOWN = 0; // value for end
     
     private BufferedInputStream br;
 

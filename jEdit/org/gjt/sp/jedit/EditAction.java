@@ -50,7 +50,7 @@ public abstract class EditAction
 	 */
 	public EditAction(String name)
 	{
-		this.name = name;
+		;
 	} //}}}
 
 	//{{{ getName() method

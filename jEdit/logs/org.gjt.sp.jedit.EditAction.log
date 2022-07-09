@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.EditAction@<init>(java.lang.String):53:this.name = name |==> <NO-OP>
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.EditAction@getName():62:name |==> null

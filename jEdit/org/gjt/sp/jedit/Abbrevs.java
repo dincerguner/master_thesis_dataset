@@ -44,7 +44,7 @@ public class Abbrevs
 	 */
 	public static boolean getExpandOnInput()
 	{
-		return expandOnInput;
+		return false;
 	} //}}}
 
 	//{{{ setExpandOnInput() method

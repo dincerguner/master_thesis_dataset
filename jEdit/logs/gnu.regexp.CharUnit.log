@@ -1,0 +1,24 @@
+1:STD:<ASSIGN>:<NO-OP>:gnu.regexp.CharIndexedStringBuffer@<init>(java.lang.StringBuffer,int):27:s = str |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:gnu.regexp.CharIndexedStringBuffer@<init>(java.lang.StringBuffer,int):28:anchor = index |==> <NO-OP>
+3:AOR:+(int,int):%(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):32:anchor + index |==> anchor % index
+4:AOR:+(int,int):*(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):32:anchor + index |==> anchor * index
+5:AOR:+(int,int):-(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):32:anchor + index |==> anchor - index
+6:AOR:+(int,int):/(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):32:anchor + index |==> anchor / index
+7:ROR:<(int,int):!=(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:pos < s.length() |==> pos != s.length()
+8:ROR:<(int,int):<=(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:pos < s.length() |==> pos <= s.length()
+9:ROR:<(int,int):FALSE(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:pos < s.length() |==> false
+10:LVR:0:POS:gnu.regexp.CharIndexedStringBuffer@charAt(int):33:0 |==> 1
+11:LVR:0:NEG:gnu.regexp.CharIndexedStringBuffer@charAt(int):33:0 |==> -1
+12:ROR:>=(int,int):==(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:pos >= 0 |==> pos == 0
+13:ROR:>=(int,int):>(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:pos >= 0 |==> pos > 0
+14:ROR:>=(int,int):TRUE(int,int):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:pos >= 0 |==> true
+15:COR:&&(boolean,boolean):==(boolean,boolean):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:(pos < s.length()) && (pos >= 0) |==> (pos < s.length()) == (pos >= 0)
+16:COR:&&(boolean,boolean):FALSE(boolean,boolean):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:(pos < s.length()) && (pos >= 0) |==> false
+17:COR:&&(boolean,boolean):LHS(boolean,boolean):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:(pos < s.length()) && (pos >= 0) |==> (pos < s.length())
+18:COR:&&(boolean,boolean):RHS(boolean,boolean):gnu.regexp.CharIndexedStringBuffer@charAt(int):33:(pos < s.length()) && (pos >= 0) |==> (pos >= 0)
+19:ROR:<(int,int):!=(int,int):gnu.regexp.CharIndexedStringBuffer@isValid():37:anchor < s.length() |==> anchor != s.length()
+20:ROR:<(int,int):<=(int,int):gnu.regexp.CharIndexedStringBuffer@isValid():37:anchor < s.length() |==> anchor <= s.length()
+21:ROR:<(int,int):FALSE(int,int):gnu.regexp.CharIndexedStringBuffer@isValid():37:anchor < s.length() |==> false
+22:ROR:<(int,int):!=(int,int):gnu.regexp.CharIndexedStringBuffer@move(int):41:(anchor += index) < s.length() |==> (anchor += index) != s.length()
+23:ROR:<(int,int):<=(int,int):gnu.regexp.CharIndexedStringBuffer@move(int):41:(anchor += index) < s.length() |==> (anchor += index) <= s.length()
+24:ROR:<(int,int):FALSE(int,int):gnu.regexp.CharIndexedStringBuffer@move(int):41:(anchor += index) < s.length() |==> false

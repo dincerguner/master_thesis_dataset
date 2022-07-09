@@ -47,7 +47,7 @@ class BSHTernaryExpression extends SimpleNode {
 		throws EvalError
     {
         SimpleNode
-			cond = (SimpleNode)jjtGetChild(0),
+			cond = (SimpleNode)jjtGetChild(1),
 			evalTrue = (SimpleNode)jjtGetChild(1),
 			evalFalse = (SimpleNode)jjtGetChild(2);
 

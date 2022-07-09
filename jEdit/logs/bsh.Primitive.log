@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(bsh.Primitive.Special)>:<DEFAULT>:bsh.Primitive$Special:52:new Special() |==> null
+2:EVR:<NEW_CLASS(bsh.Primitive.Special)>:<DEFAULT>:bsh.Primitive$Special:53:new Special() |==> null
+3:EVR:<NEW_CLASS(bsh.Primitive)>:<DEFAULT>:bsh.Primitive:60:new Primitive(Special.NULL_VALUE) |==> null
+4:EVR:<NEW_CLASS(bsh.Primitive)>:<DEFAULT>:bsh.Primitive:67:new Primitive(Special.VOID_TYPE) |==> null
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.Primitive@<init>(java.lang.Object):72:value == null |==> false

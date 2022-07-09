@@ -1,0 +1,10 @@
+1:LVR:0:POS:org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:0 |==> 1
+2:LVR:0:NEG:org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:0 |==> -1
+3:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:offset == 0 |==> offset <= 0
+4:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:offset == 0 |==> offset >= 0
+5:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:offset == 0 |==> false
+6:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:tokens.id == Token.END |==> false
+7:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:offset == 0 && tokens.id == Token.END |==> offset == 0 == (tokens.id == Token.END)
+8:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:offset == 0 && tokens.id == Token.END |==> false
+9:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:offset == 0 && tokens.id == Token.END |==> offset == 0
+10:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.TextUtilities@getTokenAtOffset(Token,int):56:offset == 0 && tokens.id == Token.END |==> tokens.id == Token.END

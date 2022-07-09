@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.EditServer@<init>(java.lang.String):64:true |==> false
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.EditServer@<init>(java.lang.String):64:setDaemon(true) |==> <NO-OP>

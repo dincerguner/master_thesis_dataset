@@ -1,0 +1,4 @@
+1:COR:&&(boolean,boolean):==(boolean,boolean):bsh.Reflect@invokeObjectMethod(Interpreter,java.lang.Object,java.lang.String,java.lang.Object[],SimpleNode):82:object instanceof This && !showThisMethod(methodName) |==> object instanceof This == !showThisMethod(methodName)
+2:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.Reflect@invokeObjectMethod(Interpreter,java.lang.Object,java.lang.String,java.lang.Object[],SimpleNode):82:object instanceof This && !showThisMethod(methodName) |==> false
+3:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.Reflect@invokeObjectMethod(Interpreter,java.lang.Object,java.lang.String,java.lang.Object[],SimpleNode):82:object instanceof This && !showThisMethod(methodName) |==> object instanceof This
+4:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.Reflect@invokeObjectMethod(Interpreter,java.lang.Object,java.lang.String,java.lang.Object[],SimpleNode):82:object instanceof This && !showThisMethod(methodName) |==> !showThisMethod(methodName)

@@ -49,7 +49,7 @@ public class Primitive implements ParserConstants, java.io.Serializable
     {
         private Special() { }
 
-        public static final Special NULL_VALUE = new Special();
+        public static final Special NULL_VALUE = null;
         public static final Special VOID_TYPE = new Special();
     }
 
