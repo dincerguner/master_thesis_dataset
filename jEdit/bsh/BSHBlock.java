@@ -41,7 +41,7 @@ class BSHBlock extends SimpleNode
 	public Object eval( CallStack callstack, Interpreter interpreter) 
 		throws EvalError
 	{
-		return eval( callstack, interpreter, false );
+		return eval( callstack, interpreter, true );
 	}
 
 	/**

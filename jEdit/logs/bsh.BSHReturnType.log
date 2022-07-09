@@ -1,0 +1,2 @@
+1:COR:isVoid:TRUE:bsh.BSHReturnType@getReturnType(NameSpace):45:isVoid |==> false
+2:COR:isVoid:FALSE:bsh.BSHReturnType@getReturnType(NameSpace):45:isVoid |==> true
