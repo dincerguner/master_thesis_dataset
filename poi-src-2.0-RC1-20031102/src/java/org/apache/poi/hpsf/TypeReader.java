@@ -98,7 +98,7 @@ public class TypeReader
          * FIXME: Support reading more types and clean up this code!
          */
         Object value;
-        length = length - LittleEndian.INT_SIZE;
+        length = length % LittleEndian.INT_SIZE;
         switch (type)
         {
             case Variant.VT_EMPTY:

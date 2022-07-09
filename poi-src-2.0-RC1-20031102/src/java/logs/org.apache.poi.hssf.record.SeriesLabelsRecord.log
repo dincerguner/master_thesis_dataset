@@ -1,0 +1,27 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.SeriesLabelsRecord:75:1 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord:75:1 |==> -1
+3:LVR:POS:0:org.apache.poi.hssf.record.SeriesLabelsRecord:76:2 |==> 0
+4:LVR:POS:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord:76:2 |==> -2
+5:LVR:POS:0:org.apache.poi.hssf.record.SeriesLabelsRecord:77:4 |==> 0
+6:LVR:POS:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord:77:4 |==> -4
+7:LVR:POS:0:org.apache.poi.hssf.record.SeriesLabelsRecord:78:8 |==> 0
+8:LVR:POS:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord:78:8 |==> -8
+9:LVR:POS:0:org.apache.poi.hssf.record.SeriesLabelsRecord:79:16 |==> 0
+10:LVR:POS:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord:79:16 |==> -16
+11:LVR:POS:0:org.apache.poi.hssf.record.SeriesLabelsRecord:80:32 |==> 0
+12:LVR:POS:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord:80:32 |==> -32
+13:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@validateSid(short):126:id != sid |==> id < sid
+14:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@validateSid(short):126:id != sid |==> id > sid
+15:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@validateSid(short):126:id != sid |==> true
+16:LVR:0:POS:org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):135:0 |==> 1
+17:LVR:0:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):135:0 |==> -1
+18:LVR:0:POS:org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:0 |==> 1
+19:LVR:0:NEG:org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:0 |==> -1
+20:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 |==> pos % 0
+21:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 |==> pos * 0
+22:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 |==> pos - 0
+23:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 |==> pos / 0
+24:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 + offset |==> (pos + 0) % offset
+25:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 + offset |==> (pos + 0) * offset
+26:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 + offset |==> pos + 0 - offset
+27:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.SeriesLabelsRecord@fillFields(byte[],short,int):136:pos + 0 + offset |==> (pos + 0) / offset

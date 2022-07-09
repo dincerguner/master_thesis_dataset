@@ -117,7 +117,7 @@ public class SeriesChartGroupIndexRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a SeriesChartGroupIndex record");
         }

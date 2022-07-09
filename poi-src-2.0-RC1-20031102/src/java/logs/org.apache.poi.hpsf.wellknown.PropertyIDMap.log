@@ -1,0 +1,55 @@
+1:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.poi.hpsf.wellknown.PropertyIDMap@put(int,java.lang.String):248:put(new Integer(id), idString) |==> null
+2:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.poi.hpsf.wellknown.PropertyIDMap@get(int):262:get(new Integer(id)) |==> null
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():272:summaryInformationProperties == null |==> false
+4:LVR:POS:0:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():274:18 |==> 0
+5:LVR:POS:NEG:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():274:18 |==> -18
+6:LVR:POS:0:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():274:1.0 |==> 0.0
+7:LVR:POS:NEG:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():274:1.0 |==> -1.0
+8:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():275:m.put(PID_TITLE, "PID_TITLE") |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():276:m.put(PID_SUBJECT, "PID_SUBJECT") |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():277:m.put(PID_AUTHOR, "PID_AUTHOR") |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():278:m.put(PID_KEYWORDS, "PID_KEYWORDS") |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():279:m.put(PID_COMMENTS, "PID_COMMENTS") |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():280:m.put(PID_TEMPLATE, "PID_TEMPLATE") |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():281:m.put(PID_LASTAUTHOR, "PID_LASTAUTHOR") |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():282:m.put(PID_REVNUMBER, "PID_REVNUMBER") |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():283:m.put(PID_EDITTIME, "PID_EDITTIME") |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():284:m.put(PID_LASTPRINTED, "PID_LASTPRINTED") |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():285:m.put(PID_CREATE_DTM, "PID_CREATE_DTM") |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():286:m.put(PID_LASTSAVE_DTM, "PID_LASTSAVE_DTM") |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():287:m.put(PID_PAGECOUNT, "PID_PAGECOUNT") |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():288:m.put(PID_WORDCOUNT, "PID_WORDCOUNT") |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():289:m.put(PID_CHARCOUNT, "PID_CHARCOUNT") |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():290:m.put(PID_THUMBNAIL, "PID_THUMBNAIL") |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():291:m.put(PID_APPNAME, "PID_APPNAME") |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():292:m.put(PID_SECURITY, "PID_SECURITY") |==> <NO-OP>
+26:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():293:summaryInformationProperties = m |==> <NO-OP>
+27:EVR:<IDENTIFIER(org.apache.poi.hpsf.wellknown.PropertyIDMap)>:<DEFAULT>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getSummaryInformationProperties():295:summaryInformationProperties |==> null
+28:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():308:documentSummaryInformationProperties == null |==> false
+29:LVR:POS:0:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():310:17 |==> 0
+30:LVR:POS:NEG:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():310:17 |==> -17
+31:LVR:POS:0:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():310:1.0 |==> 0.0
+32:LVR:POS:NEG:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():310:1.0 |==> -1.0
+33:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():311:m.put(PID_DICTIONARY, "PID_DICTIONARY") |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():312:m.put(PID_CODEPAGE, "PID_CODEPAGE") |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():313:m.put(PID_CATEGORY, "PID_CATEGORY") |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():314:m.put(PID_PRESFORMAT, "PID_PRESFORMAT") |==> <NO-OP>
+37:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():315:m.put(PID_BYTECOUNT, "PID_BYTECOUNT") |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():316:m.put(PID_LINECOUNT, "PID_LINECOUNT") |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():317:m.put(PID_PARCOUNT, "PID_PARCOUNT") |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():318:m.put(PID_SLIDECOUNT, "PID_SLIDECOUNT") |==> <NO-OP>
+41:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():319:m.put(PID_NOTECOUNT, "PID_NOTECOUNT") |==> <NO-OP>
+42:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():320:m.put(PID_HIDDENCOUNT, "PID_HIDDENCOUNT") |==> <NO-OP>
+43:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():321:m.put(PID_MMCLIPCOUNT, "PID_MMCLIPCOUNT") |==> <NO-OP>
+44:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():322:m.put(PID_SCALE, "PID_SCALE") |==> <NO-OP>
+45:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():323:m.put(PID_HEADINGPAIR, "PID_HEADINGPAIR") |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():324:m.put(PID_DOCPARTS, "PID_DOCPARTS") |==> <NO-OP>
+47:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():325:m.put(PID_MANAGER, "PID_MANAGER") |==> <NO-OP>
+48:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():326:m.put(PID_COMPANY, "PID_COMPANY") |==> <NO-OP>
+49:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():327:m.put(PID_LINKSDIRTY, "PID_LINKSDIRTY") |==> <NO-OP>
+50:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():328:documentSummaryInformationProperties = m |==> <NO-OP>
+51:EVR:<IDENTIFIER(org.apache.poi.hpsf.wellknown.PropertyIDMap)>:<DEFAULT>:org.apache.poi.hpsf.wellknown.PropertyIDMap@getDocumentSummaryInformationProperties():330:documentSummaryInformationProperties |==> null
+52:EVR:<METHOD_INVOCATION(org.apache.poi.hpsf.wellknown.PropertyIDMap)>:<DEFAULT>:org.apache.poi.hpsf.wellknown.PropertyIDMap@main(java.lang.String[]):340:getSummaryInformationProperties() |==> null
+53:EVR:<METHOD_INVOCATION(org.apache.poi.hpsf.wellknown.PropertyIDMap)>:<DEFAULT>:org.apache.poi.hpsf.wellknown.PropertyIDMap@main(java.lang.String[]):341:getDocumentSummaryInformationProperties() |==> null
+54:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@main(java.lang.String[]):342:System.out.println("s1: " + s1) |==> <NO-OP>
+55:STD:<CALL>:<NO-OP>:org.apache.poi.hpsf.wellknown.PropertyIDMap@main(java.lang.String[]):343:System.out.println("s2: " + s2) |==> <NO-OP>

@@ -79,7 +79,7 @@ import org.apache.poi.util.LittleEndian;
 
 public class RecordFactory
 {
-    private static int           NUM_RECORDS = 10000;
+    private static int           NUM_RECORDS = 0;
     private static final Class[] records;
 
     static {

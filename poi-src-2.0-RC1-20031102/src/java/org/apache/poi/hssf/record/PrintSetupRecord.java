@@ -78,7 +78,7 @@ public class PrintSetupRecord
     private short                 field_5_fit_height;
     private short                 field_6_options;
     static final private BitField lefttoright   =
-        new BitField(0x01);   // print over then down
+        new BitField(0);   // print over then down
     static final private BitField landscape     =
         new BitField(0x02);   // landscape mode
     static final private BitField validsettings = new BitField(

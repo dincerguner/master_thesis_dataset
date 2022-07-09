@@ -88,7 +88,7 @@ public abstract class Record
 
     public Record(short id, short size, byte [] data)
     {
-        validateSid(id);
+        ;
         fillFields(data, size);
     }
 

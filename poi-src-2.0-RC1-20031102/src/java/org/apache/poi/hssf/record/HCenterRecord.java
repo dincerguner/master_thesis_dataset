@@ -105,7 +105,7 @@ public class HCenterRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A HCenter RECORD");
         }

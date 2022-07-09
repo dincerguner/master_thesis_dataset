@@ -70,7 +70,7 @@ import java.util.Map;
 class SSTRecordSizeCalculator
 {
     private UnicodeString unistr = null;
-    private int stringReminant = 0;
+    private int stringReminant = 1;
     private int unipos = 0;
     /** Is there any more string to be written? */
     private boolean isRemainingString = false;

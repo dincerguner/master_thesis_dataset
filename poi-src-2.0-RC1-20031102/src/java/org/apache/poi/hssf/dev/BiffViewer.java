@@ -89,7 +89,7 @@ public class BiffViewer {
      */
 
     public BiffViewer(String[] args) {
-        if (args.length > 0) {
+        if (args.length > 1) {
             filename = args[0];
         } else {
             System.out.println("BIFFVIEWER REQUIRES A FILENAME***");

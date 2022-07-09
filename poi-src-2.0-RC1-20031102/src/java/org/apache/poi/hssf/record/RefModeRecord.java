@@ -107,7 +107,7 @@ public class RefModeRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT An RefMode RECORD");
         }

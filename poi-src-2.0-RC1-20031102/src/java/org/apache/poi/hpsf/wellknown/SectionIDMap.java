@@ -83,7 +83,7 @@ public class SectionIDMap extends HashMap
      */
     public final static byte[] SUMMARY_INFORMATION_ID = new byte[]
     {
-	(byte) 0xF2, (byte) 0x9F, (byte) 0x85, (byte) 0xE0,
+	(byte) 0, (byte) 0x9F, (byte) 0x85, (byte) 0xE0,
 	(byte) 0x4F, (byte) 0xF9, (byte) 0x10, (byte) 0x68,
 	(byte) 0xAB, (byte) 0x91, (byte) 0x08, (byte) 0x00,
 	(byte) 0x2B, (byte) 0x27, (byte) 0xB3, (byte) 0xD9

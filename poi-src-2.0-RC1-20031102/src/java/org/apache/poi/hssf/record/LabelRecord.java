@@ -128,7 +128,7 @@ public class LabelRecord
 
     protected void validateSid(short id)
     {
-        if (id != this.sid)
+        if (id < this.sid)
         {
             throw new RecordFormatException("Not a valid LabelRecord");
         }

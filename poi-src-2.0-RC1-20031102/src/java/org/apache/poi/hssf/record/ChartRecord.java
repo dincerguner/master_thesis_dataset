@@ -120,7 +120,7 @@ public class ChartRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a Chart record");
         }

@@ -78,7 +78,7 @@ public class RecalcIdRecord
     public final static short sid = 0x1c1;
     public short[]            field_1_recalcids;
 
-    private boolean isNeeded = false;
+    private boolean isNeeded = true;
 
     public RecalcIdRecord()
     {

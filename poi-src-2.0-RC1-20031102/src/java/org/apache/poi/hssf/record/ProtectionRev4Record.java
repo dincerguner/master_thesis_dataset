@@ -106,7 +106,7 @@ public class ProtectionRev4Record
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A PROTECTION REV 4 RECORD");
         }

@@ -1,0 +1,19 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.FrameRecord:78:1 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.FrameRecord:78:1 |==> -1
+3:LVR:POS:0:org.apache.poi.hssf.record.FrameRecord:79:2 |==> 0
+4:LVR:POS:NEG:org.apache.poi.hssf.record.FrameRecord:79:2 |==> -2
+5:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.FrameRecord@validateSid(short):125:id != sid |==> id < sid
+6:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.FrameRecord@validateSid(short):125:id != sid |==> id > sid
+7:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.FrameRecord@validateSid(short):125:id != sid |==> true
+8:LVR:0:POS:org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):134:0 |==> 1
+9:LVR:0:NEG:org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):134:0 |==> -1
+10:LVR:0:POS:org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:0 |==> 1
+11:LVR:0:NEG:org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:0 |==> -1
+12:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 |==> pos % 0
+13:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 |==> pos * 0
+14:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 |==> pos - 0
+15:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 |==> pos / 0
+16:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 + offset |==> (pos + 0) % offset
+17:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 + offset |==> (pos + 0) * offset
+18:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 + offset |==> pos + 0 - offset
+19:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.FrameRecord@fillFields(byte[],short,int):135:pos + 0 + offset |==> (pos + 0) / offset

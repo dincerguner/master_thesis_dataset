@@ -1,0 +1,6 @@
+1:LVR:0:POS:org.apache.poi.hssf.record.ExtSSTInfoSubRecord@fillFields(byte[],short,int):107:0 |==> 1
+2:LVR:0:NEG:org.apache.poi.hssf.record.ExtSSTInfoSubRecord@fillFields(byte[],short,int):107:0 |==> -1
+3:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.ExtSSTInfoSubRecord@fillFields(byte[],short,int):107:0 + offset |==> 0 % offset
+4:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.ExtSSTInfoSubRecord@fillFields(byte[],short,int):107:0 + offset |==> 0 * offset
+5:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.ExtSSTInfoSubRecord@fillFields(byte[],short,int):107:0 + offset |==> 0 - offset
+6:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.ExtSSTInfoSubRecord@fillFields(byte[],short,int):107:0 + offset |==> 0 / offset

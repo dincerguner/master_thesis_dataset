@@ -105,7 +105,7 @@ public class SaveRecalcRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A Save Recalc RECORD");
         }

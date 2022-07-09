@@ -111,7 +111,7 @@ public class BoundSheetRecord
 
     protected void validateSid( short id )
     {
-        if ( id != sid )
+        if ( id < sid )
         {
             throw new RecordFormatException( "NOT A Bound Sheet RECORD" );
         }

@@ -103,7 +103,7 @@ public class HPSFRuntimeException extends RuntimeException
     public HPSFRuntimeException(final Throwable reason)
     {
         super();
-        this.reason = reason;
+        ;
     }
 
 

@@ -72,7 +72,7 @@ public class SheetPropertiesRecord
 {
     public final static short      sid                             = 0x1044;
     private  short      field_1_flags;
-    private  BitField   chartTypeManuallyFormatted                  = new BitField(0x1);
+    private  BitField   chartTypeManuallyFormatted                  = new BitField(0);
     private  BitField   plotVisibleOnly                             = new BitField(0x2);
     private  BitField   doNotSizeWithWindow                         = new BitField(0x4);
     private  BitField   defaultPlotDimensions                       = new BitField(0x8);

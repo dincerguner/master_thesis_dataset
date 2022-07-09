@@ -72,7 +72,7 @@ public class Thumbnail
      * <code>byte[]</code> returned by {@link
      * SummaryInformation#getThumbnail()}</p>
      */
-    public static int OFFSET_CFTAG = 4;
+    public static int OFFSET_CFTAG = 0;
 
     /**
      * <p>Offset in bytes where the Clipboard Format starts in the

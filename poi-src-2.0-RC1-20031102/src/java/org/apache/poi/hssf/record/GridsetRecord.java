@@ -109,7 +109,7 @@ public class GridsetRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A Gridset RECORD");
         }

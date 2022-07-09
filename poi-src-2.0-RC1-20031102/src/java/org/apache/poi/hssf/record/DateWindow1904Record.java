@@ -106,7 +106,7 @@ public class DateWindow1904Record
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A 1904 RECORD");
         }

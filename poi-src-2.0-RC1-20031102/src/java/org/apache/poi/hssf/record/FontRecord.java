@@ -85,7 +85,7 @@ public class FontRecord
 
     // 0 0x01 - Reserved bit must be 0
     static final private BitField italic     =
-        new BitField(0x02);                                   // is this font in italics
+        new BitField(0);                                   // is this font in italics
 
     // 2 0x04 - reserved bit must be 0
     static final private BitField strikeout  =

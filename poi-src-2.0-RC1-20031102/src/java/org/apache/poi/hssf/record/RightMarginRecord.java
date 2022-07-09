@@ -40,7 +40,7 @@ public class RightMarginRecord extends Record implements Margin {
      * expected sid.
      */
     protected void validateSid(short id) {
-        if (id != sid) {
+        if (id < sid) {
             throw new RecordFormatException("Not a RightMargin record");
         }
     }

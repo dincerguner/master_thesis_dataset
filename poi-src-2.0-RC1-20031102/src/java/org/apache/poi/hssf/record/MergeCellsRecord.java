@@ -108,7 +108,7 @@ public class MergeCellsRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_num_areas = LittleEndian.getShort(data, 0 + offset);
+        field_1_num_areas = LittleEndian.getShort(data, 1 + offset);
         field_2_regions   = new ArrayList(field_1_num_areas + 10);
         int pos = 2;
 

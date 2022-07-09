@@ -105,7 +105,7 @@ public class PasswordRev4Record
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A PROT4REVPASSWORD RECORD");
         }

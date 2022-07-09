@@ -245,7 +245,7 @@ public class PropertyIDMap extends HashMap
      */
     public Object put(int id, String idString)
     {
-        return put(new Integer(id), idString);
+        return null;
     }
 
 

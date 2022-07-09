@@ -1,0 +1,19 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.RowRecord:85:7 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.RowRecord:85:7 |==> -7
+3:LVR:POS:0:org.apache.poi.hssf.record.RowRecord:88:16 |==> 0
+4:LVR:POS:NEG:org.apache.poi.hssf.record.RowRecord:88:16 |==> -16
+5:LVR:POS:0:org.apache.poi.hssf.record.RowRecord:89:32 |==> 0
+6:LVR:POS:NEG:org.apache.poi.hssf.record.RowRecord:89:32 |==> -32
+7:LVR:POS:0:org.apache.poi.hssf.record.RowRecord:90:64 |==> 0
+8:LVR:POS:NEG:org.apache.poi.hssf.record.RowRecord:90:64 |==> -64
+9:LVR:POS:0:org.apache.poi.hssf.record.RowRecord:91:128 |==> 0
+10:LVR:POS:NEG:org.apache.poi.hssf.record.RowRecord:91:128 |==> -128
+11:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.RowRecord@validateSid(short):127:id != sid |==> id < sid
+12:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.RowRecord@validateSid(short):127:id != sid |==> id > sid
+13:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.RowRecord@validateSid(short):127:id != sid |==> true
+14:LVR:0:POS:org.apache.poi.hssf.record.RowRecord@fillFields(byte[],short,int):136:0 |==> 1
+15:LVR:0:NEG:org.apache.poi.hssf.record.RowRecord@fillFields(byte[],short,int):136:0 |==> -1
+16:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.RowRecord@fillFields(byte[],short,int):136:0 + offset |==> 0 % offset
+17:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.RowRecord@fillFields(byte[],short,int):136:0 + offset |==> 0 * offset
+18:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.RowRecord@fillFields(byte[],short,int):136:0 + offset |==> 0 - offset
+19:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.RowRecord@fillFields(byte[],short,int):136:0 + offset |==> 0 / offset

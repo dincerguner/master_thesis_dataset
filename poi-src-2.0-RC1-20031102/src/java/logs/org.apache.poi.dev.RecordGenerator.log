@@ -1,0 +1,63 @@
+1:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):80:Class.forName("org.apache.poi.generator.FieldIterator") |==> <NO-OP>
+2:LVR:POS:0:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):82:4 |==> 0
+3:LVR:POS:NEG:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):82:4 |==> -4
+4:ROR:!=(int,int):<(int,int):org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):82:args.length != 4 |==> args.length < 4
+5:ROR:!=(int,int):>(int,int):org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):82:args.length != 4 |==> args.length > 4
+6:ROR:!=(int,int):TRUE(int,int):org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):82:args.length != 4 |==> true
+7:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):83:System.out.println("Usage:") |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):84:System.out.println("  java org.apache.poi.hssf.util.RecordGenerator RECORD_DEFINTIONS RECORD_STYLES DEST_SRC_PATH TEST_SRC_PATH") |==> <NO-OP>
+9:LVR:0:POS:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:0 |==> 1
+10:LVR:0:NEG:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:0 |==> -1
+11:LVR:POS:0:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:1 |==> 0
+12:LVR:POS:NEG:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:1 |==> -1
+13:LVR:POS:0:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:2 |==> 0
+14:LVR:POS:NEG:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:2 |==> -2
+15:LVR:POS:0:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:3 |==> 0
+16:LVR:POS:NEG:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:3 |==> -3
+17:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@main(java.lang.String[]):86:generateRecords(args[0], args[1], args[2], args[3]) |==> <NO-OP>
+18:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):102:new File(defintionsDir) |==> null
+19:LVR:0:POS:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):104:0 |==> 1
+20:LVR:0:NEG:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):104:0 |==> -1
+21:ROR:<(int,int):!=(int,int):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):104:i < definitionsFile.listFiles().length |==> i != definitionsFile.listFiles().length
+22:ROR:<(int,int):<=(int,int):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):104:i < definitionsFile.listFiles().length |==> i <= definitionsFile.listFiles().length
+23:ROR:<(int,int):FALSE(int,int):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):104:i < definitionsFile.listFiles().length |==> false
+24:EVR:<ARRAY_ACCESS(java.io.File)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):105:definitionsFile.listFiles()[i] |==> null
+25:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):107:file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml") |==> file.getName().endsWith("_record.xml") != file.getName().endsWith("_type.xml")
+26:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):107:file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml") |==> file.getName().endsWith("_record.xml")
+27:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):108:file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml") |==> file.getName().endsWith("_type.xml")
+28:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):107:file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml") |==> true
+29:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):106:file.isFile() && (file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml")) |==> file.isFile() == (file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml"))
+30:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):106:file.isFile() && (file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml")) |==> false
+31:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):106:file.isFile() && (file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml")) |==> file.isFile()
+32:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):107:file.isFile() && (file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml")) |==> (file.getName().endsWith("_record.xml") || file.getName().endsWith("_type.xml"))
+33:EVR:<METHOD_INVOCATION(javax.xml.parsers.DocumentBuilderFactory)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):113:DocumentBuilderFactory.newInstance() |==> null
+34:EVR:<METHOD_INVOCATION(javax.xml.parsers.DocumentBuilder)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):114:factory.newDocumentBuilder() |==> null
+35:EVR:<METHOD_INVOCATION(org.w3c.dom.Document)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):115:builder.parse(file) |==> null
+36:EVR:<METHOD_INVOCATION(org.w3c.dom.Element)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):116:document.getDocumentElement() |==> null
+37:LVR:0:POS:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):117:0 |==> 1
+38:LVR:0:NEG:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):117:0 |==> -1
+39:LVR:0:POS:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):118:0 |==> 1
+40:LVR:0:NEG:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):118:0 |==> -1
+41:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):119:record.getAttributes().getNamedItem("name").getNodeValue() |==> null
+42:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):120:record.getAttributes().getNamedItem("package").getNodeValue() |==> null
+43:STD:<ASSIGN>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):121:packageName = packageName.replace('.', '/') |==> <NO-OP>
+44:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):124:destSrcPathDir + "/" + packageName |==> null
+45:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):125:new File(destinationPath) |==> null
+46:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):126:destinationPathFile.mkdirs() |==> <NO-OP>
+47:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):127:destinationPath + "/" + recordName + suffix + ".java" |==> null
+48:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):128:new String[]{"-in", file.getAbsolutePath(), "-xsl", recordStyleDir + "/" + extendstg.toLowerCase() + ".xsl", "-out", destinationFilepath, "-TEXT"} |==> null
+49:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):132:org.apache.xalan.xslt.Process.main(args) |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):133:System.out.println("Generated " + suffix + ": " + destinationFilepath) |==> <NO-OP>
+51:STD:<ASSIGN>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):136:destinationPath = testSrcPathDir + "/" + packageName |==> <NO-OP>
+52:STD:<ASSIGN>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):137:destinationPathFile = new File(destinationPath) |==> <NO-OP>
+53:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):138:destinationPathFile.mkdirs() |==> <NO-OP>
+54:STD:<ASSIGN>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):139:destinationFilepath = destinationPath + "/Test" + recordName + suffix + ".java" |==> <NO-OP>
+55:LVR:FALSE:TRUE:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):140:false |==> true
+56:ROR:==(boolean,boolean):FALSE(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):140:new File(destinationFilepath).exists() == false |==> false
+57:ROR:==(boolean,boolean):LHS(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):140:new File(destinationFilepath).exists() == false |==> new File(destinationFilepath).exists()
+58:ROR:==(boolean,boolean):RHS(boolean,boolean):org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):140:new File(destinationFilepath).exists() == false |==> false
+59:EVR:<PARENTHESIZED(java.lang.String)>:<DEFAULT>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):141:(recordStyleDir + "/" + extendstg.toLowerCase() + "_test.xsl") |==> null
+60:STD:<ASSIGN>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):142:args = new String[]{"-in", file.getAbsolutePath(), "-xsl", temp, "-out", destinationFilepath, "-TEXT"} |==> <NO-OP>
+61:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):146:org.apache.xalan.xslt.Process.main(args) |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):147:System.out.println("Generated test: " + destinationFilepath) |==> <NO-OP>
+63:STD:<CALL>:<NO-OP>:org.apache.poi.dev.RecordGenerator@generateRecords(java.lang.String,java.lang.String,java.lang.String,java.lang.String):149:System.out.println("Skipped test generation: " + destinationFilepath) |==> <NO-OP>

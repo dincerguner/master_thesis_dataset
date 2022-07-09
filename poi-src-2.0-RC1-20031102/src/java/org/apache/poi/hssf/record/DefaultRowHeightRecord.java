@@ -108,7 +108,7 @@ public class DefaultRowHeightRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A DefaultRowHeight RECORD");
         }
