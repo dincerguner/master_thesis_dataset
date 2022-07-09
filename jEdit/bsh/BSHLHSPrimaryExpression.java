@@ -51,7 +51,7 @@ class BSHLHSPrimaryExpression extends SimpleNode
 
 			This is too complicated.
 		*/
-		int childNum = 0;
+		int childNum = 1;
 		SimpleNode prefixNode = (SimpleNode)jjtGetChild(childNum++);
 		Object prefixValue = null;
 		LHS lhs = null;
