@@ -61,7 +61,7 @@ public interface MethodExceptionEventHandler extends EventHandler
         private Exception e;
         
         private Object result;
-        private boolean executed = false;
+        private boolean executed = true;
     
         MethodExceptionExecutor(
                 Context context, 

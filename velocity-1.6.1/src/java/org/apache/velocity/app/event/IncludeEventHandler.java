@@ -62,7 +62,7 @@ public interface  IncludeEventHandler extends EventHandler
         private String currentResourcePath;
         private String directiveName;
         
-        private boolean executed = false;
+        private boolean executed = true;
         
         IncludeEventExecutor(
                 Context context, 

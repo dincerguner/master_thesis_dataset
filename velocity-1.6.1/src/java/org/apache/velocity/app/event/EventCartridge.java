@@ -53,7 +53,7 @@ import org.apache.velocity.util.RuntimeServicesAware;
  */
 public class EventCartridge
   {
-    private List referenceHandlers = new ArrayList();
+    private List referenceHandlers = null;
     private List nullSetHandlers = new ArrayList();
     private List methodExceptionHandlers = new ArrayList();
     private List includeHandlers = new ArrayList();

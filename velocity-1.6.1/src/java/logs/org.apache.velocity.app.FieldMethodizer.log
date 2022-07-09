@@ -1,0 +1,9 @@
+1:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.velocity.app.FieldMethodizer:65:new HashMap() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.velocity.app.FieldMethodizer@<init>(java.lang.String):85:addObject(s) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.velocity.app.FieldMethodizer@<init>(java.lang.String):89:System.err.println("Could not add " + s + " for field methodizing: " + e.getMessage()) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.velocity.app.FieldMethodizer@<init>(java.lang.Object):107:addObject(o) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.velocity.app.FieldMethodizer@<init>(java.lang.Object):111:System.err.println("Could not add " + o + " for field methodizing: " + e.getMessage()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.velocity.app.FieldMethodizer@addObject(java.lang.String):125:inspect(ClassUtils.getClass(s)) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.velocity.app.FieldMethodizer@addObject(java.lang.Object):136:inspect(o.getClass()) |==> <NO-OP>
+8:EVR:<TYPE_CAST(java.lang.reflect.Field)>:<DEFAULT>:org.apache.velocity.app.FieldMethodizer@get(java.lang.String):151:(Field)fieldHash.get(fieldName) |==> null
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.velocity.app.FieldMethodizer@get(java.lang.String):152:f != null |==> true

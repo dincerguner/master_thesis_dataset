@@ -93,7 +93,7 @@ public class XPathTool
                         Document doc)
     {
         //RuntimeSingleton.info("XPathTool::applyTo(String, Document)");
-        return new NodeList(XPathCache.getXPath(xpathSpec).applyTo( doc ), false);
+        return new NodeList(XPathCache.getXPath(xpathSpec).applyTo( doc ), true);
     }
 
     /**
