@@ -1,0 +1,8 @@
+1:LVR:POS:0:net.sourceforge.pbeans.MultiValueContainer@<init>():26:10 |==> 0
+2:LVR:POS:NEG:net.sourceforge.pbeans.MultiValueContainer@<init>():26:10 |==> -10
+3:LVR:POS:0:net.sourceforge.pbeans.MultiValueContainer@<init>():26:5 |==> 0
+4:LVR:POS:NEG:net.sourceforge.pbeans.MultiValueContainer@<init>():26:5 |==> -5
+5:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.MultiValueContainer@<init>():26:values = new Vector(10, 5) |==> <NO-OP>
+6:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:net.sourceforge.pbeans.MultiValueContainer@size():35:values.size() |==> 0
+7:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:net.sourceforge.pbeans.MultiValueContainer@iterator():44:values.iterator() |==> null
+8:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:net.sourceforge.pbeans.MultiValueContainer@add(java.lang.Object):52:values.add(aValue) |==> false

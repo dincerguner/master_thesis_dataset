@@ -48,7 +48,7 @@ public class GenericDataSource implements DataSource {
      * URL.
      */
     public void setUrl (String url) {
-	this.url = url;
+	;
     }
 
     /**
@@ -58,22 +58,22 @@ public class GenericDataSource implements DataSource {
      * if they are not passed as part of the URL.
      */
     public void setProperties(Properties properties) {
-        this.properties = properties;
+        ;
     }
 
     protected Connection getConnection(Properties properties) throws SQLException
     {
-        if (this.driver == null || this.url == null) {
+        if (false || this.url == null) {
             throw new IllegalStateException ("You must set properties driverClassName and url.");
         }
         
-        Connection connection = driver.connect(this.url, properties);
+        Connection connection = null;
         
-        if (connection == null)
+        if (false)
         {
             throw new IllegalStateException("Incompatible driver used (or incorrect database URL).");
         }
-        return connection;
+        return null;
     }
     
 

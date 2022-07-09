@@ -1,0 +1,27 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String[],boolean,boolean):26:name |==> null
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String[],boolean,boolean):27:sqlType |==> 0
+3:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String[],boolean,boolean):28:nullable |==> false
+4:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String[],boolean,boolean):29:renamedFrom |==> null
+5:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String[],boolean,boolean):30:primaryKey |==> false
+6:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String[],boolean,boolean):31:globalReference |==> false
+7:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String,boolean):35:renamedFrom == null |==> false
+8:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean,java.lang.String,boolean):35:false |==> true
+9:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean):39:false |==> true
+10:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,boolean):39:false |==> true
+11:LVR:TRUE:FALSE:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,java.lang.String[]):43:true |==> false
+12:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,java.lang.String[]):43:false |==> true
+13:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int,java.lang.String[]):43:false |==> true
+14:LVR:TRUE:FALSE:net.sourceforge.pbeans.data.FieldDescriptor@<init>(java.lang.String,int):55:true |==> false
+15:EVR:<MEMBER_SELECT(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@isGlobalReference():59:this.globalReference |==> false
+16:EVR:<MEMBER_SELECT(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@isPrimaryKey():63:this.primaryKey |==> false
+17:EVR:<MEMBER_SELECT(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@getName():67:this.name |==> null
+18:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@getSqlType():71:this.sqlType |==> 0
+19:EVR:<MEMBER_SELECT(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@isNullable():75:this.nullable |==> false
+20:EVR:<MEMBER_SELECT(java.lang.String[])>:<DEFAULT>:net.sourceforge.pbeans.data.FieldDescriptor@getRenamedFrom():80:this.renamedFrom |==> null
+21:ROR:==(boolean,boolean):FALSE(boolean,boolean):net.sourceforge.pbeans.data.FieldDescriptor@matches(AbstractDatabase,int,boolean):85:this.nullable == nullable |==> false
+22:ROR:==(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.data.FieldDescriptor@matches(AbstractDatabase,int,boolean):85:this.nullable == nullable |==> this.nullable
+23:ROR:==(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.data.FieldDescriptor@matches(AbstractDatabase,int,boolean):85:this.nullable == nullable |==> nullable
+24:COR:&&(boolean,boolean):==(boolean,boolean):net.sourceforge.pbeans.data.FieldDescriptor@matches(AbstractDatabase,int,boolean):84:ad.typesMatch(this.sqlType, sqlType) && this.nullable == nullable |==> ad.typesMatch(this.sqlType, sqlType) == (this.nullable == nullable)
+25:COR:&&(boolean,boolean):FALSE(boolean,boolean):net.sourceforge.pbeans.data.FieldDescriptor@matches(AbstractDatabase,int,boolean):84:ad.typesMatch(this.sqlType, sqlType) && this.nullable == nullable |==> false
+26:COR:&&(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.data.FieldDescriptor@matches(AbstractDatabase,int,boolean):84:ad.typesMatch(this.sqlType, sqlType) && this.nullable == nullable |==> ad.typesMatch(this.sqlType, sqlType)
+27:COR:&&(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.data.FieldDescriptor@matches(AbstractDatabase,int,boolean):85:ad.typesMatch(this.sqlType, sqlType) && this.nullable == nullable |==> this.nullable == nullable

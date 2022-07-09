@@ -1,0 +1,33 @@
+1:EVR:<NEW_CLASS(java.util.HashSet)>:<DEFAULT>:net.sourceforge.pbeans.Index:14:new HashSet() |==> null
+2:LVR:FALSE:TRUE:net.sourceforge.pbeans.Index@<init>(java.lang.String[]):21:false |==> true
+3:LVR:0:POS:net.sourceforge.pbeans.Index@<init>(java.lang.String[]):21:0 |==> 1
+4:LVR:0:NEG:net.sourceforge.pbeans.Index@<init>(java.lang.String[]):21:0 |==> -1
+5:LVR:0:POS:net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String):30:0 |==> 1
+6:LVR:0:NEG:net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String):30:0 |==> -1
+7:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):40:unique |==> false
+8:EVR:<IDENTIFIER(int)>:<DEFAULT>:net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):41:keyLength |==> 0
+9:LVR:0:POS:net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):42:0 |==> 1
+10:LVR:0:NEG:net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):42:0 |==> -1
+11:ROR:<(int,int):!=(int,int):net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):42:i < propertyNames.length |==> i != propertyNames.length
+12:ROR:<(int,int):<=(int,int):net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):42:i < propertyNames.length |==> i <= propertyNames.length
+13:ROR:<(int,int):FALSE(int,int):net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):42:i < propertyNames.length |==> false
+14:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.Index@<init>(boolean,java.lang.String[],int):43:this.propertyNames.add(propertyNames[i]) |==> <NO-OP>
+15:EVR:<IDENTIFIER(int)>:<DEFAULT>:net.sourceforge.pbeans.Index@getKeyLength():48:keyLength |==> 0
+16:EVR:<MEMBER_SELECT(java.util.Collection)>:<DEFAULT>:net.sourceforge.pbeans.Index@getPropertyNames():52:this.propertyNames |==> null
+17:EVR:<MEMBER_SELECT(boolean)>:<DEFAULT>:net.sourceforge.pbeans.Index@isUnique():56:this.unique |==> false
+18:LVR:0:POS:net.sourceforge.pbeans.Index@hashCode():60:0 |==> 1
+19:LVR:0:NEG:net.sourceforge.pbeans.Index@hashCode():60:0 |==> -1
+20:EVR:<METHOD_INVOCATION(java.util.Iterator)>:<DEFAULT>:net.sourceforge.pbeans.Index@hashCode():61:this.propertyNames.iterator() |==> null
+21:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.Index@hashCode():63:hc ^= i.next().hashCode() |==> <NO-OP>
+22:EVR:<IDENTIFIER(int)>:<DEFAULT>:net.sourceforge.pbeans.Index@hashCode():65:hc |==> 0
+23:LVR:FALSE:TRUE:net.sourceforge.pbeans.Index@equals(java.lang.Object):74:false |==> true
+24:STD:<RETURN>:<NO-OP>:net.sourceforge.pbeans.Index@equals(java.lang.Object):74:return Config.__M_NO == 0 && Config.COVERED(23, 23) ? false : Config.__M_NO == 23 ? true : false; |==> <NO-OP>
+25:EVR:<TYPE_CAST(net.sourceforge.pbeans.Index)>:<DEFAULT>:net.sourceforge.pbeans.Index@equals(java.lang.Object):76:(Index)other |==> null
+26:ROR:==(boolean,boolean):FALSE(boolean,boolean):net.sourceforge.pbeans.Index@equals(java.lang.Object):78:this.unique == oid.isUnique() |==> false
+27:ROR:==(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.Index@equals(java.lang.Object):78:this.unique == oid.isUnique() |==> this.unique
+28:ROR:==(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.Index@equals(java.lang.Object):78:this.unique == oid.isUnique() |==> oid.isUnique()
+29:COR:&&(boolean,boolean):==(boolean,boolean):net.sourceforge.pbeans.Index@equals(java.lang.Object):78:this.unique == oid.isUnique() && this.propertyNames.equals(oid.getPropertyNames()) |==> this.unique == oid.isUnique() == this.propertyNames.equals(oid.getPropertyNames())
+30:COR:&&(boolean,boolean):FALSE(boolean,boolean):net.sourceforge.pbeans.Index@equals(java.lang.Object):78:this.unique == oid.isUnique() && this.propertyNames.equals(oid.getPropertyNames()) |==> false
+31:COR:&&(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.Index@equals(java.lang.Object):78:this.unique == oid.isUnique() && this.propertyNames.equals(oid.getPropertyNames()) |==> this.unique == oid.isUnique()
+32:COR:&&(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.Index@equals(java.lang.Object):79:this.unique == oid.isUnique() && this.propertyNames.equals(oid.getPropertyNames()) |==> this.propertyNames.equals(oid.getPropertyNames())
+33:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.Index@addPropertyName(java.lang.String):88:this.propertyNames.add(name) |==> <NO-OP>
