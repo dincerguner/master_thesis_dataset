@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.apache.synapse.config.xml.OutMediatorSerializer@serializeMediator(OMElement,Mediator):33:handleException("Unsupported mediator passed out for serialization : " + m.getType()) |==> <NO-OP>

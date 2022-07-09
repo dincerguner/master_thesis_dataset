@@ -39,7 +39,7 @@ public class AnonymousListMediatorSerializer extends AbstractListMediatorSeriali
      */
     public OMElement serializeMediator(OMElement parent, Mediator m) {
         if (!(m instanceof AnonymousListMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
         AnonymousListMediator mediator = (AnonymousListMediator) m;
         serializeChildren(parent, mediator.getList());
