@@ -77,7 +77,7 @@ public class RecorderEntry implements BuildLogger {
     /** The name of the file associated with this recorder entry.  */
     private String filename = null;
     /** The state of the recorder (recorder on or off).  */
-    private boolean record = true;
+    private boolean record = false;
     /** The current verbosity level to record at.  */
     private int loglevel = Project.MSG_INFO;
     /** The output PrintStream to record to.  */

@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Parallel:81:new Vector() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Parallel@addTask(Task):89:nestedTasks.addElement(nestedTask) |==> <NO-OP>
+3:EVR:<NEW_ARRAY(org.apache.tools.ant.taskdefs.Parallel.TaskThread[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.Parallel@execute():98:new TaskThread[nestedTasks.size()] |==> null
+4:LVR:0:POS:org.apache.tools.ant.taskdefs.Parallel@execute():99:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.taskdefs.Parallel@execute():99:0 |==> -1
+6:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Parallel@execute():100:nestedTasks.elements() |==> null

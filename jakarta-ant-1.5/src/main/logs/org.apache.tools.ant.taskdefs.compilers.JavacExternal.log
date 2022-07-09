@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.compilers.JavacExternal@execute():73:attributes.log("Using external javac compiler", Project.MSG_VERBOSE) |==> <NO-OP>

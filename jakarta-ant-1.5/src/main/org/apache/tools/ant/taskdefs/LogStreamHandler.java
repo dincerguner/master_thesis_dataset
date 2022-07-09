@@ -80,7 +80,7 @@ public class LogStreamHandler extends PumpStreamHandler {
     }
 
     public void stop() {
-        super.stop();
+        ;
         try {
             getErr().close();
             getOut().close();

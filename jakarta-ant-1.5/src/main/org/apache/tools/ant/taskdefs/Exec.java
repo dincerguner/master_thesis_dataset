@@ -85,7 +85,7 @@ public class Exec extends Task {
     private File dir;
     private String command;
     protected PrintWriter fos = null;
-    private boolean failOnError = false;
+    private boolean failOnError = true;
 
     private static final int BUFFER_SIZE = 512;
 

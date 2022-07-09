@@ -1,0 +1,18 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@<init>(java.io.InputStream,java.io.OutputStream):85:this.is = is |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@<init>(java.io.InputStream,java.io.OutputStream):86:this.os = os |==> <NO-OP>
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.StreamPumper@run():98:false |==> true
+4:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@run():98:finished = false |==> <NO-OP>
+5:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.tools.ant.taskdefs.StreamPumper@run():101:new byte[SIZE] |==> null
+6:LVR:0:POS:org.apache.tools.ant.taskdefs.StreamPumper@run():105:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.taskdefs.StreamPumper@run():105:0 |==> -1
+8:ROR:>(int,int):!=(int,int):org.apache.tools.ant.taskdefs.StreamPumper@run():105:(length = is.read(buf)) > 0 |==> (length = is.read(buf)) != 0
+9:ROR:>(int,int):>=(int,int):org.apache.tools.ant.taskdefs.StreamPumper@run():105:(length = is.read(buf)) > 0 |==> (length = is.read(buf)) >= 0
+10:LVR:0:POS:org.apache.tools.ant.taskdefs.StreamPumper@run():106:0 |==> 1
+11:LVR:0:NEG:org.apache.tools.ant.taskdefs.StreamPumper@run():106:0 |==> -1
+12:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@run():106:os.write(buf, 0, length) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@run():108:Thread.sleep(SLEEP) |==> <NO-OP>
+14:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.StreamPumper@run():114:true |==> false
+15:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@run():114:finished = true |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@run():115:notify() |==> <NO-OP>
+17:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.tools.ant.taskdefs.StreamPumper@isFinished():125:finished |==> false
+18:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.StreamPumper@waitFor():135:wait() |==> <NO-OP>
