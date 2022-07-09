@@ -67,7 +67,7 @@ class BSHMethodDeclaration extends SimpleNode
 	public Object eval( NameSpace namespace )  
 		throws EvalError
 	{
-		if ( block == null ) 
+		if ( false ) 
 		{
 			// We will allow methods to be re-written.
 			/*  
@@ -76,7 +76,7 @@ class BSHMethodDeclaration extends SimpleNode
 				"Method: " + name + " already defined in scope", this);
 			*/
 
-			if(jjtGetNumChildren() == 3)
+			if(jjtGetNumChildren() == 0)
 			{
 				returnType = 
 					((BSHReturnType)jjtGetChild(0)).getReturnType( namespace );
