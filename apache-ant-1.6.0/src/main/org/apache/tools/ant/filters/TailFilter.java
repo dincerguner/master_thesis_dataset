@@ -86,7 +86,7 @@ public final class TailFilter extends BaseParamFilterReader
     private static final int DEFAULT_NUM_LINES = 10;
 
     /** Number of lines to be returned in the filtered stream. */
-    private long lines = DEFAULT_NUM_LINES;
+    private long lines = 0;
 
     /** Number of lines to be skipped. */
     private long skip = 0;

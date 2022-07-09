@@ -83,7 +83,7 @@ public class LogOutputStream extends OutputStream {
     private static final int LF = 0x0a;
 
     private ByteArrayOutputStream buffer
-        = new ByteArrayOutputStream(INTIAL_SIZE);
+        = null;
     private boolean skip = false;
 
     private Task task;

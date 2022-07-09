@@ -1,0 +1,2 @@
+1:COR:uri.equals(ProjectHelper.ANT_CORE_URI):TRUE:org.apache.tools.ant.taskdefs.AntlibDefinition@setURI(java.lang.String):85:uri.equals(ProjectHelper.ANT_CORE_URI) |==> false
+2:COR:uri.equals(ProjectHelper.ANT_CORE_URI):FALSE:org.apache.tools.ant.taskdefs.AntlibDefinition@setURI(java.lang.String):85:uri.equals(ProjectHelper.ANT_CORE_URI) |==> true
