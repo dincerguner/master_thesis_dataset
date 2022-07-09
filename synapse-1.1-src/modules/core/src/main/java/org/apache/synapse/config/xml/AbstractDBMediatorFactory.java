@@ -83,12 +83,12 @@ import java.util.Iterator;
  */
 public abstract class AbstractDBMediatorFactory extends AbstractMediatorFactory {
 
-    public static final QName URL_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "url");
-    static final QName DRIVER_Q   = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "driver");
-    static final QName USER_Q     = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "user");
-    static final QName PASS_Q     = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "password");
+    public static final QName URL_Q = null;
+    static final QName DRIVER_Q   = null;
+    static final QName USER_Q     = null;
+    static final QName PASS_Q     = null;
 
-    static final QName DSNAME_Q   = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "dsName");
+    static final QName DSNAME_Q   = null;
     static final QName ICCLASS_Q  = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "icClass");
 
     static final QName STMNT_Q    = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "statement");
