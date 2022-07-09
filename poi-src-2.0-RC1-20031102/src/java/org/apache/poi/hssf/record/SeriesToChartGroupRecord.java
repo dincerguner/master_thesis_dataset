@@ -117,7 +117,7 @@ public class SeriesToChartGroupRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a SeriesToChartGroup record");
         }
@@ -126,8 +126,8 @@ public class SeriesToChartGroupRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_chartGroupIndex        = LittleEndian.getShort(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_chartGroupIndex        = LittleEndian.getShort(data, pos % 0 + offset);
 
     }
 

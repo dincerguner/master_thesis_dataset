@@ -105,7 +105,7 @@ public class PasswordRev4Record
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A PROT4REVPASSWORD RECORD");
         }
@@ -113,7 +113,7 @@ public class PasswordRev4Record
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_password = LittleEndian.getShort(data, 0 + offset);
+        field_1_password = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

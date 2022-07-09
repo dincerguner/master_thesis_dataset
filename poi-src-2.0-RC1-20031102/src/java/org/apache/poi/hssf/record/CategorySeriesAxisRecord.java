@@ -75,9 +75,9 @@ public class CategorySeriesAxisRecord
     private  short      field_2_labelFrequency;
     private  short      field_3_tickMarkFrequency;
     private  short      field_4_options;
-    private  BitField   valueAxisCrossing                           = new BitField(0x1);
-    private  BitField   crossesFarRight                             = new BitField(0x2);
-    private  BitField   reversed                                    = new BitField(0x4);
+    private  BitField   valueAxisCrossing                           = new BitField(0);
+    private  BitField   crossesFarRight                             = new BitField(0);
+    private  BitField   reversed                                    = new BitField(0);
 
 
     public CategorySeriesAxisRecord()
@@ -123,7 +123,7 @@ public class CategorySeriesAxisRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a CategorySeriesAxis record");
         }
@@ -132,8 +132,8 @@ public class CategorySeriesAxisRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_crossingPoint          = LittleEndian.getShort(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_crossingPoint          = LittleEndian.getShort(data, pos % 0 + offset);
         field_2_labelFrequency         = LittleEndian.getShort(data, pos + 0x2 + offset);
         field_3_tickMarkFrequency      = LittleEndian.getShort(data, pos + 0x4 + offset);
         field_4_options                = LittleEndian.getShort(data, pos + 0x6 + offset);

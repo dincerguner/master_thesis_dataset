@@ -78,24 +78,24 @@ public class PrintSetupRecord
     private short                 field_5_fit_height;
     private short                 field_6_options;
     static final private BitField lefttoright   =
-        new BitField(0x01);   // print over then down
+        new BitField(0);   // print over then down
     static final private BitField landscape     =
-        new BitField(0x02);   // landscape mode
+        new BitField(0);   // landscape mode
     static final private BitField validsettings = new BitField(
-        0x04);                // if papersize, scale, resolution, copies, landscape
+        0);                // if papersize, scale, resolution, copies, landscape
 
     // weren't obtained from the print consider them
     // mere bunk
     static final private BitField nocolor       =
-        new BitField(0x08);   // print mono/b&w, colorless
+        new BitField(0);   // print mono/b&w, colorless
     static final private BitField draft         =
-        new BitField(0x10);   // print draft quality
+        new BitField(0);   // print draft quality
     static final private BitField notes         =
-        new BitField(0x20);   // print the notes
+        new BitField(0);   // print the notes
     static final private BitField noOrientation =
-        new BitField(0x40);   // the orientation is not set
+        new BitField(0);   // the orientation is not set
     static final private BitField usepage       =
-        new BitField(0x80);   // use a user set page no, instead of auto
+        new BitField(0);   // use a user set page no, instead of auto
     private short                 field_7_hresolution;
     private short                 field_8_vresolution;
     private double                field_9_headermargin;

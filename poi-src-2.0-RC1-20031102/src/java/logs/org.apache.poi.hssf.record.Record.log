@@ -1,0 +1,16 @@
+1:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.Record@<init>(short,short,byte[]):91:validateSid(id) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.Record@<init>(short,short,byte[]):92:fillFields(data, size) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.Record@<init>(short,short,byte[],int):105:validateSid(id) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.Record@<init>(short,short,byte[],int):106:fillFields(data, size, offset) |==> <NO-OP>
+5:LVR:0:POS:org.apache.poi.hssf.record.Record@fillFields(byte[],short):127:0 |==> 1
+6:LVR:0:NEG:org.apache.poi.hssf.record.Record@fillFields(byte[],short):127:0 |==> -1
+7:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.Record@fillFields(byte[],short):127:fillFields(data, size, 0) |==> <NO-OP>
+8:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.poi.hssf.record.Record@serialize():151:new byte[getRecordSize()] |==> null
+9:LVR:0:POS:org.apache.poi.hssf.record.Record@serialize():153:0 |==> 1
+10:LVR:0:NEG:org.apache.poi.hssf.record.Record@serialize():153:0 |==> -1
+11:STD:<CALL>:<NO-OP>:org.apache.poi.hssf.record.Record@serialize():153:serialize(0, retval) |==> <NO-OP>
+12:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.poi.hssf.record.Record@serialize():154:retval |==> null
+13:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.poi.hssf.record.Record@getRecordSize():178:serialize().length |==> 0
+14:LVR:FALSE:TRUE:org.apache.poi.hssf.record.Record@isValue():187:false |==> true
+15:LVR:FALSE:TRUE:org.apache.poi.hssf.record.Record@isInValueSection():196:false |==> true
+16:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.poi.hssf.record.Record@toString():205:super.toString() |==> null

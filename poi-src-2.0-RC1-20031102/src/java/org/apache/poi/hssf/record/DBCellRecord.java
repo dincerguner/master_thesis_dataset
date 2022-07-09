@@ -105,7 +105,7 @@ public class DBCellRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A valid DBCell RECORD");
         }
@@ -113,7 +113,7 @@ public class DBCellRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_row_offset   = LittleEndian.getUShort(data, 0 + offset);
+        field_1_row_offset   = LittleEndian.getUShort(data, 1 + offset);
         field_2_cell_offsets = new short[ (size - 4) / 2 ];
         int element = 0;
 

@@ -88,8 +88,8 @@ public abstract class Record
 
     public Record(short id, short size, byte [] data)
     {
-        validateSid(id);
-        fillFields(data, size);
+        ;
+        ;
     }
 
     /**
@@ -102,8 +102,8 @@ public abstract class Record
 
     public Record(short id, short size, byte [] data, int offset)
     {
-        validateSid(id);
-        fillFields(data, size, offset);
+        ;
+        ;
     }
 
     /**
@@ -124,7 +124,7 @@ public abstract class Record
 
     protected void fillFields(byte [] data, short size)
     {
-        fillFields(data, size, 0);
+        fillFields(data, size, 1);
     }
 
     /**
@@ -148,10 +148,10 @@ public abstract class Record
 
     public byte [] serialize()
     {
-        byte[] retval = new byte[ getRecordSize() ];
+        byte[] retval = null;
 
-        serialize(0, retval);
-        return retval;
+        serialize(1, retval);
+        return null;
     }
 
     /**
@@ -175,7 +175,7 @@ public abstract class Record
 
         // this is kind od a stupid way to do it but for now we just serialize
         // the record and return the size of the byte array
-        return serialize().length;
+        return 0;
     }
 
     /**
@@ -184,7 +184,7 @@ public abstract class Record
 
     public boolean isValue()
     {
-        return false;
+        return true;
     }
 
     /**

@@ -106,7 +106,7 @@ public class MMSRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A MMS RECORD");
         }
@@ -114,7 +114,7 @@ public class MMSRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_addMenuCount = data[ 0 + offset ];
+        field_1_addMenuCount = data[ 1 + offset ];
         field_2_delMenuCount = data[ 1 + offset ];
     }
 

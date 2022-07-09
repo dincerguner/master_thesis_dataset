@@ -107,7 +107,7 @@ public class RefModeRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT An RefMode RECORD");
         }
@@ -115,7 +115,7 @@ public class RefModeRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_mode = LittleEndian.getShort(data, 0 + offset);
+        field_1_mode = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

@@ -72,12 +72,12 @@ public class SeriesLabelsRecord
 {
     public final static short      sid                             = 0x100c;
     private  short      field_1_formatFlags;
-    private  BitField   showActual                                  = new BitField(0x1);
-    private  BitField   showPercent                                 = new BitField(0x2);
-    private  BitField   labelAsPercentage                           = new BitField(0x4);
-    private  BitField   smoothedLine                                = new BitField(0x8);
-    private  BitField   showLabel                                   = new BitField(0x10);
-    private  BitField   showBubbleSizes                             = new BitField(0x20);
+    private  BitField   showActual                                  = new BitField(0);
+    private  BitField   showPercent                                 = new BitField(0);
+    private  BitField   labelAsPercentage                           = new BitField(0);
+    private  BitField   smoothedLine                                = new BitField(0);
+    private  BitField   showLabel                                   = new BitField(0);
+    private  BitField   showBubbleSizes                             = new BitField(0);
 
 
     public SeriesLabelsRecord()
@@ -123,7 +123,7 @@ public class SeriesLabelsRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a SeriesLabels record");
         }

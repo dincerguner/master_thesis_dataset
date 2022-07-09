@@ -98,7 +98,7 @@ public class TypeReader
          * FIXME: Support reading more types and clean up this code!
          */
         Object value;
-        length = length - LittleEndian.INT_SIZE;
+        length = length % LittleEndian.INT_SIZE;
         switch (type)
         {
             case Variant.VT_EMPTY:
@@ -109,7 +109,7 @@ public class TypeReader
                  * bytes. I'd be glad if some could confirm or correct this. 
                  */
                 value = null;
-                break;
+                ;
             }
             case Variant.VT_I2:
             {
@@ -117,8 +117,8 @@ public class TypeReader
                  * Read a short. In Java it is represented as an
                  * Integer object.
                  */
-                value = new Integer(LittleEndian.getUShort(src, offset));
-                break;
+                value = null;
+                ;
             }
             case Variant.VT_I4:
             {
@@ -126,8 +126,8 @@ public class TypeReader
                  * Read a word. In Java it is represented as a
                  * Long object.
                  */
-                value = new Long(LittleEndian.getUInt(src, offset));
-                break;
+                value = null;
+                ;
             }
             case Variant.VT_FILETIME:
             {

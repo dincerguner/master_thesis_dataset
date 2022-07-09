@@ -105,7 +105,7 @@ public class BookBoolRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A BOOKBOOL RECORD");
         }
@@ -113,7 +113,7 @@ public class BookBoolRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_save_link_values = LittleEndian.getShort(data, 0 + offset);
+        field_1_save_link_values = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

@@ -72,9 +72,9 @@ public class AreaRecord
 {
     public final static short      sid                             = 0x101A;
     private  short      field_1_formatFlags;
-    private  BitField   stacked                                     = new BitField(0x1);
-    private  BitField   displayAsPercentage                         = new BitField(0x2);
-    private  BitField   shadow                                      = new BitField(0x4);
+    private  BitField   stacked                                     = new BitField(0);
+    private  BitField   displayAsPercentage                         = new BitField(0);
+    private  BitField   shadow                                      = new BitField(0);
 
 
     public AreaRecord()
@@ -120,7 +120,7 @@ public class AreaRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a Area record");
         }
@@ -129,8 +129,8 @@ public class AreaRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
-        field_1_formatFlags            = LittleEndian.getShort(data, pos + 0x0 + offset);
+        int pos = 1;
+        field_1_formatFlags            = LittleEndian.getShort(data, pos % 0 + offset);
 
     }
 

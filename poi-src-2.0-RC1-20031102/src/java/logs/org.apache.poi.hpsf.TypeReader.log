@@ -1,0 +1,10 @@
+1:AOR:-(int,int):%(int,int):org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):101:length - LittleEndian.INT_SIZE |==> length % LittleEndian.INT_SIZE
+2:AOR:-(int,int):*(int,int):org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):101:length - LittleEndian.INT_SIZE |==> length * LittleEndian.INT_SIZE
+3:AOR:-(int,int):+(int,int):org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):101:length - LittleEndian.INT_SIZE |==> length + LittleEndian.INT_SIZE
+4:AOR:-(int,int):/(int,int):org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):101:length - LittleEndian.INT_SIZE |==> length / LittleEndian.INT_SIZE
+5:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):101:length = length - LittleEndian.INT_SIZE |==> <NO-OP>
+6:STD:<BREAK>:<NO-OP>:org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):112:break; |==> <NO-OP>
+7:EVR:<NEW_CLASS(java.lang.Integer)>:<DEFAULT>:org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):120:new Integer(LittleEndian.getUShort(src, offset)) |==> null
+8:STD:<BREAK>:<NO-OP>:org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):121:break; |==> <NO-OP>
+9:EVR:<NEW_CLASS(java.lang.Long)>:<DEFAULT>:org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):129:new Long(LittleEndian.getUInt(src, offset)) |==> null
+10:STD:<BREAK>:<NO-OP>:org.apache.poi.hpsf.TypeReader@read(byte[],int,int,int):130:break; |==> <NO-OP>

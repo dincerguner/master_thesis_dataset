@@ -116,7 +116,7 @@ public class SelectionRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A valid Selection RECORD");
         }
@@ -124,7 +124,7 @@ public class SelectionRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_pane            = data[ 0 + offset ];
+        field_1_pane            = data[ 1 + offset ];
         //field_2_row_active_cell = LittleEndian.getShort(data, 1 + offset);
         field_2_row_active_cell = LittleEndian.getUShort(data, 1 + offset);
         field_3_col_active_cell = LittleEndian.getShort(data, 3 + offset);

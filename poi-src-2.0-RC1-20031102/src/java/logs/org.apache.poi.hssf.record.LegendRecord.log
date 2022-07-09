@@ -1,0 +1,27 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.LegendRecord:90:1 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.LegendRecord:90:1 |==> -1
+3:LVR:POS:0:org.apache.poi.hssf.record.LegendRecord:91:2 |==> 0
+4:LVR:POS:NEG:org.apache.poi.hssf.record.LegendRecord:91:2 |==> -2
+5:LVR:POS:0:org.apache.poi.hssf.record.LegendRecord:92:4 |==> 0
+6:LVR:POS:NEG:org.apache.poi.hssf.record.LegendRecord:92:4 |==> -4
+7:LVR:POS:0:org.apache.poi.hssf.record.LegendRecord:93:8 |==> 0
+8:LVR:POS:NEG:org.apache.poi.hssf.record.LegendRecord:93:8 |==> -8
+9:LVR:POS:0:org.apache.poi.hssf.record.LegendRecord:94:16 |==> 0
+10:LVR:POS:NEG:org.apache.poi.hssf.record.LegendRecord:94:16 |==> -16
+11:LVR:POS:0:org.apache.poi.hssf.record.LegendRecord:95:32 |==> 0
+12:LVR:POS:NEG:org.apache.poi.hssf.record.LegendRecord:95:32 |==> -32
+13:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.LegendRecord@validateSid(short):141:id != sid |==> id < sid
+14:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.LegendRecord@validateSid(short):141:id != sid |==> id > sid
+15:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.LegendRecord@validateSid(short):141:id != sid |==> true
+16:LVR:0:POS:org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):150:0 |==> 1
+17:LVR:0:NEG:org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):150:0 |==> -1
+18:LVR:0:POS:org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:0 |==> 1
+19:LVR:0:NEG:org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:0 |==> -1
+20:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 |==> pos % 0
+21:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 |==> pos * 0
+22:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 |==> pos - 0
+23:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 |==> pos / 0
+24:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 + offset |==> (pos + 0) % offset
+25:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 + offset |==> (pos + 0) * offset
+26:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 + offset |==> pos + 0 - offset
+27:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.LegendRecord@fillFields(byte[],short,int):151:pos + 0 + offset |==> (pos + 0) / offset

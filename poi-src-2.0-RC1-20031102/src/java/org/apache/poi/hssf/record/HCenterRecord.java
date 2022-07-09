@@ -105,7 +105,7 @@ public class HCenterRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A HCenter RECORD");
         }
@@ -113,7 +113,7 @@ public class HCenterRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_hcenter = LittleEndian.getShort(data, 0 + offset);
+        field_1_hcenter = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

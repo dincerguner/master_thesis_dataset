@@ -1,0 +1,16 @@
+1:LVR:0:POS:org.apache.poi.hssf.record.SSTRecordSizeCalculator:73:0 |==> 1
+2:LVR:0:NEG:org.apache.poi.hssf.record.SSTRecordSizeCalculator:73:0 |==> -1
+3:LVR:0:POS:org.apache.poi.hssf.record.SSTRecordSizeCalculator:74:0 |==> 1
+4:LVR:0:NEG:org.apache.poi.hssf.record.SSTRecordSizeCalculator:74:0 |==> -1
+5:LVR:FALSE:TRUE:org.apache.poi.hssf.record.SSTRecordSizeCalculator:76:false |==> true
+6:LVR:0:POS:org.apache.poi.hssf.record.SSTRecordSizeCalculator:77:0 |==> 1
+7:LVR:0:NEG:org.apache.poi.hssf.record.SSTRecordSizeCalculator:77:0 |==> -1
+8:LVR:FALSE:TRUE:org.apache.poi.hssf.record.SSTRecordSizeCalculator:78:false |==> true
+9:LVR:TRUE:FALSE:org.apache.poi.hssf.record.SSTRecordSizeCalculator:79:true |==> false
+10:LVR:0:POS:org.apache.poi.hssf.record.SSTRecordSizeCalculator:80:0 |==> 1
+11:LVR:0:NEG:org.apache.poi.hssf.record.SSTRecordSizeCalculator:80:0 |==> -1
+12:LVR:0:POS:org.apache.poi.hssf.record.SSTRecordSizeCalculator:81:0 |==> 1
+13:LVR:0:NEG:org.apache.poi.hssf.record.SSTRecordSizeCalculator:81:0 |==> -1
+14:EVR:<NEW_CLASS(java.util.ArrayList)>:<DEFAULT>:org.apache.poi.hssf.record.SSTRecordSizeCalculator:82:new ArrayList() |==> null
+15:LVR:0:POS:org.apache.poi.hssf.record.SSTRecordSizeCalculator:83:0 |==> 1
+16:LVR:0:NEG:org.apache.poi.hssf.record.SSTRecordSizeCalculator:83:0 |==> -1

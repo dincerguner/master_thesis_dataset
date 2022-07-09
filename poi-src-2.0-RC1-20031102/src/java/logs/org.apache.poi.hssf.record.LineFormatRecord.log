@@ -1,0 +1,21 @@
+1:LVR:POS:0:org.apache.poi.hssf.record.LineFormatRecord:91:1 |==> 0
+2:LVR:POS:NEG:org.apache.poi.hssf.record.LineFormatRecord:91:1 |==> -1
+3:LVR:POS:0:org.apache.poi.hssf.record.LineFormatRecord:92:4 |==> 0
+4:LVR:POS:NEG:org.apache.poi.hssf.record.LineFormatRecord:92:4 |==> -4
+5:LVR:POS:0:org.apache.poi.hssf.record.LineFormatRecord:93:4 |==> 0
+6:LVR:POS:NEG:org.apache.poi.hssf.record.LineFormatRecord:93:4 |==> -4
+7:ROR:!=(int,int):<(int,int):org.apache.poi.hssf.record.LineFormatRecord@validateSid(short):140:id != sid |==> id < sid
+8:ROR:!=(int,int):>(int,int):org.apache.poi.hssf.record.LineFormatRecord@validateSid(short):140:id != sid |==> id > sid
+9:ROR:!=(int,int):TRUE(int,int):org.apache.poi.hssf.record.LineFormatRecord@validateSid(short):140:id != sid |==> true
+10:LVR:0:POS:org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):149:0 |==> 1
+11:LVR:0:NEG:org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):149:0 |==> -1
+12:LVR:0:POS:org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:0 |==> 1
+13:LVR:0:NEG:org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:0 |==> -1
+14:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 |==> pos % 0
+15:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 |==> pos * 0
+16:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 |==> pos - 0
+17:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 |==> pos / 0
+18:AOR:+(int,int):%(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 + offset |==> (pos + 0) % offset
+19:AOR:+(int,int):*(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 + offset |==> (pos + 0) * offset
+20:AOR:+(int,int):-(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 + offset |==> pos + 0 - offset
+21:AOR:+(int,int):/(int,int):org.apache.poi.hssf.record.LineFormatRecord@fillFields(byte[],short,int):150:pos + 0 + offset |==> (pos + 0) / offset

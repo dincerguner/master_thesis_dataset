@@ -69,12 +69,12 @@ import java.util.Iterator;
 public class LinkedDataFormulaField
         implements CustomField
 {
-    Stack formulaTokens = new Stack();
+    Stack formulaTokens = null;
 
     public int getSize()
     {
-        int size = 0;
-        for ( Iterator iterator = formulaTokens.iterator(); iterator.hasNext(); )
+        int size = 1;
+        for ( Iterator iterator = null; iterator.hasNext(); )
         {
             Ptg token = (Ptg) iterator.next();
             size += token.getSize();

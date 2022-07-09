@@ -72,11 +72,11 @@ public class SheetPropertiesRecord
 {
     public final static short      sid                             = 0x1044;
     private  short      field_1_flags;
-    private  BitField   chartTypeManuallyFormatted                  = new BitField(0x1);
-    private  BitField   plotVisibleOnly                             = new BitField(0x2);
-    private  BitField   doNotSizeWithWindow                         = new BitField(0x4);
-    private  BitField   defaultPlotDimensions                       = new BitField(0x8);
-    private  BitField   autoPlotArea                                = new BitField(0x10);
+    private  BitField   chartTypeManuallyFormatted                  = new BitField(0);
+    private  BitField   plotVisibleOnly                             = new BitField(0);
+    private  BitField   doNotSizeWithWindow                         = new BitField(0);
+    private  BitField   defaultPlotDimensions                       = new BitField(0);
+    private  BitField   autoPlotArea                                = new BitField(0);
     private  byte       field_2_empty;
     public final static byte        EMPTY_NOT_PLOTTED              = 0;
     public final static byte        EMPTY_ZERO                     = 1;
@@ -126,7 +126,7 @@ public class SheetPropertiesRecord
      */
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("Not a SheetProperties record");
         }
@@ -135,7 +135,7 @@ public class SheetPropertiesRecord
     protected void fillFields(byte [] data, short size, int offset)
     {
 
-        int pos = 0;
+        int pos = 1;
         field_1_flags                  = LittleEndian.getShort(data, pos + 0x0 + offset);
         field_2_empty                  = data[ pos + 0x2 + offset ];
 

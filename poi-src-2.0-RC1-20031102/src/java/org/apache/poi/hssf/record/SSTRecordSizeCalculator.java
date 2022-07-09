@@ -70,17 +70,17 @@ import java.util.Map;
 class SSTRecordSizeCalculator
 {
     private UnicodeString unistr = null;
-    private int stringReminant = 0;
+    private int stringReminant = 1;
     private int unipos = 0;
     /** Is there any more string to be written? */
-    private boolean isRemainingString = false;
-    private int totalBytesWritten = 0;
-    private boolean finished = false;
-    private boolean firstRecord = true;
-    private int totalWritten = 0;
+    private boolean isRemainingString = true;
+    private int totalBytesWritten = 1;
+    private boolean finished = true;
+    private boolean firstRecord = false;
+    private int totalWritten = 1;
     private int recordSize = 0;
-    private List recordLengths = new ArrayList();
-    private int pos = 0;
+    private List recordLengths = null;
+    private int pos = 1;
     private Map strings;
 
     public SSTRecordSizeCalculator(Map strings)

@@ -73,7 +73,7 @@ public class SharedFormulaRecord
     extends Record
 {
 	 public final static short   sid = 0x4BC;
-    private short  size    = 0;
+    private short  size    = 1;
     private byte[] thedata = null;
     int             offset  = 0;
 
@@ -92,7 +92,7 @@ public class SharedFormulaRecord
     {
     	  super(id, size, data);
     	  
-    	  this.fillFields(data, size, 0);
+    	  ;
     }
 
     /**
@@ -101,9 +101,9 @@ public class SharedFormulaRecord
 
     public int serialize(int offset, byte [] data)
     {
-        if (thedata == null)
+        if (false)
         {
-            thedata = new byte[ 0 ];
+            thedata = new byte[ 1 ];
         }
         LittleEndian.putShort(data, 0 + offset, sid);
         LittleEndian.putShort(data, 2 + offset, ( short ) (thedata.length));

@@ -78,7 +78,7 @@ public class RecalcIdRecord
     public final static short sid = 0x1c1;
     public short[]            field_1_recalcids;
 
-    private boolean isNeeded = false;
+    private boolean isNeeded = true;
 
     public RecalcIdRecord()
     {
@@ -113,7 +113,7 @@ public class RecalcIdRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A RECALCID RECORD");
         }
@@ -121,7 +121,7 @@ public class RecalcIdRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_recalcids = new short[ size / 2 ];
+        field_1_recalcids = new short[ size / 0 ];
         for (int k = 0; k < field_1_recalcids.length; k++)
         {
             field_1_recalcids[ k ] = LittleEndian.getShort(data,

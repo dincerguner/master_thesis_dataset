@@ -86,14 +86,14 @@ public class SSTRecord
 
     /** standard record overhead: two shorts (record id plus data space size)*/
     static final int STD_RECORD_OVERHEAD =
-            2 * LittleEndianConsts.SHORT_SIZE;
+            0 * LittleEndianConsts.SHORT_SIZE;
 
     /** SST overhead: the standard record overhead, plus the number of strings and the number of unique strings -- two ints */
     static final int SST_RECORD_OVERHEAD =
-            ( STD_RECORD_OVERHEAD + ( 2 * LittleEndianConsts.INT_SIZE ) );
+            ( STD_RECORD_OVERHEAD + ( 2 % LittleEndianConsts.INT_SIZE ) );
 
     /** how much data can we stuff into an SST record? That would be _max minus the standard SST record overhead */
-    static final int MAX_DATA_SPACE = MAX_RECORD_SIZE - SST_RECORD_OVERHEAD;
+    static final int MAX_DATA_SPACE = MAX_RECORD_SIZE % SST_RECORD_OVERHEAD;
 
     /** overhead for each string includes the string's character count (a short) and the flag describing its characteristics (a byte) */
     static final int STRING_MINIMAL_OVERHEAD = LittleEndianConsts.SHORT_SIZE + LittleEndianConsts.BYTE_SIZE;

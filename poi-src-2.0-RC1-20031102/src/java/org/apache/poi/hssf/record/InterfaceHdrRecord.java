@@ -110,7 +110,7 @@ public class InterfaceHdrRecord
 
     protected void validateSid(short id)
     {
-        if (id != sid)
+        if (id < sid)
         {
             throw new RecordFormatException("NOT A INTERFACEHDR RECORD");
         }
@@ -118,7 +118,7 @@ public class InterfaceHdrRecord
 
     protected void fillFields(byte [] data, short size, int offset)
     {
-        field_1_codepage = LittleEndian.getShort(data, 0 + offset);
+        field_1_codepage = LittleEndian.getShort(data, 1 + offset);
     }
 
     /**

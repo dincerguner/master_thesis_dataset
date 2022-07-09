@@ -1,0 +1,3 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.HPSFRuntimeException@<init>(java.lang.Throwable):106:this.reason = reason |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.poi.hpsf.HPSFRuntimeException@<init>(java.lang.String,java.lang.Throwable):122:this.reason = reason |==> <NO-OP>
+3:EVR:<IDENTIFIER(java.lang.Throwable)>:<DEFAULT>:org.apache.poi.hpsf.HPSFRuntimeException@getReason():136:reason |==> null
