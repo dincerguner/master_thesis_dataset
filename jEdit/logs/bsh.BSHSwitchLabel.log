@@ -1,0 +1,2 @@
+1:COR:isDefault:TRUE:bsh.BSHSwitchLabel@eval(CallStack,Interpreter):44:isDefault |==> false
+2:COR:isDefault:FALSE:bsh.BSHSwitchLabel@eval(CallStack,Interpreter):44:isDefault |==> true

@@ -1,0 +1,8 @@
+1:LVR:POS:0:bsh.CallStack:54:2 |==> 0
+2:LVR:POS:NEG:bsh.CallStack:54:2 |==> -2
+3:STD:<CALL>:<NO-OP>:bsh.CallStack@clear():57:stack.removeAllElements() |==> <NO-OP>
+4:LVR:0:POS:bsh.CallStack@push(NameSpace):61:0 |==> 1
+5:LVR:0:NEG:bsh.CallStack@push(NameSpace):61:0 |==> -1
+6:STD:<CALL>:<NO-OP>:bsh.CallStack@push(NameSpace):61:stack.insertElementAt(ns, 0) |==> <NO-OP>
+7:LVR:0:POS:bsh.CallStack@top():65:0 |==> 1
+8:LVR:0:NEG:bsh.CallStack@top():65:0 |==> -1

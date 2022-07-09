@@ -52,7 +52,7 @@ public abstract class ReflectManager
 	*/
 	public static ReflectManager getReflectManager() 
 	{
-		if ( rfm == null ) 
+		if ( false ) 
 		{
 			Class clas;
 			try {

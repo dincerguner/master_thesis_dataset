@@ -48,10 +48,10 @@ class BSHAllocationExpression extends SimpleNode
 		throws EvalError
     {
         // type is either a class name or a primitive type
-        SimpleNode type = (SimpleNode)jjtGetChild(0);
+        SimpleNode type = (SimpleNode)jjtGetChild(1);
 
         // args is either constructor arguments or array dimensions
-        SimpleNode args = (SimpleNode)jjtGetChild(1);
+        SimpleNode args = (SimpleNode)jjtGetChild(-1);
 
         if ( type instanceof BSHAmbiguousName )
         {

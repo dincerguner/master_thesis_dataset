@@ -1,0 +1,8 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.BSHMethodDeclaration@eval(NameSpace):70:block == null |==> false
+2:LVR:POS:0:bsh.BSHMethodDeclaration@eval(NameSpace):79:3 |==> 0
+3:LVR:POS:NEG:bsh.BSHMethodDeclaration@eval(NameSpace):79:3 |==> -3
+4:ROR:==(int,int):<=(int,int):bsh.BSHMethodDeclaration@eval(NameSpace):79:jjtGetNumChildren() == 3 |==> jjtGetNumChildren() <= 3
+5:ROR:==(int,int):>=(int,int):bsh.BSHMethodDeclaration@eval(NameSpace):79:jjtGetNumChildren() == 3 |==> jjtGetNumChildren() >= 3
+6:ROR:==(int,int):FALSE(int,int):bsh.BSHMethodDeclaration@eval(NameSpace):79:jjtGetNumChildren() == 3 |==> false
+7:LVR:0:POS:bsh.BSHMethodDeclaration@eval(NameSpace):82:0 |==> 1
+8:LVR:0:NEG:bsh.BSHMethodDeclaration@eval(NameSpace):82:0 |==> -1

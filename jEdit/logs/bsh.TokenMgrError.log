@@ -1,0 +1,50 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:bsh.TokenMgrError@addEscapes(java.lang.String):41:new StringBuffer() |==> null
+2:LVR:0:POS:bsh.TokenMgrError@addEscapes(java.lang.String):43:0 |==> 1
+3:LVR:0:NEG:bsh.TokenMgrError@addEscapes(java.lang.String):43:0 |==> -1
+4:ROR:<(int,int):!=(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):43:i < str.length() |==> i != str.length()
+5:ROR:<(int,int):<=(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):43:i < str.length() |==> i <= str.length()
+6:ROR:<(int,int):FALSE(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):43:i < str.length() |==> false
+7:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):47:continue; |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):49:retval.append("\\b") |==> <NO-OP>
+9:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):50:continue; |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):52:retval.append("\\t") |==> <NO-OP>
+11:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):53:continue; |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):55:retval.append("\\n") |==> <NO-OP>
+13:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):56:continue; |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):58:retval.append("\\f") |==> <NO-OP>
+15:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):59:continue; |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):61:retval.append("\\r") |==> <NO-OP>
+17:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):62:continue; |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):64:retval.append("\\\"") |==> <NO-OP>
+19:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):65:continue; |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):67:retval.append("\\\'") |==> <NO-OP>
+21:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):68:continue; |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):70:retval.append("\\\\") |==> <NO-OP>
+23:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):71:continue; |==> <NO-OP>
+24:LVR:POS:0:bsh.TokenMgrError@addEscapes(java.lang.String):73:32 |==> 0
+25:LVR:POS:NEG:bsh.TokenMgrError@addEscapes(java.lang.String):73:32 |==> -32
+26:ROR:<(int,int):!=(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):73:(ch = str.charAt(i)) < 32 |==> (ch = str.charAt(i)) != 32
+27:ROR:<(int,int):<=(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):73:(ch = str.charAt(i)) < 32 |==> (ch = str.charAt(i)) <= 32
+28:LVR:POS:0:bsh.TokenMgrError@addEscapes(java.lang.String):73:126 |==> 0
+29:LVR:POS:NEG:bsh.TokenMgrError@addEscapes(java.lang.String):73:126 |==> -126
+30:ROR:>(int,int):!=(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):73:ch > 126 |==> ch != 126
+31:ROR:>(int,int):>=(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):73:ch > 126 |==> ch >= 126
+32:ROR:>(int,int):FALSE(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):73:ch > 126 |==> false
+33:COR:||(boolean,boolean):!=(boolean,boolean):bsh.TokenMgrError@addEscapes(java.lang.String):73:(ch = str.charAt(i)) < 32 || ch > 126 |==> (ch = str.charAt(i)) < 32 != ch > 126
+34:COR:||(boolean,boolean):LHS(boolean,boolean):bsh.TokenMgrError@addEscapes(java.lang.String):73:(ch = str.charAt(i)) < 32 || ch > 126 |==> (ch = str.charAt(i)) < 32
+35:LVR:POS:0:bsh.TokenMgrError@addEscapes(java.lang.String):74:16 |==> 0
+36:LVR:POS:NEG:bsh.TokenMgrError@addEscapes(java.lang.String):74:16 |==> -16
+37:LVR:POS:0:bsh.TokenMgrError@addEscapes(java.lang.String):75:4 |==> 0
+38:LVR:POS:NEG:bsh.TokenMgrError@addEscapes(java.lang.String):75:4 |==> -4
+39:AOR:-(int,int):%(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):75:s.length() - 4 |==> s.length() % 4
+40:AOR:-(int,int):*(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):75:s.length() - 4 |==> s.length() * 4
+41:AOR:-(int,int):+(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):75:s.length() - 4 |==> s.length() + 4
+42:AOR:-(int,int):/(int,int):bsh.TokenMgrError@addEscapes(java.lang.String):75:s.length() - 4 |==> s.length() / 4
+43:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):75:retval.append("\\u" + s.substring(s.length() - 4, s.length())) |==> <NO-OP>
+44:STD:<CALL>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):77:retval.append(ch) |==> <NO-OP>
+45:STD:<CONT>:<NO-OP>:bsh.TokenMgrError@addEscapes(java.lang.String):79:continue; |==> <NO-OP>
+46:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:bsh.TokenMgrError@addEscapes(java.lang.String):82:retval.toString() |==> null
+47:COR:EOFSeen:TRUE:bsh.TokenMgrError@LexicalError(boolean,int,int,int,java.lang.String,char):101:EOFSeen |==> false
+48:COR:EOFSeen:FALSE:bsh.TokenMgrError@LexicalError(boolean,int,int,int,java.lang.String,char):101:EOFSeen |==> true
+49:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:bsh.TokenMgrError@getMessage():115:super.getMessage() |==> null
+50:STD:<ASSIGN>:<NO-OP>:bsh.TokenMgrError@<init>(java.lang.String,int):127:errorCode = reason |==> <NO-OP>
