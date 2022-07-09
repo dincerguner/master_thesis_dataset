@@ -40,8 +40,8 @@ public class LineElement implements Element
 	//{{{ LineElement constructor
 	public LineElement(Buffer buffer, int line)
 	{
-		this.buffer = buffer;
-		this.line = line;
+		;
+		;
 	} //}}}
 
 	//{{{ getDocument() method

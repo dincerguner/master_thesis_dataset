@@ -1,0 +1,236 @@
+1:LVR:POS:0:org.gjt.sp.jedit.buffer.ContentManager@<init>():43:1024 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.buffer.ContentManager@<init>():43:1024 |==> -1024
+3:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@<init>():43:text = new char[1024] |==> <NO-OP>
+4:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.ContentManager@getLength():49:length |==> 0
+5:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):55:start >= gapStart |==> start == gapStart
+6:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):55:start >= gapStart |==> start > gapStart
+7:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):55:start >= gapStart |==> true
+8:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd |==> start % gapEnd
+9:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd |==> start * gapEnd
+10:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd |==> start - gapEnd
+11:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd |==> start / gapEnd
+12:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd - gapStart |==> (start + gapEnd) % gapStart
+13:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd - gapStart |==> (start + gapEnd) * gapStart
+14:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd - gapStart |==> start + gapEnd + gapStart
+15:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):56:start + gapEnd - gapStart |==> (start + gapEnd) / gapStart
+16:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):57:start + len |==> start % len
+17:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):57:start + len |==> start * len
+18:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):57:start + len |==> start - len
+19:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):57:start + len |==> start / len
+20:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):57:start + len <= gapStart |==> start + len < gapStart
+21:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):57:start + len <= gapStart |==> start + len == gapStart
+22:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):57:start + len <= gapStart |==> true
+23:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):58:new String(text, start, len) |==> null
+24:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):61:gapStart - start |==> gapStart % start
+25:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):61:gapStart - start |==> gapStart * start
+26:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):61:gapStart - start |==> gapStart + start
+27:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):61:gapStart - start |==> gapStart / start
+28:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len |==> start % len
+29:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len |==> start * len
+30:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len |==> start - len
+31:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len |==> start / len
+32:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len - gapStart |==> (start + len) % gapStart
+33:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len - gapStart |==> (start + len) * gapStart
+34:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len - gapStart |==> start + len + gapStart
+35:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int):62:start + len - gapStart |==> (start + len) / gapStart
+36:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):69:start >= gapStart |==> start == gapStart
+37:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):69:start >= gapStart |==> start > gapStart
+38:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):69:start >= gapStart |==> true
+39:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):71:seg.array = text |==> <NO-OP>
+40:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd |==> start % gapEnd
+41:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd |==> start * gapEnd
+42:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd |==> start - gapEnd
+43:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd |==> start / gapEnd
+44:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd - gapStart |==> (start + gapEnd) % gapStart
+45:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd - gapStart |==> (start + gapEnd) * gapStart
+46:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd - gapStart |==> start + gapEnd + gapStart
+47:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:start + gapEnd - gapStart |==> (start + gapEnd) / gapStart
+48:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):72:seg.offset = start + gapEnd - gapStart |==> <NO-OP>
+49:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):73:seg.count = len |==> <NO-OP>
+50:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):75:start + len |==> start % len
+51:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):75:start + len |==> start * len
+52:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):75:start + len |==> start - len
+53:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):75:start + len |==> start / len
+54:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):75:start + len <= gapStart |==> start + len < gapStart
+55:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):75:start + len <= gapStart |==> start + len == gapStart
+56:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):75:start + len <= gapStart |==> true
+57:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):77:seg.array = text |==> <NO-OP>
+58:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):78:seg.offset = start |==> <NO-OP>
+59:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):79:seg.count = len |==> <NO-OP>
+60:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):83:seg.array = new char[len] |==> <NO-OP>
+61:LVR:0:POS:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):86:0 |==> 1
+62:LVR:0:NEG:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):86:0 |==> -1
+63:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):86:gapStart - start |==> gapStart % start
+64:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):86:gapStart - start |==> gapStart * start
+65:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):86:gapStart - start |==> gapStart + start
+66:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):86:gapStart - start |==> gapStart / start
+67:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):86:System.arraycopy(text, start, seg.array, 0, gapStart - start) |==> <NO-OP>
+68:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):89:gapStart - start |==> gapStart % start
+69:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):89:gapStart - start |==> gapStart * start
+70:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):89:gapStart - start |==> gapStart + start
+71:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):89:gapStart - start |==> gapStart / start
+72:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start |==> len % start
+73:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start |==> len * start
+74:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start |==> len - start
+75:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start |==> len / start
+76:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start - gapStart |==> (len + start) % gapStart
+77:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start - gapStart |==> (len + start) * gapStart
+78:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start - gapStart |==> len + start + gapStart
+79:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):90:len + start - gapStart |==> (len + start) / gapStart
+80:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):89:System.arraycopy(text, gapEnd, seg.array, gapStart - start, len + start - gapStart) |==> <NO-OP>
+81:LVR:0:POS:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):92:0 |==> 1
+82:LVR:0:NEG:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):92:0 |==> -1
+83:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):92:seg.offset = 0 |==> <NO-OP>
+84:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@getText(int,int,javax.swing.text.Segment):93:seg.count = len |==> <NO-OP>
+85:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):100:str.length() |==> 0
+86:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapStart != start |==> gapStart < start
+87:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapStart != start |==> gapStart > start
+88:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapStart != start |==> true
+89:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapEnd - gapStart |==> gapEnd % gapStart
+90:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapEnd - gapStart |==> gapEnd * gapStart
+91:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapEnd - gapStart |==> gapEnd + gapStart
+92:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapEnd - gapStart |==> gapEnd / gapStart
+93:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapEnd - gapStart < len |==> gapEnd - gapStart != len
+94:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapEnd - gapStart < len |==> gapEnd - gapStart <= len
+95:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapEnd - gapStart < len |==> false
+96:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapStart != start || gapEnd - gapStart < len |==> gapStart != start != gapEnd - gapStart < len
+97:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapStart != start || gapEnd - gapStart < len |==> gapStart != start
+98:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapStart != start || gapEnd - gapStart < len |==> gapEnd - gapStart < len
+99:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):101:gapStart != start || gapEnd - gapStart < len |==> true
+100:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len |==> length % len
+101:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len |==> length * len
+102:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len |==> length - len
+103:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len |==> length / len
+104:LVR:POS:0:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:200 |==> 0
+105:LVR:POS:NEG:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:200 |==> -200
+106:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len + 200 |==> (length + len) % 200
+107:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len + 200 |==> (length + len) * 200
+108:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len + 200 |==> length + len - 200
+109:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:length + len + 200 |==> (length + len) / 200
+110:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):103:ensureCapacity(length + len + 200) |==> <NO-OP>
+111:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len |==> start % len
+112:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len |==> start * len
+113:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len |==> start - len
+114:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len |==> start / len
+115:LVR:POS:0:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:200 |==> 0
+116:LVR:POS:NEG:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:200 |==> -200
+117:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len + 200 |==> (start + len) % 200
+118:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len + 200 |==> (start + len) * 200
+119:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len + 200 |==> start + len - 200
+120:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:start + len + 200 |==> (start + len) / 200
+121:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):104:close(start, start + len + 200) |==> <NO-OP>
+122:LVR:0:POS:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):106:0 |==> 1
+123:LVR:0:NEG:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):106:0 |==> -1
+124:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):106:str.getChars(0, len, text, start) |==> <NO-OP>
+125:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):107:gapStart += len |==> <NO-OP>
+126:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,java.lang.String):108:length += len |==> <NO-OP>
+127:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapStart != start |==> gapStart < start
+128:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapStart != start |==> gapStart > start
+129:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapStart != start |==> true
+130:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapEnd - gapStart |==> gapEnd % gapStart
+131:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapEnd - gapStart |==> gapEnd * gapStart
+132:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapEnd - gapStart |==> gapEnd + gapStart
+133:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapEnd - gapStart |==> gapEnd / gapStart
+134:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapEnd - gapStart < seg.count |==> gapEnd - gapStart != seg.count
+135:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapEnd - gapStart < seg.count |==> gapEnd - gapStart <= seg.count
+136:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapEnd - gapStart < seg.count |==> false
+137:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapStart != start || gapEnd - gapStart < seg.count |==> gapStart != start != gapEnd - gapStart < seg.count
+138:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapStart != start || gapEnd - gapStart < seg.count |==> gapStart != start
+139:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapStart != start || gapEnd - gapStart < seg.count |==> gapEnd - gapStart < seg.count
+140:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):114:gapStart != start || gapEnd - gapStart < seg.count |==> true
+141:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count |==> length % seg.count
+142:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count |==> length * seg.count
+143:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count |==> length - seg.count
+144:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count |==> length / seg.count
+145:LVR:POS:0:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:200 |==> 0
+146:LVR:POS:NEG:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:200 |==> -200
+147:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count + 200 |==> (length + seg.count) % 200
+148:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count + 200 |==> (length + seg.count) * 200
+149:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count + 200 |==> length + seg.count - 200
+150:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:length + seg.count + 200 |==> (length + seg.count) / 200
+151:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):116:ensureCapacity(length + seg.count + 200) |==> <NO-OP>
+152:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count |==> start % seg.count
+153:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count |==> start * seg.count
+154:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count |==> start - seg.count
+155:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count |==> start / seg.count
+156:LVR:POS:0:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:200 |==> 0
+157:LVR:POS:NEG:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:200 |==> -200
+158:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count + 200 |==> (start + seg.count) % 200
+159:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count + 200 |==> (start + seg.count) * 200
+160:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count + 200 |==> start + seg.count - 200
+161:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:start + seg.count + 200 |==> (start + seg.count) / 200
+162:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):117:close(start, start + seg.count + 200) |==> <NO-OP>
+163:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):119:System.arraycopy(seg.array, seg.offset, text, start, seg.count) |==> <NO-OP>
+164:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):120:gapStart += seg.count |==> <NO-OP>
+165:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@insert(int,javax.swing.text.Segment):121:length += seg.count |==> <NO-OP>
+166:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@_setContent(char[],int):127:this.text = text |==> <NO-OP>
+167:LVR:0:POS:org.gjt.sp.jedit.buffer.ContentManager@_setContent(char[],int):128:0 |==> 1
+168:LVR:0:NEG:org.gjt.sp.jedit.buffer.ContentManager@_setContent(char[],int):128:0 |==> -1
+169:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@_setContent(char[],int):128:this.gapStart = this.gapEnd = 0 |==> <NO-OP>
+170:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@_setContent(char[],int):129:this.length = length |==> <NO-OP>
+171:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@remove(int,int):135:close(start, start) |==> <NO-OP>
+172:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@remove(int,int):136:gapEnd += len |==> <NO-OP>
+173:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@remove(int,int):137:length -= len |==> <NO-OP>
+174:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):150:gapStart == newStart |==> gapStart <= newStart
+175:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):150:gapStart == newStart |==> gapStart >= newStart
+176:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):150:gapStart == newStart |==> false
+177:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):152:length - gapStart |==> length % gapStart
+178:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):152:length - gapStart |==> length * gapStart
+179:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):152:length - gapStart |==> length + gapStart
+180:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):152:length - gapStart |==> length / gapStart
+181:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@close(int,int):152:System.arraycopy(text, gapEnd, text, newEnd, length - gapStart) |==> <NO-OP>
+182:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != gapEnd |==> gapStart < gapEnd
+183:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != gapEnd |==> gapStart > gapEnd
+184:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != gapEnd |==> true
+185:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != length |==> gapStart < length
+186:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != length |==> gapStart > length
+187:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != length |==> true
+188:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != gapEnd && gapStart != length |==> gapStart != gapEnd == (gapStart != length)
+189:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != gapEnd && gapStart != length |==> false
+190:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != gapEnd && gapStart != length |==> gapStart != gapEnd
+191:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):156:gapStart != gapEnd && gapStart != length |==> gapStart != length
+192:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):159:length - gapStart |==> length % gapStart
+193:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):159:length - gapStart |==> length * gapStart
+194:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):159:length - gapStart |==> length + gapStart
+195:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):159:length - gapStart |==> length / gapStart
+196:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@close(int,int):158:System.arraycopy(text, gapEnd, text, gapStart, length - gapStart) |==> <NO-OP>
+197:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != newEnd |==> newStart < newEnd
+198:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != newEnd |==> newStart > newEnd
+199:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != newEnd |==> true
+200:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != length |==> newStart < length
+201:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != length |==> newStart > length
+202:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != length |==> true
+203:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != newEnd && newStart != length |==> newStart != newEnd == (newStart != length)
+204:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != newEnd && newStart != length |==> false
+205:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != newEnd && newStart != length |==> newStart != newEnd
+206:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):162:newStart != newEnd && newStart != length |==> newStart != length
+207:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):165:length - newStart |==> length % newStart
+208:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):165:length - newStart |==> length * newStart
+209:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):165:length - newStart |==> length + newStart
+210:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@close(int,int):165:length - newStart |==> length / newStart
+211:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@close(int,int):164:System.arraycopy(text, newStart, text, newEnd, length - newStart) |==> <NO-OP>
+212:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@close(int,int):169:gapStart = newStart |==> <NO-OP>
+213:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@close(int,int):170:gapEnd = newEnd |==> <NO-OP>
+214:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):176:capacity >= text.length |==> capacity == text.length
+215:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):176:capacity >= text.length |==> capacity > text.length
+216:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):176:capacity >= text.length |==> true
+217:LVR:POS:0:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):178:2 |==> 0
+218:LVR:POS:NEG:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):178:2 |==> -2
+219:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):178:capacity * 2 |==> capacity % 2
+220:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):178:capacity * 2 |==> capacity + 2
+221:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):178:capacity * 2 |==> capacity - 2
+222:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):178:capacity * 2 |==> capacity / 2
+223:LVR:0:POS:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:0 |==> 1
+224:LVR:0:NEG:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:0 |==> -1
+225:LVR:0:POS:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:0 |==> 1
+226:LVR:0:NEG:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:0 |==> -1
+227:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:gapEnd - gapStart |==> gapEnd % gapStart
+228:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:gapEnd - gapStart |==> gapEnd * gapStart
+229:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:gapEnd - gapStart |==> gapEnd + gapStart
+230:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:gapEnd - gapStart |==> gapEnd / gapStart
+231:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:length + (gapEnd - gapStart) |==> length % (gapEnd - gapStart)
+232:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:length + (gapEnd - gapStart) |==> length * (gapEnd - gapStart)
+233:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:length + (gapEnd - gapStart) |==> length - (gapEnd - gapStart)
+234:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:length + (gapEnd - gapStart) |==> length / (gapEnd - gapStart)
+235:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):179:System.arraycopy(text, 0, textN, 0, length + (gapEnd - gapStart)) |==> <NO-OP>
+236:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.buffer.ContentManager@ensureCapacity(int):180:text = textN |==> <NO-OP>

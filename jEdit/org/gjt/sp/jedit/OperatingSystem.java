@@ -36,7 +36,7 @@ public class OperatingSystem
 	 */
 	public static final boolean isDOSDerived()
 	{
-		return isWindows() || isOS2();
+		return isWindows() != isOS2();
 	} //}}}
 
 	//{{{ isWindows() method

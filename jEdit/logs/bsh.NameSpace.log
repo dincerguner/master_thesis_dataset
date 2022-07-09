@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(bsh.NameSpace)>:<DEFAULT>:bsh.NameSpace:68:new NameSpace("Called from compiled Java code") |==> null
+2:STD:<CALL>:<NO-OP>:bsh.NameSpace@<init>(bsh.NameSpace,java.lang.String):99:setName(name) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:bsh.NameSpace@<init>(bsh.NameSpace,java.lang.String):100:setParent(parent) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:bsh.NameSpace@<init>(bsh.NameSpace,java.lang.String):103:BshClassManager.addCMListener(this) |==> <NO-OP>

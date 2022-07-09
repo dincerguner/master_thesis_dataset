@@ -1,0 +1,65 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):38:true |==> false
+2:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):40:12 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):40:12 |==> -12
+4:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):40:12 |==> 0
+5:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):40:12 |==> -12
+6:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> 0
+7:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> -12
+8:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> 0
+9:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> -12
+10:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> 0
+11:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> -12
+12:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> 0
+13:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:12 |==> -12
+14:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):41:content.setBorder(new EmptyBorder(12, 12, 12, 12)) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):42:setContentPane(content) |==> <NO-OP>
+16:EVR:<NEW_CLASS(javax.swing.Box)>:<DEFAULT>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):44:new Box(BoxLayout.Y_AXIS) |==> null
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):45:iconBox.add(new JLabel(UIManager.getIcon("OptionPane.errorIcon"))) |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):46:iconBox.add(Box.createGlue()) |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):47:content.add(BorderLayout.WEST, iconBox) |==> <NO-OP>
+20:EVR:<NEW_CLASS(javax.swing.JPanel)>:<DEFAULT>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):49:new JPanel(new BorderLayout()) |==> null
+21:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:2 |==> 0
+22:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:2 |==> -2
+23:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:1 |==> 0
+24:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:1 |==> -1
+25:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:3 |==> 0
+26:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:3 |==> -3
+27:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:3 |==> 0
+28:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):51:3 |==> -3
+29:LVR:0:POS:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:0 |==> 1
+30:LVR:0:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:0 |==> -1
+31:LVR:0:POS:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:0 |==> 1
+32:LVR:0:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:0 |==> -1
+33:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:6 |==> 0
+34:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:6 |==> -6
+35:LVR:0:POS:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:0 |==> 1
+36:LVR:0:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:0 |==> -1
+37:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):52:caption.setBorder(new EmptyBorder(0, 0, 6, 0)) |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):53:caption.add(new JLabel(jEdit.getProperty("beanshell-error.message.1"))) |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):54:caption.add(new JLabel(jEdit.getProperty("beanshell-error.message.2"))) |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):55:centerPanel.add(BorderLayout.NORTH, caption) |==> <NO-OP>
+41:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):57:10 |==> 0
+42:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):57:10 |==> -10
+43:LVR:POS:0:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):57:60 |==> 0
+44:LVR:POS:NEG:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):57:60 |==> -60
+45:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):58:textArea.setText(message) |==> <NO-OP>
+46:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):59:true |==> false
+47:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):59:textArea.setLineWrap(true) |==> <NO-OP>
+48:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):60:true |==> false
+49:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):60:textArea.setWrapStyleWord(true) |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):61:centerPanel.add(BorderLayout.CENTER, new JScrollPane(textArea)) |==> <NO-OP>
+51:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):63:content.add(BorderLayout.CENTER, centerPanel) |==> <NO-OP>
+52:EVR:<NEW_CLASS(javax.swing.Box)>:<DEFAULT>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):65:new Box(BoxLayout.X_AXIS) |==> null
+53:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):66:buttons.add(Box.createGlue()) |==> <NO-OP>
+54:EVR:<NEW_CLASS(javax.swing.JButton)>:<DEFAULT>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):67:new JButton(jEdit.getProperty("common.ok")) |==> null
+55:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):68:ok.addActionListener(new ActionHandler()) |==> <NO-OP>
+56:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):69:buttons.add(ok) |==> <NO-OP>
+57:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):70:buttons.add(Box.createGlue()) |==> <NO-OP>
+58:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):71:content.add(BorderLayout.SOUTH, buttons) |==> <NO-OP>
+59:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):73:getRootPane().setDefaultButton(ok) |==> <NO-OP>
+60:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):75:pack() |==> <NO-OP>
+61:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):76:setLocationRelativeTo(view) |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@<init>(View,java.lang.String):77:show() |==> <NO-OP>
+63:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@ok():83:dispose() |==> <NO-OP>
+64:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog@cancel():89:dispose() |==> <NO-OP>
+65:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.BeanShellErrorDialog$ActionHandler@actionPerformed(java.awt.event.ActionEvent):98:dispose() |==> <NO-OP>

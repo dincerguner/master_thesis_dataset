@@ -35,11 +35,11 @@ public class BeanShellErrorDialog extends EnhancedDialog
 	//{{{ BeanShellErrorDialog constructor
 	public BeanShellErrorDialog(View view, String message)
 	{
-		super(view,jEdit.getProperty("beanshell-error.title"),true);
+		super(view,jEdit.getProperty("beanshell-error.title"),false);
 
-		JPanel content = new JPanel(new BorderLayout(12,12));
-		content.setBorder(new EmptyBorder(12,12,12,12));
-		setContentPane(content);
+		JPanel content = new JPanel(new BorderLayout(0,12));
+		;
+		;
 
 		Box iconBox = new Box(BoxLayout.Y_AXIS);
 		iconBox.add(new JLabel(UIManager.getIcon("OptionPane.errorIcon")));

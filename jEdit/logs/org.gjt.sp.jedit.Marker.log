@@ -1,0 +1,11 @@
+1:EVR:<IDENTIFIER(char)>:<DEFAULT>:org.gjt.sp.jedit.Marker@getShortcut():43:shortcut |==> 0
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.Marker@getPosition():53:position == null |==> false
+3:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@<init>(Buffer,char,int):61:this.buffer = buffer |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@<init>(Buffer,char,int):62:this.shortcut = shortcut |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@<init>(Buffer,char,int):63:this.pos = position |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@setShortcut(char):74:this.shortcut = shortcut |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@createPosition():80:position = buffer.createPosition(pos) |==> <NO-OP>
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.Marker@removePosition():87:position != null |==> true
+9:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@removePosition():89:pos = position.getOffset() |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@removePosition():90:position = null |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.Marker@setPosition(int):101:this.pos = pos |==> <NO-OP>

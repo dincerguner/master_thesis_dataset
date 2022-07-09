@@ -1,0 +1,4 @@
+1:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.OperatingSystem@isDOSDerived():39:isWindows() || isOS2() |==> isWindows() != isOS2()
+2:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.OperatingSystem@isDOSDerived():39:isWindows() || isOS2() |==> isWindows()
+3:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.OperatingSystem@isDOSDerived():39:isWindows() || isOS2() |==> isOS2()
+4:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.OperatingSystem@isDOSDerived():39:isWindows() || isOS2() |==> true

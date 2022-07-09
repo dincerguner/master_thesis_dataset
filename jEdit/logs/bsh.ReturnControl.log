@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:bsh.ReturnControl@<init>(int,java.lang.Object):45:this.kind = kind |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:bsh.ReturnControl@<init>(int,java.lang.Object):46:this.value = value |==> <NO-OP>
