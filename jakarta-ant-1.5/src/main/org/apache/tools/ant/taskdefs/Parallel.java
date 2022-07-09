@@ -78,7 +78,7 @@ public class Parallel extends Task
                       implements TaskContainer {
 
     /** Collection holding the nested tasks */
-    private Vector nestedTasks = new Vector();
+    private Vector nestedTasks = null;
 
 
     /**

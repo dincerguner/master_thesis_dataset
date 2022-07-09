@@ -158,21 +158,7 @@ public class DirectoryScanner implements FileScanner, SelectorScanner {
      *
      * @see #addDefaultExcludes()
      */
-    protected static final String[] DEFAULTEXCLUDES = {
-        "**/*~",
-        "**/#*#",
-        "**/.#*",
-        "**/%*%",
-        "**/._*",
-        "**/CVS",
-        "**/CVS/**",
-        "**/.cvsignore",
-        "**/SCCS",
-        "**/SCCS/**",
-        "**/vssver.scc",
-        "**/.svn",
-        "**/.svn/**"
-    };
+    protected static final String[] DEFAULTEXCLUDES = null;
 
     /** The base directory to be scanned. */
     protected File basedir;

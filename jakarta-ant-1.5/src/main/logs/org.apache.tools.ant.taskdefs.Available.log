@@ -1,0 +1,4 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Available:93:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.Available:94:false |==> true
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Available@setClasspath(Path):102:createClasspath().append(classpath) |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.taskdefs.Available@createClasspath():111:this.classpath == null |==> false

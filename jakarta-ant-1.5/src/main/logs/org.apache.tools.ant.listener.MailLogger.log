@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.listener.MailLogger:102:new StringBuffer() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.listener.MailLogger@buildFinished(BuildEvent):110:super.buildFinished(event) |==> <NO-OP>

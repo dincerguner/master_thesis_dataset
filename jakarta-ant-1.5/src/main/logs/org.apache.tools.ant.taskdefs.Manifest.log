@@ -1,0 +1,5 @@
+1:EVR:<MINUS(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Manifest:119:MAX_LINE_LENGTH - 2 |==> 0
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.Manifest$Attribute:133:new Vector() |==> null
+3:LVR:0:POS:org.apache.tools.ant.taskdefs.Manifest$Attribute:139:0 |==> 1
+4:LVR:0:NEG:org.apache.tools.ant.taskdefs.Manifest$Attribute:139:0 |==> -1
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.Manifest$Attribute@<init>(java.lang.String):154:parse(line) |==> <NO-OP>

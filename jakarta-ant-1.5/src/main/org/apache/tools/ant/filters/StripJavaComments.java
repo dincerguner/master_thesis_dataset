@@ -71,7 +71,7 @@ public final class StripJavaComments
      * The read-ahead character, used for effectively pushing a single
      * character back. -1 indicates that no character is in the buffer.
      */
-    private int readAheadCh = -1;
+    private int readAheadCh = 0;
 
     /** 
      * Whether or not the parser is currently in the middle of a string

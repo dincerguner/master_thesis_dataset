@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.input.MultipleChoiceInputRequest:67:new Vector() |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.input.MultipleChoiceInputRequest@<init>(java.lang.String,java.util.Vector):76:choices == null |==> false
