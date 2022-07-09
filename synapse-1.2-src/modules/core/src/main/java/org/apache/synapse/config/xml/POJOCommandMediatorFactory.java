@@ -52,9 +52,9 @@ import java.util.Iterator;
 public class POJOCommandMediatorFactory extends AbstractMediatorFactory {
 
     private static final QName POJO_COMMAND_Q
-        = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "pojoCommand");
-    protected static final QName ATT_ACTION = new QName("action");
-    protected static final QName ATT_CTXNAME = new QName("context-name");
+        = null;
+    protected static final QName ATT_ACTION = null;
+    protected static final QName ATT_CTXNAME = null;
 
     protected static final String RM_ACTION = "ReadMessage";
     protected static final String UM_ACTION = "UpdateMessage";

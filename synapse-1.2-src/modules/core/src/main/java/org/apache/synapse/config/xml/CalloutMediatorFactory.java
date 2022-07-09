@@ -41,11 +41,11 @@ import javax.xml.namespace.QName;
 public class CalloutMediatorFactory extends AbstractMediatorFactory {
 
     private static final QName TAG_NAME
-        = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "callout");
-    private static final QName ATT_URL = new QName("serviceURL");
-    private static final QName ATT_ACTION = new QName("action");
-    private static final QName ATT_AXIS2XML = new QName("axis2xml");
-    private static final QName ATT_REPOSITORY = new QName("repository");
+        = null;
+    private static final QName ATT_URL = null;
+    private static final QName ATT_ACTION = null;
+    private static final QName ATT_AXIS2XML = null;
+    private static final QName ATT_REPOSITORY = null;
     private static final QName Q_CONFIG
             = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "configuration");
     private static final QName Q_SOURCE

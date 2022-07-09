@@ -36,8 +36,8 @@ import javax.xml.namespace.QName;
  * </pre>
  */
 public class PropertyMediatorFactory extends AbstractMediatorFactory {
-    private static final QName ATT_SCOPE = new QName("scope");
-    private static final QName ATT_ACTION = new QName("action");
+    private static final QName ATT_SCOPE = null;
+    private static final QName ATT_ACTION = null;
 
     public Mediator createMediator(OMElement elem) {
 

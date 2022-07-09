@@ -44,7 +44,7 @@ import java.util.Iterator;
  */
 public class ClassMediatorFactory extends AbstractMediatorFactory {
 
-    private static final QName CLASS_Q = new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "class");
+    private static final QName CLASS_Q = null;
 
     public Mediator createMediator(OMElement elem) {
 

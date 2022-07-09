@@ -1,0 +1,3 @@
+1:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.SwitchMediatorFactory:51:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "switch") |==> null
+2:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.SwitchMediatorFactory:52:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "case") |==> null
+3:EVR:<NEW_CLASS(javax.xml.namespace.QName)>:<DEFAULT>:org.apache.synapse.config.xml.SwitchMediatorFactory:53:new QName(XMLConfigConstants.SYNAPSE_NAMESPACE, "default") |==> null

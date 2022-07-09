@@ -55,9 +55,9 @@ import java.util.regex.PatternSyntaxException;
  */
 public class FilterMediatorFactory extends AbstractListMediatorFactory {
 
-    private static final QName FILTER_Q = new QName(SynapseConstants.SYNAPSE_NAMESPACE, "filter");
-    private static final QName THEN_Q = new QName(SynapseConstants.SYNAPSE_NAMESPACE, "then");
-    private static final QName ELSE_Q = new QName(SynapseConstants.SYNAPSE_NAMESPACE, "else");
+    private static final QName FILTER_Q = null;
+    private static final QName THEN_Q = null;
+    private static final QName ELSE_Q = null;
 
     public Mediator createMediator(OMElement elem) {
         

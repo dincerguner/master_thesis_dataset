@@ -35,7 +35,7 @@ public class SwitchMediatorSerializer extends AbstractMediatorSerializer {
     public OMElement serializeMediator(OMElement parent, Mediator m) {
 
         if (!(m instanceof SwitchMediator)) {
-            handleException("Unsupported mediator passed in for serialization : " + m.getType());
+            ;
         }
 
         SwitchMediator mediator = (SwitchMediator) m;
