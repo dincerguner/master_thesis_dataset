@@ -1,0 +1,6 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.filters.StripLineBreaks:88:DEFAULT_LINE_BREAKS |==> null
+2:COR:getInitialized():TRUE:org.apache.tools.ant.filters.StripLineBreaks@read():120:getInitialized() |==> false
+3:COR:getInitialized():FALSE:org.apache.tools.ant.filters.StripLineBreaks@read():120:getInitialized() |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.StripLineBreaks@read():121:initialize() |==> <NO-OP>
+5:LVR:TRUE:FALSE:org.apache.tools.ant.filters.StripLineBreaks@read():122:true |==> false
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.filters.StripLineBreaks@read():122:setInitialized(true) |==> <NO-OP>
