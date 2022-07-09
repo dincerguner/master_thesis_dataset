@@ -1,0 +1,5 @@
+1:EVR:<METHOD_INVOCATION(java.util.logging.Logger)>:<DEFAULT>:net.sourceforge.pbeans.DefaultStoreInfo:19:Logger.getLogger(DefaultStoreInfo.class.getName()) |==> null
+2:EVR:<NEW_CLASS(java.util.HashMap<java.lang.String,java.beans.PropertyDescriptor>)>:<DEFAULT>:net.sourceforge.pbeans.DefaultStoreInfo:21:new HashMap<String, PropertyDescriptor>() |==> null
+3:EVR:<NEW_CLASS(java.util.HashMap<java.lang.String,FieldDescriptor>)>:<DEFAULT>:net.sourceforge.pbeans.DefaultStoreInfo:22:new HashMap<String, FieldDescriptor>() |==> null
+4:EVR:<NEW_CLASS(java.util.HashMap<java.lang.String,java.beans.PropertyDescriptor>)>:<DEFAULT>:net.sourceforge.pbeans.DefaultStoreInfo:23:new HashMap<String, PropertyDescriptor>() |==> null
+5:EVR:<IDENTIFIER(java.lang.Class)>:<DEFAULT>:net.sourceforge.pbeans.DefaultStoreInfo@<init>(java.lang.Class,Store):36:clazz |==> null

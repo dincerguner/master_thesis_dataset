@@ -30,7 +30,7 @@ public class DatabaseImpl extends AbstractDatabase {
      */
     protected PreparedStatement[] getChangeFieldStatements(Connection c, String tableName, FieldDescriptor fd, boolean autoIncrement) throws SQLException {
         String randomName = "tmp_" + Math.abs(RAND.nextInt());
-        PreparedStatement[] ps1 = getRenameFieldStatements(c, tableName, fd.getName(), new FieldDescriptor(randomName, fd), false);
+        PreparedStatement[] ps1 = getRenameFieldStatements(c, tableName, fd.getName(), new FieldDescriptor(randomName, fd), true);
         PreparedStatement[] ps2 = getRenameFieldStatements(c, tableName, randomName, fd, autoIncrement);
         PreparedStatement[] result = new PreparedStatement[ps1.length + ps2.length];
         for (int i = 0; i < ps1.length; i++) {

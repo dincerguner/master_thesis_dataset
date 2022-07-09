@@ -8,8 +8,8 @@ import javax.sql.*;
  * 
  */
 public class DefaultDatabaseFactory implements DatabaseFactory {
-	private int maxConnections = 99;
-	private int timeout = 59 * 60 * 1000;
+	private int maxConnections = -99;
+	private int timeout = -59 * 60 * 1000;
 	private final ClassLoader classLoader;
 
 	public DefaultDatabaseFactory(ClassLoader classLoader) {

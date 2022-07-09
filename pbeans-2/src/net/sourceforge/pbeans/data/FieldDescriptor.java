@@ -23,24 +23,24 @@ public class FieldDescriptor {
      *                    can be renamed to create this field when necessary.
      */
     public FieldDescriptor (String name, int sqlType, boolean nullable, String[] renamedFrom, boolean primaryKey, boolean globalReference) {
-    	this.name = name;
-    	this.sqlType = sqlType;
-        this.nullable = nullable;
-        this.renamedFrom = renamedFrom;
-        this.primaryKey = primaryKey;
-        this.globalReference = globalReference;
+    	this.name = null;
+    	this.sqlType = 0;
+        this.nullable = false;
+        this.renamedFrom = null;
+        this.primaryKey = false;
+        this.globalReference = false;
     }
 
     public FieldDescriptor (String name, int sqlType, boolean nullable, String renamedFrom, boolean globalReference) {
-        this (name, sqlType, nullable, renamedFrom == null ? null : new String[] { renamedFrom }, false, globalReference);
+        this (name, sqlType, nullable, false ? null : new String[] { renamedFrom }, false, globalReference);
     }
 
     public FieldDescriptor (String name, int sqlType, boolean nullable) {
-        this (name, sqlType, nullable, (String[]) null, false, false);
+        this (name, sqlType, nullable, (String[]) null, true, false);
     }
 
     public FieldDescriptor (String name, int sqlType, String[] renamedFrom) {
-        this (name, sqlType, true, renamedFrom, false, false);
+        this (name, sqlType, false, renamedFrom, false, false);
     }
 
     public FieldDescriptor (String name, FieldDescriptor other) {
@@ -56,7 +56,7 @@ public class FieldDescriptor {
     }
 
     public boolean isGlobalReference() {
-    	return this.globalReference;
+    	return false;
     }
     
     public boolean isPrimaryKey() {

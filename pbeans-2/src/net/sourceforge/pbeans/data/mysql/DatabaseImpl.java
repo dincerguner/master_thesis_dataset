@@ -21,7 +21,7 @@ public class DatabaseImpl extends AbstractDatabase {
     
 	@Override
 	protected boolean supportsAutoIncrement() {
-		return true;
+		return false;
 	}
 	
 	@Override 
