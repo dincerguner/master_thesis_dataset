@@ -1,0 +1,91 @@
+1:LVR:POS:0:bsh.Remote@main(java.lang.String[]):48:2 |==> 0
+2:LVR:POS:NEG:bsh.Remote@main(java.lang.String[]):48:2 |==> -2
+3:ROR:<(int,int):!=(int,int):bsh.Remote@main(java.lang.String[]):48:args.length < 2 |==> args.length != 2
+4:ROR:<(int,int):<=(int,int):bsh.Remote@main(java.lang.String[]):48:args.length < 2 |==> args.length <= 2
+5:ROR:<(int,int):FALSE(int,int):bsh.Remote@main(java.lang.String[]):48:args.length < 2 |==> false
+6:STD:<CALL>:<NO-OP>:bsh.Remote@main(java.lang.String[]):49:System.out.println("usage: Remote URL(http|bsh) file [ file ] ... ") |==> <NO-OP>
+7:LVR:POS:0:bsh.Remote@main(java.lang.String[]):51:1 |==> 0
+8:LVR:POS:NEG:bsh.Remote@main(java.lang.String[]):51:1 |==> -1
+9:STD:<CALL>:<NO-OP>:bsh.Remote@main(java.lang.String[]):51:System.exit(1) |==> <NO-OP>
+10:LVR:0:POS:bsh.Remote@main(java.lang.String[]):53:0 |==> 1
+11:LVR:0:NEG:bsh.Remote@main(java.lang.String[]):53:0 |==> -1
+12:LVR:POS:0:bsh.Remote@main(java.lang.String[]):54:1 |==> 0
+13:LVR:POS:NEG:bsh.Remote@main(java.lang.String[]):54:1 |==> -1
+14:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:bsh.Remote@main(java.lang.String[]):55:eval(url, text, null) |==> 0
+15:STD:<CALL>:<NO-OP>:bsh.Remote@main(java.lang.String[]):56:System.exit(ret) |==> <NO-OP>
+16:COR:url.startsWith("http:"):TRUE:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):67:url.startsWith("http:") |==> false
+17:COR:url.startsWith("http:"):FALSE:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):67:url.startsWith("http:") |==> true
+18:STD:<ASSIGN>:<NO-OP>:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):68:returnValue = doHttp(url, text) |==> <NO-OP>
+19:COR:url.startsWith("bsh:"):TRUE:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):69:url.startsWith("bsh:") |==> false
+20:COR:url.startsWith("bsh:"):FALSE:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):69:url.startsWith("bsh:") |==> true
+21:STD:<ASSIGN>:<NO-OP>:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):70:returnValue = doBsh(url, text) |==> <NO-OP>
+22:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):76:Integer.parseInt(returnValue) |==> 0
+23:LVR:0:POS:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):79:0 |==> 1
+24:LVR:0:NEG:bsh.Remote@eval(java.lang.String,java.lang.String,java.lang.StringBuffer):79:0 |==> -1
+25:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:bsh.Remote@doBsh(java.lang.String,java.lang.String):90:url |==> null
+26:LVR:POS:0:bsh.Remote@doBsh(java.lang.String,java.lang.String):94:6 |==> 0
+27:LVR:POS:NEG:bsh.Remote@doBsh(java.lang.String,java.lang.String):94:6 |==> -6
+28:STD:<ASSIGN>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):94:url = url.substring(6) |==> <NO-OP>
+29:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:bsh.Remote@doBsh(java.lang.String,java.lang.String):96:url.indexOf(":") |==> 0
+30:LVR:0:POS:bsh.Remote@doBsh(java.lang.String,java.lang.String):97:0 |==> 1
+31:LVR:0:NEG:bsh.Remote@doBsh(java.lang.String,java.lang.String):97:0 |==> -1
+32:STD:<ASSIGN>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):97:host = url.substring(0, index) |==> <NO-OP>
+33:LVR:POS:0:bsh.Remote@doBsh(java.lang.String,java.lang.String):98:1 |==> 0
+34:LVR:POS:NEG:bsh.Remote@doBsh(java.lang.String,java.lang.String):98:1 |==> -1
+35:AOR:+(int,int):%(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):98:index + 1 |==> index % 1
+36:AOR:+(int,int):*(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):98:index + 1 |==> index * 1
+37:AOR:+(int,int):-(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):98:index + 1 |==> index - 1
+38:AOR:+(int,int):/(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):98:index + 1 |==> index / 1
+39:STD:<ASSIGN>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):98:port = url.substring(index + 1, url.length()) |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):100:System.err.println("Bad URL: " + orgURL + ": " + ex) |==> <NO-OP>
+41:STD:<RETURN>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):101:return returnValue; |==> <NO-OP>
+42:STD:<CALL>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):105:System.out.println("Connecting to host : " + host + " at port : " + port) |==> <NO-OP>
+43:LVR:POS:0:bsh.Remote@doBsh(java.lang.String,java.lang.String):107:1 |==> 0
+44:LVR:POS:NEG:bsh.Remote@doBsh(java.lang.String,java.lang.String):107:1 |==> -1
+45:AOR:+(int,int):%(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):107:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) % 1
+46:AOR:+(int,int):*(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):107:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) * 1
+47:AOR:+(int,int):-(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):107:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) - 1
+48:AOR:+(int,int):/(int,int):bsh.Remote@doBsh(java.lang.String,java.lang.String):107:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) / 1
+49:EVR:<METHOD_INVOCATION(java.io.OutputStream)>:<DEFAULT>:bsh.Remote@doBsh(java.lang.String,java.lang.String):109:s.getOutputStream() |==> null
+50:EVR:<METHOD_INVOCATION(java.io.InputStream)>:<DEFAULT>:bsh.Remote@doBsh(java.lang.String,java.lang.String):110:s.getInputStream() |==> null
+51:STD:<CALL>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):112:sendLine(text, out) |==> <NO-OP>
+52:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:bsh.Remote@doBsh(java.lang.String,java.lang.String):114:new BufferedReader(new InputStreamReader(in)) |==> null
+53:STD:<CALL>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):118:System.out.println(line) |==> <NO-OP>
+54:STD:<ASSIGN>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):121:returnValue = "1" |==> <NO-OP>
+55:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:bsh.Remote@doBsh(java.lang.String,java.lang.String):122:returnValue |==> null
+56:STD:<CALL>:<NO-OP>:bsh.Remote@doBsh(java.lang.String,java.lang.String):124:System.err.println("Error communicating with server: " + ex) |==> <NO-OP>
+57:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:bsh.Remote@doBsh(java.lang.String,java.lang.String):125:returnValue |==> null
+58:STD:<CALL>:<NO-OP>:bsh.Remote@sendLine(java.lang.String,java.io.OutputStream):132:outPipe.write(line.getBytes()) |==> <NO-OP>
+59:STD:<CALL>:<NO-OP>:bsh.Remote@sendLine(java.lang.String,java.io.OutputStream):133:outPipe.flush() |==> <NO-OP>
+60:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:bsh.Remote@doHttp(java.lang.String,java.lang.String):140:new StringBuffer() |==> null
+61:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):141:sb.append("bsh.client=Remote") |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):142:sb.append("&bsh.script=") |==> <NO-OP>
+63:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):143:sb.append(URLEncoder.encode(text)) |==> <NO-OP>
+64:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:bsh.Remote@doHttp(java.lang.String,java.lang.String):144:sb.toString() |==> null
+65:EVR:<NEW_CLASS(java.net.URL)>:<DEFAULT>:bsh.Remote@doHttp(java.lang.String,java.lang.String):147:new URL(postURL) |==> null
+66:EVR:<TYPE_CAST(java.net.HttpURLConnection)>:<DEFAULT>:bsh.Remote@doHttp(java.lang.String,java.lang.String):149:(HttpURLConnection)url.openConnection() |==> null
+67:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):150:urlcon.setRequestMethod("POST") |==> <NO-OP>
+68:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):151:urlcon.setRequestProperty("Content-type", "application/x-www-form-urlencoded") |==> <NO-OP>
+69:LVR:TRUE:FALSE:bsh.Remote@doHttp(java.lang.String,java.lang.String):153:true |==> false
+70:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):153:urlcon.setDoOutput(true) |==> <NO-OP>
+71:LVR:TRUE:FALSE:bsh.Remote@doHttp(java.lang.String,java.lang.String):154:true |==> false
+72:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):154:urlcon.setDoInput(true) |==> <NO-OP>
+73:LVR:TRUE:FALSE:bsh.Remote@doHttp(java.lang.String,java.lang.String):156:true |==> false
+74:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):157:pout.print(formData) |==> <NO-OP>
+75:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):158:pout.flush() |==> <NO-OP>
+76:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:bsh.Remote@doHttp(java.lang.String,java.lang.String):161:urlcon.getResponseCode() |==> 0
+77:ROR:!=(int,int):<(int,int):bsh.Remote@doHttp(java.lang.String,java.lang.String):162:rc != HttpURLConnection.HTTP_OK |==> rc < HttpURLConnection.HTTP_OK
+78:ROR:!=(int,int):>(int,int):bsh.Remote@doHttp(java.lang.String,java.lang.String):162:rc != HttpURLConnection.HTTP_OK |==> rc > HttpURLConnection.HTTP_OK
+79:ROR:!=(int,int):TRUE(int,int):bsh.Remote@doHttp(java.lang.String,java.lang.String):162:rc != HttpURLConnection.HTTP_OK |==> true
+80:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):163:System.out.println("Error, HTTP response: " + rc) |==> <NO-OP>
+81:STD:<ASSIGN>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):165:returnValue = urlcon.getHeaderField("Bsh-Return") |==> <NO-OP>
+82:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:bsh.Remote@doHttp(java.lang.String,java.lang.String):167:new BufferedReader(new InputStreamReader(urlcon.getInputStream())) |==> null
+83:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):171:System.out.println(line) |==> <NO-OP>
+84:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):173:System.out.println("Return Value: " + returnValue) |==> <NO-OP>
+85:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):176:System.out.println(e) |==> <NO-OP>
+86:STD:<CALL>:<NO-OP>:bsh.Remote@doHttp(java.lang.String,java.lang.String):178:System.out.println(e2) |==> <NO-OP>
+87:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:bsh.Remote@doHttp(java.lang.String,java.lang.String):181:returnValue |==> null
+88:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:bsh.Remote@getFile(java.lang.String):187:new StringBuffer() |==> null
+89:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:bsh.Remote@getFile(java.lang.String):188:new BufferedReader(new FileReader(name)) |==> null
+90:STD:<CALL>:<NO-OP>:bsh.Remote@getFile(java.lang.String):191:sb.append(line).append("\n") |==> <NO-OP>
+91:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:bsh.Remote@getFile(java.lang.String):192:sb.toString() |==> null

@@ -52,7 +52,7 @@ package bsh;
 class SimpleNode implements Node 
 {
 	public static SimpleNode JAVACODE =
-		new SimpleNode( -1 ) {
+		new SimpleNode( 0 ) {
 			public String getSourceFile() {
 				return "<Called from Java Code>";
 			}

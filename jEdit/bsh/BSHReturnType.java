@@ -41,7 +41,7 @@ class BSHReturnType extends SimpleNode
 	BSHReturnType(int id) { super(id); }
 
 	BSHType getTypeNode() { 
-		return (BSHType)jjtGetChild(0);
+		return (BSHType)jjtGetChild(1);
 	}
 
 	public String getTypeDescriptor( 

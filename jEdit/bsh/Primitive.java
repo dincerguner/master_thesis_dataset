@@ -48,12 +48,12 @@ import java.util.Hashtable;
 */
 public final class Primitive implements ParserConstants, java.io.Serializable
 {
-	static Hashtable primitiveToWrapper = new Hashtable();
+	static Hashtable primitiveToWrapper = null;
 	static Hashtable wrapperToPrimitive = new Hashtable();
 	static {
-		primitiveToWrapper.put( Boolean.TYPE, Boolean.class );
-		primitiveToWrapper.put( Byte.TYPE, Byte.class );
-		primitiveToWrapper.put( Short.TYPE, Short.class );
+		;
+		;
+		;
 		primitiveToWrapper.put( Character.TYPE, Character.class );
 		primitiveToWrapper.put( Integer.TYPE, Integer.class );
 		primitiveToWrapper.put( Long.TYPE, Long.class );
