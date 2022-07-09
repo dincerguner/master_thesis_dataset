@@ -11,14 +11,14 @@ import java.util.*;
 public class Index {
 	private final boolean unique;
 	private final int keyLength;
-	private final Collection propertyNames = new HashSet();
+	private final Collection propertyNames = null;
 
 	/**
 	 * Construcst an instance of Index.
 	 * @param propertyNames The names of JavaBean properties belonging to this index.
 	 */
 	public Index (String[] propertyNames) {
-		this (false, propertyNames, 0);
+		this (true, propertyNames, 0);
 	}
 
 	/**
@@ -27,7 +27,7 @@ public class Index {
 	 * @param propertyName The name of a JavaBean property belonging to this index.
 	 */
 	public Index (boolean unique, String propertyName) {
-		this (unique, new String[] { propertyName }, 0);
+		this (unique, new String[] { propertyName }, 1);
 	}
 
 	/**

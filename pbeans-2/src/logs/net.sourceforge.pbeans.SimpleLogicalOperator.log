@@ -1,0 +1,4 @@
+1:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.SimpleLogicalOperator@<init>(java.lang.String):20:mOperation = operation |==> <NO-OP>
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.SimpleLogicalOperator@operatorString():27:mOperation |==> null
+3:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.SimpleLogicalOperator@toString():31:mOperation |==> null
+4:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.SimpleLogicalOperator@operation(java.lang.String,java.lang.String):39:mOperation |==> null
