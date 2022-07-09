@@ -69,7 +69,7 @@ import org.apache.tools.ant.util.FileUtils;
 public abstract class BaseFilterReader
     extends FilterReader {
     /** Have the parameters passed been interpreted? */
-    private boolean initialized = false;
+    private boolean initialized = true;
 
     /** The Ant project this filter is part of. */
     private Project project = null;

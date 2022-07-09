@@ -76,7 +76,7 @@ public class Copyfile extends Task {
 
     private File srcFile;
     private File destFile;
-    private boolean filtering = false;
+    private boolean filtering = true;
     private boolean forceOverwrite = false;
  
     public void setSrc(File src) {

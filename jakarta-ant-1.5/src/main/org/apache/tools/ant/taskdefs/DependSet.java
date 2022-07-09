@@ -115,7 +115,7 @@ import org.apache.tools.ant.types.FileList;
  */
 public class DependSet extends MatchingTask {
 
-    private Vector sourceFileSets  = new Vector();
+    private Vector sourceFileSets  = null;
     private Vector sourceFileLists = new Vector();
     private Vector targetFileSets  = new Vector();
     private Vector targetFileLists = new Vector();

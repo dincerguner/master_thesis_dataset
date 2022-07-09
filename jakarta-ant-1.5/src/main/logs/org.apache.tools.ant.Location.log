@@ -1,0 +1,24 @@
+1:EVR:<NEW_CLASS(org.apache.tools.ant.Location)>:<DEFAULT>:org.apache.tools.ant.Location:72:new Location() |==> null
+2:LVR:0:POS:org.apache.tools.ant.Location@<init>():78:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.Location@<init>():78:0 |==> -1
+4:LVR:0:POS:org.apache.tools.ant.Location@<init>():78:0 |==> 1
+5:LVR:0:NEG:org.apache.tools.ant.Location@<init>():78:0 |==> -1
+6:LVR:0:POS:org.apache.tools.ant.Location@<init>(java.lang.String):90:0 |==> 1
+7:LVR:0:NEG:org.apache.tools.ant.Location@<init>(java.lang.String):90:0 |==> -1
+8:LVR:0:POS:org.apache.tools.ant.Location@<init>(java.lang.String):90:0 |==> 1
+9:LVR:0:NEG:org.apache.tools.ant.Location@<init>(java.lang.String):90:0 |==> -1
+10:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.Location@<init>(java.lang.String,int,int):106:this.fileName = fileName |==> <NO-OP>
+11:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.Location@<init>(java.lang.String,int,int):107:this.lineNumber = lineNumber |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.Location@<init>(java.lang.String,int,int):108:this.columnNumber = columnNumber |==> <NO-OP>
+13:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.tools.ant.Location@toString():122:new StringBuffer() |==> null
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.Location@toString():124:fileName != null |==> true
+15:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():125:buf.append(fileName) |==> <NO-OP>
+16:LVR:0:POS:org.apache.tools.ant.Location@toString():127:0 |==> 1
+17:LVR:0:NEG:org.apache.tools.ant.Location@toString():127:0 |==> -1
+18:ROR:!=(int,int):<(int,int):org.apache.tools.ant.Location@toString():127:lineNumber != 0 |==> lineNumber < 0
+19:ROR:!=(int,int):>(int,int):org.apache.tools.ant.Location@toString():127:lineNumber != 0 |==> lineNumber > 0
+20:ROR:!=(int,int):TRUE(int,int):org.apache.tools.ant.Location@toString():127:lineNumber != 0 |==> true
+21:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():128:buf.append(":") |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():129:buf.append(lineNumber) |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.apache.tools.ant.Location@toString():132:buf.append(": ") |==> <NO-OP>
+24:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.Location@toString():135:buf.toString() |==> null
