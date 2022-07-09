@@ -36,7 +36,7 @@ public class TextAreaDialog extends EnhancedDialog
 	public TextAreaDialog(Frame frame, String title, String caption,
 		Icon icon, String text)
 	{
-		super(frame,title,true);
+		super(frame,title,false);
 
 		init(caption,icon,text);
 	} //}}}

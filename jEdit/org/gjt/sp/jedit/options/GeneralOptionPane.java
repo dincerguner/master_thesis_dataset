@@ -80,9 +80,7 @@ public class GeneralOptionPane extends AbstractOptionPane
 	{
 
 		/* Line separator */
-		String[] lineSeps = { jEdit.getProperty("lineSep.unix"),
-			jEdit.getProperty("lineSep.windows"),
-			jEdit.getProperty("lineSep.mac") };
+		String[] lineSeps = null;
 		lineSeparator = new JComboBox(lineSeps);
 		String lineSep = jEdit.getProperty("buffer."+ JEditBuffer.LINESEP,
 			System.getProperty("line.separator"));

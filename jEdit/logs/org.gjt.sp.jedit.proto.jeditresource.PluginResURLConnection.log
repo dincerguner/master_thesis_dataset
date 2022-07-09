@@ -1,0 +1,8 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):38:url.getFile() |==> null
+2:LVR:0:POS:org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):40:0 |==> 1
+3:LVR:0:NEG:org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):40:0 |==> -1
+4:LVR:NEG:0:org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):41:-1 |==> 0
+5:LVR:NEG:POS:org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):41:-1 |==> 1
+6:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):41:index == -1 |==> index <= -1
+7:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):41:index == -1 |==> index >= -1
+8:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.proto.jeditresource.PluginResURLConnection@<init>(java.net.URL):41:index == -1 |==> false

@@ -44,7 +44,7 @@ public class XMLEncodingDetector implements EncodingDetector
 		// <?xml version="1.0" encoding="................"?>
 		final int XML_PI_LENGTH = 50;
 		
-		byte[] _xmlPI = new byte[XML_PI_LENGTH];
+		byte[] _xmlPI = null;
 		int offset = 0;
 		int count;
 		while((count = sample.read(_xmlPI,offset,

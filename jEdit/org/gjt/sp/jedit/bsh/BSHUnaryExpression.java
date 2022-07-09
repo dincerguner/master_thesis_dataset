@@ -37,7 +37,7 @@ package org.gjt.sp.jedit.bsh;
 class BSHUnaryExpression extends SimpleNode implements ParserConstants
 {
     public int kind;
-	public boolean postfix = false;
+	public boolean postfix = true;
 
     BSHUnaryExpression(int id) { super(id); }
 

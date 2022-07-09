@@ -1,0 +1,2 @@
+1:LOR:|(boolean,boolean):&(boolean,boolean):org.gjt.sp.jedit.io.FileRootsVFS@<init>():48:LOW_LATENCY_CAP | BROWSE_CAP |==> LOW_LATENCY_CAP & BROWSE_CAP
+2:LOR:|(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.io.FileRootsVFS@<init>():48:LOW_LATENCY_CAP | BROWSE_CAP |==> LOW_LATENCY_CAP ^ BROWSE_CAP

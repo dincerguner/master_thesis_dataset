@@ -27,7 +27,7 @@ public class HyperSearchFolderNode
 {
 	private File nodeFile;
 	private boolean showFullPath;
-	private static String fileSep = System.getProperty("file.separator");
+	private static String fileSep = null;
 	static
 	{
 		if (fileSep.equals("\\"))

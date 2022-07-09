@@ -1,0 +1,38 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():54:manager == null |==> false
+2:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():54:manager == null && Capabilities.classExists("java.util.Collection") |==> manager == null == Capabilities.classExists("java.util.Collection")
+3:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():55:manager == null && Capabilities.classExists("java.util.Collection") |==> false
+4:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():54:manager == null && Capabilities.classExists("java.util.Collection") |==> manager == null
+5:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():55:manager == null && Capabilities.classExists("java.util.Collection") |==> Capabilities.classExists("java.util.Collection")
+6:EVR:<METHOD_INVOCATION(java.lang.Class<capture#376 of ?>)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():59:Class.forName("org.gjt.sp.jedit.bsh.collection.CollectionManagerImpl") |==> null
+7:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():60:manager = (CollectionManager)clas.newInstance() |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():62:Interpreter.debug("unable to load CollectionManagerImpl: " + e) |==> <NO-OP>
+9:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():66:manager == null |==> false
+10:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():67:manager = new CollectionManager() |==> <NO-OP>
+11:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.CollectionManager)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager@getCollectionManager():69:manager |==> null
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager@isBshIterable(java.lang.Object):78:getBshIterator(obj) |==> <NO-OP>
+13:LVR:TRUE:FALSE:org.gjt.sp.jedit.bsh.CollectionManager@isBshIterable(java.lang.Object):79:true |==> false
+14:LVR:FALSE:TRUE:org.gjt.sp.jedit.bsh.CollectionManager@isBshIterable(java.lang.Object):81:false |==> true
+15:EVR:<NEW_CLASS(org.gjt.sp.jedit.bsh.CollectionManager.BasicBshIterator)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager@getBshIterator(java.lang.Object):88:new BasicBshIterator(obj) |==> null
+16:EVR:<INSTANCE_OF(boolean)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager@isMap(java.lang.Object):92:obj instanceof Hashtable |==> false
+17:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager@getFromMap(java.lang.Object,java.lang.Object):96:((Hashtable)map).get(key) |==> null
+18:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager@putInMap(java.lang.Object,java.lang.Object,java.lang.Object):101:((Hashtable)map).put(key, value) |==> null
+19:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@<init>(java.lang.Object):128:enumeration = createEnumeration(iterateOverMe) |==> <NO-OP>
+20:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):146:iterateOverMe == null |==> false
+21:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):151:return (Enumeration)iterateOverMe; |==> <NO-OP>
+22:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):154:return ((Vector)iterateOverMe).elements(); |==> <NO-OP>
+23:COR:iterateOverMe.getClass().isArray():TRUE:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):156:iterateOverMe.getClass().isArray() |==> false
+24:COR:iterateOverMe.getClass().isArray():FALSE:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):156:iterateOverMe.getClass().isArray() |==> true
+25:EVR:<IDENTIFIER(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):157:iterateOverMe |==> null
+26:LVR:0:POS:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1:159:0 |==> 1
+27:LVR:0:NEG:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1:159:0 |==> -1
+28:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1:159:Array.getLength(array) |==> 0
+29:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1@nextElement():161:Array.get(array, index++) |==> null
+30:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1@hasMoreElements():163:index < length |==> index != length
+31:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1@hasMoreElements():163:index < length |==> index <= length
+32:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator$1@hasMoreElements():163:index < length |==> false
+33:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):158:return new Enumeration(){...) |==> <NO-OP>
+34:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):168:return createEnumeration(((String)iterateOverMe).toCharArray()); |==> <NO-OP>
+35:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):171:return createEnumeration(iterateOverMe.toString().toCharArray()); |==> <NO-OP>
+36:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@createEnumeration(java.lang.Object):175:return createEnumeration(iterateOverMe.toString().toCharArray()); |==> <NO-OP>
+37:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@next():188:enumeration.nextElement() |==> null
+38:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.gjt.sp.jedit.bsh.CollectionManager$BasicBshIterator@hasNext():198:enumeration.hasMoreElements() |==> false

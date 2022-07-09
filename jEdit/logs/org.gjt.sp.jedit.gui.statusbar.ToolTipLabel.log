@@ -1,0 +1,2 @@
+1:LVR:NEG:0:org.gjt.sp.jedit.gui.statusbar.ToolTipLabel@getToolTipLocation(java.awt.event.MouseEvent):39:-20 |==> 0
+2:LVR:NEG:POS:org.gjt.sp.jedit.gui.statusbar.ToolTipLabel@getToolTipLocation(java.awt.event.MouseEvent):39:-20 |==> 20

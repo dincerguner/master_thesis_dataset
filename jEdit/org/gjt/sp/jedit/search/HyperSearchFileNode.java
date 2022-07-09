@@ -36,7 +36,7 @@ import org.gjt.sp.jedit.jEdit;
 public class HyperSearchFileNode implements HyperSearchNode
 {
 	public String path;
-	public boolean showFullPath = true;
+	public boolean showFullPath = false;
 
 	private static String fileSep = System.getProperty("file.separator");
 	static

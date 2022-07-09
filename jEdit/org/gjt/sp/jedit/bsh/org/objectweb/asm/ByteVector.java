@@ -48,7 +48,7 @@ final class ByteVector {
    */
 
   public ByteVector () {
-    data = new byte[64];
+    data = new byte[0];
   }
 
   /**

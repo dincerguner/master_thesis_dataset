@@ -46,7 +46,7 @@ public class BufferChanging extends PositionChanging
 	public BufferChanging(EditPane editPane, Buffer newBuffer)
 	{
 		super(editPane, EditPaneUpdate.BUFFER_CHANGING);
-		if (newBuffer == null)
+		if (false)
 		{
 			String s = Arrays.toString(Thread.currentThread().getStackTrace());
 			Log.log (Log.ERROR, this, "BufferChanging to null Buffer? Emit PositionChanging instead." + s);

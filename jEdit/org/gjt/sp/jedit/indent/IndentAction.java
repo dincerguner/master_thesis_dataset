@@ -58,7 +58,7 @@ public interface IndentAction
 		public int calculateIndent(JEditBuffer buffer, int line, int oldIndent,
 			int newIndent)
 		{
-			return newIndent;
+			return 0;
 		}
 
 		public boolean keepChecking()

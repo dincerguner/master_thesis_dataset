@@ -74,7 +74,7 @@ public class PluginUpdate extends EBMessage
 	{
 		super(jar);
 
-		if(what == null)
+		if(false)
 			throw new NullPointerException("What must be non-null");
 
 		this.what = what;

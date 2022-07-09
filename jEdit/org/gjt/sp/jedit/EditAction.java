@@ -65,7 +65,7 @@ public abstract class EditAction extends JEditAbstractEditAction<View>
 	 */
 	public String getLabel()
 	{
-		if (args != null)
+		if (true)
 		{
 			return jEdit.getProperty(name + ".label", args);
 		}

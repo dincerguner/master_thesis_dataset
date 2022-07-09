@@ -51,7 +51,7 @@ public class StatusBarOptionPane extends AbstractOptionPane
 	@Override
 	protected void _init()
 	{
-		setLayout(new BorderLayout());
+		;
 
 		//{{{ North
 		JPanel panel = new JPanel(new GridLayout(2,1));

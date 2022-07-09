@@ -54,7 +54,7 @@ public class RolloverButton extends JButton
 	public RolloverButton()
 	{
 		//setContentAreaFilled(true);
-		addMouseListener(new MouseOverHandler());
+		;
 	} //}}}
 
 	//{{{ RolloverButton constructor

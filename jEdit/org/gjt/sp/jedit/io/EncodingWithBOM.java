@@ -46,7 +46,7 @@ public class EncodingWithBOM implements Encoding
 	//{{{ Constructor
 	public EncodingWithBOM(String plain)
 	{
-		byte[] bom = bomMap.get(plain);
+		byte[] bom = null;
 		if (bom == null)
 		{
 			throw new UnsupportedCharsetException(plain + " with BOM");

@@ -1,0 +1,3 @@
+1:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.bufferset.BufferSetManager.NewBufferSetAction[])>:<DEFAULT>:org.gjt.sp.jedit.bufferset.BufferSetManager$NewBufferSetAction@fromString(java.lang.String):50:values() |==> null
+2:COR:newBufferSetAction.getName().equals(s):TRUE:org.gjt.sp.jedit.bufferset.BufferSetManager$NewBufferSetAction@fromString(java.lang.String):53:newBufferSetAction.getName().equals(s) |==> false
+3:COR:newBufferSetAction.getName().equals(s):FALSE:org.gjt.sp.jedit.bufferset.BufferSetManager$NewBufferSetAction@fromString(java.lang.String):53:newBufferSetAction.getName().equals(s) |==> true

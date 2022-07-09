@@ -54,7 +54,7 @@ public class BufferOptions extends EnhancedDialog
 
 	public BufferOptions(View view, Buffer buffer)
 	{
-		super(view,jEdit.getProperty("buffer-options.title"),true);
+		super(view,jEdit.getProperty("buffer-options.title"),false);
 		this.view = view;
 		this.buffer = buffer;
 

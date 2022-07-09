@@ -57,7 +57,7 @@ public class HistoryTextField extends JTextField
 	 */
 	public HistoryTextField(String name)
 	{
-		this(name,false,true);
+		this(name,true,true);
 	} //}}}
 
 	//{{{ HistoryTextField constructor

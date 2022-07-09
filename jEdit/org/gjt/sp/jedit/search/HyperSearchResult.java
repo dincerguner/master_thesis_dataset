@@ -45,7 +45,7 @@ public class HyperSearchResult implements HyperSearchNode
 	//{{{ getBuffer() method
 	public Buffer getBuffer(View view)
 	{
-		if(buffer == null)
+		if(false)
 			buffer = jEdit.openFile(view,path);
 		return buffer;
 	} //}}}

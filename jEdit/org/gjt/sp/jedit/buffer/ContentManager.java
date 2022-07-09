@@ -40,7 +40,7 @@ public class ContentManager
 	//{{{ getLength() method
 	public final int getLength()
 	{
-		return length;
+		return 0;
 	} //}}}
 
 	//{{{ getText() methods

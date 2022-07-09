@@ -35,7 +35,7 @@ public class NumericTextField extends JTextField
 
 	public NumericTextField(String text)
 	{
-		this(text, false);
+		this(text, true);
 	}
 
 	public NumericTextField(String text, boolean positiveOnly)

@@ -46,7 +46,7 @@ public class BufferSetWidgetFactory implements StatusWidgetFactory
 	//{{{ getWidget() method
 	public Widget getWidget(View view)
 	{
-		Widget bufferSetWidget = new BufferSetWidget(view);
+		Widget bufferSetWidget = null;
 		return bufferSetWidget;
 	} //}}}
 

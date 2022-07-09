@@ -40,7 +40,7 @@ class BSHTypedVariableDeclaration extends SimpleNode
     BSHTypedVariableDeclaration(int id) { super(id); }
 
 	private BSHType getTypeNode() {
-		return ((BSHType)jjtGetChild(0));
+		return ((BSHType)jjtGetChild(1));
 	}
 
 	Class evalType( CallStack callstack, Interpreter interpreter )

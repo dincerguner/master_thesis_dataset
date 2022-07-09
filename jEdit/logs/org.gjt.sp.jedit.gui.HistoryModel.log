@@ -1,0 +1,66 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@<init>(java.lang.String):48:this.name = name |==> <NO-OP>
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text == null |==> false
+3:LVR:0:POS:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:0 |==> 1
+4:LVR:0:NEG:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:0 |==> -1
+5:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text.length() == 0 |==> text.length() <= 0
+6:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text.length() == 0 |==> text.length() >= 0
+7:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text.length() == 0 |==> false
+8:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text == null || text.length() == 0 |==> text == null != (text.length() == 0)
+9:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text == null || text.length() == 0 |==> text == null
+10:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text == null || text.length() == 0 |==> text.length() == 0
+11:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):59:text == null || text.length() == 0 |==> true
+12:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):60:return; |==> <NO-OP>
+13:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):62:indexOf(text) |==> 0
+14:LVR:NEG:0:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):63:-1 |==> 0
+15:LVR:NEG:POS:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):63:-1 |==> 1
+16:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):63:index != -1 |==> index < -1
+17:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):63:index != -1 |==> index > -1
+18:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):63:index != -1 |==> true
+19:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):64:removeElementAt(index) |==> <NO-OP>
+20:LVR:0:POS:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):66:0 |==> 1
+21:LVR:0:NEG:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):66:0 |==> -1
+22:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):66:insertElementAt(text, 0) |==> <NO-OP>
+23:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):68:getSize() > max |==> getSize() != max
+24:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):68:getSize() > max |==> getSize() >= max
+25:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):68:getSize() > max |==> false
+26:LVR:POS:0:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):69:1 |==> 0
+27:LVR:POS:NEG:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):69:1 |==> -1
+28:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):69:getSize() - 1 |==> getSize() % 1
+29:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):69:getSize() - 1 |==> getSize() * 1
+30:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):69:getSize() - 1 |==> getSize() + 1
+31:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):69:getSize() - 1 |==> getSize() / 1
+32:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@addItem(java.lang.String):69:removeElementAt(getSize() - 1) |==> <NO-OP>
+33:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.HistoryModel@insertElementAt(java.lang.Object,int):75:true |==> false
+34:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@insertElementAt(java.lang.Object,int):75:modified = true |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@insertElementAt(java.lang.Object,int):76:super.insertElementAt(obj, index) |==> <NO-OP>
+36:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.HistoryModel@getItem(int):86:(String)elementAt(index) |==> null
+37:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.HistoryModel@removeElement(java.lang.Object):92:true |==> false
+38:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@removeElement(java.lang.Object):92:modified = true |==> <NO-OP>
+39:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.gjt.sp.jedit.gui.HistoryModel@removeElement(java.lang.Object):93:super.removeElement(obj) |==> false
+40:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@clear():102:removeAllElements() |==> <NO-OP>
+41:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.HistoryModel@removeAllElements():108:true |==> false
+42:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@removeAllElements():108:modified = true |==> <NO-OP>
+43:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@removeAllElements():109:super.removeAllElements() |==> <NO-OP>
+44:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.HistoryModel@getName():119:name |==> null
+45:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.HistoryModel@getModel(java.lang.String):130:models == null |==> false
+46:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@getModel(java.lang.String):131:models = Collections.synchronizedMap(new HashMap<String, HistoryModel>()) |==> <NO-OP>
+47:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.HistoryModel)>:<DEFAULT>:org.gjt.sp.jedit.gui.HistoryModel@getModel(java.lang.String):133:models.get(name) |==> null
+48:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.HistoryModel@getModel(java.lang.String):134:model == null |==> false
+49:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@getModel(java.lang.String):136:model = new HistoryModel(name) |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@getModel(java.lang.String):137:models.put(name, model) |==> <NO-OP>
+51:EVR:<IDENTIFIER(org.gjt.sp.jedit.gui.HistoryModel)>:<DEFAULT>:org.gjt.sp.jedit.gui.HistoryModel@getModel(java.lang.String):140:model |==> null
+52:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.HistoryModel@loadHistory():146:saver != null |==> true
+53:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@loadHistory():147:models = saver.load(models) |==> <NO-OP>
+54:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null |==> true
+55:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified |==> saver != null == modified
+56:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified |==> false
+57:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified |==> saver != null
+58:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified |==> modified
+59:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified && saver.save(models) |==> (saver != null && modified) == saver.save(models)
+60:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified && saver.save(models) |==> false
+61:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified && saver.save(models) |==> saver != null && modified
+62:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.HistoryModel@saveHistory():153:saver != null && modified && saver.save(models) |==> saver.save(models)
+63:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.HistoryModel@saveHistory():154:false |==> true
+64:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@saveHistory():154:modified = false |==> <NO-OP>
+65:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@setMax(int):160:HistoryModel.max = max |==> <NO-OP>
+66:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryModel@setSaver(HistoryModelSaver):166:HistoryModel.saver = saver |==> <NO-OP>

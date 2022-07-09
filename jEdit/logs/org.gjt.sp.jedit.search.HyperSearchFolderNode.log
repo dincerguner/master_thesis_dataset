@@ -1,0 +1,17 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.search.HyperSearchFolderNode:30:System.getProperty("file.separator") |==> null
+2:COR:fileSep.equals("\\"):TRUE:org.gjt.sp.jedit.search.HyperSearchFolderNode:33:fileSep.equals("\\") |==> false
+3:COR:fileSep.equals("\\"):FALSE:org.gjt.sp.jedit.search.HyperSearchFolderNode:33:fileSep.equals("\\") |==> true
+4:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.search.HyperSearchFolderNode:34:fileSep = "\\\\" |==> <NO-OP>
+5:EVR:<IDENTIFIER(java.io.File)>:<DEFAULT>:org.gjt.sp.jedit.search.HyperSearchFolderNode@getNodeFile():39:nodeFile |==> null
+6:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.search.HyperSearchFolderNode@<init>(java.io.File,boolean):44:this.nodeFile = nodeFile |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.search.HyperSearchFolderNode@<init>(java.io.File,boolean):45:this.showFullPath = showFullPath |==> <NO-OP>
+8:COR:showFullPath:TRUE:org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():50:showFullPath |==> false
+9:COR:showFullPath:FALSE:org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():50:showFullPath |==> true
+10:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():51:return nodeFile.getAbsolutePath(); |==> <NO-OP>
+11:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():52:nodeFile.getAbsolutePath().split(fileSep) |==> null
+12:LVR:POS:0:org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():53:1 |==> 0
+13:LVR:POS:NEG:org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():53:1 |==> -1
+14:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():53:paths.length - 1 |==> paths.length % 1
+15:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():53:paths.length - 1 |==> paths.length * 1
+16:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():53:paths.length - 1 |==> paths.length + 1
+17:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.search.HyperSearchFolderNode@toString():53:paths.length - 1 |==> paths.length / 1

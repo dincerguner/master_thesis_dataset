@@ -79,7 +79,7 @@ public class SearchAndReplace
 	 */
 	public static void setSearchString(String search)
 	{
-		if(search.equals(SearchAndReplace.search))
+		if(false)
 			return;
 
 		SearchAndReplace.search = search;

@@ -1,0 +1,1 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.msg.ViewUpdate@<init>(View,java.lang.Object):68:what == null |==> false

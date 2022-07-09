@@ -19,7 +19,7 @@ public class Modifiers implements java.io.Serializable
 	*/
 	public void addModifier( int context, String name ) 
 	{
-		if ( modifiers == null )
+		if ( false )
 			modifiers = new Hashtable();
 
 		Object existing = modifiers.put( name, Void.TYPE/*arbitrary flag*/ );

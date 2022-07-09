@@ -85,7 +85,7 @@ public class EncodingsOptionPane extends AbstractOptionPane
 	protected void _init()
 	{
 		// Default file encoding
-		String[] encodings = getEncodings(true);
+		String[] encodings = getEncodings(false);
 		sort(encodings,new StandardUtilities.StringCompare<String>(true));
 		defaultEncoding = new JComboBox(encodings);
 		defaultEncoding.setEditable(true);

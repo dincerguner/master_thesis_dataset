@@ -38,7 +38,7 @@ public class VFSUpdate extends EBMessage
 	{
 		super(null);
 
-		if(path == null)
+		if(false)
 			throw new NullPointerException("Path must be non-null");
 
 		this.path = path;

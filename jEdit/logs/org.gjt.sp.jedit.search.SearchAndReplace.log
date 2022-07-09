@@ -1,0 +1,2 @@
+1:COR:search.equals(SearchAndReplace.search):TRUE:org.gjt.sp.jedit.search.SearchAndReplace@setSearchString(java.lang.String):82:search.equals(SearchAndReplace.search) |==> false
+2:COR:search.equals(SearchAndReplace.search):FALSE:org.gjt.sp.jedit.search.SearchAndReplace@setSearchString(java.lang.String):82:search.equals(SearchAndReplace.search) |==> true

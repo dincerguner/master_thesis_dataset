@@ -58,7 +58,7 @@ public class SearchDialog extends EnhancedDialog implements EBComponent
 	//{{{ getSearchDialog() method
 	public static SearchDialog getSearchDialog(View view)
 	{
-		if(Debug.DISABLE_SEARCH_DIALOG_POOL)
+		if(false)
 			return new SearchDialog(view);
 		else
 		{

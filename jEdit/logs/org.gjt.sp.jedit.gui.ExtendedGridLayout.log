@@ -1,0 +1,28 @@
+1:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):195:0 |==> 1
+2:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):195:0 |==> -1
+3:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):195:hgap < 0 |==> hgap != 0
+4:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):195:hgap < 0 |==> hgap <= 0
+5:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):195:hgap < 0 |==> false
+6:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):199:0 |==> 1
+7:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):199:0 |==> -1
+8:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):199:vgap < 0 |==> vgap != 0
+9:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):199:vgap < 0 |==> vgap <= 0
+10:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):199:vgap < 0 |==> false
+11:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):203:hgap |==> 0
+12:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):204:vgap |==> 0
+13:EVR:<TYPE_CAST(java.awt.Insets)>:<DEFAULT>:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):205:(Insets)distanceToBorders.clone() |==> null
+14:EVR:<NEW_CLASS(java.util.Hashtable<java.awt.Component,ExtendedGridLayoutConstraints>)>:<DEFAULT>:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>(int,int,java.awt.Insets):206:new Hashtable<Component, ExtendedGridLayoutConstraints>() |==> null
+15:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> 1
+16:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> -1
+17:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> 1
+18:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> -1
+19:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> 1
+20:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> -1
+21:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> 1
+22:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> -1
+23:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> 1
+24:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> -1
+25:LVR:0:POS:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> 1
+26:LVR:0:NEG:org.gjt.sp.jedit.gui.ExtendedGridLayout@<init>():216:0 |==> -1
+27:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ExtendedGridLayout@addLayoutComponent(java.lang.String,java.awt.Component):232:addLayoutComponent(component, name) |==> <NO-OP>
+28:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.ExtendedGridLayout@addLayoutComponent(java.awt.Component,java.lang.Object):248:null == constraints |==> false

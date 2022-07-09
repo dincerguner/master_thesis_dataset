@@ -53,7 +53,7 @@ public class ShortcutPrefixActiveEvent extends ChangeEvent
 	/**
 	 * Description of the Field
 	 */
-	protected static EventListenerList listenerList = new EventListenerList();
+	protected static EventListenerList listenerList = null;
 
 	//{{{  Constructor
 	/**

@@ -1,0 +1,15 @@
+1:LVR:POS:0:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> -1
+3:LVR:POS:0:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> -1
+5:LVR:POS:0:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> -1
+7:LVR:POS:0:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> 0
+8:LVR:POS:NEG:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane:49:1 |==> -1
+9:LVR:POS:0:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane@_init():64:6 |==> 0
+10:LVR:POS:NEG:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane@_init():64:6 |==> -6
+11:LVR:POS:0:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane@_init():64:6 |==> 0
+12:LVR:POS:NEG:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane@_init():64:6 |==> -6
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane@_init():64:setLayout(new BorderLayout(6, 6)) |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane@_init():66:add(BorderLayout.CENTER, createStyleTableScroller()) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane@_save():73:styleModel.save() |==> <NO-OP>

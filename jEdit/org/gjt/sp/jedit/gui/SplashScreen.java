@@ -36,7 +36,7 @@ public class SplashScreen extends JComponent
 	//{{{ SplashScreen constructor
 	public SplashScreen()
 	{
-		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+		;
 		setBackground(Color.white);
 
 		setFont(defaultFont);

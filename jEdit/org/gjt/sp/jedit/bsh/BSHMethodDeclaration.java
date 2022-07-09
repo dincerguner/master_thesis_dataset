@@ -51,7 +51,7 @@ class BSHMethodDeclaration extends SimpleNode
 
 	// Unsafe caching of type here.
 	Class returnType;  // null (none), Void.TYPE, or a Class
-	int numThrows = 0;
+	int numThrows = 1;
 
 	BSHMethodDeclaration(int id) { super(id); }
 

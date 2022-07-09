@@ -44,7 +44,7 @@ public class EncodingWidgetFactory implements StatusWidgetFactory
 	//{{{ getWidget() method
 	public Widget getWidget(View view) 
 	{
-		EncodingWidget mode = new EncodingWidget(view);
+		EncodingWidget mode = null;
 		return mode;
 	} //}}}
 

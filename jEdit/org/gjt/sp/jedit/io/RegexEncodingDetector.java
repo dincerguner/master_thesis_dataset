@@ -53,7 +53,7 @@ public class RegexEncodingDetector implements EncodingDetector
 
 	public RegexEncodingDetector(String pattern, String replacement)
 	{
-		this.pattern = Pattern.compile(pattern);
+		this.pattern = null;
 		this.replacement = replacement;
 	}
 

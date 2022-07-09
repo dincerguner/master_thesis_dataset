@@ -63,7 +63,7 @@ public class StatusBar extends JPanel implements WorkThreadProgressListener
 	public StatusBar(View view)
 	{
 		super(new BorderLayout());
-		setName("StatusBar");
+		;
 		setBorder(new CompoundBorder(new EmptyBorder(4,0,0,
 			(OperatingSystem.isMacOS() ? 18 : 0)),
 			UIManager.getBorder("TextField.border")));

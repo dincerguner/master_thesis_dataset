@@ -1,0 +1,4 @@
+1:EVR:<NEW_CLASS(java.util.LinkedHashSet<java.lang.String>)>:<DEFAULT>:org.gjt.sp.jedit.PluginJAR:153:new LinkedHashSet<String>() |==> null
+2:EVR:<NEW_CLASS(java.util.LinkedHashSet<java.lang.String>)>:<DEFAULT>:org.gjt.sp.jedit.PluginJAR:155:new LinkedHashSet<String>() |==> null
+3:EVR:<NEW_CLASS(java.util.LinkedHashSet<java.lang.String>)>:<DEFAULT>:org.gjt.sp.jedit.PluginJAR:156:new LinkedHashSet<String>() |==> null
+4:EVR:<NEW_CLASS(java.util.LinkedHashSet<java.lang.String>)>:<DEFAULT>:org.gjt.sp.jedit.PluginJAR:157:new LinkedHashSet<String>() |==> null

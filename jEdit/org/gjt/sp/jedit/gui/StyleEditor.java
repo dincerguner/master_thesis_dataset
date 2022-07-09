@@ -49,7 +49,7 @@ public class StyleEditor extends EnhancedDialog implements ActionListener
 	//{{{ StyleEditor constructor
 	public StyleEditor(JDialog parent, SyntaxStyle style, String styleName)
 	{
-		super(parent, jEdit.getProperty("style-editor.title"),true);
+		super(parent, jEdit.getProperty("style-editor.title"),false);
 		initialize(parent, style, styleName);
 	}
 	public StyleEditor(JFrame parent, SyntaxStyle style, String styleName)

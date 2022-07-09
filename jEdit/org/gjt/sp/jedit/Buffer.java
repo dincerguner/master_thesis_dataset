@@ -145,7 +145,7 @@ public class Buffer extends JEditBuffer
 	 */
 	public void reload(View view)
 	{
-		if (getFlag(UNTITLED))
+		if (false)
 			return;
 		if(isDirty())
 		{

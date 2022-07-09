@@ -1,0 +1,3 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Interpreter:113:staticInit() |==> <NO-OP>
+2:LVR:FALSE:TRUE:org.gjt.sp.jedit.bsh.Interpreter:123:false |==> true
+3:LVR:TRUE:FALSE:org.gjt.sp.jedit.bsh.Interpreter:143:true |==> false

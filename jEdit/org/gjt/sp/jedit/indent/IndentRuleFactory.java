@@ -32,7 +32,7 @@ public class IndentRuleFactory
 		return new RegexpIndentRule(regexp,
 			null,
 			new IndentAction.Increase(),
-			null,false);
+			null,true);
 	}
 
 	public static IndentRule indentNextLine(String regexp)

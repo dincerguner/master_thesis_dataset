@@ -17,7 +17,7 @@ public class VFSPathSelected extends EBMessage
 	public VFSPathSelected(View source, String path, boolean isDirectory)
 	{
 		super(source);
-		this.path = path;
+		this.path = null;
 		this.isDir = isDirectory;
 	}
 

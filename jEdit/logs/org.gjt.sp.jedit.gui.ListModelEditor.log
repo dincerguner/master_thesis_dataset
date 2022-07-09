@@ -1,0 +1,9 @@
+1:EVR:<METHOD_INVOCATION(javax.swing.table.DefaultTableModel)>:<DEFAULT>:org.gjt.sp.jedit.gui.ListModelEditor@open(javax.swing.DefaultListModel):19:createTableModel(listModel) |==> null
+2:EVR:<NEW_CLASS(javax.swing.JTable)>:<DEFAULT>:org.gjt.sp.jedit.gui.ListModelEditor@open(javax.swing.DefaultListModel):20:new JTable(tableModel) |==> null
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ListModelEditor@open(javax.swing.DefaultListModel):21:table.setToolTipText("Move: PgUp/PgDown; Edit: Double-Click or Insert/Delete") |==> <NO-OP>
+4:EVR:<METHOD_INVOCATION(int[])>:<DEFAULT>:org.gjt.sp.jedit.gui.ListModelEditor$1@keyPressed(java.awt.event.KeyEvent):28:table.getSelectedRows() |==> null
+5:LVR:0:POS:org.gjt.sp.jedit.gui.ListModelEditor$1@keyPressed(java.awt.event.KeyEvent):29:0 |==> 1
+6:LVR:0:NEG:org.gjt.sp.jedit.gui.ListModelEditor$1@keyPressed(java.awt.event.KeyEvent):29:0 |==> -1
+7:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.ListModelEditor$1@keyPressed(java.awt.event.KeyEvent):29:selRows.length == 0 |==> selRows.length <= 0
+8:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.ListModelEditor$1@keyPressed(java.awt.event.KeyEvent):29:selRows.length == 0 |==> selRows.length >= 0
+9:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.ListModelEditor$1@keyPressed(java.awt.event.KeyEvent):29:selRows.length == 0 |==> false

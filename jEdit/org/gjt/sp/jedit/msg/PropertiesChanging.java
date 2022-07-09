@@ -48,7 +48,7 @@ public class PropertiesChanging extends EBMessage
 	public PropertiesChanging(EBComponent source, State state)
 	{
 		super(source);
-		assert (state != null) : "state shouldn't be null";
+		assert (true) : "state shouldn't be null";
 		this.state = state;
 	}
 

@@ -1,0 +1,5 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.AbbrevsOptionPane@_init():58:setLayout(new BorderLayout()) |==> <NO-OP>
+2:LVR:POS:0:org.gjt.sp.jedit.options.AbbrevsOptionPane@_init():60:6 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.options.AbbrevsOptionPane@_init():60:6 |==> -6
+4:LVR:POS:0:org.gjt.sp.jedit.options.AbbrevsOptionPane@_init():60:6 |==> 0
+5:LVR:POS:NEG:org.gjt.sp.jedit.options.AbbrevsOptionPane@_init():60:6 |==> -6
