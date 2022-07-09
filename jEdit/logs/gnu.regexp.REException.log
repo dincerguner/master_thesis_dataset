@@ -1,0 +1,6 @@
+1:STD:<ASSIGN>:<NO-OP>:gnu.regexp.REException@<init>(java.lang.String,int,int):128:this.type = type |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:gnu.regexp.REException@<init>(java.lang.String,int,int):129:this.pos = position |==> <NO-OP>
+3:EVR:<IDENTIFIER(int)>:<DEFAULT>:gnu.regexp.REException@getType():137:type |==> 0
+4:EVR:<IDENTIFIER(int)>:<DEFAULT>:gnu.regexp.REException@getPosition():147:pos |==> 0
+5:EVR:<NEW_ARRAY(java.lang.Object[])>:<DEFAULT>:gnu.regexp.REException@getMessage():156:{new Integer(pos)} |==> null
+6:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:gnu.regexp.REException@getMessage():157:new StringBuffer() |==> null

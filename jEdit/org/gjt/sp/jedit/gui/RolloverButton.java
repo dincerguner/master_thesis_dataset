@@ -52,7 +52,7 @@ public class RolloverButton extends JButton
 	 */
 	public RolloverButton()
 	{
-		if(OperatingSystem.hasJava15())
+		if(false)
 			setContentAreaFilled(false);
 
 		if(method != null)

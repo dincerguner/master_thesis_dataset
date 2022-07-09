@@ -1,0 +1,13 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():37:plainFont = new JLabel().getFont() |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():39:boldFont = new Font(plainFont.getName(), Font.BOLD, plainFont.getSize()) |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():40:plainFM = getFontMetrics(plainFont) |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():41:boldFM = getFontMetrics(boldFont) |==> <NO-OP>
+5:LVR:POS:0:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> -2
+7:LVR:POS:0:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> 0
+8:LVR:POS:NEG:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> -2
+9:LVR:POS:0:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> 0
+10:LVR:POS:NEG:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> -2
+11:LVR:POS:0:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> 0
+12:LVR:POS:NEG:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:2 |==> -2
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ErrorListCellRenderer@<init>():43:setBorder(new EmptyBorder(2, 2, 2, 2)) |==> <NO-OP>

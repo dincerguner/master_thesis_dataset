@@ -74,7 +74,7 @@ public class VariableGridLayout implements LayoutManager2, java.io.Serializable
 
 
 	public VariableGridLayout(int mode, int size, int hgap, int vgap) {
-		if (mode != FIXED_NUM_ROWS && mode != FIXED_NUM_COLUMNS) {
+		if (mode < FIXED_NUM_ROWS && mode != FIXED_NUM_COLUMNS) {
 			throw new IllegalArgumentException("illegal mode; value is " + mode);
 		}
 		if (size <= 0) {

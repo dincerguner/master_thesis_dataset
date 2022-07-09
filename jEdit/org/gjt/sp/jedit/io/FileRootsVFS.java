@@ -52,7 +52,7 @@ public class FileRootsVFS extends VFS
 
 		// JDK 1.4 adds methods to obtain a drive letter label and
 		// list the desktop on Windows
-		if(OperatingSystem.hasJava14())
+		if(false)
 		{
 			try
 			{

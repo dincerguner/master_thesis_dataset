@@ -30,7 +30,7 @@ public class ViewRegisters extends EnhancedDialog
 {
 	public ViewRegisters(View view)
 	{
-		super(view,jEdit.getProperty("view-registers.title"),true);
+		super(view,jEdit.getProperty("view-registers.title"),false);
 
 		JPanel content = new JPanel(new BorderLayout());
 		content.setBorder(new EmptyBorder(12,12,12,12));

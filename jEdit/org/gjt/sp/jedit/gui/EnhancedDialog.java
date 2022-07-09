@@ -36,7 +36,7 @@ public abstract class EnhancedDialog extends JDialog
 	public EnhancedDialog(Frame parent, String title, boolean modal)
 	{
 		super(parent,title,modal);
-		_init();
+		;
 	}
 	
 	public EnhancedDialog(Dialog parent, String title, boolean modal)

@@ -34,7 +34,7 @@ class ErrorListCellRenderer extends JComponent implements ListCellRenderer
 	ErrorListCellRenderer()
 	{
 		// fucking GTK look and feel!
-		plainFont = new JLabel().getFont();
+		;
 		//UIManager.getFont("Label.font");
 		boldFont = new Font(plainFont.getName(),Font.BOLD,plainFont.getSize());
 		plainFM = getFontMetrics(plainFont);

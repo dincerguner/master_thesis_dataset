@@ -41,7 +41,7 @@ public class LogViewer extends JPanel implements DefaultFocusComponent,
 	{
 		super(new BorderLayout());
 
-		JPanel caption = new JPanel();
+		JPanel caption = null;
 		caption.setLayout(new BoxLayout(caption,BoxLayout.X_AXIS));
 		caption.setBorder(new EmptyBorder(6,6,6,6));
 

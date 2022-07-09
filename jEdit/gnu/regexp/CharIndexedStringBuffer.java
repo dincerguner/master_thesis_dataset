@@ -24,7 +24,7 @@ class CharIndexedStringBuffer implements CharIndexed, Serializable {
     private int anchor;
 
     CharIndexedStringBuffer(StringBuffer str, int index) {
-	s = str;
+	;
 	anchor = index;
     }
 

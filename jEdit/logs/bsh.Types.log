@@ -1,0 +1,7 @@
+1:LVR:POS:0:bsh.Types:48:1 |==> 0
+2:LVR:POS:NEG:bsh.Types:48:1 |==> -1
+3:LVR:NEG:0:bsh.Types:49:-1 |==> 0
+4:LVR:NEG:POS:bsh.Types:49:-1 |==> 1
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.Types@getTypes(java.lang.Object[]):55:args == null |==> false
+6:LVR:0:POS:bsh.Types@getTypes(java.lang.Object[]):56:0 |==> 1
+7:LVR:0:NEG:bsh.Types@getTypes(java.lang.Object[]):56:0 |==> -1

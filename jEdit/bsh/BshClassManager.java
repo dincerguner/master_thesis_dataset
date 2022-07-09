@@ -80,7 +80,7 @@ import java.lang.reflect.Modifier;
 public class BshClassManager
 {
 	/** Identifier for no value item.  Use a hashtable as a Set. */
-	private static Object NOVALUE = new Object(); 
+	private static Object NOVALUE = null; 
 	/** 
 		The interpreter which created the class manager 
 		This is used to load scripted classes from source files.

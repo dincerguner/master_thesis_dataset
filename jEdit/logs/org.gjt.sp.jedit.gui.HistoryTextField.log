@@ -1,0 +1,7 @@
+1:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.HistoryTextField@<init>(java.lang.String):60:false |==> true
+2:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.HistoryTextField@<init>(java.lang.String):60:true |==> false
+3:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.HistoryTextField@<init>(java.lang.String,boolean):75:true |==> false
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryTextField@<init>(java.lang.String,boolean,boolean):93:setModel(name) |==> <NO-OP>
+5:EVR:<NEW_CLASS(org.gjt.sp.jedit.gui.HistoryTextField.MouseHandler)>:<DEFAULT>:org.gjt.sp.jedit.gui.HistoryTextField@<init>(java.lang.String,boolean,boolean):95:new MouseHandler() |==> null
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryTextField@<init>(java.lang.String,boolean,boolean):96:addMouseListener(mouseHandler) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryTextField@<init>(java.lang.String,boolean,boolean):97:addMouseMotionListener(mouseHandler) |==> <NO-OP>

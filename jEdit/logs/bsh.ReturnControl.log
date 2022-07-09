@@ -1,0 +1,3 @@
+1:STD:<ASSIGN>:<NO-OP>:bsh.ReturnControl@<init>(int,java.lang.Object,SimpleNode):47:this.kind = kind |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:bsh.ReturnControl@<init>(int,java.lang.Object,SimpleNode):48:this.value = value |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:bsh.ReturnControl@<init>(int,java.lang.Object,SimpleNode):49:this.returnPoint = returnPoint |==> <NO-OP>

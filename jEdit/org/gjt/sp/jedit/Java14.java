@@ -51,8 +51,7 @@ public class Java14
 	//{{{ init() method
 	public static void init()
 	{
-		JFrame.setDefaultLookAndFeelDecorated(
-			jEdit.getBooleanProperty("decorate.frames"));
+		;
 		JDialog.setDefaultLookAndFeelDecorated(
 			jEdit.getBooleanProperty("decorate.dialogs"));
 

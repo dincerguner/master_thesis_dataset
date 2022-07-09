@@ -1,0 +1,12 @@
+1:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.FontSelector@<init>(java.awt.Font):53:false |==> true
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@<init>(java.awt.Font,boolean):65:setFont(font) |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@<init>(java.awt.Font,boolean):66:this.antiAlias = antiAlias |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@<init>(java.awt.Font,boolean):68:updateText() |==> <NO-OP>
+5:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.FontSelector@<init>(java.awt.Font,boolean):70:false |==> true
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@<init>(java.awt.Font,boolean):70:setRequestFocusEnabled(false) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@<init>(java.awt.Font,boolean):72:addActionListener(new ActionHandler()) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@paintComponent(java.awt.Graphics):78:setAntiAliasEnabled(g) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@paintComponent(java.awt.Graphics):79:super.paintComponent(g) |==> <NO-OP>
+10:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.gjt.sp.jedit.gui.FontSelector@isAntiAliasEnabled():85:antiAlias |==> false
+11:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FontSelector@setAntiAliasEnabled(boolean):91:this.antiAlias = antiAlias |==> <NO-OP>
+12:EVR:<METHOD_INVOCATION(java.awt.Font)>:<DEFAULT>:org.gjt.sp.jedit.gui.FontSelector@updateText():97:getFont() |==> null

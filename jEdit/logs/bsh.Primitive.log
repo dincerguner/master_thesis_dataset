@@ -1,0 +1,33 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.Primitive:51:new Hashtable() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:bsh.Primitive:52:new Hashtable() |==> null
+3:STD:<CALL>:<NO-OP>:bsh.Primitive:54:primitiveToWrapper.put(Boolean.TYPE, Boolean.class) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:bsh.Primitive:55:primitiveToWrapper.put(Byte.TYPE, Byte.class) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:bsh.Primitive:56:primitiveToWrapper.put(Short.TYPE, Short.class) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:bsh.Primitive:57:primitiveToWrapper.put(Character.TYPE, Character.class) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:bsh.Primitive:58:primitiveToWrapper.put(Integer.TYPE, Integer.class) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:bsh.Primitive:59:primitiveToWrapper.put(Long.TYPE, Long.class) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:bsh.Primitive:60:primitiveToWrapper.put(Float.TYPE, Float.class) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:bsh.Primitive:61:primitiveToWrapper.put(Double.TYPE, Double.class) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:bsh.Primitive:62:wrapperToPrimitive.put(Boolean.class, Boolean.TYPE) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:bsh.Primitive:63:wrapperToPrimitive.put(Byte.class, Byte.TYPE) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:bsh.Primitive:64:wrapperToPrimitive.put(Short.class, Short.TYPE) |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:bsh.Primitive:65:wrapperToPrimitive.put(Character.class, Character.TYPE) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:bsh.Primitive:66:wrapperToPrimitive.put(Integer.class, Integer.TYPE) |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:bsh.Primitive:67:wrapperToPrimitive.put(Long.class, Long.TYPE) |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:bsh.Primitive:68:wrapperToPrimitive.put(Float.class, Float.TYPE) |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:bsh.Primitive:69:wrapperToPrimitive.put(Double.class, Double.TYPE) |==> <NO-OP>
+19:EVR:<NEW_CLASS(bsh.Primitive.Special)>:<DEFAULT>:bsh.Primitive$Special:79:new Special() |==> null
+20:EVR:<NEW_CLASS(bsh.Primitive.Special)>:<DEFAULT>:bsh.Primitive$Special:80:new Special() |==> null
+21:EVR:<NEW_CLASS(bsh.Primitive)>:<DEFAULT>:bsh.Primitive:87:new Primitive(Special.NULL_VALUE) |==> null
+22:EVR:<NEW_CLASS(bsh.Primitive)>:<DEFAULT>:bsh.Primitive:94:new Primitive(Special.VOID_TYPE) |==> null
+23:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):bsh.Primitive@<init>(java.lang.Object):99:value == null |==> false
+24:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.Primitive@<init>(java.lang.Object):103:value != Special.NULL_VALUE |==> true
+25:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):bsh.Primitive@<init>(java.lang.Object):104:value != Special.VOID_TYPE |==> true
+26:COR:&&(boolean,boolean):==(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):103:value != Special.NULL_VALUE && value != Special.VOID_TYPE |==> value != Special.NULL_VALUE == (value != Special.VOID_TYPE)
+27:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):104:value != Special.NULL_VALUE && value != Special.VOID_TYPE |==> false
+28:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):103:value != Special.NULL_VALUE && value != Special.VOID_TYPE |==> value != Special.NULL_VALUE
+29:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):104:value != Special.NULL_VALUE && value != Special.VOID_TYPE |==> value != Special.VOID_TYPE
+30:COR:&&(boolean,boolean):==(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):103:value != Special.NULL_VALUE && value != Special.VOID_TYPE && !isWrapperType(value.getClass()) |==> (value != Special.NULL_VALUE && value != Special.VOID_TYPE) == !isWrapperType(value.getClass())
+31:COR:&&(boolean,boolean):FALSE(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):104:value != Special.NULL_VALUE && value != Special.VOID_TYPE && !isWrapperType(value.getClass()) |==> false
+32:COR:&&(boolean,boolean):LHS(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):103:value != Special.NULL_VALUE && value != Special.VOID_TYPE && !isWrapperType(value.getClass()) |==> value != Special.NULL_VALUE && value != Special.VOID_TYPE
+33:COR:&&(boolean,boolean):RHS(boolean,boolean):bsh.Primitive@<init>(java.lang.Object):105:value != Special.NULL_VALUE && value != Special.VOID_TYPE && !isWrapperType(value.getClass()) |==> !isWrapperType(value.getClass())

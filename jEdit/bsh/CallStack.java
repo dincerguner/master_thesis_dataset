@@ -61,7 +61,7 @@ import java.util.Vector;
 */
 public class CallStack 
 {
-	private Vector stack = new Vector(2);
+	private Vector stack = new Vector(0);
 
 	public CallStack() { }
 

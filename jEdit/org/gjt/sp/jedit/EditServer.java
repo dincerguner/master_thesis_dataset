@@ -62,7 +62,7 @@ public class EditServer extends Thread
 	EditServer(String portFile)
 	{
 		super("jEdit server daemon [" + portFile + "]");
-		setDaemon(true);
+		setDaemon(false);
 		this.portFile = portFile;
 
 		try

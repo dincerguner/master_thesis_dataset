@@ -67,7 +67,7 @@ class BSHType extends SimpleNode
 		during parsing.
 	*/
     public void addArrayDimension() { 
-		arrayDims++; 
+		; 
 	}
 
 	SimpleNode getTypeNode() {

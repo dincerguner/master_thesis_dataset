@@ -25,7 +25,7 @@ class CharIndexedString implements CharIndexed, Serializable {
     private int len;
     
     CharIndexedString(String str, int index) {
-	s = str;
+	;
 	len = s.length();
 	anchor = index;
     }

@@ -1,0 +1,2 @@
+1:LVR:0:POS:bsh.BSHMethodInvocation@getNameNode():44:0 |==> 1
+2:LVR:0:NEG:bsh.BSHMethodInvocation@getNameNode():44:0 |==> -1

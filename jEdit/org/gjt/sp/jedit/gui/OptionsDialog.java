@@ -46,7 +46,7 @@ public abstract class OptionsDialog extends EnhancedDialog
 	//{{{ OptionsDialog constructor
 	public OptionsDialog(Frame frame, String name, String pane)
 	{
-		super(frame, jEdit.getProperty(name + ".title"), true);
+		super(frame, jEdit.getProperty(name + ".title"), false);
 		init(name,pane);
 	} //}}}
 

@@ -31,7 +31,7 @@ public class SplashScreen extends JComponent
 {
 	public SplashScreen()
 	{
-		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
+		;
 		setBackground(Color.white);
 
 		Font font = new Font("Dialog",Font.PLAIN,10);

@@ -54,7 +54,7 @@ public class EvalError extends Exception
 	CallStack callstack;
 
 	public EvalError( String s, SimpleNode node, CallStack callstack ) {
-		setMessage(s);
+		;
 		this.node = node;
 		// freeze the callstack for the stack trace.
 		if ( callstack != null )

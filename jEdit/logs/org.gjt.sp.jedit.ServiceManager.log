@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.ServiceManager@loadServices(PluginJAR,java.net.URL,PluginJAR.PluginCacheEntry):99:Log.log(Log.DEBUG, jEdit.class, "Loading services from " + uri) |==> <NO-OP>

@@ -1,0 +1,25 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):39:true |==> false
+2:EVR:<NEW_CLASS(javax.swing.JPanel)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):41:new JPanel(new BorderLayout()) |==> null
+3:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> -12
+5:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> -12
+7:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> 0
+8:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> -12
+9:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> 0
+10:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:12 |==> -12
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):42:content.setBorder(new EmptyBorder(12, 12, 12, 12)) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):43:setContentPane(content) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):45:content.add(BorderLayout.CENTER, new AboutPanel()) |==> <NO-OP>
+14:EVR:<NEW_CLASS(javax.swing.JPanel)>:<DEFAULT>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):47:new JPanel() |==> null
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):48:buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.X_AXIS)) |==> <NO-OP>
+16:LVR:POS:0:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:12 |==> 0
+17:LVR:POS:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:12 |==> -12
+18:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:0 |==> 1
+19:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:0 |==> -1
+20:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:0 |==> 1
+21:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:0 |==> -1
+22:LVR:0:POS:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:0 |==> 1
+23:LVR:0:NEG:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:0 |==> -1
+24:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):49:buttonPanel.setBorder(new EmptyBorder(12, 0, 0, 0)) |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.AboutDialog@<init>(View):51:buttonPanel.add(Box.createGlue()) |==> <NO-OP>

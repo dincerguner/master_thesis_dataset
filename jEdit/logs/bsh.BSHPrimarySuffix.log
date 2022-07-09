@@ -1,0 +1,5 @@
+1:ROR:==(int,int):<=(int,int):bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):75:operation == CLASS |==> operation <= CLASS
+2:ROR:==(int,int):>=(int,int):bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):75:operation == CLASS |==> operation >= CLASS
+3:ROR:==(int,int):FALSE(int,int):bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):75:operation == CLASS |==> false
+4:COR:toLHS:TRUE:bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):77:toLHS |==> false
+5:COR:toLHS:FALSE:bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):77:toLHS |==> true

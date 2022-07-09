@@ -1,0 +1,4 @@
+1:LVR:POS:0:org.gjt.sp.jedit.help.HelpSearchPanel@<init>(HelpViewer):41:6 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.help.HelpSearchPanel@<init>(HelpViewer):41:6 |==> -6
+3:LVR:POS:0:org.gjt.sp.jedit.help.HelpSearchPanel@<init>(HelpViewer):41:6 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.help.HelpSearchPanel@<init>(HelpViewer):41:6 |==> -6
