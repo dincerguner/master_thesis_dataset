@@ -1,0 +1,25 @@
+1:COR:name.endsWith("~"):TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):77:name.endsWith("~") |==> false
+2:COR:name.endsWith("~"):FALSE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):77:name.endsWith("~") |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):78:false |==> true
+4:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):78:return Config.__M_NO == 0 && Config.COVERED(3, 3) ? false : Config.__M_NO == 3 ? true : false; |==> <NO-OP>
+5:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):82:name.startsWith("#") && name.endsWith("#") |==> name.startsWith("#") == name.endsWith("#")
+6:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):82:name.startsWith("#") && name.endsWith("#") |==> false
+7:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):82:name.startsWith("#") && name.endsWith("#") |==> name.startsWith("#")
+8:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):82:name.startsWith("#") && name.endsWith("#") |==> name.endsWith("#")
+9:LVR:FALSE:TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):83:false |==> true
+10:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):83:return Config.__M_NO == 0 && Config.COVERED(9, 9) ? false : Config.__M_NO == 9 ? true : false; |==> <NO-OP>
+11:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):87:name.startsWith("%") && name.endsWith("%") |==> name.startsWith("%") == name.endsWith("%")
+12:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):87:name.startsWith("%") && name.endsWith("%") |==> false
+13:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):87:name.startsWith("%") && name.endsWith("%") |==> name.startsWith("%")
+14:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):87:name.startsWith("%") && name.endsWith("%") |==> name.endsWith("%")
+15:LVR:FALSE:TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):88:false |==> true
+16:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):88:return Config.__M_NO == 0 && Config.COVERED(15, 15) ? false : Config.__M_NO == 15 ? true : false; |==> <NO-OP>
+17:COR:name.equals("CVS"):TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):96:name.equals("CVS") |==> false
+18:COR:name.equals("CVS"):FALSE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):96:name.equals("CVS") |==> true
+19:LVR:FALSE:TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):97:false |==> true
+20:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):97:return Config.__M_NO == 0 && Config.COVERED(19, 19) ? false : Config.__M_NO == 19 ? true : false; |==> <NO-OP>
+21:COR:name.equals(".cvsignore"):TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):103:name.equals(".cvsignore") |==> false
+22:COR:name.equals(".cvsignore"):FALSE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):103:name.equals(".cvsignore") |==> true
+23:LVR:FALSE:TRUE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):104:false |==> true
+24:STD:<RETURN>:<NO-OP>:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):104:return Config.__M_NO == 0 && Config.COVERED(23, 23) ? false : Config.__M_NO == 23 ? true : false; |==> <NO-OP>
+25:LVR:TRUE:FALSE:org.apache.tools.ant.DesirableFilter@accept(java.io.File,java.lang.String):108:true |==> false

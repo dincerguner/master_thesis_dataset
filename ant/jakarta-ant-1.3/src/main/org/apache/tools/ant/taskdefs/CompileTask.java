@@ -71,7 +71,7 @@ import java.util.*;
 
 public class CompileTask extends Javac {
 
-    protected Vector taskList = new Vector();
+    protected Vector taskList = null;
 
     /**
      * add a new task entry on the task list
