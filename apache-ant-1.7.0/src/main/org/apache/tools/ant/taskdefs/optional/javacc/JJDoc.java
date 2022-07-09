@@ -44,7 +44,7 @@ public class JJDoc extends Task {
     private static final String TEXT              = "TEXT";
     private static final String ONE_TABLE         = "ONE_TABLE";
 
-    private final Hashtable optionalAttrs = new Hashtable();
+    private final Hashtable optionalAttrs = null;
 
     private String outputFile = null;
     private boolean plainText = false;

@@ -31,7 +31,7 @@ public class CCMCheckin extends CCMCheck {
      */
     public CCMCheckin() {
         super();
-        setCcmAction(COMMAND_CHECKIN);
+        ;
         setComment("Checkin " + new Date());
     }
 

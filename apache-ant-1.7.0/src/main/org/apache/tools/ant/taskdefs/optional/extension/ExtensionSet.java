@@ -36,7 +36,7 @@ public class ExtensionSet
     /**
      * ExtensionAdapter objects representing extensions.
      */
-    private final ArrayList extensions = new ArrayList();
+    private final ArrayList extensions = null;
 
     /**
      * Filesets specifying all the extensions wanted.

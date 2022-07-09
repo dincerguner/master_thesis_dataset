@@ -1,0 +1,8 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy:46:new Vector() |==> null
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy@addGeneric(GenericHotDeploymentTool):61:tool.setTask(this) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy@addGeneric(GenericHotDeploymentTool):62:vendorTools.addElement(tool) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy@addWeblogic(WebLogicHotDeploymentTool):72:tool.setTask(this) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy@addWeblogic(WebLogicHotDeploymentTool):73:vendorTools.addElement(tool) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy@addJonas(JonasHotDeploymentTool):83:tool.setTask(this) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy@addJonas(JonasHotDeploymentTool):84:vendorTools.addElement(tool) |==> <NO-OP>
+8:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy@execute():103:vendorTools.elements() |==> null

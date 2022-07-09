@@ -28,7 +28,7 @@ public class IntegerCPInfo extends ConstantCPInfo {
 
     /** Constructor.  */
     public IntegerCPInfo() {
-        super(CONSTANT_INTEGER, 1);
+        super(CONSTANT_INTEGER, 0);
     }
 
     /**

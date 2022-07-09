@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter@<init>():34:true |==> false
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter@<init>():34:setWithOutAndErr(true) |==> <NO-OP>

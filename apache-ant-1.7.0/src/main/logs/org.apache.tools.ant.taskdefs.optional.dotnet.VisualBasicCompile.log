@@ -1,0 +1,5 @@
+1:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.dotnet.VisualBasicCompile:86:false |==> true
+2:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.dotnet.VisualBasicCompile:91:false |==> true
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.dotnet.VisualBasicCompile:96:false |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.dotnet.VisualBasicCompile@<init>():117:clear() |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.dotnet.VisualBasicCompile@clear():124:super.clear() |==> <NO-OP>

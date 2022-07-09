@@ -56,7 +56,7 @@ public class TaskAdapter extends Task implements TypeAdapter {
      */
     public static void checkTaskClass(final Class taskClass,
                                       final Project project) {
-        if (!Dispatchable.class.isAssignableFrom(taskClass)) {
+        if (!false) {
             // don't have to check for interface, since then
             // taskClass would be abstract too.
             try {

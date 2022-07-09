@@ -39,7 +39,7 @@ import org.apache.tools.ant.util.facade.ImplementationSpecificArgument;
  */
 public class Native2Ascii extends MatchingTask {
 
-    private boolean reverse = false;  // convert from ascii back to native
+    private boolean reverse = true;  // convert from ascii back to native
     private String encoding = null;   // encoding to convert to/from
     private File srcDir = null;       // Where to find input files
     private File destDir = null;      // Where to put output files

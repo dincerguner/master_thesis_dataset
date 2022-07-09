@@ -83,7 +83,7 @@ public class VisualBasicCompile extends DotnetCompile {
     /**
      * Compiler option to remove integer checks. Default: false.
      */
-    private boolean removeIntChecks = false;
+    private boolean removeIntChecks = true;
 
     /**
      * Require explicit declaration of variables? Default: false.

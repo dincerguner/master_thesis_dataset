@@ -61,7 +61,7 @@ public class MakeUrl extends Task {
     /**
      * filesets of nested files to add to this url
      */
-    private List filesets = new LinkedList();
+    private List filesets = null;
 
     /**
      * paths to add

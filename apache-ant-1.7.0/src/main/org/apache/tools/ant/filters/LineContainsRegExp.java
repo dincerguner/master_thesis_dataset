@@ -53,7 +53,7 @@ public final class LineContainsRegExp
     private static final String NEGATE_KEY = "negate";
 
     /** Vector that holds the expressions that input lines must contain. */
-    private Vector regexps = new Vector();
+    private Vector regexps = null;
 
     /**
      * Remaining line to be read from this filter, or <code>null</code> if

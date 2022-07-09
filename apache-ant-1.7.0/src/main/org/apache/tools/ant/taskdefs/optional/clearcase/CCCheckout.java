@@ -94,7 +94,7 @@ import org.apache.tools.ant.types.Commandline;
  *
  */
 public class CCCheckout extends ClearCase {
-    private boolean mReserved = true;
+    private boolean mReserved = false;
     private String mOut = null;
     private boolean mNdata = false;
     private String mBranch = null;

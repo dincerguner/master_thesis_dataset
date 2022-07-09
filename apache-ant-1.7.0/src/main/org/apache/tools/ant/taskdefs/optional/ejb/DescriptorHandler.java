@@ -74,7 +74,7 @@ public class DescriptorHandler extends org.xml.sax.HandlerBase {
     /**
      * The state of the parsing
      */
-    private int parseState = STATE_LOOKING_EJBJAR;
+    private int parseState = 0;
 
     // CheckStyle:VisibilityModifier OFF - bc
     /**

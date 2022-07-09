@@ -41,7 +41,7 @@ public class MethodRefCPInfo extends ConstantPoolEntry {
 
     /** Constructor. */
     public MethodRefCPInfo() {
-        super(CONSTANT_METHODREF, 1);
+        super(CONSTANT_METHODREF, 0);
     }
 
     /**

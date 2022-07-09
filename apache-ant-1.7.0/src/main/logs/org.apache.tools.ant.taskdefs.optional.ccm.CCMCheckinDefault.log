@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckinDefault@<init>():31:setCcmAction(COMMAND_CHECKIN) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckinDefault@<init>():32:setTask(DEFAULT_TASK) |==> <NO-OP>

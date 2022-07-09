@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:39:new SimpleDateFormat("yyyy-MM-dd") |==> null
+2:EVR:<NEW_CLASS(java.text.SimpleDateFormat)>:<DEFAULT>:org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter:42:new SimpleDateFormat("HH:mm") |==> null

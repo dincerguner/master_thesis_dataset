@@ -61,7 +61,7 @@ public class P4Counter extends P4Base {
     /**
      * flag telling whether the value of the counter should be set
      */
-    public boolean shouldSetValue = false;
+    public boolean shouldSetValue = true;
     /**
      * flag telling whether a property should be set
      */

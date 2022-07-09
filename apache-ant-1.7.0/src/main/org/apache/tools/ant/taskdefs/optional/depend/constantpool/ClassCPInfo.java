@@ -43,7 +43,7 @@ public class ClassCPInfo extends ConstantPoolEntry {
      * Constructor. Sets the tag value for this entry to type Class
      */
     public ClassCPInfo() {
-        super(CONSTANT_CLASS, 1);
+        super(CONSTANT_CLASS, 0);
     }
 
     /**

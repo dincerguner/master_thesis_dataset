@@ -90,7 +90,7 @@ import org.apache.tools.ant.types.Commandline;
 public class CCMkelem extends ClearCase {
     private String  mComment = null;
     private String  mCfile   = null;
-    private boolean mNwarn   = false;
+    private boolean mNwarn   = true;
     private boolean mPtime   = false;
     private boolean mNoco    = false;
     private boolean mCheckin = false;

@@ -43,7 +43,7 @@ public class ServerDeploy extends Task {
     private File source;
 
     /** The vendor specific tool for deploying the component **/
-    private Vector vendorTools = new Vector();
+    private Vector vendorTools = null;
 
     ///////////////////////////////////////////////////////////////////////////
     //

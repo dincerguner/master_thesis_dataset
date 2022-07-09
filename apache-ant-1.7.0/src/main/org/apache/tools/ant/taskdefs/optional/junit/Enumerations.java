@@ -37,7 +37,7 @@ public final class Enumerations {
          * @return the enumeration over the array of objects.
          */
         public static Enumeration fromArray(Object[] array) {
-                return new ArrayEnumeration(array);
+                return null;
         }
 
         /**

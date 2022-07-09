@@ -44,7 +44,7 @@ public class InterfaceMethodRefCPInfo extends ConstantPoolEntry {
 
     /** Constructor. */
     public InterfaceMethodRefCPInfo() {
-        super(CONSTANT_INTERFACEMETHODREF, 1);
+        super(CONSTANT_INTERFACEMETHODREF, 0);
     }
 
     /**

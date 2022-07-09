@@ -31,7 +31,7 @@ public class InnerClassFilenameFilter implements FilenameFilter {
      * @param baseclass the class to filter inner classes on.
      */
     InnerClassFilenameFilter(String baseclass) {
-        int extidx = baseclass.lastIndexOf(".class");
+        int extidx = 0;
         if (extidx == -1) {
             extidx = baseclass.length() - 1;
         }

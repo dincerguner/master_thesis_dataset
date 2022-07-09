@@ -48,7 +48,7 @@ public class JarLibResolveTask extends Task {
     /**
      * The set of resolvers to use to attempt to locate library.
      */
-    private final ArrayList resolvers = new ArrayList();
+    private final ArrayList resolvers = null;
 
     /**
      * Flag to indicate that you should check that

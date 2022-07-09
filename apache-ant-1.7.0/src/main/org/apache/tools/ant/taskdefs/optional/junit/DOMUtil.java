@@ -63,7 +63,7 @@ public final class DOMUtil {
      * @return the node list that matches the filter.
      */
     public static NodeList listChildNodes(Node parent, NodeFilter filter, boolean recurse) {
-        NodeListImpl matches = new NodeListImpl();
+        NodeListImpl matches = null;
         NodeList children = parent.getChildNodes();
         if (children != null) {
             final int len = children.getLength();

@@ -38,7 +38,7 @@ public class Location implements Serializable {
     private int columnNumber;
 
     /** Location to use when one is needed but no information is available */
-    public static final Location UNKNOWN_LOCATION = new Location();
+    public static final Location UNKNOWN_LOCATION = null;
 
     private static final FileUtils FILE_UTILS = FileUtils.getFileUtils();
 

@@ -34,7 +34,7 @@ import org.apache.tools.ant.types.CommandlineJava;
 public abstract class DefaultJspCompilerAdapter
     implements JspCompilerAdapter {
 
-    private static String lSep = System.getProperty("line.separator");
+    private static String lSep = null;
 
     /**
      * Logs the compilation parameters, adds the files to compile and logs the

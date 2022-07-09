@@ -51,7 +51,7 @@ public class JSharp extends DotnetCompile {
     /** /x option to disable J++ and J# lang extensions
      *
      */
-    boolean pureJava = true;
+    boolean pureJava = false;
 
     /**
      * whether to make package scoped stuff public or assembly scoped

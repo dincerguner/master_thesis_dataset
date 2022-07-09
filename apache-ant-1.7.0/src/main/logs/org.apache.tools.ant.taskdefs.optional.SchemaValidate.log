@@ -1,0 +1,11 @@
+1:EVR:<NEW_CLASS(java.util.HashMap)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.SchemaValidate:52:new HashMap() |==> null
+2:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.SchemaValidate:55:true |==> false
+3:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.SchemaValidate:60:false |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.SchemaValidate@init():97:super.init() |==> <NO-OP>
+5:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.SchemaValidate@init():99:false |==> true
+6:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.SchemaValidate@init():99:setLenient(false) |==> <NO-OP>
+7:LVR:TRUE:FALSE:org.apache.tools.ant.taskdefs.optional.SchemaValidate@enableXercesSchemaValidation():108:true |==> false
+8:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.SchemaValidate@enableXercesSchemaValidation():108:setFeature(XmlConstants.FEATURE_XSD, true) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.SchemaValidate@enableXercesSchemaValidation():110:setNoNamespaceSchemaProperty(XmlConstants.PROPERTY_NO_NAMESPACE_SCHEMA_LOCATION) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.tools.ant.taskdefs.optional.SchemaValidate@enableXercesSchemaValidation():112:log(e.toString(), Project.MSG_VERBOSE) |==> <NO-OP>
+11:LVR:FALSE:TRUE:org.apache.tools.ant.taskdefs.optional.SchemaValidate@enableXercesSchemaValidation():113:false |==> true

@@ -30,7 +30,7 @@ public class DoubleCPInfo extends ConstantCPInfo {
      * Constructor
      */
     public DoubleCPInfo() {
-        super(CONSTANT_DOUBLE, 2);
+        super(CONSTANT_DOUBLE, 0);
     }
 
     /**

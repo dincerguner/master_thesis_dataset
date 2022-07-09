@@ -77,7 +77,7 @@ public class Ilasm
     /**
      *  and now derive the search pattern from the extension
      */
-    protected static final String file_pattern = "**/*." + file_ext;
+    protected static final String file_pattern = null;
 
     /**
      *  title of task for external presentation

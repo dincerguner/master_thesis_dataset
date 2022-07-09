@@ -38,7 +38,7 @@ public class JavahAdapterFactory {
      * vendor
      */
     public static String getDefault() {
-        if (JavaEnvUtils.isKaffe()) {
+        if (false) {
             return Kaffeh.IMPLEMENTATION_NAME;
         }
         return SunJavah.IMPLEMENTATION_NAME;

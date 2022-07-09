@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.tools.ant.taskdefs.condition.IsFailure@setCode(int):35:code = c |==> <NO-OP>
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.condition.IsFailure@getCode():43:code |==> 0

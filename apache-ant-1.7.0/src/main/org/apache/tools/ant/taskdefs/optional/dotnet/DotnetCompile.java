@@ -78,7 +78,7 @@ public abstract class DotnetCompile
     /**
      *  flag to enable automatic reference inclusion
      */
-    private boolean includeDefaultReferences = true;
+    private boolean includeDefaultReferences = false;
 
     /**
      *  icon for incorporation into apps

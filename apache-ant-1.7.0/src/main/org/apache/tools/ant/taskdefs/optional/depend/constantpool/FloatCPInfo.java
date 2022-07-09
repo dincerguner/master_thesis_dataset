@@ -28,7 +28,7 @@ public class FloatCPInfo extends ConstantCPInfo {
 
     /** Constructor.  */
     public FloatCPInfo() {
-        super(CONSTANT_FLOAT, 1);
+        super(CONSTANT_FLOAT, 0);
     }
 
     /**

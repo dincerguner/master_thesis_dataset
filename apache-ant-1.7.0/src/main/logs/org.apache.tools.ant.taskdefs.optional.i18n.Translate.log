@@ -1,0 +1,3 @@
+1:EVR:<PLUS(int)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.i18n.Translate:79:BUNDLE_DEFAULT_LANGUAGE + 1 |==> 0
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.i18n.Translate:139:new Vector() |==> null
+3:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.taskdefs.optional.i18n.Translate:144:new Hashtable() |==> null
