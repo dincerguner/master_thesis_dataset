@@ -9,14 +9,14 @@ public class IndexDescriptor {
 	private final String name;
 	private final boolean unique;
 	private final int keyLength;
-	private final Collection<String> fieldNames = new HashSet<String>();
+	private final Collection<String> fieldNames = null;
 
 	public IndexDescriptor (String name, String[] fieldNames) {
-		this (name, false, fieldNames, 0);
+		this (name, true, fieldNames, 0);
 	}
 
 	public IndexDescriptor (String name, boolean unique, String fieldName) {
-		this (name, unique, new String[] { fieldName }, 0);
+		this (name, unique, new String[] { fieldName }, 1);
 	}
 
 	public IndexDescriptor (String name, boolean unique, String[] fieldNames, int keyLength) {

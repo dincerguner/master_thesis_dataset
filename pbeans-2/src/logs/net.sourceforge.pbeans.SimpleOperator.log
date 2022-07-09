@@ -1,0 +1,9 @@
+1:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.SimpleOperator@<init>(java.lang.String):24:mOperation = operation |==> <NO-OP>
+2:EVR:<PLUS(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.SimpleOperator@operation(java.lang.String,java.lang.String):29:variable + mOperation + value |==> null
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):net.sourceforge.pbeans.SimpleOperator@equals(java.lang.Object):39:obj == null |==> false
+4:LVR:FALSE:TRUE:net.sourceforge.pbeans.SimpleOperator@equals(java.lang.Object):41:false |==> true
+5:STD:<RETURN>:<NO-OP>:net.sourceforge.pbeans.SimpleOperator@equals(java.lang.Object):41:return Config.__M_NO == 0 && Config.COVERED(4, 4) ? false : Config.__M_NO == 4 ? true : false; |==> <NO-OP>
+6:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:net.sourceforge.pbeans.SimpleOperator@equals(java.lang.Object):45:mOperation.equals(((SimpleOperator)obj).mOperation) |==> false
+7:LVR:FALSE:TRUE:net.sourceforge.pbeans.SimpleOperator@equals(java.lang.Object):49:false |==> true
+8:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.SimpleOperator@toString():54:mOperation |==> null
+9:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.SimpleOperator@operatorString():61:mOperation |==> null

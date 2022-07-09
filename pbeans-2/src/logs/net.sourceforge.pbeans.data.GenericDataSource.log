@@ -1,0 +1,24 @@
+1:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.data.GenericDataSource@<init>(java.lang.String,java.lang.String):23:this.url = url |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.data.GenericDataSource@<init>(java.lang.String,java.lang.String):24:setDriverClassName(driverClassName) |==> <NO-OP>
+3:EVR:<METHOD_INVOCATION(java.lang.Class<capture#488 of ?>)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@setDriverClassName(java.lang.String):33:Class.forName(dcn) |==> null
+4:EVR:<TYPE_CAST(java.sql.Driver)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@setDriverClassName(java.lang.String):34:(Driver)c.newInstance() |==> null
+5:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.data.GenericDataSource@setUrl(java.lang.String):51:this.url = url |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.data.GenericDataSource@setProperties(java.util.Properties):61:this.properties = properties |==> <NO-OP>
+7:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):66:this.driver == null |==> false
+8:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):66:this.url == null |==> false
+9:COR:||(boolean,boolean):!=(boolean,boolean):net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):66:this.driver == null || this.url == null |==> this.driver == null != (this.url == null)
+10:COR:||(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):66:this.driver == null || this.url == null |==> this.driver == null
+11:COR:||(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):66:this.driver == null || this.url == null |==> this.url == null
+12:COR:||(boolean,boolean):TRUE(boolean,boolean):net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):66:this.driver == null || this.url == null |==> true
+13:EVR:<METHOD_INVOCATION(java.sql.Connection)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):70:driver.connect(this.url, properties) |==> null
+14:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):72:connection == null |==> false
+15:EVR:<IDENTIFIER(java.sql.Connection)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.util.Properties):76:connection |==> null
+16:EVR:<METHOD_INVOCATION(java.sql.Connection)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@getConnection():81:getConnection(this.properties) |==> null
+17:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.lang.String,java.lang.String):85:new Properties() |==> null
+18:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.lang.String,java.lang.String):86:properties.put("user", username) |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.lang.String,java.lang.String):87:properties.put("password", password) |==> <NO-OP>
+20:EVR:<METHOD_INVOCATION(java.sql.Connection)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@getConnection(java.lang.String,java.lang.String):88:getConnection(properties) |==> null
+21:LVR:0:POS:net.sourceforge.pbeans.data.GenericDataSource@getLoginTimeout():92:0 |==> 1
+22:LVR:0:NEG:net.sourceforge.pbeans.data.GenericDataSource@getLoginTimeout():92:0 |==> -1
+23:EVR:<MEMBER_SELECT(java.io.PrintWriter)>:<DEFAULT>:net.sourceforge.pbeans.data.GenericDataSource@getLogWriter():96:this.logWriter |==> null
+24:STD:<ASSIGN>:<NO-OP>:net.sourceforge.pbeans.data.GenericDataSource@setLogWriter(java.io.PrintWriter):104:this.logWriter = out |==> <NO-OP>

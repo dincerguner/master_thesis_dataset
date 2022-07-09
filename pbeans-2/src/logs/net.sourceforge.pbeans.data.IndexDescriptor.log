@@ -1,0 +1,35 @@
+1:EVR:<NEW_CLASS(java.util.HashSet<java.lang.String>)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor:12:new HashSet<String>() |==> null
+2:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,java.lang.String[]):15:false |==> true
+3:LVR:0:POS:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,java.lang.String[]):15:0 |==> 1
+4:LVR:0:NEG:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,java.lang.String[]):15:0 |==> -1
+5:LVR:0:POS:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String):19:0 |==> 1
+6:LVR:0:NEG:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String):19:0 |==> -1
+7:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):23:name |==> null
+8:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):24:unique |==> false
+9:EVR:<IDENTIFIER(int)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):25:keyLength |==> 0
+10:LVR:0:POS:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):26:0 |==> 1
+11:LVR:0:NEG:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):26:0 |==> -1
+12:ROR:<(int,int):!=(int,int):net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):26:i < fieldNames.length |==> i != fieldNames.length
+13:ROR:<(int,int):<=(int,int):net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):26:i < fieldNames.length |==> i <= fieldNames.length
+14:ROR:<(int,int):FALSE(int,int):net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):26:i < fieldNames.length |==> false
+15:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.data.IndexDescriptor@<init>(java.lang.String,boolean,java.lang.String[],int):27:this.fieldNames.add(fieldNames[i]) |==> <NO-OP>
+16:EVR:<IDENTIFIER(int)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@getKeyLength():32:keyLength |==> 0
+17:STD:<CALL>:<NO-OP>:net.sourceforge.pbeans.data.IndexDescriptor@addFieldName(java.lang.String):36:this.fieldNames.add(fieldName) |==> <NO-OP>
+18:EVR:<MEMBER_SELECT(java.lang.String)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@getName():40:this.name |==> null
+19:EVR:<MEMBER_SELECT(java.util.Collection<java.lang.String>)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@getFieldNames():44:this.fieldNames |==> null
+20:EVR:<MEMBER_SELECT(boolean)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@isUnique():48:this.unique |==> false
+21:LVR:FALSE:TRUE:net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):58:false |==> true
+22:STD:<RETURN>:<NO-OP>:net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):58:return Config.__M_NO == 0 && Config.COVERED(21, 21) ? false : Config.__M_NO == 21 ? true : false; |==> <NO-OP>
+23:EVR:<TYPE_CAST(net.sourceforge.pbeans.data.IndexDescriptor)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):60:(IndexDescriptor)other |==> null
+24:ROR:==(boolean,boolean):FALSE(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):63:this.unique == oid.isUnique() |==> false
+25:ROR:==(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):63:this.unique == oid.isUnique() |==> this.unique
+26:ROR:==(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):63:this.unique == oid.isUnique() |==> oid.isUnique()
+27:COR:&&(boolean,boolean):==(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):62:this.name.equals(oid.getName()) && this.unique == oid.isUnique() |==> this.name.equals(oid.getName()) == (this.unique == oid.isUnique())
+28:COR:&&(boolean,boolean):FALSE(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):62:this.name.equals(oid.getName()) && this.unique == oid.isUnique() |==> false
+29:COR:&&(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):62:this.name.equals(oid.getName()) && this.unique == oid.isUnique() |==> this.name.equals(oid.getName())
+30:COR:&&(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):63:this.name.equals(oid.getName()) && this.unique == oid.isUnique() |==> this.unique == oid.isUnique()
+31:COR:&&(boolean,boolean):==(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):62:this.name.equals(oid.getName()) && this.unique == oid.isUnique() && this.fieldNames.equals(oid.getFieldNames()) |==> (this.name.equals(oid.getName()) && this.unique == oid.isUnique()) == this.fieldNames.equals(oid.getFieldNames())
+32:COR:&&(boolean,boolean):FALSE(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):63:this.name.equals(oid.getName()) && this.unique == oid.isUnique() && this.fieldNames.equals(oid.getFieldNames()) |==> false
+33:COR:&&(boolean,boolean):LHS(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):62:this.name.equals(oid.getName()) && this.unique == oid.isUnique() && this.fieldNames.equals(oid.getFieldNames()) |==> this.name.equals(oid.getName()) && this.unique == oid.isUnique()
+34:COR:&&(boolean,boolean):RHS(boolean,boolean):net.sourceforge.pbeans.data.IndexDescriptor@equals(java.lang.Object):64:this.name.equals(oid.getName()) && this.unique == oid.isUnique() && this.fieldNames.equals(oid.getFieldNames()) |==> this.fieldNames.equals(oid.getFieldNames())
+35:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:net.sourceforge.pbeans.data.IndexDescriptor@hashCode():71:this.name.hashCode() |==> 0

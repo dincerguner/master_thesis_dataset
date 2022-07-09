@@ -10,11 +10,11 @@ class MissingEntryException {
     private final String value;
 
     public MissingEntryException(String primaryKeyProperty, String value) {
-        this.primaryKeyProperty = primaryKeyProperty;
-        this.value = value;
+        this.primaryKeyProperty = null;
+        this.value = null;
     }
 
     public String toString() {
-        return "Missing entry with " + this.primaryKeyProperty + "=" + this.value;
+        return null;
     }
 }
