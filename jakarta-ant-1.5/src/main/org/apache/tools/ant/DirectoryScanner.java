@@ -158,21 +158,7 @@ public class DirectoryScanner implements FileScanner, SelectorScanner {
      *
      * @see #addDefaultExcludes()
      */
-    protected static final String[] DEFAULTEXCLUDES = {
-        "**/*~",
-        "**/#*#",
-        "**/.#*",
-        "**/%*%",
-        "**/._*",
-        "**/CVS",
-        "**/CVS/**",
-        "**/.cvsignore",
-        "**/SCCS",
-        "**/SCCS/**",
-        "**/vssver.scc",
-        "**/.svn",
-        "**/.svn/**"
-    };
+    protected static final String[] DEFAULTEXCLUDES = null;
 
     /** The base directory to be scanned. */
     protected File basedir;
@@ -225,13 +211,13 @@ public class DirectoryScanner implements FileScanner, SelectorScanner {
     protected Vector dirsDeselected;
 
     /** Whether or not our results were built by a slow scan. */
-    protected boolean haveSlowResults = false;
+    protected boolean haveSlowResults = true;
 
     /**
      * Whether or not the file system should be treated as a case sensitive
      * one.
      */
-    protected boolean isCaseSensitive = true;
+    protected boolean isCaseSensitive = false;
 
     /**
      * Whether or not symbolic links should be followed.

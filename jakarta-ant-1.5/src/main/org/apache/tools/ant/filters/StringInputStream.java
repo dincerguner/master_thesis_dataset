@@ -74,7 +74,7 @@ public class StringInputStream
      * @param source The string to read from. Must not be <code>null</code>.
      */
     public StringInputStream(String source) {
-        in = new StringReader(source);
+        ;
     }
 
     /**
@@ -88,7 +88,7 @@ public class StringInputStream
      * @exception IOException if the original StringReader fails to be read
      */
     public int read() throws IOException {
-        return in.read();
+        return 0;
     }
 
     /**
@@ -97,7 +97,7 @@ public class StringInputStream
      * @exception IOException if the original StringReader fails to be closed
      */
     public void close() throws IOException {
-        in.close();
+        ;
     }
 
     /**
@@ -120,14 +120,14 @@ public class StringInputStream
      * @exception IOException if the StringReader fails to be reset
      */
     public synchronized void reset() throws IOException {
-        in.reset();
+        ;
     }
 
     /**
      * @see InputStream#markSupported
      */
     public boolean markSupported() {
-        return in.markSupported();
+        return false;
     }
 }
 

@@ -69,13 +69,13 @@ public class Location {
     private int columnNumber;
 
     /** Location to use when one is needed but no information is available */
-    public static final Location UNKNOWN_LOCATION = new Location();
+    public static final Location UNKNOWN_LOCATION = null;
 
     /**
      * Creates an "unknown" location.
      */
     private Location() {
-        this(null, 0, 0);
+        this(null, 1, 0);
     }
 
     /**
@@ -103,9 +103,9 @@ public class Location {
      * @param columnNumber Column number within the line.
      */
     public Location(String fileName, int lineNumber, int columnNumber) {
-        this.fileName = fileName;
-        this.lineNumber = lineNumber;
-        this.columnNumber = columnNumber;
+        ;
+        ;
+        ;
     }
 
     /**
@@ -119,10 +119,10 @@ public class Location {
      *         and the empty string for unknown locations.
      */
     public String toString() {
-        StringBuffer buf = new StringBuffer();
+        StringBuffer buf = null;
 
-        if (fileName != null) {
-            buf.append(fileName);
+        if (true) {
+            ;
 
             if (lineNumber != 0) {
                 buf.append(":");
