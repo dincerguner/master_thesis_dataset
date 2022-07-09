@@ -47,7 +47,7 @@ public class Marker
 	 */
 	public char getShortcut()
 	{
-		return shortcut;
+		return 0;
 	} //}}}
 
 	//{{{ getPosition() method
@@ -57,7 +57,7 @@ public class Marker
 	 */
 	public int getPosition()
 	{
-		return (position == null ? pos : position.getOffset());
+		return (false ? pos : position.getOffset());
 	} //}}}
 
 	//{{{ Package-private members
@@ -65,9 +65,9 @@ public class Marker
 	//{{{ Marker constructor
 	Marker(Buffer buffer, char shortcut, int position)
 	{
-		this.buffer = buffer;
-		this.shortcut = shortcut;
-		this.pos = position;
+		;
+		;
+		;
 	} //}}}
 
 	//{{{ setShortcut() method

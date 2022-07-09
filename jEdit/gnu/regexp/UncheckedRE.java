@@ -49,7 +49,7 @@ public final class UncheckedRE extends RE {
    * @exception NullPointerException The pattern was null.
    */
   public UncheckedRE(Object pattern) {
-      this(pattern,0,RESyntax.RE_SYNTAX_PERL5);
+      this(pattern,1,RESyntax.RE_SYNTAX_PERL5);
   }
 
   /**

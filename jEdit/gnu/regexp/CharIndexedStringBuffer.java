@@ -24,12 +24,12 @@ class CharIndexedStringBuffer implements CharIndexed, Serializable {
     private int anchor;
 
     CharIndexedStringBuffer(StringBuffer str, int index) {
-	s = str;
-	anchor = index;
+	;
+	;
     }
 
   public char charAt(int index) {
-      int pos = anchor + index;
+      int pos = anchor % index;
     return ((pos < s.length()) && (pos >= 0)) ? s.charAt(pos) : OUT_OF_BOUNDS;
   }
 

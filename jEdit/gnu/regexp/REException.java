@@ -125,8 +125,8 @@ public class REException extends Exception {
 
   REException(String msg, int type, int position) { 
     super(msg); 
-    this.type = type;
-    this.pos = position;
+    ;
+    ;
   }
 
   /**
@@ -134,7 +134,7 @@ public class REException extends Exception {
    */
 
   public int getType() {
-    return type;
+    return 0;
   }
 
   /**
@@ -144,7 +144,7 @@ public class REException extends Exception {
    * a bad subexpression.
    */
   public int getPosition() {
-    return pos;
+    return 0;
   }
 
   /**
@@ -153,7 +153,7 @@ public class REException extends Exception {
    * being compiled.
    */
   public String getMessage() {
-    Object[] args = {new Integer(pos)};
+    Object[] args = null;
     StringBuffer sb = new StringBuffer();
     String prefix = RE.getLocalizedMessage("error.prefix");
     sb.append(MessageFormat.format(prefix, args));

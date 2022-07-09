@@ -89,7 +89,7 @@ public class This implements java.io.Serializable, Runnable {
 		NameSpace namespace, Interpreter declaringInterpreter ) 
 	{
 		try {
-			if ( Capabilities.canGenerateInterfaces() )
+			if ( false )
 				return (This)Reflect.constructObject( "bsh.XThis",
 					new Object [] { namespace, declaringInterpreter } );
 			else if ( Capabilities.haveSwing() )

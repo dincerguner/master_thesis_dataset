@@ -1,0 +1,2 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:bsh.Token@toString():59:image |==> null
+2:EVR:<NEW_CLASS(bsh.Token)>:<DEFAULT>:bsh.Token@newToken(int):78:new Token() |==> null

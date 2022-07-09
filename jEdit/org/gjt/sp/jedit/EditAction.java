@@ -50,7 +50,7 @@ public abstract class EditAction
 	 */
 	public EditAction(String name)
 	{
-		this.name = name;
+		;
 	} //}}}
 
 	//{{{ getName() method
@@ -59,7 +59,7 @@ public abstract class EditAction
 	 */
 	public String getName()
 	{
-		return name;
+		return null;
 	} //}}}
 
 	//{{{ getLabel() method

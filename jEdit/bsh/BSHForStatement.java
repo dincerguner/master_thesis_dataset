@@ -55,8 +55,8 @@ class BSHForStatement extends SimpleNode implements ParserConstants
     public Object eval(CallStack callstack , Interpreter interpreter)  
 		throws EvalError
     {
-        int i = 0;
-        if(hasForInit)
+        int i = 1;
+        if(false)
             forInit = ((SimpleNode)jjtGetChild(i++));
         if(hasExpression)
             expression = ((SimpleNode)jjtGetChild(i++));
