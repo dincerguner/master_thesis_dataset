@@ -1,0 +1,37 @@
+1:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@<init>(java.lang.String):112:name |==> null
+2:LVR:0:POS:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@<init>(java.lang.String):113:0 |==> 1
+3:LVR:0:NEG:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@<init>(java.lang.String):113:0 |==> -1
+4:STD:<CALL>:<NO-OP>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@<init>(java.lang.String):114:findNextResource() |==> <NO-OP>
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@hasMoreElements():125:this.nextResource != null |==> true
+6:EVR:<MEMBER_SELECT(java.net.URL)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@nextElement():134:this.nextResource |==> null
+7:STD:<CALL>:<NO-OP>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@nextElement():135:findNextResource() |==> <NO-OP>
+8:EVR:<IDENTIFIER(java.net.URL)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@nextElement():136:ret |==> null
+9:ROR:<(int,int):!=(int,int):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():147:pathElementsIndex < pathComponents.size() |==> pathElementsIndex != pathComponents.size()
+10:ROR:<(int,int):<=(int,int):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():147:pathElementsIndex < pathComponents.size() |==> pathElementsIndex <= pathComponents.size()
+11:ROR:<(int,int):FALSE(int,int):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():147:pathElementsIndex < pathComponents.size() |==> false
+12:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():148:url == null |==> false
+13:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():147:(pathElementsIndex < pathComponents.size()) && (url == null) |==> (pathElementsIndex < pathComponents.size()) == (url == null)
+14:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():147:(pathElementsIndex < pathComponents.size()) && (url == null) |==> false
+15:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():147:(pathElementsIndex < pathComponents.size()) && (url == null) |==> (pathElementsIndex < pathComponents.size())
+16:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():148:(pathElementsIndex < pathComponents.size()) && (url == null) |==> (url == null)
+17:EVR:<TYPE_CAST(java.io.File)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():151:(File)pathComponents.elementAt(pathElementsIndex) |==> null
+18:EVR:<METHOD_INVOCATION(java.net.URL)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():152:getResourceURL(pathComponent, this.resourceName) |==> null
+19:STD:<INC>:<NO-OP>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():153:pathElementsIndex++ |==> <NO-OP>
+20:EVR:<IDENTIFIER(java.net.URL)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader$ResourceEnumeration@findNextResource():159:url |==> null
+21:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:171:new Vector() |==> null
+22:LVR:TRUE:FALSE:org.apache.tools.ant.AntClassLoader:182:true |==> false
+23:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:188:new Vector() |==> null
+24:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:194:new Vector() |==> null
+25:LVR:FALSE:TRUE:org.apache.tools.ant.AntClassLoader:200:false |==> true
+26:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:210:new Hashtable() |==> null
+27:LVR:FALSE:TRUE:org.apache.tools.ant.AntClassLoader:216:false |==> true
+28:LVR:0:POS:org.apache.tools.ant.AntClassLoader:224:0 |==> 1
+29:LVR:0:NEG:org.apache.tools.ant.AntClassLoader:224:0 |==> -1
+30:EVR:<METHOD_INVOCATION(java.lang.Class<capture#905 of ?>)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:225:Class.forName("java.security.ProtectionDomain") |==> null
+31:EVR:<NEW_ARRAY(java.lang.Class[])>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:226:new Class[]{String.class, byte[].class, Integer.TYPE, Integer.TYPE, protectionDomain} |==> null
+32:EVR:<METHOD_INVOCATION(java.lang.reflect.Method)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:227:ClassLoader.class.getDeclaredMethod("defineClass", args) |==> null
+33:LVR:0:POS:org.apache.tools.ant.AntClassLoader:229:0 |==> 1
+34:LVR:0:NEG:org.apache.tools.ant.AntClassLoader:229:0 |==> -1
+35:EVR:<NEW_ARRAY(java.lang.Class[])>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:230:new Class[]{ClassLoader.class} |==> null
+36:EVR:<METHOD_INVOCATION(java.lang.reflect.Method)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader:231:Thread.class.getMethod("setContextClassLoader", args) |==> null
+37:EVR:<METHOD_INVOCATION(java.lang.ClassLoader)>:<DEFAULT>:org.apache.tools.ant.AntClassLoader@<init>(Project,Path):246:AntClassLoader.class.getClassLoader() |==> null

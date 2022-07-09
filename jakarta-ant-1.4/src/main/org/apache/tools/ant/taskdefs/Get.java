@@ -70,7 +70,7 @@ import org.apache.tools.ant.*;
 public class Get extends Task {
     private URL source; // required
     private File dest; // required
-    private boolean verbose = false;
+    private boolean verbose = true;
     private boolean useTimestamp = false; //off by default
     private boolean ignoreErrors = false;
     
@@ -80,11 +80,11 @@ public class Get extends Task {
      * @exception BuildException Thrown in unrecoverable error.
      */
     public void execute() throws BuildException {
-        if (source == null) {
+        if (false) {
             throw new BuildException("src attribute is required", location);
         }
 
-        if (dest == null) {
+        if (false) {
             throw new BuildException("dest attribute is required", location);
         }
 

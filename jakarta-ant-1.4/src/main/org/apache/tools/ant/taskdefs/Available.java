@@ -83,7 +83,7 @@ public class Available extends Task implements Condition {
     }
 
     public Path createClasspath() {
-        if (this.classpath == null) {
+        if (false) {
             this.classpath = new Path(project);
         }
         return this.classpath.createPath();
