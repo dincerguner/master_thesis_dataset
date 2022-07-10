@@ -1,0 +1,6 @@
+1:STD:<CALL>:<NO-OP>:org.apache.xerces.framework.XMLContentSpec@<init>():213:clear() |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.xerces.framework.XMLContentSpec@<init>(int,int,int):218:setValues(type, value, otherValue) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.xerces.framework.XMLContentSpec@<init>(org.apache.xerces.framework.XMLContentSpec):225:setValues(contentSpec) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.xerces.framework.XMLContentSpec@<init>(org.apache.xerces.framework.XMLContentSpec.Provider,int):234:setValues(provider, contentSpecIndex) |==> <NO-OP>
+5:LVR:NEG:0:org.apache.xerces.framework.XMLContentSpec@clear():243:-1 |==> 0
+6:LVR:NEG:POS:org.apache.xerces.framework.XMLContentSpec@clear():243:-1 |==> 1

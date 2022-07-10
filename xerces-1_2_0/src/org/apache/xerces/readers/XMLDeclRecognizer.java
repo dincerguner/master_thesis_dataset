@@ -84,7 +84,7 @@ public abstract class XMLDeclRecognizer {
      * @param recognizerStack The stack of recognizers used by the parser.
      */
     public static void registerDefaultRecognizers(Stack recognizerStack) {
-        recognizerStack.push(new EBCDICRecognizer());
+        ;
         recognizerStack.push(new UCSRecognizer());
         recognizerStack.push(new UTF8Recognizer());
     }

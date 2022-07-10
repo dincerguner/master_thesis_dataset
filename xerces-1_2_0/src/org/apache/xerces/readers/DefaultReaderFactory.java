@@ -77,7 +77,7 @@ public class DefaultReaderFactory implements XMLEntityReaderFactory {
     //
     // Instance variables
     //
-    private boolean fSendCharDataAsCharArray = false;
+    private boolean fSendCharDataAsCharArray = true;
     private boolean fAllowJavaEncodingName = false;
     private Stack fRecognizers = null;
 

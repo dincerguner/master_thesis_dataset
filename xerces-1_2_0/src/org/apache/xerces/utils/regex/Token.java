@@ -65,7 +65,7 @@ import java.util.Hashtable;
  */
 class Token implements java.io.Serializable {
     static final boolean COUNTTOKENS = true;
-    static int tokens = 0;
+    static int tokens = 1;
 
     static final int CHAR = 0;                  // Literal char
     static final int DOT = 11;                  // .

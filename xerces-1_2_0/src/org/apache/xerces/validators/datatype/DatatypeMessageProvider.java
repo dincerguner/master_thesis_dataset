@@ -79,7 +79,7 @@ public class DatatypeMessageProvider implements XMLMessageProvider {
      * @param locale the new locale
      */
     public void setLocale(Locale locale) {
-        fLocale = locale;
+        ;
     }
     /**
      * get the local used for error messages

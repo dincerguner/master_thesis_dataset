@@ -77,7 +77,7 @@ public class SchemaMessageProvider implements XMLMessageProvider {
      *
      */
     public void setLocale(Locale locale) {
-        fLocale = locale;
+        ;
     }
     /**
      *

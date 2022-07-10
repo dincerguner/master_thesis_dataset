@@ -1,0 +1,4 @@
+1:LVR:POS:0:org.apache.xml.serialize.BaseMarkupSerializer:155:126 |==> 0
+2:LVR:POS:NEG:org.apache.xml.serialize.BaseMarkupSerializer:155:126 |==> -126
+3:LVR:POS:0:org.apache.xml.serialize.BaseMarkupSerializer@<init>(OutputFormat):264:10 |==> 0
+4:LVR:POS:NEG:org.apache.xml.serialize.BaseMarkupSerializer@<init>(OutputFormat):264:10 |==> -10

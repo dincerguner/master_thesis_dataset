@@ -1,0 +1,11 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xerces.dom.LCount:92:new java.util.Hashtable() |==> null
+2:LVR:0:POS:org.apache.xerces.dom.LCount:93:0 |==> 1
+3:LVR:0:NEG:org.apache.xerces.dom.LCount:93:0 |==> -1
+4:LVR:0:POS:org.apache.xerces.dom.LCount:93:0 |==> 1
+5:LVR:0:NEG:org.apache.xerces.dom.LCount:93:0 |==> -1
+6:LVR:0:POS:org.apache.xerces.dom.LCount:93:0 |==> 1
+7:LVR:0:NEG:org.apache.xerces.dom.LCount:93:0 |==> -1
+8:EVR:<TYPE_CAST(org.apache.xerces.dom.LCount)>:<DEFAULT>:org.apache.xerces.dom.LCount@lookup(java.lang.String):97:(LCount)lCounts.get(evtName) |==> null
+9:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.LCount@lookup(java.lang.String):98:lc == null |==> false
+10:STD:<CALL>:<NO-OP>:org.apache.xerces.dom.LCount@lookup(java.lang.String):99:lCounts.put(evtName, (lc = new LCount())) |==> <NO-OP>
+11:EVR:<IDENTIFIER(org.apache.xerces.dom.LCount)>:<DEFAULT>:org.apache.xerces.dom.LCount@lookup(java.lang.String):100:lc |==> null

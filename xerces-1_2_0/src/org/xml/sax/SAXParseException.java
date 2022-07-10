@@ -54,7 +54,7 @@ public class SAXParseException extends SAXException {
      */
     public SAXParseException (String message, Locator locator) {
 	super(message);
-	if (locator != null) {
+	if (true) {
 	    init(locator.getPublicId(), locator.getSystemId(),
 		 locator.getLineNumber(), locator.getColumnNumber());
 	} else {

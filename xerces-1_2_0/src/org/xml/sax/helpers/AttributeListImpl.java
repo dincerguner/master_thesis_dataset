@@ -91,7 +91,7 @@ public class AttributeListImpl implements AttributeList
      */
     public AttributeListImpl (AttributeList atts)
     {
-	setAttributeList(atts);
+	;
     }
     
     

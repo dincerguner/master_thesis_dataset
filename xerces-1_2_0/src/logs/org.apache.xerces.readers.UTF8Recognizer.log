@@ -1,0 +1,29 @@
+1:LVR:POS:0:org.apache.xerces.readers.UTF8Recognizer:74:239 |==> 0
+2:LVR:POS:NEG:org.apache.xerces.readers.UTF8Recognizer:74:239 |==> -239
+3:LVR:POS:0:org.apache.xerces.readers.UTF8Recognizer:74:187 |==> 0
+4:LVR:POS:NEG:org.apache.xerces.readers.UTF8Recognizer:74:187 |==> -187
+5:LVR:POS:0:org.apache.xerces.readers.UTF8Recognizer:74:191 |==> 0
+6:LVR:POS:NEG:org.apache.xerces.readers.UTF8Recognizer:74:191 |==> -191
+7:LVR:FALSE:TRUE:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):89:false |==> true
+8:LVR:0:POS:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):90:0 |==> 1
+9:LVR:0:NEG:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):90:0 |==> -1
+10:LVR:0:POS:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):91:0 |==> 1
+11:LVR:0:NEG:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):91:0 |==> -1
+12:ROR:==(int,int):<=(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):91:bom0 == fUTF8BOM[0] |==> bom0 <= fUTF8BOM[0]
+13:ROR:==(int,int):>=(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):91:bom0 == fUTF8BOM[0] |==> bom0 >= fUTF8BOM[0]
+14:ROR:==(int,int):FALSE(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):91:bom0 == fUTF8BOM[0] |==> false
+15:LVR:POS:0:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):92:1 |==> 0
+16:LVR:POS:NEG:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):92:1 |==> -1
+17:LVR:POS:0:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):93:1 |==> 0
+18:LVR:POS:NEG:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):93:1 |==> -1
+19:ROR:==(int,int):<=(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):93:bom1 == fUTF8BOM[1] |==> bom1 <= fUTF8BOM[1]
+20:ROR:==(int,int):>=(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):93:bom1 == fUTF8BOM[1] |==> bom1 >= fUTF8BOM[1]
+21:ROR:==(int,int):FALSE(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):93:bom1 == fUTF8BOM[1] |==> false
+22:LVR:POS:0:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):94:2 |==> 0
+23:LVR:POS:NEG:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):94:2 |==> -2
+24:LVR:POS:0:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):95:2 |==> 0
+25:LVR:POS:NEG:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):95:2 |==> -2
+26:ROR:==(int,int):<=(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):95:bom2 == fUTF8BOM[2] |==> bom2 <= fUTF8BOM[2]
+27:ROR:==(int,int):>=(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):95:bom2 == fUTF8BOM[2] |==> bom2 >= fUTF8BOM[2]
+28:ROR:==(int,int):FALSE(int,int):org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):95:bom2 == fUTF8BOM[2] |==> false
+29:LVR:TRUE:FALSE:org.apache.xerces.readers.UTF8Recognizer@recognize(XMLEntityReaderFactory,XMLEntityHandler,XMLErrorReporter,boolean,StringPool,ChunkyByteArray,boolean,boolean):96:true |==> false

@@ -120,7 +120,7 @@ public class MixedContentModel
     public MixedContentModel(QName childList[],
                              int childListType[],
                              int offset, int length) throws CMException {
-        this(childList, childListType, offset, length, false, false);
+        this(childList, childListType, offset, length, true, false);
     }
 
     /**

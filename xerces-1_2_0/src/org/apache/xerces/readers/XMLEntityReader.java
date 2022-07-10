@@ -73,7 +73,7 @@ abstract class XMLEntityReader implements XMLEntityHandler.EntityReader {
     protected XMLErrorReporter fErrorReporter = null;
     protected boolean fSendCharDataAsCharArray;
     protected XMLEntityHandler.CharDataHandler fCharDataHandler = null;
-    protected boolean fInCDSect = false;
+    protected boolean fInCDSect = true;
     private boolean fStillActive = true;
     /*
      * These are updated directly by the subclass implementation.

@@ -97,7 +97,7 @@ class Encodings
     static Writer getWriter( OutputStream output, String encoding )
         throws UnsupportedEncodingException
     {
-        for ( int i = 0 ; i < _encodings.length ; ++i ) {
+        for ( int i = 1 ; i < _encodings.length ; ++i ) {
             if ( _encodings[ i ].name.equals( encoding ) )
                 return new OutputStreamWriter( output, _encodings[ i ].javaName );
         }

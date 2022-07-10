@@ -1,0 +1,138 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@<init>(java.io.InputStream):97:fInputStream = is |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@<init>(java.io.InputStream):98:fill() |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ChunkyByteArray@read():107:fData == null |==> false
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ChunkyByteArray@read():108:fInputStream == null |==> false
+5:LVR:NEG:0:org.apache.xerces.utils.ChunkyByteArray@read():108:-1 |==> 0
+6:LVR:NEG:POS:org.apache.xerces.utils.ChunkyByteArray@read():108:-1 |==> 1
+7:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read():108:return Config.__M_NO == 4 ? false : Config.__M_NO == 0 && Config.COVERED(4, 4) ? fInputStream == null : fInputStream == null ? Config.__M_NO == 0 && Config.COVERED(5, 6) ? -1 : Config.__M_NO == 6 ? 1 : Config.__M_NO == 5 ? 0 : -1 : fInputStream.read(); |==> <NO-OP>
+8:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@read():109:0 |==> 1
+9:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@read():109:0 |==> -1
+10:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.ChunkyByteArray@read():110:++fOffset == fLength |==> ++fOffset <= fLength
+11:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.ChunkyByteArray@read():110:++fOffset == fLength |==> ++fOffset >= fLength
+12:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@read():110:++fOffset == fLength |==> false
+13:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read():111:fData = null |==> <NO-OP>
+14:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.ChunkyByteArray@read():112:fLength < CHUNK_SIZE |==> fLength != CHUNK_SIZE
+15:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.ChunkyByteArray@read():112:fLength < CHUNK_SIZE |==> fLength <= CHUNK_SIZE
+16:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@read():112:fLength < CHUNK_SIZE |==> false
+17:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read():113:fInputStream = null |==> <NO-OP>
+18:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray@read():115:b |==> 0
+19:AOR:-(int,int):%(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):129:fLength - fOffset |==> fLength % fOffset
+20:AOR:-(int,int):*(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):129:fLength - fOffset |==> fLength * fOffset
+21:AOR:-(int,int):+(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):129:fLength - fOffset |==> fLength + fOffset
+22:AOR:-(int,int):/(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):129:fLength - fOffset |==> fLength / fOffset
+23:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):130:0 |==> 1
+24:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):130:0 |==> -1
+25:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):130:bytesLeft == 0 |==> bytesLeft <= 0
+26:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):130:bytesLeft == 0 |==> bytesLeft >= 0
+27:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):130:bytesLeft == 0 |==> false
+28:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):131:fInputStream == null |==> false
+29:LVR:NEG:0:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):131:-1 |==> 0
+30:LVR:NEG:POS:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):131:-1 |==> 1
+31:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):131:return Config.__M_NO == 28 ? false : Config.__M_NO == 0 && Config.COVERED(28, 28) ? fInputStream == null : fInputStream == null ? Config.__M_NO == 0 && Config.COVERED(29, 30) ? -1 : Config.__M_NO == 30 ? 1 : Config.__M_NO == 29 ? 0 : -1 : fInputStream.read(buffer, offset, length); |==> <NO-OP>
+32:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):132:0 |==> 1
+33:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):132:0 |==> -1
+34:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):132:length <= 0 |==> length < 0
+35:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):132:length <= 0 |==> length == 0
+36:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):132:length <= 0 |==> true
+37:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):133:0 |==> 1
+38:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):133:0 |==> -1
+39:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):133:return Config.__M_NO == 0 && Config.COVERED(37, 38) ? 0 : Config.__M_NO == 38 ? -1 : Config.__M_NO == 37 ? 1 : 0; |==> <NO-OP>
+40:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):134:0 |==> 1
+41:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):134:0 |==> -1
+42:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):135:length >= bytesLeft |==> length == bytesLeft
+43:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):135:length >= bytesLeft |==> length > bytesLeft
+44:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):135:length >= bytesLeft |==> true
+45:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):136:length = bytesLeft |==> <NO-OP>
+46:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):137:fLength < CHUNK_SIZE |==> fLength != CHUNK_SIZE
+47:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):137:fLength < CHUNK_SIZE |==> fLength <= CHUNK_SIZE
+48:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):137:fLength < CHUNK_SIZE |==> false
+49:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):138:fInputStream = null |==> <NO-OP>
+50:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):140:buffer == null |==> false
+51:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):141:fOffset += length |==> <NO-OP>
+52:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):142:return length; |==> <NO-OP>
+53:AOR:+(int,int):%(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):144:offset + length |==> offset % length
+54:AOR:+(int,int):*(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):144:offset + length |==> offset * length
+55:AOR:+(int,int):-(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):144:offset + length |==> offset - length
+56:AOR:+(int,int):/(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):144:offset + length |==> offset / length
+57:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):146:buffer[offset++] = chunk[fOffset++] |==> <NO-OP>
+58:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):147:offset < stop |==> offset != stop
+59:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):147:offset < stop |==> offset <= stop
+60:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):147:offset < stop |==> false
+61:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray@read(byte[],int,int):148:length |==> 0
+62:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@rewind():156:0 |==> 1
+63:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@rewind():156:0 |==> -1
+64:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@rewind():156:fOffset = 0 |==> <NO-OP>
+65:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):166:offset >> CHUNK_SHIFT |==> offset << CHUNK_SHIFT
+66:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):166:offset >> CHUNK_SHIFT |==> offset >>> CHUNK_SHIFT
+67:LOR:&(int,int):^(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):167:offset & CHUNK_MASK |==> offset ^ CHUNK_MASK
+68:LOR:&(int,int):|(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):167:offset & CHUNK_MASK |==> offset | CHUNK_MASK
+69:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):169:return fData[chunk][index]; |==> <NO-OP>
+70:LVR:POS:0:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):174:2 |==> 0
+71:LVR:POS:NEG:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):174:2 |==> -2
+72:AOR:*(int,int):%(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):174:fData.length * 2 |==> fData.length % 2
+73:AOR:*(int,int):+(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):174:fData.length * 2 |==> fData.length + 2
+74:AOR:*(int,int):-(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):174:fData.length * 2 |==> fData.length - 2
+75:AOR:*(int,int):/(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):174:fData.length * 2 |==> fData.length / 2
+76:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):175:0 |==> 1
+77:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):175:0 |==> -1
+78:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):175:0 |==> 1
+79:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):175:0 |==> -1
+80:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):175:System.arraycopy(fData, 0, newdata, 0, fData.length) |==> <NO-OP>
+81:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):176:fData = newdata |==> <NO-OP>
+82:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):178:0 |==> 1
+83:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):178:0 |==> -1
+84:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):178:index == 0 |==> index <= 0
+85:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):178:index == 0 |==> index >= 0
+86:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@byteAt(int):178:index == 0 |==> false
+87:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):179:fill() |==> <NO-OP>
+88:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):180:return fData[chunk][index]; |==> <NO-OP>
+89:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):182:0 |==> 1
+90:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@byteAt(int):182:0 |==> -1
+91:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.ChunkyByteArray@atEOF(int):193:offset > fLength |==> offset != fLength
+92:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.ChunkyByteArray@atEOF(int):193:offset > fLength |==> offset >= fLength
+93:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@atEOF(int):193:offset > fLength |==> false
+94:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ChunkyByteArray@close():204:fInputStream != null |==> true
+95:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@close():205:fInputStream.close() |==> <NO-OP>
+96:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@close():206:fInputStream = null |==> <NO-OP>
+97:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():215:fLength >> CHUNK_SHIFT |==> fLength << CHUNK_SHIFT
+98:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():215:fLength >> CHUNK_SHIFT |==> fLength >>> CHUNK_SHIFT
+99:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray@fill():216:new byte[CHUNK_SIZE] |==> null
+100:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():217:fData[bufnum] = data |==> <NO-OP>
+101:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@fill():218:0 |==> 1
+102:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@fill():218:0 |==> -1
+103:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray@fill():219:CHUNK_SIZE |==> 0
+104:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@fill():220:0 |==> 1
+105:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@fill():220:0 |==> -1
+106:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():222:result = fInputStream.read(data, offset, capacity) |==> <NO-OP>
+107:LVR:NEG:0:org.apache.xerces.utils.ChunkyByteArray@fill():223:-1 |==> 0
+108:LVR:NEG:POS:org.apache.xerces.utils.ChunkyByteArray@fill():223:-1 |==> 1
+109:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():223:result == -1 |==> result <= -1
+110:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():223:result == -1 |==> result >= -1
+111:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():223:result == -1 |==> false
+112:LVR:POS:0:org.apache.xerces.utils.ChunkyByteArray@fill():224:255 |==> 0
+113:LVR:POS:NEG:org.apache.xerces.utils.ChunkyByteArray@fill():224:255 |==> -255
+114:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():224:data[offset] = (byte)255 |==> <NO-OP>
+115:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():225:fInputStream.close() |==> <NO-OP>
+116:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():226:fInputStream = null |==> <NO-OP>
+117:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():227:break; |==> <NO-OP>
+118:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@fill():229:0 |==> 1
+119:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@fill():229:0 |==> -1
+120:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():229:result > 0 |==> result != 0
+121:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():229:result > 0 |==> result >= 0
+122:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():229:result > 0 |==> false
+123:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():230:fLength += result |==> <NO-OP>
+124:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():231:offset += result |==> <NO-OP>
+125:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ChunkyByteArray@fill():232:capacity -= result |==> <NO-OP>
+126:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray@fill():234:0 |==> 1
+127:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray@fill():234:0 |==> -1
+128:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():234:capacity > 0 |==> capacity != 0
+129:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():234:capacity > 0 |==> capacity >= 0
+130:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.ChunkyByteArray@fill():234:capacity > 0 |==> false
+131:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray:240:(1 << CHUNK_SHIFT) |==> 0
+132:EVR:<MINUS(int)>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray:241:CHUNK_SIZE - 1 |==> 0
+133:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray:242:(1 << (20 - CHUNK_SHIFT)) |==> 0
+134:EVR:<NEW_ARRAY(byte[][])>:<DEFAULT>:org.apache.xerces.utils.ChunkyByteArray:247:new byte[INITIAL_CHUNK_COUNT][] |==> null
+135:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray:248:0 |==> 1
+136:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray:248:0 |==> -1
+137:LVR:0:POS:org.apache.xerces.utils.ChunkyByteArray:249:0 |==> 1
+138:LVR:0:NEG:org.apache.xerces.utils.ChunkyByteArray:249:0 |==> -1

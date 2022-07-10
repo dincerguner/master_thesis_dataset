@@ -80,7 +80,7 @@ public abstract class SerializerFactory
     public static final String FactoriesProperty = "org.apache.xml.serialize.factories";
 
 
-    private static Hashtable  _factories = new Hashtable();
+    private static Hashtable  _factories = null;
 
 
     static

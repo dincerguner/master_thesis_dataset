@@ -1,0 +1,4 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserFactory@makeParser():88:System.getProperty("org.xml.sax.parser") |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserFactory@makeParser():89:className == null |==> false
+3:EVR:<METHOD_INVOCATION(org.xml.sax.Parser)>:<DEFAULT>:org.xml.sax.helpers.ParserFactory@makeParser():92:makeParser(className) |==> null
+4:EVR:<TYPE_CAST(org.xml.sax.Parser)>:<DEFAULT>:org.xml.sax.helpers.ParserFactory@makeParser(java.lang.String):124:(Parser)(Class.forName(className).newInstance()) |==> null

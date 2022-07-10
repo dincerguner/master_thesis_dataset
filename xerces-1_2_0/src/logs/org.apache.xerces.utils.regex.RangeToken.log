@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.apache.xerces.utils.regex.RangeToken@<init>(int):75:false |==> true
+2:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.RangeToken@<init>(int):75:this.setSorted(false) |==> <NO-OP>

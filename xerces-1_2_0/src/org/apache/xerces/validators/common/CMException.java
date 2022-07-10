@@ -69,7 +69,7 @@ public class CMException extends Exception
     // -------------------------------------------------------------------
     public CMException(int errCode)
     {
-        fErrorCode = errCode;
+        ;
     }
 
     // -------------------------------------------------------------------

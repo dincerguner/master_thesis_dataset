@@ -70,7 +70,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     public XMLReaderAdapter ()
       throws SAXException
     {
-	setup(XMLReaderFactory.createXMLReader());
+	;
     }
 
 

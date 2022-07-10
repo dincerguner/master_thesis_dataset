@@ -1,0 +1,11 @@
+1:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:81:false |==> true
+2:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:82:Float.MAX_VALUE |==> 0.0F
+3:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:83:Float.MAX_VALUE |==> 0.0F
+4:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:84:Float.MIN_VALUE |==> 0.0F
+5:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:85:Float.MIN_VALUE |==> 0.0F
+6:LVR:0:POS:org.apache.xerces.validators.datatype.FloatDatatypeValidator:86:0 |==> 1
+7:LVR:0:NEG:org.apache.xerces.validators.datatype.FloatDatatypeValidator:86:0 |==> -1
+8:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:88:false |==> true
+9:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:89:false |==> true
+10:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:90:false |==> true
+11:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:91:false |==> true

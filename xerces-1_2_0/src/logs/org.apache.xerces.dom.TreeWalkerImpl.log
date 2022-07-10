@@ -1,0 +1,262 @@
+1:LVR:FALSE:TRUE:org.apache.xerces.dom.TreeWalkerImpl:71:false |==> true
+2:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl:73:NodeFilter.SHOW_ALL |==> 0
+3:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@<init>(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):97:fCurrentNode = root |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@<init>(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):98:fRoot = root |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@<init>(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):99:fWhatToShow = whatToShow |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@<init>(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):100:fNodeFilter = nodeFilter |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@<init>(org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):101:fEntityReferenceExpansion = entityReferenceExpansion |==> <NO-OP>
+8:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getRoot():105:fRoot |==> null
+9:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getWhatToShow():110:fWhatToShow |==> 0
+10:EVR:<IDENTIFIER(org.w3c.dom.traversal.NodeFilter)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getFilter():115:fNodeFilter |==> null
+11:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getExpandEntityReferences():120:fEntityReferenceExpansion |==> false
+12:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getCurrentNode():125:fCurrentNode |==> null
+13:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@setCurrentNode(org.w3c.dom.Node):129:fCurrentNode = node |==> <NO-OP>
+14:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@parentNode():138:fCurrentNode == null |==> false
+15:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@parentNode():138:return null; |==> <NO-OP>
+16:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@parentNode():140:getParentNode(fCurrentNode) |==> null
+17:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@parentNode():141:node != null |==> true
+18:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@parentNode():142:fCurrentNode = node |==> <NO-OP>
+19:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@parentNode():144:node |==> null
+20:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@firstChild():154:fCurrentNode == null |==> false
+21:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@firstChild():154:return null; |==> <NO-OP>
+22:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@firstChild():156:getFirstChild(fCurrentNode) |==> null
+23:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@firstChild():157:node != null |==> true
+24:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@firstChild():158:fCurrentNode = node |==> <NO-OP>
+25:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@firstChild():160:node |==> null
+26:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@lastChild():168:fCurrentNode == null |==> false
+27:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@lastChild():168:return null; |==> <NO-OP>
+28:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@lastChild():170:getLastChild(fCurrentNode) |==> null
+29:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@lastChild():171:node != null |==> true
+30:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@lastChild():172:fCurrentNode = node |==> <NO-OP>
+31:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@lastChild():174:node |==> null
+32:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousSibling():183:fCurrentNode == null |==> false
+33:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousSibling():183:return null; |==> <NO-OP>
+34:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@previousSibling():185:getPreviousSibling(fCurrentNode) |==> null
+35:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousSibling():186:node != null |==> true
+36:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousSibling():187:fCurrentNode = node |==> <NO-OP>
+37:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@previousSibling():189:node |==> null
+38:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@nextSibling():197:fCurrentNode == null |==> false
+39:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextSibling():197:return null; |==> <NO-OP>
+40:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@nextSibling():199:getNextSibling(fCurrentNode) |==> null
+41:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@nextSibling():200:node != null |==> true
+42:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextSibling():201:fCurrentNode = node |==> <NO-OP>
+43:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@nextSibling():203:node |==> null
+44:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousNode():213:fCurrentNode == null |==> false
+45:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():213:return null; |==> <NO-OP>
+46:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():216:getPreviousSibling(fCurrentNode) |==> null
+47:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousNode():217:result == null |==> false
+48:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():218:result = getParentNode(fCurrentNode) |==> <NO-OP>
+49:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousNode():219:result != null |==> true
+50:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():220:fCurrentNode = result |==> <NO-OP>
+51:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():221:return fCurrentNode; |==> <NO-OP>
+52:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():223:return null; |==> <NO-OP>
+53:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():227:getLastChild(result) |==> null
+54:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():229:lastChild |==> null
+55:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousNode():230:lastChild != null |==> true
+56:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():231:prev = lastChild |==> <NO-OP>
+57:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():232:lastChild = getLastChild(prev) |==> <NO-OP>
+58:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():235:lastChild = prev |==> <NO-OP>
+59:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousNode():238:lastChild != null |==> true
+60:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():239:fCurrentNode = lastChild |==> <NO-OP>
+61:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():240:return fCurrentNode; |==> <NO-OP>
+62:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@previousNode():244:result != null |==> true
+63:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():245:fCurrentNode = result |==> <NO-OP>
+64:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@previousNode():246:return fCurrentNode; |==> <NO-OP>
+65:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@nextNode():259:fCurrentNode == null |==> false
+66:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():259:return null; |==> <NO-OP>
+67:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():261:getFirstChild(fCurrentNode) |==> null
+68:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@nextNode():263:result != null |==> true
+69:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():264:fCurrentNode = result |==> <NO-OP>
+70:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():265:return result; |==> <NO-OP>
+71:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():268:result = getNextSibling(fCurrentNode) |==> <NO-OP>
+72:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@nextNode():270:result != null |==> true
+73:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():271:fCurrentNode = result |==> <NO-OP>
+74:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():272:return result; |==> <NO-OP>
+75:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():276:getParentNode(fCurrentNode) |==> null
+76:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@nextNode():277:parent != null |==> true
+77:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():278:result = getNextSibling(parent) |==> <NO-OP>
+78:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@nextNode():279:result != null |==> true
+79:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():280:fCurrentNode = result |==> <NO-OP>
+80:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():281:return result; |==> <NO-OP>
+81:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@nextNode():283:parent = getParentNode(parent) |==> <NO-OP>
+82:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):298:node == null |==> false
+83:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):298:node == fRoot |==> false
+84:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):298:node == null || node == fRoot |==> node == null != (node == fRoot)
+85:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):298:node == null || node == fRoot |==> node == null
+86:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):298:node == null || node == fRoot |==> node == fRoot
+87:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):298:node == null || node == fRoot |==> true
+88:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):298:return null; |==> <NO-OP>
+89:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):300:node.getParentNode() |==> null
+90:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):301:newNode == null |==> false
+91:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):301:return null; |==> <NO-OP>
+92:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):303:acceptNode(newNode) |==> 0
+93:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):305:accept == NodeFilter.FILTER_ACCEPT |==> accept <= NodeFilter.FILTER_ACCEPT
+94:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):305:accept == NodeFilter.FILTER_ACCEPT |==> accept >= NodeFilter.FILTER_ACCEPT
+95:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):305:accept == NodeFilter.FILTER_ACCEPT |==> false
+96:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):306:newNode |==> null
+97:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getParentNode(org.w3c.dom.Node):310:getParentNode(newNode) |==> null
+98:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):323:node == null |==> false
+99:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):323:node == fRoot |==> false
+100:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):323:node == null || node == fRoot |==> node == null != (node == fRoot)
+101:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):323:node == null || node == fRoot |==> node == null
+102:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):323:node == null || node == fRoot |==> node == fRoot
+103:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):323:node == null || node == fRoot |==> true
+104:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):323:return null; |==> <NO-OP>
+105:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):325:node.getNextSibling() |==> null
+106:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):326:newNode == null |==> false
+107:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):328:newNode = node.getParentNode() |==> <NO-OP>
+108:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):330:newNode == null |==> false
+109:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):330:node == fRoot |==> false
+110:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):330:newNode == null || node == fRoot |==> newNode == null != (node == fRoot)
+111:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):330:newNode == null || node == fRoot |==> newNode == null
+112:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):330:newNode == null || node == fRoot |==> node == fRoot
+113:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):330:newNode == null || node == fRoot |==> true
+114:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):330:return null; |==> <NO-OP>
+115:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):332:acceptNode(newNode) |==> 0
+116:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):334:parentAccept == NodeFilter.FILTER_SKIP |==> parentAccept <= NodeFilter.FILTER_SKIP
+117:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):334:parentAccept == NodeFilter.FILTER_SKIP |==> parentAccept >= NodeFilter.FILTER_SKIP
+118:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):334:parentAccept == NodeFilter.FILTER_SKIP |==> false
+119:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):335:return getNextSibling(newNode); |==> <NO-OP>
+120:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):338:return null; |==> <NO-OP>
+121:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):341:acceptNode(newNode) |==> 0
+122:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):343:accept == NodeFilter.FILTER_ACCEPT |==> accept <= NodeFilter.FILTER_ACCEPT
+123:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):343:accept == NodeFilter.FILTER_ACCEPT |==> accept >= NodeFilter.FILTER_ACCEPT
+124:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):343:accept == NodeFilter.FILTER_ACCEPT |==> false
+125:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):344:newNode |==> null
+126:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):346:accept == NodeFilter.FILTER_SKIP |==> accept <= NodeFilter.FILTER_SKIP
+127:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):346:accept == NodeFilter.FILTER_SKIP |==> accept >= NodeFilter.FILTER_SKIP
+128:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):346:accept == NodeFilter.FILTER_SKIP |==> false
+129:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):347:getFirstChild(newNode) |==> null
+130:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):348:fChild == null |==> false
+131:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):349:return getNextSibling(newNode); |==> <NO-OP>
+132:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):351:fChild |==> null
+133:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getNextSibling(org.w3c.dom.Node):356:getNextSibling(newNode) |==> null
+134:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):368:node == null |==> false
+135:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):368:node == fRoot |==> false
+136:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):368:node == null || node == fRoot |==> node == null != (node == fRoot)
+137:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):368:node == null || node == fRoot |==> node == null
+138:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):368:node == null || node == fRoot |==> node == fRoot
+139:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):368:node == null || node == fRoot |==> true
+140:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):368:return null; |==> <NO-OP>
+141:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):370:node.getPreviousSibling() |==> null
+142:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):371:newNode == null |==> false
+143:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):373:newNode = node.getParentNode() |==> <NO-OP>
+144:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):374:newNode == null |==> false
+145:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):374:node == fRoot |==> false
+146:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):374:newNode == null || node == fRoot |==> newNode == null != (node == fRoot)
+147:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):374:newNode == null || node == fRoot |==> newNode == null
+148:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):374:newNode == null || node == fRoot |==> node == fRoot
+149:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):374:newNode == null || node == fRoot |==> true
+150:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):374:return null; |==> <NO-OP>
+151:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):376:acceptNode(newNode) |==> 0
+152:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):378:parentAccept == NodeFilter.FILTER_SKIP |==> parentAccept <= NodeFilter.FILTER_SKIP
+153:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):378:parentAccept == NodeFilter.FILTER_SKIP |==> parentAccept >= NodeFilter.FILTER_SKIP
+154:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):378:parentAccept == NodeFilter.FILTER_SKIP |==> false
+155:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):379:return getPreviousSibling(newNode); |==> <NO-OP>
+156:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):382:return null; |==> <NO-OP>
+157:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):385:acceptNode(newNode) |==> 0
+158:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):387:accept == NodeFilter.FILTER_ACCEPT |==> accept <= NodeFilter.FILTER_ACCEPT
+159:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):387:accept == NodeFilter.FILTER_ACCEPT |==> accept >= NodeFilter.FILTER_ACCEPT
+160:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):387:accept == NodeFilter.FILTER_ACCEPT |==> false
+161:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):388:newNode |==> null
+162:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):390:accept == NodeFilter.FILTER_SKIP |==> accept <= NodeFilter.FILTER_SKIP
+163:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):390:accept == NodeFilter.FILTER_SKIP |==> accept >= NodeFilter.FILTER_SKIP
+164:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):390:accept == NodeFilter.FILTER_SKIP |==> false
+165:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):391:getLastChild(newNode) |==> null
+166:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):392:fChild == null |==> false
+167:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):393:return getPreviousSibling(newNode); |==> <NO-OP>
+168:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):395:fChild |==> null
+169:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getPreviousSibling(org.w3c.dom.Node):400:getPreviousSibling(newNode) |==> null
+170:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):412:node == null |==> false
+171:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):412:return null; |==> <NO-OP>
+172:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):415:node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> node.getNodeType() <= Node.ENTITY_REFERENCE_NODE
+173:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):415:node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> node.getNodeType() >= Node.ENTITY_REFERENCE_NODE
+174:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):415:node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+175:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):414:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> !fEntityReferenceExpansion == (node.getNodeType() == Node.ENTITY_REFERENCE_NODE)
+176:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):415:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+177:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):414:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> !fEntityReferenceExpansion
+178:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):415:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> node.getNodeType() == Node.ENTITY_REFERENCE_NODE
+179:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):416:return null; |==> <NO-OP>
+180:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):418:node.getFirstChild() |==> null
+181:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):419:newNode == null |==> false
+182:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):419:return null; |==> <NO-OP>
+183:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):421:acceptNode(newNode) |==> 0
+184:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):423:accept == NodeFilter.FILTER_ACCEPT |==> accept <= NodeFilter.FILTER_ACCEPT
+185:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):423:accept == NodeFilter.FILTER_ACCEPT |==> accept >= NodeFilter.FILTER_ACCEPT
+186:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):423:accept == NodeFilter.FILTER_ACCEPT |==> false
+187:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):424:newNode |==> null
+188:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):426:accept == NodeFilter.FILTER_SKIP |==> accept <= NodeFilter.FILTER_SKIP
+189:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):426:accept == NodeFilter.FILTER_SKIP |==> accept >= NodeFilter.FILTER_SKIP
+190:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):426:accept == NodeFilter.FILTER_SKIP |==> false
+191:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):426:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> accept == NodeFilter.FILTER_SKIP == newNode.hasChildNodes()
+192:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):427:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> false
+193:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):426:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> accept == NodeFilter.FILTER_SKIP
+194:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):427:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> newNode.hasChildNodes()
+195:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):429:getFirstChild(newNode) |==> null
+196:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getFirstChild(org.w3c.dom.Node):434:getNextSibling(newNode) |==> null
+197:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):447:node == null |==> false
+198:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):447:return null; |==> <NO-OP>
+199:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):450:node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> node.getNodeType() <= Node.ENTITY_REFERENCE_NODE
+200:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):450:node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> node.getNodeType() >= Node.ENTITY_REFERENCE_NODE
+201:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):450:node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+202:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):449:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> !fEntityReferenceExpansion == (node.getNodeType() == Node.ENTITY_REFERENCE_NODE)
+203:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):450:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+204:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):449:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> !fEntityReferenceExpansion
+205:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):450:!fEntityReferenceExpansion && node.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> node.getNodeType() == Node.ENTITY_REFERENCE_NODE
+206:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):451:return null; |==> <NO-OP>
+207:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):453:node.getLastChild() |==> null
+208:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):454:newNode == null |==> false
+209:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):454:return null; |==> <NO-OP>
+210:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):456:acceptNode(newNode) |==> 0
+211:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):458:accept == NodeFilter.FILTER_ACCEPT |==> accept <= NodeFilter.FILTER_ACCEPT
+212:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):458:accept == NodeFilter.FILTER_ACCEPT |==> accept >= NodeFilter.FILTER_ACCEPT
+213:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):458:accept == NodeFilter.FILTER_ACCEPT |==> false
+214:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):459:newNode |==> null
+215:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):461:accept == NodeFilter.FILTER_SKIP |==> accept <= NodeFilter.FILTER_SKIP
+216:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):461:accept == NodeFilter.FILTER_SKIP |==> accept >= NodeFilter.FILTER_SKIP
+217:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):461:accept == NodeFilter.FILTER_SKIP |==> false
+218:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):461:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> accept == NodeFilter.FILTER_SKIP == newNode.hasChildNodes()
+219:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):462:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> false
+220:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):461:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> accept == NodeFilter.FILTER_SKIP
+221:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):462:accept == NodeFilter.FILTER_SKIP && newNode.hasChildNodes() |==> newNode.hasChildNodes()
+222:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):464:getLastChild(newNode) |==> null
+223:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@getLastChild(org.w3c.dom.Node):469:getPreviousSibling(newNode) |==> null
+224:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):487:fNodeFilter == null |==> false
+225:LVR:POS:0:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:1 |==> 0
+226:LVR:POS:NEG:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:1 |==> -1
+227:LVR:POS:0:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:1 |==> 0
+228:LVR:POS:NEG:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:1 |==> -1
+229:AOR:-(int,int):%(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:node.getNodeType() - 1 |==> node.getNodeType() % 1
+230:AOR:-(int,int):*(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:node.getNodeType() - 1 |==> node.getNodeType() * 1
+231:AOR:-(int,int):+(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:node.getNodeType() - 1 |==> node.getNodeType() + 1
+232:AOR:-(int,int):/(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:node.getNodeType() - 1 |==> node.getNodeType() / 1
+233:SOR:<<(int,int):>>(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:1 << node.getNodeType() - 1 |==> 1 >> node.getNodeType() - 1
+234:SOR:<<(int,int):>>>(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:1 << node.getNodeType() - 1 |==> 1 >>> node.getNodeType() - 1
+235:LOR:&(int,int):^(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow ^ (1 << node.getNodeType() - 1)
+236:LOR:&(int,int):|(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow | (1 << node.getNodeType() - 1)
+237:LVR:0:POS:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:0 |==> 1
+238:LVR:0:NEG:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:0 |==> -1
+239:ROR:!=(int,int):<(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) < 0
+240:ROR:!=(int,int):>(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) > 0
+241:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):488:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> true
+242:EVR:<MEMBER_SELECT(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):489:NodeFilter.FILTER_ACCEPT |==> 0
+243:EVR:<MEMBER_SELECT(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):491:NodeFilter.FILTER_SKIP |==> 0
+244:LVR:POS:0:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:1 |==> 0
+245:LVR:POS:NEG:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:1 |==> -1
+246:LVR:POS:0:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:1 |==> 0
+247:LVR:POS:NEG:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:1 |==> -1
+248:AOR:-(int,int):%(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:node.getNodeType() - 1 |==> node.getNodeType() % 1
+249:AOR:-(int,int):*(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:node.getNodeType() - 1 |==> node.getNodeType() * 1
+250:AOR:-(int,int):+(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:node.getNodeType() - 1 |==> node.getNodeType() + 1
+251:AOR:-(int,int):/(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:node.getNodeType() - 1 |==> node.getNodeType() / 1
+252:SOR:<<(int,int):>>(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:1 << node.getNodeType() - 1 |==> 1 >> node.getNodeType() - 1
+253:SOR:<<(int,int):>>>(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:1 << node.getNodeType() - 1 |==> 1 >>> node.getNodeType() - 1
+254:LOR:&(int,int):^(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow ^ (1 << node.getNodeType() - 1)
+255:LOR:&(int,int):|(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow | (1 << node.getNodeType() - 1)
+256:LVR:0:POS:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:0 |==> 1
+257:LVR:0:NEG:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:0 |==> -1
+258:ROR:!=(int,int):<(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) < 0
+259:ROR:!=(int,int):>(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) > 0
+260:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):494:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> true
+261:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):495:fNodeFilter.acceptNode(node) |==> 0
+262:EVR:<MEMBER_SELECT(short)>:<DEFAULT>:org.apache.xerces.dom.TreeWalkerImpl@acceptNode(org.w3c.dom.Node):499:NodeFilter.FILTER_SKIP |==> 0

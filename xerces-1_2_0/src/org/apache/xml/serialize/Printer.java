@@ -124,7 +124,7 @@ public class Printer
     /**
      * Output buffer.
      */
-    private final char[]  _buffer = new char[ BufferSize ];
+    private final char[]  _buffer = null;
 
 
     /**

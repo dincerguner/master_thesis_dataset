@@ -1,0 +1,24 @@
+1:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator):57:locator != null |==> true
+2:STD:<CALL>:<NO-OP>:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator):58:init(locator.getPublicId(), locator.getSystemId(), locator.getLineNumber(), locator.getColumnNumber()) |==> <NO-OP>
+3:LVR:NEG:0:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator):61:-1 |==> 0
+4:LVR:NEG:POS:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator):61:-1 |==> 1
+5:LVR:NEG:0:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator):61:-1 |==> 0
+6:LVR:NEG:POS:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator):61:-1 |==> 1
+7:STD:<CALL>:<NO-OP>:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator):61:init(null, null, -1, -1) |==> <NO-OP>
+8:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator,java.lang.Exception):85:locator != null |==> true
+9:STD:<CALL>:<NO-OP>:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator,java.lang.Exception):86:init(locator.getPublicId(), locator.getSystemId(), locator.getLineNumber(), locator.getColumnNumber()) |==> <NO-OP>
+10:LVR:NEG:0:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator,java.lang.Exception):89:-1 |==> 0
+11:LVR:NEG:POS:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator,java.lang.Exception):89:-1 |==> 1
+12:LVR:NEG:0:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator,java.lang.Exception):89:-1 |==> 0
+13:LVR:NEG:POS:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator,java.lang.Exception):89:-1 |==> 1
+14:STD:<CALL>:<NO-OP>:org.xml.sax.SAXParseException@<init>(java.lang.String,org.xml.sax.Locator,java.lang.Exception):89:init(null, null, -1, -1) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.xml.sax.SAXParseException@<init>(java.lang.String,java.lang.String,java.lang.String,int,int):117:init(publicId, systemId, lineNumber, columnNumber) |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.xml.sax.SAXParseException@<init>(java.lang.String,java.lang.String,java.lang.String,int,int,java.lang.Exception):148:init(publicId, systemId, lineNumber, columnNumber) |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.xml.sax.SAXParseException@init(java.lang.String,java.lang.String,int,int):165:this.publicId = publicId |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.xml.sax.SAXParseException@init(java.lang.String,java.lang.String,int,int):166:this.systemId = systemId |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.xml.sax.SAXParseException@init(java.lang.String,java.lang.String,int,int):167:this.lineNumber = lineNumber |==> <NO-OP>
+20:STD:<ASSIGN>:<NO-OP>:org.xml.sax.SAXParseException@init(java.lang.String,java.lang.String,int,int):168:this.columnNumber = columnNumber |==> <NO-OP>
+21:EVR:<MEMBER_SELECT(java.lang.String)>:<DEFAULT>:org.xml.sax.SAXParseException@getPublicId():181:this.publicId |==> null
+22:EVR:<MEMBER_SELECT(java.lang.String)>:<DEFAULT>:org.xml.sax.SAXParseException@getSystemId():197:this.systemId |==> null
+23:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.xml.sax.SAXParseException@getLineNumber():210:this.lineNumber |==> 0
+24:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.xml.sax.SAXParseException@getColumnNumber():225:this.columnNumber |==> 0

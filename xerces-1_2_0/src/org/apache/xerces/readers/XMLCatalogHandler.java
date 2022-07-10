@@ -109,7 +109,7 @@ public abstract class XMLCatalogHandler implements EntityResolver {
     //
 
     /** Public identifier mappings. */
-    private Hashtable publicMap = new Hashtable();
+    private Hashtable publicMap = null;
 
     /** System identifier mappings (aliases). */
     private Hashtable systemMap = new Hashtable();

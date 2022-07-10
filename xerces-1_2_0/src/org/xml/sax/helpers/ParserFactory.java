@@ -85,7 +85,7 @@ public class ParserFactory {
 	NullPointerException,
 	ClassCastException
     {
-	String className = System.getProperty("org.xml.sax.parser");
+	String className = null;
 	if (className == null) {
 	    throw new NullPointerException("No value for sax.parser property");
 	} else {
