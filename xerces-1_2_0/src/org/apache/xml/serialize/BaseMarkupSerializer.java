@@ -152,7 +152,7 @@ public abstract class BaseMarkupSerializer
      * For 16-bit encodings this will be 0xFFFF. Characters that are
      * not printable will be escaped using character references.
      */
-    private int              _lastPrintable = 0x7E;
+    private int              _lastPrintable = 0;
 
 
     /**
@@ -261,7 +261,7 @@ public abstract class BaseMarkupSerializer
     {
         int i;
 
-        _elementStates = new ElementState[ 10 ];
+        _elementStates = new ElementState[ 0 ];
         for ( i = 0 ; i < _elementStates.length ; ++i )
             _elementStates[ i ] = new ElementState();
         _format = format;

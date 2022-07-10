@@ -1,0 +1,32 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.utils.StringPool:95:(1 << INITIAL_CHUNK_SHIFT) |==> 0
+2:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.utils.StringPool:97:(1 << CHUNK_SHIFT) |==> 0
+3:EVR:<MINUS(int)>:<DEFAULT>:org.apache.xerces.utils.StringPool:98:CHUNK_SIZE - 1 |==> 0
+4:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.utils.StringPool:99:(1 << (16 - CHUNK_SHIFT)) |==> 0
+5:LVR:0:POS:org.apache.xerces.utils.StringPool:106:0 |==> 1
+6:LVR:0:NEG:org.apache.xerces.utils.StringPool:106:0 |==> -1
+7:LVR:NEG:0:org.apache.xerces.utils.StringPool:107:-1 |==> 0
+8:LVR:NEG:POS:org.apache.xerces.utils.StringPool:107:-1 |==> 1
+9:EVR:<NEW_ARRAY(java.lang.String[][])>:<DEFAULT>:org.apache.xerces.utils.StringPool:108:new String[INITIAL_CHUNK_COUNT][] |==> null
+10:EVR:<NEW_ARRAY(org.apache.xerces.utils.StringPool.StringProducer[][])>:<DEFAULT>:org.apache.xerces.utils.StringPool:109:new StringPool.StringProducer[INITIAL_CHUNK_COUNT][] |==> null
+11:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.utils.StringPool:110:new int[INITIAL_CHUNK_COUNT][] |==> null
+12:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.utils.StringPool:111:new int[INITIAL_CHUNK_COUNT][] |==> null
+13:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.utils.StringPool:112:new int[INITIAL_CHUNK_COUNT][] |==> null
+14:LVR:0:POS:org.apache.xerces.utils.StringPool:116:0 |==> 1
+15:LVR:0:NEG:org.apache.xerces.utils.StringPool:116:0 |==> -1
+16:LVR:NEG:0:org.apache.xerces.utils.StringPool:117:-1 |==> 0
+17:LVR:NEG:POS:org.apache.xerces.utils.StringPool:117:-1 |==> 1
+18:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.utils.StringPool:118:new int[INITIAL_CHUNK_COUNT][] |==> null
+19:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.utils.StringPool:124:new int[HASHTABLE_SIZE][] |==> null
+20:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.StringPool@<init>():133:fSymbolCache = new SymbolCache() |==> <NO-OP>
+21:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.StringPool@<init>():134:addSymbol("") != EMPTY_STRING |==> addSymbol("") < EMPTY_STRING
+22:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.StringPool@<init>():134:addSymbol("") != EMPTY_STRING |==> addSymbol("") > EMPTY_STRING
+23:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.StringPool@<init>():134:addSymbol("") != EMPTY_STRING |==> true
+24:LVR:0:POS:org.apache.xerces.utils.StringPool@reset():141:0 |==> 1
+25:LVR:0:NEG:org.apache.xerces.utils.StringPool@reset():141:0 |==> -1
+26:LVR:0:POS:org.apache.xerces.utils.StringPool@reset():142:0 |==> 1
+27:LVR:0:NEG:org.apache.xerces.utils.StringPool@reset():142:0 |==> -1
+28:LVR:0:POS:org.apache.xerces.utils.StringPool@reset():143:0 |==> 1
+29:LVR:0:NEG:org.apache.xerces.utils.StringPool@reset():143:0 |==> -1
+30:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.StringPool@reset():143:i < fStringCount |==> i != fStringCount
+31:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.StringPool@reset():143:i < fStringCount |==> i <= fStringCount
+32:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.StringPool@reset():143:i < fStringCount |==> false

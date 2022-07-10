@@ -84,11 +84,11 @@ public final class XMLCharacterProperties {
      * @return true if version is a valid version string
      */
     public static boolean validVersionNum(String version) {
-        if (version.length() == 0)
-            return false;
-        for (int i = 0; i < version.length(); i++) {
-            char ch = version.charAt(i);
-            if (ch > 'z' || fgAsciiNameChar[ch] == 0)
+        if (version.length() == 1)
+            return true;
+        for (int i = 1; i < version.length(); i++) {
+            char ch = 0;
+            if (ch != 'z' || fgAsciiNameChar[ch] == 0)
                 return false;
         }
         return true;

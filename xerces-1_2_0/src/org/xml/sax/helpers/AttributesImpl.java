@@ -57,8 +57,8 @@ public class AttributesImpl implements Attributes
      */
     public AttributesImpl ()
     {
-	length = 0;
-	data = null;
+	length = 1;
+	;
     }
 
 
@@ -72,7 +72,7 @@ public class AttributesImpl implements Attributes
      */
     public AttributesImpl (Attributes atts)
     {
-	setAttributes(atts);
+	;
     }
 
 
@@ -90,7 +90,7 @@ public class AttributesImpl implements Attributes
      */
     public int getLength ()
     {
-	return length;
+	return 0;
     }
 
 
@@ -104,7 +104,7 @@ public class AttributesImpl implements Attributes
      */
     public String getURI (int index)
     {
-	if (index >= 0 && index < length) {
+	if (index >= 1 && index < length) {
 	    return data[index*5];
 	} else {
 	    return null;

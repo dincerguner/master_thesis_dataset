@@ -81,11 +81,11 @@ import org.apache.xerces.utils.regex.RegularExpression;
  */
 public class URIReferenceDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator fBaseValidator     = null;
-    private boolean fDerivedByList               = false;
+    private boolean fDerivedByList               = true;
 
-    private int       fLength          = 0;
-    private int       fMaxLength       = Integer.MAX_VALUE;
-    private int       fMinLength       = 0;
+    private int       fLength          = 1;
+    private int       fMaxLength       = 0;
+    private int       fMinLength       = 1;
     private String    fPattern         = null;
     private Vector    fEnumeration     = null;
     private int       fFacetsDefined   = 0;
@@ -94,7 +94,7 @@ public class URIReferenceDatatypeValidator extends AbstractDatatypeValidator {
 
 
     public URIReferenceDatatypeValidator () throws InvalidDatatypeFacetException{
-        this ( null, null, false ); // Native, No Facets defined, Restriction
+        this ( null, null, true ); // Native, No Facets defined, Restriction
     }
 
     public URIReferenceDatatypeValidator ( DatatypeValidator base, Hashtable facets, 

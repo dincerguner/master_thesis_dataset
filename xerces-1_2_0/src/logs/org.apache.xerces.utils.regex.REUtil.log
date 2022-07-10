@@ -1,0 +1,61 @@
+1:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 |==> 0
+2:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 |==> -65536
+3:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:55296 |==> 0
+4:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:55296 |==> -55296
+5:AOR:-(int,int):%(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:high - 55296 |==> high % 55296
+6:AOR:-(int,int):*(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:high - 55296 |==> high * 55296
+7:AOR:-(int,int):+(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:high - 55296 |==> high + 55296
+8:AOR:-(int,int):/(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:high - 55296 |==> high / 55296
+9:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:10 |==> 0
+10:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:10 |==> -10
+11:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:(high - 55296) << 10 |==> (high - 55296) >> 10
+12:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:(high - 55296) << 10 |==> (high - 55296) >>> 10
+13:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) |==> 65536 % ((high - 55296) << 10)
+14:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) |==> 65536 * ((high - 55296) << 10)
+15:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) |==> 65536 - ((high - 55296) << 10)
+16:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) |==> 65536 / ((high - 55296) << 10)
+17:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low |==> (65536 + ((high - 55296) << 10)) % low
+18:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low |==> (65536 + ((high - 55296) << 10)) * low
+19:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low |==> 65536 + ((high - 55296) << 10) - low
+20:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low |==> (65536 + ((high - 55296) << 10)) / low
+21:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:56320 |==> 0
+22:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:56320 |==> -56320
+23:AOR:-(int,int):%(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low - 56320 |==> (65536 + ((high - 55296) << 10) + low) % 56320
+24:AOR:-(int,int):*(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low - 56320 |==> (65536 + ((high - 55296) << 10) + low) * 56320
+25:AOR:-(int,int):+(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low - 56320 |==> 65536 + ((high - 55296) << 10) + low + 56320
+26:AOR:-(int,int):/(int,int):org.apache.xerces.utils.regex.REUtil@composeFromSurrogates(int,int):68:65536 + ((high - 55296) << 10) + low - 56320 |==> (65536 + ((high - 55296) << 10) + low) / 56320
+27:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:64512 |==> 0
+28:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:64512 |==> -64512
+29:LOR:&(int,int):^(int,int):org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:ch & 64512 |==> ch ^ 64512
+30:LOR:&(int,int):|(int,int):org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:ch & 64512 |==> ch | 64512
+31:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:56320 |==> 0
+32:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:56320 |==> -56320
+33:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:(ch & 64512) == 56320 |==> (ch & 64512) <= 56320
+34:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:(ch & 64512) == 56320 |==> (ch & 64512) >= 56320
+35:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.REUtil@isLowSurrogate(int):72:(ch & 64512) == 56320 |==> false
+36:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:64512 |==> 0
+37:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:64512 |==> -64512
+38:LOR:&(int,int):^(int,int):org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:ch & 64512 |==> ch ^ 64512
+39:LOR:&(int,int):|(int,int):org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:ch & 64512 |==> ch | 64512
+40:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:55296 |==> 0
+41:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:55296 |==> -55296
+42:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:(ch & 64512) == 55296 |==> (ch & 64512) <= 55296
+43:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:(ch & 64512) == 55296 |==> (ch & 64512) >= 55296
+44:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.REUtil@isHighSurrogate(int):76:(ch & 64512) == 55296 |==> false
+45:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):80:2 |==> 0
+46:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):80:2 |==> -2
+47:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):81:65536 |==> 0
+48:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):81:65536 |==> -65536
+49:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):81:ch -= 65536 |==> <NO-OP>
+50:LVR:0:POS:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:0 |==> 1
+51:LVR:0:NEG:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:0 |==> -1
+52:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:10 |==> 0
+53:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:10 |==> -10
+54:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:ch >> 10 |==> ch << 10
+55:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:ch >> 10 |==> ch >>> 10
+56:LVR:POS:0:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:55296 |==> 0
+57:LVR:POS:NEG:org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:55296 |==> -55296
+58:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:(ch >> 10) + 55296 |==> (ch >> 10) % 55296
+59:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:(ch >> 10) + 55296 |==> (ch >> 10) * 55296
+60:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:(ch >> 10) + 55296 |==> (ch >> 10) - 55296
+61:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.REUtil@decomposeToSurrogates(int):82:(ch >> 10) + 55296 |==> (ch >> 10) / 55296

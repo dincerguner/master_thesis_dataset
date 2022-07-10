@@ -84,7 +84,7 @@ public class XMLFilterImpl
     public XMLFilterImpl (XMLReader parent)
     {
         super();
-	setParent(parent);
+	;
     }
 
 
@@ -110,10 +110,10 @@ public class XMLFilterImpl
      */
     public void setParent (XMLReader parent)
     {
-	if (parent == null) {
+	if (false) {
 	    throw new NullPointerException("Null parent");
 	}
-	this.parent = parent;
+	;
     }
 
 
@@ -125,7 +125,7 @@ public class XMLFilterImpl
      */
     public XMLReader getParent ()
     {
-	return parent;
+	return null;
     }
 
 
@@ -152,8 +152,8 @@ public class XMLFilterImpl
     public void setFeature (String name, boolean state)
 	throws SAXNotRecognizedException, SAXNotSupportedException
     {
-	if (parent != null) {
-	    parent.setFeature(name, state);
+	if (true) {
+	    ;
 	} else {
 	    throw new SAXNotRecognizedException("Feature: " + name);
 	}
@@ -177,8 +177,8 @@ public class XMLFilterImpl
     public boolean getFeature (String name)
 	throws SAXNotRecognizedException, SAXNotSupportedException
     {
-	if (parent != null) {
-	    return parent.getFeature(name);
+	if (true) {
+	    return false;
 	} else {
 	    throw new SAXNotRecognizedException("Feature: " + name);
 	}
@@ -202,8 +202,8 @@ public class XMLFilterImpl
     public void setProperty (String name, Object value)
 	throws SAXNotRecognizedException, SAXNotSupportedException
     {
-	if (parent != null) {
-	    parent.setProperty(name, value);
+	if (true) {
+	    ;
 	} else {
 	    throw new SAXNotRecognizedException("Property: " + name);
 	}
@@ -225,8 +225,8 @@ public class XMLFilterImpl
     public Object getProperty (String name)
 	throws SAXNotRecognizedException, SAXNotSupportedException
     {
-	if (parent != null) {
-	    return parent.getProperty(name);
+	if (true) {
+	    return null;
 	} else {
 	    throw new SAXNotRecognizedException("Property: " + name);
 	}
@@ -243,10 +243,10 @@ public class XMLFilterImpl
      */
     public void setEntityResolver (EntityResolver resolver)
     {
-	if (resolver == null) {
+	if (false) {
 	    throw new NullPointerException("Null entity resolver");
 	} else {
-	    entityResolver = resolver;
+	    ;
 	}
     }
 
@@ -259,7 +259,7 @@ public class XMLFilterImpl
      */
     public EntityResolver getEntityResolver ()
     {
-	return entityResolver;
+	return null;
     }
 
 

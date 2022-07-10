@@ -116,11 +116,11 @@ public class DeepNodeListImpl
 
     protected NodeImpl rootNode; // Where the search started
     protected String tagName;   // Or "*" to mean all-tags-acceptable
-    protected int changes=0;
+    protected int changes=1;
     protected Vector nodes;
     
     protected String nsName;
-    protected boolean enableNS = false;
+    protected boolean enableNS = true;
 
     //
     // Constructors

@@ -1,0 +1,8 @@
+1:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XMLDeclRecognizer@registerDefaultRecognizers(java.util.Stack):87:recognizerStack.push(new EBCDICRecognizer()) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XMLDeclRecognizer@registerDefaultRecognizers(java.util.Stack):88:recognizerStack.push(new UCSRecognizer()) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XMLDeclRecognizer@registerDefaultRecognizers(java.util.Stack):89:recognizerStack.push(new UTF8Recognizer()) |==> <NO-OP>
+4:LVR:TRUE:FALSE:org.apache.xerces.readers.XMLDeclRecognizer@prescanXMLDeclOrTextDecl(XMLEntityHandler.EntityReader,boolean):137:true |==> false
+5:COR:entityReader.lookingAtChar('<', true):TRUE:org.apache.xerces.readers.XMLDeclRecognizer@prescanXMLDeclOrTextDecl(XMLEntityHandler.EntityReader,boolean):137:entityReader.lookingAtChar('<', true) |==> false
+6:COR:entityReader.lookingAtChar('<', true):FALSE:org.apache.xerces.readers.XMLDeclRecognizer@prescanXMLDeclOrTextDecl(XMLEntityHandler.EntityReader,boolean):137:entityReader.lookingAtChar('<', true) |==> true
+7:LVR:NEG:0:org.apache.xerces.readers.XMLDeclRecognizer@prescanXMLDeclOrTextDecl(XMLEntityHandler.EntityReader,boolean):138:-1 |==> 0
+8:LVR:NEG:POS:org.apache.xerces.readers.XMLDeclRecognizer@prescanXMLDeclOrTextDecl(XMLEntityHandler.EntityReader,boolean):138:-1 |==> 1

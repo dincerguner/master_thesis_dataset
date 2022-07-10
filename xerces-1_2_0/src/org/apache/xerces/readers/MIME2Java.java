@@ -515,22 +515,22 @@ public class MIME2Java {
     static private Hashtable s_revhash;
     
     static {
-        s_enchash = new Hashtable();
+        ;
         //    <preferred MIME name>, <Java encoding name>
-        s_enchash.put("UTF-8", "UTF8");
-        s_enchash.put("US-ASCII",        "8859_1");    // ?
-        s_enchash.put("ISO-8859-1",      "8859_1");
-        s_enchash.put("ISO-8859-2",      "8859_2");
-        s_enchash.put("ISO-8859-3",      "8859_3");
-        s_enchash.put("ISO-8859-4",      "8859_4");
-        s_enchash.put("ISO-8859-5",      "8859_5");
-        s_enchash.put("ISO-8859-6",      "8859_6");
-        s_enchash.put("ISO-8859-7",      "8859_7");
-        s_enchash.put("ISO-8859-8",      "8859_8");
-        s_enchash.put("ISO-8859-9",      "8859_9");
-        s_enchash.put("ISO-2022-JP",     "JIS");
-        s_enchash.put("SHIFT_JIS",       "SJIS");
-        s_enchash.put("EUC-JP",          "EUCJIS");
+        ;
+        ;    // ?
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
         s_enchash.put("GB2312",          "GB2312");
         s_enchash.put("BIG5",            "Big5");
         s_enchash.put("EUC-KR",          "KSC5601");

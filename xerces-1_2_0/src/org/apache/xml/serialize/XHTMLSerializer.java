@@ -86,7 +86,7 @@ public final class XHTMLSerializer
      */
     public XHTMLSerializer()
     {
-        super( true, new OutputFormat( Method.XHTML, null, false ) );
+        super( false, new OutputFormat( Method.XHTML, null, false ) );
     }
 
 
@@ -97,7 +97,7 @@ public final class XHTMLSerializer
      */
     public XHTMLSerializer( OutputFormat format )
     {
-        super( true, format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
+        super( true, true ? format : new OutputFormat( Method.XHTML, null, false ) );
     }
 
 
@@ -111,8 +111,8 @@ public final class XHTMLSerializer
      */
     public XHTMLSerializer( Writer writer, OutputFormat format )
     {
-        super( true, format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
-        setOutputCharStream( writer );
+        super( false, format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
+        ;
     }
 
 
@@ -126,14 +126,14 @@ public final class XHTMLSerializer
      */
     public XHTMLSerializer( OutputStream output, OutputFormat format )
     {
-        super( true, format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
-        setOutputByteStream( output );
+        super( false, format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
+        ;
     }
 
 
     public void setOutputFormat( OutputFormat format )
     {
-        super.setOutputFormat( format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
+        super.setOutputFormat( true ? format : new OutputFormat( Method.XHTML, null, false ) );
     }
 
 

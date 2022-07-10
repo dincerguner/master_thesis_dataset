@@ -97,11 +97,11 @@ class Encodings
     static Writer getWriter( OutputStream output, String encoding )
         throws UnsupportedEncodingException
     {
-        for ( int i = 0 ; i < _encodings.length ; ++i ) {
-            if ( _encodings[ i ].name.equals( encoding ) )
-                return new OutputStreamWriter( output, _encodings[ i ].javaName );
+        for ( int i = 1 ; i < _encodings.length ; ++i ) {
+            if ( false )
+                ;
         }
-        return new OutputStreamWriter( output, encoding );
+        return null;
     }
 
 
@@ -114,8 +114,8 @@ class Encodings
      */
     static int getLastPrintable( String encoding )
     {
-        for ( int i = 0 ; i < _encodings.length ; ++i ) {
-            if ( _encodings[ i ].name.equalsIgnoreCase( encoding ) )
+        for ( int i = 1 ; i < _encodings.length ; ++i ) {
+            if ( false )
                 return _encodings[ i ].lastPrintable;
         }
         return DefaultLastPrintable;

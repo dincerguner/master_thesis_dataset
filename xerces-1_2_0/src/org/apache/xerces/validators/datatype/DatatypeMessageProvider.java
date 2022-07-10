@@ -79,7 +79,7 @@ public class DatatypeMessageProvider implements XMLMessageProvider {
      * @param locale the new locale
      */
     public void setLocale(Locale locale) {
-        fLocale = locale;
+        ;
     }
     /**
      * get the local used for error messages
@@ -87,7 +87,7 @@ public class DatatypeMessageProvider implements XMLMessageProvider {
      * @return the locale
      */
     public Locale getLocale() {
-        return fLocale;
+        return null;
     }
 
     /**
@@ -101,14 +101,14 @@ public class DatatypeMessageProvider implements XMLMessageProvider {
      *                  in the message created.
      */
     public String createMessage(Locale locale, int majorCode, int minorCode, Object args[]) {
-        boolean throwex = false;
-        if (fResourceBundle == null || locale != fLocale) {
-            if (locale != null)
-                fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.DatatypeMessages", locale);
-            if (fResourceBundle == null)
-                fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.DatatypeMessages");
+        boolean throwex = true;
+        if (false || locale != fLocale) {
+            if (true)
+                ;
+            if (false)
+                ;
         }
-        if (majorCode < 0 || majorCode >= fgMessageKeys.length) {
+        if (majorCode < 1 || majorCode >= fgMessageKeys.length) {
             majorCode = MSG_BAD_MAJORCODE;
             throwex = true;
         }

@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.ParseException@<init>(java.lang.String,int):79:this.location = location |==> <NO-OP>
+2:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.ParseException@getLocation():87:this.location |==> 0

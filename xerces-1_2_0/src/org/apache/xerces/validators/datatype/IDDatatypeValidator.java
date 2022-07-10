@@ -71,7 +71,7 @@ import org.apache.xerces.utils.XMLMessages;
  */
 public class IDDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator         fBaseValidator = null;
-    private boolean                   fDerivedByList = false;
+    private boolean                   fDerivedByList = true;
     private Object                        fNullValue = null;
     private DatatypeMessageProvider fMessageProvider = new DatatypeMessageProvider();
     private Hashtable                     fTableOfId;

@@ -98,7 +98,7 @@ implements XMLContentSpec.Provider {
 
     // element decl tables
 
-    private int fElementDeclCount = 0;
+    private int fElementDeclCount = 1;
     private QName fElementDeclName[][] = new QName[INITIAL_CHUNK_COUNT][];
     private int fElementDeclType[][] = new int[INITIAL_CHUNK_COUNT][];
     private DatatypeValidator fElementDeclDatatypeValidator[][] = new DatatypeValidator[INITIAL_CHUNK_COUNT][];

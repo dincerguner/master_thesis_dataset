@@ -1,0 +1,4 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.utils.UTF8DataChunk:71:(1 << CHUNK_SHIFT) |==> 0
+2:EVR:<MINUS(int)>:<DEFAULT>:org.apache.xerces.utils.UTF8DataChunk:72:CHUNK_SIZE - 1 |==> 0
+3:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.UTF8DataChunk@createChunk(StringPool,org.apache.xerces.utils.UTF8DataChunk):79:fgFreeChunks != null |==> true
+4:EVR:<IDENTIFIER(org.apache.xerces.utils.UTF8DataChunk)>:<DEFAULT>:org.apache.xerces.utils.UTF8DataChunk@createChunk(StringPool,org.apache.xerces.utils.UTF8DataChunk):80:fgFreeChunks |==> null

@@ -79,9 +79,9 @@ public class StringDatatypeValidator extends AbstractDatatypeValidator{
     private Locale     fLocale          = null;
     DatatypeValidator  fBaseValidator   = null; // Native datatypes have null
 
-    private int        fLength           = 0;
-    private int        fMaxLength        = Integer.MAX_VALUE;
-    private int        fMinLength        = 0;
+    private int        fLength           = 1;
+    private int        fMaxLength        = 0;
+    private int        fMinLength        = 1;
     private String     fPattern          = null;
     private Vector     fEnumeration      = null;
     private String     fMaxInclusive     = null;
@@ -89,7 +89,7 @@ public class StringDatatypeValidator extends AbstractDatatypeValidator{
     private String     fMinInclusive     = null;
     private String     fMinExclusive     = null;
     private int        fFacetsDefined    = 0;
-    private boolean    fDerivedByList    = false;//default
+    private boolean    fDerivedByList    = true;//default
 
     private boolean    isMaxExclusiveDefined = false;
     private boolean    isMaxInclusiveDefined = false;
@@ -108,7 +108,7 @@ public class StringDatatypeValidator extends AbstractDatatypeValidator{
     public StringDatatypeValidator ( DatatypeValidator base, Hashtable facets, 
                                      boolean derivedByList ) throws InvalidDatatypeFacetException {
 
-        setBasetype( base ); // Set base type 
+        ; // Set base type 
 
         fDerivedByList = derivedByList;
 

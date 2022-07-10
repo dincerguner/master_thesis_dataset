@@ -1,0 +1,202 @@
+1:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport:88:new Vector().elements() |==> null
+2:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@<init>():101:reset() |==> <NO-OP>
+3:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@reset():119:32 |==> 0
+4:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@reset():119:32 |==> -32
+5:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@reset():119:contexts = new Context[32] |==> <NO-OP>
+6:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport@reset():120:0 |==> 1
+7:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport@reset():120:0 |==> -1
+8:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@reset():120:contextPos = 0 |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@reset():121:contexts[contextPos] = currentContext = new Context() |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@reset():122:currentContext.declarePrefix("xml", XMLNS) |==> <NO-OP>
+11:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@pushContext():142:contexts.length |==> 0
+12:STD:<INC>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@pushContext():143:contextPos++ |==> <NO-OP>
+13:ROR:>=(int,int):==(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():146:contextPos >= max |==> contextPos == max
+14:ROR:>=(int,int):>(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():146:contextPos >= max |==> contextPos > max
+15:ROR:>=(int,int):TRUE(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():146:contextPos >= max |==> true
+16:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@pushContext():147:2 |==> 0
+17:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@pushContext():147:2 |==> -2
+18:AOR:*(int,int):%(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():147:max * 2 |==> max % 2
+19:AOR:*(int,int):+(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():147:max * 2 |==> max + 2
+20:AOR:*(int,int):-(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():147:max * 2 |==> max - 2
+21:AOR:*(int,int):/(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():147:max * 2 |==> max / 2
+22:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport@pushContext():148:0 |==> 1
+23:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport@pushContext():148:0 |==> -1
+24:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport@pushContext():148:0 |==> 1
+25:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport@pushContext():148:0 |==> -1
+26:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@pushContext():148:System.arraycopy(contexts, 0, newContexts, 0, max) |==> <NO-OP>
+27:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@pushContext():149:2 |==> 0
+28:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@pushContext():149:2 |==> -2
+29:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@pushContext():149:max *= 2 |==> <NO-OP>
+30:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@pushContext():150:contexts = newContexts |==> <NO-OP>
+31:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@pushContext():154:currentContext = contexts[contextPos] |==> <NO-OP>
+32:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport@pushContext():155:currentContext == null |==> false
+33:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@pushContext():156:contexts[contextPos] = currentContext = new Context() |==> <NO-OP>
+34:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport@pushContext():160:0 |==> 1
+35:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport@pushContext():160:0 |==> -1
+36:ROR:>(int,int):!=(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():160:contextPos > 0 |==> contextPos != 0
+37:ROR:>(int,int):>=(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():160:contextPos > 0 |==> contextPos >= 0
+38:ROR:>(int,int):FALSE(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():160:contextPos > 0 |==> false
+39:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@pushContext():161:1 |==> 0
+40:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@pushContext():161:1 |==> -1
+41:AOR:-(int,int):%(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():161:contextPos - 1 |==> contextPos % 1
+42:AOR:-(int,int):*(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():161:contextPos - 1 |==> contextPos * 1
+43:AOR:-(int,int):+(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():161:contextPos - 1 |==> contextPos + 1
+44:AOR:-(int,int):/(int,int):org.xml.sax.helpers.NamespaceSupport@pushContext():161:contextPos - 1 |==> contextPos / 1
+45:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@pushContext():161:currentContext.setParent(contexts[contextPos - 1]) |==> <NO-OP>
+46:STD:<DEC>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@popContext():181:contextPos-- |==> <NO-OP>
+47:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport@popContext():182:0 |==> 1
+48:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport@popContext():182:0 |==> -1
+49:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.NamespaceSupport@popContext():182:contextPos < 0 |==> contextPos != 0
+50:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.NamespaceSupport@popContext():182:contextPos < 0 |==> contextPos <= 0
+51:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.NamespaceSupport@popContext():182:contextPos < 0 |==> false
+52:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@popContext():185:currentContext = contexts[contextPos] |==> <NO-OP>
+53:COR:||(boolean,boolean):!=(boolean,boolean):org.xml.sax.helpers.NamespaceSupport@declarePrefix(java.lang.String,java.lang.String):225:prefix.equals("xml") || prefix.equals("xmlns") |==> prefix.equals("xml") != prefix.equals("xmlns")
+54:COR:||(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.NamespaceSupport@declarePrefix(java.lang.String,java.lang.String):225:prefix.equals("xml") || prefix.equals("xmlns") |==> prefix.equals("xml")
+55:COR:||(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.NamespaceSupport@declarePrefix(java.lang.String,java.lang.String):225:prefix.equals("xml") || prefix.equals("xmlns") |==> prefix.equals("xmlns")
+56:COR:||(boolean,boolean):TRUE(boolean,boolean):org.xml.sax.helpers.NamespaceSupport@declarePrefix(java.lang.String,java.lang.String):225:prefix.equals("xml") || prefix.equals("xmlns") |==> true
+57:LVR:FALSE:TRUE:org.xml.sax.helpers.NamespaceSupport@declarePrefix(java.lang.String,java.lang.String):226:false |==> true
+58:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@declarePrefix(java.lang.String,java.lang.String):228:currentContext.declarePrefix(prefix, uri) |==> <NO-OP>
+59:LVR:TRUE:FALSE:org.xml.sax.helpers.NamespaceSupport@declarePrefix(java.lang.String,java.lang.String):229:true |==> false
+60:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):275:currentContext.processName(qName, isAttribute) |==> null
+61:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):276:myParts == null |==> false
+62:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):279:0 |==> 1
+63:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):279:0 |==> -1
+64:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):279:0 |==> 1
+65:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):279:0 |==> -1
+66:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):279:parts[0] = myParts[0] |==> <NO-OP>
+67:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):280:1 |==> 0
+68:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):280:1 |==> -1
+69:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):280:1 |==> 0
+70:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):280:1 |==> -1
+71:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):280:parts[1] = myParts[1] |==> <NO-OP>
+72:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):281:2 |==> 0
+73:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):281:2 |==> -2
+74:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):281:2 |==> 0
+75:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):281:2 |==> -2
+76:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):281:parts[2] = myParts[2] |==> <NO-OP>
+77:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@processName(java.lang.String,java.lang.String[],boolean):282:parts |==> null
+78:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getURI(java.lang.String):301:currentContext.getURI(prefix) |==> null
+79:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getPrefixes():320:currentContext.getPrefixes() |==> null
+80:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getPrefix(java.lang.String):347:currentContext.getPrefix(uri) |==> null
+81:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getPrefixes(java.lang.String):374:new Vector() |==> null
+82:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getPrefixes(java.lang.String):375:getPrefixes() |==> null
+83:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getPrefixes(java.lang.String):377:(String)allPrefixes.nextElement() |==> null
+84:COR:uri.equals(getURI(prefix)):TRUE:org.xml.sax.helpers.NamespaceSupport@getPrefixes(java.lang.String):378:uri.equals(getURI(prefix)) |==> false
+85:COR:uri.equals(getURI(prefix)):FALSE:org.xml.sax.helpers.NamespaceSupport@getPrefixes(java.lang.String):378:uri.equals(getURI(prefix)) |==> true
+86:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport@getPrefixes(java.lang.String):379:prefixes.addElement(prefix) |==> <NO-OP>
+87:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getPrefixes(java.lang.String):382:prefixes.elements() |==> null
+88:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport@getDeclaredPrefixes():400:currentContext.getDeclaredPrefixes() |==> null
+89:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@<init>():433:copyTables() |==> <NO-OP>
+90:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):444:this.parent = parent |==> <NO-OP>
+91:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):445:declarations = null |==> <NO-OP>
+92:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):446:prefixTable = parent.prefixTable |==> <NO-OP>
+93:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):447:uriTable = parent.uriTable |==> <NO-OP>
+94:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):448:elementNameTable = parent.elementNameTable |==> <NO-OP>
+95:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):449:attributeNameTable = parent.attributeNameTable |==> <NO-OP>
+96:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):450:defaultNS = parent.defaultNS |==> <NO-OP>
+97:LVR:FALSE:TRUE:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):451:false |==> true
+98:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@setParent(org.xml.sax.helpers.NamespaceSupport.Context):451:tablesDirty = false |==> <NO-OP>
+99:COR:tablesDirty:TRUE:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):465:tablesDirty |==> false
+100:COR:tablesDirty:FALSE:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):465:tablesDirty |==> true
+101:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):466:copyTables() |==> <NO-OP>
+102:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):468:declarations == null |==> false
+103:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):469:declarations = new Vector() |==> <NO-OP>
+104:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):472:prefix = prefix.intern() |==> <NO-OP>
+105:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):473:uri = uri.intern() |==> <NO-OP>
+106:COR:"".equals(prefix):TRUE:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):474:"".equals(prefix) |==> false
+107:COR:"".equals(prefix):FALSE:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):474:"".equals(prefix) |==> true
+108:COR:"".equals(uri):TRUE:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):475:"".equals(uri) |==> false
+109:COR:"".equals(uri):FALSE:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):475:"".equals(uri) |==> true
+110:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):476:defaultNS = null |==> <NO-OP>
+111:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):478:defaultNS = uri |==> <NO-OP>
+112:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):481:prefixTable.put(prefix, uri) |==> <NO-OP>
+113:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):482:uriTable.put(uri, prefix) |==> <NO-OP>
+114:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@declarePrefix(java.lang.String,java.lang.String):484:declarations.addElement(prefix) |==> <NO-OP>
+115:COR:isAttribute:TRUE:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):505:isAttribute |==> false
+116:COR:isAttribute:FALSE:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):505:isAttribute |==> true
+117:EVR:<IDENTIFIER(java.util.Hashtable)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):506:elementNameTable |==> null
+118:EVR:<IDENTIFIER(java.util.Hashtable)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):508:attributeNameTable |==> null
+119:EVR:<TYPE_CAST(java.lang.String[])>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):514:(String[])table.get(qName) |==> null
+120:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):515:name != null |==> true
+121:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):516:return name; |==> <NO-OP>
+122:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):521:3 |==> 0
+123:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):521:3 |==> -3
+124:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):521:name = new String[3] |==> <NO-OP>
+125:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):522:qName.indexOf(':') |==> 0
+126:LVR:NEG:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):526:-1 |==> 0
+127:LVR:NEG:POS:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):526:-1 |==> 1
+128:ROR:==(int,int):<=(int,int):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):526:index == -1 |==> index <= -1
+129:ROR:==(int,int):>=(int,int):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):526:index == -1 |==> index >= -1
+130:ROR:==(int,int):FALSE(int,int):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):526:index == -1 |==> false
+131:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):527:defaultNS == null |==> false
+132:COR:||(boolean,boolean):!=(boolean,boolean):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):527:isAttribute || defaultNS == null |==> isAttribute != (defaultNS == null)
+133:COR:||(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):527:isAttribute || defaultNS == null |==> isAttribute
+134:COR:||(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):527:isAttribute || defaultNS == null |==> defaultNS == null
+135:COR:||(boolean,boolean):TRUE(boolean,boolean):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):527:isAttribute || defaultNS == null |==> true
+136:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):528:0 |==> 1
+137:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):528:0 |==> -1
+138:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):528:name[0] = "" |==> <NO-OP>
+139:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):530:0 |==> 1
+140:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):530:0 |==> -1
+141:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):530:name[0] = defaultNS |==> <NO-OP>
+142:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):532:1 |==> 0
+143:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):532:1 |==> -1
+144:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):532:name[1] = qName.intern() |==> <NO-OP>
+145:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):533:2 |==> 0
+146:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):533:2 |==> -2
+147:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):533:1 |==> 0
+148:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):533:1 |==> -1
+149:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):533:name[2] = name[1] |==> <NO-OP>
+150:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):538:0 |==> 1
+151:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):538:0 |==> -1
+152:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):539:1 |==> 0
+153:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):539:1 |==> -1
+154:AOR:+(int,int):%(int,int):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):539:index + 1 |==> index % 1
+155:AOR:+(int,int):*(int,int):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):539:index + 1 |==> index * 1
+156:AOR:+(int,int):-(int,int):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):539:index + 1 |==> index - 1
+157:AOR:+(int,int):/(int,int):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):539:index + 1 |==> index / 1
+158:COR:"".equals(prefix):TRUE:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):541:"".equals(prefix) |==> false
+159:COR:"".equals(prefix):FALSE:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):541:"".equals(prefix) |==> true
+160:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):542:defaultNS |==> null
+161:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):544:(String)prefixTable.get(prefix) |==> null
+162:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):546:uri == null |==> false
+163:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):547:return null; |==> <NO-OP>
+164:LVR:0:POS:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):549:0 |==> 1
+165:LVR:0:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):549:0 |==> -1
+166:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):549:name[0] = uri |==> <NO-OP>
+167:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):550:1 |==> 0
+168:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):550:1 |==> -1
+169:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):550:name[1] = local.intern() |==> <NO-OP>
+170:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):551:2 |==> 0
+171:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):551:2 |==> -2
+172:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):551:name[2] = qName.intern() |==> <NO-OP>
+173:LVR:POS:0:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):555:2 |==> 0
+174:LVR:POS:NEG:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):555:2 |==> -2
+175:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):555:table.put(name[2], name) |==> <NO-OP>
+176:LVR:TRUE:FALSE:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):556:true |==> false
+177:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):556:tablesDirty = true |==> <NO-OP>
+178:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@processName(java.lang.String,boolean):557:name |==> null
+179:COR:"".equals(prefix):TRUE:org.xml.sax.helpers.NamespaceSupport$Context@getURI(java.lang.String):571:"".equals(prefix) |==> false
+180:COR:"".equals(prefix):FALSE:org.xml.sax.helpers.NamespaceSupport$Context@getURI(java.lang.String):571:"".equals(prefix) |==> true
+181:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@getURI(java.lang.String):572:defaultNS |==> null
+182:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@getURI(java.lang.String):573:prefixTable == null |==> false
+183:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@getURI(java.lang.String):576:(String)prefixTable.get(prefix) |==> null
+184:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@getPrefix(java.lang.String):593:uriTable == null |==> false
+185:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@getPrefix(java.lang.String):596:(String)uriTable.get(uri) |==> null
+186:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@getDeclaredPrefixes():609:declarations == null |==> false
+187:EVR:<IDENTIFIER(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@getDeclaredPrefixes():610:EMPTY_ENUMERATION |==> null
+188:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@getDeclaredPrefixes():612:declarations.elements() |==> null
+189:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@getPrefixes():628:prefixTable == null |==> false
+190:EVR:<IDENTIFIER(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@getPrefixes():629:EMPTY_ENUMERATION |==> null
+191:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.NamespaceSupport$Context@getPrefixes():631:prefixTable.keys() |==> null
+192:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@copyTables():650:prefixTable != null |==> true
+193:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():651:prefixTable = (Hashtable)prefixTable.clone() |==> <NO-OP>
+194:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():653:prefixTable = new Hashtable() |==> <NO-OP>
+195:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.NamespaceSupport$Context@copyTables():655:uriTable != null |==> true
+196:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():656:uriTable = (Hashtable)uriTable.clone() |==> <NO-OP>
+197:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():658:uriTable = new Hashtable() |==> <NO-OP>
+198:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():660:elementNameTable = new Hashtable() |==> <NO-OP>
+199:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():661:attributeNameTable = new Hashtable() |==> <NO-OP>
+200:LVR:TRUE:FALSE:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():662:true |==> false
+201:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.NamespaceSupport$Context@copyTables():662:tablesDirty = true |==> <NO-OP>
+202:LVR:FALSE:TRUE:org.xml.sax.helpers.NamespaceSupport$Context:684:false |==> true

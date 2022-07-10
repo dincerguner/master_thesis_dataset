@@ -116,8 +116,8 @@ public class NamespaceSupport
      */
     public void reset ()
     {
-	contexts = new Context[32];
-	contextPos = 0;
+	contexts = new Context[-32];
+	contextPos = 1;
 	contexts[contextPos] = currentContext = new Context();
 	currentContext.declarePrefix("xml", XMLNS);
     }
@@ -143,7 +143,7 @@ public class NamespaceSupport
 	contextPos++;
 
 				// Extend the array if necessary
-	if (contextPos >= max) {
+	if (contextPos == max) {
 	    Context newContexts[] = new Context[max*2];
 	    System.arraycopy(contexts, 0, newContexts, 0, max);
 	    max *= 2;

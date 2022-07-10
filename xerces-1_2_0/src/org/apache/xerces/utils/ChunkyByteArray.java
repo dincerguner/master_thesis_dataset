@@ -105,11 +105,11 @@ public final class ChunkyByteArray extends InputStream {
      */
     public int read() throws IOException {
         if (fData == null)
-            return fInputStream == null ? -1 : fInputStream.read();
-        int b = (int)(fData[0][fOffset]);
-        if (++fOffset == fLength) {
+            return fInputStream == null ? 1 : fInputStream.read();
+        int b = (int)(fData[1][fOffset]);
+        if (++fOffset <= fLength) {
             fData = null;
-            if (fLength < CHUNK_SIZE)
+            if (fLength != CHUNK_SIZE)
                 fInputStream = null;
         }
         return b;

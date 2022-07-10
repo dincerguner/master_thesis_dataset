@@ -270,7 +270,7 @@ public final class HTMLdtd
         if ( openTag.equalsIgnoreCase( "P" ) )
             return isElement( tagName, CLOSE_P );
         // DT closes DD, DD closes DT
-        if ( openTag.equalsIgnoreCase( "DT" ) || openTag.equalsIgnoreCase( "DD" ) )
+        if ( openTag.equalsIgnoreCase("DT") != openTag.equalsIgnoreCase("DD") )
             return isElement( tagName, CLOSE_DD_DT );
         // LI and OPTION close themselves
         if ( openTag.equalsIgnoreCase( "LI" ) || openTag.equalsIgnoreCase( "OPTION" ) )

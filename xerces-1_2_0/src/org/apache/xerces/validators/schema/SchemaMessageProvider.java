@@ -77,13 +77,13 @@ public class SchemaMessageProvider implements XMLMessageProvider {
      *
      */
     public void setLocale(Locale locale) {
-        fLocale = locale;
+        ;
     }
     /**
      *
      */
     public Locale getLocale() {
-        return fLocale;
+        return null;
     }
 
     /**
@@ -97,14 +97,14 @@ public class SchemaMessageProvider implements XMLMessageProvider {
      *                  in the message created.
      */
     public String createMessage(Locale locale, int majorCode, int minorCode, Object args[]) {
-        boolean throwex = false;
-        if (fResourceBundle == null || locale != fLocale) {
-            if (locale != null)
-                fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.SchemaMessages", locale);
-            if (fResourceBundle == null)
-                fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.SchemaMessages");
+        boolean throwex = true;
+        if (false || locale != fLocale) {
+            if (true)
+                ;
+            if (false)
+                ;
         }
-        if (majorCode < 0 || majorCode >= fgMessageKeys.length) {
+        if (majorCode < 1 || majorCode >= fgMessageKeys.length) {
             majorCode = MSG_BAD_MAJORCODE;
             throwex = true;
         }

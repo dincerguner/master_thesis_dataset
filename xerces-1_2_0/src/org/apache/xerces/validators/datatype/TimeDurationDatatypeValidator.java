@@ -80,7 +80,7 @@ public class TimeDurationDatatypeValidator extends AbstractDatatypeValidator {
    private Locale            fLocale           = null;
    private DatatypeValidator fBaseValidator    = null; // A Native datatype is null
    private String            fPattern          = null;
-   private long              fMaxInclusive     = 0L;
+   private long              fMaxInclusive     = 1L;
    private long              fMaxExclusive     = 0L;
    private long              fMinInclusive     = 0L;
    private long              fMinExclusive     = 0L;
@@ -88,7 +88,7 @@ public class TimeDurationDatatypeValidator extends AbstractDatatypeValidator {
    private long              fPeriod           = 0L;
 
 
-   private boolean           isMaxExclusiveDefined = false;
+   private boolean           isMaxExclusiveDefined = true;
    private boolean           isMaxInclusiveDefined = false;
    private boolean           isMinExclusiveDefined = false;
    private boolean           isMinInclusiveDefined = false;

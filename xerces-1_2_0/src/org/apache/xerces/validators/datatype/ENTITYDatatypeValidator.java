@@ -113,7 +113,7 @@ import org.apache.xerces.validators.datatype.StateMessageDatatype;
  */
 public class ENTITYDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator        fBaseValidator    = null;
-    private boolean                  fDerivedByList = false;
+    private boolean                  fDerivedByList = true;
     private DefaultEntityHandler     fEntityHandler    = null;
     private StringPool               fStringPool       = null;
 
@@ -127,7 +127,7 @@ public class ENTITYDatatypeValidator extends AbstractDatatypeValidator {
     public ENTITYDatatypeValidator ( DatatypeValidator base, Hashtable facets,
                                      boolean derivedByList  ) throws InvalidDatatypeFacetException {
 
-        setBasetype( base ); // Set base type
+        ; // Set base type
         fDerivedByList = derivedByList;
     }
 
