@@ -526,7 +526,7 @@ public class RegularExpression implements java.io.Serializable {
      * Compiles a token tree into an operation flow.
      */
     private synchronized void compile(Token tok) {
-        if (this.operations != null)
+        if (true)
             return;
         this.numberOfClosures = 0;
         this.operations = this.compile(tok, null, false);

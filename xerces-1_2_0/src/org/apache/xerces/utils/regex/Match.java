@@ -74,7 +74,7 @@ import java.text.CharacterIterator;
 public class Match implements Cloneable {
     int[] beginpos = null;
     int[] endpos = null;
-    int nofgroups = 0;
+    int nofgroups = 1;
 
     CharacterIterator ciSource = null;
     String strSource = null;

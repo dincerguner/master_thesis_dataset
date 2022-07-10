@@ -1,0 +1,224 @@
+1:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.utils.Hash2intTable:70:new int[HASHTABLE_SIZE][] |==> null
+2:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 |==> key1 % key2
+3:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 |==> key1 * key2
+4:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 |==> key1 - key2
+5:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 |==> key1 / key2
+6:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 |==> (key1 + key2) % key3
+7:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 |==> (key1 + key2) * key3
+8:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 |==> key1 + key2 - key3
+9:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 |==> (key1 + key2) / key3
+10:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:2 |==> 0
+11:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:2 |==> -2
+12:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 + 2 |==> (key1 + key2 + key3) % 2
+13:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 + 2 |==> (key1 + key2 + key3) * 2
+14:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 + 2 |==> key1 + key2 + key3 - 2
+15:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:key1 + key2 + key3 + 2 |==> (key1 + key2 + key3) / 2
+16:AOR:%(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) * HASHTABLE_SIZE
+17:AOR:%(int,int):+(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) + HASHTABLE_SIZE
+18:AOR:%(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) - HASHTABLE_SIZE
+19:AOR:%(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):74:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) / HASHTABLE_SIZE
+20:EVR:<ARRAY_ACCESS(int[])>:<DEFAULT>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):75:fHashTable[hash] |==> null
+21:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):77:bucket == null |==> false
+22:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:1 |==> 0
+23:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:1 |==> -1
+24:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:4 |==> 0
+25:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:4 |==> -4
+26:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:4 * INITIAL_BUCKET_SIZE |==> 4 % INITIAL_BUCKET_SIZE
+27:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:4 * INITIAL_BUCKET_SIZE |==> 4 + INITIAL_BUCKET_SIZE
+28:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:4 * INITIAL_BUCKET_SIZE |==> 4 - INITIAL_BUCKET_SIZE
+29:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:4 * INITIAL_BUCKET_SIZE |==> 4 / INITIAL_BUCKET_SIZE
+30:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:1 + 4 * INITIAL_BUCKET_SIZE |==> 1 % (4 * INITIAL_BUCKET_SIZE)
+31:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:1 + 4 * INITIAL_BUCKET_SIZE |==> 1 * (4 * INITIAL_BUCKET_SIZE)
+32:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:1 + 4 * INITIAL_BUCKET_SIZE |==> 1 - 4 * INITIAL_BUCKET_SIZE
+33:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:1 + 4 * INITIAL_BUCKET_SIZE |==> 1 / (4 * INITIAL_BUCKET_SIZE)
+34:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):78:bucket = new int[1 + 4 * INITIAL_BUCKET_SIZE] |==> <NO-OP>
+35:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):79:0 |==> 1
+36:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):79:0 |==> -1
+37:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):79:1 |==> 0
+38:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):79:1 |==> -1
+39:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):79:bucket[0] = 1 |==> <NO-OP>
+40:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):80:1 |==> 0
+41:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):80:1 |==> -1
+42:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):80:bucket[1] = key1 |==> <NO-OP>
+43:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):81:2 |==> 0
+44:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):81:2 |==> -2
+45:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):81:bucket[2] = key2 |==> <NO-OP>
+46:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):82:3 |==> 0
+47:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):82:3 |==> -3
+48:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):82:bucket[3] = key3 |==> <NO-OP>
+49:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):83:4 |==> 0
+50:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):83:4 |==> -4
+51:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):83:bucket[4] = value |==> <NO-OP>
+52:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):84:fHashTable[hash] = bucket |==> <NO-OP>
+53:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):86:0 |==> 1
+54:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):86:0 |==> -1
+55:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:1 |==> 0
+56:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:1 |==> -1
+57:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:4 |==> 0
+58:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:4 |==> -4
+59:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:4 * count |==> 4 % count
+60:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:4 * count |==> 4 + count
+61:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:4 * count |==> 4 - count
+62:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:4 * count |==> 4 / count
+63:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:1 + 4 * count |==> 1 % (4 * count)
+64:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:1 + 4 * count |==> 1 * (4 * count)
+65:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:1 + 4 * count |==> 1 - 4 * count
+66:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):87:1 + 4 * count |==> 1 / (4 * count)
+67:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):88:offset == bucket.length |==> offset <= bucket.length
+68:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):88:offset == bucket.length |==> offset >= bucket.length
+69:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):88:offset == bucket.length |==> false
+70:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):89:count + INITIAL_BUCKET_SIZE |==> count % INITIAL_BUCKET_SIZE
+71:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):89:count + INITIAL_BUCKET_SIZE |==> count * INITIAL_BUCKET_SIZE
+72:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):89:count + INITIAL_BUCKET_SIZE |==> count - INITIAL_BUCKET_SIZE
+73:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):89:count + INITIAL_BUCKET_SIZE |==> count / INITIAL_BUCKET_SIZE
+74:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:1 |==> 0
+75:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:1 |==> -1
+76:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:4 |==> 0
+77:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:4 |==> -4
+78:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:4 * newSize |==> 4 % newSize
+79:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:4 * newSize |==> 4 + newSize
+80:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:4 * newSize |==> 4 - newSize
+81:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:4 * newSize |==> 4 / newSize
+82:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:1 + 4 * newSize |==> 1 % (4 * newSize)
+83:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:1 + 4 * newSize |==> 1 * (4 * newSize)
+84:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:1 + 4 * newSize |==> 1 - 4 * newSize
+85:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):90:1 + 4 * newSize |==> 1 / (4 * newSize)
+86:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):91:0 |==> 1
+87:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):91:0 |==> -1
+88:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):91:0 |==> 1
+89:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):91:0 |==> -1
+90:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):91:System.arraycopy(bucket, 0, newBucket, 0, offset) |==> <NO-OP>
+91:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):92:bucket = newBucket |==> <NO-OP>
+92:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):93:fHashTable[hash] = bucket |==> <NO-OP>
+93:LVR:FALSE:TRUE:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):95:false |==> true
+94:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):96:1 |==> 0
+95:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):96:1 |==> -1
+96:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):97:0 |==> 1
+97:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):97:0 |==> -1
+98:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):97:i < count |==> i != count
+99:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):97:i < count |==> i <= count
+100:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):97:i < count |==> false
+101:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 |==> bucket[j] <= key1
+102:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 |==> bucket[j] >= key1
+103:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 |==> false
+104:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:1 |==> 0
+105:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:1 |==> -1
+106:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:j + 1 |==> j % 1
+107:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:j + 1 |==> j * 1
+108:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:j + 1 |==> j - 1
+109:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:j + 1 |==> j / 1
+110:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j + 1] == key2 |==> bucket[j + 1] <= key2
+111:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j + 1] == key2 |==> bucket[j + 1] >= key2
+112:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j + 1] == key2 |==> false
+113:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 && bucket[j + 1] == key2 |==> bucket[j] == key1 == (bucket[j + 1] == key2)
+114:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 && bucket[j + 1] == key2 |==> false
+115:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 && bucket[j + 1] == key2 |==> bucket[j] == key1
+116:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 && bucket[j + 1] == key2 |==> bucket[j + 1] == key2
+117:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:2 |==> 0
+118:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:2 |==> -2
+119:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:j + 2 |==> j % 2
+120:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:j + 2 |==> j * 2
+121:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:j + 2 |==> j - 2
+122:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:j + 2 |==> j / 2
+123:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:bucket[j + 2] == key3 |==> bucket[j + 2] <= key3
+124:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:bucket[j + 2] == key3 |==> bucket[j + 2] >= key3
+125:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:bucket[j + 2] == key3 |==> false
+126:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> (bucket[j] == key1 && bucket[j + 1] == key2) == (bucket[j + 2] == key3)
+127:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> false
+128:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):98:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> bucket[j] == key1 && bucket[j + 1] == key2
+129:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):99:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> bucket[j + 2] == key3
+130:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):100:3 |==> 0
+131:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):100:3 |==> -3
+132:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):100:j + 3 |==> j % 3
+133:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):100:j + 3 |==> j * 3
+134:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):100:j + 3 |==> j - 3
+135:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):100:j + 3 |==> j / 3
+136:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):100:bucket[j + 3] = value |==> <NO-OP>
+137:LVR:TRUE:FALSE:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):101:true |==> false
+138:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):101:found = true |==> <NO-OP>
+139:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):102:break; |==> <NO-OP>
+140:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):104:4 |==> 0
+141:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):104:4 |==> -4
+142:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):104:j += 4 |==> <NO-OP>
+143:COR:found:TRUE:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):106:found |==> false
+144:COR:found:FALSE:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):106:found |==> true
+145:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):107:bucket[offset++] = key1 |==> <NO-OP>
+146:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):108:bucket[offset++] = key2 |==> <NO-OP>
+147:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):109:bucket[offset++] = key3 |==> <NO-OP>
+148:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):110:bucket[offset] = value |==> <NO-OP>
+149:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):111:0 |==> 1
+150:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):111:0 |==> -1
+151:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@put(int,int,int,int):111:bucket[0] = ++count |==> <NO-OP>
+152:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 |==> key1 % key2
+153:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 |==> key1 * key2
+154:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 |==> key1 - key2
+155:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 |==> key1 / key2
+156:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 |==> (key1 + key2) % key3
+157:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 |==> (key1 + key2) * key3
+158:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 |==> key1 + key2 - key3
+159:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 |==> (key1 + key2) / key3
+160:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:2 |==> 0
+161:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:2 |==> -2
+162:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 + 2 |==> (key1 + key2 + key3) % 2
+163:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 + 2 |==> (key1 + key2 + key3) * 2
+164:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 + 2 |==> key1 + key2 + key3 - 2
+165:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:key1 + key2 + key3 + 2 |==> (key1 + key2 + key3) / 2
+166:AOR:%(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) * HASHTABLE_SIZE
+167:AOR:%(int,int):+(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) + HASHTABLE_SIZE
+168:AOR:%(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) - HASHTABLE_SIZE
+169:AOR:%(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):118:(key1 + key2 + key3 + 2) % HASHTABLE_SIZE |==> (key1 + key2 + key3 + 2) / HASHTABLE_SIZE
+170:EVR:<ARRAY_ACCESS(int[])>:<DEFAULT>:org.apache.xerces.utils.Hash2intTable@get(int,int,int):119:fHashTable[hash] |==> null
+171:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.Hash2intTable@get(int,int,int):121:bucket == null |==> false
+172:LVR:NEG:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):122:-1 |==> 0
+173:LVR:NEG:POS:org.apache.xerces.utils.Hash2intTable@get(int,int,int):122:-1 |==> 1
+174:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@get(int,int,int):122:return Config.__M_NO == 0 && Config.COVERED(172, 173) ? -1 : Config.__M_NO == 173 ? 1 : Config.__M_NO == 172 ? 0 : -1; |==> <NO-OP>
+175:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@get(int,int,int):124:0 |==> 1
+176:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):124:0 |==> -1
+177:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):126:1 |==> 0
+178:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):126:1 |==> -1
+179:LVR:0:POS:org.apache.xerces.utils.Hash2intTable@get(int,int,int):127:0 |==> 1
+180:LVR:0:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):127:0 |==> -1
+181:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):127:i < count |==> i != count
+182:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):127:i < count |==> i <= count
+183:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):127:i < count |==> false
+184:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 |==> bucket[j] <= key1
+185:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 |==> bucket[j] >= key1
+186:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 |==> false
+187:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:1 |==> 0
+188:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:1 |==> -1
+189:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:j + 1 |==> j % 1
+190:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:j + 1 |==> j * 1
+191:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:j + 1 |==> j - 1
+192:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:j + 1 |==> j / 1
+193:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j + 1] == key2 |==> bucket[j + 1] <= key2
+194:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j + 1] == key2 |==> bucket[j + 1] >= key2
+195:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j + 1] == key2 |==> false
+196:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 && bucket[j + 1] == key2 |==> bucket[j] == key1 == (bucket[j + 1] == key2)
+197:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 && bucket[j + 1] == key2 |==> false
+198:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 && bucket[j + 1] == key2 |==> bucket[j] == key1
+199:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 && bucket[j + 1] == key2 |==> bucket[j + 1] == key2
+200:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:2 |==> 0
+201:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:2 |==> -2
+202:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:j + 2 |==> j % 2
+203:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:j + 2 |==> j * 2
+204:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:j + 2 |==> j - 2
+205:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:j + 2 |==> j / 2
+206:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:bucket[j + 2] == key3 |==> bucket[j + 2] <= key3
+207:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:bucket[j + 2] == key3 |==> bucket[j + 2] >= key3
+208:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:bucket[j + 2] == key3 |==> false
+209:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> (bucket[j] == key1 && bucket[j + 1] == key2) == (bucket[j + 2] == key3)
+210:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> false
+211:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):128:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> bucket[j] == key1 && bucket[j + 1] == key2
+212:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.Hash2intTable@get(int,int,int):129:bucket[j] == key1 && bucket[j + 1] == key2 && bucket[j + 2] == key3 |==> bucket[j + 2] == key3
+213:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):130:3 |==> 0
+214:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):130:3 |==> -3
+215:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):130:j + 3 |==> j % 3
+216:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):130:j + 3 |==> j * 3
+217:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):130:j + 3 |==> j - 3
+218:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Hash2intTable@get(int,int,int):130:j + 3 |==> j / 3
+219:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@get(int,int,int):130:return bucket[Config.__M_NO == 218 ? j / 3 : Config.__M_NO == 217 ? j - 3 : Config.__M_NO == 216 ? j * 3 : Config.__M_NO == 215 ? j % 3 : Config.__M_NO == 0 && Config.COVERED(215, 218) ? j + 3 : j + (Config.__M_NO == 0 && Config.COVERED(213, 214) ? 3 : Config.__M_NO == 214 ? -3 : Config.__M_NO == 213 ? 0 : 3)]; |==> <NO-OP>
+220:LVR:POS:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):132:4 |==> 0
+221:LVR:POS:NEG:org.apache.xerces.utils.Hash2intTable@get(int,int,int):132:4 |==> -4
+222:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Hash2intTable@get(int,int,int):132:j += 4 |==> <NO-OP>
+223:LVR:NEG:0:org.apache.xerces.utils.Hash2intTable@get(int,int,int):134:-1 |==> 0
+224:LVR:NEG:POS:org.apache.xerces.utils.Hash2intTable@get(int,int,int):134:-1 |==> 1

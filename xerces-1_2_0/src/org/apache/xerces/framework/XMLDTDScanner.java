@@ -99,7 +99,7 @@ public final class XMLDTDScanner {
     //
     // [24] VersionInfo ::= S 'version' Eq (' VersionNum ' | " VersionNum ")
     //
-    private static final char[] version_string = { 'v','e','r','s','i','o','n' };
+    private static final char[] version_string = null;
     //
     // [45] elementdecl ::= '<!ELEMENT' S Name S contentspec S? '>'
     //

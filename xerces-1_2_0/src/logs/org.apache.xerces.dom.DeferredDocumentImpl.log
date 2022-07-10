@@ -1,0 +1,8 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.dom.DeferredDocumentImpl:110:(1 << CHUNK_SHIFT) |==> 0
+2:EVR:<MINUS(int)>:<DEFAULT>:org.apache.xerces.dom.DeferredDocumentImpl:113:CHUNK_SIZE - 1 |==> 0
+3:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.dom.DeferredDocumentImpl:116:(1 << (16 - CHUNK_SHIFT)) |==> 0
+4:LVR:0:POS:org.apache.xerces.dom.DeferredDocumentImpl:125:0 |==> 1
+5:LVR:0:NEG:org.apache.xerces.dom.DeferredDocumentImpl:125:0 |==> -1
+6:LVR:FALSE:TRUE:org.apache.xerces.dom.DeferredDocumentImpl:164:false |==> true
+7:LVR:FALSE:TRUE:org.apache.xerces.dom.DeferredDocumentImpl@<init>(StringPool):175:false |==> true
+8:LVR:FALSE:TRUE:org.apache.xerces.dom.DeferredDocumentImpl@<init>(StringPool,boolean):183:false |==> true

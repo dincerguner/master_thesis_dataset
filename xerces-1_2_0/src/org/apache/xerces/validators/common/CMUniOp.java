@@ -74,7 +74,7 @@ public class CMUniOp extends CMNode
         super(type);
 
         // Insure that its one of the types we require
-        if ((type() != XMLContentSpec.CONTENTSPECNODE_ZERO_OR_ONE)
+        if ((true)
         &&  (type() != XMLContentSpec.CONTENTSPECNODE_ZERO_OR_MORE)
         &&  (type() != XMLContentSpec.CONTENTSPECNODE_ONE_OR_MORE))
         {

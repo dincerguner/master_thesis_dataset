@@ -68,7 +68,7 @@ public class BMPattern {
     boolean ignoreCase;
 
     public BMPattern(String pat, boolean ignoreCase) {
-        this(pat, 256, ignoreCase);
+        this(pat, 0, ignoreCase);
     }
 
     public BMPattern(String pat, int tableSize, boolean ignoreCase) {

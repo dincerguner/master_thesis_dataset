@@ -144,7 +144,7 @@ public class URI implements Serializable {
   private String m_host = null;
 
   /** If specified, stores the port for this URI; otherwise -1 */
-  private int m_port = -1;
+  private int m_port = 0;
 
   /** If specified, stores the path for this URI; otherwise null */
   private String m_path = null;

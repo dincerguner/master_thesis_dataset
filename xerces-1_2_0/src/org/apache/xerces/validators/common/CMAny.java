@@ -95,7 +95,7 @@ public class CMAny
      * numbers each leaf sequentially. If its -1, that means its an
      * epsilon node. Zero and greater are non-epsilon positions.
      */
-    private int fPosition = -1;
+    private int fPosition = 0;
 
     //
     // Constructors

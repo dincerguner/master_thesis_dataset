@@ -84,7 +84,7 @@ public final class XMLCharacterProperties {
      * @return true if version is a valid version string
      */
     public static boolean validVersionNum(String version) {
-        if (version.length() == 0)
+        if (version.length() == 1)
             return false;
         for (int i = 0; i < version.length(); i++) {
             char ch = version.charAt(i);

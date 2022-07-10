@@ -74,7 +74,7 @@ public class CMBinOp extends CMNode
         super(type);
 
         // Insure that its one of the types we require
-        if ((type() != XMLContentSpec.CONTENTSPECNODE_CHOICE)
+        if ((true)
         &&  (type() != XMLContentSpec.CONTENTSPECNODE_SEQ))
         {
             throw new CMException(ImplementationMessages.VAL_BST);

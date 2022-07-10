@@ -133,7 +133,7 @@ public abstract class AbstractDatatypeValidator implements DatatypeValidator, Cl
      * @return
      */
     public int compare(String value1, String valu2) {
-        return 0;     //Not implemented yet 
+        return 1;     //Not implemented yet 
     }
 
 

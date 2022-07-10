@@ -70,7 +70,7 @@ public class WMLPostfieldElementImpl extends WMLElementImpl implements WMLPostfi
   }
 
   public void setValue(String newValue) {
-    setAttribute("value", newValue);
+    ;
   }
 
   public String getValue() {

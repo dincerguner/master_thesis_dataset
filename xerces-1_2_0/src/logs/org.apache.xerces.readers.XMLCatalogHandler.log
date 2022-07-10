@@ -1,0 +1,19 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler:112:new Hashtable() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler:115:new Hashtable() |==> null
+3:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XMLCatalogHandler@addPublicMapping(java.lang.String,java.lang.String):128:publicMap.put(publicId, systemId) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XMLCatalogHandler@removePublicMapping(java.lang.System):137:publicMap.remove(publicId) |==> <NO-OP>
+5:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler@getPublicMappingKeys():142:publicMap.keys() |==> null
+6:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler@getPublicMapping(java.lang.String):154:(String)publicMap.get(publicId) |==> null
+7:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XMLCatalogHandler@addSystemMapping(java.lang.String,java.lang.String):164:systemMap.put(systemId1, systemId2) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XMLCatalogHandler@removeSystemMapping(java.lang.String):173:systemMap.remove(systemId) |==> <NO-OP>
+9:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler@getSystemMappingKeys():178:systemMap.keys() |==> null
+10:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler@getSystemMapping(java.lang.String):190:(String)systemMap.get(systemId) |==> null
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):212:publicId != null |==> true
+12:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):213:getPublicMapping(publicId) |==> null
+13:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):214:value != null |==> true
+14:STD:<RETURN>:<NO-OP>:org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):215:return new InputSource(value); |==> <NO-OP>
+15:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):220:systemId != null |==> true
+16:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):221:getSystemMapping(systemId) |==> null
+17:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):222:value == null |==> false
+18:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):223:value = systemId |==> <NO-OP>
+19:STD:<RETURN>:<NO-OP>:org.apache.xerces.readers.XMLCatalogHandler@resolveEntity(java.lang.String,java.lang.String):226:return new InputSource(value); |==> <NO-OP>

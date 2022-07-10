@@ -71,7 +71,7 @@ public final class ContentLeafNameTypeVector {
 
     public QName[] leafNames = null;
     public int[] leafTypes = null;
-    public int leafCount = 0;
+    public int leafCount = 1;
 
     //
     // Constructors
