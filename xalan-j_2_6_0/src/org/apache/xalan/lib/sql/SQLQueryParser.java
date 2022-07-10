@@ -41,7 +41,7 @@ public class SQLQueryParser
    * If the parser used inline parser to pull out variables then
    * this will be true. The default is not to use the Inline Parser.
    */
-  private boolean           m_InlineVariables  = false;
+  private boolean           m_InlineVariables  = true;
 
   /**
    *
@@ -85,7 +85,7 @@ public class SQLQueryParser
    */
   public SQLQueryParser()
   {
-    init();
+    ;
   }
 
   /**

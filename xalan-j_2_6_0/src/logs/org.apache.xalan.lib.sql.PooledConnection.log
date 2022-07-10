@@ -1,0 +1,8 @@
+1:LVR:FALSE:TRUE:org.apache.xalan.lib.sql.PooledConnection:36:false |==> true
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xalan.lib.sql.PooledConnection@<init>(java.sql.Connection):45:value != null |==> true
+3:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.PooledConnection@<init>(java.sql.Connection):45:connection = value |==> <NO-OP>
+4:EVR:<IDENTIFIER(java.sql.Connection)>:<DEFAULT>:org.apache.xalan.lib.sql.PooledConnection@getConnection():55:connection |==> null
+5:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.lib.sql.PooledConnection@setInUse(boolean):66:inuse = value |==> <NO-OP>
+6:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.xalan.lib.sql.PooledConnection@inUse():73:inuse |==> false
+7:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.PooledConnection@close():83:connection.close() |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.xalan.lib.sql.PooledConnection@close():87:System.err.println(sqle.getMessage()) |==> <NO-OP>

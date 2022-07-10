@@ -124,7 +124,7 @@ public class Redirect
   /**
    * List of formatter listeners indexed by filename.
    */
-  protected Hashtable m_formatterListeners = new Hashtable ();
+  protected Hashtable m_formatterListeners = null;
 
   /**
    * List of output streams indexed by filename.

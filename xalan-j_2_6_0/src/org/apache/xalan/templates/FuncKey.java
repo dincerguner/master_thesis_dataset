@@ -40,7 +40,7 @@ public class FuncKey extends Function2Args
 {
 
   /** Dummy value to be used in usedrefs hashtable           */
-  static private Boolean ISTRUE = new Boolean(true);
+  static private Boolean ISTRUE = new Boolean(false);
 
   /**
    * Execute the function.  The function must return

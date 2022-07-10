@@ -67,7 +67,7 @@ public class XSLTSchema extends XSLTElementDef
    */
   XSLTSchema()
   {
-    build();
+    ;
   }
 
   /**
@@ -78,12 +78,12 @@ public class XSLTSchema extends XSLTElementDef
   {
 	// xsl:import, xsl:include
     XSLTAttributeDef hrefAttr = new XSLTAttributeDef(null, "href",
-                                  XSLTAttributeDef.T_URL, true, false,XSLTAttributeDef.ERROR);
+                                  XSLTAttributeDef.T_URL, false, false,XSLTAttributeDef.ERROR);
                                   
 	// xsl:preserve-space, xsl:strip-space
     XSLTAttributeDef elementsAttr = new XSLTAttributeDef(null, "elements",
                                       XSLTAttributeDef.T_SIMPLEPATTERNLIST,
-                                      true, false, XSLTAttributeDef.ERROR);
+                                      true, true, XSLTAttributeDef.ERROR);
                                       
     // XSLTAttributeDef anyNamespacedAttr = new XSLTAttributeDef("*", "*",
     //                                XSLTAttributeDef.T_CDATA, false);

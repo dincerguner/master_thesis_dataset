@@ -46,7 +46,7 @@ class ProcessorGlobalParamDecl extends ProcessorTemplateElem
   {
 
     // Just push, but don't append.
-    handler.pushElemTemplateElement(elem);
+    ;
   }
 
   /**

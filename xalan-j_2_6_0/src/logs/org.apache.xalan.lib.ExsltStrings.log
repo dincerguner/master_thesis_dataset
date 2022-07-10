@@ -1,0 +1,5 @@
+1:ROR:>=(int,int):==(int,int):org.apache.xalan.lib.ExsltStrings@align(java.lang.String,java.lang.String,java.lang.String):82:targetStr.length() >= paddingStr.length() |==> targetStr.length() == paddingStr.length()
+2:ROR:>=(int,int):>(int,int):org.apache.xalan.lib.ExsltStrings@align(java.lang.String,java.lang.String,java.lang.String):82:targetStr.length() >= paddingStr.length() |==> targetStr.length() > paddingStr.length()
+3:ROR:>=(int,int):TRUE(int,int):org.apache.xalan.lib.ExsltStrings@align(java.lang.String,java.lang.String,java.lang.String):82:targetStr.length() >= paddingStr.length() |==> true
+4:LVR:0:POS:org.apache.xalan.lib.ExsltStrings@align(java.lang.String,java.lang.String,java.lang.String):83:0 |==> 1
+5:LVR:0:NEG:org.apache.xalan.lib.ExsltStrings@align(java.lang.String,java.lang.String,java.lang.String):83:0 |==> -1

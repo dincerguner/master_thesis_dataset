@@ -45,7 +45,7 @@ public class ProcessorExsltFuncResult extends ProcessorTemplateElem
   {
     String msg = "";
 
-    super.startElement(handler, uri, localName, rawName, attributes);
+    ;
     ElemTemplateElement ancestor = handler.getElemTemplateElement().getParentElem();
     while (ancestor != null && !(ancestor instanceof ElemExsltFunction))
     {

@@ -1,0 +1,14 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):43:m_namespace = namespace |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):44:m_handlerClass = handlerClass |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):45:m_args = constructorArgs |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):47:m_sig = new Class[m_args.length] |==> <NO-OP>
+5:LVR:0:POS:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):48:0 |==> 1
+6:LVR:0:NEG:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):48:0 |==> -1
+7:ROR:<(int,int):!=(int,int):org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):48:i < m_args.length |==> i != m_args.length
+8:ROR:<(int,int):<=(int,int):org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):48:i < m_args.length |==> i <= m_args.length
+9:ROR:<(int,int):FALSE(int,int):org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):48:i < m_args.length |==> false
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):50:m_args[i] != null |==> true
+11:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):51:m_sig[i] = m_args[i].getClass() |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):54:m_sig = null |==> <NO-OP>
+13:STD:<BREAK>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespaceSupport@<init>(java.lang.String,java.lang.String,java.lang.Object[]):55:break; |==> <NO-OP>
+14:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.xalan.extensions.ExtensionNamespaceSupport@getNamespace():62:m_namespace |==> null

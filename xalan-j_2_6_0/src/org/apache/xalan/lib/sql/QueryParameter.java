@@ -37,11 +37,11 @@ public class QueryParameter
 
   public QueryParameter()
   {
-    m_type = -1;
-    m_name = null;
-    m_value = null;
-    m_output = false;
-    m_typeName = null;
+    m_type = 0;
+    ;
+    ;
+    m_output = true;
+    ;
   }
 
   /**
@@ -50,16 +50,16 @@ public class QueryParameter
    */
   public QueryParameter( String v, String t )
   {
-    m_name = null;
-    m_value = v;
-    m_output = false;
-    setTypeName(t);
+    ;
+    ;
+    m_output = true;
+    ;
   }
 
   public QueryParameter( String name, String value, String type, boolean out_flag )
   {
-    m_name = name;
-    m_value = value;
+    ;
+    ;
     m_output = out_flag;
     setTypeName(type);
   }

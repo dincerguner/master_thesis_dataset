@@ -48,7 +48,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setCdataSectionElements(java.util.Vector newValue)
   {
-    m_outputProperties.setQNameProperties(OutputKeys.CDATA_SECTION_ELEMENTS, newValue);
+    ;
   }
 
   /**
@@ -58,7 +58,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setDoctypePublic(String newValue)
   {
-    m_outputProperties.setProperty(OutputKeys.DOCTYPE_PUBLIC, newValue);
+    ;
   }
 
   /**
@@ -68,7 +68,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setDoctypeSystem(String newValue)
   {
-    m_outputProperties.setProperty(OutputKeys.DOCTYPE_SYSTEM, newValue);
+    ;
   }
 
   /**
@@ -78,7 +78,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setEncoding(String newValue)
   {
-    m_outputProperties.setProperty(OutputKeys.ENCODING, newValue);
+    ;
   }
 
   /**
@@ -88,7 +88,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setIndent(boolean newValue)
   {
-    m_outputProperties.setBooleanProperty(OutputKeys.INDENT, newValue);
+    ;
   }
 
   /**
@@ -98,7 +98,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setMediaType(String newValue)
   {
-    m_outputProperties.setProperty(OutputKeys.MEDIA_TYPE, newValue);
+    ;
   }
 
   /**
@@ -108,7 +108,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setMethod(org.apache.xml.utils.QName newValue)
   {
-    m_outputProperties.setQNameProperty(OutputKeys.METHOD, newValue);
+    ;
   }
 
   /**
@@ -118,7 +118,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setOmitXmlDeclaration(boolean newValue)
   {
-    m_outputProperties.setBooleanProperty(OutputKeys.OMIT_XML_DECLARATION, newValue);
+    ;
   }
 
   /**
@@ -128,7 +128,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setStandalone(boolean newValue)
   {
-    m_outputProperties.setBooleanProperty(OutputKeys.STANDALONE, newValue);
+    ;
   }
 
   /**
@@ -138,7 +138,7 @@ class ProcessorOutputElem extends XSLTElementProcessor
    */
   public void setVersion(String newValue)
   {
-    m_outputProperties.setProperty(OutputKeys.VERSION, newValue);
+    ;
   }
   
   /**

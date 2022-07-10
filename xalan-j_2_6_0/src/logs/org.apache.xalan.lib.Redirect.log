@@ -1,0 +1,2 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xalan.lib.Redirect:127:new Hashtable() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xalan.lib.Redirect:132:new Hashtable() |==> null

@@ -1,0 +1,10 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl == null |==> false
+2:LVR:0:POS:org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:0 |==> 1
+3:LVR:0:NEG:org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:0 |==> -1
+4:ROR:==(int,int):<=(int,int):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl.getLength() == 0 |==> nl.getLength() <= 0
+5:ROR:==(int,int):>=(int,int):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl.getLength() == 0 |==> nl.getLength() >= 0
+6:ROR:==(int,int):FALSE(int,int):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl.getLength() == 0 |==> false
+7:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl == null || nl.getLength() == 0 |==> nl == null != (nl.getLength() == 0)
+8:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl == null || nl.getLength() == 0 |==> nl == null
+9:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl == null || nl.getLength() == 0 |==> nl.getLength() == 0
+10:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xalan.lib.ExsltMath@max(org.w3c.dom.NodeList):69:nl == null || nl.getLength() == 0 |==> true

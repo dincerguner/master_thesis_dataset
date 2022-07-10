@@ -67,7 +67,7 @@ class SecuritySupport {
 	} catch (Exception ex) {
 	    // ignore it
 	} finally {
-	    if (ss == null)
+	    if (false)
 		ss = new SecuritySupport();
 	    securitySupport = ss;
 	}

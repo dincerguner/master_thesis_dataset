@@ -1,0 +1,20 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.xalan.extensions.ExtensionNamespacesManager:36:new Vector() |==> null
+2:LVR:POS:0:org.apache.xalan.extensions.ExtensionNamespacesManager:41:7 |==> 0
+3:LVR:POS:NEG:org.apache.xalan.extensions.ExtensionNamespacesManager:41:7 |==> -7
+4:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.xalan.extensions.ExtensionNamespacesManager:46:new Vector() |==> null
+5:STD:<CALL>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespacesManager@<init>():55:setPredefinedNamespaces() |==> <NO-OP>
+6:LVR:NEG:0:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):70:-1 |==> 0
+7:LVR:NEG:POS:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):70:-1 |==> 1
+8:ROR:==(int,int):<=(int,int):org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):70:namespaceIndex(namespace, m_extensions) == -1 |==> namespaceIndex(namespace, m_extensions) <= -1
+9:ROR:==(int,int):>=(int,int):org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):70:namespaceIndex(namespace, m_extensions) == -1 |==> namespaceIndex(namespace, m_extensions) >= -1
+10:ROR:==(int,int):FALSE(int,int):org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):70:namespaceIndex(namespace, m_extensions) == -1 |==> false
+11:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):72:namespaceIndex(namespace, m_predefExtensions) |==> 0
+12:LVR:NEG:0:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):73:-1 |==> 0
+13:LVR:NEG:POS:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):73:-1 |==> 1
+14:ROR:!=(int,int):<(int,int):org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):73:predef != -1 |==> predef < -1
+15:ROR:!=(int,int):>(int,int):org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):73:predef != -1 |==> predef > -1
+16:ROR:!=(int,int):TRUE(int,int):org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):73:predef != -1 |==> true
+17:STD:<CALL>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):74:m_extensions.addElement(m_predefExtensions.elementAt(predef)) |==> <NO-OP>
+18:COR:m_unregisteredExtensions.contains(namespace):TRUE:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):75:m_unregisteredExtensions.contains(namespace) |==> false
+19:COR:m_unregisteredExtensions.contains(namespace):FALSE:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):75:m_unregisteredExtensions.contains(namespace) |==> true
+20:STD:<CALL>:<NO-OP>:org.apache.xalan.extensions.ExtensionNamespacesManager@registerExtension(java.lang.String):76:m_unregisteredExtensions.addElement(namespace) |==> <NO-OP>

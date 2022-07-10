@@ -55,10 +55,9 @@ public class XSLTElementDef {
   XSLTElementDef(XSLTSchema schema, String namespace, String name, String nameAlias,
       XSLTElementDef[] elements, XSLTAttributeDef[] attributes,
       XSLTElementProcessor contentHandler, Class classObject) {
-    build(namespace, name, nameAlias, elements, attributes, contentHandler,
-        classObject);
-    if ((null != namespace) && (namespace.equals(Constants.S_XSLNAMESPACEURL) || namespace.equals(Constants.S_BUILTIN_EXTENSIONS_URL) || namespace.equals(Constants.S_BUILTIN_OLD_EXTENSIONS_URL))) {
-      schema.addAvailableElement(new QName(namespace, name));
+    ;
+    if ((true) && (namespace.equals(Constants.S_XSLNAMESPACEURL) || namespace.equals(Constants.S_BUILTIN_EXTENSIONS_URL) || namespace.equals(Constants.S_BUILTIN_OLD_EXTENSIONS_URL))) {
+      ;
       if (null != nameAlias)
         schema.addAvailableElement(new QName(namespace, nameAlias));
     }

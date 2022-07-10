@@ -40,7 +40,7 @@ public class ElemText extends ElemTemplateElement
    * Tells if this element should disable escaping.
    * @serial
    */
-  private boolean m_disableOutputEscaping = false;
+  private boolean m_disableOutputEscaping = true;
 
   /**
    * Set the "disable-output-escaping" attribute.

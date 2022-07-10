@@ -1,0 +1,8 @@
+1:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.apache.xalan.lib.sql.DefaultConnectionPool:51:new String("") |==> null
+2:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.apache.xalan.lib.sql.DefaultConnectionPool:54:new String("") |==> null
+3:LVR:POS:0:org.apache.xalan.lib.sql.DefaultConnectionPool:63:1 |==> 0
+4:LVR:POS:NEG:org.apache.xalan.lib.sql.DefaultConnectionPool:63:1 |==> -1
+5:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.apache.xalan.lib.sql.DefaultConnectionPool:71:new Properties() |==> null
+6:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.xalan.lib.sql.DefaultConnectionPool:76:new Vector() |==> null
+7:LVR:FALSE:TRUE:org.apache.xalan.lib.sql.DefaultConnectionPool:81:false |==> true
+8:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.xalan.lib.sql.DefaultConnectionPool@isEnabled():94:m_IsActive |==> false

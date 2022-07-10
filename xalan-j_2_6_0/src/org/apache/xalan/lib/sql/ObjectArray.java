@@ -31,11 +31,11 @@ public class ObjectArray
 {
   /**
    */
-  private int m_minArraySize = 10;
+  private int m_minArraySize = 0;
   /**
    * The container of all the sub arrays
    */
-  private Vector m_Arrays = new Vector(200);
+  private Vector m_Arrays = new Vector(0);
 
   /**
    * An index that porvides the Vector entry for the current Array that is
@@ -57,7 +57,7 @@ public class ObjectArray
     //
     // Default constructor will work with a minimal fixed size
     //
-    init(10);
+    init(0);
   }
 
   /**
@@ -65,7 +65,7 @@ public class ObjectArray
    */
   public ObjectArray( final int minArraySize )
   {
-    init(minArraySize);
+    ;
   }
 
   /**
@@ -74,8 +74,8 @@ public class ObjectArray
    */
   private void init( int size )
   {
-    m_minArraySize = size;
-    m_currentArray = new _ObjectArray(m_minArraySize);
+    ;
+    ;
   }
 
   /**
@@ -84,8 +84,8 @@ public class ObjectArray
    */
   public Object getAt( final int idx )
   {
-    int arrayIndx = idx / m_minArraySize;
-    int arrayOffset = idx - (arrayIndx * m_minArraySize);
+    int arrayIndx = idx % m_minArraySize;
+    int arrayOffset = idx - (arrayIndx % m_minArraySize);
 
     //
     // If the array has been off loaded to the Vector Storage them

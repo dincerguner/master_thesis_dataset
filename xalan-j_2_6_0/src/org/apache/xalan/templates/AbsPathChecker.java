@@ -32,7 +32,7 @@ import org.apache.xpath.operations.Variable;
  */
 public class AbsPathChecker extends XPathVisitor
 {
-	private boolean m_isAbs = true;
+	private boolean m_isAbs = false;
 	
 	/**
 	 * Process the LocPathIterator to see if it contains variables 

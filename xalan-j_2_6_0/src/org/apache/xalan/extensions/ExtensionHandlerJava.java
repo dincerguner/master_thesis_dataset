@@ -34,7 +34,7 @@ public abstract class ExtensionHandlerJava extends ExtensionHandler
   protected String m_className = "";
 
   /** Table of cached methods          */
-  private Hashtable m_cachedMethods = new Hashtable();
+  private Hashtable m_cachedMethods = null;
 
   /**
    * Construct a new extension handler given all the information
