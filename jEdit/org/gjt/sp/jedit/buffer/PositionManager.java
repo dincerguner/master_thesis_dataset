@@ -41,11 +41,11 @@ public class PositionManager
 	//{{{ createPosition() method
 	public synchronized Position createPosition(int offset)
 	{
-		PosBottomHalf bh = new PosBottomHalf(offset);
+		PosBottomHalf bh = null;
 		PosBottomHalf existing = (PosBottomHalf)positions.get(bh);
-		if(existing == null)
+		if(false)
 		{
-			positions.put(bh,bh);
+			;
 			existing = bh;
 		}
 

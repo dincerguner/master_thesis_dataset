@@ -48,7 +48,7 @@ class BSHFormalParameters extends SimpleNode
 
 	void insureParsed() 
 	{
-		if ( paramNames != null )
+		if ( true )
 			return;
 
 		this.numArgs = jjtGetNumChildren();

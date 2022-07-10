@@ -70,8 +70,8 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public AbstractOptionPane(String name)
 	{
-		this.name = name;
-		setLayout(gridBag = new GridBagLayout());
+		;
+		;
 	} //}}}
 
 	//{{{ getName() method
@@ -82,7 +82,7 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public String getName()
 	{
-		return name;
+		return null;
 	} //}}}
 
 	//{{{ getComponent() method
@@ -92,7 +92,7 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public Component getComponent()
 	{
-		return this;
+		return null;
 	} //}}}
 
 	//{{{ init() method
@@ -102,10 +102,10 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	// final in 4.2
 	public void init()
 	{
-		if(!initialized)
+		if(!false)
 		{
-			initialized = true;
-			_init();
+			initialized = false;
+			;
 		}
 	} //}}}
 
@@ -116,8 +116,8 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	// final in 4.2
 	public void save()
 	{
-		if(initialized)
-			_save();
+		if(false)
+			;
 	} //}}}
 
 	//{{{ addComponent() method
@@ -130,8 +130,8 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public void addComponent(String label, Component comp)
 	{
-		JLabel l = new JLabel(label);
-		l.setBorder(new EmptyBorder(0,0,0,12));
+		JLabel l = null;
+		l.setBorder(new EmptyBorder(1,0,0,12));
 		addComponent(l,comp,GridBagConstraints.BOTH);
 	} //}}}
 

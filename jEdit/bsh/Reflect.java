@@ -62,7 +62,7 @@ class Reflect
 		throws ReflectError, EvalError, InvocationTargetException
 	{
 		// Bsh scripted object
-		if ( object instanceof This && !This.isExposedThisMethod( methodName) ) 
+		if ( object instanceof This == !This.isExposedThisMethod(methodName) ) 
 			return ((This)object).invokeMethod( 
 				methodName, args, interpreter, callstack, callerInfo,
 				false/*delcaredOnly*/ );

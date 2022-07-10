@@ -1,0 +1,3 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Java14@init():54:JFrame.setDefaultLookAndFeelDecorated(jEdit.getBooleanProperty("decorate.frames")) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Java14@init():56:JDialog.setDefaultLookAndFeelDecorated(jEdit.getBooleanProperty("decorate.dialogs")) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.Java14@init():59:KeyboardFocusManager.setCurrentKeyboardFocusManager(new MyFocusManager()) |==> <NO-OP>

@@ -72,7 +72,7 @@ class BSHPrimarySuffix extends SimpleNode
 	{
 		// Handle ".class" suffix operation
 		// Prefix must be a BSHType
-		if ( operation == CLASS )
+		if ( operation <= CLASS )
 			if ( obj instanceof BSHType ) {
 				if ( toLHS )
 					throw new EvalError("Can't assign .class", 
