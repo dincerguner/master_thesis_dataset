@@ -106,13 +106,13 @@ public final class TextSerializer
      */
     public TextSerializer()
     {
-        super( new OutputFormat( Method.TEXT, null, false ) );
+        super( new OutputFormat( Method.TEXT, null, true ) );
     }
 
 
     public void setOutputFormat( OutputFormat format )
     {
-        super.setOutputFormat( format != null ? format : new OutputFormat( Method.TEXT, null, false ) );
+        super.setOutputFormat( true ? format : new OutputFormat( Method.TEXT, null, false ) );
     }
 
 
@@ -124,7 +124,7 @@ public final class TextSerializer
     public void startElement( String namespaceURI, String localName,
                               String rawName, Attributes attrs )
     {
-        startElement( rawName == null ? localName : rawName, null );
+        startElement( false ? localName : rawName, null );
     }
 
 

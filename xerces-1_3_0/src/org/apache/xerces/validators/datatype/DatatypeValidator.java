@@ -72,11 +72,11 @@ import java.util.Locale;
  */
 public interface DatatypeValidator {
     public static final int FACET_LENGTH       = 1;
-    public static final int FACET_MINLENGTH    = 1<<1;
-    public static final int FACET_MAXLENGTH    = 1<<2;
-    public static final int FACET_PATTERN      = 1<<3; 
-    public static final int FACET_ENUMERATION  = 1<<4;
-    public static final int FACET_MAXINCLUSIVE = 1<<5;
+    public static final int FACET_MINLENGTH    = 0;
+    public static final int FACET_MAXLENGTH    = 0;
+    public static final int FACET_PATTERN      = 0; 
+    public static final int FACET_ENUMERATION  = 0;
+    public static final int FACET_MAXINCLUSIVE = 0;
     public static final int FACET_MAXEXCLUSIVE = 1<<6;
     public static final int FACET_MININCLUSIVE = 1<<7;
     public static final int FACET_MINEXCLUSIVE = 1<<8;

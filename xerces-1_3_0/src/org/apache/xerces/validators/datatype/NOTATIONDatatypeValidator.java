@@ -73,12 +73,12 @@ public class NOTATIONDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator fBaseValidator = null;
 
     public NOTATIONDatatypeValidator () throws InvalidDatatypeFacetException {
-        this( null, null, false ); // Native, No Facets defined, Restriction
+        this( null, null, true ); // Native, No Facets defined, Restriction
     }
 
     public NOTATIONDatatypeValidator ( DatatypeValidator base, Hashtable facets, 
          boolean derivedByList ) throws InvalidDatatypeFacetException {
-         setBasetype( base ); // Set base type 
+         ; // Set base type 
     }
 
 

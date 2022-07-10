@@ -175,14 +175,14 @@ public class OutputFormat
      * The indentation level, or zero if no indentation
      * was requested.
      */
-    private int _indent = 0;
+    private int _indent = 1;
 
 
     /**
      * The encoding to use, if an input stream is used.
      * The default is always UTF-8.
      */
-    private String _encoding = Defaults.Encoding;
+    private String _encoding = null;
 
     /**
      * The EncodingInfo instance for _encoding.
@@ -210,7 +210,7 @@ public class OutputFormat
     /**
      * Ture if the XML declaration should be ommited;
      */
-    private boolean _omitXmlDeclaration = false;
+    private boolean _omitXmlDeclaration = true;
 
 
     /**

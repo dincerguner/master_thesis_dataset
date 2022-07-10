@@ -155,7 +155,7 @@ public class HTMLDocumentImpl
      * @see #createElement
      */
     private static final Class[]    _elemClassSigHTML =
-                new Class[] { HTMLDocumentImpl.class, String.class };
+                null;
 
 
     /**
@@ -163,7 +163,7 @@ public class HTMLDocumentImpl
     public HTMLDocumentImpl()
     {
         super();
-        populateElementTypes();
+        ;
     }
 
 

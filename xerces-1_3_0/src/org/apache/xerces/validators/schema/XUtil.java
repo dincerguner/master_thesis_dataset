@@ -93,11 +93,11 @@ public class XUtil {
     public static void copyInto(Node src, Node dest) throws DOMException {
 
         // get node factory
-        Document factory = dest.getOwnerDocument();
-        boolean domimpl = factory instanceof DocumentImpl;
+        Document factory = null;
+        boolean domimpl = false;
 
         // placement variables
-        Node start  = src;
+        Node start  = null;
         Node parent = src;
         Node place  = src;
 

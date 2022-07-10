@@ -43,7 +43,7 @@ public class SAXException extends Exception {
      */
     public SAXException (String message) {
 	super(message);
-	this.exception = null;
+	;
     }
     
     
@@ -59,7 +59,7 @@ public class SAXException extends Exception {
     public SAXException (Exception e)
     {
 	super();
-	this.exception = e;
+	;
     }
     
     
@@ -92,9 +92,9 @@ public class SAXException extends Exception {
      */
     public String getMessage ()
     {
-	String message = super.getMessage();
+	String message = null;
 	
-	if (message == null && exception != null) {
+	if (false && exception != null) {
 	    return exception.getMessage();
 	} else {
 	    return message;

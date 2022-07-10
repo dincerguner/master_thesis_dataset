@@ -1,0 +1,735 @@
+1:EVR:<TYPE_CAST(byte)>:<DEFAULT>:org.apache.xerces.utils.Base64:84:(byte)'=' |==> 0
+2:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.xerces.utils.Base64:86:new byte[BASELENGTH] |==> null
+3:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.xerces.utils.Base64:87:new byte[LOOKUPLENGTH] |==> null
+4:LVR:0:POS:org.apache.xerces.utils.Base64:92:0 |==> 1
+5:LVR:0:NEG:org.apache.xerces.utils.Base64:92:0 |==> -1
+6:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.Base64:92:i < BASELENGTH |==> i != BASELENGTH
+7:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.Base64:92:i < BASELENGTH |==> i <= BASELENGTH
+8:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.Base64:92:i < BASELENGTH |==> false
+9:LVR:NEG:0:org.apache.xerces.utils.Base64:93:-1 |==> 0
+10:LVR:NEG:POS:org.apache.xerces.utils.Base64:93:-1 |==> 1
+11:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:93:base64Alphabet[i] = -1 |==> <NO-OP>
+12:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.Base64:95:i >= 'A' |==> i == 'A'
+13:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.Base64:95:i >= 'A' |==> i > 'A'
+14:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64:95:i >= 'A' |==> true
+15:AOR:-(int,int):%(int,int):org.apache.xerces.utils.Base64:96:i - 'A' |==> i % 'A'
+16:AOR:-(int,int):*(int,int):org.apache.xerces.utils.Base64:96:i - 'A' |==> i * 'A'
+17:AOR:-(int,int):+(int,int):org.apache.xerces.utils.Base64:96:i - 'A' |==> i + 'A'
+18:AOR:-(int,int):/(int,int):org.apache.xerces.utils.Base64:96:i - 'A' |==> i / 'A'
+19:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:96:base64Alphabet[i] = (byte)(i - 'A') |==> <NO-OP>
+20:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.Base64:98:i >= 'a' |==> i == 'a'
+21:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.Base64:98:i >= 'a' |==> i > 'a'
+22:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64:98:i >= 'a' |==> true
+23:AOR:-(int,int):%(int,int):org.apache.xerces.utils.Base64:99:i - 'a' |==> i % 'a'
+24:AOR:-(int,int):*(int,int):org.apache.xerces.utils.Base64:99:i - 'a' |==> i * 'a'
+25:AOR:-(int,int):+(int,int):org.apache.xerces.utils.Base64:99:i - 'a' |==> i + 'a'
+26:AOR:-(int,int):/(int,int):org.apache.xerces.utils.Base64:99:i - 'a' |==> i / 'a'
+27:LVR:POS:0:org.apache.xerces.utils.Base64:99:26 |==> 0
+28:LVR:POS:NEG:org.apache.xerces.utils.Base64:99:26 |==> -26
+29:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64:99:i - 'a' + 26 |==> (i - 'a') % 26
+30:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64:99:i - 'a' + 26 |==> (i - 'a') * 26
+31:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64:99:i - 'a' + 26 |==> i - 'a' - 26
+32:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64:99:i - 'a' + 26 |==> (i - 'a') / 26
+33:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:99:base64Alphabet[i] = (byte)(i - 'a' + 26) |==> <NO-OP>
+34:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.Base64:102:i >= '0' |==> i == '0'
+35:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.Base64:102:i >= '0' |==> i > '0'
+36:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64:102:i >= '0' |==> true
+37:AOR:-(int,int):%(int,int):org.apache.xerces.utils.Base64:103:i - '0' |==> i % '0'
+38:AOR:-(int,int):*(int,int):org.apache.xerces.utils.Base64:103:i - '0' |==> i * '0'
+39:AOR:-(int,int):+(int,int):org.apache.xerces.utils.Base64:103:i - '0' |==> i + '0'
+40:AOR:-(int,int):/(int,int):org.apache.xerces.utils.Base64:103:i - '0' |==> i / '0'
+41:LVR:POS:0:org.apache.xerces.utils.Base64:103:52 |==> 0
+42:LVR:POS:NEG:org.apache.xerces.utils.Base64:103:52 |==> -52
+43:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64:103:i - '0' + 52 |==> (i - '0') % 52
+44:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64:103:i - '0' + 52 |==> (i - '0') * 52
+45:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64:103:i - '0' + 52 |==> i - '0' - 52
+46:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64:103:i - '0' + 52 |==> (i - '0') / 52
+47:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:103:base64Alphabet[i] = (byte)(i - '0' + 52) |==> <NO-OP>
+48:LVR:POS:0:org.apache.xerces.utils.Base64:106:62 |==> 0
+49:LVR:POS:NEG:org.apache.xerces.utils.Base64:106:62 |==> -62
+50:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:106:base64Alphabet['+'] = 62 |==> <NO-OP>
+51:LVR:POS:0:org.apache.xerces.utils.Base64:107:63 |==> 0
+52:LVR:POS:NEG:org.apache.xerces.utils.Base64:107:63 |==> -63
+53:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:107:base64Alphabet['/'] = 63 |==> <NO-OP>
+54:LVR:0:POS:org.apache.xerces.utils.Base64:109:0 |==> 1
+55:LVR:0:NEG:org.apache.xerces.utils.Base64:109:0 |==> -1
+56:LVR:POS:0:org.apache.xerces.utils.Base64:109:25 |==> 0
+57:LVR:POS:NEG:org.apache.xerces.utils.Base64:109:25 |==> -25
+58:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.Base64:109:i <= 25 |==> i < 25
+59:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.Base64:109:i <= 25 |==> i == 25
+60:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64:109:i <= 25 |==> true
+61:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64:110:'A' + i |==> 'A' % i
+62:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64:110:'A' + i |==> 'A' * i
+63:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64:110:'A' + i |==> 'A' - i
+64:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64:110:'A' + i |==> 'A' / i
+65:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:110:lookUpBase64Alphabet[i] = (byte)('A' + i) |==> <NO-OP>
+66:LVR:POS:0:org.apache.xerces.utils.Base64:112:26 |==> 0
+67:LVR:POS:NEG:org.apache.xerces.utils.Base64:112:26 |==> -26
+68:LVR:0:POS:org.apache.xerces.utils.Base64:112:0 |==> 1
+69:LVR:0:NEG:org.apache.xerces.utils.Base64:112:0 |==> -1
+70:LVR:POS:0:org.apache.xerces.utils.Base64:112:51 |==> 0
+71:LVR:POS:NEG:org.apache.xerces.utils.Base64:112:51 |==> -51
+72:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.Base64:112:i <= 51 |==> i < 51
+73:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.Base64:112:i <= 51 |==> i == 51
+74:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64:112:i <= 51 |==> true
+75:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64:113:'a' + j |==> 'a' % j
+76:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64:113:'a' + j |==> 'a' * j
+77:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64:113:'a' + j |==> 'a' - j
+78:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64:113:'a' + j |==> 'a' / j
+79:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:113:lookUpBase64Alphabet[i] = (byte)('a' + j) |==> <NO-OP>
+80:LVR:POS:0:org.apache.xerces.utils.Base64:115:52 |==> 0
+81:LVR:POS:NEG:org.apache.xerces.utils.Base64:115:52 |==> -52
+82:LVR:0:POS:org.apache.xerces.utils.Base64:115:0 |==> 1
+83:LVR:0:NEG:org.apache.xerces.utils.Base64:115:0 |==> -1
+84:LVR:POS:0:org.apache.xerces.utils.Base64:115:61 |==> 0
+85:LVR:POS:NEG:org.apache.xerces.utils.Base64:115:61 |==> -61
+86:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.Base64:115:i <= 61 |==> i < 61
+87:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.Base64:115:i <= 61 |==> i == 61
+88:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64:115:i <= 61 |==> true
+89:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64:116:'0' + j |==> '0' % j
+90:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64:116:'0' + j |==> '0' * j
+91:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64:116:'0' + j |==> '0' - j
+92:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64:116:'0' + j |==> '0' / j
+93:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:116:lookUpBase64Alphabet[i] = (byte)('0' + j) |==> <NO-OP>
+94:LVR:POS:0:org.apache.xerces.utils.Base64:117:62 |==> 0
+95:LVR:POS:NEG:org.apache.xerces.utils.Base64:117:62 |==> -62
+96:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:117:lookUpBase64Alphabet[62] = (byte)'+' |==> <NO-OP>
+97:LVR:POS:0:org.apache.xerces.utils.Base64:118:63 |==> 0
+98:LVR:POS:NEG:org.apache.xerces.utils.Base64:118:63 |==> -63
+99:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64:118:lookUpBase64Alphabet[63] = (byte)'/' |==> <NO-OP>
+100:EVR:<PARENTHESIZED(boolean)>:<DEFAULT>:org.apache.xerces.utils.Base64@isBase64(java.lang.String):123:(isArrayByteBase64(isValidString.getBytes())) |==> false
+101:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@isBase64(byte):129:octect == PAD |==> octect <= PAD
+102:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@isBase64(byte):129:octect == PAD |==> octect >= PAD
+103:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@isBase64(byte):129:octect == PAD |==> false
+104:LVR:NEG:0:org.apache.xerces.utils.Base64@isBase64(byte):129:-1 |==> 0
+105:LVR:NEG:POS:org.apache.xerces.utils.Base64@isBase64(byte):129:-1 |==> 1
+106:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.Base64@isBase64(byte):129:base64Alphabet[octect] != -1 |==> base64Alphabet[octect] < -1
+107:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.Base64@isBase64(byte):129:base64Alphabet[octect] != -1 |==> base64Alphabet[octect] > -1
+108:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64@isBase64(byte):129:base64Alphabet[octect] != -1 |==> true
+109:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.Base64@isBase64(byte):129:octect == PAD || base64Alphabet[octect] != -1 |==> octect == PAD != (base64Alphabet[octect] != -1)
+110:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.Base64@isBase64(byte):129:octect == PAD || base64Alphabet[octect] != -1 |==> octect == PAD
+111:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.Base64@isBase64(byte):129:octect == PAD || base64Alphabet[octect] != -1 |==> base64Alphabet[octect] != -1
+112:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.Base64@isBase64(byte):129:octect == PAD || base64Alphabet[octect] != -1 |==> true
+113:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):134:arrayOctect.length |==> 0
+114:LVR:0:POS:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):135:0 |==> 1
+115:LVR:0:NEG:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):135:0 |==> -1
+116:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):135:length == 0 |==> length <= 0
+117:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):135:length == 0 |==> length >= 0
+118:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):135:length == 0 |==> false
+119:LVR:FALSE:TRUE:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):136:false |==> true
+120:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):136:return Config.__M_NO == 0 && Config.COVERED(119, 119) ? false : Config.__M_NO == 119 ? true : false; |==> <NO-OP>
+121:LVR:0:POS:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):137:0 |==> 1
+122:LVR:0:NEG:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):137:0 |==> -1
+123:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):137:i < length |==> i != length
+124:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):137:i < length |==> i <= length
+125:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):137:i < length |==> false
+126:LVR:FALSE:TRUE:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):138:false |==> true
+127:ROR:==(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):138:Base64.isBase64(arrayOctect[i]) == false |==> false
+128:ROR:==(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):138:Base64.isBase64(arrayOctect[i]) == false |==> Base64.isBase64(arrayOctect[i])
+129:ROR:==(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):138:Base64.isBase64(arrayOctect[i]) == false |==> false
+130:LVR:FALSE:TRUE:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):139:false |==> true
+131:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):139:return Config.__M_NO == 0 && Config.COVERED(130, 130) ? false : Config.__M_NO == 130 ? true : false; |==> <NO-OP>
+132:LVR:TRUE:FALSE:org.apache.xerces.utils.Base64@isArrayByteBase64(byte[]):141:true |==> false
+133:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):151:binaryData.length * EIGHTBIT |==> binaryData.length % EIGHTBIT
+134:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):151:binaryData.length * EIGHTBIT |==> binaryData.length + EIGHTBIT
+135:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):151:binaryData.length * EIGHTBIT |==> binaryData.length - EIGHTBIT
+136:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):151:binaryData.length * EIGHTBIT |==> binaryData.length / EIGHTBIT
+137:AOR:%(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):152:lengthDataBits % TWENTYFOURBITGROUP |==> lengthDataBits * TWENTYFOURBITGROUP
+138:AOR:%(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):152:lengthDataBits % TWENTYFOURBITGROUP |==> lengthDataBits + TWENTYFOURBITGROUP
+139:AOR:%(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):152:lengthDataBits % TWENTYFOURBITGROUP |==> lengthDataBits - TWENTYFOURBITGROUP
+140:AOR:%(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):152:lengthDataBits % TWENTYFOURBITGROUP |==> lengthDataBits / TWENTYFOURBITGROUP
+141:AOR:/(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):153:lengthDataBits / TWENTYFOURBITGROUP |==> lengthDataBits % TWENTYFOURBITGROUP
+142:AOR:/(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):153:lengthDataBits / TWENTYFOURBITGROUP |==> lengthDataBits * TWENTYFOURBITGROUP
+143:AOR:/(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):153:lengthDataBits / TWENTYFOURBITGROUP |==> lengthDataBits + TWENTYFOURBITGROUP
+144:AOR:/(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):153:lengthDataBits / TWENTYFOURBITGROUP |==> lengthDataBits - TWENTYFOURBITGROUP
+145:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):157:0 |==> 1
+146:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):157:0 |==> -1
+147:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):157:fewerThan24bits != 0 |==> fewerThan24bits < 0
+148:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):157:fewerThan24bits != 0 |==> fewerThan24bits > 0
+149:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):157:fewerThan24bits != 0 |==> true
+150:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):158:1 |==> 0
+151:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):158:1 |==> -1
+152:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:numberTriplets + 1 |==> numberTriplets % 1
+153:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:numberTriplets + 1 |==> numberTriplets * 1
+154:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:numberTriplets + 1 |==> numberTriplets - 1
+155:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:numberTriplets + 1 |==> numberTriplets / 1
+156:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):158:4 |==> 0
+157:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):158:4 |==> -4
+158:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:(numberTriplets + 1) * 4 |==> (numberTriplets + 1) % 4
+159:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:(numberTriplets + 1) * 4 |==> (numberTriplets + 1) + 4
+160:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:(numberTriplets + 1) * 4 |==> (numberTriplets + 1) - 4
+161:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):158:(numberTriplets + 1) * 4 |==> (numberTriplets + 1) / 4
+162:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):158:encodedData = new byte[(numberTriplets + 1) * 4] |==> <NO-OP>
+163:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):160:4 |==> 0
+164:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):160:4 |==> -4
+165:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):160:numberTriplets * 4 |==> numberTriplets % 4
+166:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):160:numberTriplets * 4 |==> numberTriplets + 4
+167:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):160:numberTriplets * 4 |==> numberTriplets - 4
+168:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):160:numberTriplets * 4 |==> numberTriplets / 4
+169:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):160:encodedData = new byte[numberTriplets * 4] |==> <NO-OP>
+170:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> 1
+171:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> -1
+172:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> 1
+173:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> -1
+174:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> 1
+175:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> -1
+176:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> 1
+177:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> -1
+178:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> 1
+179:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):162:0 |==> -1
+180:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):164:0 |==> 1
+181:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):164:0 |==> -1
+182:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):165:0 |==> 1
+183:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):165:0 |==> -1
+184:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):166:0 |==> 1
+185:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):166:0 |==> -1
+186:COR:fDebug:TRUE:org.apache.xerces.utils.Base64@encode(byte[]):167:fDebug |==> false
+187:COR:fDebug:FALSE:org.apache.xerces.utils.Base64@encode(byte[]):167:fDebug |==> true
+188:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):168:System.out.println("number of triplets = " + numberTriplets) |==> <NO-OP>
+189:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):170:0 |==> 1
+190:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):170:0 |==> -1
+191:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):170:i = 0 |==> <NO-OP>
+192:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):170:i < numberTriplets |==> i != numberTriplets
+193:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):170:i < numberTriplets |==> i <= numberTriplets
+194:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):170:i < numberTriplets |==> false
+195:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):172:3 |==> 0
+196:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):172:3 |==> -3
+197:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):172:i * 3 |==> i % 3
+198:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):172:i * 3 |==> i + 3
+199:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):172:i * 3 |==> i - 3
+200:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):172:i * 3 |==> i / 3
+201:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):172:dataIndex = i * 3 |==> <NO-OP>
+202:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):173:b1 = binaryData[dataIndex] |==> <NO-OP>
+203:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):174:1 |==> 0
+204:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):174:1 |==> -1
+205:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):174:dataIndex + 1 |==> dataIndex % 1
+206:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):174:dataIndex + 1 |==> dataIndex * 1
+207:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):174:dataIndex + 1 |==> dataIndex - 1
+208:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):174:dataIndex + 1 |==> dataIndex / 1
+209:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):174:b2 = binaryData[dataIndex + 1] |==> <NO-OP>
+210:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):175:2 |==> 0
+211:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):175:2 |==> -2
+212:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):175:dataIndex + 2 |==> dataIndex % 2
+213:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):175:dataIndex + 2 |==> dataIndex * 2
+214:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):175:dataIndex + 2 |==> dataIndex - 2
+215:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):175:dataIndex + 2 |==> dataIndex / 2
+216:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):175:b3 = binaryData[dataIndex + 2] |==> <NO-OP>
+217:COR:fDebug:TRUE:org.apache.xerces.utils.Base64@encode(byte[]):177:fDebug |==> false
+218:COR:fDebug:FALSE:org.apache.xerces.utils.Base64@encode(byte[]):177:fDebug |==> true
+219:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):178:System.out.println("b1= " + b1 + ", b2= " + b2 + ", b3= " + b3) |==> <NO-OP>
+220:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):181:15 |==> 0
+221:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):181:15 |==> -15
+222:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):181:b2 & 15 |==> b2 ^ 15
+223:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):181:b2 & 15 |==> b2 | 15
+224:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):181:l = (byte)(b2 & 15) |==> <NO-OP>
+225:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):182:3 |==> 0
+226:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):182:3 |==> -3
+227:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):182:b1 & 3 |==> b1 ^ 3
+228:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):182:b1 & 3 |==> b1 | 3
+229:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):182:k = (byte)(b1 & 3) |==> <NO-OP>
+230:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):184:4 |==> 0
+231:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):184:4 |==> -4
+232:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):184:i * 4 |==> i % 4
+233:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):184:i * 4 |==> i + 4
+234:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):184:i * 4 |==> i - 4
+235:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):184:i * 4 |==> i / 4
+236:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):184:encodedIndex = i * 4 |==> <NO-OP>
+237:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:b1 & SIGN |==> b1 ^ SIGN
+238:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:b1 & SIGN |==> b1 | SIGN
+239:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):185:0 |==> 1
+240:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):185:0 |==> -1
+241:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:(b1 & SIGN) == 0 |==> (b1 & SIGN) <= 0
+242:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:(b1 & SIGN) == 0 |==> (b1 & SIGN) >= 0
+243:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:(b1 & SIGN) == 0 |==> false
+244:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):185:2 |==> 0
+245:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):185:2 |==> -2
+246:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:b1 >> 2 |==> b1 << 2
+247:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:b1 >> 2 |==> b1 >>> 2
+248:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):185:2 |==> 0
+249:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):185:2 |==> -2
+250:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:(b1) >> 2 |==> (b1) << 2
+251:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:(b1) >> 2 |==> (b1) >>> 2
+252:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):185:192 |==> 0
+253:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):185:192 |==> -192
+254:LOR:^(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:(b1) >> 2 ^ 192 |==> (b1) >> 2 & 192
+255:LOR:^(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):185:(b1) >> 2 ^ 192 |==> (b1) >> 2 | 192
+256:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:b2 & SIGN |==> b2 ^ SIGN
+257:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:b2 & SIGN |==> b2 | SIGN
+258:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):187:0 |==> 1
+259:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):187:0 |==> -1
+260:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:(b2 & SIGN) == 0 |==> (b2 & SIGN) <= 0
+261:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:(b2 & SIGN) == 0 |==> (b2 & SIGN) >= 0
+262:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:(b2 & SIGN) == 0 |==> false
+263:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):187:4 |==> 0
+264:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):187:4 |==> -4
+265:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:b2 >> 4 |==> b2 << 4
+266:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:b2 >> 4 |==> b2 >>> 4
+267:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):187:4 |==> 0
+268:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):187:4 |==> -4
+269:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:(b2) >> 4 |==> (b2) << 4
+270:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:(b2) >> 4 |==> (b2) >>> 4
+271:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):187:240 |==> 0
+272:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):187:240 |==> -240
+273:LOR:^(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:(b2) >> 4 ^ 240 |==> (b2) >> 4 & 240
+274:LOR:^(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):187:(b2) >> 4 ^ 240 |==> (b2) >> 4 | 240
+275:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:b3 & SIGN |==> b3 ^ SIGN
+276:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:b3 & SIGN |==> b3 | SIGN
+277:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):188:0 |==> 1
+278:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):188:0 |==> -1
+279:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:(b3 & SIGN) == 0 |==> (b3 & SIGN) <= 0
+280:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:(b3 & SIGN) == 0 |==> (b3 & SIGN) >= 0
+281:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:(b3 & SIGN) == 0 |==> false
+282:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):188:6 |==> 0
+283:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):188:6 |==> -6
+284:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:b3 >> 6 |==> b3 << 6
+285:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:b3 >> 6 |==> b3 >>> 6
+286:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):188:6 |==> 0
+287:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):188:6 |==> -6
+288:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:(b3) >> 6 |==> (b3) << 6
+289:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:(b3) >> 6 |==> (b3) >>> 6
+290:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):188:252 |==> 0
+291:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):188:252 |==> -252
+292:LOR:^(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:(b3) >> 6 ^ 252 |==> (b3) >> 6 & 252
+293:LOR:^(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):188:(b3) >> 6 ^ 252 |==> (b3) >> 6 | 252
+294:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):190:encodedData[encodedIndex] = lookUpBase64Alphabet[val1] |==> <NO-OP>
+295:COR:fDebug:TRUE:org.apache.xerces.utils.Base64@encode(byte[]):191:fDebug |==> false
+296:COR:fDebug:FALSE:org.apache.xerces.utils.Base64@encode(byte[]):191:fDebug |==> true
+297:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):192:System.out.println("val2 = " + val2) |==> <NO-OP>
+298:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):193:4 |==> 0
+299:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):193:4 |==> -4
+300:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):193:k << 4 |==> k >> 4
+301:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):193:k << 4 |==> k >>> 4
+302:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):193:System.out.println("k4   = " + (k << 4)) |==> <NO-OP>
+303:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):194:4 |==> 0
+304:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):194:4 |==> -4
+305:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):194:k << 4 |==> k >> 4
+306:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):194:k << 4 |==> k >>> 4
+307:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):194:val2 | (k << 4) |==> val2 & (k << 4)
+308:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):194:val2 | (k << 4) |==> val2 ^ (k << 4)
+309:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):194:System.out.println("vak  = " + (val2 | (k << 4))) |==> <NO-OP>
+310:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):197:1 |==> 0
+311:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):197:1 |==> -1
+312:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:encodedIndex + 1 |==> encodedIndex % 1
+313:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:encodedIndex + 1 |==> encodedIndex * 1
+314:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:encodedIndex + 1 |==> encodedIndex - 1
+315:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:encodedIndex + 1 |==> encodedIndex / 1
+316:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):197:4 |==> 0
+317:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):197:4 |==> -4
+318:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:k << 4 |==> k >> 4
+319:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:k << 4 |==> k >>> 4
+320:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:val2 | (k << 4) |==> val2 & (k << 4)
+321:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):197:val2 | (k << 4) |==> val2 ^ (k << 4)
+322:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):197:encodedData[encodedIndex + 1] = lookUpBase64Alphabet[val2 | (k << 4)] |==> <NO-OP>
+323:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):198:2 |==> 0
+324:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):198:2 |==> -2
+325:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:encodedIndex + 2 |==> encodedIndex % 2
+326:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:encodedIndex + 2 |==> encodedIndex * 2
+327:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:encodedIndex + 2 |==> encodedIndex - 2
+328:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:encodedIndex + 2 |==> encodedIndex / 2
+329:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):198:2 |==> 0
+330:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):198:2 |==> -2
+331:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:l << 2 |==> l >> 2
+332:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:l << 2 |==> l >>> 2
+333:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:(l << 2) | val3 |==> (l << 2) & val3
+334:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):198:(l << 2) | val3 |==> (l << 2) ^ val3
+335:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):198:encodedData[encodedIndex + 2] = lookUpBase64Alphabet[(l << 2) | val3] |==> <NO-OP>
+336:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):199:3 |==> 0
+337:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):199:3 |==> -3
+338:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):199:encodedIndex + 3 |==> encodedIndex % 3
+339:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):199:encodedIndex + 3 |==> encodedIndex * 3
+340:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):199:encodedIndex + 3 |==> encodedIndex - 3
+341:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):199:encodedIndex + 3 |==> encodedIndex / 3
+342:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):199:63 |==> 0
+343:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):199:63 |==> -63
+344:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):199:b3 & 63 |==> b3 ^ 63
+345:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):199:b3 & 63 |==> b3 | 63
+346:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):199:encodedData[encodedIndex + 3] = lookUpBase64Alphabet[b3 & 63] |==> <NO-OP>
+347:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):203:3 |==> 0
+348:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):203:3 |==> -3
+349:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):203:i * 3 |==> i % 3
+350:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):203:i * 3 |==> i + 3
+351:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):203:i * 3 |==> i - 3
+352:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):203:i * 3 |==> i / 3
+353:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):203:dataIndex = i * 3 |==> <NO-OP>
+354:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):204:4 |==> 0
+355:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):204:4 |==> -4
+356:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):204:i * 4 |==> i % 4
+357:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@encode(byte[]):204:i * 4 |==> i + 4
+358:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):204:i * 4 |==> i - 4
+359:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):204:i * 4 |==> i / 4
+360:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):204:encodedIndex = i * 4 |==> <NO-OP>
+361:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):205:fewerThan24bits == EIGHTBIT |==> fewerThan24bits <= EIGHTBIT
+362:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):205:fewerThan24bits == EIGHTBIT |==> fewerThan24bits >= EIGHTBIT
+363:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):205:fewerThan24bits == EIGHTBIT |==> false
+364:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):206:b1 = binaryData[dataIndex] |==> <NO-OP>
+365:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):207:3 |==> 0
+366:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):207:3 |==> -3
+367:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):207:b1 & 3 |==> b1 ^ 3
+368:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):207:b1 & 3 |==> b1 | 3
+369:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):207:k = (byte)(b1 & 3) |==> <NO-OP>
+370:COR:fDebug:TRUE:org.apache.xerces.utils.Base64@encode(byte[]):208:fDebug |==> false
+371:COR:fDebug:FALSE:org.apache.xerces.utils.Base64@encode(byte[]):208:fDebug |==> true
+372:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):209:System.out.println("b1=" + b1) |==> <NO-OP>
+373:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):210:2 |==> 0
+374:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):210:2 |==> -2
+375:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):210:b1 >> 2 |==> b1 << 2
+376:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):210:b1 >> 2 |==> b1 >>> 2
+377:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):210:System.out.println("b1<<2 = " + (b1 >> 2)) |==> <NO-OP>
+378:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:b1 & SIGN |==> b1 ^ SIGN
+379:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:b1 & SIGN |==> b1 | SIGN
+380:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):212:0 |==> 1
+381:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):212:0 |==> -1
+382:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:(b1 & SIGN) == 0 |==> (b1 & SIGN) <= 0
+383:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:(b1 & SIGN) == 0 |==> (b1 & SIGN) >= 0
+384:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:(b1 & SIGN) == 0 |==> false
+385:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):212:2 |==> 0
+386:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):212:2 |==> -2
+387:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:b1 >> 2 |==> b1 << 2
+388:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:b1 >> 2 |==> b1 >>> 2
+389:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):212:2 |==> 0
+390:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):212:2 |==> -2
+391:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:(b1) >> 2 |==> (b1) << 2
+392:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:(b1) >> 2 |==> (b1) >>> 2
+393:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):212:192 |==> 0
+394:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):212:192 |==> -192
+395:LOR:^(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:(b1) >> 2 ^ 192 |==> (b1) >> 2 & 192
+396:LOR:^(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):212:(b1) >> 2 ^ 192 |==> (b1) >> 2 | 192
+397:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):213:encodedData[encodedIndex] = lookUpBase64Alphabet[val1] |==> <NO-OP>
+398:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):214:1 |==> 0
+399:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):214:1 |==> -1
+400:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):214:encodedIndex + 1 |==> encodedIndex % 1
+401:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):214:encodedIndex + 1 |==> encodedIndex * 1
+402:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):214:encodedIndex + 1 |==> encodedIndex - 1
+403:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):214:encodedIndex + 1 |==> encodedIndex / 1
+404:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):214:4 |==> 0
+405:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):214:4 |==> -4
+406:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):214:k << 4 |==> k >> 4
+407:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):214:k << 4 |==> k >>> 4
+408:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):214:encodedData[encodedIndex + 1] = lookUpBase64Alphabet[k << 4] |==> <NO-OP>
+409:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):215:2 |==> 0
+410:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):215:2 |==> -2
+411:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):215:encodedIndex + 2 |==> encodedIndex % 2
+412:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):215:encodedIndex + 2 |==> encodedIndex * 2
+413:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):215:encodedIndex + 2 |==> encodedIndex - 2
+414:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):215:encodedIndex + 2 |==> encodedIndex / 2
+415:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):215:encodedData[encodedIndex + 2] = PAD |==> <NO-OP>
+416:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):216:3 |==> 0
+417:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):216:3 |==> -3
+418:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):216:encodedIndex + 3 |==> encodedIndex % 3
+419:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):216:encodedIndex + 3 |==> encodedIndex * 3
+420:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):216:encodedIndex + 3 |==> encodedIndex - 3
+421:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):216:encodedIndex + 3 |==> encodedIndex / 3
+422:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):216:encodedData[encodedIndex + 3] = PAD |==> <NO-OP>
+423:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):217:fewerThan24bits == SIXTEENBIT |==> fewerThan24bits <= SIXTEENBIT
+424:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):217:fewerThan24bits == SIXTEENBIT |==> fewerThan24bits >= SIXTEENBIT
+425:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):217:fewerThan24bits == SIXTEENBIT |==> false
+426:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):219:b1 = binaryData[dataIndex] |==> <NO-OP>
+427:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):220:1 |==> 0
+428:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):220:1 |==> -1
+429:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):220:dataIndex + 1 |==> dataIndex % 1
+430:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):220:dataIndex + 1 |==> dataIndex * 1
+431:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):220:dataIndex + 1 |==> dataIndex - 1
+432:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):220:dataIndex + 1 |==> dataIndex / 1
+433:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):220:b2 = binaryData[dataIndex + 1] |==> <NO-OP>
+434:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):221:15 |==> 0
+435:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):221:15 |==> -15
+436:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):221:b2 & 15 |==> b2 ^ 15
+437:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):221:b2 & 15 |==> b2 | 15
+438:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):221:l = (byte)(b2 & 15) |==> <NO-OP>
+439:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):222:3 |==> 0
+440:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):222:3 |==> -3
+441:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):222:b1 & 3 |==> b1 ^ 3
+442:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):222:b1 & 3 |==> b1 | 3
+443:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):222:k = (byte)(b1 & 3) |==> <NO-OP>
+444:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:b1 & SIGN |==> b1 ^ SIGN
+445:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:b1 & SIGN |==> b1 | SIGN
+446:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):224:0 |==> 1
+447:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):224:0 |==> -1
+448:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:(b1 & SIGN) == 0 |==> (b1 & SIGN) <= 0
+449:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:(b1 & SIGN) == 0 |==> (b1 & SIGN) >= 0
+450:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:(b1 & SIGN) == 0 |==> false
+451:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):224:2 |==> 0
+452:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):224:2 |==> -2
+453:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:b1 >> 2 |==> b1 << 2
+454:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:b1 >> 2 |==> b1 >>> 2
+455:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):224:2 |==> 0
+456:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):224:2 |==> -2
+457:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:(b1) >> 2 |==> (b1) << 2
+458:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:(b1) >> 2 |==> (b1) >>> 2
+459:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):224:192 |==> 0
+460:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):224:192 |==> -192
+461:LOR:^(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:(b1) >> 2 ^ 192 |==> (b1) >> 2 & 192
+462:LOR:^(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):224:(b1) >> 2 ^ 192 |==> (b1) >> 2 | 192
+463:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:b2 & SIGN |==> b2 ^ SIGN
+464:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:b2 & SIGN |==> b2 | SIGN
+465:LVR:0:POS:org.apache.xerces.utils.Base64@encode(byte[]):225:0 |==> 1
+466:LVR:0:NEG:org.apache.xerces.utils.Base64@encode(byte[]):225:0 |==> -1
+467:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:(b2 & SIGN) == 0 |==> (b2 & SIGN) <= 0
+468:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:(b2 & SIGN) == 0 |==> (b2 & SIGN) >= 0
+469:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:(b2 & SIGN) == 0 |==> false
+470:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):225:4 |==> 0
+471:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):225:4 |==> -4
+472:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:b2 >> 4 |==> b2 << 4
+473:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:b2 >> 4 |==> b2 >>> 4
+474:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):225:4 |==> 0
+475:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):225:4 |==> -4
+476:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:(b2) >> 4 |==> (b2) << 4
+477:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:(b2) >> 4 |==> (b2) >>> 4
+478:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):225:240 |==> 0
+479:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):225:240 |==> -240
+480:LOR:^(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:(b2) >> 4 ^ 240 |==> (b2) >> 4 & 240
+481:LOR:^(int,int):|(int,int):org.apache.xerces.utils.Base64@encode(byte[]):225:(b2) >> 4 ^ 240 |==> (b2) >> 4 | 240
+482:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):227:encodedData[encodedIndex] = lookUpBase64Alphabet[val1] |==> <NO-OP>
+483:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):228:1 |==> 0
+484:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):228:1 |==> -1
+485:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:encodedIndex + 1 |==> encodedIndex % 1
+486:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:encodedIndex + 1 |==> encodedIndex * 1
+487:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:encodedIndex + 1 |==> encodedIndex - 1
+488:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:encodedIndex + 1 |==> encodedIndex / 1
+489:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):228:4 |==> 0
+490:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):228:4 |==> -4
+491:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:k << 4 |==> k >> 4
+492:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:k << 4 |==> k >>> 4
+493:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:val2 | (k << 4) |==> val2 & (k << 4)
+494:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@encode(byte[]):228:val2 | (k << 4) |==> val2 ^ (k << 4)
+495:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):228:encodedData[encodedIndex + 1] = lookUpBase64Alphabet[val2 | (k << 4)] |==> <NO-OP>
+496:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):229:2 |==> 0
+497:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):229:2 |==> -2
+498:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):229:encodedIndex + 2 |==> encodedIndex % 2
+499:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):229:encodedIndex + 2 |==> encodedIndex * 2
+500:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):229:encodedIndex + 2 |==> encodedIndex - 2
+501:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):229:encodedIndex + 2 |==> encodedIndex / 2
+502:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):229:2 |==> 0
+503:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):229:2 |==> -2
+504:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):229:l << 2 |==> l >> 2
+505:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@encode(byte[]):229:l << 2 |==> l >>> 2
+506:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):229:encodedData[encodedIndex + 2] = lookUpBase64Alphabet[l << 2] |==> <NO-OP>
+507:LVR:POS:0:org.apache.xerces.utils.Base64@encode(byte[]):230:3 |==> 0
+508:LVR:POS:NEG:org.apache.xerces.utils.Base64@encode(byte[]):230:3 |==> -3
+509:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@encode(byte[]):230:encodedIndex + 3 |==> encodedIndex % 3
+510:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@encode(byte[]):230:encodedIndex + 3 |==> encodedIndex * 3
+511:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@encode(byte[]):230:encodedIndex + 3 |==> encodedIndex - 3
+512:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@encode(byte[]):230:encodedIndex + 3 |==> encodedIndex / 3
+513:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@encode(byte[]):230:encodedData[encodedIndex + 3] = PAD |==> <NO-OP>
+514:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.xerces.utils.Base64@encode(byte[]):232:encodedData |==> null
+515:AOR:/(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):243:base64Data.length / FOURBYTE |==> base64Data.length % FOURBYTE
+516:AOR:/(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):243:base64Data.length / FOURBYTE |==> base64Data.length * FOURBYTE
+517:AOR:/(int,int):+(int,int):org.apache.xerces.utils.Base64@decode(byte[]):243:base64Data.length / FOURBYTE |==> base64Data.length + FOURBYTE
+518:AOR:/(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):243:base64Data.length / FOURBYTE |==> base64Data.length - FOURBYTE
+519:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> 1
+520:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> -1
+521:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> 1
+522:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> -1
+523:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> 1
+524:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> -1
+525:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> 1
+526:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> -1
+527:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> 1
+528:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> -1
+529:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> 1
+530:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):245:0 |==> -1
+531:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):250:0 |==> 1
+532:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):250:0 |==> -1
+533:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):251:0 |==> 1
+534:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):251:0 |==> -1
+535:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):252:3 |==> 0
+536:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):252:3 |==> -3
+537:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 |==> numberQuadruple % 3
+538:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 |==> numberQuadruple + 3
+539:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 |==> numberQuadruple - 3
+540:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 |==> numberQuadruple / 3
+541:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):252:1 |==> 0
+542:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):252:1 |==> -1
+543:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 + 1 |==> numberQuadruple * 3 % 1
+544:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 + 1 |==> numberQuadruple * 3 * 1
+545:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 + 1 |==> numberQuadruple * 3 - 1
+546:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):252:numberQuadruple * 3 + 1 |==> numberQuadruple * 3 / 1
+547:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):252:decodedData = new byte[numberQuadruple * 3 + 1] |==> <NO-OP>
+548:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):254:0 |==> 1
+549:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):254:0 |==> -1
+550:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.Base64@decode(byte[]):254:i < numberQuadruple |==> i != numberQuadruple
+551:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.Base64@decode(byte[]):254:i < numberQuadruple |==> i <= numberQuadruple
+552:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@decode(byte[]):254:i < numberQuadruple |==> false
+553:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):255:4 |==> 0
+554:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):255:4 |==> -4
+555:AOR:*(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):255:i * 4 |==> i % 4
+556:AOR:*(int,int):+(int,int):org.apache.xerces.utils.Base64@decode(byte[]):255:i * 4 |==> i + 4
+557:AOR:*(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):255:i * 4 |==> i - 4
+558:AOR:*(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):255:i * 4 |==> i / 4
+559:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):255:dataIndex = i * 4 |==> <NO-OP>
+560:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):256:2 |==> 0
+561:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):256:2 |==> -2
+562:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):256:dataIndex + 2 |==> dataIndex % 2
+563:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):256:dataIndex + 2 |==> dataIndex * 2
+564:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):256:dataIndex + 2 |==> dataIndex - 2
+565:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):256:dataIndex + 2 |==> dataIndex / 2
+566:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):256:marker0 = base64Data[dataIndex + 2] |==> <NO-OP>
+567:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):257:3 |==> 0
+568:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):257:3 |==> -3
+569:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):257:dataIndex + 3 |==> dataIndex % 3
+570:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):257:dataIndex + 3 |==> dataIndex * 3
+571:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):257:dataIndex + 3 |==> dataIndex - 3
+572:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):257:dataIndex + 3 |==> dataIndex / 3
+573:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):257:marker1 = base64Data[dataIndex + 3] |==> <NO-OP>
+574:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):259:b1 = base64Alphabet[base64Data[dataIndex]] |==> <NO-OP>
+575:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):260:1 |==> 0
+576:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):260:1 |==> -1
+577:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):260:dataIndex + 1 |==> dataIndex % 1
+578:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):260:dataIndex + 1 |==> dataIndex * 1
+579:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):260:dataIndex + 1 |==> dataIndex - 1
+580:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):260:dataIndex + 1 |==> dataIndex / 1
+581:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):260:b2 = base64Alphabet[base64Data[dataIndex + 1]] |==> <NO-OP>
+582:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.Base64@decode(byte[]):262:marker0 != PAD |==> marker0 < PAD
+583:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):262:marker0 != PAD |==> marker0 > PAD
+584:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64@decode(byte[]):262:marker0 != PAD |==> true
+585:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.Base64@decode(byte[]):262:marker1 != PAD |==> marker1 < PAD
+586:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):262:marker1 != PAD |==> marker1 > PAD
+587:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.Base64@decode(byte[]):262:marker1 != PAD |==> true
+588:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.Base64@decode(byte[]):262:marker0 != PAD && marker1 != PAD |==> marker0 != PAD == (marker1 != PAD)
+589:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.Base64@decode(byte[]):262:marker0 != PAD && marker1 != PAD |==> false
+590:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.Base64@decode(byte[]):262:marker0 != PAD && marker1 != PAD |==> marker0 != PAD
+591:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.Base64@decode(byte[]):262:marker0 != PAD && marker1 != PAD |==> marker1 != PAD
+592:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):263:b3 = base64Alphabet[marker0] |==> <NO-OP>
+593:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):264:b4 = base64Alphabet[marker1] |==> <NO-OP>
+594:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):266:2 |==> 0
+595:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):266:2 |==> -2
+596:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):266:b1 << 2 |==> b1 >> 2
+597:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):266:b1 << 2 |==> b1 >>> 2
+598:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):266:4 |==> 0
+599:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):266:4 |==> -4
+600:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@decode(byte[]):266:b2 >> 4 |==> b2 << 4
+601:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):266:b2 >> 4 |==> b2 >>> 4
+602:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@decode(byte[]):266:b1 << 2 | b2 >> 4 |==> b1 << 2 & b2 >> 4
+603:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):266:b1 << 2 | b2 >> 4 |==> b1 << 2 ^ b2 >> 4
+604:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):266:decodedData[encodedIndex] = (byte)(b1 << 2 | b2 >> 4) |==> <NO-OP>
+605:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):267:1 |==> 0
+606:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):267:1 |==> -1
+607:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:encodedIndex + 1 |==> encodedIndex % 1
+608:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:encodedIndex + 1 |==> encodedIndex * 1
+609:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:encodedIndex + 1 |==> encodedIndex - 1
+610:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:encodedIndex + 1 |==> encodedIndex / 1
+611:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):267:15 |==> 0
+612:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):267:15 |==> -15
+613:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:b2 & 15 |==> b2 ^ 15
+614:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:b2 & 15 |==> b2 | 15
+615:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):267:4 |==> 0
+616:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):267:4 |==> -4
+617:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:(b2 & 15) << 4 |==> (b2 & 15) >> 4
+618:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:(b2 & 15) << 4 |==> (b2 & 15) >>> 4
+619:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):267:2 |==> 0
+620:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):267:2 |==> -2
+621:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:b3 >> 2 |==> b3 << 2
+622:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:b3 >> 2 |==> b3 >>> 2
+623:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):267:15 |==> 0
+624:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):267:15 |==> -15
+625:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:(b3 >> 2) & 15 |==> (b3 >> 2) ^ 15
+626:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:(b3 >> 2) & 15 |==> (b3 >> 2) | 15
+627:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:((b2 & 15) << 4) | ((b3 >> 2) & 15) |==> ((b2 & 15) << 4) & ((b3 >> 2) & 15)
+628:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):267:((b2 & 15) << 4) | ((b3 >> 2) & 15) |==> ((b2 & 15) << 4) ^ ((b3 >> 2) & 15)
+629:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):267:decodedData[encodedIndex + 1] = (byte)(((b2 & 15) << 4) | ((b3 >> 2) & 15)) |==> <NO-OP>
+630:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):268:2 |==> 0
+631:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):268:2 |==> -2
+632:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:encodedIndex + 2 |==> encodedIndex % 2
+633:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:encodedIndex + 2 |==> encodedIndex * 2
+634:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:encodedIndex + 2 |==> encodedIndex - 2
+635:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:encodedIndex + 2 |==> encodedIndex / 2
+636:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):268:6 |==> 0
+637:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):268:6 |==> -6
+638:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:b3 << 6 |==> b3 >> 6
+639:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:b3 << 6 |==> b3 >>> 6
+640:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:b3 << 6 | b4 |==> b3 << 6 & b4
+641:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):268:b3 << 6 | b4 |==> b3 << 6 ^ b4
+642:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):268:decodedData[encodedIndex + 2] = (byte)(b3 << 6 | b4) |==> <NO-OP>
+643:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@decode(byte[]):269:marker0 == PAD |==> marker0 <= PAD
+644:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@decode(byte[]):269:marker0 == PAD |==> marker0 >= PAD
+645:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@decode(byte[]):269:marker0 == PAD |==> false
+646:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):270:2 |==> 0
+647:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):270:2 |==> -2
+648:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):270:b1 << 2 |==> b1 >> 2
+649:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):270:b1 << 2 |==> b1 >>> 2
+650:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):270:4 |==> 0
+651:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):270:4 |==> -4
+652:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@decode(byte[]):270:b2 >> 4 |==> b2 << 4
+653:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):270:b2 >> 4 |==> b2 >>> 4
+654:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@decode(byte[]):270:b1 << 2 | b2 >> 4 |==> b1 << 2 & b2 >> 4
+655:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):270:b1 << 2 | b2 >> 4 |==> b1 << 2 ^ b2 >> 4
+656:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):270:decodedData[encodedIndex] = (byte)(b1 << 2 | b2 >> 4) |==> <NO-OP>
+657:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):271:1 |==> 0
+658:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):271:1 |==> -1
+659:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:encodedIndex + 1 |==> encodedIndex % 1
+660:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:encodedIndex + 1 |==> encodedIndex * 1
+661:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:encodedIndex + 1 |==> encodedIndex - 1
+662:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:encodedIndex + 1 |==> encodedIndex / 1
+663:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):271:15 |==> 0
+664:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):271:15 |==> -15
+665:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:b2 & 15 |==> b2 ^ 15
+666:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:b2 & 15 |==> b2 | 15
+667:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):271:4 |==> 0
+668:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):271:4 |==> -4
+669:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:(b2 & 15) << 4 |==> (b2 & 15) >> 4
+670:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):271:(b2 & 15) << 4 |==> (b2 & 15) >>> 4
+671:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):271:decodedData[encodedIndex + 1] = (byte)((b2 & 15) << 4) |==> <NO-OP>
+672:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):272:2 |==> 0
+673:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):272:2 |==> -2
+674:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):272:encodedIndex + 2 |==> encodedIndex % 2
+675:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):272:encodedIndex + 2 |==> encodedIndex * 2
+676:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):272:encodedIndex + 2 |==> encodedIndex - 2
+677:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):272:encodedIndex + 2 |==> encodedIndex / 2
+678:LVR:0:POS:org.apache.xerces.utils.Base64@decode(byte[]):272:0 |==> 1
+679:LVR:0:NEG:org.apache.xerces.utils.Base64@decode(byte[]):272:0 |==> -1
+680:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):272:decodedData[encodedIndex + 2] = (byte)0 |==> <NO-OP>
+681:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.Base64@decode(byte[]):273:marker1 == PAD |==> marker1 <= PAD
+682:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.Base64@decode(byte[]):273:marker1 == PAD |==> marker1 >= PAD
+683:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.Base64@decode(byte[]):273:marker1 == PAD |==> false
+684:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):274:b3 = base64Alphabet[marker0] |==> <NO-OP>
+685:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):276:2 |==> 0
+686:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):276:2 |==> -2
+687:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):276:b1 << 2 |==> b1 >> 2
+688:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):276:b1 << 2 |==> b1 >>> 2
+689:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):276:4 |==> 0
+690:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):276:4 |==> -4
+691:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@decode(byte[]):276:b2 >> 4 |==> b2 << 4
+692:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):276:b2 >> 4 |==> b2 >>> 4
+693:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@decode(byte[]):276:b1 << 2 | b2 >> 4 |==> b1 << 2 & b2 >> 4
+694:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):276:b1 << 2 | b2 >> 4 |==> b1 << 2 ^ b2 >> 4
+695:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):276:decodedData[encodedIndex] = (byte)(b1 << 2 | b2 >> 4) |==> <NO-OP>
+696:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):277:1 |==> 0
+697:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):277:1 |==> -1
+698:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:encodedIndex + 1 |==> encodedIndex % 1
+699:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:encodedIndex + 1 |==> encodedIndex * 1
+700:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:encodedIndex + 1 |==> encodedIndex - 1
+701:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:encodedIndex + 1 |==> encodedIndex / 1
+702:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):277:15 |==> 0
+703:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):277:15 |==> -15
+704:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:b2 & 15 |==> b2 ^ 15
+705:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:b2 & 15 |==> b2 | 15
+706:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):277:4 |==> 0
+707:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):277:4 |==> -4
+708:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:(b2 & 15) << 4 |==> (b2 & 15) >> 4
+709:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:(b2 & 15) << 4 |==> (b2 & 15) >>> 4
+710:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):277:2 |==> 0
+711:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):277:2 |==> -2
+712:SOR:>>(int,int):<<(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:b3 >> 2 |==> b3 << 2
+713:SOR:>>(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:b3 >> 2 |==> b3 >>> 2
+714:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):277:15 |==> 0
+715:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):277:15 |==> -15
+716:LOR:&(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:(b3 >> 2) & 15 |==> (b3 >> 2) ^ 15
+717:LOR:&(int,int):|(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:(b3 >> 2) & 15 |==> (b3 >> 2) | 15
+718:LOR:|(int,int):&(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:((b2 & 15) << 4) | ((b3 >> 2) & 15) |==> ((b2 & 15) << 4) & ((b3 >> 2) & 15)
+719:LOR:|(int,int):^(int,int):org.apache.xerces.utils.Base64@decode(byte[]):277:((b2 & 15) << 4) | ((b3 >> 2) & 15) |==> ((b2 & 15) << 4) ^ ((b3 >> 2) & 15)
+720:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):277:decodedData[encodedIndex + 1] = (byte)(((b2 & 15) << 4) | ((b3 >> 2) & 15)) |==> <NO-OP>
+721:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):278:2 |==> 0
+722:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):278:2 |==> -2
+723:AOR:+(int,int):%(int,int):org.apache.xerces.utils.Base64@decode(byte[]):278:encodedIndex + 2 |==> encodedIndex % 2
+724:AOR:+(int,int):*(int,int):org.apache.xerces.utils.Base64@decode(byte[]):278:encodedIndex + 2 |==> encodedIndex * 2
+725:AOR:+(int,int):-(int,int):org.apache.xerces.utils.Base64@decode(byte[]):278:encodedIndex + 2 |==> encodedIndex - 2
+726:AOR:+(int,int):/(int,int):org.apache.xerces.utils.Base64@decode(byte[]):278:encodedIndex + 2 |==> encodedIndex / 2
+727:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):278:6 |==> 0
+728:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):278:6 |==> -6
+729:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):278:b3 << 6 |==> b3 >> 6
+730:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.Base64@decode(byte[]):278:b3 << 6 |==> b3 >>> 6
+731:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):278:decodedData[encodedIndex + 2] = (byte)(b3 << 6) |==> <NO-OP>
+732:LVR:POS:0:org.apache.xerces.utils.Base64@decode(byte[]):280:3 |==> 0
+733:LVR:POS:NEG:org.apache.xerces.utils.Base64@decode(byte[]):280:3 |==> -3
+734:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.Base64@decode(byte[]):280:encodedIndex += 3 |==> <NO-OP>
+735:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.xerces.utils.Base64@decode(byte[]):282:decodedData |==> null

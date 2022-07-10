@@ -1,0 +1,190 @@
+1:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl:85:NodeFilter.SHOW_ALL |==> 0
+2:LVR:FALSE:TRUE:org.apache.xerces.dom.NodeIteratorImpl:89:false |==> true
+3:LVR:TRUE:FALSE:org.apache.xerces.dom.NodeIteratorImpl:113:true |==> false
+4:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@<init>(DocumentImpl,org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):128:fDocument = document |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@<init>(DocumentImpl,org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):129:fRoot = root |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@<init>(DocumentImpl,org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):130:fCurrentNode = null |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@<init>(DocumentImpl,org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):131:fWhatToShow = whatToShow |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@<init>(DocumentImpl,org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):132:fNodeFilter = nodeFilter |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@<init>(DocumentImpl,org.w3c.dom.Node,int,org.w3c.dom.traversal.NodeFilter,boolean):133:fEntityReferenceExpansion = entityReferenceExpansion |==> <NO-OP>
+10:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@getRoot():137:fRoot |==> null
+11:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@getWhatToShow():146:fWhatToShow |==> 0
+12:EVR:<IDENTIFIER(org.w3c.dom.traversal.NodeFilter)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@getFilter():151:fNodeFilter |==> null
+13:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@getExpandEntityReferences():156:fEntityReferenceExpansion |==> false
+14:COR:fDetach:TRUE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():165:fDetach |==> false
+15:COR:fDetach:FALSE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():165:fDetach |==> true
+16:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode():172:fRoot == null |==> false
+17:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():172:return null; |==> <NO-OP>
+18:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():174:fCurrentNode |==> null
+19:LVR:FALSE:TRUE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():175:false |==> true
+20:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode():181:nextNode != null |==> true
+21:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():181:!fForward && nextNode != null |==> !fForward == (nextNode != null)
+22:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():181:!fForward && nextNode != null |==> false
+23:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():181:!fForward && nextNode != null |==> !fForward
+24:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():181:!fForward && nextNode != null |==> nextNode != null
+25:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():183:nextNode = fCurrentNode |==> <NO-OP>
+26:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode():187:nextNode != null |==> true
+27:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():186:!fEntityReferenceExpansion && nextNode != null |==> !fEntityReferenceExpansion == (nextNode != null)
+28:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():187:!fEntityReferenceExpansion && nextNode != null |==> false
+29:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():186:!fEntityReferenceExpansion && nextNode != null |==> !fEntityReferenceExpansion
+30:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():187:!fEntityReferenceExpansion && nextNode != null |==> nextNode != null
+31:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.NodeIteratorImpl@nextNode():188:nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> nextNode.getNodeType() <= Node.ENTITY_REFERENCE_NODE
+32:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.NodeIteratorImpl@nextNode():188:nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> nextNode.getNodeType() >= Node.ENTITY_REFERENCE_NODE
+33:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.NodeIteratorImpl@nextNode():188:nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+34:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():186:!fEntityReferenceExpansion && nextNode != null && nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> (!fEntityReferenceExpansion && nextNode != null) == (nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE)
+35:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():188:!fEntityReferenceExpansion && nextNode != null && nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+36:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():186:!fEntityReferenceExpansion && nextNode != null && nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> !fEntityReferenceExpansion && nextNode != null
+37:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode():188:!fEntityReferenceExpansion && nextNode != null && nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> nextNode.getNodeType() == Node.ENTITY_REFERENCE_NODE
+38:LVR:FALSE:TRUE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():189:false |==> true
+39:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():189:nextNode = nextNode(nextNode, false) |==> <NO-OP>
+40:LVR:TRUE:FALSE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():191:true |==> false
+41:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():191:nextNode = nextNode(nextNode, true) |==> <NO-OP>
+42:LVR:TRUE:FALSE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():195:true |==> false
+43:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():195:fForward = true |==> <NO-OP>
+44:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode():198:nextNode == null |==> false
+45:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():198:return null; |==> <NO-OP>
+46:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():201:accepted = acceptNode(nextNode) |==> <NO-OP>
+47:COR:accepted:TRUE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():202:accepted |==> false
+48:COR:accepted:FALSE:org.apache.xerces.dom.NodeIteratorImpl@nextNode():202:accepted |==> true
+49:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():204:fCurrentNode = nextNode |==> <NO-OP>
+50:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():205:return fCurrentNode; |==> <NO-OP>
+51:STD:<CONT>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode():207:continue accepted_loop; |==> <NO-OP>
+52:COR:fDetach:TRUE:org.apache.xerces.dom.NodeIteratorImpl@previousNode():221:fDetach |==> false
+53:COR:fDetach:FALSE:org.apache.xerces.dom.NodeIteratorImpl@previousNode():221:fDetach |==> true
+54:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@previousNode():228:fRoot == null |==> false
+55:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@previousNode():228:fCurrentNode == null |==> false
+56:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():228:fRoot == null || fCurrentNode == null |==> fRoot == null != (fCurrentNode == null)
+57:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():228:fRoot == null || fCurrentNode == null |==> fRoot == null
+58:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():228:fRoot == null || fCurrentNode == null |==> fCurrentNode == null
+59:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():228:fRoot == null || fCurrentNode == null |==> true
+60:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():228:return null; |==> <NO-OP>
+61:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():230:fCurrentNode |==> null
+62:LVR:FALSE:TRUE:org.apache.xerces.dom.NodeIteratorImpl@previousNode():231:false |==> true
+63:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@previousNode():236:previousNode != null |==> true
+64:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():236:fForward && previousNode != null |==> fForward == (previousNode != null)
+65:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():236:fForward && previousNode != null |==> false
+66:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():236:fForward && previousNode != null |==> fForward
+67:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode():236:fForward && previousNode != null |==> previousNode != null
+68:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():238:previousNode = fCurrentNode |==> <NO-OP>
+69:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():241:previousNode = previousNode(previousNode) |==> <NO-OP>
+70:LVR:FALSE:TRUE:org.apache.xerces.dom.NodeIteratorImpl@previousNode():245:false |==> true
+71:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():245:fForward = false |==> <NO-OP>
+72:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@previousNode():249:previousNode == null |==> false
+73:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():249:return null; |==> <NO-OP>
+74:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():252:accepted = acceptNode(previousNode) |==> <NO-OP>
+75:COR:accepted:TRUE:org.apache.xerces.dom.NodeIteratorImpl@previousNode():253:accepted |==> false
+76:COR:accepted:FALSE:org.apache.xerces.dom.NodeIteratorImpl@previousNode():253:accepted |==> true
+77:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():255:fCurrentNode = previousNode |==> <NO-OP>
+78:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():256:return fCurrentNode; |==> <NO-OP>
+79:STD:<CONT>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode():258:continue accepted_loop; |==> <NO-OP>
+80:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):267:fNodeFilter == null |==> false
+81:LVR:POS:0:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:1 |==> 0
+82:LVR:POS:NEG:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:1 |==> -1
+83:LVR:POS:0:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:1 |==> 0
+84:LVR:POS:NEG:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:1 |==> -1
+85:AOR:-(int,int):%(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:node.getNodeType() - 1 |==> node.getNodeType() % 1
+86:AOR:-(int,int):*(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:node.getNodeType() - 1 |==> node.getNodeType() * 1
+87:AOR:-(int,int):+(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:node.getNodeType() - 1 |==> node.getNodeType() + 1
+88:AOR:-(int,int):/(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:node.getNodeType() - 1 |==> node.getNodeType() / 1
+89:SOR:<<(int,int):>>(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:1 << node.getNodeType() - 1 |==> 1 >> node.getNodeType() - 1
+90:SOR:<<(int,int):>>>(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:1 << node.getNodeType() - 1 |==> 1 >>> node.getNodeType() - 1
+91:LOR:&(int,int):^(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow ^ (1 << node.getNodeType() - 1)
+92:LOR:&(int,int):|(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow | (1 << node.getNodeType() - 1)
+93:LVR:0:POS:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:0 |==> 1
+94:LVR:0:NEG:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:0 |==> -1
+95:ROR:!=(int,int):<(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) < 0
+96:ROR:!=(int,int):>(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) > 0
+97:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):268:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> true
+98:LVR:POS:0:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:1 |==> 0
+99:LVR:POS:NEG:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:1 |==> -1
+100:LVR:POS:0:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:1 |==> 0
+101:LVR:POS:NEG:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:1 |==> -1
+102:AOR:-(int,int):%(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:node.getNodeType() - 1 |==> node.getNodeType() % 1
+103:AOR:-(int,int):*(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:node.getNodeType() - 1 |==> node.getNodeType() * 1
+104:AOR:-(int,int):+(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:node.getNodeType() - 1 |==> node.getNodeType() + 1
+105:AOR:-(int,int):/(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:node.getNodeType() - 1 |==> node.getNodeType() / 1
+106:SOR:<<(int,int):>>(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:1 << node.getNodeType() - 1 |==> 1 >> node.getNodeType() - 1
+107:SOR:<<(int,int):>>>(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:1 << node.getNodeType() - 1 |==> 1 >>> node.getNodeType() - 1
+108:LOR:&(int,int):^(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow ^ (1 << node.getNodeType() - 1)
+109:LOR:&(int,int):|(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:fWhatToShow & (1 << node.getNodeType() - 1) |==> fWhatToShow | (1 << node.getNodeType() - 1)
+110:LVR:0:POS:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:0 |==> 1
+111:LVR:0:NEG:org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:0 |==> -1
+112:ROR:!=(int,int):<(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) < 0
+113:ROR:!=(int,int):>(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> (fWhatToShow & (1 << node.getNodeType() - 1)) > 0
+114:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:(fWhatToShow & (1 << node.getNodeType() - 1)) != 0 |==> true
+115:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):271:fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT |==> fNodeFilter.acceptNode(node) <= NodeFilter.FILTER_ACCEPT
+116:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):271:fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT |==> fNodeFilter.acceptNode(node) >= NodeFilter.FILTER_ACCEPT
+117:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):271:fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT |==> false
+118:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:((fWhatToShow & (1 << node.getNodeType() - 1)) != 0) && fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT |==> ((fWhatToShow & (1 << node.getNodeType() - 1)) != 0) == (fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT)
+119:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):271:((fWhatToShow & (1 << node.getNodeType() - 1)) != 0) && fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT |==> false
+120:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):270:((fWhatToShow & (1 << node.getNodeType() - 1)) != 0) && fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT |==> ((fWhatToShow & (1 << node.getNodeType() - 1)) != 0)
+121:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@acceptNode(org.w3c.dom.Node):271:((fWhatToShow & (1 << node.getNodeType() - 1)) != 0) && fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT |==> fNodeFilter.acceptNode(node) == NodeFilter.FILTER_ACCEPT
+122:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@matchNodeOrParent(org.w3c.dom.Node):277:node |==> null
+123:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@matchNodeOrParent(org.w3c.dom.Node):277:n != fRoot |==> true
+124:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@matchNodeOrParent(org.w3c.dom.Node):278:node == n |==> false
+125:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@matchNodeOrParent(org.w3c.dom.Node):278:return n; |==> <NO-OP>
+126:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):291:node == null |==> false
+127:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):291:return fRoot; |==> <NO-OP>
+128:COR:visitChildren:TRUE:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):295:visitChildren |==> false
+129:COR:visitChildren:FALSE:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):295:visitChildren |==> true
+130:COR:node.hasChildNodes():TRUE:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):297:node.hasChildNodes() |==> false
+131:COR:node.hasChildNodes():FALSE:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):297:node.hasChildNodes() |==> true
+132:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):298:node.getFirstChild() |==> null
+133:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):299:return result; |==> <NO-OP>
+134:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):303:node == fRoot |==> false
+135:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):304:return null; |==> <NO-OP>
+136:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):308:node.getNextSibling() |==> null
+137:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):309:result != null |==> true
+138:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):309:return result; |==> <NO-OP>
+139:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):313:node.getParentNode() |==> null
+140:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):314:parent != null |==> true
+141:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):314:parent != fRoot |==> true
+142:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):314:parent != null && parent != fRoot |==> parent != null == (parent != fRoot)
+143:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):314:parent != null && parent != fRoot |==> false
+144:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):314:parent != null && parent != fRoot |==> parent != null
+145:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):314:parent != null && parent != fRoot |==> parent != fRoot
+146:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):315:result = parent.getNextSibling() |==> <NO-OP>
+147:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):316:result != null |==> true
+148:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):317:return result; |==> <NO-OP>
+149:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@nextNode(org.w3c.dom.Node,boolean):319:parent = parent.getParentNode() |==> <NO-OP>
+150:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):336:node == fRoot |==> false
+151:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):336:return null; |==> <NO-OP>
+152:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):339:node.getPreviousSibling() |==> null
+153:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):340:result == null |==> false
+154:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):342:result = node.getParentNode() |==> <NO-OP>
+155:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):343:return result; |==> <NO-OP>
+156:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):349:result != null |==> true
+157:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):348:!fEntityReferenceExpansion && result != null |==> !fEntityReferenceExpansion == (result != null)
+158:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):349:!fEntityReferenceExpansion && result != null |==> false
+159:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):348:!fEntityReferenceExpansion && result != null |==> !fEntityReferenceExpansion
+160:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):349:!fEntityReferenceExpansion && result != null |==> result != null
+161:ROR:==(int,int):<=(int,int):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):350:result.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> result.getNodeType() <= Node.ENTITY_REFERENCE_NODE
+162:ROR:==(int,int):>=(int,int):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):350:result.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> result.getNodeType() >= Node.ENTITY_REFERENCE_NODE
+163:ROR:==(int,int):FALSE(int,int):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):350:result.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+164:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):348:!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> (!fEntityReferenceExpansion && result != null) == (result.getNodeType() == Node.ENTITY_REFERENCE_NODE)
+165:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):350:!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> false
+166:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):348:!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> !fEntityReferenceExpansion && result != null
+167:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):350:!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE |==> result.getNodeType() == Node.ENTITY_REFERENCE_NODE
+168:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):347:result.hasChildNodes() && !(!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE) |==> result.hasChildNodes() == !(!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE)
+169:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):348:result.hasChildNodes() && !(!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE) |==> false
+170:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):347:result.hasChildNodes() && !(!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE) |==> result.hasChildNodes()
+171:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):348:result.hasChildNodes() && !(!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE) |==> !(!fEntityReferenceExpansion && result != null && result.getNodeType() == Node.ENTITY_REFERENCE_NODE)
+172:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):354:result = result.getLastChild() |==> <NO-OP>
+173:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@previousNode(org.w3c.dom.Node):358:result |==> null
+174:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):369:node == null |==> false
+175:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):369:return; |==> <NO-OP>
+176:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):371:matchNodeOrParent(node) |==> null
+177:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):373:deleted == null |==> false
+178:STD:<RETURN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):373:return; |==> <NO-OP>
+179:COR:fForward:TRUE:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):375:fForward |==> false
+180:COR:fForward:FALSE:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):375:fForward |==> true
+181:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):376:fCurrentNode = previousNode(deleted) |==> <NO-OP>
+182:LVR:FALSE:TRUE:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):380:false |==> true
+183:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):381:next != null |==> true
+184:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):383:fCurrentNode = next |==> <NO-OP>
+185:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):387:fCurrentNode = previousNode(deleted) |==> <NO-OP>
+186:LVR:TRUE:FALSE:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):388:true |==> false
+187:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@removeNode(org.w3c.dom.Node):388:fForward = true |==> <NO-OP>
+188:LVR:TRUE:FALSE:org.apache.xerces.dom.NodeIteratorImpl@detach():396:true |==> false
+189:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@detach():396:fDetach = true |==> <NO-OP>
+190:STD:<CALL>:<NO-OP>:org.apache.xerces.dom.NodeIteratorImpl@detach():397:fDocument.removeNodeIterator(this) |==> <NO-OP>

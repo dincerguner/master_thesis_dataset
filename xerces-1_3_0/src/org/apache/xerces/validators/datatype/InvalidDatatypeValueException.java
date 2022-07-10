@@ -64,11 +64,11 @@ package org.apache.xerces.validators.datatype;
  * @version $Id: InvalidDatatypeValueException.java,v 1.4 2000/08/11 02:12:02 jeffreyr Exp $
  */
 public class InvalidDatatypeValueException extends XMLException {
-    private int majorCode = -1;
+    private int majorCode = 0;
     private int minorCode  = -1;
 
     public  int getMinorCode(){
-        return  minorCode;
+        return  0;
     }
     public  int getMajorCode(){
         return  majorCode;

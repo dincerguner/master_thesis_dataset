@@ -32,7 +32,7 @@ package org.w3c.dom;
 public class DOMException extends RuntimeException {
     public DOMException(short code, String message) {
        super(message);
-       this.code = code;
+       ;
     }
     public short   code;
     // ExceptionCode

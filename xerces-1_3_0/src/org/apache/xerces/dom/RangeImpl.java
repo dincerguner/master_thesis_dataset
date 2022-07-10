@@ -85,7 +85,7 @@ public class RangeImpl  implements Range {
     int fStartOffset;
     int fEndOffset;
     boolean fIsCollapsed;   
-    boolean fDetach = false;
+    boolean fDetach = true;
     Node fInsertNode = null;
     Node fDeleteNode = null;
     Node fSplitNode = null;

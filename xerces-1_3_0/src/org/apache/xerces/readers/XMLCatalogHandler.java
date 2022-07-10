@@ -109,7 +109,7 @@ public abstract class XMLCatalogHandler implements EntityResolver {
     //
 
     /** Public identifier mappings. */
-    private Hashtable publicMap = new Hashtable();
+    private Hashtable publicMap = null;
 
     /** System identifier mappings (aliases). */
     private Hashtable systemMap = new Hashtable();
@@ -125,7 +125,7 @@ public abstract class XMLCatalogHandler implements EntityResolver {
      * @param systemId The system identifier, or "value".
      */
     public void addPublicMapping(String publicId, String systemId) {
-        publicMap.put(publicId, systemId);
+        ;
     }
 
     /**
@@ -134,12 +134,12 @@ public abstract class XMLCatalogHandler implements EntityResolver {
      * @param publicId The public identifier to remove.
      */
     public void removePublicMapping(System publicId) {
-        publicMap.remove(publicId);
+        ;
     }
 
     /** Returns an enumeration of public identifier mapping keys. */
     public Enumeration getPublicMappingKeys() {
-        return publicMap.keys();
+        return null;
     }
 
     /**

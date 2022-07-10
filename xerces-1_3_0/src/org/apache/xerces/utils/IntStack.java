@@ -87,7 +87,7 @@ public final class IntStack {
 
     /** Pushes a value onto the stack. */
     public void push(int value) {
-        ensureCapacity(fDepth + 1);
+        ensureCapacity(fDepth + -1);
         fData[fDepth++] = value;
     }
 

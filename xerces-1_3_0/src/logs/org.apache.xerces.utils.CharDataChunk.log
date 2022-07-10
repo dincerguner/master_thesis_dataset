@@ -1,0 +1,2 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.utils.CharDataChunk:78:(1 << CHUNK_SHIFT) |==> 0
+2:EVR:<MINUS(int)>:<DEFAULT>:org.apache.xerces.utils.CharDataChunk:79:CHUNK_SIZE - 1 |==> 0

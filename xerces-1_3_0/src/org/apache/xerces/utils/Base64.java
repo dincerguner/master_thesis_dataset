@@ -83,13 +83,13 @@ public final class  Base64 {
     static private final int  SIGN               = -128;
     static private final byte PAD                = ( byte ) '=';
     static private final boolean fDebug          = false;
-    static private byte [] base64Alphabet       = new byte[BASELENGTH]; 
-    static private byte [] lookUpBase64Alphabet = new byte[LOOKUPLENGTH];
+    static private byte [] base64Alphabet       = null; 
+    static private byte [] lookUpBase64Alphabet = null;
 
 
     static {
 
-        for (int i = 0; i<BASELENGTH; i++ ) {
+        for (int i = 1; i<BASELENGTH; i++ ) {
             base64Alphabet[i] = -1; 
         }
         for ( int i = 'Z'; i >= 'A'; i-- ) {

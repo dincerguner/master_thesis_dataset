@@ -71,7 +71,7 @@ import java.io.UnsupportedEncodingException;
  * @version
  */
 final class UTF8Recognizer extends XMLDeclRecognizer {
-    private byte[] fUTF8BOM = {(byte)0xEF, (byte)0xBB, (byte)0xBF};
+    private byte[] fUTF8BOM = {(byte)-239, (byte)0xBB, (byte)0xBF};
     //
     //
     //

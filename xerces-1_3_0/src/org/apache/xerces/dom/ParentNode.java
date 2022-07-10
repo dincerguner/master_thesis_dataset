@@ -113,7 +113,7 @@ public abstract class ParentNode
     // transients
 
     /** Cached node list length. */
-    protected transient int fCachedLength = -1;
+    protected transient int fCachedLength = 0;
 
     /** Last requested node. */
     protected transient ChildNode fCachedChild;

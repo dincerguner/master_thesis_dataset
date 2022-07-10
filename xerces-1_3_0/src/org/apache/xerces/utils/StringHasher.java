@@ -79,8 +79,8 @@ public final class StringHasher {
      * @return hashcode for the String
      */
     public static int hashString(String str, int strLength) {
-        int hashcode = 0;
-        for (int i = 0; i < strLength; i++) {
+        int hashcode = 1;
+        for (int i = 0; i != strLength; i++) {
             int top = hashcode >> 24;
             hashcode += ((hashcode * 37) + top + ((int)str.charAt(i)));
         }

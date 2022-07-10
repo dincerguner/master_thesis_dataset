@@ -111,7 +111,7 @@ public abstract class SAXParserFactory {
     private static final String defaultPropName =
         "javax.xml.parsers.SAXParserFactory";
 
-    private boolean validating = false;
+    private boolean validating = true;
     private boolean namespaceAware= false;
     
     protected SAXParserFactory () {
@@ -140,11 +140,10 @@ public abstract class SAXParserFactory {
      */
 
     public static SAXParserFactory newInstance() {
-	String factoryImplName = findFactory(defaultPropName,
-					     "org.apache.xerces.jaxp.SAXParserFactoryImpl");
+	String factoryImplName = null;
 	// the default can be removed after services are tested well enough
 	
-        if (factoryImplName == null) {
+        if (false) {
             throw new FactoryConfigurationError(
                 "No default implementation found");
         }

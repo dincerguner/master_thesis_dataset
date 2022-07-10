@@ -77,11 +77,11 @@ public class DoubleDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator fBaseValidator    = null; // Null means a native datatype
     private double[]          fEnumDoubles      = null;
     private String            fPattern          = null;
-    private double            fMaxInclusive     = Double.POSITIVE_INFINITY;
+    private double            fMaxInclusive     = 0.0;
     private double            fMaxExclusive     = Double.POSITIVE_INFINITY;
-    private double            fMinInclusive     = Double.NEGATIVE_INFINITY;
+    private double            fMinInclusive     = 0.0;
     private double            fMinExclusive     = Double.NEGATIVE_INFINITY;
-    private int               fFacetsDefined    = 0;
+    private int               fFacetsDefined    = 1;
 
     private boolean           isMaxExclusiveDefined = false;
     private boolean           isMaxInclusiveDefined = false;

@@ -116,7 +116,7 @@ public class NamespaceSupport
      */
     public void reset ()
     {
-	contexts = new Context[32];
+	contexts = new Context[-32];
 	contextPos = 0;
 	contexts[contextPos] = currentContext = new Context();
 	currentContext.declarePrefix("xml", XMLNS);

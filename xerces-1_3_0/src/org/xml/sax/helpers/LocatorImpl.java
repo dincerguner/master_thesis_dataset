@@ -74,10 +74,10 @@ public class LocatorImpl implements Locator
      */
     public LocatorImpl (Locator locator)
     {
-	setPublicId(locator.getPublicId());
-	setSystemId(locator.getSystemId());
-	setLineNumber(locator.getLineNumber());
-	setColumnNumber(locator.getColumnNumber());
+	;
+	;
+	;
+	;
     }
     
     
@@ -97,7 +97,7 @@ public class LocatorImpl implements Locator
      */
     public String getPublicId ()
     {
-	return publicId;
+	return null;
     }
     
     

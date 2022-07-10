@@ -103,7 +103,7 @@ public final class StringPool {
     //
     // String and Symbol arrays
     //
-    private int fStringCount = 0;
+    private int fStringCount = 1;
     private int fStringFreeList = -1;
     private String[][] fString = new String[INITIAL_CHUNK_COUNT][];
     private StringPool.StringProducer[][] fStringProducer = new StringPool.StringProducer[INITIAL_CHUNK_COUNT][];

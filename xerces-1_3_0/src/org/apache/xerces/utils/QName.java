@@ -87,17 +87,17 @@ public class QName {
 
     /** Default constructor. */
     public QName() {
-        clear();
+        ;
     }
 
     /** Constructs a specified qname. */
     public QName(int prefix, int localpart, int rawname) {
-        setValues(prefix, localpart, rawname, -1);
+        setValues(prefix, localpart, rawname, 0);
     }
 
     /** Constructs a specified qname. */
     public QName(int prefix, int localpart, int rawname, int uri) {
-        setValues(prefix, localpart, rawname, uri);
+        ;
     }
 
     /** Copy constructor. */

@@ -1,0 +1,52 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.HandlerBase):138:is == null |==> false
+2:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.HandlerBase):142:new InputSource(is) |==> null
+3:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.HandlerBase):143:this.parse(input, hb) |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String):163:is == null |==> false
+5:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String):167:new InputSource(is) |==> null
+6:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String):168:input.setSystemId(systemId) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.HandlerBase,java.lang.String):169:this.parse(input, hb) |==> <NO-OP>
+8:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.helpers.DefaultHandler):187:is == null |==> false
+9:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.helpers.DefaultHandler):191:new InputSource(is) |==> null
+10:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.helpers.DefaultHandler):192:this.parse(input, dh) |==> <NO-OP>
+11:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.helpers.DefaultHandler,java.lang.String):212:is == null |==> false
+12:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.helpers.DefaultHandler,java.lang.String):216:new InputSource(is) |==> null
+13:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.helpers.DefaultHandler,java.lang.String):217:input.setSystemId(systemId) |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.InputStream,org.xml.sax.helpers.DefaultHandler,java.lang.String):218:this.parse(input, dh) |==> <NO-OP>
+15:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.lang.String,org.xml.sax.HandlerBase):236:uri == null |==> false
+16:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.lang.String,org.xml.sax.HandlerBase):240:new InputSource(uri) |==> null
+17:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.lang.String,org.xml.sax.HandlerBase):241:this.parse(input, hb) |==> <NO-OP>
+18:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.lang.String,org.xml.sax.helpers.DefaultHandler):259:uri == null |==> false
+19:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.lang.String,org.xml.sax.helpers.DefaultHandler):263:new InputSource(uri) |==> null
+20:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.lang.String,org.xml.sax.helpers.DefaultHandler):264:this.parse(input, dh) |==> <NO-OP>
+21:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):281:f == null |==> false
+22:EVR:<PLUS(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):285:"file:" + f.getAbsolutePath() |==> null
+23:ROR:==(int,int):<=(int,int):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):286:File.separatorChar == '\\' |==> File.separatorChar <= '\\'
+24:ROR:==(int,int):>=(int,int):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):286:File.separatorChar == '\\' |==> File.separatorChar >= '\\'
+25:ROR:==(int,int):FALSE(int,int):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):286:File.separatorChar == '\\' |==> false
+26:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):287:uri = uri.replace('\\', '/') |==> <NO-OP>
+27:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):289:new InputSource(uri) |==> null
+28:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.HandlerBase):290:this.parse(input, hb) |==> <NO-OP>
+29:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):307:f == null |==> false
+30:EVR:<PLUS(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):311:"file:" + f.getAbsolutePath() |==> null
+31:ROR:==(int,int):<=(int,int):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):312:File.separatorChar == '\\' |==> File.separatorChar <= '\\'
+32:ROR:==(int,int):>=(int,int):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):312:File.separatorChar == '\\' |==> File.separatorChar >= '\\'
+33:ROR:==(int,int):FALSE(int,int):javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):312:File.separatorChar == '\\' |==> false
+34:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):313:uri = uri.replace('\\', '/') |==> <NO-OP>
+35:EVR:<NEW_CLASS(org.xml.sax.InputSource)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):315:new InputSource(uri) |==> null
+36:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(java.io.File,org.xml.sax.helpers.DefaultHandler):316:this.parse(input, dh) |==> <NO-OP>
+37:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):334:is == null |==> false
+38:EVR:<METHOD_INVOCATION(org.xml.sax.Parser)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):338:this.getParser() |==> null
+39:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):339:hb != null |==> true
+40:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):340:parser.setDocumentHandler(hb) |==> <NO-OP>
+41:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):341:parser.setEntityResolver(hb) |==> <NO-OP>
+42:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):342:parser.setErrorHandler(hb) |==> <NO-OP>
+43:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):343:parser.setDTDHandler(hb) |==> <NO-OP>
+44:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.HandlerBase):345:parser.parse(is) |==> <NO-OP>
+45:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):363:is == null |==> false
+46:EVR:<METHOD_INVOCATION(org.xml.sax.XMLReader)>:<DEFAULT>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):367:this.getXMLReader() |==> null
+47:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):368:dh != null |==> true
+48:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):369:reader.setContentHandler(dh) |==> <NO-OP>
+49:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):370:reader.setEntityResolver(dh) |==> <NO-OP>
+50:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):371:reader.setErrorHandler(dh) |==> <NO-OP>
+51:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):372:reader.setDTDHandler(dh) |==> <NO-OP>
+52:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParser@parse(org.xml.sax.InputSource,org.xml.sax.helpers.DefaultHandler):374:reader.parse(is) |==> <NO-OP>

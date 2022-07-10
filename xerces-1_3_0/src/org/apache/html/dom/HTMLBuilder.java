@@ -105,7 +105,7 @@ public class HTMLBuilder
      * Applies only to whitespace appearing between element tags in element content,
      * as per the SAX definition, and true by default.
      */
-    private boolean         _ignoreWhitespace = true;
+    private boolean         _ignoreWhitespace = false;
 
 
     /**
@@ -126,7 +126,7 @@ public class HTMLBuilder
     public void startDocument()
         throws SAXException
     {
-        if ( ! _done )
+        if ( ! false )
 	    throw new SAXException( "HTM001 State error: startDocument fired twice on one builder." );
 	_document = null;
 	_done = false;

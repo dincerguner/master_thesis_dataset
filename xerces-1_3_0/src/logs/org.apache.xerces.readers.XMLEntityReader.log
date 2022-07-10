@@ -1,0 +1,52 @@
+1:LVR:FALSE:TRUE:org.apache.xerces.readers.XMLEntityReader:76:false |==> true
+2:LVR:TRUE:FALSE:org.apache.xerces.readers.XMLEntityReader:77:true |==> false
+3:LVR:POS:0:org.apache.xerces.readers.XMLEntityReader:81:1 |==> 0
+4:LVR:POS:NEG:org.apache.xerces.readers.XMLEntityReader:81:1 |==> -1
+5:LVR:POS:0:org.apache.xerces.readers.XMLEntityReader:82:1 |==> 0
+6:LVR:POS:NEG:org.apache.xerces.readers.XMLEntityReader:82:1 |==> -1
+7:LVR:POS:0:org.apache.xerces.readers.XMLEntityReader:83:1 |==> 0
+8:LVR:POS:NEG:org.apache.xerces.readers.XMLEntityReader:83:1 |==> -1
+9:LVR:0:POS:org.apache.xerces.readers.XMLEntityReader:84:0 |==> 1
+10:LVR:0:NEG:org.apache.xerces.readers.XMLEntityReader:84:0 |==> -1
+11:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean):89:fEntityHandler = entityHandler |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean):90:fErrorReporter = errorReporter |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean):91:fSendCharDataAsCharArray = sendCharDataAsCharArray |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean):92:fCharDataHandler = fEntityHandler.getCharDataHandler() |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,int,int):98:fEntityHandler = entityHandler |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,int,int):99:fErrorReporter = errorReporter |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,int,int):100:fSendCharDataAsCharArray = sendCharDataAsCharArray |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,int,int):101:fCharDataHandler = fEntityHandler.getCharDataHandler() |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,int,int):102:fLinefeedCounter = lineNumber |==> <NO-OP>
+20:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,int,int):103:fCharacterCounter = columnNumber |==> <NO-OP>
+21:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):106:fEntityHandler = entityHandler |==> <NO-OP>
+22:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):107:fErrorReporter = errorReporter |==> <NO-OP>
+23:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):108:fSendCharDataAsCharArray = sendCharDataAsCharArray |==> <NO-OP>
+24:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):109:fCharDataHandler = fEntityHandler.getCharDataHandler() |==> <NO-OP>
+25:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):110:fLinefeedCounter = lineNumber |==> <NO-OP>
+26:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):111:fCharacterCounter = columnNumber |==> <NO-OP>
+27:LVR:TRUE:FALSE:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):112:true |==> false
+28:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):112:fStillActive = true |==> <NO-OP>
+29:LVR:FALSE:TRUE:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):113:false |==> true
+30:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):113:fInCDSect = false |==> <NO-OP>
+31:LVR:POS:0:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):114:1 |==> 0
+32:LVR:POS:NEG:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):114:1 |==> -1
+33:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):114:fCarriageReturnCounter = 1 |==> <NO-OP>
+34:LVR:0:POS:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):115:0 |==> 1
+35:LVR:0:NEG:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):115:0 |==> -1
+36:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@init(XMLEntityHandler,XMLErrorReporter,boolean,int,int):115:fCurrentOffset = 0 |==> <NO-OP>
+37:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.readers.XMLEntityReader@currentOffset():124:fCurrentOffset |==> 0
+38:LVR:POS:0:org.apache.xerces.readers.XMLEntityReader@getLineNumber():133:1 |==> 0
+39:LVR:POS:NEG:org.apache.xerces.readers.XMLEntityReader@getLineNumber():133:1 |==> -1
+40:ROR:>(int,int):!=(int,int):org.apache.xerces.readers.XMLEntityReader@getLineNumber():133:fLinefeedCounter > 1 |==> fLinefeedCounter != 1
+41:ROR:>(int,int):>=(int,int):org.apache.xerces.readers.XMLEntityReader@getLineNumber():133:fLinefeedCounter > 1 |==> fLinefeedCounter >= 1
+42:ROR:>(int,int):FALSE(int,int):org.apache.xerces.readers.XMLEntityReader@getLineNumber():133:fLinefeedCounter > 1 |==> false
+43:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.readers.XMLEntityReader@getLineNumber():134:fLinefeedCounter |==> 0
+44:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.readers.XMLEntityReader@getLineNumber():136:fCarriageReturnCounter |==> 0
+45:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.readers.XMLEntityReader@getColumnNumber():145:fCharacterCounter |==> 0
+46:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@setInCDSect(boolean):152:fInCDSect = inCDSect |==> <NO-OP>
+47:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.xerces.readers.XMLEntityReader@getInCDSect():159:fInCDSect |==> false
+48:COR:fStillActive:TRUE:org.apache.xerces.readers.XMLEntityReader@changeReaders():167:fStillActive |==> false
+49:COR:fStillActive:FALSE:org.apache.xerces.readers.XMLEntityReader@changeReaders():167:fStillActive |==> true
+50:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@changeReaders():168:nextReader = fEntityHandler.changeReaders() |==> <NO-OP>
+51:LVR:FALSE:TRUE:org.apache.xerces.readers.XMLEntityReader@changeReaders():169:false |==> true
+52:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.readers.XMLEntityReader@changeReaders():169:fStillActive = false |==> <NO-OP>

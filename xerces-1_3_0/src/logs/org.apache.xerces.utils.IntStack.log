@@ -1,0 +1,70 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.IntStack@size():85:fDepth |==> 0
+2:LVR:POS:0:org.apache.xerces.utils.IntStack@push(int):90:1 |==> 0
+3:LVR:POS:NEG:org.apache.xerces.utils.IntStack@push(int):90:1 |==> -1
+4:AOR:+(int,int):%(int,int):org.apache.xerces.utils.IntStack@push(int):90:fDepth + 1 |==> fDepth % 1
+5:AOR:+(int,int):*(int,int):org.apache.xerces.utils.IntStack@push(int):90:fDepth + 1 |==> fDepth * 1
+6:AOR:+(int,int):-(int,int):org.apache.xerces.utils.IntStack@push(int):90:fDepth + 1 |==> fDepth - 1
+7:AOR:+(int,int):/(int,int):org.apache.xerces.utils.IntStack@push(int):90:fDepth + 1 |==> fDepth / 1
+8:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@push(int):90:ensureCapacity(fDepth + 1) |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.IntStack@push(int):91:fData[fDepth++] = value |==> <NO-OP>
+10:LVR:POS:0:org.apache.xerces.utils.IntStack@peek():96:1 |==> 0
+11:LVR:POS:NEG:org.apache.xerces.utils.IntStack@peek():96:1 |==> -1
+12:AOR:-(int,int):%(int,int):org.apache.xerces.utils.IntStack@peek():96:fDepth - 1 |==> fDepth % 1
+13:AOR:-(int,int):*(int,int):org.apache.xerces.utils.IntStack@peek():96:fDepth - 1 |==> fDepth * 1
+14:AOR:-(int,int):+(int,int):org.apache.xerces.utils.IntStack@peek():96:fDepth - 1 |==> fDepth + 1
+15:AOR:-(int,int):/(int,int):org.apache.xerces.utils.IntStack@peek():96:fDepth - 1 |==> fDepth / 1
+16:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.xerces.utils.IntStack@pop():101:fData[--fDepth] |==> 0
+17:LVR:0:POS:org.apache.xerces.utils.IntStack@clear():106:0 |==> 1
+18:LVR:0:NEG:org.apache.xerces.utils.IntStack@clear():106:0 |==> -1
+19:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.IntStack@clear():106:fDepth = 0 |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():113:System.out.print('(') |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():114:System.out.print(fDepth) |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():115:System.out.print(") {") |==> <NO-OP>
+23:LVR:0:POS:org.apache.xerces.utils.IntStack@print():116:0 |==> 1
+24:LVR:0:NEG:org.apache.xerces.utils.IntStack@print():116:0 |==> -1
+25:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.IntStack@print():116:i < fDepth |==> i != fDepth
+26:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.IntStack@print():116:i < fDepth |==> i <= fDepth
+27:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.IntStack@print():116:i < fDepth |==> false
+28:LVR:POS:0:org.apache.xerces.utils.IntStack@print():117:3 |==> 0
+29:LVR:POS:NEG:org.apache.xerces.utils.IntStack@print():117:3 |==> -3
+30:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.IntStack@print():117:i == 3 |==> i <= 3
+31:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.IntStack@print():117:i == 3 |==> i >= 3
+32:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.IntStack@print():117:i == 3 |==> false
+33:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():118:System.out.print(" ...") |==> <NO-OP>
+34:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.IntStack@print():119:break; |==> <NO-OP>
+35:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():121:System.out.print(' ') |==> <NO-OP>
+36:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():122:System.out.print(fData[i]) |==> <NO-OP>
+37:LVR:POS:0:org.apache.xerces.utils.IntStack@print():123:1 |==> 0
+38:LVR:POS:NEG:org.apache.xerces.utils.IntStack@print():123:1 |==> -1
+39:AOR:-(int,int):%(int,int):org.apache.xerces.utils.IntStack@print():123:fDepth - 1 |==> fDepth % 1
+40:AOR:-(int,int):*(int,int):org.apache.xerces.utils.IntStack@print():123:fDepth - 1 |==> fDepth * 1
+41:AOR:-(int,int):+(int,int):org.apache.xerces.utils.IntStack@print():123:fDepth - 1 |==> fDepth + 1
+42:AOR:-(int,int):/(int,int):org.apache.xerces.utils.IntStack@print():123:fDepth - 1 |==> fDepth / 1
+43:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.IntStack@print():123:i < fDepth - 1 |==> i != fDepth - 1
+44:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.IntStack@print():123:i < fDepth - 1 |==> i <= fDepth - 1
+45:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.IntStack@print():123:i < fDepth - 1 |==> false
+46:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():124:System.out.print(',') |==> <NO-OP>
+47:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():127:System.out.print(" }") |==> <NO-OP>
+48:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@print():128:System.out.println() |==> <NO-OP>
+49:LVR:0:POS:org.apache.xerces.utils.IntStack@ensureCapacity(int):138:0 |==> 1
+50:LVR:0:NEG:org.apache.xerces.utils.IntStack@ensureCapacity(int):138:0 |==> -1
+51:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.IntStack@ensureCapacity(int):138:fData[size] != 0 |==> fData[size] < 0
+52:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.IntStack@ensureCapacity(int):138:fData[size] != 0 |==> fData[size] > 0
+53:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.IntStack@ensureCapacity(int):138:fData[size] != 0 |==> true
+54:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.IntStack@ensureCapacity(int):138:return Config.__M_NO == 53 ? true : Config.__M_NO == 52 ? fData[size] > 0 : Config.__M_NO == 51 ? fData[size] < 0 : Config.__M_NO == 0 && Config.COVERED(51, 53) ? fData[size] != 0 : fData[size] != (Config.__M_NO == 0 && Config.COVERED(49, 50) ? 0 : Config.__M_NO == 50 ? -1 : Config.__M_NO == 49 ? 1 : 0); |==> <NO-OP>
+55:LVR:POS:0:org.apache.xerces.utils.IntStack@ensureCapacity(int):141:32 |==> 0
+56:LVR:POS:NEG:org.apache.xerces.utils.IntStack@ensureCapacity(int):141:32 |==> -32
+57:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.IntStack@ensureCapacity(int):141:fData = new int[32] |==> <NO-OP>
+58:LVR:POS:0:org.apache.xerces.utils.IntStack@ensureCapacity(int):144:2 |==> 0
+59:LVR:POS:NEG:org.apache.xerces.utils.IntStack@ensureCapacity(int):144:2 |==> -2
+60:AOR:*(int,int):%(int,int):org.apache.xerces.utils.IntStack@ensureCapacity(int):144:fData.length * 2 |==> fData.length % 2
+61:AOR:*(int,int):+(int,int):org.apache.xerces.utils.IntStack@ensureCapacity(int):144:fData.length * 2 |==> fData.length + 2
+62:AOR:*(int,int):-(int,int):org.apache.xerces.utils.IntStack@ensureCapacity(int):144:fData.length * 2 |==> fData.length - 2
+63:AOR:*(int,int):/(int,int):org.apache.xerces.utils.IntStack@ensureCapacity(int):144:fData.length * 2 |==> fData.length / 2
+64:LVR:0:POS:org.apache.xerces.utils.IntStack@ensureCapacity(int):145:0 |==> 1
+65:LVR:0:NEG:org.apache.xerces.utils.IntStack@ensureCapacity(int):145:0 |==> -1
+66:LVR:0:POS:org.apache.xerces.utils.IntStack@ensureCapacity(int):145:0 |==> 1
+67:LVR:0:NEG:org.apache.xerces.utils.IntStack@ensureCapacity(int):145:0 |==> -1
+68:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.IntStack@ensureCapacity(int):145:System.arraycopy(fData, 0, newdata, 0, fData.length) |==> <NO-OP>
+69:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.IntStack@ensureCapacity(int):146:fData = newdata |==> <NO-OP>
+70:LVR:TRUE:FALSE:org.apache.xerces.utils.IntStack@ensureCapacity(int):148:true |==> false

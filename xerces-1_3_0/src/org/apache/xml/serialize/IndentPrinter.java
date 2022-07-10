@@ -117,7 +117,7 @@ class IndentPrinter
     {
         super( writer, format );
         // Initialize everything for a first/second run.
-        _line = new StringBuffer( 80 );
+        _line = new StringBuffer( 0 );
         _text = new StringBuffer( 20 );
         _spaces = 0;
         _thisIndent = _nextIndent = 0;

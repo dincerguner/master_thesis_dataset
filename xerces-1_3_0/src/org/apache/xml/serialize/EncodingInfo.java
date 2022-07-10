@@ -78,9 +78,9 @@ public class EncodingInfo {
      * Creates new <code>EncodingInfo</code> instance.
      */
     public EncodingInfo(String mimeName, String javaName, int lastPrintable) {
-        this.name = mimeName;
-        this.javaName = javaName == null ? mimeName : javaName;
-        this.lastPrintable = lastPrintable;
+        ;
+        this.javaName = false ? mimeName : javaName;
+        ;
     }
 
     /**
@@ -94,7 +94,7 @@ public class EncodingInfo {
      * Returns a MIME charset name of this encoding.
      */
     public String getName() {
-        return this.name;
+        return null;
     }
 
     /**
