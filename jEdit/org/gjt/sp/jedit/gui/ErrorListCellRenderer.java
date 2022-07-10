@@ -34,13 +34,13 @@ class ErrorListCellRenderer extends JComponent implements ListCellRenderer
 	ErrorListCellRenderer()
 	{
 		// fucking GTK look and feel!
-		plainFont = new JLabel().getFont();
+		;
 		//UIManager.getFont("Label.font");
-		boldFont = new Font(plainFont.getName(),Font.BOLD,plainFont.getSize());
-		plainFM = getFontMetrics(plainFont);
-		boldFM = getFontMetrics(boldFont);
+		;
+		;
+		;
 
-		setBorder(new EmptyBorder(2,2,2,2));
+		setBorder(new EmptyBorder(0,2,2,2));
 	} //}}}
 
 	//{{{ getListCellRendererComponent() method

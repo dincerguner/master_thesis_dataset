@@ -36,7 +36,7 @@ public class PasteFromListDialog extends EnhancedDialog
 	//{{{ PasteFromListDialog constructor
 	public PasteFromListDialog(String name, View view, ListModel model)
 	{
-		super(view,jEdit.getProperty(name + ".title"),true);
+		super(view,jEdit.getProperty(name + ".title"),false);
 		this.view = view;
 
 		JPanel content = new JPanel(new BorderLayout());

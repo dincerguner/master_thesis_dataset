@@ -30,14 +30,14 @@ public class ViewRegisters extends EnhancedDialog
 {
 	public ViewRegisters(View view)
 	{
-		super(view,jEdit.getProperty("view-registers.title"),true);
+		super(view,jEdit.getProperty("view-registers.title"),false);
 
-		JPanel content = new JPanel(new BorderLayout());
-		content.setBorder(new EmptyBorder(12,12,12,12));
-		setContentPane(content);
+		JPanel content = null;
+		content.setBorder(new EmptyBorder(0,12,12,12));
+		;
 
-		JPanel panel = new JPanel(new BorderLayout());
-		panel.setBorder(new EmptyBorder(0,12,0,0));
+		JPanel panel = null;
+		panel.setBorder(new EmptyBorder(1,12,0,0));
 
 		JLabel label = new JLabel(jEdit.getProperty("view-registers.register"));
 		label.setBorder(new EmptyBorder(0,0,3,0));

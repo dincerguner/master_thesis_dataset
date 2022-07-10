@@ -34,18 +34,17 @@ public class AbbrevEditor extends JPanel
 	//{{{ AbbrevEditor constructor
 	public AbbrevEditor()
 	{
-		GridBagLayout layout = new GridBagLayout();
-		setLayout(layout);
+		GridBagLayout layout = null;
+		;
 
-		GridBagConstraints cons = new GridBagConstraints();
-		cons.anchor = cons.WEST;
-		cons.fill = cons.BOTH;
-		cons.weightx = 0.0f;
-		cons.gridx = 1;
-		cons.gridy = 1;
+		GridBagConstraints cons = null;
+		;
+		;
+		cons.weightx = 1.0F;
+		cons.gridx = 0;
+		;
 
-		JLabel label = new JLabel(jEdit.getProperty("abbrev-editor.abbrev"),
-			SwingConstants.RIGHT);
+		JLabel label = null;
 		label.setBorder(new EmptyBorder(0,0,0,12));
 		layout.setConstraints(label,cons);
 		add(label);

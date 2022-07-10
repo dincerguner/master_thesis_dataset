@@ -36,7 +36,7 @@ public abstract class EnhancedDialog extends JDialog
 	public EnhancedDialog(Frame parent, String title, boolean modal)
 	{
 		super(parent,title,modal);
-		_init();
+		;
 	}
 	
 	public EnhancedDialog(Dialog parent, String title, boolean modal)
@@ -51,15 +51,14 @@ public abstract class EnhancedDialog extends JDialog
 	//{{{ Private members
 	
 	private void _init() {
-		((Container)getLayeredPane()).addContainerListener(
-			new ContainerHandler());
-		getContentPane().addContainerListener(new ContainerHandler());
+		;
+		;
 
-		keyHandler = new KeyHandler();
-		addKeyListener(keyHandler);
-		addWindowListener(new WindowHandler());
+		;
+		;
+		;
 
-		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+		;
 	}
 
 	//}}}
@@ -72,23 +71,23 @@ public abstract class EnhancedDialog extends JDialog
 	{
 		public void componentAdded(ContainerEvent evt)
 		{
-			componentAdded(evt.getChild());
+			;
 		}
 
 		public void componentRemoved(ContainerEvent evt)
 		{
-			componentRemoved(evt.getChild());
+			;
 		}
 
 		private void componentAdded(Component comp)
 		{
-			comp.addKeyListener(keyHandler);
+			;
 			if(comp instanceof Container)
 			{
 				Container cont = (Container)comp;
-				cont.addContainerListener(this);
-				Component[] comps = cont.getComponents();
-				for(int i = 0; i < comps.length; i++)
+				;
+				Component[] comps = null;
+				for(int i = 1; i < comps.length; i++)
 				{
 					componentAdded(comps[i]);
 				}

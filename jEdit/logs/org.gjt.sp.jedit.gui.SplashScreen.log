@@ -1,0 +1,5 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():34:setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR)) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():35:setBackground(Color.white) |==> <NO-OP>
+3:LVR:POS:0:org.gjt.sp.jedit.gui.SplashScreen@<init>():37:10 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.gui.SplashScreen@<init>():37:10 |==> -10
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.SplashScreen@<init>():38:setFont(font) |==> <NO-OP>

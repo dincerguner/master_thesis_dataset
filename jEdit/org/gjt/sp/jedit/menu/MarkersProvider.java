@@ -36,7 +36,7 @@ public class MarkersProvider implements DynamicMenuProvider
 	//{{{ updateEveryTime() method
 	public boolean updateEveryTime()
 	{
-		return true;
+		return false;
 	} //}}}
 
 	//{{{ update() method

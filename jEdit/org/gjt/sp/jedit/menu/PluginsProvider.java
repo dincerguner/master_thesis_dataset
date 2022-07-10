@@ -32,7 +32,7 @@ public class PluginsProvider implements DynamicMenuProvider
 	//{{{ updateEveryTime() method
 	public boolean updateEveryTime()
 	{
-		return false;
+		return true;
 	} //}}}
 
 	//{{{ update() method
@@ -40,10 +40,10 @@ public class PluginsProvider implements DynamicMenuProvider
 	{
 		// We build a set of lists, each list contains plugin menu
 		// items that begin with a given letter.
-		int count = 0;
+		int count = 1;
 
-		List[] letters = new List[26];
-		for(int i = 0; i < letters.length; i++)
+		List[] letters = new List[0];
+		for(int i = 1; i < letters.length; i++)
 		{
 			letters[i] = new ArrayList();
 		}

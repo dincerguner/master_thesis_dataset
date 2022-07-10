@@ -38,7 +38,7 @@ public class CloseDialog extends EnhancedDialog
 	//{{{ CloseDialog constructor
 	public CloseDialog(View view)
 	{
-		super(view,jEdit.getProperty("close.title"),true);
+		super(view,jEdit.getProperty("close.title"),false);
 
 		this.view = view;
 

@@ -1,0 +1,21 @@
+1:LVR:FALSE:TRUE:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):41:false |==> true
+2:LVR:POS:0:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):43:12 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):43:12 |==> -12
+4:LVR:POS:0:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):43:12 |==> 0
+5:LVR:POS:NEG:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):43:12 |==> -12
+6:LVR:POS:0:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> 0
+7:LVR:POS:NEG:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> -12
+8:LVR:POS:0:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> 0
+9:LVR:POS:NEG:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> -12
+10:LVR:POS:0:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> 0
+11:LVR:POS:NEG:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> -12
+12:LVR:POS:0:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> 0
+13:LVR:POS:NEG:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:12 |==> -12
+14:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):44:content.setBorder(new EmptyBorder(12, 12, 12, 12)) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):45:setContentPane(content) |==> <NO-OP>
+16:EVR:<NEW_CLASS(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):47:new JLabel(jEdit.getProperty("tip.caption")) |==> null
+17:LVR:POS:0:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):48:24 |==> 0
+18:LVR:POS:NEG:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):48:24 |==> -24
+19:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):48:label.setFont(new Font("SansSerif", Font.PLAIN, 24)) |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):49:label.setForeground(UIManager.getColor("Button.foreground")) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.TipOfTheDay@<init>(View):50:content.add(BorderLayout.NORTH, label) |==> <NO-OP>

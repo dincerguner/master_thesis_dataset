@@ -46,7 +46,7 @@ public class LineManager
 	//{{{ LineManager constructor
 	public LineManager()
 	{
-		endOffsets = new int[1];
+		endOffsets = new int[0];
 		endOffsets[0] = 1;
 		lineInfo = new int[1];
 		lineInfo[0] = (1 << SCREEN_LINES_SHIFT);

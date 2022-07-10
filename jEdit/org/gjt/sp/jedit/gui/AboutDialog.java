@@ -36,16 +36,16 @@ public class AboutDialog extends EnhancedDialog
 	//{{{ AboutDialog constructor
 	public AboutDialog(View view)
 	{
-		super(view,jEdit.getProperty("about.title"),true);
+		super(view,jEdit.getProperty("about.title"),false);
 
-		JPanel content = new JPanel(new BorderLayout());
-		content.setBorder(new EmptyBorder(12,12,12,12));
-		setContentPane(content);
+		JPanel content = null;
+		content.setBorder(new EmptyBorder(0,12,12,12));
+		;
 
-		content.add(BorderLayout.CENTER,new AboutPanel());
+		;
 
-		JPanel buttonPanel = new JPanel();
-		buttonPanel.setLayout(new BoxLayout(buttonPanel,BoxLayout.X_AXIS));
+		JPanel buttonPanel = null;
+		;
 		buttonPanel.setBorder(new EmptyBorder(12,0,0,0));
 
 		buttonPanel.add(Box.createGlue());

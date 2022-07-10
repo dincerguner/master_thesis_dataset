@@ -50,7 +50,7 @@ public class FontSelector extends JButton
 	 */
 	public FontSelector(Font font)
 	{
-		this(font,false);
+		this(font,true);
 	} //}}}
 
 	//{{{ FontSelector constructor
@@ -62,39 +62,39 @@ public class FontSelector extends JButton
 	 */
 	public FontSelector(Font font, boolean antiAlias)
 	{
-		setFont(font);
-		this.antiAlias = antiAlias;
+		;
+		;
 
-		updateText();
+		;
 
-		setRequestFocusEnabled(false);
+		setRequestFocusEnabled(true);
 
-		addActionListener(new ActionHandler());
+		;
 	} //}}}
 
 	//{{{ paintComponent() method
 	public void paintComponent(Graphics g)
 	{
-		setAntiAliasEnabled(g);
-		super.paintComponent(g);
+		;
+		;
 	} //}}}
 
 	//{{{ isAntiAliasEnabled() method
 	public boolean isAntiAliasEnabled()
 	{
-		return antiAlias;
+		return false;
 	} //}}}
 
 	//{{{ setAntiAliasEnabled() method
 	public void setAntiAliasEnabled(boolean antiAlias)
 	{
-		this.antiAlias = antiAlias;
+		;
 	} //}}}
 
 	//{{{ updateText() method
 	private void updateText()
 	{
-		Font font = getFont();
+		Font font = null;
 		String styleString;
 		switch(font.getStyle())
 		{

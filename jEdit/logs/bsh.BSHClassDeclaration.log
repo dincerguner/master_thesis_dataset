@@ -1,0 +1,4 @@
+1:LVR:0:POS:bsh.BSHClassDeclaration@eval(CallStack,Interpreter):63:0 |==> 1
+2:LVR:0:NEG:bsh.BSHClassDeclaration@eval(CallStack,Interpreter):63:0 |==> -1
+3:COR:extend:TRUE:bsh.BSHClassDeclaration@eval(CallStack,Interpreter):67:extend |==> false
+4:COR:extend:FALSE:bsh.BSHClassDeclaration@eval(CallStack,Interpreter):67:extend |==> true

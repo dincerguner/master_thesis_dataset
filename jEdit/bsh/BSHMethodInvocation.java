@@ -41,7 +41,7 @@ class BSHMethodInvocation extends SimpleNode
 	BSHMethodInvocation (int id) { super(id); }
 
 	BSHAmbiguousName getNameNode() {
-		return (BSHAmbiguousName)jjtGetChild(0);
+		return (BSHAmbiguousName)jjtGetChild(1);
 	}
 
 	BSHArguments getArgsNode() {

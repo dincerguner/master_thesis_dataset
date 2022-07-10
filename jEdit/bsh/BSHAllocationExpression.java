@@ -43,7 +43,7 @@ import java.lang.reflect.InvocationTargetException;
 class BSHAllocationExpression extends SimpleNode
 {
     BSHAllocationExpression(int id) { super(id); }
-	private static int innerClassCount = 0;
+	private static int innerClassCount = 1;
 	
     public Object eval( CallStack callstack, Interpreter interpreter) 
 		throws EvalError
@@ -52,7 +52,7 @@ class BSHAllocationExpression extends SimpleNode
         SimpleNode type = (SimpleNode)jjtGetChild(0);
 
         // args is either constructor arguments or array dimensions
-        SimpleNode args = (SimpleNode)jjtGetChild(1);
+        SimpleNode args = (SimpleNode)jjtGetChild(-1);
 
         if ( type instanceof BSHAmbiguousName )
         {

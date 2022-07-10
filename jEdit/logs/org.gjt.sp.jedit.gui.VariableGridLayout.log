@@ -1,0 +1,351 @@
+1:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_ROWS |==> mode < FIXED_NUM_ROWS
+2:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_ROWS |==> mode > FIXED_NUM_ROWS
+3:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_ROWS |==> true
+4:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_COLUMNS |==> mode < FIXED_NUM_COLUMNS
+5:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_COLUMNS |==> mode > FIXED_NUM_COLUMNS
+6:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_COLUMNS |==> true
+7:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_ROWS && mode != FIXED_NUM_COLUMNS |==> mode != FIXED_NUM_ROWS == (mode != FIXED_NUM_COLUMNS)
+8:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_ROWS && mode != FIXED_NUM_COLUMNS |==> false
+9:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_ROWS && mode != FIXED_NUM_COLUMNS |==> mode != FIXED_NUM_ROWS
+10:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):77:mode != FIXED_NUM_ROWS && mode != FIXED_NUM_COLUMNS |==> mode != FIXED_NUM_COLUMNS
+11:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):80:0 |==> 1
+12:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):80:0 |==> -1
+13:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):80:size <= 0 |==> size < 0
+14:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):80:size <= 0 |==> size == 0
+15:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):80:size <= 0 |==> true
+16:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):83:0 |==> 1
+17:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):83:0 |==> -1
+18:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):83:hgap < 0 |==> hgap != 0
+19:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):83:hgap < 0 |==> hgap <= 0
+20:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):83:hgap < 0 |==> false
+21:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):86:0 |==> 1
+22:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):86:0 |==> -1
+23:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):86:vgap < 0 |==> vgap != 0
+24:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):86:vgap < 0 |==> vgap <= 0
+25:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):86:vgap < 0 |==> false
+26:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):89:this.mode = mode |==> <NO-OP>
+27:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):90:this.size = size |==> <NO-OP>
+28:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):91:this.hgap = hgap |==> <NO-OP>
+29:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int,int,int):92:this.vgap = vgap |==> <NO-OP>
+30:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int):101:0 |==> 1
+31:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int):101:0 |==> -1
+32:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int):101:0 |==> 1
+33:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>(int,int):101:0 |==> -1
+34:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@<init>():110:1 |==> 0
+35:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>():110:1 |==> -1
+36:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@<init>():110:0 |==> 1
+37:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>():110:0 |==> -1
+38:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@<init>():110:0 |==> 1
+39:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@<init>():110:0 |==> -1
+40:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutAlignmentX(java.awt.Container):136:0.5F |==> 0.0F
+41:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutAlignmentX(java.awt.Container):136:0.5F |==> -0.5F
+42:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutAlignmentY(java.awt.Container):144:0.5F |==> 0.0F
+43:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutAlignmentY(java.awt.Container):144:0.5F |==> -0.5F
+44:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@preferredLayoutSize(java.awt.Container):149:2 |==> 0
+45:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@preferredLayoutSize(java.awt.Container):149:2 |==> -2
+46:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@minimumLayoutSize(java.awt.Container):154:0 |==> 1
+47:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@minimumLayoutSize(java.awt.Container):154:0 |==> -1
+48:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@maximumLayoutSize(java.awt.Container):159:1 |==> 0
+49:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@maximumLayoutSize(java.awt.Container):159:1 |==> -1
+50:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):165:update(parent) |==> <NO-OP>
+51:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):167:parent.getComponentCount() |==> 0
+52:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):169:0 |==> 1
+53:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):169:0 |==> -1
+54:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):169:ncomponents == 0 |==> ncomponents <= 0
+55:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):169:ncomponents == 0 |==> ncomponents >= 0
+56:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):169:ncomponents == 0 |==> false
+57:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):170:return; |==> <NO-OP>
+58:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):174:0 |==> 1
+59:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):174:0 |==> -1
+60:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):175:0 |==> 1
+61:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):175:0 |==> -1
+62:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):175:0 |==> 1
+63:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):175:0 |==> -1
+64:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):175:r < nrows |==> r != nrows
+65:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):175:r < nrows |==> r <= nrows
+66:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):175:r < nrows |==> false
+67:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):176:0 |==> 1
+68:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):176:0 |==> -1
+69:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):176:c < ncols |==> c != ncols
+70:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):176:c < ncols |==> c <= ncols
+71:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):176:c < ncols |==> false
+72:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):177:i < ncomponents |==> i != ncomponents
+73:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):177:i < ncomponents |==> i <= ncomponents
+74:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):177:i < ncomponents |==> false
+75:EVR:<METHOD_INVOCATION(java.awt.Dimension)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):178:parent.getComponent(i).getPreferredSize() |==> null
+76:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):179:row_heights[r] = Math.max(row_heights[r], d.height) |==> <NO-OP>
+77:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):180:col_widths[c] = Math.max(col_widths[c], d.width) |==> <NO-OP>
+78:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):182:break; |==> <NO-OP>
+79:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):185:total_height += row_heights[r] |==> <NO-OP>
+80:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):188:0 |==> 1
+81:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):188:0 |==> -1
+82:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):189:0 |==> 1
+83:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):189:0 |==> -1
+84:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):189:c < ncols |==> c != ncols
+85:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):189:c < ncols |==> c <= ncols
+86:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):189:c < ncols |==> false
+87:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):190:total_width += col_widths[c] |==> <NO-OP>
+88:EVR:<METHOD_INVOCATION(java.awt.Dimension)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):194:parent.getSize() |==> null
+89:EVR:<METHOD_INVOCATION(java.awt.Insets)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):195:parent.getInsets() |==> null
+90:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top |==> parent_size.height % insets.top
+91:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top |==> parent_size.height * insets.top
+92:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top |==> parent_size.height + insets.top
+93:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top |==> parent_size.height / insets.top
+94:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom |==> (parent_size.height - insets.top) % insets.bottom
+95:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom |==> (parent_size.height - insets.top) * insets.bottom
+96:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom |==> parent_size.height - insets.top + insets.bottom
+97:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom |==> (parent_size.height - insets.top) / insets.bottom
+98:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:1 |==> 0
+99:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:1 |==> -1
+100:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:nrows - 1 |==> nrows % 1
+101:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:nrows - 1 |==> nrows * 1
+102:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:nrows - 1 |==> nrows + 1
+103:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:nrows - 1 |==> nrows / 1
+104:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:(nrows - 1) * vgap |==> (nrows - 1) % vgap
+105:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:(nrows - 1) * vgap |==> (nrows - 1) + vgap
+106:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:(nrows - 1) * vgap |==> (nrows - 1) - vgap
+107:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:(nrows - 1) * vgap |==> (nrows - 1) / vgap
+108:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom - (nrows - 1) * vgap |==> (parent_size.height - insets.top - insets.bottom) % ((nrows - 1) * vgap)
+109:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom - (nrows - 1) * vgap |==> (parent_size.height - insets.top - insets.bottom) * ((nrows - 1) * vgap)
+110:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom - (nrows - 1) * vgap |==> parent_size.height - insets.top - insets.bottom + (nrows - 1) * vgap
+111:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):196:parent_size.height - insets.top - insets.bottom - (nrows - 1) * vgap |==> (parent_size.height - insets.top - insets.bottom) / ((nrows - 1) * vgap)
+112:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left |==> parent_size.width % insets.left
+113:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left |==> parent_size.width * insets.left
+114:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left |==> parent_size.width + insets.left
+115:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left |==> parent_size.width / insets.left
+116:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right |==> (parent_size.width - insets.left) % insets.right
+117:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right |==> (parent_size.width - insets.left) * insets.right
+118:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right |==> parent_size.width - insets.left + insets.right
+119:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right |==> (parent_size.width - insets.left) / insets.right
+120:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:1 |==> 0
+121:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:1 |==> -1
+122:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:ncols - 1 |==> ncols % 1
+123:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:ncols - 1 |==> ncols * 1
+124:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:ncols - 1 |==> ncols + 1
+125:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:ncols - 1 |==> ncols / 1
+126:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:(ncols - 1) * hgap |==> (ncols - 1) % hgap
+127:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:(ncols - 1) * hgap |==> (ncols - 1) + hgap
+128:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:(ncols - 1) * hgap |==> (ncols - 1) - hgap
+129:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:(ncols - 1) * hgap |==> (ncols - 1) / hgap
+130:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right - (ncols - 1) * hgap |==> (parent_size.width - insets.left - insets.right) % ((ncols - 1) * hgap)
+131:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right - (ncols - 1) * hgap |==> (parent_size.width - insets.left - insets.right) * ((ncols - 1) * hgap)
+132:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right - (ncols - 1) * hgap |==> parent_size.width - insets.left - insets.right + (ncols - 1) * hgap
+133:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):197:parent_size.width - insets.left - insets.right - (ncols - 1) * hgap |==> (parent_size.width - insets.left - insets.right) / ((ncols - 1) * hgap)
+134:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):199:total_height != free_height |==> total_height < free_height
+135:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):199:total_height != free_height |==> total_height > free_height
+136:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):199:total_height != free_height |==> true
+137:AOR:/(double,double):%(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):200:(double)free_height / (double)total_height |==> (double)free_height % (double)total_height
+138:AOR:/(double,double):*(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):200:(double)free_height / (double)total_height |==> (double)free_height * (double)total_height
+139:AOR:/(double,double):+(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):200:(double)free_height / (double)total_height |==> (double)free_height + (double)total_height
+140:AOR:/(double,double):-(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):200:(double)free_height / (double)total_height |==> (double)free_height - (double)total_height
+141:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):201:0 |==> 1
+142:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):201:0 |==> -1
+143:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):201:r < nrows |==> r != nrows
+144:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):201:r < nrows |==> r <= nrows
+145:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):201:r < nrows |==> false
+146:AOR:*(double,double):%(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):202:(double)row_heights[r] * dy |==> (double)row_heights[r] % dy
+147:AOR:*(double,double):+(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):202:(double)row_heights[r] * dy |==> (double)row_heights[r] + dy
+148:AOR:*(double,double):-(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):202:(double)row_heights[r] * dy |==> (double)row_heights[r] - dy
+149:AOR:*(double,double):/(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):202:(double)row_heights[r] * dy |==> (double)row_heights[r] / dy
+150:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):202:row_heights[r] = (int)((double)row_heights[r] * dy) |==> <NO-OP>
+151:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):206:total_width != free_width |==> total_width < free_width
+152:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):206:total_width != free_width |==> total_width > free_width
+153:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):206:total_width != free_width |==> true
+154:AOR:/(double,double):%(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):207:((double)free_width) / ((double)total_width) |==> ((double)free_width) % ((double)total_width)
+155:AOR:/(double,double):*(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):207:((double)free_width) / ((double)total_width) |==> ((double)free_width) * ((double)total_width)
+156:AOR:/(double,double):+(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):207:((double)free_width) / ((double)total_width) |==> ((double)free_width) + ((double)total_width)
+157:AOR:/(double,double):-(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):207:((double)free_width) / ((double)total_width) |==> ((double)free_width) - ((double)total_width)
+158:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):208:0 |==> 1
+159:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):208:0 |==> -1
+160:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):208:c < ncols |==> c != ncols
+161:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):208:c < ncols |==> c <= ncols
+162:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):208:c < ncols |==> false
+163:AOR:*(double,double):%(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):209:(double)col_widths[c] * dx |==> (double)col_widths[c] % dx
+164:AOR:*(double,double):+(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):209:(double)col_widths[c] * dx |==> (double)col_widths[c] + dx
+165:AOR:*(double,double):-(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):209:(double)col_widths[c] * dx |==> (double)col_widths[c] - dx
+166:AOR:*(double,double):/(double,double):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):209:(double)col_widths[c] * dx |==> (double)col_widths[c] / dx
+167:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):209:col_widths[c] = (int)((double)col_widths[c] * dx) |==> <NO-OP>
+168:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:0 |==> 1
+169:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:0 |==> -1
+170:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:insets.top |==> 0
+171:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:0 |==> 1
+172:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:0 |==> -1
+173:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:r < nrows |==> r != nrows
+174:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:r < nrows |==> r <= nrows
+175:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:r < nrows |==> false
+176:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:row_heights[r] + vgap |==> row_heights[r] % vgap
+177:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:row_heights[r] + vgap |==> row_heights[r] * vgap
+178:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:row_heights[r] + vgap |==> row_heights[r] - vgap
+179:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):214:row_heights[r] + vgap |==> row_heights[r] / vgap
+180:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:0 |==> 1
+181:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:0 |==> -1
+182:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:insets.left |==> 0
+183:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:c < ncols |==> c != ncols
+184:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:c < ncols |==> c <= ncols
+185:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:c < ncols |==> false
+186:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:col_widths[c] + hgap |==> col_widths[c] % hgap
+187:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:col_widths[c] + hgap |==> col_widths[c] * hgap
+188:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:col_widths[c] + hgap |==> col_widths[c] - hgap
+189:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):215:col_widths[c] + hgap |==> col_widths[c] / hgap
+190:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):216:i < ncomponents |==> i != ncomponents
+191:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):216:i < ncomponents |==> i <= ncomponents
+192:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):216:i < ncomponents |==> false
+193:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@layoutContainer(java.awt.Container):217:parent.getComponent(i).setBounds(x, y, col_widths[c], row_heights[r]) |==> <NO-OP>
+194:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@toString():235:getClass().getName() + "[mode=" + mode + ",size=" + size + ",hgap=" + hgap + ",vgap=" + vgap + "]" |==> null
+195:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):246:update(parent) |==> <NO-OP>
+196:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):248:parent.getComponentCount() |==> 0
+197:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):249:0 |==> 1
+198:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):249:0 |==> -1
+199:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):250:0 |==> 1
+200:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):250:0 |==> -1
+201:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):252:0 |==> 1
+202:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):252:0 |==> -1
+203:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):252:0 |==> 1
+204:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):252:0 |==> -1
+205:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):252:r < nrows |==> r != nrows
+206:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):252:r < nrows |==> r <= nrows
+207:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):252:r < nrows |==> false
+208:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):253:0 |==> 1
+209:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):253:0 |==> -1
+210:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):254:0 |==> 1
+211:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):254:0 |==> -1
+212:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):254:c < ncols |==> c != ncols
+213:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):254:c < ncols |==> c <= ncols
+214:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):254:c < ncols |==> false
+215:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):255:i < ncomponents |==> i != ncomponents
+216:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):255:i < ncomponents |==> i <= ncomponents
+217:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):255:i < ncomponents |==> false
+218:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):258:row_height = Math.max(row_height, parent.getComponent(i).getMinimumSize().height) |==> <NO-OP>
+219:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):259:break; |==> <NO-OP>
+220:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):261:row_height = Math.max(row_height, parent.getComponent(i).getMaximumSize().height) |==> <NO-OP>
+221:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):262:break; |==> <NO-OP>
+222:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):264:row_height = Math.max(row_height, parent.getComponent(i).getPreferredSize().height) |==> <NO-OP>
+223:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):265:break; |==> <NO-OP>
+224:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):268:break; |==> <NO-OP>
+225:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):271:h += row_height |==> <NO-OP>
+226:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):274:0 |==> 1
+227:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):274:0 |==> -1
+228:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):274:c < ncols |==> c != ncols
+229:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):274:c < ncols |==> c <= ncols
+230:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):274:c < ncols |==> false
+231:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):275:0 |==> 1
+232:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):275:0 |==> -1
+233:LVR:0:POS:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):276:0 |==> 1
+234:LVR:0:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):276:0 |==> -1
+235:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):276:r < nrows |==> r != nrows
+236:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):276:r < nrows |==> r <= nrows
+237:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):276:r < nrows |==> false
+238:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols |==> r % ncols
+239:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols |==> r + ncols
+240:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols |==> r - ncols
+241:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols |==> r / ncols
+242:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols + c |==> r * ncols % c
+243:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols + c |==> r * ncols * c
+244:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols + c |==> r * ncols - c
+245:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):277:r * ncols + c |==> r * ncols / c
+246:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):278:i < ncomponents |==> i != ncomponents
+247:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):278:i < ncomponents |==> i <= ncomponents
+248:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):278:i < ncomponents |==> false
+249:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):281:col_width = Math.max(col_width, parent.getComponent(i).getMinimumSize().width) |==> <NO-OP>
+250:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):282:break; |==> <NO-OP>
+251:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):284:col_width = Math.max(col_width, parent.getComponent(i).getMaximumSize().width) |==> <NO-OP>
+252:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):285:break; |==> <NO-OP>
+253:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):287:col_width = Math.max(col_width, parent.getComponent(i).getPreferredSize().width) |==> <NO-OP>
+254:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):288:break; |==> <NO-OP>
+255:STD:<BREAK>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):291:break; |==> <NO-OP>
+256:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):294:w += col_width |==> <NO-OP>
+257:EVR:<METHOD_INVOCATION(java.awt.Insets)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):297:parent.getInsets() |==> null
+258:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left |==> w % insets.left
+259:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left |==> w * insets.left
+260:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left |==> w - insets.left
+261:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left |==> w / insets.left
+262:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right |==> (w + insets.left) % insets.right
+263:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right |==> (w + insets.left) * insets.right
+264:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right |==> w + insets.left - insets.right
+265:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right |==> (w + insets.left) / insets.right
+266:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:1 |==> 0
+267:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:1 |==> -1
+268:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:ncols - 1 |==> ncols % 1
+269:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:ncols - 1 |==> ncols * 1
+270:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:ncols - 1 |==> ncols + 1
+271:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:ncols - 1 |==> ncols / 1
+272:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:(ncols - 1) * hgap |==> (ncols - 1) % hgap
+273:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:(ncols - 1) * hgap |==> (ncols - 1) + hgap
+274:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:(ncols - 1) * hgap |==> (ncols - 1) - hgap
+275:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:(ncols - 1) * hgap |==> (ncols - 1) / hgap
+276:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right + ((ncols - 1) * hgap) |==> (w + insets.left + insets.right) % ((ncols - 1) * hgap)
+277:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right + ((ncols - 1) * hgap) |==> (w + insets.left + insets.right) * ((ncols - 1) * hgap)
+278:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right + ((ncols - 1) * hgap) |==> w + insets.left + insets.right - ((ncols - 1) * hgap)
+279:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):298:w + insets.left + insets.right + ((ncols - 1) * hgap) |==> (w + insets.left + insets.right) / ((ncols - 1) * hgap)
+280:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top |==> h % insets.top
+281:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top |==> h * insets.top
+282:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top |==> h - insets.top
+283:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top |==> h / insets.top
+284:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom |==> (h + insets.top) % insets.bottom
+285:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom |==> (h + insets.top) * insets.bottom
+286:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom |==> h + insets.top - insets.bottom
+287:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom |==> (h + insets.top) / insets.bottom
+288:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:1 |==> 0
+289:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:1 |==> -1
+290:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:nrows - 1 |==> nrows % 1
+291:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:nrows - 1 |==> nrows * 1
+292:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:nrows - 1 |==> nrows + 1
+293:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:nrows - 1 |==> nrows / 1
+294:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:(nrows - 1) * vgap |==> (nrows - 1) % vgap
+295:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:(nrows - 1) * vgap |==> (nrows - 1) + vgap
+296:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:(nrows - 1) * vgap |==> (nrows - 1) - vgap
+297:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:(nrows - 1) * vgap |==> (nrows - 1) / vgap
+298:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom + ((nrows - 1) * vgap) |==> (h + insets.top + insets.bottom) % ((nrows - 1) * vgap)
+299:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom + ((nrows - 1) * vgap) |==> (h + insets.top + insets.bottom) * ((nrows - 1) * vgap)
+300:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom + ((nrows - 1) * vgap) |==> h + insets.top + insets.bottom - ((nrows - 1) * vgap)
+301:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@getLayoutSize(java.awt.Container,int):299:h + insets.top + insets.bottom + ((nrows - 1) * vgap) |==> (h + insets.top + insets.bottom) / ((nrows - 1) * vgap)
+302:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):305:container.getComponentCount() |==> 0
+303:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):306:nrows |==> 0
+304:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):307:ncols |==> 0
+305:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):308:this.mode == FIXED_NUM_ROWS |==> this.mode <= FIXED_NUM_ROWS
+306:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):308:this.mode == FIXED_NUM_ROWS |==> this.mode >= FIXED_NUM_ROWS
+307:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):308:this.mode == FIXED_NUM_ROWS |==> false
+308:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):309:nrows = this.size |==> <NO-OP>
+309:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows |==> ncomponents % nrows
+310:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows |==> ncomponents * nrows
+311:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows |==> ncomponents - nrows
+312:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows |==> ncomponents / nrows
+313:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:1 |==> 0
+314:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:1 |==> -1
+315:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows - 1 |==> (ncomponents + nrows) % 1
+316:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows - 1 |==> (ncomponents + nrows) * 1
+317:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows - 1 |==> ncomponents + nrows + 1
+318:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncomponents + nrows - 1 |==> (ncomponents + nrows) / 1
+319:AOR:/(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:(ncomponents + nrows - 1) / nrows |==> (ncomponents + nrows - 1) % nrows
+320:AOR:/(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:(ncomponents + nrows - 1) / nrows |==> (ncomponents + nrows - 1) * nrows
+321:AOR:/(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:(ncomponents + nrows - 1) / nrows |==> (ncomponents + nrows - 1) + nrows
+322:AOR:/(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:(ncomponents + nrows - 1) / nrows |==> (ncomponents + nrows - 1) - nrows
+323:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):310:ncols = (ncomponents + nrows - 1) / nrows |==> <NO-OP>
+324:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):312:ncols = this.size |==> <NO-OP>
+325:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols |==> ncomponents % ncols
+326:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols |==> ncomponents * ncols
+327:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols |==> ncomponents - ncols
+328:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols |==> ncomponents / ncols
+329:LVR:POS:0:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:1 |==> 0
+330:LVR:POS:NEG:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:1 |==> -1
+331:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols - 1 |==> (ncomponents + ncols) % 1
+332:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols - 1 |==> (ncomponents + ncols) * 1
+333:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols - 1 |==> ncomponents + ncols + 1
+334:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:ncomponents + ncols - 1 |==> (ncomponents + ncols) / 1
+335:AOR:/(int,int):%(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:(ncomponents + ncols - 1) / ncols |==> (ncomponents + ncols - 1) % ncols
+336:AOR:/(int,int):*(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:(ncomponents + ncols - 1) / ncols |==> (ncomponents + ncols - 1) * ncols
+337:AOR:/(int,int):+(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:(ncomponents + ncols - 1) / ncols |==> (ncomponents + ncols - 1) + ncols
+338:AOR:/(int,int):-(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:(ncomponents + ncols - 1) / ncols |==> (ncomponents + ncols - 1) - ncols
+339:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):313:nrows = (ncomponents + ncols - 1) / ncols |==> <NO-OP>
+340:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):315:old_nrows != nrows |==> old_nrows < nrows
+341:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):315:old_nrows != nrows |==> old_nrows > nrows
+342:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):315:old_nrows != nrows |==> true
+343:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):316:row_heights = new int[nrows] |==> <NO-OP>
+344:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):318:old_ncols != ncols |==> old_ncols < ncols
+345:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):318:old_ncols != ncols |==> old_ncols > ncols
+346:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):318:old_ncols != ncols |==> true
+347:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.VariableGridLayout@update(java.awt.Container):319:col_widths = new int[ncols] |==> <NO-OP>
+348:LVR:NEG:0:org.gjt.sp.jedit.gui.VariableGridLayout:328:-1 |==> 0
+349:LVR:NEG:POS:org.gjt.sp.jedit.gui.VariableGridLayout:328:-1 |==> 1
+350:LVR:NEG:0:org.gjt.sp.jedit.gui.VariableGridLayout:329:-1 |==> 0
+351:LVR:NEG:POS:org.gjt.sp.jedit.gui.VariableGridLayout:329:-1 |==> 1

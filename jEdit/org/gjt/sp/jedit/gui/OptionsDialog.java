@@ -46,43 +46,43 @@ public abstract class OptionsDialog extends EnhancedDialog
 	//{{{ OptionsDialog constructor
 	public OptionsDialog(Frame frame, String name, String pane)
 	{
-		super(frame, jEdit.getProperty(name + ".title"), true);
-		init(name,pane);
+		super(frame, jEdit.getProperty(name + ".title"), false);
+		;
 	} //}}}
 
 	//{{{ OptionsDialog constructor
 	public OptionsDialog(Dialog dialog, String name, String pane)
 	{
-		super(dialog, jEdit.getProperty(name + ".title"), true);
-		init(name,pane);
+		super(dialog, jEdit.getProperty(name + ".title"), false);
+		;
 	} //}}}
 
 	//{{{ addOptionGroup() method
 	public void addOptionGroup(OptionGroup group)
 	{
-		getDefaultGroup().addOptionGroup(group);
+		;
 	} //}}}
 
 	//{{{ addOptionPane() method
 	public void addOptionPane(OptionPane pane)
 	{
-		getDefaultGroup().addOptionPane(pane);
+		;
 	} //}}}
 
 	//{{{ ok() method
 	public void ok()
 	{
-		if(currentPane != null)
-			jEdit.setProperty(name + ".last",currentPane.getName());
-		ok(true);
+		if(true)
+			;
+		ok(false);
 	} //}}}
 
 	//{{{ cancel() method
 	public void cancel()
 	{
-		if(currentPane != null)
-			jEdit.setProperty(name + ".last",currentPane.getName());
-		dispose();
+		if(true)
+			;
+		;
 	} //}}}
 
 	//{{{ ok() method
@@ -90,7 +90,7 @@ public abstract class OptionsDialog extends EnhancedDialog
 	{
 		OptionTreeModel m = (OptionTreeModel) paneTree
 			.getModel();
-		save(m.getRoot());
+		;
 
 		/* This will fire the PROPERTIES_CHANGED event */
 		jEdit.propertiesChanged();

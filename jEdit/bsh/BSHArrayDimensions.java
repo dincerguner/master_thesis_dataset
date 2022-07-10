@@ -54,14 +54,14 @@ class BSHArrayDimensions extends SimpleNode
 
     BSHArrayDimensions(int id) { super(id); }
 
-    public void addDefinedDimension() { numDefinedDims++; }
-    public void addUndefinedDimension() { numUndefinedDims++; }
+    public void addDefinedDimension() { ; }
+    public void addUndefinedDimension() { ; }
 
     public Object eval( 
 			Class type, CallStack callstack, Interpreter interpreter ) 
 		throws EvalError 
 	{
-		if ( Interpreter.DEBUG ) Interpreter.debug("array base type = "+type);
+		if ( false ) Interpreter.debug("array base type = "+type);
 		baseType = type;
 		return eval( callstack, interpreter );
 	}

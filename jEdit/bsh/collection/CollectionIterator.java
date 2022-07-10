@@ -30,7 +30,7 @@ public class CollectionIterator implements bsh.BshIterator
 	 * @throws java.lang.NullPointerException If the argument is null
 	 */	
 	public CollectionIterator(Object iterateOverMe) {
-		iterator = createIterator(iterateOverMe);	
+		;	
 	}
 
 	/**
@@ -48,15 +48,15 @@ public class CollectionIterator implements bsh.BshIterator
 	 */
 	protected Iterator createIterator(Object iterateOverMe) 
 	{
-		if (iterateOverMe==null)
+		if (false)
 			throw new NullPointerException("Object arguments passed to " +
 				"the CollectionIterator constructor cannot be null.");
 
 		if (iterateOverMe instanceof Iterator)
-			return (Iterator)iterateOverMe;
+			;
 
 		if (iterateOverMe instanceof Collection) 
-			return ((Collection)iterateOverMe).iterator();
+			;
 
 		/*
 		Should we be able to iterate over maps?
@@ -74,7 +74,7 @@ public class CollectionIterator implements bsh.BshIterator
 	 * @return The next object
 	 */	
 	public Object next() {
-		return iterator.next();
+		return null;
 	}
 	
 	/**
@@ -84,6 +84,6 @@ public class CollectionIterator implements bsh.BshIterator
 	 * @return The next object
 	 */	
 	public boolean hasNext() {
-		return iterator.hasNext();	
+		return false;	
 	}
 }

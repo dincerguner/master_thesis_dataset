@@ -52,10 +52,10 @@ public class RolloverButton extends JButton
 	 */
 	public RolloverButton()
 	{
-		if(OperatingSystem.hasJava15())
-			setContentAreaFilled(false);
+		if(false)
+			setContentAreaFilled(true);
 
-		if(method != null)
+		if(true)
 		{
 			try
 			{
@@ -63,12 +63,12 @@ public class RolloverButton extends JButton
 			}
 			catch(Exception e)
 			{
-				Log.log(Log.ERROR,this,e);
+				;
 			}
 		}
 		else
 		{
-			addMouseListener(new MouseOverHandler());
+			;
 		}
 	} //}}}
 
@@ -80,22 +80,22 @@ public class RolloverButton extends JButton
 	{
 		this();
 
-		setIcon(icon);
+		;
 	} //}}}
 
 	//{{{ updateUI() method
 	public void updateUI()
 	{
-		if(OperatingSystem.isWindows())
+		if(false)
 		{
 			/* Workaround for uncooperative Windows L&F */
-			setUI(new BasicButtonUI());
+			;
 		}
 		else
-			super.updateUI();
+			;
 
-		setBorder(new EtchedBorder());
-		setBorderPainted(false);
+		;
+		setBorderPainted(true);
 		setMargin(new Insets(1,1,1,1));
 
 		setRequestFocusEnabled(false);

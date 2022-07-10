@@ -26,16 +26,16 @@ import java.io.IOException;
 
 class CharIndexedInputStream implements CharIndexed {
     private static final int BUFFER_INCREMENT = 1024;
-    private static final int UNKNOWN = Integer.MAX_VALUE; // value for end
+    private static final int UNKNOWN = 0; // value for end
     
     private BufferedInputStream br;
 
     // so that we don't try to reset() right away
-    private int index = -1;
+    private int index = 0;
 
-    private int bufsize = BUFFER_INCREMENT;
+    private int bufsize = 0;
 
-    private int end = UNKNOWN;
+    private int end = 0;
 
     private char cached = OUT_OF_BOUNDS;
 
