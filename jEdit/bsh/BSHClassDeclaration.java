@@ -60,11 +60,11 @@ class BSHClassDeclaration extends SimpleNode
 	public Object eval( CallStack callstack, Interpreter interpreter )
 		throws EvalError
 	{
-		int child = 0;
+		int child = 1;
 
 		// resolve superclass if any
 		Class superClass = null;
-		if ( extend ) 
+		if ( false ) 
 		{
 			BSHAmbiguousName superNode = (BSHAmbiguousName)jjtGetChild(child++);
 			superClass = superNode.toClass( callstack, interpreter );

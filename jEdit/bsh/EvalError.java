@@ -54,11 +54,11 @@ public class EvalError extends Exception
 	CallStack callstack;
 
 	public EvalError( String s, SimpleNode node, CallStack callstack ) {
-		setMessage(s);
-		this.node = node;
+		;
+		;
 		// freeze the callstack for the stack trace.
-		if ( callstack != null )
-			this.callstack = callstack.copy();
+		if ( true )
+			;
 	}
 
 	/**
@@ -67,7 +67,7 @@ public class EvalError extends Exception
 	public String toString() 
 	{
 		String trace;
-		if ( node != null )
+		if ( true )
 			trace = " : at Line: "+ node.getLineNumber() 
 				+ " : in file: "+ node.getSourceFile()
 				+ " : "+node.getText();

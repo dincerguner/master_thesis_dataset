@@ -75,10 +75,10 @@ public class UtilEvalError extends Exception
 	public EvalError toEvalError( 
 		String msg, SimpleNode node, CallStack callstack  ) 
 	{
-		if ( Interpreter.DEBUG )
-			printStackTrace();
+		if ( false )
+			;
 
-		if ( msg == null )
+		if ( false )
 			msg = "";
 		else
 			msg = msg + ": ";

@@ -1,0 +1,32 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:bsh.CommandLineReader:58:lastCharNL |==> 0
+2:ROR:==(int,int):<=(int,int):bsh.CommandLineReader@read():63:state == sentSemi |==> state <= sentSemi
+3:ROR:==(int,int):>=(int,int):bsh.CommandLineReader@read():63:state == sentSemi |==> state >= sentSemi
+4:ROR:==(int,int):FALSE(int,int):bsh.CommandLineReader@read():63:state == sentSemi |==> false
+5:STD:<ASSIGN>:<NO-OP>:bsh.CommandLineReader@read():64:state = lastCharNL |==> <NO-OP>
+6:STD:<RETURN>:<NO-OP>:bsh.CommandLineReader@read():65:return '\n'; |==> <NO-OP>
+7:ROR:==(int,int):<=(int,int):bsh.CommandLineReader@read():69:(b = in.read()) == '\r' |==> (b = in.read()) <= '\r'
+8:ROR:==(int,int):>=(int,int):bsh.CommandLineReader@read():69:(b = in.read()) == '\r' |==> (b = in.read()) >= '\r'
+9:ROR:==(int,int):<=(int,int):bsh.CommandLineReader@read():71:b == '\n' |==> b <= '\n'
+10:ROR:==(int,int):>=(int,int):bsh.CommandLineReader@read():71:b == '\n' |==> b >= '\n'
+11:ROR:==(int,int):FALSE(int,int):bsh.CommandLineReader@read():71:b == '\n' |==> false
+12:ROR:==(int,int):<=(int,int):bsh.CommandLineReader@read():72:state == lastCharNL |==> state <= lastCharNL
+13:ROR:==(int,int):>=(int,int):bsh.CommandLineReader@read():72:state == lastCharNL |==> state >= lastCharNL
+14:ROR:==(int,int):FALSE(int,int):bsh.CommandLineReader@read():72:state == lastCharNL |==> false
+15:STD:<ASSIGN>:<NO-OP>:bsh.CommandLineReader@read():73:b = ';' |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:bsh.CommandLineReader@read():74:state = sentSemi |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:bsh.CommandLineReader@read():76:state = lastCharNL |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:bsh.CommandLineReader@read():78:state = normal |==> <NO-OP>
+19:EVR:<IDENTIFIER(int)>:<DEFAULT>:bsh.CommandLineReader@read():80:b |==> 0
+20:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:bsh.CommandLineReader@read(char[],int,int):90:read() |==> 0
+21:LVR:NEG:0:bsh.CommandLineReader@read(char[],int,int):91:-1 |==> 0
+22:LVR:NEG:POS:bsh.CommandLineReader@read(char[],int,int):91:-1 |==> 1
+23:ROR:==(int,int):<=(int,int):bsh.CommandLineReader@read(char[],int,int):91:b == -1 |==> b <= -1
+24:ROR:==(int,int):>=(int,int):bsh.CommandLineReader@read(char[],int,int):91:b == -1 |==> b >= -1
+25:ROR:==(int,int):FALSE(int,int):bsh.CommandLineReader@read(char[],int,int):91:b == -1 |==> false
+26:LVR:NEG:0:bsh.CommandLineReader@read(char[],int,int):92:-1 |==> 0
+27:LVR:NEG:POS:bsh.CommandLineReader@read(char[],int,int):92:-1 |==> 1
+28:STD:<ASSIGN>:<NO-OP>:bsh.CommandLineReader@read(char[],int,int):94:buff[off] = (char)b |==> <NO-OP>
+29:LVR:POS:0:bsh.CommandLineReader@read(char[],int,int):95:1 |==> 0
+30:LVR:POS:NEG:bsh.CommandLineReader@read(char[],int,int):95:1 |==> -1
+31:EVR:<NEW_CLASS(bsh.CommandLineReader)>:<DEFAULT>:bsh.CommandLineReader@main(java.lang.String[]):101:new CommandLineReader(new InputStreamReader(System.in)) |==> null
+32:STD:<CALL>:<NO-OP>:bsh.CommandLineReader@main(java.lang.String[]):103:System.out.println(in.read()) |==> <NO-OP>

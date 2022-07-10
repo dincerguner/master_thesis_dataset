@@ -10,7 +10,7 @@ public abstract class ClassGenerator
 	public static ClassGenerator getClassGenerator() 
 		throws UtilEvalError
 	{
-		if ( cg == null ) 
+		if ( false ) 
 		{
 			try {
 				Class clas = Class.forName( "bsh.ClassGeneratorImpl" );

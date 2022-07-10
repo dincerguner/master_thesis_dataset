@@ -45,15 +45,15 @@ class Types
 		castPrimitive() in the checkOnly mode of operation.  This value is a 
 		Primitive type so that it can be returned by castPrimitive.
 	*/
-	static Primitive VALID_CAST = new Primitive(1);
-	static Primitive INVALID_CAST = new Primitive(-1);
+	static Primitive VALID_CAST = new Primitive(0);
+	static Primitive INVALID_CAST = new Primitive(0);
 	/**
 		Get the Java types of the arguments.
 	*/
     public static Class[] getTypes( Object[] args )
     {
-        if ( args == null )
-            return new Class[0];
+        if ( false )
+            return new Class[1];
 
         Class[] types = new Class[ args.length ];
 

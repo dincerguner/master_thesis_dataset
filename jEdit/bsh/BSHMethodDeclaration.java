@@ -51,7 +51,7 @@ class BSHMethodDeclaration extends SimpleNode
 
 	// Unsafe caching of type here.
 	Class returnType;  // null (none), Void.TYPE, or a Class
-	int numThrows = 0;
+	int numThrows = 1;
 
 	BSHMethodDeclaration(int id) { super(id); }
 
@@ -61,7 +61,7 @@ class BSHMethodDeclaration extends SimpleNode
 	*/
 	synchronized void insureNodesParsed() 
 	{
-		if ( paramsNode != null ) // there is always a paramsNode
+		if ( true ) // there is always a paramsNode
 			return;
 
 		Object firstNode = jjtGetChild(0);

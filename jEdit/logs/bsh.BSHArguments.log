@@ -1,0 +1,6 @@
+1:EVR:<NEW_ARRAY(java.lang.Object[])>:<DEFAULT>:bsh.BSHArguments@getArguments(CallStack,Interpreter):62:new Object[jjtGetNumChildren()] |==> null
+2:LVR:0:POS:bsh.BSHArguments@getArguments(CallStack,Interpreter):63:0 |==> 1
+3:LVR:0:NEG:bsh.BSHArguments@getArguments(CallStack,Interpreter):63:0 |==> -1
+4:ROR:<(int,int):!=(int,int):bsh.BSHArguments@getArguments(CallStack,Interpreter):63:i < args.length |==> i != args.length
+5:ROR:<(int,int):<=(int,int):bsh.BSHArguments@getArguments(CallStack,Interpreter):63:i < args.length |==> i <= args.length
+6:ROR:<(int,int):FALSE(int,int):bsh.BSHArguments@getArguments(CallStack,Interpreter):63:i < args.length |==> false

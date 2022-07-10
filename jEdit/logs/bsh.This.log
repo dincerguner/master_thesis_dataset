@@ -1,0 +1,7 @@
+1:COR:Capabilities.canGenerateInterfaces():TRUE:bsh.This@getThis(NameSpace,Interpreter):84:Capabilities.canGenerateInterfaces() |==> false
+2:COR:Capabilities.canGenerateInterfaces():FALSE:bsh.This@getThis(NameSpace,Interpreter):84:Capabilities.canGenerateInterfaces() |==> true
+3:EVR:<METHOD_INVOCATION(java.lang.Class<capture#352 of ?>)>:<DEFAULT>:bsh.This@getThis(NameSpace,Interpreter):85:Class.forName("bsh.XThis") |==> null
+4:COR:Capabilities.haveSwing():TRUE:bsh.This@getThis(NameSpace,Interpreter):86:Capabilities.haveSwing() |==> false
+5:COR:Capabilities.haveSwing():FALSE:bsh.This@getThis(NameSpace,Interpreter):86:Capabilities.haveSwing() |==> true
+6:EVR:<METHOD_INVOCATION(java.lang.Class<capture#440 of ?>)>:<DEFAULT>:bsh.This@getThis(NameSpace,Interpreter):87:Class.forName("bsh.JThis") |==> null
+7:EVR:<NEW_CLASS(bsh.This)>:<DEFAULT>:bsh.This@getThis(NameSpace,Interpreter):89:new This(namespace, declaringInterpreter) |==> null
