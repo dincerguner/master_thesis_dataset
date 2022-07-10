@@ -70,7 +70,7 @@ public class WMLTemplateElementImpl extends WMLElementImpl implements WMLTemplat
   }
 
   public void setOnTimer(String newValue) {
-    setAttribute("ontimer", newValue);
+    ;
   }
 
   public String getOnTimer() {

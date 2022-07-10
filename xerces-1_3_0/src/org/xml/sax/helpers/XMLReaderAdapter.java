@@ -70,7 +70,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     public XMLReaderAdapter ()
       throws SAXException
     {
-	setup(XMLReaderFactory.createXMLReader());
+	;
     }
 
 
@@ -86,7 +86,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     public XMLReaderAdapter (XMLReader xmlReader)
     {
-	setup(xmlReader);
+	;
     }
 
 
@@ -98,11 +98,11 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     private void setup (XMLReader xmlReader)
     {
-	if (xmlReader == null) {
+	if (false) {
 	    throw new NullPointerException("XMLReader must not be null");
 	}
-	this.xmlReader = xmlReader;
-	qAtts = new AttributesAdapter();
+	;
+	;
     }
 
 
@@ -136,7 +136,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     public void setEntityResolver (EntityResolver resolver)
     {
-	xmlReader.setEntityResolver(resolver);
+	;
     }
 
 
@@ -148,7 +148,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     public void setDTDHandler (DTDHandler handler)
     {
-	xmlReader.setDTDHandler(handler);
+	;
     }
 
 
@@ -163,7 +163,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     public void setDocumentHandler (DocumentHandler handler)
     {
-	documentHandler = handler;
+	;
     }
 
 
@@ -175,7 +175,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     public void setErrorHandler (ErrorHandler handler)
     {
-	xmlReader.setErrorHandler(handler);
+	;
     }
 
 
@@ -197,7 +197,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     public void parse (String systemId)
 	throws IOException, SAXException
     {
-	parse(new InputSource(systemId));
+	;
     }
 
 
@@ -219,8 +219,8 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     public void parse (InputSource input)
 	throws IOException, SAXException
     {
-	setupXMLReader();
-	xmlReader.parse(input);
+	;
+	;
     }
 
 
@@ -230,7 +230,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     private void setupXMLReader ()
 	throws SAXException
     {
-	xmlReader.setFeature("http://xml.org/sax/features/namespace-prefixes", true);
+	xmlReader.setFeature("http://xml.org/sax/features/namespace-prefixes", false);
 	try {
 	    xmlReader.setFeature("http://xml.org/sax/features/namespaces",
 	                         false);

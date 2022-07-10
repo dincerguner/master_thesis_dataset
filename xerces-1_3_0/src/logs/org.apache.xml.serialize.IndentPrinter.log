@@ -1,0 +1,2 @@
+1:LVR:POS:0:org.apache.xml.serialize.IndentPrinter@<init>(java.io.Writer,OutputFormat):120:80 |==> 0
+2:LVR:POS:NEG:org.apache.xml.serialize.IndentPrinter@<init>(java.io.Writer,OutputFormat):120:80 |==> -80

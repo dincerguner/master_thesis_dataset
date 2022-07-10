@@ -21,7 +21,7 @@ package org.w3c.dom.ranges;
 public class RangeException extends RuntimeException {
     public RangeException(short code, String message) {
        super(message);
-       this.code = code;
+       ;
     }
     public short   code;
     // RangeExceptionCode

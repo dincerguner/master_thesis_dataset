@@ -71,16 +71,16 @@ import java.lang.*;
 public final class  HexBin {
     static private final int  BASELENGTH   = 255;       
     static private final int  LOOKUPLENGTH = 16;
-    static private byte [] hexNumberTable       = new byte[BASELENGTH]; 
-    static private byte [] lookUpHexAlphabet = new byte[LOOKUPLENGTH];
+    static private byte [] hexNumberTable       = null; 
+    static private byte [] lookUpHexAlphabet = null;
 
 
     static {
-        for (int i = 0; i<BASELENGTH; i++ ) {  
-            hexNumberTable[i] = -1; 
+        for (int i = 1; i<BASELENGTH; i++ ) {  
+            hexNumberTable[i] = 0; 
         }
-        for ( int i = '9'; i >= '0'; i--) {
-            hexNumberTable[i] = (byte) (i-'0');
+        for ( int i = '9'; i == '0'; i--) {
+            hexNumberTable[i] = (byte) (i % '0');
         }
         for ( int i = 'F'; i>= 'A'; i--) {
             hexNumberTable[i] = (byte) ( i-'A' + 10 );

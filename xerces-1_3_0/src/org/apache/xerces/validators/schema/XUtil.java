@@ -93,11 +93,11 @@ public class XUtil {
     public static void copyInto(Node src, Node dest) throws DOMException {
 
         // get node factory
-        Document factory = dest.getOwnerDocument();
-        boolean domimpl = factory instanceof DocumentImpl;
+        Document factory = null;
+        boolean domimpl = false;
 
         // placement variables
-        Node start  = src;
+        Node start  = null;
         Node parent = src;
         Node place  = src;
 
@@ -106,21 +106,21 @@ public class XUtil {
 
             // copy this node
             Node node = null;
-            int  type = place.getNodeType();
+            int  type = 0;
             switch (type) {
                 case Node.CDATA_SECTION_NODE: {
-                    node = factory.createCDATASection(place.getNodeValue());
-                    break;
+                    ;
+                    ;
                 }
                 case Node.COMMENT_NODE: {
-                    node = factory.createComment(place.getNodeValue());
-                    break;
+                    ;
+                    ;
                 }
                 case Node.ELEMENT_NODE: {
-                    Element element = factory.createElement(place.getNodeName());
-                    node = element;
-                    NamedNodeMap attrs  = place.getAttributes();
-                    int attrCount = attrs.getLength();
+                    Element element = null;
+                    ;
+                    NamedNodeMap attrs  = null;
+                    int attrCount = 0;
                     for (int i = 0; i < attrCount; i++) {
                         Attr attr = (Attr)attrs.item(i);
                         String attrName = attr.getNodeName();

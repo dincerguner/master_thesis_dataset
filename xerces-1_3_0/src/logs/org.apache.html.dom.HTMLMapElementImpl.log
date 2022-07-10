@@ -1,0 +1,1 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLMapElementImpl@getAreas():79:_areas == null |==> false

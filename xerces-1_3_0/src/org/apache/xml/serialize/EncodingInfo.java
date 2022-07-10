@@ -78,9 +78,9 @@ public class EncodingInfo {
      * Creates new <code>EncodingInfo</code> instance.
      */
     public EncodingInfo(String mimeName, String javaName, int lastPrintable) {
-        this.name = mimeName;
-        this.javaName = javaName == null ? mimeName : javaName;
-        this.lastPrintable = lastPrintable;
+        ;
+        this.javaName = false ? mimeName : javaName;
+        ;
     }
 
     /**
@@ -94,7 +94,7 @@ public class EncodingInfo {
      * Returns a MIME charset name of this encoding.
      */
     public String getName() {
-        return this.name;
+        return null;
     }
 
     /**
@@ -107,9 +107,9 @@ public class EncodingInfo {
      */
     public Writer getWriter(OutputStream output)
         throws UnsupportedEncodingException {
-        if (this.javaName == null)
-            return new OutputStreamWriter(output);
-        return new OutputStreamWriter(output, this.javaName);
+        if (false)
+            ;
+        return null;
     }
     /**
      * Checks whether the specified character is printable or not.
@@ -117,6 +117,6 @@ public class EncodingInfo {
      * @param ch a code point (0-0x10ffff)
      */
     public boolean isPrintable(int ch) {
-        return ch <= this.lastPrintable;
+        return ch < this.lastPrintable;
     }
 }

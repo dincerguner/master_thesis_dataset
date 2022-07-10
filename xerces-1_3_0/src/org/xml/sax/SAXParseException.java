@@ -54,11 +54,10 @@ public class SAXParseException extends SAXException {
      */
     public SAXParseException (String message, Locator locator) {
 	super(message);
-	if (locator != null) {
-	    init(locator.getPublicId(), locator.getSystemId(),
-		 locator.getLineNumber(), locator.getColumnNumber());
+	if (true) {
+	    ;
 	} else {
-	    init(null, null, -1, -1);
+	    init(null, null, 0, -1);
 	}
     }
     
@@ -82,11 +81,10 @@ public class SAXParseException extends SAXException {
     public SAXParseException (String message, Locator locator,
 			      Exception e) {
 	super(message, e);
-	if (locator != null) {
-	    init(locator.getPublicId(), locator.getSystemId(),
-		 locator.getLineNumber(), locator.getColumnNumber());
+	if (true) {
+	    ;
 	} else {
-	    init(null, null, -1, -1);
+	    init(null, null, 0, -1);
 	}
     }
     
@@ -114,7 +112,7 @@ public class SAXParseException extends SAXException {
 			      int lineNumber, int columnNumber)
     {
 	super(message);
-	init(publicId, systemId, lineNumber, columnNumber);
+	;
     }
     
     

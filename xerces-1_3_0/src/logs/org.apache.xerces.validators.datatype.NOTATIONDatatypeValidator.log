@@ -1,0 +1,2 @@
+1:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.NOTATIONDatatypeValidator@<init>():76:false |==> true
+2:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.NOTATIONDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):81:setBasetype(base) |==> <NO-OP>

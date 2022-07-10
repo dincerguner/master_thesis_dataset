@@ -1,0 +1,13 @@
+1:STD:<CALL>:<NO-OP>:org.xml.sax.InputSource@<init>(java.lang.String):83:setSystemId(systemId) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.xml.sax.InputSource@<init>(java.io.InputStream):104:setByteStream(byteStream) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.xml.sax.InputSource@<init>(java.io.Reader):124:setCharacterStream(characterStream) |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.xml.sax.InputSource@setPublicId(java.lang.String):142:this.publicId = publicId |==> <NO-OP>
+5:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.xml.sax.InputSource@getPublicId():154:publicId |==> null
+6:STD:<ASSIGN>:<NO-OP>:org.xml.sax.InputSource@setSystemId(java.lang.String):182:this.systemId = systemId |==> <NO-OP>
+7:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.xml.sax.InputSource@getSystemId():200:systemId |==> null
+8:STD:<ASSIGN>:<NO-OP>:org.xml.sax.InputSource@setByteStream(java.io.InputStream):223:this.byteStream = byteStream |==> <NO-OP>
+9:EVR:<IDENTIFIER(java.io.InputStream)>:<DEFAULT>:org.xml.sax.InputSource@getByteStream():239:byteStream |==> null
+10:STD:<ASSIGN>:<NO-OP>:org.xml.sax.InputSource@setEncoding(java.lang.String):260:this.encoding = encoding |==> <NO-OP>
+11:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.xml.sax.InputSource@getEncoding():274:encoding |==> null
+12:STD:<ASSIGN>:<NO-OP>:org.xml.sax.InputSource@setCharacterStream(java.io.Reader):292:this.characterStream = characterStream |==> <NO-OP>
+13:EVR:<IDENTIFIER(java.io.Reader)>:<DEFAULT>:org.xml.sax.InputSource@getCharacterStream():304:characterStream |==> null

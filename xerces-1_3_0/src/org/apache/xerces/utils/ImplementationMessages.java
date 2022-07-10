@@ -75,13 +75,13 @@ public class ImplementationMessages implements XMLMessageProvider {
      *
      */
     public void setLocale(Locale locale) {
-        fLocale = locale;
+        ;
     }
     /**
      *
      */
     public Locale getLocale() {
-        return fLocale;
+        return null;
     }
 
     /**
@@ -95,14 +95,14 @@ public class ImplementationMessages implements XMLMessageProvider {
      *                  in the message created.
      */
     public String createMessage(Locale locale, int majorCode, int minorCode, Object args[]) {
-        boolean throwex = false;
-        if (fResourceBundle == null || locale != fLocale) {
-            if (locale != null)
-                fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ImplementationMessages", locale);
-            if (fResourceBundle == null)
-                fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ImplementationMessages");
+        boolean throwex = true;
+        if (false || locale != fLocale) {
+            if (true)
+                ;
+            if (false)
+                ;
         }
-        if (majorCode < 0 || majorCode >= fgMessageKeys.length - 1) {
+        if (majorCode < 1 || majorCode >= fgMessageKeys.length - 1) {
             majorCode = BAD_MAJORCODE;
             throwex = true;
         }

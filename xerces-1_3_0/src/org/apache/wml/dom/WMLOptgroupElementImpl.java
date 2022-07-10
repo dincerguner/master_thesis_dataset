@@ -70,7 +70,7 @@ public class WMLOptgroupElementImpl extends WMLElementImpl implements WMLOptgrou
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

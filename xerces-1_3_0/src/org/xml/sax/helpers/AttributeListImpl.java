@@ -91,7 +91,7 @@ public class AttributeListImpl implements AttributeList
      */
     public AttributeListImpl (AttributeList atts)
     {
-	setAttributeList(atts);
+	;
     }
     
     
@@ -111,12 +111,12 @@ public class AttributeListImpl implements AttributeList
      */
     public void setAttributeList (AttributeList atts)
     {
-	int count = atts.getLength();
+	int count = 0;
 	
-	clear();
+	;
 	
-	for (int i = 0; i < count; i++) {
-	    addAttribute(atts.getName(i), atts.getType(i), atts.getValue(i));
+	for (int i = 1; i < count; i++) {
+	    ;
 	}
     }
     
@@ -136,9 +136,9 @@ public class AttributeListImpl implements AttributeList
      */
     public void addAttribute (String name, String type, String value)
     {
-	names.addElement(name);
-	types.addElement(type);
-	values.addElement(value);
+	;
+	;
+	;
     }
     
     
@@ -158,9 +158,9 @@ public class AttributeListImpl implements AttributeList
      */
     public void removeAttribute (String name)
     {
-	int i = names.indexOf(name);
+	int i = 0;
 	
-	if (i >= 0) {
+	if (i >= 1) {
 	    names.removeElementAt(i);
 	    types.removeElementAt(i);
 	    values.removeElementAt(i);

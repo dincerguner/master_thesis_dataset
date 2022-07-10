@@ -1,0 +1,20 @@
+1:LVR:0:POS:org.apache.xerces.validators.datatype.StringDatatypeValidator:83:0 |==> 1
+2:LVR:0:NEG:org.apache.xerces.validators.datatype.StringDatatypeValidator:83:0 |==> -1
+3:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.validators.datatype.StringDatatypeValidator:84:Integer.MAX_VALUE |==> 0
+4:LVR:0:POS:org.apache.xerces.validators.datatype.StringDatatypeValidator:85:0 |==> 1
+5:LVR:0:NEG:org.apache.xerces.validators.datatype.StringDatatypeValidator:85:0 |==> -1
+6:LVR:0:POS:org.apache.xerces.validators.datatype.StringDatatypeValidator:92:0 |==> 1
+7:LVR:0:NEG:org.apache.xerces.validators.datatype.StringDatatypeValidator:92:0 |==> -1
+8:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.StringDatatypeValidator:94:false |==> true
+9:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.StringDatatypeValidator:95:false |==> true
+10:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.StringDatatypeValidator:96:false |==> true
+11:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.StringDatatypeValidator:97:false |==> true
+12:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>():104:false |==> true
+13:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):111:setBasetype(base) |==> <NO-OP>
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):115:facets != null |==> true
+15:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):116:facets.keys() |==> null
+16:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):117:(String)e.nextElement() |==> null
+17:COR:key.equals(SchemaSymbols.ELT_LENGTH):TRUE:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):119:key.equals(SchemaSymbols.ELT_LENGTH) |==> false
+18:COR:key.equals(SchemaSymbols.ELT_LENGTH):FALSE:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):119:key.equals(SchemaSymbols.ELT_LENGTH) |==> true
+19:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):120:fFacetsDefined += DatatypeValidator.FACET_LENGTH |==> <NO-OP>
+20:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.xerces.validators.datatype.StringDatatypeValidator@<init>(DatatypeValidator,java.util.Hashtable,boolean):121:(String)facets.get(key) |==> null

@@ -75,7 +75,7 @@ public class HTMLFormElementImpl
     
     public HTMLCollection getElements()
     {
-        if ( _elements == null )
+        if ( false )
             _elements = new HTMLCollectionImpl( this, HTMLCollectionImpl.ELEMENT );
         return _elements;
     }

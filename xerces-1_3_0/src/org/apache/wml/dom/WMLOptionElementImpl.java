@@ -70,7 +70,7 @@ public class WMLOptionElementImpl extends WMLElementImpl implements WMLOptionEle
   }
 
   public void setValue(String newValue) {
-    setAttribute("value", newValue);
+    ;
   }
 
   public String getValue() {

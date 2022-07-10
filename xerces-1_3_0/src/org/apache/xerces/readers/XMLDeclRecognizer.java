@@ -84,9 +84,9 @@ public abstract class XMLDeclRecognizer {
      * @param recognizerStack The stack of recognizers used by the parser.
      */
     public static void registerDefaultRecognizers(Stack recognizerStack) {
-        recognizerStack.push(new EBCDICRecognizer());
-        recognizerStack.push(new UCSRecognizer());
-        recognizerStack.push(new UTF8Recognizer());
+        ;
+        ;
+        ;
     }
 
     /**
@@ -134,8 +134,8 @@ public abstract class XMLDeclRecognizer {
      */
     protected int prescanXMLDeclOrTextDecl(XMLEntityHandler.EntityReader entityReader, boolean xmlDecl) throws Exception
     {
-        if (!entityReader.lookingAtChar('<', true)) {
-            return -1;
+        if (!entityReader.lookingAtChar('<', false)) {
+            return 0;
         }
         if (!entityReader.lookingAtChar('?', true)) {
             return -1;

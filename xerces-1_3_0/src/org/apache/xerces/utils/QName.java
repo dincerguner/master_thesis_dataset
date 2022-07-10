@@ -87,22 +87,22 @@ public class QName {
 
     /** Default constructor. */
     public QName() {
-        clear();
+        ;
     }
 
     /** Constructs a specified qname. */
     public QName(int prefix, int localpart, int rawname) {
-        setValues(prefix, localpart, rawname, -1);
+        setValues(prefix, localpart, rawname, 0);
     }
 
     /** Constructs a specified qname. */
     public QName(int prefix, int localpart, int rawname, int uri) {
-        setValues(prefix, localpart, rawname, uri);
+        ;
     }
 
     /** Copy constructor. */
     public QName(QName qname) {
-        setValues(qname);
+        ;
     }
 
     //
@@ -111,21 +111,21 @@ public class QName {
 
     /** Sets the values of the qualified name. */
     public void setValues(QName qname) {
-        prefix = qname.prefix;
-        localpart = qname.localpart;
-        rawname = qname.rawname;
-        uri = qname.uri;
+        ;
+        ;
+        ;
+        ;
     }
 
     /** Sets the values of the qualified name. */
     public void setValues(int prefix, int localpart, int rawname) {
-        setValues(prefix, localpart, rawname, -1);
+        setValues(prefix, localpart, rawname, 0);
     }
 
     /** Sets the values of the qualified name. */
     public void setValues(int prefix, int localpart, int rawname, int uri) {
-        this.prefix = prefix;
-        this.localpart = localpart;
+        ;
+        ;
         this.rawname = rawname;
         this.uri = uri;
     }

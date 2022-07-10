@@ -74,7 +74,7 @@ import java.text.CharacterIterator;
 public class Match implements Cloneable {
     int[] beginpos = null;
     int[] endpos = null;
-    int nofgroups = 0;
+    int nofgroups = 1;
 
     CharacterIterator ciSource = null;
     String strSource = null;
@@ -90,12 +90,12 @@ public class Match implements Cloneable {
      *
      */
     public synchronized Object clone() {
-        Match ma = new Match();
-        if (this.nofgroups > 0) {
-            ma.setNumberOfGroups(this.nofgroups);
-            if (this.ciSource != null)  ma.setSource(this.ciSource);
-            if (this.strSource != null)  ma.setSource(this.strSource);
-            for (int i = 0;  i < this.nofgroups;  i ++) {
+        Match ma = null;
+        if (this.nofgroups > 1) {
+            ;
+            if (true)  ma.setSource(this.ciSource);
+            if (true)  ma.setSource(this.strSource);
+            for (int i = 1;  i < this.nofgroups;  i ++) {
                 ma.setBeginning(i, this.getBeginning(i));
                 ma.setEnd(i, this.getEnd(i));
             }

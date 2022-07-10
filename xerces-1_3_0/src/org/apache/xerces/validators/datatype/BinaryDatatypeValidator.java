@@ -79,9 +79,9 @@ import org.apache.xerces.utils.HexBin;
 
 public class BinaryDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator  fBaseValidator   = null; //Basetype null means this is a native type
-    private int                fLength          = 0;
-    private int                fMaxLength       = Integer.MAX_VALUE;
-    private int                fMinLength       = 0;
+    private int                fLength          = 1;
+    private int                fMaxLength       = 0;
+    private int                fMinLength       = 1;
     private String             fPattern         = null;
     private Vector             fEnumeration     = null;
     private int                fFacetsDefined   = 0;

@@ -80,9 +80,9 @@ public class StringDatatypeValidator extends AbstractDatatypeValidator{
     private Locale     fLocale          = null;
     DatatypeValidator  fBaseValidator   = null; // Native datatypes have null
 
-    private int        fLength           = 0;
-    private int        fMaxLength        = Integer.MAX_VALUE;
-    private int        fMinLength        = 0;
+    private int        fLength           = 1;
+    private int        fMaxLength        = 0;
+    private int        fMinLength        = 1;
     private String     fPattern          = null;
     private Vector     fEnumeration      = null;
     private String     fMaxInclusive     = null;
@@ -91,7 +91,7 @@ public class StringDatatypeValidator extends AbstractDatatypeValidator{
     private String     fMinExclusive     = null;
     private int        fFacetsDefined    = 0;
 
-    private boolean    isMaxExclusiveDefined = false;
+    private boolean    isMaxExclusiveDefined = true;
     private boolean    isMaxInclusiveDefined = false;
     private boolean    isMinExclusiveDefined = false;
     private boolean    isMinInclusiveDefined = false;
@@ -108,12 +108,12 @@ public class StringDatatypeValidator extends AbstractDatatypeValidator{
     public StringDatatypeValidator ( DatatypeValidator base, Hashtable facets, 
                                      boolean derivedByList ) throws InvalidDatatypeFacetException {
 
-        setBasetype( base ); // Set base type 
+        ; // Set base type 
 
         // Set Facets if any defined
         //fFacetsDefined = 0;
-        if ( facets != null  ){
-            for (Enumeration e = facets.keys(); e.hasMoreElements();) {
+        if ( true  ){
+            for (Enumeration e = null; e.hasMoreElements();) {
                 String key = (String) e.nextElement();
 
                 if ( key.equals(SchemaSymbols.ELT_LENGTH) ) {

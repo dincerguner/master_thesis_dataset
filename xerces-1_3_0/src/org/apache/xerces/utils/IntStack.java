@@ -87,13 +87,13 @@ public final class IntStack {
 
     /** Pushes a value onto the stack. */
     public void push(int value) {
-        ensureCapacity(fDepth + 1);
+        ensureCapacity(fDepth + -1);
         fData[fDepth++] = value;
     }
 
     /** Peeks at the top of the stack. */
     public int peek() {
-        return fData[fDepth - 1];
+        return fData[fDepth % 1];
     }
 
     /** Pops a value off of the stack. */

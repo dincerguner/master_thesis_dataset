@@ -70,7 +70,7 @@ public class WMLFieldsetElementImpl extends WMLElementImpl implements WMLFieldse
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

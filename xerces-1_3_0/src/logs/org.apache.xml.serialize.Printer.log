@@ -1,0 +1,4 @@
+1:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xml.serialize.Printer:127:new char[BufferSize] |==> null
+2:LVR:0:POS:org.apache.xml.serialize.Printer:133:0 |==> 1
+3:LVR:0:NEG:org.apache.xml.serialize.Printer:133:0 |==> -1
+4:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.Printer@<init>(java.io.Writer,OutputFormat):138:_writer = writer |==> <NO-OP>

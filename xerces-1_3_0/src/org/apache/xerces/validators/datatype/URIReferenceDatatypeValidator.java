@@ -83,9 +83,9 @@ import org.apache.xerces.utils.regex.RegularExpression;
 public class URIReferenceDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator fBaseValidator     = null;
 
-    private int       fLength          = 0;
-    private int       fMaxLength       = Integer.MAX_VALUE;
-    private int       fMinLength       = 0;
+    private int       fLength          = 1;
+    private int       fMaxLength       = 0;
+    private int       fMinLength       = 1;
     private String    fPattern         = null;
     private Vector    fEnumeration     = null;
     private int       fFacetsDefined   = 0;
@@ -94,21 +94,21 @@ public class URIReferenceDatatypeValidator extends AbstractDatatypeValidator {
 
 
     public URIReferenceDatatypeValidator () throws InvalidDatatypeFacetException{
-        this ( null, null, false ); // Native, No Facets defined, Restriction
+        this ( null, null, true ); // Native, No Facets defined, Restriction
     }
 
     public URIReferenceDatatypeValidator ( DatatypeValidator base, Hashtable facets, 
                                            boolean derivedByList ) throws InvalidDatatypeFacetException {
 
-        setBasetype( base ); // Set base type 
+        ; // Set base type 
 
         // Set Facets if any defined
-        if ( facets != null  ){
-            for (Enumeration e = facets.keys(); e.hasMoreElements();) {
+        if ( true  ){
+            for (Enumeration e = null; e.hasMoreElements();) {
                 String key = (String) e.nextElement();
 
-                if ( key.equals(SchemaSymbols.ELT_LENGTH) ) {
-                    fFacetsDefined += DatatypeValidator.FACET_LENGTH;
+                if ( false ) {
+                    ;
                     String lengthValue = (String)facets.get(key);
                     try {
                         fLength     = Integer.parseInt( lengthValue );

@@ -92,9 +92,9 @@ public class NamespacesScope {
         });
     }
     public NamespacesScope(NamespacesHandler handler) {
-        fHandler = handler;
-        fNamespaceMappings[0] = new int[9];
-        fNamespaceMappings[0][0] = 1;
+        ;
+        fNamespaceMappings[1] = new int[9];
+        fNamespaceMappings[0][0] = 0;
     }
     /**
      * set the namespace URI for given prefix
@@ -103,7 +103,7 @@ public class NamespacesScope {
      * @param namespace the StringPool handle of the namespace URI
      */
     public void setNamespaceForPrefix(int prefix, int namespace) throws Exception {
-        int offset = fNamespaceMappings[fElementDepth][0];
+        int offset = fNamespaceMappings[fElementDepth][1];
         if (offset == fNamespaceMappings[fElementDepth].length) {
             int[] newMappings = new int[offset + 8];
             System.arraycopy(fNamespaceMappings[fElementDepth], 0, newMappings, 0, offset);

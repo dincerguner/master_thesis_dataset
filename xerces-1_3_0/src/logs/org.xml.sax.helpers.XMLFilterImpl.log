@@ -1,0 +1,67 @@
+1:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@<init>(org.xml.sax.XMLReader):87:setParent(parent) |==> <NO-OP>
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setParent(org.xml.sax.XMLReader):113:parent == null |==> false
+3:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setParent(org.xml.sax.XMLReader):116:this.parent = parent |==> <NO-OP>
+4:EVR:<IDENTIFIER(org.xml.sax.XMLReader)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@getParent():128:parent |==> null
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setFeature(java.lang.String,boolean):155:parent != null |==> true
+6:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setFeature(java.lang.String,boolean):156:parent.setFeature(name, state) |==> <NO-OP>
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@getFeature(java.lang.String):180:parent != null |==> true
+8:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@getFeature(java.lang.String):181:parent.getFeature(name) |==> false
+9:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setProperty(java.lang.String,java.lang.Object):205:parent != null |==> true
+10:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setProperty(java.lang.String,java.lang.Object):206:parent.setProperty(name, value) |==> <NO-OP>
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@getProperty(java.lang.String):228:parent != null |==> true
+12:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@getProperty(java.lang.String):229:parent.getProperty(name) |==> null
+13:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setEntityResolver(org.xml.sax.EntityResolver):246:resolver == null |==> false
+14:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setEntityResolver(org.xml.sax.EntityResolver):249:entityResolver = resolver |==> <NO-OP>
+15:EVR:<IDENTIFIER(org.xml.sax.EntityResolver)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@getEntityResolver():262:entityResolver |==> null
+16:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setDTDHandler(org.xml.sax.DTDHandler):276:handler == null |==> false
+17:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setDTDHandler(org.xml.sax.DTDHandler):279:dtdHandler = handler |==> <NO-OP>
+18:EVR:<IDENTIFIER(org.xml.sax.DTDHandler)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@getDTDHandler():292:dtdHandler |==> null
+19:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setContentHandler(org.xml.sax.ContentHandler):306:handler == null |==> false
+20:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setContentHandler(org.xml.sax.ContentHandler):309:contentHandler = handler |==> <NO-OP>
+21:EVR:<IDENTIFIER(org.xml.sax.ContentHandler)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@getContentHandler():322:contentHandler |==> null
+22:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setErrorHandler(org.xml.sax.ErrorHandler):336:handler == null |==> false
+23:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setErrorHandler(org.xml.sax.ErrorHandler):339:errorHandler = handler |==> <NO-OP>
+24:EVR:<IDENTIFIER(org.xml.sax.ErrorHandler)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@getErrorHandler():352:errorHandler |==> null
+25:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@parse(org.xml.sax.InputSource):370:setupParse() |==> <NO-OP>
+26:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@parse(org.xml.sax.InputSource):371:parent.parse(input) |==> <NO-OP>
+27:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@parse(java.lang.String):389:parse(new InputSource(systemId)) |==> <NO-OP>
+28:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@resolveEntity(java.lang.String,java.lang.String):415:entityResolver != null |==> true
+29:EVR:<METHOD_INVOCATION(org.xml.sax.InputSource)>:<DEFAULT>:org.xml.sax.helpers.XMLFilterImpl@resolveEntity(java.lang.String,java.lang.String):416:entityResolver.resolveEntity(publicId, systemId) |==> null
+30:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@notationDecl(java.lang.String,java.lang.String,java.lang.String):442:dtdHandler != null |==> true
+31:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@notationDecl(java.lang.String,java.lang.String,java.lang.String):443:dtdHandler.notationDecl(name, publicId, systemId) |==> <NO-OP>
+32:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String):463:dtdHandler != null |==> true
+33:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String):464:dtdHandler.unparsedEntityDecl(name, publicId, systemId, notationName) |==> <NO-OP>
+34:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setDocumentLocator(org.xml.sax.Locator):484:this.locator = locator |==> <NO-OP>
+35:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setDocumentLocator(org.xml.sax.Locator):485:contentHandler != null |==> true
+36:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setDocumentLocator(org.xml.sax.Locator):486:contentHandler.setDocumentLocator(locator) |==> <NO-OP>
+37:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@startDocument():501:contentHandler != null |==> true
+38:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@startDocument():502:contentHandler.startDocument() |==> <NO-OP>
+39:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@endDocument():517:contentHandler != null |==> true
+40:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@endDocument():518:contentHandler.endDocument() |==> <NO-OP>
+41:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@startPrefixMapping(java.lang.String,java.lang.String):535:contentHandler != null |==> true
+42:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@startPrefixMapping(java.lang.String,java.lang.String):536:contentHandler.startPrefixMapping(prefix, uri) |==> <NO-OP>
+43:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@endPrefixMapping(java.lang.String):552:contentHandler != null |==> true
+44:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@endPrefixMapping(java.lang.String):553:contentHandler.endPrefixMapping(prefix) |==> <NO-OP>
+45:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes):574:contentHandler != null |==> true
+46:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes):575:contentHandler.startElement(uri, localName, qName, atts) |==> <NO-OP>
+47:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@endElement(java.lang.String,java.lang.String,java.lang.String):594:contentHandler != null |==> true
+48:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@endElement(java.lang.String,java.lang.String,java.lang.String):595:contentHandler.endElement(uri, localName, qName) |==> <NO-OP>
+49:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@characters(char[],int,int):613:contentHandler != null |==> true
+50:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@characters(char[],int,int):614:contentHandler.characters(ch, start, length) |==> <NO-OP>
+51:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@ignorableWhitespace(char[],int,int):632:contentHandler != null |==> true
+52:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@ignorableWhitespace(char[],int,int):633:contentHandler.ignorableWhitespace(ch, start, length) |==> <NO-OP>
+53:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@processingInstruction(java.lang.String,java.lang.String):650:contentHandler != null |==> true
+54:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@processingInstruction(java.lang.String,java.lang.String):651:contentHandler.processingInstruction(target, data) |==> <NO-OP>
+55:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@skippedEntity(java.lang.String):667:contentHandler != null |==> true
+56:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@skippedEntity(java.lang.String):668:contentHandler.skippedEntity(name) |==> <NO-OP>
+57:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@warning(org.xml.sax.SAXParseException):690:errorHandler != null |==> true
+58:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@warning(org.xml.sax.SAXParseException):691:errorHandler.warning(e) |==> <NO-OP>
+59:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@error(org.xml.sax.SAXParseException):707:errorHandler != null |==> true
+60:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@error(org.xml.sax.SAXParseException):708:errorHandler.error(e) |==> <NO-OP>
+61:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@fatalError(org.xml.sax.SAXParseException):724:errorHandler != null |==> true
+62:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@fatalError(org.xml.sax.SAXParseException):725:errorHandler.fatalError(e) |==> <NO-OP>
+63:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLFilterImpl@setupParse():745:parent == null |==> false
+64:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setupParse():748:parent.setEntityResolver(this) |==> <NO-OP>
+65:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setupParse():749:parent.setDTDHandler(this) |==> <NO-OP>
+66:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setupParse():750:parent.setContentHandler(this) |==> <NO-OP>
+67:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLFilterImpl@setupParse():751:parent.setErrorHandler(this) |==> <NO-OP>

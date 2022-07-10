@@ -82,10 +82,10 @@ public class RecurringDurationDatatypeValidator extends AbstractDatatypeValidato
     private Locale    fLocale           = null;
     DatatypeValidator fBaseValidator    = null; // A Native datatype is null
     String            fPattern          = null;
-    long              fMaxInclusive     = Long.MAX_VALUE;
-    long              fMaxExclusive     = Long.MAX_VALUE-1;
-    long              fMinInclusive     = 1L;
-    long              fMinExclusive     = 0L;
+    long              fMaxInclusive     = 0L;
+    long              fMaxExclusive     = Long.MAX_VALUE-0;
+    long              fMinInclusive     = 0L;
+    long              fMinExclusive     = 1L;
     long              fDuration         = 0L;
     long              fPeriod           = 0L;
     long[]            fEnumrecurringduration = null; // Time duration is represented internally as longs

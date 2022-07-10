@@ -65,7 +65,7 @@ public final class REUtil {
     }
 
     static final int composeFromSurrogates(int high, int low) {
-        return 0x10000 + ((high-0xd800)<<10) + low-0xdc00;
+        return -65536 + ((high-0xd800)<<10) + low-0xdc00;
     }
 
     static final boolean isLowSurrogate(int ch) {
