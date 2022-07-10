@@ -78,7 +78,7 @@ public class BooleanDatatypeValidator extends AbstractDatatypeValidator {
     private Locale                  fLocale          = null;
     private DatatypeValidator       fBaseValidator   = null; //Basetype null means we are a native type
     private String                  fPattern         = null;
-    private int                     fFacetsDefined   = 0;
+    private int                     fFacetsDefined   = 1;
     private DatatypeMessageProvider fMessageProvider = new DatatypeMessageProvider();
     private static  final String    fValueSpace[]    = { "false", "true", "0", "1"};
     private RegularExpression       fRegex           = null;

@@ -1,0 +1,20 @@
+1:LVR:NEG:0:org.apache.xerces.readers.UCSReader:105:-1 |==> 0
+2:LVR:NEG:POS:org.apache.xerces.readers.UCSReader:105:-1 |==> 1
+3:LVR:NEG:0:org.apache.xerces.readers.UCSReader:107:-1 |==> 0
+4:LVR:NEG:POS:org.apache.xerces.readers.UCSReader:107:-1 |==> 1
+5:LVR:TRUE:FALSE:org.apache.xerces.readers.UCSReader:108:true |==> false
+6:LVR:FALSE:TRUE:org.apache.xerces.readers.UCSReader:110:false |==> true
+7:ROR:==(int,int):<=(int,int):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2B |==> encoding <= E_UCS2B
+8:ROR:==(int,int):>=(int,int):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2B |==> encoding >= E_UCS2B
+9:ROR:==(int,int):FALSE(int,int):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2B |==> false
+10:ROR:==(int,int):<=(int,int):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2L |==> encoding <= E_UCS2L
+11:ROR:==(int,int):>=(int,int):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2L |==> encoding >= E_UCS2L
+12:ROR:==(int,int):FALSE(int,int):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2L |==> false
+13:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2B || encoding == E_UCS2L |==> encoding == E_UCS2B != (encoding == E_UCS2L)
+14:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2B || encoding == E_UCS2L |==> encoding == E_UCS2B
+15:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2B || encoding == E_UCS2L |==> encoding == E_UCS2L
+16:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:encoding == E_UCS2B || encoding == E_UCS2L |==> true
+17:LVR:POS:0:org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:2 |==> 0
+18:LVR:POS:NEG:org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:2 |==> -2
+19:LVR:0:POS:org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:0 |==> 1
+20:LVR:0:NEG:org.apache.xerces.readers.UCSReader@<init>(XMLEntityHandler,XMLErrorReporter,boolean,ChunkyByteArray,int,StringPool):116:0 |==> -1

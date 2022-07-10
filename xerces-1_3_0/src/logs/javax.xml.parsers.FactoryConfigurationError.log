@@ -1,0 +1,14 @@
+1:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.FactoryConfigurationError@<init>():110:this.exception = null |==> <NO-OP>
+2:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.FactoryConfigurationError@<init>(java.lang.String):122:this.exception = null |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.FactoryConfigurationError@<init>(java.lang.Exception):136:this.exception = e |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.FactoryConfigurationError@<init>(java.lang.Exception,java.lang.String):151:this.exception = e |==> <NO-OP>
+5:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:javax.xml.parsers.FactoryConfigurationError@getMessage():164:super.getMessage() |==> null
+6:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.FactoryConfigurationError@getMessage():166:message == null |==> false
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.FactoryConfigurationError@getMessage():166:exception != null |==> true
+8:COR:&&(boolean,boolean):==(boolean,boolean):javax.xml.parsers.FactoryConfigurationError@getMessage():166:message == null && exception != null |==> message == null == (exception != null)
+9:COR:&&(boolean,boolean):FALSE(boolean,boolean):javax.xml.parsers.FactoryConfigurationError@getMessage():166:message == null && exception != null |==> false
+10:COR:&&(boolean,boolean):LHS(boolean,boolean):javax.xml.parsers.FactoryConfigurationError@getMessage():166:message == null && exception != null |==> message == null
+11:COR:&&(boolean,boolean):RHS(boolean,boolean):javax.xml.parsers.FactoryConfigurationError@getMessage():166:message == null && exception != null |==> exception != null
+12:STD:<RETURN>:<NO-OP>:javax.xml.parsers.FactoryConfigurationError@getMessage():167:return exception.getMessage(); |==> <NO-OP>
+13:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:javax.xml.parsers.FactoryConfigurationError@getMessage():170:message |==> null
+14:EVR:<IDENTIFIER(java.lang.Exception)>:<DEFAULT>:javax.xml.parsers.FactoryConfigurationError@getException():181:exception |==> null

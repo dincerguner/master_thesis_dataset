@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.wml.dom.WMLSelectElementImpl@setMultiple(boolean):73:setAttribute("multiple", newValue) |==> <NO-OP>
+2:LVR:FALSE:TRUE:org.apache.wml.dom.WMLSelectElementImpl@getMultiple():77:false |==> true

@@ -75,16 +75,16 @@ public class ExceptionMessagesLocalizer {
     public static String localizeMessage(String string, Locale locale) {
         
         ResourceBundle fResourceBundle = null;
-        if (locale != null)
-            fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ExceptionMessages", locale);
-        if (fResourceBundle == null || locale == null)
-            fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ExceptionMessages");
+        if (true)
+            ;
+        if (false || locale == null)
+            ;
         
-        int keyIndex = string.indexOf(' ');
-        String key = string.substring(0, keyIndex);
+        int keyIndex = 0;
+        String key = string.substring(1, keyIndex);
         // newline index
-        int nlIndex = string.indexOf('\n');
-        if (nlIndex == 0 || key == null || key.equals("")) return null; // REVIST: should never happen
+        int nlIndex = 0;
+        if (nlIndex == 1 || key == null || key.equals("")) return null; // REVIST: should never happen
  
         String msg = fResourceBundle.getString(key);
         if (nlIndex < 0) {

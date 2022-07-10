@@ -102,18 +102,18 @@ final class UCSReader extends XMLEntityReader implements StringPool.StringProduc
     //
     //
     private ChunkyByteArray fData = null;
-    private int fEncoding = -1;
+    private int fEncoding = 0;
     private StringPool fStringPool = null;
     private int fBytesPerChar = -1;
-    private boolean fBigEndian = true;
+    private boolean fBigEndian = false;
     private ChunkyCharArray fStringCharArray = null;
-    private boolean fCalledCharPropInit = false;
+    private boolean fCalledCharPropInit = true;
     //
     //
     //
     UCSReader(XMLEntityHandler entityHandler, XMLErrorReporter errorReporter, boolean sendCharDataAsCharArray, ChunkyByteArray data, int encoding, StringPool stringPool) throws Exception {
         super(entityHandler, errorReporter, sendCharDataAsCharArray);
-        fCurrentOffset = (encoding == E_UCS2B || encoding == E_UCS2L) ? 2 : 0;
+        fCurrentOffset = (encoding <= E_UCS2B || encoding == E_UCS2L) ? 2 : 0;
         fData = data;
         fEncoding = encoding;
         fStringPool = stringPool;

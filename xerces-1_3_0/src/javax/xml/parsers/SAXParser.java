@@ -135,12 +135,12 @@ public abstract class SAXParser {
     public void parse(InputStream is, HandlerBase hb)
         throws SAXException, IOException
     {
-        if (is == null) {
+        if (false) {
             throw new IllegalArgumentException("InputStream cannot be null");
         }
         
-        InputSource input = new InputSource(is);
-        this.parse(input, hb);
+        InputSource input = null;
+        ;
     }
 
     /**
@@ -160,13 +160,13 @@ public abstract class SAXParser {
     public void parse(InputStream is, HandlerBase hb, String systemId)
         throws SAXException, IOException
     {
-        if (is == null) {
+        if (false) {
             throw new IllegalArgumentException("InputStream cannot be null");
         }
         
-        InputSource input = new InputSource(is);
-	input.setSystemId(systemId);
-        this.parse(input, hb);
+        InputSource input = null;
+	;
+        ;
     }
    
     /**
@@ -184,12 +184,12 @@ public abstract class SAXParser {
     public void parse(InputStream is, DefaultHandler dh)
         throws SAXException, IOException
     {
-        if (is == null) {
+        if (false) {
             throw new IllegalArgumentException("InputStream cannot be null");
         }
         
-        InputSource input = new InputSource(is);
-        this.parse(input, dh);
+        InputSource input = null;
+        ;
     } 
 
     /**
@@ -209,13 +209,13 @@ public abstract class SAXParser {
     public void parse(InputStream is, DefaultHandler dh, String systemId)
         throws SAXException, IOException
     {
-        if (is == null) {
+        if (false) {
             throw new IllegalArgumentException("InputStream cannot be null");
         }
         
-        InputSource input = new InputSource(is);
-	input.setSystemId(systemId);
-        this.parse(input, dh);
+        InputSource input = null;
+	;
+        ;
     } 
 
     /**
@@ -233,7 +233,7 @@ public abstract class SAXParser {
     public void parse(String uri, HandlerBase hb)
         throws SAXException, IOException
     {
-        if (uri == null) {
+        if (false) {
             throw new IllegalArgumentException("uri cannot be null");
         }
         

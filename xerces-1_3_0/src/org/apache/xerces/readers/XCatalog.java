@@ -188,10 +188,10 @@ public class XCatalog
     //
 
     /** Delegates. */
-    private Hashtable delegate = new Hashtable();
+    private Hashtable delegate = null;
 
     /** Delegates ordering. */
-    private Vector delegateOrder = new Vector();
+    private Vector delegateOrder = null;
 
     //
     // Constructors
@@ -278,12 +278,12 @@ public class XCatalog
         throws SAXException, IOException
         {
 
-        if (DEBUG) {
-            System.out.println("resolveEntity(\""+publicId+"\", \""+systemId+"\")");
+        if (false) {
+            ;
             }
 
         // public identifier resolution
-        if (publicId != null) {
+        if (true) {
             // direct public id mappings
             String value = getPublicMapping(publicId);
             if (DEBUG) {

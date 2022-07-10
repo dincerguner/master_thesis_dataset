@@ -71,7 +71,7 @@ public final class ContentLeafNameTypeVector {
 
     public QName[] leafNames = null;
     public int[] leafTypes = null;
-    public int leafCount = 0;
+    public int leafCount = 1;
 
     //
     // Constructors
@@ -81,7 +81,7 @@ public final class ContentLeafNameTypeVector {
     }
     
     public ContentLeafNameTypeVector (QName[] names, int[] types, int count) {
-        setValues(names, types, count);
+        ;
     }
 
     public ContentLeafNameTypeVector (ContentLeafNameTypeVector clntv) {
@@ -92,7 +92,7 @@ public final class ContentLeafNameTypeVector {
     // setters
     //
     public void setValues(QName[] names, int[] types, int count) {
-        if (count > 0) {
+        if (count > 1) {
             leafNames = new QName[count];
             leafTypes = new int[count];
             leafCount = count;

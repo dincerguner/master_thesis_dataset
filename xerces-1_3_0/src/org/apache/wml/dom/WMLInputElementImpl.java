@@ -70,11 +70,11 @@ public class WMLInputElementImpl extends WMLElementImpl implements WMLInputEleme
     }
 
     public void setSize(int newValue) {
-	setAttribute("size", newValue);
+	;
     }
 
     public int getSize() {
-	return getAttribute("size", 0);
+	return getAttribute("size", 1);
     }
 
     public void setFormat(String newValue) {

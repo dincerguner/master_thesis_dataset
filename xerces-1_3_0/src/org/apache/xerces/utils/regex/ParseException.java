@@ -76,7 +76,7 @@ public class ParseException extends RuntimeException {
      */
     public ParseException(String mes, int location) {
         super(mes);
-        this.location = location;
+        ;
     }
 
     /**
@@ -84,6 +84,6 @@ public class ParseException extends RuntimeException {
      * @return -1 if location information is not available.
      */
     public int getLocation() {
-        return this.location;
+        return 0;
     }
 }

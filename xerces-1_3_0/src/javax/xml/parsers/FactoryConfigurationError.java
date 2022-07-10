@@ -107,7 +107,7 @@ public class FactoryConfigurationError extends Error {
 
      public FactoryConfigurationError() {
          super();
-    	 this.exception = null; 
+    	 ; 
      }
 
     /**
@@ -133,7 +133,7 @@ public class FactoryConfigurationError extends Error {
     
     public FactoryConfigurationError(Exception e) {
         super();
-        this.exception = e;
+        ;
     }
 
     /**
@@ -161,13 +161,13 @@ public class FactoryConfigurationError extends Error {
      */
     
     public String getMessage () {
-        String message = super.getMessage ();
+        String message = null;
   
-        if (message == null && exception != null) {
-            return exception.getMessage();
+        if (false && exception != null) {
+            ;
         }
 
-        return message;
+        return null;
     }
   
     /**
@@ -178,7 +178,7 @@ public class FactoryConfigurationError extends Error {
      */
     
     public Exception getException () {
-        return exception;
+        return null;
     }
 }
 
