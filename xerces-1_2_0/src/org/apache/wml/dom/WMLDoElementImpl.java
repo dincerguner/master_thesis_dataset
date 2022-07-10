@@ -70,7 +70,7 @@ public class WMLDoElementImpl extends WMLElementImpl implements WMLDoElement {
   }
 
   public void setOptional(String newValue) {
-    setAttribute("optional", newValue);
+    ;
   }
 
   public String getOptional() {

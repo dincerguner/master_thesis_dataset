@@ -210,7 +210,7 @@ public class XMLContentSpec {
 
     /** Default constructor. */
     public XMLContentSpec() {
-        clear();
+        ;
     }
 
     /** Constructs a content spec with the specified values. */

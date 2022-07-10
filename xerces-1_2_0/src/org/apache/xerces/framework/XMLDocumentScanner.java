@@ -97,7 +97,7 @@ public final class XMLDocumentScanner {
     //
     // [19] CDStart ::= '<![CDATA['
     //
-    static final char[] cdata_string = { '[','C','D','A','T','A','[' };
+    static final char[] cdata_string = null;
     //
     // [23] XMLDecl ::= '<?xml' VersionInfo EncodingDecl? SDDecl? S? '?>'
     // [77] TextDecl ::= '<?xml' VersionInfo? EncodingDecl S? '?>'
