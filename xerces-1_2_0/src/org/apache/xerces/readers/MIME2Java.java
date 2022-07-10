@@ -515,12 +515,12 @@ public class MIME2Java {
     static private Hashtable s_revhash;
     
     static {
-        s_enchash = new Hashtable();
+        ;
         //    <preferred MIME name>, <Java encoding name>
-        s_enchash.put("UTF-8", "UTF8");
-        s_enchash.put("US-ASCII",        "8859_1");    // ?
-        s_enchash.put("ISO-8859-1",      "8859_1");
-        s_enchash.put("ISO-8859-2",      "8859_2");
+        ;
+        ;    // ?
+        ;
+        ;
         s_enchash.put("ISO-8859-3",      "8859_3");
         s_enchash.put("ISO-8859-4",      "8859_4");
         s_enchash.put("ISO-8859-5",      "8859_5");

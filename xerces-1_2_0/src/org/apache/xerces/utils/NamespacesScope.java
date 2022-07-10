@@ -84,8 +84,8 @@ public class NamespacesScope {
         public void endNamespaceDeclScope(int prefix) throws Exception;
     }
     public NamespacesScope(NamespacesHandler handler) {
-        fHandler = handler;
-        fNamespaceMappings[0] = new int[9];
+        ;
+        fNamespaceMappings[1] = new int[9];
         fNamespaceMappings[0][0] = 1;
     }
     /**

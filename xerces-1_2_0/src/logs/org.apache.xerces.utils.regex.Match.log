@@ -1,0 +1,137 @@
+1:LVR:0:POS:org.apache.xerces.utils.regex.Match:77:0 |==> 1
+2:LVR:0:NEG:org.apache.xerces.utils.regex.Match:77:0 |==> -1
+3:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Match)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@clone():93:new Match() |==> null
+4:LVR:0:POS:org.apache.xerces.utils.regex.Match@clone():94:0 |==> 1
+5:LVR:0:NEG:org.apache.xerces.utils.regex.Match@clone():94:0 |==> -1
+6:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@clone():94:this.nofgroups > 0 |==> this.nofgroups != 0
+7:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.regex.Match@clone():94:this.nofgroups > 0 |==> this.nofgroups >= 0
+8:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@clone():94:this.nofgroups > 0 |==> false
+9:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Match@clone():95:ma.setNumberOfGroups(this.nofgroups) |==> <NO-OP>
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.regex.Match@clone():96:this.ciSource != null |==> true
+11:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Match@clone():96:ma.setSource(this.ciSource) |==> <NO-OP>
+12:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.regex.Match@clone():97:this.strSource != null |==> true
+13:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Match@clone():97:ma.setSource(this.strSource) |==> <NO-OP>
+14:LVR:0:POS:org.apache.xerces.utils.regex.Match@clone():98:0 |==> 1
+15:LVR:0:NEG:org.apache.xerces.utils.regex.Match@clone():98:0 |==> -1
+16:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@clone():98:i < this.nofgroups |==> i != this.nofgroups
+17:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@clone():98:i < this.nofgroups |==> i <= this.nofgroups
+18:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@clone():98:i < this.nofgroups |==> false
+19:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Match@clone():99:ma.setBeginning(i, this.getBeginning(i)) |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Match@clone():100:ma.setEnd(i, this.getEnd(i)) |==> <NO-OP>
+21:EVR:<IDENTIFIER(org.apache.xerces.utils.regex.Match)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@clone():103:ma |==> null
+22:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):110:this.nofgroups |==> 0
+23:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):111:this.nofgroups = n |==> <NO-OP>
+24:LVR:0:POS:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:0 |==> 1
+25:LVR:0:NEG:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:0 |==> -1
+26:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:oldn <= 0 |==> oldn < 0
+27:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:oldn <= 0 |==> oldn == 0
+28:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:oldn <= 0 |==> true
+29:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:oldn < n |==> oldn != n
+30:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:oldn < n |==> oldn <= n
+31:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:oldn < n |==> false
+32:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:oldn <= 0 || oldn < n |==> oldn <= 0 != oldn < n
+33:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:oldn <= 0 || oldn < n |==> oldn <= 0
+34:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:oldn <= 0 || oldn < n |==> oldn < n
+35:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:oldn <= 0 || oldn < n |==> true
+36:LVR:POS:0:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:2 |==> 0
+37:LVR:POS:NEG:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:2 |==> -2
+38:AOR:*(int,int):%(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:n * 2 |==> n % 2
+39:AOR:*(int,int):+(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:n * 2 |==> n + 2
+40:AOR:*(int,int):-(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:n * 2 |==> n - 2
+41:AOR:*(int,int):/(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:n * 2 |==> n / 2
+42:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:n * 2 < oldn |==> n * 2 != oldn
+43:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:n * 2 < oldn |==> n * 2 <= oldn
+44:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:n * 2 < oldn |==> false
+45:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:oldn <= 0 || oldn < n || n * 2 < oldn |==> (oldn <= 0 || oldn < n) != n * 2 < oldn
+46:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):112:oldn <= 0 || oldn < n || n * 2 < oldn |==> oldn <= 0 || oldn < n
+47:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:oldn <= 0 || oldn < n || n * 2 < oldn |==> n * 2 < oldn
+48:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):113:oldn <= 0 || oldn < n || n * 2 < oldn |==> true
+49:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):114:this.beginpos = new int[n] |==> <NO-OP>
+50:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):115:this.endpos = new int[n] |==> <NO-OP>
+51:LVR:0:POS:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):117:0 |==> 1
+52:LVR:0:NEG:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):117:0 |==> -1
+53:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):117:i < n |==> i != n
+54:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):117:i < n |==> i <= n
+55:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):117:i < n |==> false
+56:LVR:NEG:0:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):118:-1 |==> 0
+57:LVR:NEG:POS:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):118:-1 |==> 1
+58:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):118:this.beginpos[i] = -1 |==> <NO-OP>
+59:LVR:NEG:0:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):119:-1 |==> 0
+60:LVR:NEG:POS:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):119:-1 |==> 1
+61:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setNumberOfGroups(int):119:this.endpos[i] = -1 |==> <NO-OP>
+62:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(java.text.CharacterIterator):127:this.ciSource = ci |==> <NO-OP>
+63:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(java.text.CharacterIterator):128:this.strSource = null |==> <NO-OP>
+64:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(java.text.CharacterIterator):129:this.charSource = null |==> <NO-OP>
+65:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(java.lang.String):135:this.ciSource = null |==> <NO-OP>
+66:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(java.lang.String):136:this.strSource = str |==> <NO-OP>
+67:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(java.lang.String):137:this.charSource = null |==> <NO-OP>
+68:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(char[]):143:this.ciSource = null |==> <NO-OP>
+69:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(char[]):144:this.strSource = null |==> <NO-OP>
+70:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setSource(char[]):145:this.charSource = chars |==> <NO-OP>
+71:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setBeginning(int,int):152:this.beginpos[index] = v |==> <NO-OP>
+72:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Match@setEnd(int,int):159:this.endpos[index] = v |==> <NO-OP>
+73:LVR:0:POS:org.apache.xerces.utils.regex.Match@getNumberOfGroups():167:0 |==> 1
+74:LVR:0:NEG:org.apache.xerces.utils.regex.Match@getNumberOfGroups():167:0 |==> -1
+75:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.Match@getNumberOfGroups():167:this.nofgroups <= 0 |==> this.nofgroups < 0
+76:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.Match@getNumberOfGroups():167:this.nofgroups <= 0 |==> this.nofgroups == 0
+77:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.Match@getNumberOfGroups():167:this.nofgroups <= 0 |==> true
+78:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@getNumberOfGroups():169:this.nofgroups |==> 0
+79:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.regex.Match@getBeginning(int):178:this.beginpos == null |==> false
+80:LVR:0:POS:org.apache.xerces.utils.regex.Match@getBeginning(int):180:0 |==> 1
+81:LVR:0:NEG:org.apache.xerces.utils.regex.Match@getBeginning(int):180:0 |==> -1
+82:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@getBeginning(int):180:index < 0 |==> index != 0
+83:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@getBeginning(int):180:index < 0 |==> index <= 0
+84:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@getBeginning(int):180:index < 0 |==> false
+85:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.Match@getBeginning(int):180:this.nofgroups <= index |==> this.nofgroups < index
+86:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.Match@getBeginning(int):180:this.nofgroups <= index |==> this.nofgroups == index
+87:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.Match@getBeginning(int):180:this.nofgroups <= index |==> true
+88:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.regex.Match@getBeginning(int):180:index < 0 || this.nofgroups <= index |==> index < 0 != this.nofgroups <= index
+89:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getBeginning(int):180:index < 0 || this.nofgroups <= index |==> index < 0
+90:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getBeginning(int):180:index < 0 || this.nofgroups <= index |==> this.nofgroups <= index
+91:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.regex.Match@getBeginning(int):180:index < 0 || this.nofgroups <= index |==> true
+92:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@getBeginning(int):183:this.beginpos[index] |==> 0
+93:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.regex.Match@getEnd(int):192:this.endpos == null |==> false
+94:LVR:0:POS:org.apache.xerces.utils.regex.Match@getEnd(int):194:0 |==> 1
+95:LVR:0:NEG:org.apache.xerces.utils.regex.Match@getEnd(int):194:0 |==> -1
+96:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@getEnd(int):194:index < 0 |==> index != 0
+97:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@getEnd(int):194:index < 0 |==> index <= 0
+98:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@getEnd(int):194:index < 0 |==> false
+99:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.Match@getEnd(int):194:this.nofgroups <= index |==> this.nofgroups < index
+100:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.Match@getEnd(int):194:this.nofgroups <= index |==> this.nofgroups == index
+101:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.Match@getEnd(int):194:this.nofgroups <= index |==> true
+102:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.regex.Match@getEnd(int):194:index < 0 || this.nofgroups <= index |==> index < 0 != this.nofgroups <= index
+103:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getEnd(int):194:index < 0 || this.nofgroups <= index |==> index < 0
+104:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getEnd(int):194:index < 0 || this.nofgroups <= index |==> this.nofgroups <= index
+105:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.regex.Match@getEnd(int):194:index < 0 || this.nofgroups <= index |==> true
+106:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@getEnd(int):197:this.endpos[index] |==> 0
+107:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.regex.Match@getCapturedText(int):206:this.beginpos == null |==> false
+108:LVR:0:POS:org.apache.xerces.utils.regex.Match@getCapturedText(int):208:0 |==> 1
+109:LVR:0:NEG:org.apache.xerces.utils.regex.Match@getCapturedText(int):208:0 |==> -1
+110:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:index < 0 |==> index != 0
+111:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:index < 0 |==> index <= 0
+112:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:index < 0 |==> false
+113:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:this.nofgroups <= index |==> this.nofgroups < index
+114:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:this.nofgroups <= index |==> this.nofgroups == index
+115:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:this.nofgroups <= index |==> true
+116:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:index < 0 || this.nofgroups <= index |==> index < 0 != this.nofgroups <= index
+117:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:index < 0 || this.nofgroups <= index |==> index < 0
+118:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:index < 0 || this.nofgroups <= index |==> this.nofgroups <= index
+119:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):208:index < 0 || this.nofgroups <= index |==> true
+120:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@getCapturedText(int):212:this.beginpos[index] |==> 0
+121:EVR:<ARRAY_ACCESS(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Match@getCapturedText(int):212:this.endpos[index] |==> 0
+122:LVR:0:POS:org.apache.xerces.utils.regex.Match@getCapturedText(int):213:0 |==> 1
+123:LVR:0:NEG:org.apache.xerces.utils.regex.Match@getCapturedText(int):213:0 |==> -1
+124:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:begin < 0 |==> begin != 0
+125:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:begin < 0 |==> begin <= 0
+126:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:begin < 0 |==> false
+127:LVR:0:POS:org.apache.xerces.utils.regex.Match@getCapturedText(int):213:0 |==> 1
+128:LVR:0:NEG:org.apache.xerces.utils.regex.Match@getCapturedText(int):213:0 |==> -1
+129:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:end < 0 |==> end != 0
+130:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:end < 0 |==> end <= 0
+131:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:end < 0 |==> false
+132:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:begin < 0 || end < 0 |==> begin < 0 != end < 0
+133:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:begin < 0 || end < 0 |==> begin < 0
+134:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:begin < 0 || end < 0 |==> end < 0
+135:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.regex.Match@getCapturedText(int):213:begin < 0 || end < 0 |==> true
+136:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.Match@getCapturedText(int):213:return null; |==> <NO-OP>
+137:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.regex.Match@getCapturedText(int):214:this.ciSource != null |==> true

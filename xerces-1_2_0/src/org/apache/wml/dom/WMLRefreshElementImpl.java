@@ -70,7 +70,7 @@ public class WMLRefreshElementImpl extends WMLElementImpl implements WMLRefreshE
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

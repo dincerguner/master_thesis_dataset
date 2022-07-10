@@ -1,0 +1,44 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@setLocale(java.util.Locale):78:fLocale = locale |==> <NO-OP>
+2:EVR:<IDENTIFIER(java.util.Locale)>:<DEFAULT>:org.apache.xerces.utils.ImplementationMessages@getLocale():84:fLocale |==> null
+3:LVR:FALSE:TRUE:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):98:false |==> true
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):99:fResourceBundle == null |==> false
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):99:locale != fLocale |==> true
+6:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):99:fResourceBundle == null || locale != fLocale |==> fResourceBundle == null != (locale != fLocale)
+7:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):99:fResourceBundle == null || locale != fLocale |==> fResourceBundle == null
+8:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):99:fResourceBundle == null || locale != fLocale |==> locale != fLocale
+9:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):99:fResourceBundle == null || locale != fLocale |==> true
+10:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):100:locale != null |==> true
+11:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):101:fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ImplementationMessages", locale) |==> <NO-OP>
+12:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):102:fResourceBundle == null |==> false
+13:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):103:fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ImplementationMessages") |==> <NO-OP>
+14:LVR:0:POS:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:0 |==> 1
+15:LVR:0:NEG:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:0 |==> -1
+16:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode < 0 |==> majorCode != 0
+17:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode < 0 |==> majorCode <= 0
+18:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode < 0 |==> false
+19:LVR:POS:0:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:1 |==> 0
+20:LVR:POS:NEG:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:1 |==> -1
+21:AOR:-(int,int):%(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:fgMessageKeys.length - 1 |==> fgMessageKeys.length % 1
+22:AOR:-(int,int):*(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:fgMessageKeys.length - 1 |==> fgMessageKeys.length * 1
+23:AOR:-(int,int):+(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:fgMessageKeys.length - 1 |==> fgMessageKeys.length + 1
+24:AOR:-(int,int):/(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:fgMessageKeys.length - 1 |==> fgMessageKeys.length / 1
+25:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode >= fgMessageKeys.length - 1 |==> majorCode == fgMessageKeys.length - 1
+26:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode >= fgMessageKeys.length - 1 |==> majorCode > fgMessageKeys.length - 1
+27:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode >= fgMessageKeys.length - 1 |==> true
+28:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode < 0 || majorCode >= fgMessageKeys.length - 1 |==> majorCode < 0 != majorCode >= fgMessageKeys.length - 1
+29:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode < 0 || majorCode >= fgMessageKeys.length - 1 |==> majorCode < 0
+30:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode < 0 || majorCode >= fgMessageKeys.length - 1 |==> majorCode >= fgMessageKeys.length - 1
+31:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):105:majorCode < 0 || majorCode >= fgMessageKeys.length - 1 |==> true
+32:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):106:majorCode = BAD_MAJORCODE |==> <NO-OP>
+33:LVR:TRUE:FALSE:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):107:true |==> false
+34:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):107:throwex = true |==> <NO-OP>
+35:EVR:<ARRAY_ACCESS(java.lang.String)>:<DEFAULT>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):109:fgMessageKeys[majorCode] |==> null
+36:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):110:fResourceBundle.getString(msgKey) |==> null
+37:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):111:args != null |==> true
+38:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):113:msg = java.text.MessageFormat.format(msg, args) |==> <NO-OP>
+39:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):115:msg = fResourceBundle.getString(fgMessageKeys[FORMAT_FAILED]) |==> <NO-OP>
+40:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):116:msg += " " + fResourceBundle.getString(msgKey) |==> <NO-OP>
+41:COR:throwex:TRUE:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):119:throwex |==> false
+42:COR:throwex:FALSE:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):119:throwex |==> true
+43:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.xerces.utils.ImplementationMessages@createMessage(java.util.Locale,int,int,java.lang.Object[]):122:msg |==> null
+44:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.xerces.utils.ImplementationMessages:159:{"BadMajorCode", "ENC4", "ENC5", "ENC6", "ENC7", "FileNotFound", "VAL_BST", "VAL_CMSI", "VAL_CST", "VAL_LST", "VAL_NIICM", "VAL_NPCD", "VAL_UST", "VAL_WCGHI", "INT_DCN", "INT_PCN", "FatalError", "FormatFailed", null} |==> null

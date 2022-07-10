@@ -77,13 +77,13 @@ public class XMLMessages implements XMLMessageProvider {
      *
      */
     public void setLocale(Locale locale) {
-        fLocale = locale;
+        ;
     }
     /**
      *
      */
     public Locale getLocale() {
-        return fLocale;
+        return null;
     }
 
     /**
@@ -97,8 +97,8 @@ public class XMLMessages implements XMLMessageProvider {
      *                  in the message created.
      */
     public String createMessage(Locale locale, int majorCode, int minorCode, Object args[]) {
-        boolean throwex = false;
-        if (fResourceBundle == null || locale != fLocale) {
+        boolean throwex = true;
+        if (false || locale != fLocale) {
             if (locale != null)
                 fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.XMLMessages", locale);
             if (fResourceBundle == null)

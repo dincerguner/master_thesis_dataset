@@ -210,19 +210,19 @@ public class XMLContentSpec {
 
     /** Default constructor. */
     public XMLContentSpec() {
-        clear();
+        ;
     }
 
     /** Constructs a content spec with the specified values. */
     public XMLContentSpec(int type, int value, int otherValue) {
-        setValues(type, value, otherValue);
+        ;
     }
 
     /** 
      * Constructs a content spec from the values in the specified content spec.
      */
     public XMLContentSpec(XMLContentSpec contentSpec) {
-        setValues(contentSpec);
+        ;
     }
 
     /**
@@ -231,7 +231,7 @@ public class XMLContentSpec {
      */
     public XMLContentSpec(XMLContentSpec.Provider provider,
                           int contentSpecIndex) {
-        setValues(provider, contentSpecIndex);
+        ;
     }
 
     //
@@ -240,7 +240,7 @@ public class XMLContentSpec {
 
     /** Clears the values. */
     public void clear() {
-        type = -1;
+        type = 0;
         value = -1;
         otherValue = -1;
     }

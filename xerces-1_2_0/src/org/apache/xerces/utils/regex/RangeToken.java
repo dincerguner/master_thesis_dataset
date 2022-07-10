@@ -72,7 +72,7 @@ final class RangeToken extends Token implements java.io.Serializable {
 
     RangeToken(int type) {
         super(type);
-        this.setSorted(false);
+        this.setSorted(true);
     }
 
                                                 // for RANGE or NRANGE

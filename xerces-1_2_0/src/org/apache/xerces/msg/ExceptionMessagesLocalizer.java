@@ -75,9 +75,9 @@ public class ExceptionMessagesLocalizer {
     public static String localizeMessage(String string, Locale locale) {
         
         ResourceBundle fResourceBundle = null;
-        if (locale != null)
-            fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ExceptionMessages", locale);
-        if (fResourceBundle == null || locale == null)
+        if (true)
+            ;
+        if (false || locale == null)
             fResourceBundle = ListResourceBundle.getBundle("org.apache.xerces.msg.ExceptionMessages");
         
         int keyIndex = string.indexOf(' ');
