@@ -38,7 +38,7 @@ if not "%OS%" == "Windows_NT" if exist bootstrap\nul deltree/y bootstrap
 if     "%OS%" == "Windows_NT" if exist build2\nul rmdir/s/q build2
 if not "%OS%" == "Windows_NT" if exist build2\nul deltree/y build2
 
-SET LOCALCLASSPATH=lib\log4j-1.2.12.jar;lib\commons-collections-3.2.1.jar;lib\oro-2.0.8.jar;lib\werken-xpath-0.9.4.jar;lib\commons-lang-2.4.jar;lib\commons-logging-1.1.jar;lib\servletapi-2.3.jar;lib\avalon-logkit-2.1.jar;lib\jdom-1.0.jar;lib\antlr-2.7.5.jar;lib\test\junit-3.8.1.jar;lib\test\hsqldb-1.7.1.jar;lib\maven-ant-tasks-2.0.9.jar;lib\test\junit-3.8.1.jar;lib\test\hsqldb-1.7.1.jar;
+SET LOCALCLASSPATH=lib\ant.jar;lib\log4j-1.2.12.jar;lib\commons-collections-3.2.1.jar;lib\oro-2.0.8.jar;lib\werken-xpath-0.9.4.jar;lib\commons-lang-2.4.jar;lib\commons-logging-1.1.jar;lib\servletapi-2.3.jar;lib\avalon-logkit-2.1.jar;lib\jdom-1.0.jar;lib\antlr-2.7.5.jar;lib\test\junit-3.8.1.jar;lib\test\hsqldb-1.7.1.jar;lib\maven-ant-tasks-2.0.9.jar;lib\test\junit-3.8.1.jar;lib\test\hsqldb-1.7.1.jar;
 for %%i in (lib\optional\*.jar) do call src\script\lcp.bat %%i
 if exist "%JAVA_HOME%\lib\tools.jar" call src\script\lcp.bat %JAVA_HOME%\lib\tools.jar
 if exist "%JAVA_HOME%\lib\classes.zip" call src\script\lcp.bat %JAVA_HOME%\lib\classes.zip
