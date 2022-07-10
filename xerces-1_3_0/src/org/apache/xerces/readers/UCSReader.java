@@ -102,7 +102,7 @@ final class UCSReader extends XMLEntityReader implements StringPool.StringProduc
     //
     //
     private ChunkyByteArray fData = null;
-    private int fEncoding = -1;
+    private int fEncoding = 0;
     private StringPool fStringPool = null;
     private int fBytesPerChar = -1;
     private boolean fBigEndian = true;

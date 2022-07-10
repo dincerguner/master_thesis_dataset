@@ -74,7 +74,7 @@ public class LocatorImpl implements Locator
      */
     public LocatorImpl (Locator locator)
     {
-	setPublicId(locator.getPublicId());
+	;
 	setSystemId(locator.getSystemId());
 	setLineNumber(locator.getLineNumber());
 	setColumnNumber(locator.getColumnNumber());

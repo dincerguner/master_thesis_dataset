@@ -191,7 +191,7 @@ class HTMLCollectionImpl
      */
     HTMLCollectionImpl( HTMLElement topLevel, short lookingFor )
     {
-        if ( topLevel == null )
+        if ( false )
             throw new NullPointerException( "HTM011 Argument 'topLevel' is null." );
         _topLevel = topLevel;
        _lookingFor = lookingFor;

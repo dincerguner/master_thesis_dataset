@@ -80,7 +80,7 @@ public class StringDatatypeValidator extends AbstractDatatypeValidator{
     private Locale     fLocale          = null;
     DatatypeValidator  fBaseValidator   = null; // Native datatypes have null
 
-    private int        fLength           = 0;
+    private int        fLength           = 1;
     private int        fMaxLength        = Integer.MAX_VALUE;
     private int        fMinLength        = 0;
     private String     fPattern          = null;

@@ -1,0 +1,11 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.EncodingInfo@<init>(java.lang.String,java.lang.String,int):81:this.name = mimeName |==> <NO-OP>
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.EncodingInfo@<init>(java.lang.String,java.lang.String,int):82:javaName == null |==> false
+3:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.EncodingInfo@<init>(java.lang.String,java.lang.String,int):82:this.javaName = javaName == null ? mimeName : javaName |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.EncodingInfo@<init>(java.lang.String,java.lang.String,int):83:this.lastPrintable = lastPrintable |==> <NO-OP>
+5:EVR:<MEMBER_SELECT(java.lang.String)>:<DEFAULT>:org.apache.xml.serialize.EncodingInfo@getName():97:this.name |==> null
+6:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.EncodingInfo@getWriter(java.io.OutputStream):110:this.javaName == null |==> false
+7:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.EncodingInfo@getWriter(java.io.OutputStream):111:return new OutputStreamWriter(output); |==> <NO-OP>
+8:EVR:<NEW_CLASS(java.io.OutputStreamWriter)>:<DEFAULT>:org.apache.xml.serialize.EncodingInfo@getWriter(java.io.OutputStream):112:new OutputStreamWriter(output, this.javaName) |==> null
+9:ROR:<=(int,int):<(int,int):org.apache.xml.serialize.EncodingInfo@isPrintable(int):120:ch <= this.lastPrintable |==> ch < this.lastPrintable
+10:ROR:<=(int,int):==(int,int):org.apache.xml.serialize.EncodingInfo@isPrintable(int):120:ch <= this.lastPrintable |==> ch == this.lastPrintable
+11:ROR:<=(int,int):TRUE(int,int):org.apache.xml.serialize.EncodingInfo@isPrintable(int):120:ch <= this.lastPrintable |==> true

@@ -79,7 +79,7 @@ public class FloatDatatypeValidator extends AbstractDatatypeValidator {
     private DatatypeValidator    fBaseValidator = null; // null means a native datatype
     private float[]   fEnumFloats           = null;
     private String    fPattern              = null;
-    private float     fMaxInclusive         = Float.POSITIVE_INFINITY ;
+    private float     fMaxInclusive         = 0.0F ;
     private float     fMaxExclusive         = Float.POSITIVE_INFINITY;
     private float     fMinInclusive         = Float.NEGATIVE_INFINITY;
     private float     fMinExclusive         = Float.NEGATIVE_INFINITY;

@@ -175,7 +175,7 @@ public class OutputFormat
      * The indentation level, or zero if no indentation
      * was requested.
      */
-    private int _indent = 0;
+    private int _indent = 1;
 
 
     /**

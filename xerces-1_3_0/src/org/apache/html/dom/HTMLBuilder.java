@@ -105,7 +105,7 @@ public class HTMLBuilder
      * Applies only to whitespace appearing between element tags in element content,
      * as per the SAX definition, and true by default.
      */
-    private boolean         _ignoreWhitespace = true;
+    private boolean         _ignoreWhitespace = false;
 
 
     /**

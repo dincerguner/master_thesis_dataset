@@ -82,7 +82,7 @@ public class RecurringDurationDatatypeValidator extends AbstractDatatypeValidato
     private Locale    fLocale           = null;
     DatatypeValidator fBaseValidator    = null; // A Native datatype is null
     String            fPattern          = null;
-    long              fMaxInclusive     = Long.MAX_VALUE;
+    long              fMaxInclusive     = 0L;
     long              fMaxExclusive     = Long.MAX_VALUE-1;
     long              fMinInclusive     = 1L;
     long              fMinExclusive     = 0L;

@@ -1,0 +1,241 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@<init>():79:System.getProperty("org.xml.sax.parser") |==> null
+2:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@<init>():82:setup(ParserFactory.makeParser()) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@<init>(org.xml.sax.Parser):123:setup(parser) |==> <NO-OP>
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setup(org.xml.sax.Parser):136:parser == null |==> false
+5:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setup(org.xml.sax.Parser):140:this.parser = parser |==> <NO-OP>
+6:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setup(org.xml.sax.Parser):141:atts = new AttributesImpl() |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setup(org.xml.sax.Parser):142:nsSupport = new NamespaceSupport() |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setup(org.xml.sax.Parser):143:attAdapter = new AttributeListAdapter() |==> <NO-OP>
+9:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter:157:FEATURES + "namespaces" |==> null
+10:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter:158:FEATURES + "namespace-prefixes" |==> null
+11:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter:159:FEATURES + "validation" |==> null
+12:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter:161:FEATURES + "external-general-entities" |==> null
+13:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter:163:FEATURES + "external-parameter-entities" |==> null
+14:COR:name.equals(NAMESPACES):TRUE:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):183:name.equals(NAMESPACES) |==> false
+15:COR:name.equals(NAMESPACES):FALSE:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):183:name.equals(NAMESPACES) |==> true
+16:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):184:checkNotParsing("feature", name) |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):185:namespaces = state |==> <NO-OP>
+18:COR:&&(boolean,boolean):==(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):186:!namespaces && !prefixes |==> !namespaces == !prefixes
+19:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):186:!namespaces && !prefixes |==> false
+20:COR:&&(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):186:!namespaces && !prefixes |==> !namespaces
+21:COR:&&(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):186:!namespaces && !prefixes |==> !prefixes
+22:LVR:TRUE:FALSE:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):187:true |==> false
+23:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):187:prefixes = true |==> <NO-OP>
+24:COR:name.equals(NAMESPACE_PREFIXES):TRUE:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):189:name.equals(NAMESPACE_PREFIXES) |==> false
+25:COR:name.equals(NAMESPACE_PREFIXES):FALSE:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):189:name.equals(NAMESPACE_PREFIXES) |==> true
+26:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):190:checkNotParsing("feature", name) |==> <NO-OP>
+27:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):191:prefixes = state |==> <NO-OP>
+28:COR:&&(boolean,boolean):==(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):192:!prefixes && !namespaces |==> !prefixes == !namespaces
+29:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):192:!prefixes && !namespaces |==> false
+30:COR:&&(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):192:!prefixes && !namespaces |==> !prefixes
+31:COR:&&(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):192:!prefixes && !namespaces |==> !namespaces
+32:LVR:TRUE:FALSE:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):193:true |==> false
+33:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):193:namespaces = true |==> <NO-OP>
+34:COR:||(boolean,boolean):!=(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):195:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> name.equals(VALIDATION) != name.equals(EXTERNAL_GENERAL)
+35:COR:||(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):195:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> name.equals(VALIDATION)
+36:COR:||(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):196:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> name.equals(EXTERNAL_GENERAL)
+37:COR:||(boolean,boolean):TRUE(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):195:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> true
+38:COR:||(boolean,boolean):!=(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):195:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> (name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL)) != name.equals(EXTERNAL_PARAMETER)
+39:COR:||(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):195:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL)
+40:COR:||(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):197:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> name.equals(EXTERNAL_PARAMETER)
+41:COR:||(boolean,boolean):TRUE(boolean,boolean):org.xml.sax.helpers.ParserAdapter@setFeature(java.lang.String,boolean):196:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> true
+42:COR:name.equals(NAMESPACES):TRUE:org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):222:name.equals(NAMESPACES) |==> false
+43:COR:name.equals(NAMESPACES):FALSE:org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):222:name.equals(NAMESPACES) |==> true
+44:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):223:namespaces |==> false
+45:COR:name.equals(NAMESPACE_PREFIXES):TRUE:org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):224:name.equals(NAMESPACE_PREFIXES) |==> false
+46:COR:name.equals(NAMESPACE_PREFIXES):FALSE:org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):224:name.equals(NAMESPACE_PREFIXES) |==> true
+47:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):225:prefixes |==> false
+48:COR:||(boolean,boolean):!=(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):226:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> name.equals(VALIDATION) != name.equals(EXTERNAL_GENERAL)
+49:COR:||(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):226:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> name.equals(VALIDATION)
+50:COR:||(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):227:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> name.equals(EXTERNAL_GENERAL)
+51:COR:||(boolean,boolean):TRUE(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):226:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) |==> true
+52:COR:||(boolean,boolean):!=(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):226:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> (name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL)) != name.equals(EXTERNAL_PARAMETER)
+53:COR:||(boolean,boolean):LHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):226:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL)
+54:COR:||(boolean,boolean):RHS(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):228:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> name.equals(EXTERNAL_PARAMETER)
+55:COR:||(boolean,boolean):TRUE(boolean,boolean):org.xml.sax.helpers.ParserAdapter@getFeature(java.lang.String):227:name.equals(VALIDATION) || name.equals(EXTERNAL_GENERAL) || name.equals(EXTERNAL_PARAMETER) |==> true
+56:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setEntityResolver(org.xml.sax.EntityResolver):286:resolver == null |==> false
+57:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setEntityResolver(org.xml.sax.EntityResolver):289:entityResolver = resolver |==> <NO-OP>
+58:EVR:<IDENTIFIER(org.xml.sax.EntityResolver)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@getEntityResolver():301:entityResolver |==> null
+59:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setDTDHandler(org.xml.sax.DTDHandler):315:handler == null |==> false
+60:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setDTDHandler(org.xml.sax.DTDHandler):318:dtdHandler = handler |==> <NO-OP>
+61:EVR:<IDENTIFIER(org.xml.sax.DTDHandler)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@getDTDHandler():330:dtdHandler |==> null
+62:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setContentHandler(org.xml.sax.ContentHandler):344:handler == null |==> false
+63:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setContentHandler(org.xml.sax.ContentHandler):347:contentHandler = handler |==> <NO-OP>
+64:EVR:<IDENTIFIER(org.xml.sax.ContentHandler)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@getContentHandler():359:contentHandler |==> null
+65:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setErrorHandler(org.xml.sax.ErrorHandler):373:handler == null |==> false
+66:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setErrorHandler(org.xml.sax.ErrorHandler):376:errorHandler = handler |==> <NO-OP>
+67:EVR:<IDENTIFIER(org.xml.sax.ErrorHandler)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@getErrorHandler():388:errorHandler |==> null
+68:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@parse(java.lang.String):406:parse(new InputSource(systemId)) |==> <NO-OP>
+69:COR:parsing:TRUE:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):424:parsing |==> false
+70:COR:parsing:FALSE:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):424:parsing |==> true
+71:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):427:setupParser() |==> <NO-OP>
+72:LVR:TRUE:FALSE:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):428:true |==> false
+73:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):428:parsing = true |==> <NO-OP>
+74:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):430:parser.parse(input) |==> <NO-OP>
+75:LVR:FALSE:TRUE:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):432:false |==> true
+76:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):432:parsing = false |==> <NO-OP>
+77:LVR:FALSE:TRUE:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):434:false |==> true
+78:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@parse(org.xml.sax.InputSource):434:parsing = false |==> <NO-OP>
+79:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setDocumentLocator(org.xml.sax.Locator):452:this.locator = locator |==> <NO-OP>
+80:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setDocumentLocator(org.xml.sax.Locator):453:contentHandler != null |==> true
+81:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setDocumentLocator(org.xml.sax.Locator):454:contentHandler.setDocumentLocator(locator) |==> <NO-OP>
+82:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@startDocument():469:contentHandler != null |==> true
+83:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startDocument():470:contentHandler.startDocument() |==> <NO-OP>
+84:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@endDocument():485:contentHandler != null |==> true
+85:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@endDocument():486:contentHandler.endDocument() |==> <NO-OP>
+86:COR:namespaces:TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):504:namespaces |==> false
+87:COR:namespaces:FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):504:namespaces |==> true
+88:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):505:contentHandler != null |==> true
+89:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):506:attAdapter.setAttributeList(qAtts) |==> <NO-OP>
+90:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):507:contentHandler.startElement("", "", qName.intern(), attAdapter) |==> <NO-OP>
+91:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):510:return; |==> <NO-OP>
+92:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):515:nsSupport.pushContext() |==> <NO-OP>
+93:LVR:FALSE:TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):516:false |==> true
+94:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):517:atts.clear() |==> <NO-OP>
+95:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):523:qAtts.getLength() |==> 0
+96:LVR:0:POS:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):524:0 |==> 1
+97:LVR:0:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):524:0 |==> -1
+98:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):524:i < length |==> i != length
+99:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):524:i < length |==> i <= length
+100:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):524:i < length |==> false
+101:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):525:qAtts.getName(i) |==> null
+102:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):526:qAtts.getType(i) |==> null
+103:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):527:qAtts.getValue(i) |==> null
+104:COR:attQName.startsWith("xmlns"):TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):530:attQName.startsWith("xmlns") |==> false
+105:COR:attQName.startsWith("xmlns"):FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):530:attQName.startsWith("xmlns") |==> true
+106:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):532:attQName.indexOf(':') |==> 0
+107:LVR:NEG:0:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):533:-1 |==> 0
+108:LVR:NEG:POS:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):533:-1 |==> 1
+109:ROR:==(int,int):<=(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):533:n == -1 |==> n <= -1
+110:ROR:==(int,int):>=(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):533:n == -1 |==> n >= -1
+111:ROR:==(int,int):FALSE(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):533:n == -1 |==> false
+112:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):536:1 |==> 0
+113:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):536:1 |==> -1
+114:AOR:+(int,int):%(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):536:n + 1 |==> n % 1
+115:AOR:+(int,int):*(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):536:n + 1 |==> n * 1
+116:AOR:+(int,int):-(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):536:n + 1 |==> n - 1
+117:AOR:+(int,int):/(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):536:n + 1 |==> n / 1
+118:COR:nsSupport.declarePrefix(prefix, value):TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):538:nsSupport.declarePrefix(prefix, value) |==> false
+119:COR:nsSupport.declarePrefix(prefix, value):FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):538:nsSupport.declarePrefix(prefix, value) |==> true
+120:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):539:reportError("Illegal Namespace prefix: " + prefix) |==> <NO-OP>
+121:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):541:contentHandler != null |==> true
+122:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):542:contentHandler.startPrefixMapping(prefix, value) |==> <NO-OP>
+123:COR:prefixes:TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):546:prefixes |==> false
+124:COR:prefixes:FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):546:prefixes |==> true
+125:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):547:atts.addAttribute("", "", attQName.intern(), type, value) |==> <NO-OP>
+126:LVR:TRUE:FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):550:true |==> false
+127:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):550:seenDecl = true |==> <NO-OP>
+128:LVR:TRUE:FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):554:true |==> false
+129:LVR:0:POS:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):555:0 |==> 1
+130:LVR:0:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):555:0 |==> -1
+131:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):555:1 |==> 0
+132:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):555:1 |==> -1
+133:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):555:2 |==> 0
+134:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):555:2 |==> -2
+135:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):555:atts.addAttribute(attName[0], attName[1], attName[2], type, value) |==> <NO-OP>
+136:COR:seenDecl:TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):565:seenDecl |==> false
+137:COR:seenDecl:FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):565:seenDecl |==> true
+138:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):566:length = atts.getLength() |==> <NO-OP>
+139:LVR:0:POS:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):567:0 |==> 1
+140:LVR:0:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):567:0 |==> -1
+141:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):567:i < length |==> i != length
+142:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):567:i < length |==> i <= length
+143:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):567:i < length |==> false
+144:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):568:atts.getQName(i) |==> null
+145:COR:attQName.startsWith("xmlns"):TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):569:attQName.startsWith("xmlns") |==> false
+146:COR:attQName.startsWith("xmlns"):FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):569:attQName.startsWith("xmlns") |==> true
+147:LVR:TRUE:FALSE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):570:true |==> false
+148:LVR:0:POS:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):571:0 |==> 1
+149:LVR:0:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):571:0 |==> -1
+150:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):571:atts.setURI(i, attName[0]) |==> <NO-OP>
+151:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):572:1 |==> 0
+152:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):572:1 |==> -1
+153:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):572:atts.setLocalName(i, attName[1]) |==> <NO-OP>
+154:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):578:contentHandler != null |==> true
+155:LVR:FALSE:TRUE:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):579:false |==> true
+156:LVR:0:POS:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):580:0 |==> 1
+157:LVR:0:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):580:0 |==> -1
+158:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):580:1 |==> 0
+159:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):580:1 |==> -1
+160:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):580:2 |==> 0
+161:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):580:2 |==> -2
+162:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@startElement(java.lang.String,org.xml.sax.AttributeList):580:contentHandler.startElement(name[0], name[1], name[2], atts) |==> <NO-OP>
+163:COR:namespaces:TRUE:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):598:namespaces |==> false
+164:COR:namespaces:FALSE:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):598:namespaces |==> true
+165:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):599:contentHandler != null |==> true
+166:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):600:contentHandler.endElement("", "", qName.intern()) |==> <NO-OP>
+167:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):602:return; |==> <NO-OP>
+168:LVR:FALSE:TRUE:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):606:false |==> true
+169:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):607:contentHandler != null |==> true
+170:LVR:0:POS:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):608:0 |==> 1
+171:LVR:0:NEG:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):608:0 |==> -1
+172:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):608:1 |==> 0
+173:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):608:1 |==> -1
+174:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):608:2 |==> 0
+175:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):608:2 |==> -2
+176:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):608:contentHandler.endElement(names[0], names[1], names[2]) |==> <NO-OP>
+177:EVR:<METHOD_INVOCATION(java.util.Enumeration)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):609:nsSupport.getDeclaredPrefixes() |==> null
+178:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):611:(String)prefixes.nextElement() |==> null
+179:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):612:contentHandler.endPrefixMapping(prefix) |==> <NO-OP>
+180:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@endElement(java.lang.String):615:nsSupport.popContext() |==> <NO-OP>
+181:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@characters(char[],int,int):632:contentHandler != null |==> true
+182:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@characters(char[],int,int):633:contentHandler.characters(ch, start, length) |==> <NO-OP>
+183:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@ignorableWhitespace(char[],int,int):651:contentHandler != null |==> true
+184:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@ignorableWhitespace(char[],int,int):652:contentHandler.ignorableWhitespace(ch, start, length) |==> <NO-OP>
+185:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@processingInstruction(java.lang.String,java.lang.String):669:contentHandler != null |==> true
+186:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@processingInstruction(java.lang.String,java.lang.String):670:contentHandler.processingInstruction(target, data) |==> <NO-OP>
+187:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setupParser():686:nsSupport.reset() |==> <NO-OP>
+188:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setupParser():688:entityResolver != null |==> true
+189:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setupParser():689:parser.setEntityResolver(entityResolver) |==> <NO-OP>
+190:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setupParser():691:dtdHandler != null |==> true
+191:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setupParser():692:parser.setDTDHandler(dtdHandler) |==> <NO-OP>
+192:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@setupParser():694:errorHandler != null |==> true
+193:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setupParser():695:parser.setErrorHandler(errorHandler) |==> <NO-OP>
+194:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setupParser():697:parser.setDocumentHandler(this) |==> <NO-OP>
+195:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@setupParser():698:locator = null |==> <NO-OP>
+196:EVR:<METHOD_INVOCATION(java.lang.String[])>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):718:nsSupport.processName(qName, nameParts, isAttribute) |==> null
+197:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):720:parts == null |==> false
+198:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):721:3 |==> 0
+199:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):721:3 |==> -3
+200:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):721:parts = new String[3] |==> <NO-OP>
+201:LVR:POS:0:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):722:2 |==> 0
+202:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):722:2 |==> -2
+203:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):722:parts[2] = qName.intern() |==> <NO-OP>
+204:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):723:reportError("Undeclared prefix: " + qName) |==> <NO-OP>
+205:EVR:<IDENTIFIER(java.lang.String[])>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@processName(java.lang.String,boolean):725:parts |==> null
+206:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):739:errorHandler == null |==> false
+207:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):740:return; |==> <NO-OP>
+208:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):744:locator != null |==> true
+209:EVR:<NEW_CLASS(org.xml.sax.SAXParseException)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):745:new SAXParseException(message, locator) |==> null
+210:LVR:NEG:0:org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):747:-1 |==> 0
+211:LVR:NEG:POS:org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):747:-1 |==> 1
+212:LVR:NEG:0:org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):747:-1 |==> 0
+213:LVR:NEG:POS:org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):747:-1 |==> 1
+214:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.ParserAdapter@reportError(java.lang.String):749:errorHandler.error(e) |==> <NO-OP>
+215:COR:parsing:TRUE:org.xml.sax.helpers.ParserAdapter@checkNotParsing(java.lang.String,java.lang.String):767:parsing |==> false
+216:COR:parsing:FALSE:org.xml.sax.helpers.ParserAdapter@checkNotParsing(java.lang.String,java.lang.String):767:parsing |==> true
+217:LVR:FALSE:TRUE:org.xml.sax.helpers.ParserAdapter:784:false |==> true
+218:LVR:POS:0:org.xml.sax.helpers.ParserAdapter:785:3 |==> 0
+219:LVR:POS:NEG:org.xml.sax.helpers.ParserAdapter:785:3 |==> -3
+220:LVR:TRUE:FALSE:org.xml.sax.helpers.ParserAdapter:792:true |==> false
+221:LVR:FALSE:TRUE:org.xml.sax.helpers.ParserAdapter:793:false |==> true
+222:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@setAttributeList(org.xml.sax.AttributeList):844:this.qAtts = qAtts |==> <NO-OP>
+223:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getLength():856:qAtts.getLength() |==> 0
+224:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getQName(int):894:qAtts.getName(i).intern() |==> null
+225:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getType(int):906:qAtts.getType(i).intern() |==> null
+226:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getValue(int):918:qAtts.getValue(i) |==> null
+227:LVR:NEG:0:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String,java.lang.String):932:-1 |==> 0
+228:LVR:NEG:POS:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String,java.lang.String):932:-1 |==> 1
+229:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):945:atts.getLength() |==> 0
+230:LVR:0:POS:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):946:0 |==> 1
+231:LVR:0:NEG:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):946:0 |==> -1
+232:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):946:i < max |==> i != max
+233:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):946:i < max |==> i <= max
+234:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):946:i < max |==> false
+235:COR:qAtts.getName(i).equals(qName):TRUE:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):947:qAtts.getName(i).equals(qName) |==> false
+236:COR:qAtts.getName(i).equals(qName):FALSE:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):947:qAtts.getName(i).equals(qName) |==> true
+237:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):948:return i; |==> <NO-OP>
+238:LVR:NEG:0:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):951:-1 |==> 0
+239:LVR:NEG:POS:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getIndex(java.lang.String):951:-1 |==> 1
+240:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getType(java.lang.String):976:qAtts.getType(qName).intern() |==> null
+241:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.ParserAdapter$AttributeListAdapter@getValue(java.lang.String):1001:qAtts.getValue(qName) |==> null

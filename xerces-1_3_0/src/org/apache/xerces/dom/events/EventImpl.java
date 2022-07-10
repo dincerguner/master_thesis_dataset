@@ -72,7 +72,7 @@ public class EventImpl implements Event
     public EventTarget target;
     public EventTarget currentTarget;
     public short eventPhase;
-    public boolean initialized=false, bubbles=true, cancelable=false;
+    public boolean initialized=true, bubbles=true, cancelable=false;
     public boolean stopPropagation=false, preventDefault=false;
      
     protected long timeStamp = System.currentTimeMillis();

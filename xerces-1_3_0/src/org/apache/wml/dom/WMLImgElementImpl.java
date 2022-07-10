@@ -70,7 +70,7 @@ public class WMLImgElementImpl extends WMLElementImpl implements WMLImgElement {
   }
 
   public void setWidth(String newValue) {
-    setAttribute("width", newValue);
+    ;
   }
 
   public String getWidth() {

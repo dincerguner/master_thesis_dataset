@@ -1,0 +1,302 @@
+1:EVR:<OR(int)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd:147:16 | ONLY_OPENING |==> 0
+2:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@isEmptyTag(java.lang.String):195:isElement(tagName, EMPTY) |==> false
+3:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@isElementContent(java.lang.String):209:isElement(tagName, ELEM_CONTENT) |==> false
+4:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@isPreserveSpace(java.lang.String):223:isElement(tagName, PRESERVE) |==> false
+5:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@isOptionalClosing(java.lang.String):237:isElement(tagName, OPT_CLOSING) |==> false
+6:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@isOnlyOpening(java.lang.String):250:isElement(tagName, ONLY_OPENING) |==> false
+7:COR:openTag.equalsIgnoreCase("HEAD"):TRUE:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):267:openTag.equalsIgnoreCase("HEAD") |==> false
+8:COR:openTag.equalsIgnoreCase("HEAD"):FALSE:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):267:openTag.equalsIgnoreCase("HEAD") |==> true
+9:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):268:return !isElement(tagName, ALLOWED_HEAD); |==> <NO-OP>
+10:COR:openTag.equalsIgnoreCase("P"):TRUE:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):270:openTag.equalsIgnoreCase("P") |==> false
+11:COR:openTag.equalsIgnoreCase("P"):FALSE:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):270:openTag.equalsIgnoreCase("P") |==> true
+12:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):271:return isElement(tagName, CLOSE_P); |==> <NO-OP>
+13:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):273:openTag.equalsIgnoreCase("DT") || openTag.equalsIgnoreCase("DD") |==> openTag.equalsIgnoreCase("DT") != openTag.equalsIgnoreCase("DD")
+14:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):273:openTag.equalsIgnoreCase("DT") || openTag.equalsIgnoreCase("DD") |==> openTag.equalsIgnoreCase("DT")
+15:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):273:openTag.equalsIgnoreCase("DT") || openTag.equalsIgnoreCase("DD") |==> openTag.equalsIgnoreCase("DD")
+16:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):273:openTag.equalsIgnoreCase("DT") || openTag.equalsIgnoreCase("DD") |==> true
+17:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):274:return isElement(tagName, CLOSE_DD_DT); |==> <NO-OP>
+18:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):276:openTag.equalsIgnoreCase("LI") || openTag.equalsIgnoreCase("OPTION") |==> openTag.equalsIgnoreCase("LI") != openTag.equalsIgnoreCase("OPTION")
+19:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):276:openTag.equalsIgnoreCase("LI") || openTag.equalsIgnoreCase("OPTION") |==> openTag.equalsIgnoreCase("LI")
+20:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):276:openTag.equalsIgnoreCase("LI") || openTag.equalsIgnoreCase("OPTION") |==> openTag.equalsIgnoreCase("OPTION")
+21:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):276:openTag.equalsIgnoreCase("LI") || openTag.equalsIgnoreCase("OPTION") |==> true
+22:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):277:return isElement(tagName, CLOSE_SELF); |==> <NO-OP>
+23:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") |==> openTag.equalsIgnoreCase("THEAD") != openTag.equalsIgnoreCase("TFOOT")
+24:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") |==> openTag.equalsIgnoreCase("THEAD")
+25:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") |==> openTag.equalsIgnoreCase("TFOOT")
+26:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") |==> true
+27:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") |==> (openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT")) != openTag.equalsIgnoreCase("TBODY")
+28:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") |==> openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT")
+29:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):280:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") |==> openTag.equalsIgnoreCase("TBODY")
+30:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") |==> true
+31:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") |==> (openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY")) != openTag.equalsIgnoreCase("TR")
+32:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") |==> openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY")
+33:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):280:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") |==> openTag.equalsIgnoreCase("TR")
+34:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):280:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") |==> true
+35:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") || openTag.equalsIgnoreCase("COLGROUP") |==> (openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR")) != openTag.equalsIgnoreCase("COLGROUP")
+36:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):279:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") || openTag.equalsIgnoreCase("COLGROUP") |==> openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR")
+37:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):281:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") || openTag.equalsIgnoreCase("COLGROUP") |==> openTag.equalsIgnoreCase("COLGROUP")
+38:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):280:openTag.equalsIgnoreCase("THEAD") || openTag.equalsIgnoreCase("TFOOT") || openTag.equalsIgnoreCase("TBODY") || openTag.equalsIgnoreCase("TR") || openTag.equalsIgnoreCase("COLGROUP") |==> true
+39:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):282:return isElement(tagName, CLOSE_TABLE); |==> <NO-OP>
+40:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):284:openTag.equalsIgnoreCase("TH") || openTag.equalsIgnoreCase("TD") |==> openTag.equalsIgnoreCase("TH") != openTag.equalsIgnoreCase("TD")
+41:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):284:openTag.equalsIgnoreCase("TH") || openTag.equalsIgnoreCase("TD") |==> openTag.equalsIgnoreCase("TH")
+42:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):284:openTag.equalsIgnoreCase("TH") || openTag.equalsIgnoreCase("TD") |==> openTag.equalsIgnoreCase("TD")
+43:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):284:openTag.equalsIgnoreCase("TH") || openTag.equalsIgnoreCase("TD") |==> true
+44:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):285:return isElement(tagName, CLOSE_TH_TD); |==> <NO-OP>
+45:LVR:FALSE:TRUE:org.apache.xml.serialize.HTMLdtd@isClosing(java.lang.String,java.lang.String):286:false |==> true
+46:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isURI(java.lang.String,java.lang.String):301:attrName.equalsIgnoreCase("href") || attrName.equalsIgnoreCase("src") |==> attrName.equalsIgnoreCase("href") != attrName.equalsIgnoreCase("src")
+47:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isURI(java.lang.String,java.lang.String):301:attrName.equalsIgnoreCase("href") || attrName.equalsIgnoreCase("src") |==> attrName.equalsIgnoreCase("href")
+48:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isURI(java.lang.String,java.lang.String):301:attrName.equalsIgnoreCase("href") || attrName.equalsIgnoreCase("src") |==> attrName.equalsIgnoreCase("src")
+49:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@isURI(java.lang.String,java.lang.String):301:attrName.equalsIgnoreCase("href") || attrName.equalsIgnoreCase("src") |==> true
+50:EVR:<TYPE_CAST(java.lang.String[])>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):317:(String[])_boolAttrs.get(tagName.toUpperCase()) |==> null
+51:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):318:attrNames == null |==> false
+52:LVR:FALSE:TRUE:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):319:false |==> true
+53:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):319:return Config.__M_NO == 0 && Config.COVERED(52, 52) ? false : Config.__M_NO == 52 ? true : false; |==> <NO-OP>
+54:LVR:0:POS:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):320:0 |==> 1
+55:LVR:0:NEG:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):320:0 |==> -1
+56:ROR:<(int,int):!=(int,int):org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):320:i < attrNames.length |==> i != attrNames.length
+57:ROR:<(int,int):<=(int,int):org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):320:i < attrNames.length |==> i <= attrNames.length
+58:ROR:<(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):320:i < attrNames.length |==> false
+59:COR:attrNames[i].equalsIgnoreCase(attrName):TRUE:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):321:attrNames[i].equalsIgnoreCase(attrName) |==> false
+60:COR:attrNames[i].equalsIgnoreCase(attrName):FALSE:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):321:attrNames[i].equalsIgnoreCase(attrName) |==> true
+61:LVR:TRUE:FALSE:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):322:true |==> false
+62:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):322:return Config.__M_NO == 0 && Config.COVERED(61, 61) ? true : Config.__M_NO == 61 ? false : true; |==> <NO-OP>
+63:LVR:FALSE:TRUE:org.apache.xml.serialize.HTMLdtd@isBoolean(java.lang.String,java.lang.String):323:false |==> true
+64:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):339:initialize() |==> <NO-OP>
+65:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):340:_byName.get(name) |==> null
+66:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):341:value != null |==> true
+67:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):341:value != null && value instanceof Character |==> value != null == value instanceof Character
+68:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):341:value != null && value instanceof Character |==> false
+69:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):341:value != null && value instanceof Character |==> value != null
+70:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):341:value != null && value instanceof Character |==> value instanceof Character
+71:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):342:((Character)value).charValue() |==> 0
+72:LVR:NEG:0:org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):344:-1 |==> 0
+73:LVR:NEG:POS:org.apache.xml.serialize.HTMLdtd@charFromName(java.lang.String):344:-1 |==> 1
+74:LVR:POS:0:org.apache.xml.serialize.HTMLdtd@fromChar(int):358:65535 |==> 0
+75:LVR:POS:NEG:org.apache.xml.serialize.HTMLdtd@fromChar(int):358:65535 |==> -65535
+76:ROR:>(int,int):!=(int,int):org.apache.xml.serialize.HTMLdtd@fromChar(int):358:value > 65535 |==> value != 65535
+77:ROR:>(int,int):>=(int,int):org.apache.xml.serialize.HTMLdtd@fromChar(int):358:value > 65535 |==> value >= 65535
+78:ROR:>(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@fromChar(int):358:value > 65535 |==> false
+79:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@fromChar(int):359:return null; |==> <NO-OP>
+80:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@fromChar(int):363:initialize() |==> <NO-OP>
+81:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@fromChar(int):364:(String)_byChar.get(String.valueOf(value)) |==> null
+82:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@fromChar(int):365:name == null |==> false
+83:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@fromChar(int):368:name |==> null
+84:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@initialize():389:_byName != null |==> true
+85:STD:<RETURN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():390:return; |==> <NO-OP>
+86:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():392:_byName = new Hashtable() |==> <NO-OP>
+87:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():393:_byChar = new Hashtable() |==> <NO-OP>
+88:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():394:is = HTMLdtd.class.getResourceAsStream(ENTITIES_RESOURCE) |==> <NO-OP>
+89:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@initialize():395:is == null |==> false
+90:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():397:reader = new BufferedReader(new InputStreamReader(is)) |==> <NO-OP>
+91:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@initialize():398:reader.readLine() |==> null
+92:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@initialize():399:line != null |==> true
+93:LVR:0:POS:org.apache.xml.serialize.HTMLdtd@initialize():400:0 |==> 1
+94:LVR:0:NEG:org.apache.xml.serialize.HTMLdtd@initialize():400:0 |==> -1
+95:ROR:==(int,int):<=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():400:line.length() == 0 |==> line.length() <= 0
+96:ROR:==(int,int):>=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():400:line.length() == 0 |==> line.length() >= 0
+97:ROR:==(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@initialize():400:line.length() == 0 |==> false
+98:LVR:0:POS:org.apache.xml.serialize.HTMLdtd@initialize():400:0 |==> 1
+99:LVR:0:NEG:org.apache.xml.serialize.HTMLdtd@initialize():400:0 |==> -1
+100:ROR:==(int,int):<=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():400:line.charAt(0) == '#' |==> line.charAt(0) <= '#'
+101:ROR:==(int,int):>=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():400:line.charAt(0) == '#' |==> line.charAt(0) >= '#'
+102:ROR:==(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@initialize():400:line.charAt(0) == '#' |==> false
+103:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.xml.serialize.HTMLdtd@initialize():400:line.length() == 0 || line.charAt(0) == '#' |==> line.length() == 0 != (line.charAt(0) == '#')
+104:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@initialize():400:line.length() == 0 || line.charAt(0) == '#' |==> line.length() == 0
+105:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.xml.serialize.HTMLdtd@initialize():400:line.length() == 0 || line.charAt(0) == '#' |==> line.charAt(0) == '#'
+106:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.xml.serialize.HTMLdtd@initialize():400:line.length() == 0 || line.charAt(0) == '#' |==> true
+107:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():401:line = reader.readLine() |==> <NO-OP>
+108:STD:<CONT>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():402:continue; |==> <NO-OP>
+109:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@initialize():404:line.indexOf(' ') |==> 0
+110:LVR:POS:0:org.apache.xml.serialize.HTMLdtd@initialize():405:1 |==> 0
+111:LVR:POS:NEG:org.apache.xml.serialize.HTMLdtd@initialize():405:1 |==> -1
+112:ROR:>(int,int):!=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():405:index > 1 |==> index != 1
+113:ROR:>(int,int):>=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():405:index > 1 |==> index >= 1
+114:ROR:>(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@initialize():405:index > 1 |==> false
+115:LVR:0:POS:org.apache.xml.serialize.HTMLdtd@initialize():406:0 |==> 1
+116:LVR:0:NEG:org.apache.xml.serialize.HTMLdtd@initialize():406:0 |==> -1
+117:STD:<INC>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():407:++index |==> <NO-OP>
+118:ROR:<(int,int):!=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():408:index < line.length() |==> index != line.length()
+119:ROR:<(int,int):<=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():408:index < line.length() |==> index <= line.length()
+120:ROR:<(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@initialize():408:index < line.length() |==> false
+121:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@initialize():409:line.substring(index) |==> null
+122:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():410:index = value.indexOf(' ') |==> <NO-OP>
+123:LVR:0:POS:org.apache.xml.serialize.HTMLdtd@initialize():411:0 |==> 1
+124:LVR:0:NEG:org.apache.xml.serialize.HTMLdtd@initialize():411:0 |==> -1
+125:ROR:>(int,int):!=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():411:index > 0 |==> index != 0
+126:ROR:>(int,int):>=(int,int):org.apache.xml.serialize.HTMLdtd@initialize():411:index > 0 |==> index >= 0
+127:ROR:>(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@initialize():411:index > 0 |==> false
+128:LVR:0:POS:org.apache.xml.serialize.HTMLdtd@initialize():412:0 |==> 1
+129:LVR:0:NEG:org.apache.xml.serialize.HTMLdtd@initialize():412:0 |==> -1
+130:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():412:value = value.substring(0, index) |==> <NO-OP>
+131:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@initialize():413:Integer.parseInt(value) |==> 0
+132:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():414:defineEntity(name, (char)code) |==> <NO-OP>
+133:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():417:line = reader.readLine() |==> <NO-OP>
+134:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():419:is.close() |==> <NO-OP>
+135:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@initialize():424:is != null |==> true
+136:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@initialize():426:is.close() |==> <NO-OP>
+137:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@defineEntity(java.lang.String,char):447:_byName.get(name) == null |==> false
+138:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@defineEntity(java.lang.String,char):448:_byName.put(name, new Character(value)) |==> <NO-OP>
+139:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@defineEntity(java.lang.String,char):449:_byChar.put(String.valueOf(value), name) |==> <NO-OP>
+140:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@defineElement(java.lang.String,int):456:_elemDefs.put(name, new Integer(flags)) |==> <NO-OP>
+141:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@defineBoolean(java.lang.String,java.lang.String):462:defineBoolean(tagName, new String[]{attrName}) |==> <NO-OP>
+142:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd@defineBoolean(java.lang.String,java.lang.String[]):468:_boolAttrs.put(tagName, attrNames) |==> <NO-OP>
+143:EVR:<TYPE_CAST(java.lang.Integer)>:<DEFAULT>:org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):476:(Integer)_elemDefs.get(name.toUpperCase()) |==> null
+144:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):477:flags == null |==> false
+145:LVR:FALSE:TRUE:org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):478:false |==> true
+146:LOR:&(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):480:flags.intValue() & flag |==> flags.intValue() ^ flag
+147:LOR:&(int,int):|(int,int):org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):480:flags.intValue() & flag |==> flags.intValue() | flag
+148:ROR:==(int,int):<=(int,int):org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):480:(flags.intValue() & flag) == flag |==> (flags.intValue() & flag) <= flag
+149:ROR:==(int,int):>=(int,int):org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):480:(flags.intValue() & flag) == flag |==> (flags.intValue() & flag) >= flag
+150:ROR:==(int,int):FALSE(int,int):org.apache.xml.serialize.HTMLdtd@isElement(java.lang.String,int):480:(flags.intValue() & flag) == flag |==> false
+151:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:486:_elemDefs = new Hashtable() |==> <NO-OP>
+152:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:487:defineElement("ADDRESS", CLOSE_P) |==> <NO-OP>
+153:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:488:defineElement("AREA", EMPTY) |==> <NO-OP>
+154:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:489:EMPTY | ALLOWED_HEAD |==> EMPTY & ALLOWED_HEAD
+155:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:489:EMPTY | ALLOWED_HEAD |==> EMPTY ^ ALLOWED_HEAD
+156:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:489:defineElement("BASE", EMPTY | ALLOWED_HEAD) |==> <NO-OP>
+157:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:490:defineElement("BASEFONT", EMPTY) |==> <NO-OP>
+158:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:491:defineElement("BLOCKQUOTE", CLOSE_P) |==> <NO-OP>
+159:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:492:defineElement("BODY", OPT_CLOSING) |==> <NO-OP>
+160:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:493:defineElement("BR", EMPTY) |==> <NO-OP>
+161:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:494:defineElement("COL", EMPTY) |==> <NO-OP>
+162:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:495:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT & OPT_CLOSING
+163:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:495:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT ^ OPT_CLOSING
+164:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:495:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) & CLOSE_TABLE
+165:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:495:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) ^ CLOSE_TABLE
+166:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:495:defineElement("COLGROUP", ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE) |==> <NO-OP>
+167:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:496:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING & ONLY_OPENING
+168:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:496:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING ^ ONLY_OPENING
+169:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:496:OPT_CLOSING | ONLY_OPENING | CLOSE_DD_DT |==> (OPT_CLOSING | ONLY_OPENING) & CLOSE_DD_DT
+170:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:496:OPT_CLOSING | ONLY_OPENING | CLOSE_DD_DT |==> (OPT_CLOSING | ONLY_OPENING) ^ CLOSE_DD_DT
+171:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:496:defineElement("DD", OPT_CLOSING | ONLY_OPENING | CLOSE_DD_DT) |==> <NO-OP>
+172:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:497:defineElement("DIV", CLOSE_P) |==> <NO-OP>
+173:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:498:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT & CLOSE_P
+174:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:498:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT ^ CLOSE_P
+175:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:498:defineElement("DL", ELEM_CONTENT | CLOSE_P) |==> <NO-OP>
+176:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:499:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING & ONLY_OPENING
+177:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:499:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING ^ ONLY_OPENING
+178:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:499:OPT_CLOSING | ONLY_OPENING | CLOSE_DD_DT |==> (OPT_CLOSING | ONLY_OPENING) & CLOSE_DD_DT
+179:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:499:OPT_CLOSING | ONLY_OPENING | CLOSE_DD_DT |==> (OPT_CLOSING | ONLY_OPENING) ^ CLOSE_DD_DT
+180:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:499:defineElement("DT", OPT_CLOSING | ONLY_OPENING | CLOSE_DD_DT) |==> <NO-OP>
+181:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:500:defineElement("FIELDSET", CLOSE_P) |==> <NO-OP>
+182:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:501:defineElement("FORM", CLOSE_P) |==> <NO-OP>
+183:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:502:EMPTY | OPT_CLOSING |==> EMPTY & OPT_CLOSING
+184:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:502:EMPTY | OPT_CLOSING |==> EMPTY ^ OPT_CLOSING
+185:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:502:defineElement("FRAME", EMPTY | OPT_CLOSING) |==> <NO-OP>
+186:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:503:defineElement("H1", CLOSE_P) |==> <NO-OP>
+187:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:504:defineElement("H2", CLOSE_P) |==> <NO-OP>
+188:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:505:defineElement("H3", CLOSE_P) |==> <NO-OP>
+189:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:506:defineElement("H4", CLOSE_P) |==> <NO-OP>
+190:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:507:defineElement("H5", CLOSE_P) |==> <NO-OP>
+191:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:508:defineElement("H6", CLOSE_P) |==> <NO-OP>
+192:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:509:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT & OPT_CLOSING
+193:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:509:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT ^ OPT_CLOSING
+194:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:509:defineElement("HEAD", ELEM_CONTENT | OPT_CLOSING) |==> <NO-OP>
+195:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:510:EMPTY | CLOSE_P |==> EMPTY & CLOSE_P
+196:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:510:EMPTY | CLOSE_P |==> EMPTY ^ CLOSE_P
+197:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:510:defineElement("HR", EMPTY | CLOSE_P) |==> <NO-OP>
+198:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:511:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT & OPT_CLOSING
+199:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:511:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT ^ OPT_CLOSING
+200:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:511:defineElement("HTML", ELEM_CONTENT | OPT_CLOSING) |==> <NO-OP>
+201:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:512:defineElement("IMG", EMPTY) |==> <NO-OP>
+202:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:513:defineElement("INPUT", EMPTY) |==> <NO-OP>
+203:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:514:EMPTY | ALLOWED_HEAD |==> EMPTY & ALLOWED_HEAD
+204:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:514:EMPTY | ALLOWED_HEAD |==> EMPTY ^ ALLOWED_HEAD
+205:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:514:defineElement("ISINDEX", EMPTY | ALLOWED_HEAD) |==> <NO-OP>
+206:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:515:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING & ONLY_OPENING
+207:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:515:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING ^ ONLY_OPENING
+208:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:515:OPT_CLOSING | ONLY_OPENING | CLOSE_SELF |==> (OPT_CLOSING | ONLY_OPENING) & CLOSE_SELF
+209:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:515:OPT_CLOSING | ONLY_OPENING | CLOSE_SELF |==> (OPT_CLOSING | ONLY_OPENING) ^ CLOSE_SELF
+210:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:515:defineElement("LI", OPT_CLOSING | ONLY_OPENING | CLOSE_SELF) |==> <NO-OP>
+211:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:516:EMPTY | ALLOWED_HEAD |==> EMPTY & ALLOWED_HEAD
+212:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:516:EMPTY | ALLOWED_HEAD |==> EMPTY ^ ALLOWED_HEAD
+213:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:516:defineElement("LINK", EMPTY | ALLOWED_HEAD) |==> <NO-OP>
+214:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:517:defineElement("MAP", ALLOWED_HEAD) |==> <NO-OP>
+215:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:518:EMPTY | ALLOWED_HEAD |==> EMPTY & ALLOWED_HEAD
+216:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:518:EMPTY | ALLOWED_HEAD |==> EMPTY ^ ALLOWED_HEAD
+217:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:518:defineElement("META", EMPTY | ALLOWED_HEAD) |==> <NO-OP>
+218:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:519:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT & CLOSE_P
+219:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:519:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT ^ CLOSE_P
+220:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:519:defineElement("OL", ELEM_CONTENT | CLOSE_P) |==> <NO-OP>
+221:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:520:defineElement("OPTGROUP", ELEM_CONTENT) |==> <NO-OP>
+222:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:521:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING & ONLY_OPENING
+223:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:521:OPT_CLOSING | ONLY_OPENING |==> OPT_CLOSING ^ ONLY_OPENING
+224:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:521:OPT_CLOSING | ONLY_OPENING | CLOSE_SELF |==> (OPT_CLOSING | ONLY_OPENING) & CLOSE_SELF
+225:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:521:OPT_CLOSING | ONLY_OPENING | CLOSE_SELF |==> (OPT_CLOSING | ONLY_OPENING) ^ CLOSE_SELF
+226:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:521:defineElement("OPTION", OPT_CLOSING | ONLY_OPENING | CLOSE_SELF) |==> <NO-OP>
+227:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:522:OPT_CLOSING | CLOSE_P |==> OPT_CLOSING & CLOSE_P
+228:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:522:OPT_CLOSING | CLOSE_P |==> OPT_CLOSING ^ CLOSE_P
+229:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:522:OPT_CLOSING | CLOSE_P | CLOSE_SELF |==> (OPT_CLOSING | CLOSE_P) & CLOSE_SELF
+230:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:522:OPT_CLOSING | CLOSE_P | CLOSE_SELF |==> (OPT_CLOSING | CLOSE_P) ^ CLOSE_SELF
+231:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:522:defineElement("P", OPT_CLOSING | CLOSE_P | CLOSE_SELF) |==> <NO-OP>
+232:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:523:defineElement("PARAM", EMPTY) |==> <NO-OP>
+233:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:524:PRESERVE | CLOSE_P |==> PRESERVE & CLOSE_P
+234:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:524:PRESERVE | CLOSE_P |==> PRESERVE ^ CLOSE_P
+235:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:524:defineElement("PRE", PRESERVE | CLOSE_P) |==> <NO-OP>
+236:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:525:ALLOWED_HEAD | PRESERVE |==> ALLOWED_HEAD & PRESERVE
+237:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:525:ALLOWED_HEAD | PRESERVE |==> ALLOWED_HEAD ^ PRESERVE
+238:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:525:defineElement("SCRIPT", ALLOWED_HEAD | PRESERVE) |==> <NO-OP>
+239:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:526:ALLOWED_HEAD | PRESERVE |==> ALLOWED_HEAD & PRESERVE
+240:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:526:ALLOWED_HEAD | PRESERVE |==> ALLOWED_HEAD ^ PRESERVE
+241:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:526:defineElement("NOSCRIPT", ALLOWED_HEAD | PRESERVE) |==> <NO-OP>
+242:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:527:defineElement("SELECT", ELEM_CONTENT) |==> <NO-OP>
+243:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:528:ALLOWED_HEAD | PRESERVE |==> ALLOWED_HEAD & PRESERVE
+244:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:528:ALLOWED_HEAD | PRESERVE |==> ALLOWED_HEAD ^ PRESERVE
+245:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:528:defineElement("STYLE", ALLOWED_HEAD | PRESERVE) |==> <NO-OP>
+246:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:529:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT & CLOSE_P
+247:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:529:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT ^ CLOSE_P
+248:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:529:defineElement("TABLE", ELEM_CONTENT | CLOSE_P) |==> <NO-OP>
+249:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:530:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT & OPT_CLOSING
+250:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:530:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT ^ OPT_CLOSING
+251:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:530:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) & CLOSE_TABLE
+252:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:530:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) ^ CLOSE_TABLE
+253:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:530:defineElement("TBODY", ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE) |==> <NO-OP>
+254:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:531:OPT_CLOSING | CLOSE_TH_TD |==> OPT_CLOSING & CLOSE_TH_TD
+255:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:531:OPT_CLOSING | CLOSE_TH_TD |==> OPT_CLOSING ^ CLOSE_TH_TD
+256:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:531:defineElement("TD", OPT_CLOSING | CLOSE_TH_TD) |==> <NO-OP>
+257:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:532:defineElement("TEXTAREA", PRESERVE) |==> <NO-OP>
+258:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:533:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT & OPT_CLOSING
+259:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:533:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT ^ OPT_CLOSING
+260:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:533:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) & CLOSE_TABLE
+261:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:533:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) ^ CLOSE_TABLE
+262:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:533:defineElement("TFOOT", ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE) |==> <NO-OP>
+263:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:534:OPT_CLOSING | CLOSE_TH_TD |==> OPT_CLOSING & CLOSE_TH_TD
+264:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:534:OPT_CLOSING | CLOSE_TH_TD |==> OPT_CLOSING ^ CLOSE_TH_TD
+265:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:534:defineElement("TH", OPT_CLOSING | CLOSE_TH_TD) |==> <NO-OP>
+266:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:535:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT & OPT_CLOSING
+267:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:535:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT ^ OPT_CLOSING
+268:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:535:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) & CLOSE_TABLE
+269:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:535:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) ^ CLOSE_TABLE
+270:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:535:defineElement("THEAD", ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE) |==> <NO-OP>
+271:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:536:defineElement("TITLE", ALLOWED_HEAD) |==> <NO-OP>
+272:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:537:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT & OPT_CLOSING
+273:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:537:ELEM_CONTENT | OPT_CLOSING |==> ELEM_CONTENT ^ OPT_CLOSING
+274:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:537:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) & CLOSE_TABLE
+275:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:537:ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE |==> (ELEM_CONTENT | OPT_CLOSING) ^ CLOSE_TABLE
+276:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:537:defineElement("TR", ELEM_CONTENT | OPT_CLOSING | CLOSE_TABLE) |==> <NO-OP>
+277:LOR:|(int,int):&(int,int):org.apache.xml.serialize.HTMLdtd:538:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT & CLOSE_P
+278:LOR:|(int,int):^(int,int):org.apache.xml.serialize.HTMLdtd:538:ELEM_CONTENT | CLOSE_P |==> ELEM_CONTENT ^ CLOSE_P
+279:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:538:defineElement("UL", ELEM_CONTENT | CLOSE_P) |==> <NO-OP>
+280:STD:<ASSIGN>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:540:_boolAttrs = new Hashtable() |==> <NO-OP>
+281:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:541:defineBoolean("AREA", "href") |==> <NO-OP>
+282:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:542:defineBoolean("BUTTON", "disabled") |==> <NO-OP>
+283:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:543:defineBoolean("DIR", "compact") |==> <NO-OP>
+284:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:544:defineBoolean("DL", "compact") |==> <NO-OP>
+285:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:545:defineBoolean("FRAME", "noresize") |==> <NO-OP>
+286:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:546:defineBoolean("HR", "noshade") |==> <NO-OP>
+287:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:547:defineBoolean("IMAGE", "ismap") |==> <NO-OP>
+288:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:548:defineBoolean("INPUT", new String[]{"defaultchecked", "checked", "readonly", "disabled"}) |==> <NO-OP>
+289:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:549:defineBoolean("LINK", "link") |==> <NO-OP>
+290:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:550:defineBoolean("MENU", "compact") |==> <NO-OP>
+291:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:551:defineBoolean("OBJECT", "declare") |==> <NO-OP>
+292:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:552:defineBoolean("OL", "compact") |==> <NO-OP>
+293:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:553:defineBoolean("OPTGROUP", "disabled") |==> <NO-OP>
+294:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:554:defineBoolean("OPTION", new String[]{"default-selected", "selected", "disabled"}) |==> <NO-OP>
+295:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:555:defineBoolean("SCRIPT", "defer") |==> <NO-OP>
+296:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:556:defineBoolean("SELECT", new String[]{"multiple", "disabled"}) |==> <NO-OP>
+297:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:557:defineBoolean("STYLE", "disabled") |==> <NO-OP>
+298:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:558:defineBoolean("TD", "nowrap") |==> <NO-OP>
+299:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:559:defineBoolean("TH", "nowrap") |==> <NO-OP>
+300:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:560:defineBoolean("TEXTAREA", new String[]{"disabled", "readonly"}) |==> <NO-OP>
+301:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:561:defineBoolean("UL", "compact") |==> <NO-OP>
+302:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.HTMLdtd:563:initialize() |==> <NO-OP>

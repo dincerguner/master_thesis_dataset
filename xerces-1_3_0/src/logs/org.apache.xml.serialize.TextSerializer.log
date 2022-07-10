@@ -1,0 +1,8 @@
+1:LVR:FALSE:TRUE:org.apache.xml.serialize.TextSerializer@<init>():109:false |==> true
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.TextSerializer@setOutputFormat(OutputFormat):115:format != null |==> true
+3:LVR:FALSE:TRUE:org.apache.xml.serialize.TextSerializer@setOutputFormat(OutputFormat):115:false |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.TextSerializer@setOutputFormat(OutputFormat):115:super.setOutputFormat(format != null ? format : new OutputFormat(Method.TEXT, null, false)) |==> <NO-OP>
+5:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.TextSerializer@startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes):127:rawName == null |==> false
+6:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.TextSerializer@startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes):127:startElement(rawName == null ? localName : rawName, null) |==> <NO-OP>
+7:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.TextSerializer@endElement(java.lang.String,java.lang.String,java.lang.String):134:rawName == null |==> false
+8:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.TextSerializer@endElement(java.lang.String,java.lang.String,java.lang.String):134:endElement(rawName == null ? localName : rawName) |==> <NO-OP>

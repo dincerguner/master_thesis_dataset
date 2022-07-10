@@ -78,7 +78,7 @@ public class EncodingInfo {
      * Creates new <code>EncodingInfo</code> instance.
      */
     public EncodingInfo(String mimeName, String javaName, int lastPrintable) {
-        this.name = mimeName;
+        ;
         this.javaName = javaName == null ? mimeName : javaName;
         this.lastPrintable = lastPrintable;
     }

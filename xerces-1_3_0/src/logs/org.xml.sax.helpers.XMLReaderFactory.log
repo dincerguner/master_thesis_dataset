@@ -1,0 +1,7 @@
+1:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderFactory@createXMLReader():81:System.getProperty("org.xml.sax.driver") |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLReaderFactory@createXMLReader():82:className == null |==> false
+3:EVR:<METHOD_INVOCATION(org.xml.sax.Parser)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderFactory@createXMLReader():85:ParserFactory.makeParser() |==> null
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLReaderFactory@createXMLReader():89:parser == null |==> false
+5:EVR:<NEW_CLASS(org.xml.sax.helpers.ParserAdapter)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderFactory@createXMLReader():93:new ParserAdapter(parser) |==> null
+6:EVR:<METHOD_INVOCATION(org.xml.sax.XMLReader)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderFactory@createXMLReader():96:createXMLReader(className) |==> null
+7:EVR:<TYPE_CAST(org.xml.sax.XMLReader)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderFactory@createXMLReader(java.lang.String):116:(XMLReader)(Class.forName(className).newInstance()) |==> null

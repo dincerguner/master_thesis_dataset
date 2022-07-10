@@ -84,7 +84,7 @@ public class XMLFilterImpl
     public XMLFilterImpl (XMLReader parent)
     {
         super();
-	setParent(parent);
+	;
     }
 
 

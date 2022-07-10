@@ -43,7 +43,7 @@ public class SAXException extends Exception {
      */
     public SAXException (String message) {
 	super(message);
-	this.exception = null;
+	;
     }
     
     

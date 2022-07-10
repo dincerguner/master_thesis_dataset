@@ -80,7 +80,7 @@ public class InputSource {
      */
     public InputSource (String systemId)
     {
-	setSystemId(systemId);
+	;
     }
     
     

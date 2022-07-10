@@ -106,7 +106,7 @@ public final class TextSerializer
      */
     public TextSerializer()
     {
-        super( new OutputFormat( Method.TEXT, null, false ) );
+        super( new OutputFormat( Method.TEXT, null, true ) );
     }
 
 

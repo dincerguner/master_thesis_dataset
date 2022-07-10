@@ -1,0 +1,195 @@
+1:EVR:<METHOD_INVOCATION(org.w3c.dom.Document)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):96:dest.getOwnerDocument() |==> null
+2:EVR:<INSTANCE_OF(boolean)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):97:factory instanceof DocumentImpl |==> false
+3:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):100:src |==> null
+4:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):101:src |==> null
+5:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):102:src |==> null
+6:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):105:place != null |==> true
+7:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):109:place.getNodeType() |==> 0
+8:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):112:node = factory.createCDATASection(place.getNodeValue()) |==> <NO-OP>
+9:STD:<BREAK>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):113:break; |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):116:node = factory.createComment(place.getNodeValue()) |==> <NO-OP>
+11:STD:<BREAK>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):117:break; |==> <NO-OP>
+12:EVR:<METHOD_INVOCATION(org.w3c.dom.Element)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):120:factory.createElement(place.getNodeName()) |==> null
+13:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):121:node = element |==> <NO-OP>
+14:EVR:<METHOD_INVOCATION(org.w3c.dom.NamedNodeMap)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):122:place.getAttributes() |==> null
+15:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):123:attrs.getLength() |==> 0
+16:LVR:0:POS:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):124:0 |==> 1
+17:LVR:0:NEG:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):124:0 |==> -1
+18:ROR:<(int,int):!=(int,int):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):124:i < attrCount |==> i != attrCount
+19:ROR:<(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):124:i < attrCount |==> i <= attrCount
+20:ROR:<(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):124:i < attrCount |==> false
+21:EVR:<TYPE_CAST(org.w3c.dom.Attr)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):125:(Attr)attrs.item(i) |==> null
+22:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):126:attr.getNodeName() |==> null
+23:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):127:attr.getNodeValue() |==> null
+24:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):128:element.setAttribute(attrName, attrValue) |==> <NO-OP>
+25:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):129:domimpl && !attr.getSpecified() |==> domimpl == !attr.getSpecified()
+26:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):129:domimpl && !attr.getSpecified() |==> false
+27:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):129:domimpl && !attr.getSpecified() |==> domimpl
+28:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):129:domimpl && !attr.getSpecified() |==> !attr.getSpecified()
+29:LVR:FALSE:TRUE:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):130:false |==> true
+30:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):130:((AttrImpl)element.getAttributeNode(attrName)).setSpecified(false) |==> <NO-OP>
+31:STD:<BREAK>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):133:break; |==> <NO-OP>
+32:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):136:node = factory.createEntityReference(place.getNodeName()) |==> <NO-OP>
+33:STD:<BREAK>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):137:break; |==> <NO-OP>
+34:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):140:node = factory.createProcessingInstruction(place.getNodeName(), place.getNodeValue()) |==> <NO-OP>
+35:STD:<BREAK>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):142:break; |==> <NO-OP>
+36:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):145:node = factory.createTextNode(place.getNodeValue()) |==> <NO-OP>
+37:STD:<BREAK>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):146:break; |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):154:dest.appendChild(node) |==> <NO-OP>
+39:COR:place.hasChildNodes():TRUE:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):157:place.hasChildNodes() |==> false
+40:COR:place.hasChildNodes():FALSE:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):157:place.hasChildNodes() |==> true
+41:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):158:parent = place |==> <NO-OP>
+42:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):159:place = place.getFirstChild() |==> <NO-OP>
+43:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):160:dest = node |==> <NO-OP>
+44:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):165:place = place.getNextSibling() |==> <NO-OP>
+45:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):166:place == null |==> false
+46:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):166:parent != start |==> true
+47:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):166:place == null && parent != start |==> place == null == (parent != start)
+48:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):166:place == null && parent != start |==> false
+49:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):166:place == null && parent != start |==> place == null
+50:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):166:place == null && parent != start |==> parent != start
+51:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):167:place = parent.getNextSibling() |==> <NO-OP>
+52:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):168:parent = parent.getParentNode() |==> <NO-OP>
+53:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@copyInto(org.w3c.dom.Node,org.w3c.dom.Node):169:dest = dest.getParentNode() |==> <NO-OP>
+54:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node):181:parent.getFirstChild() |==> null
+55:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node):182:child != null |==> true
+56:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node):183:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+57:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node):183:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+58:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node):183:child.getNodeType() == Node.ELEMENT_NODE |==> false
+59:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node):184:return (Element)child; |==> <NO-OP>
+60:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node):186:child = child.getNextSibling() |==> <NO-OP>
+61:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node):198:parent.getLastChild() |==> null
+62:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node):199:child != null |==> true
+63:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node):200:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+64:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node):200:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+65:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node):200:child.getNodeType() == Node.ELEMENT_NODE |==> false
+66:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node):201:return (Element)child; |==> <NO-OP>
+67:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node):203:child = child.getPreviousSibling() |==> <NO-OP>
+68:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node):215:node.getNextSibling() |==> null
+69:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node):216:sibling != null |==> true
+70:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node):217:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() <= Node.ELEMENT_NODE
+71:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node):217:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() >= Node.ELEMENT_NODE
+72:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node):217:sibling.getNodeType() == Node.ELEMENT_NODE |==> false
+73:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node):218:return (Element)sibling; |==> <NO-OP>
+74:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node):220:sibling = sibling.getNextSibling() |==> <NO-OP>
+75:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):232:parent.getFirstChild() |==> null
+76:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):233:child != null |==> true
+77:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):234:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+78:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):234:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+79:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):234:child.getNodeType() == Node.ELEMENT_NODE |==> false
+80:COR:child.getNodeName().equals(elemName):TRUE:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):235:child.getNodeName().equals(elemName) |==> false
+81:COR:child.getNodeName().equals(elemName):FALSE:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):235:child.getNodeName().equals(elemName) |==> true
+82:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):236:return (Element)child; |==> <NO-OP>
+83:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String):239:child = child.getNextSibling() |==> <NO-OP>
+84:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):251:parent.getLastChild() |==> null
+85:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):252:child != null |==> true
+86:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):253:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+87:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):253:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+88:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):253:child.getNodeType() == Node.ELEMENT_NODE |==> false
+89:COR:child.getNodeName().equals(elemName):TRUE:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):254:child.getNodeName().equals(elemName) |==> false
+90:COR:child.getNodeName().equals(elemName):FALSE:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):254:child.getNodeName().equals(elemName) |==> true
+91:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):255:return (Element)child; |==> <NO-OP>
+92:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String):258:child = child.getPreviousSibling() |==> <NO-OP>
+93:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):270:node.getNextSibling() |==> null
+94:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):271:sibling != null |==> true
+95:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):272:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() <= Node.ELEMENT_NODE
+96:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):272:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() >= Node.ELEMENT_NODE
+97:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):272:sibling.getNodeType() == Node.ELEMENT_NODE |==> false
+98:COR:sibling.getNodeName().equals(elemName):TRUE:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):273:sibling.getNodeName().equals(elemName) |==> false
+99:COR:sibling.getNodeName().equals(elemName):FALSE:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):273:sibling.getNodeName().equals(elemName) |==> true
+100:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):274:return (Element)sibling; |==> <NO-OP>
+101:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String):277:sibling = sibling.getNextSibling() |==> <NO-OP>
+102:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):289:parent.getFirstChild() |==> null
+103:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):290:child != null |==> true
+104:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):291:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+105:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):291:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+106:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):291:child.getNodeType() == Node.ELEMENT_NODE |==> false
+107:LVR:0:POS:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):292:0 |==> 1
+108:LVR:0:NEG:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):292:0 |==> -1
+109:ROR:<(int,int):!=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):292:i < elemNames.length |==> i != elemNames.length
+110:ROR:<(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):292:i < elemNames.length |==> i <= elemNames.length
+111:ROR:<(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):292:i < elemNames.length |==> false
+112:COR:child.getNodeName().equals(elemNames[i]):TRUE:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):293:child.getNodeName().equals(elemNames[i]) |==> false
+113:COR:child.getNodeName().equals(elemNames[i]):FALSE:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):293:child.getNodeName().equals(elemNames[i]) |==> true
+114:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):294:return (Element)child; |==> <NO-OP>
+115:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String[]):298:child = child.getNextSibling() |==> <NO-OP>
+116:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):310:parent.getLastChild() |==> null
+117:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):311:child != null |==> true
+118:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):312:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+119:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):312:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+120:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):312:child.getNodeType() == Node.ELEMENT_NODE |==> false
+121:LVR:0:POS:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):313:0 |==> 1
+122:LVR:0:NEG:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):313:0 |==> -1
+123:ROR:<(int,int):!=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):313:i < elemNames.length |==> i != elemNames.length
+124:ROR:<(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):313:i < elemNames.length |==> i <= elemNames.length
+125:ROR:<(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):313:i < elemNames.length |==> false
+126:COR:child.getNodeName().equals(elemNames[i]):TRUE:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):314:child.getNodeName().equals(elemNames[i]) |==> false
+127:COR:child.getNodeName().equals(elemNames[i]):FALSE:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):314:child.getNodeName().equals(elemNames[i]) |==> true
+128:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):315:return (Element)child; |==> <NO-OP>
+129:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String[]):319:child = child.getPreviousSibling() |==> <NO-OP>
+130:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):331:node.getNextSibling() |==> null
+131:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):332:sibling != null |==> true
+132:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):333:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() <= Node.ELEMENT_NODE
+133:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):333:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() >= Node.ELEMENT_NODE
+134:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):333:sibling.getNodeType() == Node.ELEMENT_NODE |==> false
+135:LVR:0:POS:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):334:0 |==> 1
+136:LVR:0:NEG:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):334:0 |==> -1
+137:ROR:<(int,int):!=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):334:i < elemNames.length |==> i != elemNames.length
+138:ROR:<(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):334:i < elemNames.length |==> i <= elemNames.length
+139:ROR:<(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):334:i < elemNames.length |==> false
+140:COR:sibling.getNodeName().equals(elemNames[i]):TRUE:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):335:sibling.getNodeName().equals(elemNames[i]) |==> false
+141:COR:sibling.getNodeName().equals(elemNames[i]):FALSE:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):335:sibling.getNodeName().equals(elemNames[i]) |==> true
+142:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):336:return (Element)sibling; |==> <NO-OP>
+143:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String[]):340:sibling = sibling.getNextSibling() |==> <NO-OP>
+144:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):358:parent.getFirstChild() |==> null
+145:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):359:child != null |==> true
+146:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):360:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+147:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):360:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+148:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):360:child.getNodeType() == Node.ELEMENT_NODE |==> false
+149:EVR:<TYPE_CAST(org.w3c.dom.Element)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):361:(Element)child |==> null
+150:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):362:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getNodeName().equals(elemName) == element.getAttribute(attrName).equals(attrValue)
+151:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):362:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> false
+152:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):362:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getNodeName().equals(elemName)
+153:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):363:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getAttribute(attrName).equals(attrValue)
+154:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):364:return element; |==> <NO-OP>
+155:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getFirstChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):367:child = child.getNextSibling() |==> <NO-OP>
+156:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):385:parent.getLastChild() |==> null
+157:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):386:child != null |==> true
+158:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):387:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() <= Node.ELEMENT_NODE
+159:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):387:child.getNodeType() == Node.ELEMENT_NODE |==> child.getNodeType() >= Node.ELEMENT_NODE
+160:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):387:child.getNodeType() == Node.ELEMENT_NODE |==> false
+161:EVR:<TYPE_CAST(org.w3c.dom.Element)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):388:(Element)child |==> null
+162:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):389:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getNodeName().equals(elemName) == element.getAttribute(attrName).equals(attrValue)
+163:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):389:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> false
+164:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):389:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getNodeName().equals(elemName)
+165:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):390:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getAttribute(attrName).equals(attrValue)
+166:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):391:return element; |==> <NO-OP>
+167:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getLastChildElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):394:child = child.getPreviousSibling() |==> <NO-OP>
+168:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):413:node.getNextSibling() |==> null
+169:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):414:sibling != null |==> true
+170:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):415:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() <= Node.ELEMENT_NODE
+171:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):415:sibling.getNodeType() == Node.ELEMENT_NODE |==> sibling.getNodeType() >= Node.ELEMENT_NODE
+172:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):415:sibling.getNodeType() == Node.ELEMENT_NODE |==> false
+173:EVR:<TYPE_CAST(org.w3c.dom.Element)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):416:(Element)sibling |==> null
+174:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):417:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getNodeName().equals(elemName) == element.getAttribute(attrName).equals(attrValue)
+175:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):417:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> false
+176:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):417:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getNodeName().equals(elemName)
+177:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):418:element.getNodeName().equals(elemName) && element.getAttribute(attrName).equals(attrValue) |==> element.getAttribute(attrName).equals(attrValue)
+178:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):419:return element; |==> <NO-OP>
+179:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getNextSiblingElement(org.w3c.dom.Node,java.lang.String,java.lang.String,java.lang.String):422:sibling = sibling.getNextSibling() |==> <NO-OP>
+180:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):442:node == null |==> false
+181:STD:<RETURN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):443:return null; |==> <NO-OP>
+182:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):447:new StringBuffer() |==> null
+183:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):448:node.getFirstChild() |==> null
+184:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):449:child != null |==> true
+185:EVR:<METHOD_INVOCATION(short)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):450:child.getNodeType() |==> 0
+186:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):451:type == Node.TEXT_NODE |==> type <= Node.TEXT_NODE
+187:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):451:type == Node.TEXT_NODE |==> type >= Node.TEXT_NODE
+188:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):451:type == Node.TEXT_NODE |==> false
+189:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):452:str.append(child.getNodeValue()) |==> <NO-OP>
+190:ROR:==(int,int):<=(int,int):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):454:type == Node.CDATA_SECTION_NODE |==> type <= Node.CDATA_SECTION_NODE
+191:ROR:==(int,int):>=(int,int):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):454:type == Node.CDATA_SECTION_NODE |==> type >= Node.CDATA_SECTION_NODE
+192:ROR:==(int,int):FALSE(int,int):org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):454:type == Node.CDATA_SECTION_NODE |==> false
+193:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):455:str.append(getChildText(child)) |==> <NO-OP>
+194:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):457:child = child.getNextSibling() |==> <NO-OP>
+195:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xerces.validators.schema.XUtil@getChildText(org.w3c.dom.Node):461:str.toString() |==> null

@@ -87,7 +87,7 @@ class Encodings
      * @param encoding a MIME charset name, or null.
      */
     static EncodingInfo getEncodingInfo(String encoding) {
-        if (encoding == null)
+        if (false)
             return new EncodingInfo(null, DefaultLastPrintable);
         for (int i = 0;  i < _encodings.length;  i++) {
             if (_encodings[i].name.equalsIgnoreCase(encoding))

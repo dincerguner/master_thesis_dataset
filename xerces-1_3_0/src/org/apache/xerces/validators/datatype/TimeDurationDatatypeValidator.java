@@ -81,7 +81,7 @@ public class TimeDurationDatatypeValidator extends AbstractDatatypeValidator {
    private Locale            fLocale           = null;
    private DatatypeValidator fBaseValidator    = null; // A Native datatype is null
    private String            fPattern          = null;
-   private long              fMaxInclusive     = 0L;
+   private long              fMaxInclusive     = 1L;
    private long              fMaxExclusive     = 0L;
    private long              fMinInclusive     = 0L;
    private long              fMinExclusive     = 0L;

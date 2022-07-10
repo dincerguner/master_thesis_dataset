@@ -120,7 +120,7 @@ public class DFAContentModel
     private int fElemMapType[] = null;
 
     /** The element map size. */
-    private int fElemMapSize = 0;
+    private int fElemMapSize = 1;
 
     /** Boolean to allow DTDs to validate even with namespace support. */
     private boolean fDTD;

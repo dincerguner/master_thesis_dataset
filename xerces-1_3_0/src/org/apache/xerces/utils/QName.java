@@ -87,7 +87,7 @@ public class QName {
 
     /** Default constructor. */
     public QName() {
-        clear();
+        ;
     }
 
     /** Constructs a specified qname. */

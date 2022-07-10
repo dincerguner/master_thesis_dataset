@@ -71,7 +71,7 @@ import java.lang.*;
 public final class  HexBin {
     static private final int  BASELENGTH   = 255;       
     static private final int  LOOKUPLENGTH = 16;
-    static private byte [] hexNumberTable       = new byte[BASELENGTH]; 
+    static private byte [] hexNumberTable       = null; 
     static private byte [] lookUpHexAlphabet = new byte[LOOKUPLENGTH];
 
 
