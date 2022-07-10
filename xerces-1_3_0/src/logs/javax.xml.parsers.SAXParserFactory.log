@@ -1,0 +1,61 @@
+1:LVR:FALSE:TRUE:javax.xml.parsers.SAXParserFactory:114:false |==> true
+2:LVR:FALSE:TRUE:javax.xml.parsers.SAXParserFactory:115:false |==> true
+3:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@newInstance():143:findFactory(defaultPropName, "org.apache.xerces.jaxp.SAXParserFactoryImpl") |==> null
+4:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory@newInstance():147:factoryImplName == null |==> false
+5:EVR:<METHOD_INVOCATION(java.lang.Class<capture#700 of ?>)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@newInstance():154:Class.forName(factoryImplName) |==> null
+6:EVR:<TYPE_CAST(javax.xml.parsers.SAXParserFactory)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@newInstance():155:(SAXParserFactory)clazz.newInstance() |==> null
+7:EVR:<IDENTIFIER(javax.xml.parsers.SAXParserFactory)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@newInstance():163:factoryImpl |==> null
+8:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@setNamespaceAware(boolean):185:this.namespaceAware = awareness |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@setValidating(boolean):195:this.validating = validating |==> <NO-OP>
+10:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@isNamespaceAware():204:namespaceAware |==> false
+11:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@isValidating():213:validating |==> false
+12:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory:271:System.getProperty("jaxp.debug") != null |==> true
+13:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):285:System.getProperty(factoryId) |==> null
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):286:systemProp != null |==> true
+15:COR:debug:TRUE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):287:debug |==> false
+16:COR:debug:FALSE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):287:debug |==> true
+17:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):288:System.err.println("JAXP: found system property" + systemProp) |==> <NO-OP>
+18:STD:<RETURN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):290:return systemProp; |==> <NO-OP>
+19:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):297:foundFactory != null |==> true
+20:STD:<RETURN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):298:return foundFactory; |==> <NO-OP>
+21:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):302:System.getProperty("java.home") |==> null
+22:EVR:<PLUS(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):304:javah + File.separator + "lib" + File.separator + "jaxp.properties" |==> null
+23:EVR:<NEW_CLASS(java.io.File)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):305:new File(configFile) |==> null
+24:COR:f.exists():TRUE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):306:f.exists() |==> false
+25:COR:f.exists():FALSE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):306:f.exists() |==> true
+26:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):307:new Properties() |==> null
+27:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):308:props.load(new FileInputStream(f)) |==> <NO-OP>
+28:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):309:foundFactory = props.getProperty(factoryId) |==> <NO-OP>
+29:COR:debug:TRUE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):310:debug |==> false
+30:COR:debug:FALSE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):310:debug |==> true
+31:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):311:System.err.println("JAXP: found java.home property " + foundFactory) |==> <NO-OP>
+32:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):313:foundFactory != null |==> true
+33:STD:<RETURN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):314:return foundFactory; |==> <NO-OP>
+34:COR:debug:TRUE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):317:debug |==> false
+35:COR:debug:FALSE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):317:debug |==> true
+36:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):317:ex.printStackTrace() |==> <NO-OP>
+37:EVR:<PLUS(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):320:"META-INF/services/" + factoryId |==> null
+38:EVR:<METHOD_INVOCATION(java.lang.ClassLoader)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):323:SAXParserFactory.class.getClassLoader() |==> null
+39:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):325:cl == null |==> false
+40:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):326:is = ClassLoader.getSystemResourceAsStream(serviceId) |==> <NO-OP>
+41:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):328:is = cl.getResourceAsStream(serviceId) |==> <NO-OP>
+42:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):331:is != null |==> true
+43:COR:debug:TRUE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):332:debug |==> false
+44:COR:debug:FALSE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):332:debug |==> true
+45:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):333:System.err.println("JAXP: found  " + serviceId) |==> <NO-OP>
+46:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):335:new BufferedReader(new InputStreamReader(is)) |==> null
+47:STD:<ASSIGN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):338:foundFactory = rd.readLine() |==> <NO-OP>
+48:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):339:rd.close() |==> <NO-OP>
+49:COR:debug:TRUE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):341:debug |==> false
+50:COR:debug:FALSE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):341:debug |==> true
+51:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):342:System.err.println("JAXP: loaded from services: " + foundFactory) |==> <NO-OP>
+52:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):344:foundFactory != null |==> true
+53:COR:&&(boolean,boolean):==(boolean,boolean):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):344:foundFactory != null && !"".equals(foundFactory) |==> foundFactory != null == !"".equals(foundFactory)
+54:COR:&&(boolean,boolean):FALSE(boolean,boolean):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):344:foundFactory != null && !"".equals(foundFactory) |==> false
+55:COR:&&(boolean,boolean):LHS(boolean,boolean):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):344:foundFactory != null && !"".equals(foundFactory) |==> foundFactory != null
+56:COR:&&(boolean,boolean):RHS(boolean,boolean):javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):345:foundFactory != null && !"".equals(foundFactory) |==> !"".equals(foundFactory)
+57:STD:<RETURN>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):346:return foundFactory; |==> <NO-OP>
+58:COR:debug:TRUE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):350:debug |==> false
+59:COR:debug:FALSE:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):350:debug |==> true
+60:STD:<CALL>:<NO-OP>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):350:ex.printStackTrace() |==> <NO-OP>
+61:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:javax.xml.parsers.SAXParserFactory@findFactory(java.lang.String,java.lang.String):353:defaultFactory |==> null

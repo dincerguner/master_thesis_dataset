@@ -118,7 +118,7 @@ public class DefaultEntityHandler
     private EntityPool fParameterEntityPool = null;
     private byte[] fEntityTypeStack = null;
     private int[] fEntityNameStack = null;
-    private int fEntityStackDepth = 0;
+    private int fEntityStackDepth = 1;
     private Stack fReaderStack = new Stack();
     private XMLEntityHandler.EntityReader fReader = null;
     private InputSource fSource = null;

@@ -1,0 +1,137 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@<init>(org.w3c.dom.html.HTMLElement,short):194:topLevel == null |==> false
+2:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@<init>(org.w3c.dom.html.HTMLElement,short):196:_topLevel = topLevel |==> <NO-OP>
+3:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@<init>(org.w3c.dom.html.HTMLElement,short):197:_lookingFor = lookingFor |==> <NO-OP>
+4:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@getLength():210:getLength(_topLevel) |==> 0
+5:LVR:0:POS:org.apache.html.dom.HTMLCollectionImpl@item(int):224:0 |==> 1
+6:LVR:0:NEG:org.apache.html.dom.HTMLCollectionImpl@item(int):224:0 |==> -1
+7:ROR:<(int,int):!=(int,int):org.apache.html.dom.HTMLCollectionImpl@item(int):224:index < 0 |==> index != 0
+8:ROR:<(int,int):<=(int,int):org.apache.html.dom.HTMLCollectionImpl@item(int):224:index < 0 |==> index <= 0
+9:ROR:<(int,int):FALSE(int,int):org.apache.html.dom.HTMLCollectionImpl@item(int):224:index < 0 |==> false
+10:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@item(int):227:item(_topLevel, new CollectionIndex(index)) |==> null
+11:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@namedItem(java.lang.String):242:name == null |==> false
+12:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@namedItem(java.lang.String):245:namedItem(_topLevel, name) |==> null
+13:LVR:0:POS:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):266:0 |==> 1
+14:LVR:0:NEG:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):266:0 |==> -1
+15:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):267:topLevel.getFirstChild() |==> null
+16:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):268:node != null |==> true
+17:COR:collectionMatch((Element)node, null):TRUE:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):276:collectionMatch((Element)node, null) |==> false
+18:COR:collectionMatch((Element)node, null):FALSE:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):276:collectionMatch((Element)node, null) |==> true
+19:STD:<INC>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):277:++length |==> <NO-OP>
+20:COR:recurse():TRUE:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):278:recurse() |==> false
+21:COR:recurse():FALSE:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):278:recurse() |==> true
+22:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):279:length += getLength((Element)node) |==> <NO-OP>
+23:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):281:node = node.getNextSibling() |==> <NO-OP>
+24:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@getLength(org.w3c.dom.Element):284:length |==> 0
+25:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):314:topLevel.getFirstChild() |==> null
+26:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):315:node != null |==> true
+27:COR:collectionMatch((Element)node, null):TRUE:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):323:collectionMatch((Element)node, null) |==> false
+28:COR:collectionMatch((Element)node, null):FALSE:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):323:collectionMatch((Element)node, null) |==> true
+29:COR:index.isZero():TRUE:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):325:index.isZero() |==> false
+30:COR:index.isZero():FALSE:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):325:index.isZero() |==> true
+31:STD:<RETURN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):326:return node; |==> <NO-OP>
+32:STD:<CALL>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):327:index.decrement() |==> <NO-OP>
+33:COR:recurse():TRUE:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):328:recurse() |==> false
+34:COR:recurse():FALSE:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):328:recurse() |==> true
+35:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):330:item((Element)node, index) |==> null
+36:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):331:result != null |==> true
+37:STD:<RETURN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):332:return result; |==> <NO-OP>
+38:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@item(org.w3c.dom.Element,org.apache.html.dom.CollectionIndex):335:node = node.getNextSibling() |==> <NO-OP>
+39:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):359:topLevel.getFirstChild() |==> null
+40:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):360:node != null |==> true
+41:COR:collectionMatch((Element)node, name):TRUE:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):368:collectionMatch((Element)node, name) |==> false
+42:COR:collectionMatch((Element)node, name):FALSE:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):368:collectionMatch((Element)node, name) |==> true
+43:STD:<RETURN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):369:return node; |==> <NO-OP>
+44:COR:recurse():TRUE:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):370:recurse() |==> false
+45:COR:recurse():FALSE:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):370:recurse() |==> true
+46:EVR:<METHOD_INVOCATION(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):372:namedItem((Element)node, name) |==> null
+47:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):373:result != null |==> true
+48:STD:<RETURN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):374:return result; |==> <NO-OP>
+49:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):377:node = node.getNextSibling() |==> <NO-OP>
+50:EVR:<IDENTIFIER(org.w3c.dom.Node)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@namedItem(org.w3c.dom.Element,java.lang.String):379:node |==> null
+51:LVR:0:POS:org.apache.html.dom.HTMLCollectionImpl@recurse():394:0 |==> 1
+52:LVR:0:NEG:org.apache.html.dom.HTMLCollectionImpl@recurse():394:0 |==> -1
+53:ROR:>(int,int):!=(int,int):org.apache.html.dom.HTMLCollectionImpl@recurse():394:_lookingFor > 0 |==> _lookingFor != 0
+54:ROR:>(int,int):>=(int,int):org.apache.html.dom.HTMLCollectionImpl@recurse():394:_lookingFor > 0 |==> _lookingFor >= 0
+55:ROR:>(int,int):FALSE(int,int):org.apache.html.dom.HTMLCollectionImpl@recurse():394:_lookingFor > 0 |==> false
+56:LVR:FALSE:TRUE:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):419:false |==> true
+57:LVR:0:POS:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):426:0 |==> 1
+58:LVR:0:NEG:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):426:0 |==> -1
+59:ROR:>(int,int):!=(int,int):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):426:elem.getAttribute("name").length() > 0 |==> elem.getAttribute("name").length() != 0
+60:ROR:>(int,int):>=(int,int):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):426:elem.getAttribute("name").length() > 0 |==> elem.getAttribute("name").length() >= 0
+61:ROR:>(int,int):FALSE(int,int):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):426:elem.getAttribute("name").length() > 0 |==> false
+62:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):425:(elem instanceof HTMLAnchorElement) && elem.getAttribute("name").length() > 0 |==> (elem instanceof HTMLAnchorElement) == elem.getAttribute("name").length() > 0
+63:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):425:(elem instanceof HTMLAnchorElement) && elem.getAttribute("name").length() > 0 |==> false
+64:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):425:(elem instanceof HTMLAnchorElement) && elem.getAttribute("name").length() > 0 |==> (elem instanceof HTMLAnchorElement)
+65:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):426:(elem instanceof HTMLAnchorElement) && elem.getAttribute("name").length() > 0 |==> elem.getAttribute("name").length() > 0
+66:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):425:match = (elem instanceof HTMLAnchorElement) && elem.getAttribute("name").length() > 0 |==> <NO-OP>
+67:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):427:break; |==> <NO-OP>
+68:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):430:match = (elem instanceof HTMLFormElement) |==> <NO-OP>
+69:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):431:break; |==> <NO-OP>
+70:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):434:match = (elem instanceof HTMLImageElement) |==> <NO-OP>
+71:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):435:break; |==> <NO-OP>
+72:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):442:"application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:") |==> "application/java".equals(elem.getAttribute("codetype")) != elem.getAttribute("classid").startsWith("java:")
+73:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):442:"application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:") |==> "application/java".equals(elem.getAttribute("codetype"))
+74:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):443:"application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:") |==> elem.getAttribute("classid").startsWith("java:")
+75:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):442:"application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:") |==> true
+76:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):441:elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:")) |==> elem instanceof HTMLObjectElement == ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:"))
+77:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):441:elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:")) |==> false
+78:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):441:elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:")) |==> elem instanceof HTMLObjectElement
+79:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):442:elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:")) |==> ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:"))
+80:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):440:(elem instanceof HTMLAppletElement) || (elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:"))) |==> (elem instanceof HTMLAppletElement) != (elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:")))
+81:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):440:(elem instanceof HTMLAppletElement) || (elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:"))) |==> (elem instanceof HTMLAppletElement)
+82:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):441:(elem instanceof HTMLAppletElement) || (elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:"))) |==> (elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:")))
+83:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):440:(elem instanceof HTMLAppletElement) || (elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:"))) |==> true
+84:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):440:match = (elem instanceof HTMLAppletElement) || (elem instanceof HTMLObjectElement && ("application/java".equals(elem.getAttribute("codetype")) || elem.getAttribute("classid").startsWith("java:"))) |==> <NO-OP>
+85:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):444:break; |==> <NO-OP>
+86:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):447:match = (elem instanceof HTMLFormControl) |==> <NO-OP>
+87:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):448:break; |==> <NO-OP>
+88:COR:||(boolean,boolean):!=(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):451:elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement |==> elem instanceof HTMLAnchorElement != elem instanceof HTMLAreaElement
+89:COR:||(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):451:elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement |==> elem instanceof HTMLAnchorElement
+90:COR:||(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):452:elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement |==> elem instanceof HTMLAreaElement
+91:COR:||(boolean,boolean):TRUE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):451:elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement |==> true
+92:LVR:0:POS:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):453:0 |==> 1
+93:LVR:0:NEG:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):453:0 |==> -1
+94:ROR:>(int,int):!=(int,int):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):453:elem.getAttribute("href").length() > 0 |==> elem.getAttribute("href").length() != 0
+95:ROR:>(int,int):>=(int,int):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):453:elem.getAttribute("href").length() > 0 |==> elem.getAttribute("href").length() >= 0
+96:ROR:>(int,int):FALSE(int,int):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):453:elem.getAttribute("href").length() > 0 |==> false
+97:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):451:(elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement) && elem.getAttribute("href").length() > 0 |==> (elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement) == elem.getAttribute("href").length() > 0
+98:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):452:(elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement) && elem.getAttribute("href").length() > 0 |==> false
+99:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):451:(elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement) && elem.getAttribute("href").length() > 0 |==> (elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement)
+100:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):453:(elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement) && elem.getAttribute("href").length() > 0 |==> elem.getAttribute("href").length() > 0
+101:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):451:match = ((elem instanceof HTMLAnchorElement || elem instanceof HTMLAreaElement) && elem.getAttribute("href").length() > 0) |==> <NO-OP>
+102:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):454:break; |==> <NO-OP>
+103:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):457:match = (elem instanceof HTMLAreaElement) |==> <NO-OP>
+104:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):458:break; |==> <NO-OP>
+105:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):461:match = (elem instanceof HTMLOptionElement) |==> <NO-OP>
+106:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):462:break; |==> <NO-OP>
+107:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):465:match = (elem instanceof HTMLTableRowElement) |==> <NO-OP>
+108:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):466:break; |==> <NO-OP>
+109:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):469:elem instanceof HTMLTableSectionElement && elem.getTagName().equals("tbody") |==> elem instanceof HTMLTableSectionElement == elem.getTagName().equals("tbody")
+110:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):469:elem instanceof HTMLTableSectionElement && elem.getTagName().equals("tbody") |==> false
+111:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):469:elem instanceof HTMLTableSectionElement && elem.getTagName().equals("tbody") |==> elem instanceof HTMLTableSectionElement
+112:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):470:elem instanceof HTMLTableSectionElement && elem.getTagName().equals("tbody") |==> elem.getTagName().equals("tbody")
+113:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):469:match = (elem instanceof HTMLTableSectionElement && elem.getTagName().equals("tbody")) |==> <NO-OP>
+114:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):471:break; |==> <NO-OP>
+115:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):474:match = (elem instanceof HTMLTableCellElement) |==> <NO-OP>
+116:STD:<BREAK>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):475:break; |==> <NO-OP>
+117:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):481:name != null |==> true
+118:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):481:match && name != null |==> match == (name != null)
+119:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):481:match && name != null |==> false
+120:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):481:match && name != null |==> match
+121:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):481:match && name != null |==> name != null
+122:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):485:elem instanceof HTMLAnchorElement && name.equals(elem.getAttribute("name")) |==> elem instanceof HTMLAnchorElement == name.equals(elem.getAttribute("name"))
+123:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):485:elem instanceof HTMLAnchorElement && name.equals(elem.getAttribute("name")) |==> false
+124:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):485:elem instanceof HTMLAnchorElement && name.equals(elem.getAttribute("name")) |==> elem instanceof HTMLAnchorElement
+125:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):486:elem instanceof HTMLAnchorElement && name.equals(elem.getAttribute("name")) |==> name.equals(elem.getAttribute("name"))
+126:LVR:TRUE:FALSE:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):487:true |==> false
+127:STD:<RETURN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):487:return Config.__M_NO == 0 && Config.COVERED(126, 126) ? true : Config.__M_NO == 126 ? false : true; |==> <NO-OP>
+128:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):488:match = name.equals(elem.getAttribute("id")) |==> <NO-OP>
+129:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.html.dom.HTMLCollectionImpl@collectionMatch(org.w3c.dom.Element,java.lang.String):491:match |==> false
+130:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.html.dom.CollectionIndex@getIndex():518:_index |==> 0
+131:STD:<DEC>:<NO-OP>:org.apache.html.dom.CollectionIndex@decrement():527:--_index |==> <NO-OP>
+132:LVR:0:POS:org.apache.html.dom.CollectionIndex@isZero():538:0 |==> 1
+133:LVR:0:NEG:org.apache.html.dom.CollectionIndex@isZero():538:0 |==> -1
+134:ROR:<=(int,int):<(int,int):org.apache.html.dom.CollectionIndex@isZero():538:_index <= 0 |==> _index < 0
+135:ROR:<=(int,int):==(int,int):org.apache.html.dom.CollectionIndex@isZero():538:_index <= 0 |==> _index == 0
+136:ROR:<=(int,int):TRUE(int,int):org.apache.html.dom.CollectionIndex@isZero():538:_index <= 0 |==> true
+137:STD:<ASSIGN>:<NO-OP>:org.apache.html.dom.CollectionIndex@<init>(int):550:_index = index |==> <NO-OP>

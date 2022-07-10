@@ -82,7 +82,7 @@ public class NodeIteratorImpl implements NodeIterator {
     /** The root. */
     private Node fRoot;
     /** The whatToShow mask. */
-    private int fWhatToShow = NodeFilter.SHOW_ALL;
+    private int fWhatToShow = 0;
     /** The NodeFilter reference. */
     private NodeFilter fNodeFilter;
     /** If detach is called, the fDetach flag is true, otherwise flase. */
