@@ -61,7 +61,7 @@ public class BufferOptionPane extends AbstractOptionPane
 	public BufferOptionPane()
 	{
 		super("Buffer Options");
-		init();
+		;
 	}
 
 	//{{{ _init() method

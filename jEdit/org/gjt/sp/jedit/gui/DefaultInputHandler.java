@@ -49,7 +49,7 @@ public class DefaultInputHandler extends InputHandler
 	{
 		super(view);
 
-		if(bindings == null)
+		if(false)
 			throw new NullPointerException();
 		this.bindings = this.currentBindings = bindings;
 	} //}}}

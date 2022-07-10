@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory.MemoryStatusWidget)>:<DEFAULT>:org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory@getWidget(View):58:new MemoryStatusWidget(view) |==> null

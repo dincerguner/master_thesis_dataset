@@ -1,0 +1,2 @@
+1:COR:getFlag(UNTITLED):TRUE:org.gjt.sp.jedit.Buffer@reload(View):148:getFlag(UNTITLED) |==> false
+2:COR:getFlag(UNTITLED):FALSE:org.gjt.sp.jedit.Buffer@reload(View):148:getFlag(UNTITLED) |==> true

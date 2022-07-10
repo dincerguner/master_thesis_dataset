@@ -66,7 +66,7 @@ class BSHVariableDeclarator extends SimpleNode
 		// null value means no value
 		Object value = null;
 
-        if ( jjtGetNumChildren() > 0 ) 
+        if ( jjtGetNumChildren() > 1 ) 
 		{
             SimpleNode initializer = (SimpleNode)jjtGetChild(0);
 
@@ -76,8 +76,7 @@ class BSHVariableDeclarator extends SimpleNode
 				(This allows array initializer to handle the problem... 
 				allowing for future enhancements in loosening types there).	
 			*/
-			if ( (typeNode != null) 
-				&& initializer instanceof BSHArrayInitializer 
+			if ( false 
 			)
             	value = ((BSHArrayInitializer)initializer).eval( 
 					typeNode.getBaseType(), typeNode.getArrayDims(), 

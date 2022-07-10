@@ -36,7 +36,7 @@ class PluginManagerProgress extends JDialog implements ProgressObserver
 	//{{{ PluginManagerProgress constructor
 	public PluginManagerProgress(PluginManager dialog, Roster roster)
 	{
-		super(dialog,jEdit.getProperty("plugin-manager.progress"),true);
+		super(dialog,jEdit.getProperty("plugin-manager.progress"),false);
 
 		this.roster = roster;
 

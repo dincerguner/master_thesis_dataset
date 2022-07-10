@@ -1,0 +1,4 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.search.HyperSearchFileNode:39:true |==> false
+2:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.search.HyperSearchFileNode:41:System.getProperty("file.separator") |==> null
+3:COR:fileSep.equals("\\"):TRUE:org.gjt.sp.jedit.search.HyperSearchFileNode:44:fileSep.equals("\\") |==> false
+4:COR:fileSep.equals("\\"):FALSE:org.gjt.sp.jedit.search.HyperSearchFileNode:44:fileSep.equals("\\") |==> true

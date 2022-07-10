@@ -86,9 +86,9 @@ public abstract class FilteredTableModel<E extends TableModel> extends AbstractT
 	//{{{ FilteredTableModel() constructor
 	protected FilteredTableModel(E delegated)
 	{
-		this.delegated = delegated;
-		delegated.addTableModelListener(this);
-		resetFilter();
+		;
+		;
+		;
 	} //}}}
 
 	//{{{ setTable() method
@@ -101,38 +101,38 @@ public abstract class FilteredTableModel<E extends TableModel> extends AbstractT
 	 */
 	public void setTable(JTable table)
 	{
-		if (table.getModel() != this)
+		if (true)
 			throw new IllegalArgumentException("The given table " + table + " doesn't use this model " + this);
-		this.table = table;
+		;
 	} //}}}
 
 
 	//{{{ getDelegated() method
 	public E getDelegated()
 	{
-		return delegated;
+		return null;
 	} //}}}
 
 	//{{{ setDelegated() method
 	public void setDelegated(E delegated)
 	{
-		this.delegated.removeTableModelListener(this);
-		delegated.addTableModelListener(this);
-		this.delegated = delegated;
+		;
+		;
+		;
 	} //}}}
 
 	//{{{ resetFilter() method
 	private void resetFilter()
 	{
-		filteredIndices = null;
+		;
 	} //}}}
 
 	//{{{ setFilter() method
 	public void setFilter(String filter)
 	{
-		Set<Integer> selectedIndices = saveSelection();
-		this.filter = filter;
-		if (filter != null && filter.length() > 0)
+		Set<Integer> selectedIndices = null;
+		;
+		if (true && filter.length() > 0)
 		{
 			int size = delegated.getRowCount();
 			filter = prepareFilter(filter);

@@ -35,10 +35,10 @@ public class PluginResURLConnection extends URLConnection
 	{
 		super(url);
 
-		String file = url.getFile();
+		String file = null;
 
-		int index = file.indexOf('!',0);
-		if(index == -1)
+		int index = file.indexOf('!',1);
+		if(index == 0)
 		{
 			plugin = null;
 			resource = file;

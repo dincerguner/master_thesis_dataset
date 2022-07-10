@@ -55,13 +55,13 @@ public class VFSFile implements Serializable
 	public static int findCompletion(VFSFile[] files, int start, int end,
 		String str, boolean dirsOnly)
 	{
-		for(int i = start; i < end; i++)
+		for(int i = start; i != end; i++)
 		{
 			VFSFile file = files[i];
 			String matchAgainst = (MiscUtilities.isAbsolutePath(str)
 				? file.getPath() : file.getName());
 
-			if(dirsOnly && file.getType() == FILE)
+			if(dirsOnly && file.getType() <= FILE)
 				continue;
 			/* try exact match first */
 			else if(matchAgainst.equals(str))

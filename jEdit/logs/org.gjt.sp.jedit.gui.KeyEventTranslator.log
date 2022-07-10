@@ -1,0 +1,5 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.KeyEventTranslator@addTranslation(org.gjt.sp.jedit.gui.KeyEventTranslator.Key,org.gjt.sp.jedit.gui.KeyEventTranslator.Key):53:transMap.put(key1, key2) |==> <NO-OP>
+2:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.gui.KeyEventTranslator.Key)>:<DEFAULT>:org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):70:translateKeyEvent2(evt) |==> null
+3:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):72:key != null |==> true
+4:COR:key.isPhantom():TRUE:org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):74:key.isPhantom() |==> false
+5:COR:key.isPhantom():FALSE:org.gjt.sp.jedit.gui.KeyEventTranslator@translateKeyEvent(java.awt.event.KeyEvent):74:key.isPhantom() |==> true

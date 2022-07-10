@@ -48,7 +48,7 @@ public class ClockWidgetFactory implements StatusWidgetFactory
 	//{{{ getWidget() method
 	public Widget getWidget(View view) 
 	{
-		Widget clock = new ClockWidget();
+		Widget clock = null;
 		return clock;
 	} //}}}
 

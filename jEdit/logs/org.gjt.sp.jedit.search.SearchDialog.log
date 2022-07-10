@@ -1,0 +1,2 @@
+1:COR:Debug.DISABLE_SEARCH_DIALOG_POOL:TRUE:org.gjt.sp.jedit.search.SearchDialog@getSearchDialog(View):61:Debug.DISABLE_SEARCH_DIALOG_POOL |==> false
+2:COR:Debug.DISABLE_SEARCH_DIALOG_POOL:FALSE:org.gjt.sp.jedit.search.SearchDialog@getSearchDialog(View):61:Debug.DISABLE_SEARCH_DIALOG_POOL |==> true

@@ -58,12 +58,12 @@ public interface IndentAction
 		public int calculateIndent(JEditBuffer buffer, int line, int oldIndent,
 			int newIndent)
 		{
-			return newIndent;
+			return 0;
 		}
 
 		public boolean keepChecking()
 		{
-			return true;
+			return false;
 		}
 
 		private Collapse()
@@ -76,12 +76,12 @@ public interface IndentAction
 		public int calculateIndent(JEditBuffer buffer, int line, int oldIndent,
 			int newIndent)
 		{
-			return oldIndent;
+			return 0;
 		}
 
 		public boolean keepChecking()
 		{
-			return true;
+			return false;
 		}
 	}
 
@@ -91,7 +91,7 @@ public interface IndentAction
 
 		public Increase()
 		{
-			amount = 1;
+			amount = 0;
 		}
 
 		public Increase(int amount)

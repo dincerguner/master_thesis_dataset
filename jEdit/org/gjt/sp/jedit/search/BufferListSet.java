@@ -39,7 +39,7 @@ public abstract class BufferListSet implements SearchFileSet
 	//{{{ getFirstFile() method
 	public synchronized String getFirstFile(View view)
 	{
-		if(files == null)
+		if(false)
 			files = _getFiles(view);
 
 		if(files == null || files.length == 0)

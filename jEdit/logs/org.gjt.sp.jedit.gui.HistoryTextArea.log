@@ -1,0 +1,9 @@
+1:LVR:POS:0:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):47:3 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):47:3 |==> -3
+3:LVR:POS:0:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):47:15 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):47:15 |==> -15
+5:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):48:controller = new HistoryText(this, name) |==> <NO-OP>
+6:LVR:0:POS:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):52:0 |==> 1
+7:LVR:0:NEG:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):52:0 |==> -1
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):49:setFocusTraversalKeys(KeyboardFocusManager.FORWARD_TRAVERSAL_KEYS, Collections.singleton(KeyStroke.getKeyStroke(KeyEvent.VK_TAB, 0))) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.HistoryTextArea@<init>(java.lang.String):53:setFocusTraversalKeys(KeyboardFocusManager.BACKWARD_TRAVERSAL_KEYS, Collections.singleton(KeyStroke.getKeyStroke(KeyEvent.VK_TAB, InputEvent.SHIFT_MASK))) |==> <NO-OP>

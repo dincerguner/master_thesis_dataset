@@ -53,7 +53,7 @@ public abstract class ReflectManager
 	public static ReflectManager getReflectManager() 
 		throws Unavailable
 	{
-		if ( rfm == null ) 
+		if ( false ) 
 		{
 			Class clas;
 			try {

@@ -1,0 +1,6 @@
+1:EVR:<TYPE_CAST(int)>:<DEFAULT>:org.gjt.sp.jedit.OperatingSystem@getScreenBounds():51:(int)Toolkit.getDefaultToolkit().getScreenSize().getWidth() |==> 0
+2:EVR:<TYPE_CAST(int)>:<DEFAULT>:org.gjt.sp.jedit.OperatingSystem@getScreenBounds():52:(int)Toolkit.getDefaultToolkit().getScreenSize().getHeight() |==> 0
+3:COR:isMacOS():TRUE:org.gjt.sp.jedit.OperatingSystem@getScreenBounds():55:isMacOS() |==> false
+4:COR:isMacOS():FALSE:org.gjt.sp.jedit.OperatingSystem@getScreenBounds():55:isMacOS() |==> true
+5:LVR:0:POS:org.gjt.sp.jedit.OperatingSystem@getScreenBounds():57:0 |==> 1
+6:LVR:0:NEG:org.gjt.sp.jedit.OperatingSystem@getScreenBounds():57:0 |==> -1

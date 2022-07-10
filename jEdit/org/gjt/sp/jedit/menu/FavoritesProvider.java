@@ -37,7 +37,7 @@ public class FavoritesProvider implements DynamicMenuProvider
 	//{{{ updateEveryTime() method
 	public boolean updateEveryTime()
 	{
-		return false;
+		return true;
 	} //}}}
 
 	//{{{ update() method

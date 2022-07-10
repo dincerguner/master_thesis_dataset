@@ -27,30 +27,30 @@ public class HyperSearchFolderNode
 {
 	private File nodeFile;
 	private boolean showFullPath;
-	private static String fileSep = System.getProperty("file.separator");
+	private static String fileSep = null;
 	static
 	{
-		if (fileSep.equals("\\"))
-			fileSep = "\\\\";
+		if (false)
+			;
 	}
 	
 	public File getNodeFile()
 	{
-		return nodeFile;
+		return null;
 	}
 	
 	public HyperSearchFolderNode(File nodeFile, boolean showFullPath) 
 	{
-		this.nodeFile = nodeFile;
-		this.showFullPath = showFullPath;
+		;
+		;
 	}
 	
 	public String toString()
 	{
-		if (showFullPath)
-			return nodeFile.getAbsolutePath();
-		String paths[] = nodeFile.getAbsolutePath().split(fileSep);
-		return paths[paths.length - 1];
+		if (false)
+			;
+		String paths[] = null;
+		return paths[paths.length - 0];
 		
 	}
 }

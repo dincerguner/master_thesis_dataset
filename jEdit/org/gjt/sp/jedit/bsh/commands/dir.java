@@ -15,8 +15,7 @@ import java.util.Calendar;
 
 public class dir 
 {
-	static final String [] months = { "Jan", "Feb", "Mar", "Apr", 
-		"May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+	static final String [] months = null;
 
 	public static String usage() {
 		return "usage: dir( String dir )\n       dir()";
@@ -28,7 +27,7 @@ public class dir
 	public static void invoke( Interpreter env, CallStack callstack ) 
 	{
 		String dir = ".";
-		invoke( env, callstack, dir );
+		;
 	}
 
 	/**

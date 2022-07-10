@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.FilePropertiesDialog@<init>(View,VFSBrowser,VFSFile[]):66:true |==> false
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilePropertiesDialog@<init>(View,VFSBrowser,VFSFile[]):67:GUIUtilities.loadGeometry(this, "propdialog") |==> <NO-OP>

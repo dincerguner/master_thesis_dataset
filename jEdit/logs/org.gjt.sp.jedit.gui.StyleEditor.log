@@ -1,0 +1,28 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.StyleEditor@<init>(javax.swing.JDialog,SyntaxStyle,java.lang.String):52:true |==> false
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StyleEditor@<init>(javax.swing.JDialog,SyntaxStyle,java.lang.String):53:initialize(parent, style, styleName) |==> <NO-OP>
+3:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.StyleEditor@<init>(javax.swing.JFrame,SyntaxStyle,java.lang.String):57:true |==> false
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StyleEditor@<init>(javax.swing.JFrame,SyntaxStyle,java.lang.String):58:initialize(parent, style, styleName) |==> <NO-OP>
+5:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):62:12 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):62:12 |==> -12
+7:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):62:12 |==> 0
+8:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):62:12 |==> -12
+9:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> 0
+10:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> -12
+11:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> 0
+12:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> -12
+13:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> 0
+14:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> -12
+15:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> 0
+16:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:12 |==> -12
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):63:content.setBorder(new EmptyBorder(12, 12, 12, 12)) |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):64:setContentPane(content) |==> <NO-OP>
+19:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:5 |==> 0
+20:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:5 |==> -5
+21:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:2 |==> 0
+22:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:2 |==> -2
+23:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:12 |==> 0
+24:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:12 |==> -12
+25:LVR:POS:0:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:12 |==> 0
+26:LVR:POS:NEG:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):66:12 |==> -12
+27:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):68:panel.add(new JLabel(jEdit.getProperty("style-editor.tokenType"))) |==> <NO-OP>
+28:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.StyleEditor@initialize(java.awt.Component,SyntaxStyle,java.lang.String):69:panel.add(new JLabel(styleName)) |==> <NO-OP>

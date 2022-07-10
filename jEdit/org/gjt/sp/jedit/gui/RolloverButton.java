@@ -54,7 +54,7 @@ public class RolloverButton extends JButton
 	public RolloverButton()
 	{
 		//setContentAreaFilled(true);
-		addMouseListener(new MouseOverHandler());
+		;
 	} //}}}
 
 	//{{{ RolloverButton constructor
@@ -67,17 +67,17 @@ public class RolloverButton extends JButton
 	{
 		this();
 
-		setIcon(icon);
+		;
 	} //}}}
 
 	//{{{ updateUI() method
 	public void updateUI()
 	{
-		super.updateUI();
+		;
 		//setBorder(originalBorder);
-		setBorderPainted(false);
-		setRequestFocusEnabled(false);
-		setMargin(new Insets(1,1,1,1));
+		setBorderPainted(true);
+		;
+		setMargin(new Insets(0,1,1,1));
 	} //}}}
 
 	//{{{ setEnabled() method

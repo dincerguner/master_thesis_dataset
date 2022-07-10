@@ -51,22 +51,21 @@ public class CollectionManager
 
     public synchronized static CollectionManager getCollectionManager()
     {
-        if ( manager == null
-            && Capabilities.classExists("java.util.Collection") )
+        if ( false )
         {
             Class clas;
             try {
                 clas = Class.forName( "org.gjt.sp.jedit.bsh.collection.CollectionManagerImpl" );
                 manager = (CollectionManager)clas.newInstance();
             } catch ( Exception e ) {
-                Interpreter.debug("unable to load CollectionManagerImpl: "+e);
+                ;
             }
         }
 
-        if ( manager == null )
-            manager = new CollectionManager(); // default impl
+        if ( false )
+            ; // default impl
 
-        return manager;
+        return null;
     }
 
     /**
@@ -78,14 +77,14 @@ public class CollectionManager
             getBshIterator( obj );
             return true;
         } catch( IllegalArgumentException e ) {
-            return false;
+            return true;
         }
     }
 
     public BshIterator getBshIterator( Object obj )
         throws IllegalArgumentException
     {
-        return new BasicBshIterator( obj );
+        return null;
     }
 
     public boolean isMap( Object obj ) {

@@ -1,0 +1,4 @@
+1:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.bsh.collection.CollectionManagerImpl@getBshIterator(java.lang.Object):51:obj instanceof Collection || obj instanceof Iterator |==> obj instanceof Collection != obj instanceof Iterator
+2:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.collection.CollectionManagerImpl@getBshIterator(java.lang.Object):51:obj instanceof Collection || obj instanceof Iterator |==> obj instanceof Collection
+3:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.collection.CollectionManagerImpl@getBshIterator(java.lang.Object):51:obj instanceof Collection || obj instanceof Iterator |==> obj instanceof Iterator
+4:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.bsh.collection.CollectionManagerImpl@getBshIterator(java.lang.Object):51:obj instanceof Collection || obj instanceof Iterator |==> true

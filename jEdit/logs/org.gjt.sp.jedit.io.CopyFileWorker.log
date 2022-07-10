@@ -1,0 +1,12 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):54:source == null |==> false
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):54:target == null |==> false
+3:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):54:source == null || target == null |==> source == null != (target == null)
+4:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):54:source == null || target == null |==> source == null
+5:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):54:source == null || target == null |==> target == null
+6:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):54:source == null || target == null |==> true
+7:EVR:<IDENTIFIER(java.awt.Component)>:<DEFAULT>:org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):56:comp |==> null
+8:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):57:source |==> null
+9:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.io.CopyFileWorker@<init>(java.awt.Component,java.lang.String,java.lang.String):58:target |==> null
+10:LVR:FALSE:TRUE:org.gjt.sp.jedit.io.CopyFileWorker@run():66:false |==> true
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.io.CopyFileWorker@run():66:VFS.copy(this, source, target, comp, false) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.io.CopyFileWorker@run():70:Log.log(Log.ERROR, this, e, e) |==> <NO-OP>

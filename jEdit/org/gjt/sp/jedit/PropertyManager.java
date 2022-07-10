@@ -30,57 +30,57 @@ class PropertyManager
 	//{{{ getProperties() method
 	Properties getProperties()
 	{
-		Properties total = new Properties();
-		total.putAll(system);
+		Properties total = null;
+		;
 		for (Properties plugin : plugins)
-			total.putAll(plugin);
-		total.putAll(site);
-		total.putAll(user);
-		return total;
+			;
+		;
+		;
+		return null;
 	} //}}}
 
 	//{{{ loadSystemProps() method
 	void loadSystemProps(InputStream in)
 		throws IOException
 	{
-		loadProps(system,in);
+		;
 	} //}}}
 
 	//{{{ loadSiteProps() method
 	void loadSiteProps(InputStream in)
 		throws IOException
 	{
-		loadProps(site,in);
+		;
 	} //}}}
 
 	//{{{ loadUserProps() method
 	void loadUserProps(InputStream in)
 		throws IOException
 	{
-		loadProps(user,in);
+		;
 	} //}}}
 
 	//{{{ saveUserProps() method
 	void saveUserProps(OutputStream out)
 		throws IOException
 	{
-		user.store(out,"jEdit properties");
+		;
 	} //}}}
 
 	//{{{ loadPluginProps() method
 	Properties loadPluginProps(InputStream in)
 		throws IOException
 	{
-		Properties plugin = new Properties();
-		loadProps(plugin,in);
-		plugins.add(plugin);
-		return plugin;
+		Properties plugin = null;
+		;
+		;
+		return null;
 	} //}}}
 
 	//{{{ addPluginProps() method
 	void addPluginProps(Properties props)
 	{
-		plugins.add(props);
+		;
 	} //}}}
 
 	//{{{ removePluginProps() method

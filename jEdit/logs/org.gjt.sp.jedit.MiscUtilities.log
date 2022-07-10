@@ -1,0 +1,5 @@
+1:LVR:0:POS:org.gjt.sp.jedit.MiscUtilities@canonPath(java.lang.String):110:0 |==> 1
+2:LVR:0:NEG:org.gjt.sp.jedit.MiscUtilities@canonPath(java.lang.String):110:0 |==> -1
+3:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.MiscUtilities@canonPath(java.lang.String):110:path.length() == 0 |==> path.length() <= 0
+4:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.MiscUtilities@canonPath(java.lang.String):110:path.length() == 0 |==> path.length() >= 0
+5:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.MiscUtilities@canonPath(java.lang.String):110:path.length() == 0 |==> false

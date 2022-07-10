@@ -38,7 +38,7 @@ public class RecentDirectoriesProvider implements DynamicMenuProvider
 	//{{{ updateEveryTime() method
 	public boolean updateEveryTime()
 	{
-		return true;
+		return false;
 	} //}}}
 
 	//{{{ update() method

@@ -51,7 +51,7 @@ public class HyperSearchOperationNode
 	//{{{ HyperSearchOperationNode constructor
 	public HyperSearchOperationNode(String searchString, SearchMatcher searchMatcher)
 	{
-		this.searchString = searchString;
+		this.searchString = null;
 		this.searchMatcher = searchMatcher;
 	}//}}}
 	

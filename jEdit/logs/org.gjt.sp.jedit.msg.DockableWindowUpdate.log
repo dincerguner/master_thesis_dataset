@@ -1,0 +1,1 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.msg.DockableWindowUpdate@<init>(DockableWindowManager,java.lang.Object,java.lang.String):70:what == null |==> false

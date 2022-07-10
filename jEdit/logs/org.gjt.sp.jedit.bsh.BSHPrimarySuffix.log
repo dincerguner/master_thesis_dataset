@@ -1,0 +1,5 @@
+1:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):74:operation == CLASS |==> operation <= CLASS
+2:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):74:operation == CLASS |==> operation >= CLASS
+3:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):74:operation == CLASS |==> false
+4:COR:toLHS:TRUE:org.gjt.sp.jedit.bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):76:toLHS |==> false
+5:COR:toLHS:FALSE:org.gjt.sp.jedit.bsh.BSHPrimarySuffix@doSuffix(java.lang.Object,boolean,CallStack,Interpreter):76:toLHS |==> true

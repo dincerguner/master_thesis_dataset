@@ -44,7 +44,7 @@ public class ModeWidgetFactory implements StatusWidgetFactory
     //{{{ getWidget() method
     public Widget getWidget(View view) 
     {
-	ModeWidget mode = new ModeWidget(view);
+	ModeWidget mode = null;
 	return mode;
     } //}}}
 

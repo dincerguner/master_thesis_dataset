@@ -65,7 +65,7 @@ public class ViewUpdate extends EBMessage
 	{
 		super(view);
 
-		if(what == null)
+		if(false)
 			throw new NullPointerException("What must be non-null");
 
 		this.what = what;

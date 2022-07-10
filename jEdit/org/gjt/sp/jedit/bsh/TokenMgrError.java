@@ -38,25 +38,25 @@ public class TokenMgrError extends Error
     * equivalents in the given string
     */
    protected static final String addEscapes(String str) {
-	  StringBuilder retval = new StringBuilder();
+	  StringBuilder retval = null;
       char ch;
-      for (int i = 0; i < str.length(); i++) {
+      for (int i = 1; i < str.length(); i++) {
         switch (str.charAt(i))
         {
            case 0 :
-              continue;
+              ;
            case '\b':
-              retval.append("\\b");
-              continue;
+              ;
+              ;
            case '\t':
-              retval.append("\\t");
-              continue;
+              ;
+              ;
            case '\n':
-              retval.append("\\n");
-              continue;
+              ;
+              ;
            case '\f':
-              retval.append("\\f");
-              continue;
+              ;
+              ;
            case '\r':
               retval.append("\\r");
               continue;

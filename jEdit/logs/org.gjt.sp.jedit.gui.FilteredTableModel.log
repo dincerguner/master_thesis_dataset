@@ -1,0 +1,102 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@<init>(E):89:this.delegated = delegated |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@<init>(E):90:delegated.addTableModelListener(this) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@<init>(E):91:resetFilter() |==> <NO-OP>
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@setTable(javax.swing.JTable):104:table.getModel() != this |==> true
+5:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setTable(javax.swing.JTable):106:this.table = table |==> <NO-OP>
+6:EVR:<IDENTIFIER(E)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getDelegated():113:delegated |==> null
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setDelegated(E):119:this.delegated.removeTableModelListener(this) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setDelegated(E):120:delegated.addTableModelListener(this) |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setDelegated(E):121:this.delegated = delegated |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@resetFilter():127:filteredIndices = null |==> <NO-OP>
+11:EVR:<METHOD_INVOCATION(java.util.Set<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):133:saveSelection() |==> null
+12:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):134:this.filter = filter |==> <NO-OP>
+13:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter != null |==> true
+14:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:0 |==> 1
+15:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:0 |==> -1
+16:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter.length() > 0 |==> filter.length() != 0
+17:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter.length() > 0 |==> filter.length() >= 0
+18:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter.length() > 0 |==> false
+19:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter != null && filter.length() > 0 |==> filter != null == filter.length() > 0
+20:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter != null && filter.length() > 0 |==> false
+21:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter != null && filter.length() > 0 |==> filter != null
+22:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):135:filter != null && filter.length() > 0 |==> filter.length() > 0
+23:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):137:delegated.getRowCount() |==> 0
+24:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):138:filter = prepareFilter(filter) |==> <NO-OP>
+25:EVR:<NEW_CLASS(java.util.Vector<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):139:new Vector<Integer>(size) |==> null
+26:EVR:<NEW_CLASS(java.util.HashMap<java.lang.Integer,java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):140:new HashMap<Integer, Integer>() |==> null
+27:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):141:0 |==> 1
+28:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):141:0 |==> -1
+29:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):141:i < size |==> i != size
+30:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):141:i < size |==> i <= size
+31:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):141:i < size |==> false
+32:COR:passFilter(i, filter):TRUE:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):143:passFilter(i, filter) |==> false
+33:COR:passFilter(i, filter):FALSE:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):143:passFilter(i, filter) |==> true
+34:EVR:<METHOD_INVOCATION(java.lang.Integer)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):145:Integer.valueOf(i) |==> null
+35:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):146:indices.add(delegatedIndice) |==> <NO-OP>
+36:LVR:POS:0:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):148:1 |==> 0
+37:LVR:POS:NEG:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):148:1 |==> -1
+38:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):148:indices.size() - 1 |==> indices.size() % 1
+39:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):148:indices.size() - 1 |==> indices.size() * 1
+40:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):148:indices.size() - 1 |==> indices.size() + 1
+41:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):148:indices.size() - 1 |==> indices.size() / 1
+42:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):148:invertedIndices.put(delegatedIndice, indices.size() - 1) |==> <NO-OP>
+43:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):151:this.invertedIndices = invertedIndices |==> <NO-OP>
+44:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):152:filteredIndices = indices |==> <NO-OP>
+45:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):155:resetFilter() |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):157:fireTableDataChanged() |==> <NO-OP>
+47:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setFilter(java.lang.String):158:restoreSelection(selectedIndices) |==> <NO-OP>
+48:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@prepareFilter(java.lang.String):164:filter |==> null
+49:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():182:table == null |==> false
+50:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():183:return null; |==> <NO-OP>
+51:EVR:<METHOD_INVOCATION(int[])>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():184:table.getSelectedRows() |==> null
+52:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():185:0 |==> 1
+53:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():185:0 |==> -1
+54:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():185:rows.length == 0 |==> rows.length <= 0
+55:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():185:rows.length == 0 |==> rows.length >= 0
+56:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():185:rows.length == 0 |==> false
+57:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():186:return null; |==> <NO-OP>
+58:EVR:<NEW_CLASS(java.util.HashSet<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():188:new HashSet<Integer>(rows.length) |==> null
+59:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():191:selectedRows.add(getTrueRow(row)) |==> <NO-OP>
+60:EVR:<IDENTIFIER(java.util.Set<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@saveSelection():193:selectedRows |==> null
+61:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:selectedIndices == null |==> false
+62:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:0 |==> 1
+63:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:0 |==> -1
+64:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:getRowCount() == 0 |==> getRowCount() <= 0
+65:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:getRowCount() == 0 |==> getRowCount() >= 0
+66:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:getRowCount() == 0 |==> false
+67:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:selectedIndices == null || getRowCount() == 0 |==> selectedIndices == null != (getRowCount() == 0)
+68:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:selectedIndices == null || getRowCount() == 0 |==> selectedIndices == null
+69:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:selectedIndices == null || getRowCount() == 0 |==> getRowCount() == 0
+70:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):199:selectedIndices == null || getRowCount() == 0 |==> true
+71:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):200:return; |==> <NO-OP>
+72:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):204:getInternal2ExternalRow(selectedIndex.intValue()) |==> 0
+73:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):205:-1 |==> 0
+74:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):205:-1 |==> 1
+75:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):205:i != -1 |==> i < -1
+76:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):205:i != -1 |==> i > -1
+77:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):205:i != -1 |==> true
+78:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@restoreSelection(java.util.Set<java.lang.Integer>):206:table.getSelectionModel().setSelectionInterval(i, i) |==> <NO-OP>
+79:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@getRowCount():213:filteredIndices == null |==> false
+80:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@getRowCount():214:return delegated.getRowCount(); |==> <NO-OP>
+81:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getRowCount():215:filteredIndices.size() |==> 0
+82:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getColumnCount():221:delegated.getColumnCount() |==> 0
+83:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getColumnName(int):227:delegated.getColumnName(columnIndex) |==> null
+84:EVR:<METHOD_INVOCATION(java.lang.Class<capture#620 of ?>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getColumnClass(int):233:delegated.getColumnClass(columnIndex) |==> null
+85:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@isCellEditable(int,int):239:getTrueRow(rowIndex) |==> 0
+86:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@isCellEditable(int,int):240:delegated.isCellEditable(trueRowIndex, columnIndex) |==> false
+87:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getValueAt(int,int):246:getTrueRow(rowIndex) |==> 0
+88:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getValueAt(int,int):247:delegated.getValueAt(trueRowIndex, columnIndex) |==> null
+89:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@setValueAt(java.lang.Object,int,int):253:getTrueRow(rowIndex) |==> 0
+90:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@setValueAt(java.lang.Object,int,int):254:delegated.setValueAt(aValue, trueRowIndex, columnIndex) |==> <NO-OP>
+91:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@getTrueRow(int):266:filteredIndices == null |==> false
+92:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@getTrueRow(int):267:return rowIndex; |==> <NO-OP>
+93:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getTrueRow(int):268:filteredIndices.get(rowIndex).intValue() |==> 0
+94:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):280:invertedIndices == null |==> false
+95:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):281:return internalRowIndex; |==> <NO-OP>
+96:EVR:<METHOD_INVOCATION(java.lang.Integer)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):283:invertedIndices.get(internalRowIndex) |==> null
+97:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):284:externalRowIndex == null |==> false
+98:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):285:-1 |==> 0
+99:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):285:-1 |==> 1
+100:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):285:return Config.__M_NO == 0 && Config.COVERED(98, 99) ? -1 : Config.__M_NO == 99 ? 1 : Config.__M_NO == 98 ? 0 : -1; |==> <NO-OP>
+101:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredTableModel@getInternal2ExternalRow(int):287:externalRowIndex.intValue() |==> 0
+102:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredTableModel@tableChanged(javax.swing.event.TableModelEvent):296:setFilter(filter) |==> <NO-OP>

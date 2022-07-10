@@ -1,0 +1,16 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.FirewallOptionPane@_init():44:addComponent(httpEnabled = new JCheckBox(jEdit.getProperty("options.firewall.http.enabled"))) |==> <NO-OP>
+2:LVR:POS:0:org.gjt.sp.jedit.options.FirewallOptionPane@_init():48:15 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.options.FirewallOptionPane@_init():48:15 |==> -15
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.FirewallOptionPane@_init():47:addComponent(jEdit.getProperty("options.firewall.http.host"), httpHost = new JTextField(jEdit.getProperty("firewall.host"), 15)) |==> <NO-OP>
+5:LVR:POS:0:org.gjt.sp.jedit.options.FirewallOptionPane@_init():51:15 |==> 0
+6:LVR:POS:NEG:org.gjt.sp.jedit.options.FirewallOptionPane@_init():51:15 |==> -15
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.FirewallOptionPane@_init():50:addComponent(jEdit.getProperty("options.firewall.http.port"), httpPort = new JTextField(jEdit.getProperty("firewall.port"), 15)) |==> <NO-OP>
+8:LVR:POS:0:org.gjt.sp.jedit.options.FirewallOptionPane@_init():54:15 |==> 0
+9:LVR:POS:NEG:org.gjt.sp.jedit.options.FirewallOptionPane@_init():54:15 |==> -15
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.FirewallOptionPane@_init():53:addComponent(jEdit.getProperty("options.firewall.http.user"), httpUser = new JTextField(jEdit.getProperty("firewall.user"), 15)) |==> <NO-OP>
+11:LVR:POS:0:org.gjt.sp.jedit.options.FirewallOptionPane@_init():57:15 |==> 0
+12:LVR:POS:NEG:org.gjt.sp.jedit.options.FirewallOptionPane@_init():57:15 |==> -15
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.FirewallOptionPane@_init():56:addComponent(jEdit.getProperty("options.firewall.http.password"), httpPass = new JPasswordField(jEdit.getProperty("firewall.password"), 15)) |==> <NO-OP>
+14:LVR:POS:0:org.gjt.sp.jedit.options.FirewallOptionPane@_init():60:15 |==> 0
+15:LVR:POS:NEG:org.gjt.sp.jedit.options.FirewallOptionPane@_init():60:15 |==> -15
+16:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.options.FirewallOptionPane@_init():59:addComponent(jEdit.getProperty("options.firewall.http.nonProxy"), httpNonProxy = new JTextField(jEdit.getProperty("firewall.nonProxyHosts"), 15)) |==> <NO-OP>

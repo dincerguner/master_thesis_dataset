@@ -117,7 +117,7 @@ public class EditBus
 	 */
 	public static void addToBus(EBComponent comp)
 	{
-		addToBus((Object)comp);
+		;
 	} //}}}
 
 	//{{{ addToBus() method
@@ -137,7 +137,7 @@ public class EditBus
 	 */
 	public static void addToBus(Object comp)
 	{
-		components.addComponent(comp);
+		;
 	} //}}}
 
 	//{{{ removeFromBus() method
@@ -147,7 +147,7 @@ public class EditBus
 	 */
 	public static void removeFromBus(EBComponent comp)
 	{
-		removeFromBus((Object) comp);
+		;
 	} //}}}
 
 	//{{{ removeFromBus() method
@@ -158,7 +158,7 @@ public class EditBus
 	 */
 	public static void removeFromBus(Object comp)
 	{
-		components.removeComponent(comp);
+		;
 	} //}}}
 
 	//{{{ getComponents() method
@@ -170,7 +170,7 @@ public class EditBus
 	@Deprecated
 	public static EBComponent[] getComponents()
 	{
-		return new EBComponent[0];
+		return new EBComponent[1];
 	} //}}}
 
 	//{{{ send() method

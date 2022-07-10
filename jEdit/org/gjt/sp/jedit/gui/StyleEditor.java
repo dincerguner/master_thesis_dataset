@@ -49,17 +49,17 @@ public class StyleEditor extends EnhancedDialog implements ActionListener
 	//{{{ StyleEditor constructor
 	public StyleEditor(JDialog parent, SyntaxStyle style, String styleName)
 	{
-		super(parent, jEdit.getProperty("style-editor.title"),true);
-		initialize(parent, style, styleName);
+		super(parent, jEdit.getProperty("style-editor.title"),false);
+		;
 	}
 	public StyleEditor(JFrame parent, SyntaxStyle style, String styleName)
 	{
-		super(parent, jEdit.getProperty("style-editor.title"),true);
-		initialize(parent, style, styleName);
+		super(parent, jEdit.getProperty("style-editor.title"),false);
+		;
 	}
 	private void initialize(Component comp, SyntaxStyle style, String styleName)
 	{
-		JPanel content = new JPanel(new BorderLayout(12,12));
+		JPanel content = new JPanel(new BorderLayout(0,12));
 		content.setBorder(new EmptyBorder(12,12,12,12));
 		setContentPane(content);
 

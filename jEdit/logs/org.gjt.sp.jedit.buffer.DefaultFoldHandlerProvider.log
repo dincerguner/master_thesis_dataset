@@ -1,0 +1,1 @@
+1:EVR:<NEW_CLASS(java.util.HashMap<java.lang.String,FoldHandler>)>:<DEFAULT>:org.gjt.sp.jedit.buffer.DefaultFoldHandlerProvider:34:new HashMap<String, FoldHandler>() |==> null

@@ -54,7 +54,7 @@ public class ReloadWithEncodingProvider implements ActionListener, DynamicMenuPr
 	//{{{ updateEveryTime() method
 	public boolean updateEveryTime()
 	{
-		return false;
+		return true;
 	} //}}}
 
 	//{{{ update() method

@@ -57,7 +57,7 @@ public class AbbrevsOptionPane extends AbstractOptionPane
 	{
 		setLayout(new BorderLayout());
 
-		JPanel panel = new JPanel(new BorderLayout(6,6));
+		JPanel panel = new JPanel(new BorderLayout(-6,6));
 
 		expandOnInput = new JCheckBox(jEdit.getProperty("options.abbrevs"
 			+ ".expandOnInput"),Abbrevs.getExpandOnInput());

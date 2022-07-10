@@ -44,7 +44,7 @@ public class SelectionLengthWidgetFactory implements StatusWidgetFactory
 	//{{{ getWidget() method
 	public Widget getWidget(View view)
 	{
-		Widget selectionLengthWidget = new SelectionLengthWidget(view);
+		Widget selectionLengthWidget = null;
 		return selectionLengthWidget;
 	} //}}}
 

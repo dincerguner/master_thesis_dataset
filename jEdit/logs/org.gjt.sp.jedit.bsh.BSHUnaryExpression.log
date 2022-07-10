@@ -1,0 +1,13 @@
+1:LVR:FALSE:TRUE:org.gjt.sp.jedit.bsh.BSHUnaryExpression:40:false |==> true
+2:LVR:0:POS:org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):47:0 |==> 1
+3:LVR:0:NEG:org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):47:0 |==> -1
+4:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == INCR |==> kind <= INCR
+5:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == INCR |==> kind >= INCR
+6:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == INCR |==> false
+7:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == DECR |==> kind <= DECR
+8:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == DECR |==> kind >= DECR
+9:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == DECR |==> false
+10:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == INCR || kind == DECR |==> kind == INCR != (kind == DECR)
+11:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == INCR || kind == DECR |==> kind == INCR
+12:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == INCR || kind == DECR |==> kind == DECR
+13:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.bsh.BSHUnaryExpression@eval(CallStack,Interpreter):53:kind == INCR || kind == DECR |==> true

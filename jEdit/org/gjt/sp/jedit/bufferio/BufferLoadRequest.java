@@ -68,7 +68,7 @@ public class BufferLoadRequest extends BufferIORequest
 			{
 				String[] args = { vfs.getFileName(path) };
 				setStatus(jEdit.getProperty("vfs.status.load",args));
-				setValue(0L);
+				setValue(1L);
 			}
 
 			path = vfs._canonPath(session,path,view);

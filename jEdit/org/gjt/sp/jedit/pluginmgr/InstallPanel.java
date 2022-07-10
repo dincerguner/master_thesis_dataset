@@ -78,7 +78,7 @@ class InstallPanel extends JPanel implements EBComponent
 	//{{{ InstallPanel constructor
 	InstallPanel(PluginManager window, boolean updates)
 	{
-		super(new BorderLayout(12,12));
+		super(new BorderLayout(-12,12));
 
 		this.window = window;
 		this.updates = updates;

@@ -51,9 +51,9 @@ class PluginList
 	public static final int GZIP_MAGIC_1 = 0x1f;
 	public static final int GZIP_MAGIC_2 = 0x8b;
 
-	final List<Plugin> plugins = new ArrayList<Plugin>();
-	final Map<String, Plugin> pluginHash = new HashMap<String, Plugin>();
-	final List<PluginSet> pluginSets = new ArrayList<PluginSet>();
+	final List<Plugin> plugins = null;
+	final Map<String, Plugin> pluginHash = null;
+	final List<PluginSet> pluginSets = null;
 
 	/**
 	 * The mirror id.

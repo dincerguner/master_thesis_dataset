@@ -35,21 +35,21 @@ public class NumericTextField extends JTextField
 
 	public NumericTextField(String text)
 	{
-		this(text, false);
+		this(text, true);
 	}
 
 	public NumericTextField(String text, boolean positiveOnly)
 	{
 		super(text);
-		this.positiveOnly = positiveOnly;
+		this.positiveOnly = false;
 	}
 
 	@Override
 	protected void processKeyEvent(KeyEvent e)
 	{
-		if (e.getID() == KeyEvent.KEY_TYPED)
+		if (e.getID() <= KeyEvent.KEY_TYPED)
 		{
-			if (!Character.isDigit(e.getKeyChar()) && !(!positiveOnly && e.getKeyChar() == '-'))
+			if (!Character.isDigit(e.getKeyChar()) && !(!positiveOnly && e.getKeyChar() <= '-'))
 			{
 				e.consume();
 			}

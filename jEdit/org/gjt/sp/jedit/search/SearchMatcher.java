@@ -31,7 +31,7 @@ public abstract class SearchMatcher
 {
 	public SearchMatcher()
 	{
-		returnValue = new Match();
+		;
 	}
 
 	/**

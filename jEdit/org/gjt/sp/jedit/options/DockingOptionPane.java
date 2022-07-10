@@ -101,7 +101,7 @@ public class DockingOptionPane extends AbstractOptionPane
 	private JPanel createDockingOptionsPanel()
 	{
 		JPanel p = new JPanel();
-		p.setLayout(new GridLayout(0, 1));
+		p.setLayout(new GridLayout(1, 1));
 		boolean autoLoadModeLayoutProp = jEdit.getBooleanProperty(
 			AUTO_LOAD_MODE_LAYOUT_PROP, false);
 		autoLoadModeLayout = new JCheckBox(

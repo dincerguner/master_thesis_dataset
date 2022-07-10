@@ -44,7 +44,7 @@ class BSHPrimaryExpression extends SimpleNode
 	public Object eval( CallStack callstack, Interpreter interpreter)  
 		throws EvalError
 	{
-		return eval( false, callstack, interpreter );
+		return eval( true, callstack, interpreter );
 	}
 
 	/**

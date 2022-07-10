@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(java.util.HashSet<java.lang.String>)>:<DEFAULT>:org.gjt.sp.jedit.pluginmgr.InstallPanel:75:new HashSet<String>() |==> null
+2:LVR:POS:0:org.gjt.sp.jedit.pluginmgr.InstallPanel@<init>(PluginManager,boolean):81:12 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.pluginmgr.InstallPanel@<init>(PluginManager,boolean):81:12 |==> -12
+4:LVR:POS:0:org.gjt.sp.jedit.pluginmgr.InstallPanel@<init>(PluginManager,boolean):81:12 |==> 0
+5:LVR:POS:NEG:org.gjt.sp.jedit.pluginmgr.InstallPanel@<init>(PluginManager,boolean):81:12 |==> -12

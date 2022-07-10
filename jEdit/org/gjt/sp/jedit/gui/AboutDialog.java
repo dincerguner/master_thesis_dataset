@@ -38,17 +38,17 @@ public class AboutDialog extends JDialog implements ActionListener
 	//{{{ AboutDialog constructor
 	public AboutDialog(View view)
 	{
-		super(view,jEdit.getProperty("about.title"), true);
-		setResizable(false);
-		JButton closeBtn = new JButton(jEdit.getProperty("common.close"));
-		closeBtn.addActionListener(this);
-		getRootPane().setDefaultButton(closeBtn);
+		super(view,jEdit.getProperty("about.title"), false);
+		setResizable(true);
+		JButton closeBtn = null;
+		;
+		;
 
-		JPanel p = new JPanel(new BorderLayout());
-		final AboutPanel aboutPanel = new AboutPanel();
-		JPanel flowP = new JPanel(new FlowLayout());
-		flowP.add(closeBtn);
-		flowP.add(Box.createRigidArea(new Dimension(40, 40)));
+		JPanel p = null;
+		final AboutPanel aboutPanel = null;
+		JPanel flowP = null;
+		;
+		flowP.add(Box.createRigidArea(new Dimension(0, 40)));
 		Dimension dim = new Dimension(10, 0);
 		p.add(BorderLayout.WEST, Box.createRigidArea(dim));
 		p.add(BorderLayout.EAST, Box.createRigidArea(dim));

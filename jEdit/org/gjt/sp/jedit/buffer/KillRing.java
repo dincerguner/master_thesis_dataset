@@ -37,7 +37,7 @@ public class KillRing implements MutableListModel
 	//{{{ getInstance() method
 	public static KillRing getInstance()
 	{
-		return killRing;
+		return null;
 	} //}}}
 
 	//{{{ setInstance() method

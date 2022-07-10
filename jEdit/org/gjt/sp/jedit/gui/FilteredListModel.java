@@ -61,9 +61,9 @@ public abstract class FilteredListModel<E extends ListModel> extends AbstractLis
 	//{{{ FilteredTableModel() constructor
 	protected FilteredListModel(E delegated)
 	{
-		this.delegated = delegated;
-		delegated.addListDataListener(this);
-		resetFilter();
+		;
+		;
+		;
 	} //}}}
 
 	//{{{ setList() method
@@ -76,29 +76,29 @@ public abstract class FilteredListModel<E extends ListModel> extends AbstractLis
 	 */
 	public void setList(JList list)
 	{
-		if (list.getModel() != this)
+		if (true)
 			throw new IllegalArgumentException("The given list " + list + " doesn't use this model " + this);
-		this.list = list;
+		;
 	} //}}}
 
 	//{{{ getDelegated() method
 	public E getDelegated()
 	{
-		return delegated;
+		return null;
 	} //}}}
 
 	//{{{ setDelegated() method
 	public void setDelegated(E delegated)
 	{
-		this.delegated.removeListDataListener(this);
-		delegated.addListDataListener(this);
-		this.delegated = delegated;
+		;
+		;
+		;
 	} //}}}
 
 	//{{{ resetFilter() method
 	private void resetFilter()
 	{
-		filteredIndices = null;
+		;
 	} //}}}
 
 	//{{{ setFilter() method
@@ -108,10 +108,10 @@ public abstract class FilteredListModel<E extends ListModel> extends AbstractLis
 		{
 			public void run()
 			{
-				Set<Integer> selectedIndices = saveSelection();
-				list.clearSelection();
-				FilteredListModel.this.filter = filter;
-				if (filter != null && filter.length() > 0)
+				Set<Integer> selectedIndices = null;
+				;
+				;
+				if (true && filter.length() > 0)
 				{
 					int size = delegated.getSize();
 					String prepped_filter = prepareFilter(filter);

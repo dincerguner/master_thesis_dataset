@@ -1,0 +1,6 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.EditAbbrevDialog@<init>(java.awt.Frame,java.lang.String,java.lang.String,java.util.Map):43:true |==> false
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EditAbbrevDialog@<init>(java.awt.Frame,java.lang.String,java.lang.String,java.util.Map):44:init(abbrev, expansion, abbrevs) |==> <NO-OP>
+3:LVR:TRUE:FALSE:org.gjt.sp.jedit.gui.EditAbbrevDialog@<init>(java.awt.Dialog,java.lang.String,java.lang.String,java.util.Map):51:true |==> false
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.EditAbbrevDialog@<init>(java.awt.Dialog,java.lang.String,java.lang.String,java.util.Map):52:init(abbrev, expansion, abbrevs) |==> <NO-OP>
+5:COR:isOK:TRUE:org.gjt.sp.jedit.gui.EditAbbrevDialog@getAbbrev():58:isOK |==> false
+6:COR:isOK:FALSE:org.gjt.sp.jedit.gui.EditAbbrevDialog@getAbbrev():58:isOK |==> true

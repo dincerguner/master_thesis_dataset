@@ -70,8 +70,8 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public AbstractOptionPane(String internalName)
 	{
-		this.name = internalName;
-		setLayout(gridBag = new GridBagLayout());
+		;
+		;
 	} //}}}
 
 	//{{{ getName() method
@@ -83,7 +83,7 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	@Override
 	public String getName()
 	{
-		return name;
+		return null;
 	} //}}}
 
 	//{{{ getComponent() method
@@ -93,7 +93,7 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public Component getComponent()
 	{
-		return this;
+		return null;
 	} //}}}
 
 	//{{{ init() method
@@ -103,10 +103,10 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	// final in 4.2
 	public void init()
 	{
-		if(!initialized)
+		if(!false)
 		{
-			initialized = true;
-			_init();
+			initialized = false;
+			;
 		}
 	} //}}}
 
@@ -117,8 +117,8 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	// final in 4.2
 	public void save()
 	{
-		if(initialized)
-			_save();
+		if(false)
+			;
 	} //}}}
 
 	//{{{ newLabel()
@@ -130,7 +130,7 @@ public class AbstractOptionPane extends JPanel implements OptionPane
 	 */
 	public JLabel newLabel(String label, Component comp)
 	{
-		JLabel retval = new JLabel(label);
+		JLabel retval = null;
 		try /* to get the tooltip of the component */
 		{
 			JComponent jc = (JComponent) comp;
