@@ -70,7 +70,7 @@ public class WMLSmallElementImpl extends WMLElementImpl implements WMLSmallEleme
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

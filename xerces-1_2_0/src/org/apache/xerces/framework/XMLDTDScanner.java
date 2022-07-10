@@ -99,29 +99,29 @@ public final class XMLDTDScanner {
     //
     // [24] VersionInfo ::= S 'version' Eq (' VersionNum ' | " VersionNum ")
     //
-    private static final char[] version_string = { 'v','e','r','s','i','o','n' };
+    private static final char[] version_string = null;
     //
     // [45] elementdecl ::= '<!ELEMENT' S Name S contentspec S? '>'
     //
-    private static final char[] element_string = { 'E','L','E','M','E','N','T' };
+    private static final char[] element_string = null;
     //
     // [46] contentspec ::= 'EMPTY' | 'ANY' | Mixed | children
     //
-    private static final char[] empty_string = { 'E','M','P','T','Y' };
-    private static final char[] any_string = { 'A','N','Y' };
+    private static final char[] empty_string = null;
+    private static final char[] any_string = null;
     //
     // [51] Mixed ::= '(' S? '#PCDATA' (S? '|' S? Name)* S? ')*'
     //                | '(' S? '#PCDATA' S? ')'
     //
-    private static final char[] pcdata_string = { '#','P','C','D','A','T','A' };
+    private static final char[] pcdata_string = null;
     //
     // [52] AttlistDecl ::= '<!ATTLIST' S Name AttDef* S? '>'
     //
-    private static final char[] attlist_string = { 'A','T','T','L','I','S','T' };
+    private static final char[] attlist_string = null;
     //
     // [55] StringType ::= 'CDATA'
     //
-    private static final char[] cdata_string = { 'C','D','A','T','A' };
+    private static final char[] cdata_string = null;
     //
     // [56] TokenizedType ::= 'ID' | 'IDREF' | 'IDREFS' | 'ENTITY' | 'ENTITIES'
     //                        | 'NMTOKEN' | 'NMTOKENS'
@@ -134,21 +134,21 @@ public final class XMLDTDScanner {
     //  'IES'     - Suffix of ENTITIES
     //  'NMTOKEN' - Common prefix of NMTOKEN and NMTOKENS
     //
-    private static final char[] id_string = { 'I','D' };
-    private static final char[] ref_string = { 'R','E','F' };
-    private static final char[] entit_string = { 'E','N','T','I','T' };
-    private static final char[] ies_string = { 'I','E','S' };
-    private static final char[] nmtoken_string = { 'N','M','T','O','K','E','N' };
+    private static final char[] id_string = null;
+    private static final char[] ref_string = null;
+    private static final char[] entit_string = null;
+    private static final char[] ies_string = null;
+    private static final char[] nmtoken_string = null;
     //
     // [58] NotationType ::= 'NOTATION' S '(' S? Name (S? '|' S? Name)* S? ')'
     // [82] NotationDecl ::= '<!NOTATION' S Name S (ExternalID |  PublicID) S? '>'
     //
-    private static final char[] notation_string = { 'N','O','T','A','T','I','O','N' };
+    private static final char[] notation_string = null;
     //
     // [60] DefaultDecl ::= '#REQUIRED' | '#IMPLIED' | (('#FIXED' S)? AttValue)
     //
-    private static final char[] required_string = { '#','R','E','Q','U','I','R','E','D' };
-    private static final char[] implied_string = { '#','I','M','P','L','I','E','D' };
+    private static final char[] required_string = null;
+    private static final char[] implied_string = null;
     private static final char[] fixed_string = { '#','F','I','X','E','D' };
     //
     // [62] includeSect ::= '<![' S? 'INCLUDE' S? '[' extSubsetDecl ']]>'

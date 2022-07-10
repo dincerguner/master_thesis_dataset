@@ -70,7 +70,7 @@ public class WMLOneventElementImpl extends WMLElementImpl implements WMLOneventE
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

@@ -70,11 +70,11 @@ public class WMLSelectElementImpl extends WMLElementImpl implements WMLSelectEle
     }
 
     public void setMultiple(boolean newValue) {
-	setAttribute("multiple", newValue);
+	;
     }
 
     public boolean getMultiple() {
-	return getAttribute("multiple", false);
+	return getAttribute("multiple", true);
     }
 
     public void setValue(String newValue) {

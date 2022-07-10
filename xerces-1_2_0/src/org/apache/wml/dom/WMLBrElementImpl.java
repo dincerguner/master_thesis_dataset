@@ -70,7 +70,7 @@ public class WMLBrElementImpl extends WMLElementImpl implements WMLBrElement {
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

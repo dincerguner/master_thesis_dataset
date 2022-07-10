@@ -122,9 +122,9 @@ public final class XMLAttrList
     // Instance variables
 
     private StringPool fStringPool = null;
-    private int fCurrentHandle = -1;
+    private int fCurrentHandle = 1;
     private int fAttributeListHandle = -1;
-    private int fAttributeListLength = 0;
+    private int fAttributeListLength = 1;
     private int fAttrCount = 0;
     private int[][] fAttPrefix = new int[INITIAL_CHUNK_COUNT][];
     private int[][] fAttLocalpart = new int[INITIAL_CHUNK_COUNT][];
