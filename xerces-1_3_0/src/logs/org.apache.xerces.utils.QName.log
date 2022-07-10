@@ -1,0 +1,80 @@
+1:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@<init>():90:clear() |==> <NO-OP>
+2:LVR:NEG:0:org.apache.xerces.utils.QName@<init>(int,int,int):95:-1 |==> 0
+3:LVR:NEG:POS:org.apache.xerces.utils.QName@<init>(int,int,int):95:-1 |==> 1
+4:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@<init>(int,int,int):95:setValues(prefix, localpart, rawname, -1) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@<init>(int,int,int,int):100:setValues(prefix, localpart, rawname, uri) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@<init>(org.apache.xerces.utils.QName):105:setValues(qname) |==> <NO-OP>
+7:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(org.apache.xerces.utils.QName):114:prefix = qname.prefix |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(org.apache.xerces.utils.QName):115:localpart = qname.localpart |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(org.apache.xerces.utils.QName):116:rawname = qname.rawname |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(org.apache.xerces.utils.QName):117:uri = qname.uri |==> <NO-OP>
+11:LVR:NEG:0:org.apache.xerces.utils.QName@setValues(int,int,int):122:-1 |==> 0
+12:LVR:NEG:POS:org.apache.xerces.utils.QName@setValues(int,int,int):122:-1 |==> 1
+13:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@setValues(int,int,int):122:setValues(prefix, localpart, rawname, -1) |==> <NO-OP>
+14:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(int,int,int,int):127:this.prefix = prefix |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(int,int,int,int):128:this.localpart = localpart |==> <NO-OP>
+16:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(int,int,int,int):129:this.rawname = rawname |==> <NO-OP>
+17:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@setValues(int,int,int,int):130:this.uri = uri |==> <NO-OP>
+18:LVR:NEG:0:org.apache.xerces.utils.QName@clear():135:-1 |==> 0
+19:LVR:NEG:POS:org.apache.xerces.utils.QName@clear():135:-1 |==> 1
+20:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@clear():135:prefix = -1 |==> <NO-OP>
+21:LVR:NEG:0:org.apache.xerces.utils.QName@clear():136:-1 |==> 0
+22:LVR:NEG:POS:org.apache.xerces.utils.QName@clear():136:-1 |==> 1
+23:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@clear():136:localpart = -1 |==> <NO-OP>
+24:LVR:NEG:0:org.apache.xerces.utils.QName@clear():137:-1 |==> 0
+25:LVR:NEG:POS:org.apache.xerces.utils.QName@clear():137:-1 |==> 1
+26:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@clear():137:rawname = -1 |==> <NO-OP>
+27:LVR:NEG:0:org.apache.xerces.utils.QName@clear():138:-1 |==> 0
+28:LVR:NEG:POS:org.apache.xerces.utils.QName@clear():138:-1 |==> 1
+29:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.QName@clear():138:uri = -1 |==> <NO-OP>
+30:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.QName@equals(java.lang.Object):147:object != null |==> true
+31:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):147:object != null && object instanceof QName |==> object != null == object instanceof QName
+32:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):147:object != null && object instanceof QName |==> false
+33:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):147:object != null && object instanceof QName |==> object != null
+34:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):147:object != null && object instanceof QName |==> object instanceof QName
+35:EVR:<TYPE_CAST(org.apache.xerces.utils.QName)>:<DEFAULT>:org.apache.xerces.utils.QName@equals(java.lang.Object):148:(QName)object |==> null
+36:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix |==> prefix <= qname.prefix
+37:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix |==> prefix >= qname.prefix
+38:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix |==> false
+39:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):150:localpart == qname.localpart |==> localpart <= qname.localpart
+40:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):150:localpart == qname.localpart |==> localpart >= qname.localpart
+41:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):150:localpart == qname.localpart |==> false
+42:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix && localpart == qname.localpart |==> prefix == qname.prefix == (localpart == qname.localpart)
+43:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix && localpart == qname.localpart |==> false
+44:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix && localpart == qname.localpart |==> prefix == qname.prefix
+45:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):150:prefix == qname.prefix && localpart == qname.localpart |==> localpart == qname.localpart
+46:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):151:rawname == qname.rawname |==> rawname <= qname.rawname
+47:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):151:rawname == qname.rawname |==> rawname >= qname.rawname
+48:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):151:rawname == qname.rawname |==> false
+49:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname |==> (prefix == qname.prefix && localpart == qname.localpart) == (rawname == qname.rawname)
+50:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):150:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname |==> false
+51:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname |==> prefix == qname.prefix && localpart == qname.localpart
+52:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):151:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname |==> rawname == qname.rawname
+53:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):152:uri == qname.uri |==> uri <= qname.uri
+54:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):152:uri == qname.uri |==> uri >= qname.uri
+55:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.QName@equals(java.lang.Object):152:uri == qname.uri |==> false
+56:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname && uri == qname.uri |==> (prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname) == (uri == qname.uri)
+57:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):151:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname && uri == qname.uri |==> false
+58:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):149:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname && uri == qname.uri |==> prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname
+59:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.QName@equals(java.lang.Object):152:prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname && uri == qname.uri |==> uri == qname.uri
+60:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.QName@equals(java.lang.Object):149:return Config.__M_NO == 59 ? uri == qname.uri : Config.__M_NO == 58 ? prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname : Config.__M_NO == 57 ? false : Config.__M_NO == 56 ? (prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname) == (uri == qname.uri) : Config.__M_NO == 0 && Config.COVERED(56, 59) ? prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname && uri == qname.uri : (Config.__M_NO == 52 ? rawname == qname.rawname : Config.__M_NO == 51 ? prefix == qname.prefix && localpart == qname.localpart : Config.__M_NO == 50 ? false : Config.__M_NO == 49 ? (prefix == qname.prefix && localpart == qname.localpart) == (rawname == qname.rawname) : Config.__M_NO == 0 && Config.COVERED(49, 52) ? prefix == qname.prefix && localpart == qname.localpart && rawname == qname.rawname : (Config.__M_NO == 45 ? localpart == qname.localpart : Config.__M_NO == 44 ? prefix == qname.prefix : Config.__M_NO == 43 ? false : Config.__M_NO == 42 ? prefix == qname.prefix == (localpart == qname.localpart) : Config.__M_NO == 0 && Config.COVERED(42, 45) ? prefix == qname.prefix && localpart == qname.localpart : (Config.__M_NO == 38 ? false : Config.__M_NO == 37 ? prefix >= qname.prefix : Config.__M_NO == 36 ? prefix <= qname.prefix : Config.__M_NO == 0 && Config.COVERED(36, 38) ? prefix == qname.prefix : prefix == qname.prefix) && (Config.__M_NO == 41 ? false : Config.__M_NO == 40 ? localpart >= qname.localpart : Config.__M_NO == 39 ? localpart <= qname.localpart : Config.__M_NO == 0 && Config.COVERED(39, 41) ? localpart == qname.localpart : localpart == qname.localpart)) && (Config.__M_NO == 48 ? false : Config.__M_NO == 47 ? rawname >= qname.rawname : Config.__M_NO == 46 ? rawname <= qname.rawname : Config.__M_NO == 0 && Config.COVERED(46, 48) ? rawname == qname.rawname : rawname == qname.rawname)) && (Config.__M_NO == 55 ? false : Config.__M_NO == 54 ? uri >= qname.uri : Config.__M_NO == 53 ? uri <= qname.uri : Config.__M_NO == 0 && Config.COVERED(53, 55) ? uri == qname.uri : uri == qname.uri); |==> <NO-OP>
+61:LVR:FALSE:TRUE:org.apache.xerces.utils.QName@equals(java.lang.Object):154:false |==> true
+62:LVR:POS:0:org.apache.xerces.utils.QName@hashCode():159:16 |==> 0
+63:LVR:POS:NEG:org.apache.xerces.utils.QName@hashCode():159:16 |==> -16
+64:SOR:<<(int,int):>>(int,int):org.apache.xerces.utils.QName@hashCode():159:localpart << 16 |==> localpart >> 16
+65:SOR:<<(int,int):>>>(int,int):org.apache.xerces.utils.QName@hashCode():159:localpart << 16 |==> localpart >>> 16
+66:LOR:|(int,int):&(int,int):org.apache.xerces.utils.QName@hashCode():159:(localpart << 16) | uri |==> (localpart << 16) & uri
+67:LOR:|(int,int):^(int,int):org.apache.xerces.utils.QName@hashCode():159:(localpart << 16) | uri |==> (localpart << 16) ^ uri
+68:EVR:<NEW_CLASS(java.lang.StringBuffer)>:<DEFAULT>:org.apache.xerces.utils.QName@toString():164:new StringBuffer() |==> null
+69:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():165:str.append("prefix: ") |==> <NO-OP>
+70:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():166:str.append(prefix) |==> <NO-OP>
+71:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():167:str.append(", ") |==> <NO-OP>
+72:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():168:str.append("localpart: ") |==> <NO-OP>
+73:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():169:str.append(localpart) |==> <NO-OP>
+74:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():170:str.append(", ") |==> <NO-OP>
+75:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():171:str.append("rawname: ") |==> <NO-OP>
+76:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():172:str.append(rawname) |==> <NO-OP>
+77:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():173:str.append(", ") |==> <NO-OP>
+78:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():174:str.append("uri: ") |==> <NO-OP>
+79:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.QName@toString():175:str.append(uri) |==> <NO-OP>
+80:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.apache.xerces.utils.QName@toString():176:str.toString() |==> null

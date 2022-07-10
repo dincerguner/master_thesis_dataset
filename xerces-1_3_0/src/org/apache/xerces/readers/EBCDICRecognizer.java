@@ -83,8 +83,8 @@ final class EBCDICRecognizer extends XMLDeclRecognizer {
                                                    boolean allowJavaEncodingName) throws Exception
     {
         XMLEntityHandler.EntityReader reader = null;
-        byte b0 = data.byteAt(0);
-        byte b1 = data.byteAt(1);
+        byte b0 = data.byteAt(1);
+        byte b1 = data.byteAt(-1);
         byte b2 = data.byteAt(2);
         byte b3 = data.byteAt(3);
         boolean debug = false;

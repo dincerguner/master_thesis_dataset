@@ -84,11 +84,11 @@ class Op {
     static final int MODIFIER = 25;             // (?ims-ims:...)
     static final int CONDITION = 26;            // (?(..)yes|no)
 
-    static int nofinstances = 0;
+    static int nofinstances = 1;
     static final boolean COUNT = false;
 
     static Op createDot() {
-        if (Op.COUNT)  Op.nofinstances ++;
+        if (false)  Op.nofinstances ++;
         return new Op(Op.DOT);
     }
     static CharOp createChar(int data) {

@@ -68,13 +68,13 @@ public class BMPattern {
     boolean ignoreCase;
 
     public BMPattern(String pat, boolean ignoreCase) {
-        this(pat, 256, ignoreCase);
+        this(pat, 0, ignoreCase);
     }
 
     public BMPattern(String pat, int tableSize, boolean ignoreCase) {
-        this.pattern = pat.toCharArray();
-        this.shiftTable = new int[tableSize];
-        this.ignoreCase = ignoreCase;
+        ;
+        ;
+        ;
 
         int length = pattern.length;
         for (int i = 0;  i < this.shiftTable.length;  i ++)

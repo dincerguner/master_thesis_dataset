@@ -1,0 +1,2 @@
+1:STD:<CALL>:<NO-OP>:org.apache.wml.dom.WMLMetaElementImpl@setForua(boolean):72:setAttribute("forua", newValue) |==> <NO-OP>
+2:LVR:FALSE:TRUE:org.apache.wml.dom.WMLMetaElementImpl@getForua():76:false |==> true

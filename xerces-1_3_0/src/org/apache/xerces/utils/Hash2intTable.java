@@ -67,11 +67,11 @@ public final class Hash2intTable {
     
     private static final int INITIAL_BUCKET_SIZE = 4;
     private static final int HASHTABLE_SIZE = 256;
-    private int[][] fHashTable = new int[HASHTABLE_SIZE][];
+    private int[][] fHashTable = null;
 
 
     public void put(int key1, int key2, int key3, int value) {
-        int hash = (key1+key2+key3+2) % HASHTABLE_SIZE;
+        int hash = (key1 % key2+key3+2) % HASHTABLE_SIZE;
         int[] bucket = fHashTable[hash];
         
         if (bucket == null) {

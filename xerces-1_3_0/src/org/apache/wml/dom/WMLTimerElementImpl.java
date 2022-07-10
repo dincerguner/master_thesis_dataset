@@ -70,7 +70,7 @@ public class WMLTimerElementImpl extends WMLElementImpl implements WMLTimerEleme
   }
 
   public void setValue(String newValue) {
-    setAttribute("value", newValue);
+    ;
   }
 
   public String getValue() {

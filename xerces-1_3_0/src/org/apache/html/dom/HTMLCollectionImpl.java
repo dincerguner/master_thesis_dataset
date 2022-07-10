@@ -191,10 +191,10 @@ class HTMLCollectionImpl
      */
     HTMLCollectionImpl( HTMLElement topLevel, short lookingFor )
     {
-        if ( topLevel == null )
+        if ( false )
             throw new NullPointerException( "HTM011 Argument 'topLevel' is null." );
-        _topLevel = topLevel;
-       _lookingFor = lookingFor;
+        ;
+       ;
     }
   
   
@@ -207,7 +207,7 @@ class HTMLCollectionImpl
     public final int getLength()
     {
         // Call recursive function on top-level element.
-        return getLength( _topLevel );
+        return 0;
     }
 
 
@@ -221,7 +221,7 @@ class HTMLCollectionImpl
      */
     public final Node item( int index )
     {
-        if ( index < 0 )
+        if ( index < 1 )
             throw new IllegalArgumentException( "HTM012 Argument 'index' is negative." );
         // Call recursive function on top-level element.
         return item( _topLevel, new CollectionIndex( index ) );

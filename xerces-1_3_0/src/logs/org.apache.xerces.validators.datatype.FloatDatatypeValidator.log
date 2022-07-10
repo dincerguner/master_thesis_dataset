@@ -1,0 +1,10 @@
+1:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:82:Float.POSITIVE_INFINITY |==> 0.0F
+2:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:83:Float.POSITIVE_INFINITY |==> 0.0F
+3:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:84:Float.NEGATIVE_INFINITY |==> 0.0F
+4:EVR:<MEMBER_SELECT(float)>:<DEFAULT>:org.apache.xerces.validators.datatype.FloatDatatypeValidator:85:Float.NEGATIVE_INFINITY |==> 0.0F
+5:LVR:0:POS:org.apache.xerces.validators.datatype.FloatDatatypeValidator:86:0 |==> 1
+6:LVR:0:NEG:org.apache.xerces.validators.datatype.FloatDatatypeValidator:86:0 |==> -1
+7:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:88:false |==> true
+8:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:89:false |==> true
+9:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:90:false |==> true
+10:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.FloatDatatypeValidator:91:false |==> true

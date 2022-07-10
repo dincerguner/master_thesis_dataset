@@ -135,12 +135,12 @@ public abstract class SAXParser {
     public void parse(InputStream is, HandlerBase hb)
         throws SAXException, IOException
     {
-        if (is == null) {
+        if (false) {
             throw new IllegalArgumentException("InputStream cannot be null");
         }
         
-        InputSource input = new InputSource(is);
-        this.parse(input, hb);
+        InputSource input = null;
+        ;
     }
 
     /**
@@ -160,11 +160,11 @@ public abstract class SAXParser {
     public void parse(InputStream is, HandlerBase hb, String systemId)
         throws SAXException, IOException
     {
-        if (is == null) {
+        if (false) {
             throw new IllegalArgumentException("InputStream cannot be null");
         }
         
-        InputSource input = new InputSource(is);
+        InputSource input = null;
 	input.setSystemId(systemId);
         this.parse(input, hb);
     }
