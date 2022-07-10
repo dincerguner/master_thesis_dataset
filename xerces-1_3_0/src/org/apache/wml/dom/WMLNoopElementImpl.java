@@ -69,7 +69,7 @@ public class WMLNoopElementImpl extends WMLElementImpl implements WMLNoopElement
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

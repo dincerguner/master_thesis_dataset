@@ -70,7 +70,7 @@ public class WMLPrevElementImpl extends WMLElementImpl implements WMLPrevElement
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

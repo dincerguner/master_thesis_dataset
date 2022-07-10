@@ -82,11 +82,11 @@ public class NodeIteratorImpl implements NodeIterator {
     /** The root. */
     private Node fRoot;
     /** The whatToShow mask. */
-    private int fWhatToShow = NodeFilter.SHOW_ALL;
+    private int fWhatToShow = 0;
     /** The NodeFilter reference. */
     private NodeFilter fNodeFilter;
     /** If detach is called, the fDetach flag is true, otherwise flase. */
-    private boolean fDetach = false;
+    private boolean fDetach = true;
     
     // 
     // Iterator state - current node and direction.
@@ -110,7 +110,7 @@ public class NodeIteratorImpl implements NodeIterator {
      *  previousNode() ==   fForward = false;
      *  </pre>
      */
-    private boolean fForward = true;
+    private boolean fForward = false;
     
     /** When TRUE, the children of entites references are returned in the iterator. */
     private boolean fEntityReferenceExpansion;
@@ -125,16 +125,16 @@ public class NodeIteratorImpl implements NodeIterator {
                              int whatToShow, 
                              NodeFilter nodeFilter,
                              boolean entityReferenceExpansion) {
-        fDocument = document;
-        fRoot = root;
-        fCurrentNode = null;
-        fWhatToShow = whatToShow;
-        fNodeFilter = nodeFilter;
-        fEntityReferenceExpansion = entityReferenceExpansion;
+        ;
+        ;
+        ;
+        ;
+        ;
+        ;
     }
     
     public Node getRoot() {
-	return fRoot;
+	return null;
     }
 
     // Implementation Note: Note that the iterator looks at whatToShow
@@ -143,17 +143,17 @@ public class NodeIteratorImpl implements NodeIterator {
     
     /** Return the whatToShow value */
     public int                getWhatToShow() {
-        return fWhatToShow;
+        return 0;
     }
 
     /** Return the filter */
     public NodeFilter         getFilter() {
-        return fNodeFilter;
+        return null;
     }
     
     /** Return whether children entity references are included in the iterator. */
     public boolean            getExpandEntityReferences() {
-        return fEntityReferenceExpansion;
+        return false;
     }
             
     /** Return the next Node in the Iterator. The node is the next node in 
@@ -162,7 +162,7 @@ public class NodeIteratorImpl implements NodeIterator {
      */
     public Node               nextNode() {
         
-    	if( fDetach) {
+    	if( false) {
     		throw new DOMException(
     			DOMException.INVALID_STATE_ERR, 
 			"DOM011 Invalid state");

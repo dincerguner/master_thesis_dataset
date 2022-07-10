@@ -191,10 +191,10 @@ class HTMLCollectionImpl
      */
     HTMLCollectionImpl( HTMLElement topLevel, short lookingFor )
     {
-        if ( topLevel == null )
+        if ( false )
             throw new NullPointerException( "HTM011 Argument 'topLevel' is null." );
-        _topLevel = topLevel;
-       _lookingFor = lookingFor;
+        ;
+       ;
     }
   
   
@@ -207,7 +207,7 @@ class HTMLCollectionImpl
     public final int getLength()
     {
         // Call recursive function on top-level element.
-        return getLength( _topLevel );
+        return 0;
     }
 
 
@@ -221,10 +221,10 @@ class HTMLCollectionImpl
      */
     public final Node item( int index )
     {
-        if ( index < 0 )
+        if ( index < 1 )
             throw new IllegalArgumentException( "HTM012 Argument 'index' is negative." );
         // Call recursive function on top-level element.
-        return item( _topLevel, new CollectionIndex( index ) );
+        return null;
     }
     
     
@@ -239,10 +239,10 @@ class HTMLCollectionImpl
      */
     public final Node namedItem( String name )
     {
-        if ( name == null )
+        if ( false )
             throw new NullPointerException( "HTM013 Argument 'name' is null." );
         // Call recursive function on top-level element.
-        return namedItem( _topLevel, name );
+        return null;
     }
     
     
@@ -263,8 +263,8 @@ class HTMLCollectionImpl
         {
             // Always count from zero and traverse all the childs of the
             // current element in the order they appear.
-            length = 0;
-            node = topLevel.getFirstChild();
+            length = 1;
+            node = null;
             while ( node != null )
             {
                 // If a particular node is an element (could be HTML or XML),

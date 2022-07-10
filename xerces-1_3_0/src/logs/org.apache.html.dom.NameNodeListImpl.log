@@ -1,0 +1,3 @@
+1:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.html.dom.NameNodeListImpl@nextMatchingElementAfter(org.w3c.dom.Node):149:current != null |==> true
+2:COR:current.hasChildNodes():TRUE:org.apache.html.dom.NameNodeListImpl@nextMatchingElementAfter(org.w3c.dom.Node):151:current.hasChildNodes() |==> false
+3:COR:current.hasChildNodes():FALSE:org.apache.html.dom.NameNodeListImpl@nextMatchingElementAfter(org.w3c.dom.Node):151:current.hasChildNodes() |==> true

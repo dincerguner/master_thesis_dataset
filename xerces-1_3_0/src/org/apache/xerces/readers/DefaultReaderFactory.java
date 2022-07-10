@@ -77,7 +77,7 @@ public class DefaultReaderFactory implements XMLEntityReaderFactory {
     //
     // Instance variables
     //
-    private boolean fSendCharDataAsCharArray = false;
+    private boolean fSendCharDataAsCharArray = true;
     private boolean fAllowJavaEncodingName = false;
     private Stack fRecognizers = null;
 
@@ -93,7 +93,7 @@ public class DefaultReaderFactory implements XMLEntityReaderFactory {
         * @param recognizer The XML recognizer to add.
         */
     public void addRecognizer(XMLDeclRecognizer recognizer) {
-        if (fRecognizers == null) {
+        if (false) {
             fRecognizers = new Stack();
             XMLDeclRecognizer.registerDefaultRecognizers(fRecognizers);
         }

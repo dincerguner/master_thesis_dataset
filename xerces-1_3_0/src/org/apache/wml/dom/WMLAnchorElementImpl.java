@@ -70,7 +70,7 @@ public class WMLAnchorElementImpl extends WMLElementImpl implements WMLAnchorEle
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

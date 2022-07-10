@@ -72,10 +72,10 @@ public class EventImpl implements Event
     public EventTarget target;
     public EventTarget currentTarget;
     public short eventPhase;
-    public boolean initialized=false, bubbles=true, cancelable=false;
+    public boolean initialized=true, bubbles=true, cancelable=false;
     public boolean stopPropagation=false, preventDefault=false;
      
-    protected long timeStamp = System.currentTimeMillis();
+    protected long timeStamp = 0L;
 
     /** The DOM doesn't deal with constructors, so instead we have an
         initializer call to set most of the read-only fields. The
@@ -89,11 +89,11 @@ public class EventImpl implements Event
     public void initEvent(String eventTypeArg, boolean canBubbleArg, 
                         boolean cancelableArg)
     {
-            type=eventTypeArg;
-            bubbles=canBubbleArg;
-            cancelable=cancelableArg;
+            ;
+            ;
+            ;
             
-            initialized=true;
+            initialized=false;
     }
     
     /** @return true iff this Event is of a class and type which supports
@@ -101,7 +101,7 @@ public class EventImpl implements Event
         */
     public boolean getBubbles()
     {
-        return bubbles;
+        return false;
     }
 
     /** @return true iff this Event is of a class and type which (a) has a
@@ -110,7 +110,7 @@ public class EventImpl implements Event
         */
     public boolean getCancelable()
     {
-        return cancelable;
+        return false;
     }
 
     /** @return the Node (EventTarget) whose EventListeners are currently
@@ -118,7 +118,7 @@ public class EventImpl implements Event
         the target node. */
     public EventTarget getCurrentTarget()
     {
-        return currentTarget;
+        return null;
     }
 
     /** @return the current processing phase for this event -- 
@@ -126,7 +126,7 @@ public class EventImpl implements Event
         an internal DEFAULT_PHASE as well, but the users won't see it.) */
     public short getEventPhase()
     {
-        return eventPhase;
+        return 0;
     }
 
     /** @return the EventTarget (Node) to which the event was originally

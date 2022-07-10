@@ -1,0 +1,3 @@
+1:STD:<CALL>:<NO-OP>:org.apache.wml.dom.WMLInputElementImpl@setSize(int):73:setAttribute("size", newValue) |==> <NO-OP>
+2:LVR:0:POS:org.apache.wml.dom.WMLInputElementImpl@getSize():77:0 |==> 1
+3:LVR:0:NEG:org.apache.wml.dom.WMLInputElementImpl@getSize():77:0 |==> -1
