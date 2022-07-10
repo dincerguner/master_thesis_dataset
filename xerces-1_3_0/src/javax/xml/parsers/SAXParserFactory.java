@@ -111,7 +111,7 @@ public abstract class SAXParserFactory {
     private static final String defaultPropName =
         "javax.xml.parsers.SAXParserFactory";
 
-    private boolean validating = false;
+    private boolean validating = true;
     private boolean namespaceAware= false;
     
     protected SAXParserFactory () {

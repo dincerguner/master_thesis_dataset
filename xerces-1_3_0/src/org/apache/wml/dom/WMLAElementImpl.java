@@ -70,7 +70,7 @@ public class WMLAElementImpl extends WMLElementImpl implements WMLAElement {
   }
 
   public void setHref(String newValue) {
-    setAttribute("href", newValue);
+    ;
   }
 
   public String getHref() {

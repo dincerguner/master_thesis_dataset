@@ -1,0 +1,93 @@
+1:LVR:0:POS:org.apache.xerces.utils.regex.Op:87:0 |==> 1
+2:LVR:0:NEG:org.apache.xerces.utils.regex.Op:87:0 |==> -1
+3:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createDot():91:Op.COUNT |==> false
+4:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createDot():91:Op.COUNT |==> true
+5:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createDot():91:Op.nofinstances++ |==> <NO-OP>
+6:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createDot():92:new Op(Op.DOT) |==> null
+7:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createChar(int):95:Op.COUNT |==> false
+8:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createChar(int):95:Op.COUNT |==> true
+9:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createChar(int):95:Op.nofinstances++ |==> <NO-OP>
+10:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.CharOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createChar(int):96:new CharOp(Op.CHAR, data) |==> null
+11:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createAnchor(int):99:Op.COUNT |==> false
+12:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createAnchor(int):99:Op.COUNT |==> true
+13:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createAnchor(int):99:Op.nofinstances++ |==> <NO-OP>
+14:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.CharOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createAnchor(int):100:new CharOp(Op.ANCHOR, data) |==> null
+15:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createCapture(int,org.apache.xerces.utils.regex.Op):103:Op.COUNT |==> false
+16:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createCapture(int,org.apache.xerces.utils.regex.Op):103:Op.COUNT |==> true
+17:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createCapture(int,org.apache.xerces.utils.regex.Op):103:Op.nofinstances++ |==> <NO-OP>
+18:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.CharOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createCapture(int,org.apache.xerces.utils.regex.Op):104:new CharOp(Op.CAPTURE, number) |==> null
+19:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op@createCapture(int,org.apache.xerces.utils.regex.Op):105:op.next = next |==> <NO-OP>
+20:EVR:<IDENTIFIER(org.apache.xerces.utils.regex.Op.CharOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createCapture(int,org.apache.xerces.utils.regex.Op):106:op |==> null
+21:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createUnion(int):109:Op.COUNT |==> false
+22:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createUnion(int):109:Op.COUNT |==> true
+23:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createUnion(int):109:Op.nofinstances++ |==> <NO-OP>
+24:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.UnionOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createUnion(int):111:new UnionOp(Op.UNION, size) |==> null
+25:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createClosure(int):114:Op.COUNT |==> false
+26:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createClosure(int):114:Op.COUNT |==> true
+27:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createClosure(int):114:Op.nofinstances++ |==> <NO-OP>
+28:LVR:NEG:0:org.apache.xerces.utils.regex.Op@createClosure(int):115:-1 |==> 0
+29:LVR:NEG:POS:org.apache.xerces.utils.regex.Op@createClosure(int):115:-1 |==> 1
+30:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createNonGreedyClosure():118:Op.COUNT |==> false
+31:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createNonGreedyClosure():118:Op.COUNT |==> true
+32:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createNonGreedyClosure():118:Op.nofinstances++ |==> <NO-OP>
+33:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.ChildOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createNonGreedyClosure():119:new ChildOp(Op.NONGREEDYCLOSURE) |==> null
+34:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createQuestion(boolean):122:Op.COUNT |==> false
+35:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createQuestion(boolean):122:Op.COUNT |==> true
+36:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createQuestion(boolean):122:Op.nofinstances++ |==> <NO-OP>
+37:COR:nongreedy:TRUE:org.apache.xerces.utils.regex.Op@createQuestion(boolean):123:nongreedy |==> false
+38:COR:nongreedy:FALSE:org.apache.xerces.utils.regex.Op@createQuestion(boolean):123:nongreedy |==> true
+39:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createRange(Token):126:Op.COUNT |==> false
+40:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createRange(Token):126:Op.COUNT |==> true
+41:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createRange(Token):126:Op.nofinstances++ |==> <NO-OP>
+42:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.RangeOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createRange(Token):127:new RangeOp(Op.RANGE, tok) |==> null
+43:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createLook(int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):130:Op.COUNT |==> false
+44:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createLook(int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):130:Op.COUNT |==> true
+45:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createLook(int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):130:Op.nofinstances++ |==> <NO-OP>
+46:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.ChildOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createLook(int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):131:new ChildOp(type) |==> null
+47:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Op@createLook(int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):132:op.setChild(branch) |==> <NO-OP>
+48:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op@createLook(int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):133:op.next = next |==> <NO-OP>
+49:EVR:<IDENTIFIER(org.apache.xerces.utils.regex.Op.ChildOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createLook(int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):134:op |==> null
+50:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createBackReference(int):137:Op.COUNT |==> false
+51:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createBackReference(int):137:Op.COUNT |==> true
+52:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createBackReference(int):137:Op.nofinstances++ |==> <NO-OP>
+53:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.CharOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createBackReference(int):138:new CharOp(Op.BACKREFERENCE, refno) |==> null
+54:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createString(java.lang.String):141:Op.COUNT |==> false
+55:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createString(java.lang.String):141:Op.COUNT |==> true
+56:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createString(java.lang.String):141:Op.nofinstances++ |==> <NO-OP>
+57:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.StringOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createString(java.lang.String):142:new StringOp(Op.STRING, literal) |==> null
+58:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createIndependent(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):145:Op.COUNT |==> false
+59:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createIndependent(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):145:Op.COUNT |==> true
+60:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createIndependent(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):145:Op.nofinstances++ |==> <NO-OP>
+61:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.ChildOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createIndependent(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):146:new ChildOp(Op.INDEPENDENT) |==> null
+62:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Op@createIndependent(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):147:op.setChild(branch) |==> <NO-OP>
+63:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op@createIndependent(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):148:op.next = next |==> <NO-OP>
+64:EVR:<IDENTIFIER(org.apache.xerces.utils.regex.Op.ChildOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createIndependent(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):149:op |==> null
+65:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createModifier(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,int,int):152:Op.COUNT |==> false
+66:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createModifier(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,int,int):152:Op.COUNT |==> true
+67:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createModifier(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,int,int):152:Op.nofinstances++ |==> <NO-OP>
+68:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.ModifierOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createModifier(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,int,int):153:new ModifierOp(Op.MODIFIER, add, mask) |==> null
+69:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Op@createModifier(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,int,int):154:op.setChild(branch) |==> <NO-OP>
+70:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op@createModifier(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,int,int):155:op.next = next |==> <NO-OP>
+71:EVR:<IDENTIFIER(org.apache.xerces.utils.regex.Op.ModifierOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createModifier(org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,int,int):156:op |==> null
+72:COR:Op.COUNT:TRUE:org.apache.xerces.utils.regex.Op@createCondition(org.apache.xerces.utils.regex.Op,int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):159:Op.COUNT |==> false
+73:COR:Op.COUNT:FALSE:org.apache.xerces.utils.regex.Op@createCondition(org.apache.xerces.utils.regex.Op,int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):159:Op.COUNT |==> true
+74:STD:<INC>:<NO-OP>:org.apache.xerces.utils.regex.Op@createCondition(org.apache.xerces.utils.regex.Op,int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):159:Op.nofinstances++ |==> <NO-OP>
+75:EVR:<NEW_CLASS(org.apache.xerces.utils.regex.Op.ConditionOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createCondition(org.apache.xerces.utils.regex.Op,int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):160:new ConditionOp(Op.CONDITION, ref, conditionflow, yesflow, noflow) |==> null
+76:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op@createCondition(org.apache.xerces.utils.regex.Op,int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):161:op.next = next |==> <NO-OP>
+77:EVR:<IDENTIFIER(org.apache.xerces.utils.regex.Op.ConditionOp)>:<DEFAULT>:org.apache.xerces.utils.regex.Op@createCondition(org.apache.xerces.utils.regex.Op,int,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op,org.apache.xerces.utils.regex.Op):162:op |==> null
+78:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op@<init>(int):169:this.type = type |==> <NO-OP>
+79:LVR:0:POS:org.apache.xerces.utils.regex.Op@size():173:0 |==> 1
+80:LVR:0:NEG:org.apache.xerces.utils.regex.Op@size():173:0 |==> -1
+81:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op$CharOp@<init>(int,int):200:this.charData = data |==> <NO-OP>
+82:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Op$CharOp@getData():203:this.charData |==> 0
+83:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op$UnionOp@<init>(int,int):212:this.branches = new Vector(size) |==> <NO-OP>
+84:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.regex.Op$UnionOp@addElement(org.apache.xerces.utils.regex.Op):215:this.branches.addElement(op) |==> <NO-OP>
+85:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Op$UnionOp@size():218:this.branches.size() |==> 0
+86:EVR:<TYPE_CAST(org.apache.xerces.utils.regex.Op)>:<DEFAULT>:org.apache.xerces.utils.regex.Op$UnionOp@elementAt(int):221:(Op)this.branches.elementAt(index) |==> null
+87:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op$ChildOp@setChild(org.apache.xerces.utils.regex.Op):232:this.child = child |==> <NO-OP>
+88:EVR:<MEMBER_SELECT(org.apache.xerces.utils.regex.Op)>:<DEFAULT>:org.apache.xerces.utils.regex.Op$ChildOp@getChild():235:this.child |==> null
+89:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op$ModifierOp@<init>(int,int,int):244:this.v1 = v1 |==> <NO-OP>
+90:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op$ModifierOp@<init>(int,int,int):245:this.v2 = v2 |==> <NO-OP>
+91:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Op$ModifierOp@getData():248:this.v1 |==> 0
+92:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.Op$ModifierOp@getData2():251:this.v2 |==> 0
+93:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.Op$RangeOp@<init>(int,Token):259:this.tok = tok |==> <NO-OP>

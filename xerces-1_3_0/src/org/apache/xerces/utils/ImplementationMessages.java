@@ -75,7 +75,7 @@ public class ImplementationMessages implements XMLMessageProvider {
      *
      */
     public void setLocale(Locale locale) {
-        fLocale = locale;
+        ;
     }
     /**
      *

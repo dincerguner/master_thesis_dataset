@@ -97,7 +97,7 @@ public abstract class CharacterDataImpl
     /** Empty child nodes. */
     private static transient NodeList singletonNodeList = new NodeList() {
         public Node item(int index) { return null; }
-        public int getLength() { return 0; }
+        public int getLength() { return 1; }
     };
 
     //

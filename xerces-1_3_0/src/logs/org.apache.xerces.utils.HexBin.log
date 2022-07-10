@@ -1,0 +1,122 @@
+1:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.xerces.utils.HexBin:74:new byte[BASELENGTH] |==> null
+2:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.xerces.utils.HexBin:75:new byte[LOOKUPLENGTH] |==> null
+3:LVR:0:POS:org.apache.xerces.utils.HexBin:79:0 |==> 1
+4:LVR:0:NEG:org.apache.xerces.utils.HexBin:79:0 |==> -1
+5:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.HexBin:79:i < BASELENGTH |==> i != BASELENGTH
+6:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.HexBin:79:i < BASELENGTH |==> i <= BASELENGTH
+7:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.HexBin:79:i < BASELENGTH |==> false
+8:LVR:NEG:0:org.apache.xerces.utils.HexBin:80:-1 |==> 0
+9:LVR:NEG:POS:org.apache.xerces.utils.HexBin:80:-1 |==> 1
+10:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin:80:hexNumberTable[i] = -1 |==> <NO-OP>
+11:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.HexBin:82:i >= '0' |==> i == '0'
+12:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.HexBin:82:i >= '0' |==> i > '0'
+13:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.HexBin:82:i >= '0' |==> true
+14:AOR:-(int,int):%(int,int):org.apache.xerces.utils.HexBin:83:i - '0' |==> i % '0'
+15:AOR:-(int,int):*(int,int):org.apache.xerces.utils.HexBin:83:i - '0' |==> i * '0'
+16:AOR:-(int,int):+(int,int):org.apache.xerces.utils.HexBin:83:i - '0' |==> i + '0'
+17:AOR:-(int,int):/(int,int):org.apache.xerces.utils.HexBin:83:i - '0' |==> i / '0'
+18:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin:83:hexNumberTable[i] = (byte)(i - '0') |==> <NO-OP>
+19:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.HexBin:85:i >= 'A' |==> i == 'A'
+20:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.HexBin:85:i >= 'A' |==> i > 'A'
+21:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.HexBin:85:i >= 'A' |==> true
+22:AOR:-(int,int):%(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' |==> i % 'A'
+23:AOR:-(int,int):*(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' |==> i * 'A'
+24:AOR:-(int,int):+(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' |==> i + 'A'
+25:AOR:-(int,int):/(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' |==> i / 'A'
+26:LVR:POS:0:org.apache.xerces.utils.HexBin:86:10 |==> 0
+27:LVR:POS:NEG:org.apache.xerces.utils.HexBin:86:10 |==> -10
+28:AOR:+(int,int):%(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' + 10 |==> (i - 'A') % 10
+29:AOR:+(int,int):*(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' + 10 |==> (i - 'A') * 10
+30:AOR:+(int,int):-(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' + 10 |==> i - 'A' - 10
+31:AOR:+(int,int):/(int,int):org.apache.xerces.utils.HexBin:86:i - 'A' + 10 |==> (i - 'A') / 10
+32:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin:86:hexNumberTable[i] = (byte)(i - 'A' + 10) |==> <NO-OP>
+33:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.HexBin:88:i >= 'a' |==> i == 'a'
+34:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.HexBin:88:i >= 'a' |==> i > 'a'
+35:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.HexBin:88:i >= 'a' |==> true
+36:AOR:-(int,int):%(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' |==> i % 'a'
+37:AOR:-(int,int):*(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' |==> i * 'a'
+38:AOR:-(int,int):+(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' |==> i + 'a'
+39:AOR:-(int,int):/(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' |==> i / 'a'
+40:LVR:POS:0:org.apache.xerces.utils.HexBin:89:10 |==> 0
+41:LVR:POS:NEG:org.apache.xerces.utils.HexBin:89:10 |==> -10
+42:AOR:+(int,int):%(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' + 10 |==> (i - 'a') % 10
+43:AOR:+(int,int):*(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' + 10 |==> (i - 'a') * 10
+44:AOR:+(int,int):-(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' + 10 |==> i - 'a' - 10
+45:AOR:+(int,int):/(int,int):org.apache.xerces.utils.HexBin:89:i - 'a' + 10 |==> (i - 'a') / 10
+46:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin:89:hexNumberTable[i] = (byte)(i - 'a' + 10) |==> <NO-OP>
+47:LVR:0:POS:org.apache.xerces.utils.HexBin:92:0 |==> 1
+48:LVR:0:NEG:org.apache.xerces.utils.HexBin:92:0 |==> -1
+49:LVR:POS:0:org.apache.xerces.utils.HexBin:92:10 |==> 0
+50:LVR:POS:NEG:org.apache.xerces.utils.HexBin:92:10 |==> -10
+51:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.HexBin:92:i < 10 |==> i != 10
+52:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.HexBin:92:i < 10 |==> i <= 10
+53:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.HexBin:92:i < 10 |==> false
+54:AOR:+(int,int):%(int,int):org.apache.xerces.utils.HexBin:93:'0' + i |==> '0' % i
+55:AOR:+(int,int):*(int,int):org.apache.xerces.utils.HexBin:93:'0' + i |==> '0' * i
+56:AOR:+(int,int):-(int,int):org.apache.xerces.utils.HexBin:93:'0' + i |==> '0' - i
+57:AOR:+(int,int):/(int,int):org.apache.xerces.utils.HexBin:93:'0' + i |==> '0' / i
+58:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin:93:lookUpHexAlphabet[i] = (byte)('0' + i) |==> <NO-OP>
+59:LVR:POS:0:org.apache.xerces.utils.HexBin:94:10 |==> 0
+60:LVR:POS:NEG:org.apache.xerces.utils.HexBin:94:10 |==> -10
+61:LVR:POS:0:org.apache.xerces.utils.HexBin:94:15 |==> 0
+62:LVR:POS:NEG:org.apache.xerces.utils.HexBin:94:15 |==> -15
+63:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.HexBin:94:i <= 15 |==> i < 15
+64:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.HexBin:94:i <= 15 |==> i == 15
+65:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.HexBin:94:i <= 15 |==> true
+66:AOR:+(int,int):%(int,int):org.apache.xerces.utils.HexBin:95:'A' + i |==> 'A' % i
+67:AOR:+(int,int):*(int,int):org.apache.xerces.utils.HexBin:95:'A' + i |==> 'A' * i
+68:AOR:+(int,int):-(int,int):org.apache.xerces.utils.HexBin:95:'A' + i |==> 'A' - i
+69:AOR:+(int,int):/(int,int):org.apache.xerces.utils.HexBin:95:'A' + i |==> 'A' / i
+70:LVR:POS:0:org.apache.xerces.utils.HexBin:95:10 |==> 0
+71:LVR:POS:NEG:org.apache.xerces.utils.HexBin:95:10 |==> -10
+72:AOR:-(int,int):%(int,int):org.apache.xerces.utils.HexBin:95:'A' + i - 10 |==> ('A' + i) % 10
+73:AOR:-(int,int):*(int,int):org.apache.xerces.utils.HexBin:95:'A' + i - 10 |==> ('A' + i) * 10
+74:AOR:-(int,int):+(int,int):org.apache.xerces.utils.HexBin:95:'A' + i - 10 |==> 'A' + i + 10
+75:AOR:-(int,int):/(int,int):org.apache.xerces.utils.HexBin:95:'A' + i - 10 |==> ('A' + i) / 10
+76:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin:95:lookUpHexAlphabet[i] = (byte)('A' + i - 10) |==> <NO-OP>
+77:LVR:NEG:0:org.apache.xerces.utils.HexBin@isHex(byte):106:-1 |==> 0
+78:LVR:NEG:POS:org.apache.xerces.utils.HexBin@isHex(byte):106:-1 |==> 1
+79:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.HexBin@isHex(byte):106:hexNumberTable[octect] != -1 |==> hexNumberTable[octect] < -1
+80:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.HexBin@isHex(byte):106:hexNumberTable[octect] != -1 |==> hexNumberTable[octect] > -1
+81:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.HexBin@isHex(byte):106:hexNumberTable[octect] != -1 |==> true
+82:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):117:arrayOctect.length |==> 0
+83:LVR:0:POS:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):118:0 |==> 1
+84:LVR:0:NEG:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):118:0 |==> -1
+85:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):118:length == 0 |==> length <= 0
+86:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):118:length == 0 |==> length >= 0
+87:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):118:length == 0 |==> false
+88:LVR:FALSE:TRUE:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):119:false |==> true
+89:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):119:return Config.__M_NO == 0 && Config.COVERED(88, 88) ? false : Config.__M_NO == 88 ? true : false; |==> <NO-OP>
+90:LVR:0:POS:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):120:0 |==> 1
+91:LVR:0:NEG:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):120:0 |==> -1
+92:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):120:i < length |==> i != length
+93:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):120:i < length |==> i <= length
+94:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):120:i < length |==> false
+95:LVR:FALSE:TRUE:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):122:false |==> true
+96:ROR:==(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):122:HexBin.isHex(arrayOctect[i]) == false |==> false
+97:ROR:==(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):122:HexBin.isHex(arrayOctect[i]) == false |==> HexBin.isHex(arrayOctect[i])
+98:ROR:==(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):122:HexBin.isHex(arrayOctect[i]) == false |==> false
+99:LVR:FALSE:TRUE:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):123:false |==> true
+100:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):123:return Config.__M_NO == 0 && Config.COVERED(99, 99) ? false : Config.__M_NO == 99 ? true : false; |==> <NO-OP>
+101:LVR:TRUE:FALSE:org.apache.xerces.utils.HexBin@isArrayByteHex(byte[]):126:true |==> false
+102:EVR:<PARENTHESIZED(boolean)>:<DEFAULT>:org.apache.xerces.utils.HexBin@isHex(java.lang.String):130:(isArrayByteHex(isValidString.getBytes())) |==> false
+103:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.HexBin@encode(byte[]):142:binaryData.length |==> 0
+104:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.HexBin@encode(byte[]):143:lengthData |==> 0
+105:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.xerces.utils.HexBin@encode(byte[]):144:new byte[lengthData] |==> null
+106:LVR:0:POS:org.apache.xerces.utils.HexBin@encode(byte[]):145:0 |==> 1
+107:LVR:0:NEG:org.apache.xerces.utils.HexBin@encode(byte[]):145:0 |==> -1
+108:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.HexBin@encode(byte[]):145:i < lengthData |==> i != lengthData
+109:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.HexBin@encode(byte[]):145:i < lengthData |==> i <= lengthData
+110:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.HexBin@encode(byte[]):145:i < lengthData |==> false
+111:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin@encode(byte[]):146:encodedData[i] = lookUpHexAlphabet[binaryData[i]] |==> <NO-OP>
+112:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.xerces.utils.HexBin@encode(byte[]):148:encodedData |==> null
+113:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.HexBin@decode(byte[]):153:binaryData.length |==> 0
+114:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.HexBin@decode(byte[]):154:lengthData |==> 0
+115:EVR:<NEW_ARRAY(byte[])>:<DEFAULT>:org.apache.xerces.utils.HexBin@decode(byte[]):155:new byte[lengthData] |==> null
+116:LVR:0:POS:org.apache.xerces.utils.HexBin@decode(byte[]):156:0 |==> 1
+117:LVR:0:NEG:org.apache.xerces.utils.HexBin@decode(byte[]):156:0 |==> -1
+118:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.HexBin@decode(byte[]):156:i < lengthData |==> i != lengthData
+119:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.HexBin@decode(byte[]):156:i < lengthData |==> i <= lengthData
+120:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.HexBin@decode(byte[]):156:i < lengthData |==> false
+121:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.HexBin@decode(byte[]):157:decodedData[i] = hexNumberTable[binaryData[i]] |==> <NO-OP>
+122:EVR:<IDENTIFIER(byte[])>:<DEFAULT>:org.apache.xerces.utils.HexBin@decode(byte[]):159:decodedData |==> null

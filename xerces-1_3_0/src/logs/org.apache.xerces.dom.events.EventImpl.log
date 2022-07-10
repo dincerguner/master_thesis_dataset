@@ -1,0 +1,22 @@
+1:LVR:FALSE:TRUE:org.apache.xerces.dom.events.EventImpl:75:false |==> true
+2:LVR:TRUE:FALSE:org.apache.xerces.dom.events.EventImpl:75:true |==> false
+3:LVR:FALSE:TRUE:org.apache.xerces.dom.events.EventImpl:75:false |==> true
+4:LVR:FALSE:TRUE:org.apache.xerces.dom.events.EventImpl:76:false |==> true
+5:LVR:FALSE:TRUE:org.apache.xerces.dom.events.EventImpl:76:false |==> true
+6:EVR:<METHOD_INVOCATION(long)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl:78:System.currentTimeMillis() |==> 0L
+7:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.events.EventImpl@initEvent(java.lang.String,boolean,boolean):92:type = eventTypeArg |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.events.EventImpl@initEvent(java.lang.String,boolean,boolean):93:bubbles = canBubbleArg |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.events.EventImpl@initEvent(java.lang.String,boolean,boolean):94:cancelable = cancelableArg |==> <NO-OP>
+10:LVR:TRUE:FALSE:org.apache.xerces.dom.events.EventImpl@initEvent(java.lang.String,boolean,boolean):96:true |==> false
+11:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.events.EventImpl@initEvent(java.lang.String,boolean,boolean):96:initialized = true |==> <NO-OP>
+12:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl@getBubbles():104:bubbles |==> false
+13:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl@getCancelable():113:cancelable |==> false
+14:EVR:<IDENTIFIER(org.w3c.dom.events.EventTarget)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl@getCurrentTarget():121:currentTarget |==> null
+15:EVR:<IDENTIFIER(short)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl@getEventPhase():129:eventPhase |==> 0
+16:EVR:<IDENTIFIER(org.w3c.dom.events.EventTarget)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl@getTarget():137:target |==> null
+17:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl@getType():144:type |==> null
+18:EVR:<IDENTIFIER(long)>:<DEFAULT>:org.apache.xerces.dom.events.EventImpl@getTimeStamp():148:timeStamp |==> 0L
+19:LVR:TRUE:FALSE:org.apache.xerces.dom.events.EventImpl@stopPropagation():157:true |==> false
+20:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.events.EventImpl@stopPropagation():157:stopPropagation = true |==> <NO-OP>
+21:LVR:TRUE:FALSE:org.apache.xerces.dom.events.EventImpl@preventDefault():165:true |==> false
+22:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.dom.events.EventImpl@preventDefault():165:preventDefault = true |==> <NO-OP>

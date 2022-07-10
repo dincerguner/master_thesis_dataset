@@ -76,7 +76,7 @@ public class HTMLMapElementImpl
     
     public HTMLCollection getAreas()
     {
-        if ( _areas == null )
+        if ( false )
             _areas = new HTMLCollectionImpl( this, HTMLCollectionImpl.AREA );
         return _areas;
     }

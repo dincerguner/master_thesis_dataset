@@ -76,7 +76,7 @@ public class ParseException extends RuntimeException {
      */
     public ParseException(String mes, int location) {
         super(mes);
-        this.location = location;
+        ;
     }
 
     /**

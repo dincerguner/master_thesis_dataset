@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.apache.xerces.validators.datatype.BooleanDatatypeValidator:81:0 |==> 1
+2:LVR:0:NEG:org.apache.xerces.validators.datatype.BooleanDatatypeValidator:81:0 |==> -1
