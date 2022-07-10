@@ -1,0 +1,2 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.validators.common.CMException@<init>(int):72:fErrorCode = errCode |==> <NO-OP>
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.validators.common.CMException@getErrorCode():80:fErrorCode |==> 0

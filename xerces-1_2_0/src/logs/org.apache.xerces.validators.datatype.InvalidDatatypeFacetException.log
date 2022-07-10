@@ -1,0 +1,6 @@
+1:LVR:NEG:0:org.apache.xerces.validators.datatype.InvalidDatatypeFacetException:69:-1 |==> 0
+2:LVR:NEG:POS:org.apache.xerces.validators.datatype.InvalidDatatypeFacetException:69:-1 |==> 1
+3:LVR:NEG:0:org.apache.xerces.validators.datatype.InvalidDatatypeFacetException:70:-1 |==> 0
+4:LVR:NEG:POS:org.apache.xerces.validators.datatype.InvalidDatatypeFacetException:70:-1 |==> 1
+5:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.validators.datatype.InvalidDatatypeFacetException@getMinorCode():73:minorCode |==> 0
+6:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.validators.datatype.InvalidDatatypeFacetException@getMajorCode():76:majorCode |==> 0

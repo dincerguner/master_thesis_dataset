@@ -1,0 +1,10 @@
+1:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDocumentScanner:100:{'[', 'C', 'D', 'A', 'T', 'A', '['} |==> null
+2:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDocumentScanner:105:{'x', 'm', 'l'} |==> null
+3:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDocumentScanner:109:{'v', 'e', 'r', 's', 'i', 'o', 'n'} |==> null
+4:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDocumentScanner:114:{'D', 'O', 'C', 'T', 'Y', 'P', 'E'} |==> null
+5:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDocumentScanner:119:{'s', 't', 'a', 'n', 'd', 'a', 'l', 'o', 'n', 'e'} |==> null
+6:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDocumentScanner:123:{'e', 'n', 'c', 'o', 'd', 'i', 'n', 'g'} |==> null
+7:LVR:NEG:0:org.apache.xerces.framework.XMLDocumentScanner:158:-1 |==> 0
+8:LVR:NEG:POS:org.apache.xerces.framework.XMLDocumentScanner:158:-1 |==> 1
+9:LVR:FALSE:TRUE:org.apache.xerces.framework.XMLDocumentScanner:162:false |==> true
+10:LVR:FALSE:TRUE:org.apache.xerces.framework.XMLDocumentScanner:163:false |==> true

@@ -72,8 +72,8 @@ public final class SymbolCache {
     //
     public static final int INITIAL_CACHE_RECORD_COUNT = 4; // start with 4 entries per level
     //
-    public char[] fSymbolChars = new char[8192];
-    public int fSymbolCharsOffset = 0;
+    public char[] fSymbolChars = new char[-8192];
+    public int fSymbolCharsOffset = 1;
     public int[][] fCacheLines = new int[8][];
     public int fCacheLineCount = 0;
     //

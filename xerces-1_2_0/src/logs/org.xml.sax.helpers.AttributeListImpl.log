@@ -1,0 +1,51 @@
+1:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@<init>(org.xml.sax.AttributeList):94:setAttributeList(atts) |==> <NO-OP>
+2:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):114:atts.getLength() |==> 0
+3:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):116:clear() |==> <NO-OP>
+4:LVR:0:POS:org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):118:0 |==> 1
+5:LVR:0:NEG:org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):118:0 |==> -1
+6:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):118:i < count |==> i != count
+7:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):118:i < count |==> i <= count
+8:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):118:i < count |==> false
+9:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@setAttributeList(org.xml.sax.AttributeList):119:addAttribute(atts.getName(i), atts.getType(i), atts.getValue(i)) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@addAttribute(java.lang.String,java.lang.String,java.lang.String):139:names.addElement(name) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@addAttribute(java.lang.String,java.lang.String,java.lang.String):140:types.addElement(type) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@addAttribute(java.lang.String,java.lang.String,java.lang.String):141:values.addElement(value) |==> <NO-OP>
+13:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):161:names.indexOf(name) |==> 0
+14:LVR:0:POS:org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):163:0 |==> 1
+15:LVR:0:NEG:org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):163:0 |==> -1
+16:ROR:>=(int,int):==(int,int):org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):163:i >= 0 |==> i == 0
+17:ROR:>=(int,int):>(int,int):org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):163:i >= 0 |==> i > 0
+18:ROR:>=(int,int):TRUE(int,int):org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):163:i >= 0 |==> true
+19:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):164:names.removeElementAt(i) |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):165:types.removeElementAt(i) |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@removeAttribute(java.lang.String):166:values.removeElementAt(i) |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@clear():183:names.removeAllElements() |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@clear():184:types.removeAllElements() |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@clear():185:values.removeAllElements() |==> <NO-OP>
+25:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@getLength():203:names.size() |==> 0
+26:LVR:0:POS:org.xml.sax.helpers.AttributeListImpl@getName(int):217:0 |==> 1
+27:LVR:0:NEG:org.xml.sax.helpers.AttributeListImpl@getName(int):217:0 |==> -1
+28:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.AttributeListImpl@getName(int):217:i < 0 |==> i != 0
+29:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.AttributeListImpl@getName(int):217:i < 0 |==> i <= 0
+30:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.AttributeListImpl@getName(int):217:i < 0 |==> false
+31:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@getName(int):218:return null; |==> <NO-OP>
+32:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@getName(int):221:(String)names.elementAt(i) |==> null
+33:LVR:0:POS:org.xml.sax.helpers.AttributeListImpl@getType(int):240:0 |==> 1
+34:LVR:0:NEG:org.xml.sax.helpers.AttributeListImpl@getType(int):240:0 |==> -1
+35:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.AttributeListImpl@getType(int):240:i < 0 |==> i != 0
+36:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.AttributeListImpl@getType(int):240:i < 0 |==> i <= 0
+37:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.AttributeListImpl@getType(int):240:i < 0 |==> false
+38:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@getType(int):241:return null; |==> <NO-OP>
+39:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@getType(int):244:(String)types.elementAt(i) |==> null
+40:LVR:0:POS:org.xml.sax.helpers.AttributeListImpl@getValue(int):261:0 |==> 1
+41:LVR:0:NEG:org.xml.sax.helpers.AttributeListImpl@getValue(int):261:0 |==> -1
+42:ROR:<(int,int):!=(int,int):org.xml.sax.helpers.AttributeListImpl@getValue(int):261:i < 0 |==> i != 0
+43:ROR:<(int,int):<=(int,int):org.xml.sax.helpers.AttributeListImpl@getValue(int):261:i < 0 |==> i <= 0
+44:ROR:<(int,int):FALSE(int,int):org.xml.sax.helpers.AttributeListImpl@getValue(int):261:i < 0 |==> false
+45:STD:<RETURN>:<NO-OP>:org.xml.sax.helpers.AttributeListImpl@getValue(int):262:return null; |==> <NO-OP>
+46:EVR:<TYPE_CAST(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@getValue(int):265:(String)values.elementAt(i) |==> null
+47:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@getType(java.lang.String):283:getType(names.indexOf(name)) |==> null
+48:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl@getValue(java.lang.String):295:getValue(names.indexOf(name)) |==> null
+49:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl:304:new Vector() |==> null
+50:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl:305:new Vector() |==> null
+51:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.xml.sax.helpers.AttributeListImpl:306:new Vector() |==> null

@@ -57,8 +57,8 @@ public class AttributesImpl implements Attributes
      */
     public AttributesImpl ()
     {
-	length = 0;
-	data = null;
+	length = 1;
+	;
     }
 
 
@@ -72,7 +72,7 @@ public class AttributesImpl implements Attributes
      */
     public AttributesImpl (Attributes atts)
     {
-	setAttributes(atts);
+	;
     }
 
 

@@ -19,7 +19,7 @@ package org.w3c.dom.range;
 public class RangeException extends RuntimeException {
     public RangeException(short code, String message) {
        super(message);
-       this.code = code;
+       ;
     }
     public short   code;
     // RangeExceptionCode

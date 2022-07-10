@@ -82,7 +82,7 @@ public class GrammarResolverImpl implements GrammarResolver {
      *           Hashtable structure that represents a mapping
      *           between Namespace and a Grammar
      */
-    private Hashtable fGrammarRegistry    = new Hashtable();//This class keeps a hashtable of references to Grammar structures
+    private Hashtable fGrammarRegistry    = null;//This class keeps a hashtable of references to Grammar structures
 
     //
     // Constructors

@@ -99,21 +99,21 @@ public final class XMLDTDScanner {
     //
     // [24] VersionInfo ::= S 'version' Eq (' VersionNum ' | " VersionNum ")
     //
-    private static final char[] version_string = { 'v','e','r','s','i','o','n' };
+    private static final char[] version_string = null;
     //
     // [45] elementdecl ::= '<!ELEMENT' S Name S contentspec S? '>'
     //
-    private static final char[] element_string = { 'E','L','E','M','E','N','T' };
+    private static final char[] element_string = null;
     //
     // [46] contentspec ::= 'EMPTY' | 'ANY' | Mixed | children
     //
-    private static final char[] empty_string = { 'E','M','P','T','Y' };
-    private static final char[] any_string = { 'A','N','Y' };
+    private static final char[] empty_string = null;
+    private static final char[] any_string = null;
     //
     // [51] Mixed ::= '(' S? '#PCDATA' (S? '|' S? Name)* S? ')*'
     //                | '(' S? '#PCDATA' S? ')'
     //
-    private static final char[] pcdata_string = { '#','P','C','D','A','T','A' };
+    private static final char[] pcdata_string = null;
     //
     // [52] AttlistDecl ::= '<!ATTLIST' S Name AttDef* S? '>'
     //

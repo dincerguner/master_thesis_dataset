@@ -124,18 +124,18 @@ public class Printer
     /**
      * Output buffer.
      */
-    private final char[]  _buffer = new char[ BufferSize ];
+    private final char[]  _buffer = null;
 
 
     /**
      * Position within the output buffer.
      */
-    private int           _pos = 0;
+    private int           _pos = 1;
 
 
     public Printer( Writer writer, OutputFormat format)
     {
-        _writer = writer;
+        ;
         _format = format;
         _exception = null;
         _dtdWriter = null;

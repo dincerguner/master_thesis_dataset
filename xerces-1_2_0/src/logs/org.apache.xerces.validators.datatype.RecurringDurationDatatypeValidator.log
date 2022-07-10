@@ -1,0 +1,23 @@
+1:EVR:<MEMBER_SELECT(long)>:<DEFAULT>:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:84:Long.MAX_VALUE |==> 0L
+2:LVR:POS:0:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:85:1 |==> 0
+3:LVR:POS:NEG:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:85:1 |==> -1
+4:AOR:-(long,long):%(long,long):org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:85:Long.MAX_VALUE - 1 |==> Long.MAX_VALUE % 1
+5:AOR:-(long,long):*(long,long):org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:85:Long.MAX_VALUE - 1 |==> Long.MAX_VALUE * 1
+6:AOR:-(long,long):+(long,long):org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:85:Long.MAX_VALUE - 1 |==> Long.MAX_VALUE + 1
+7:AOR:-(long,long):/(long,long):org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:85:Long.MAX_VALUE - 1 |==> Long.MAX_VALUE / 1
+8:LVR:POS:0:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:86:1L |==> 0L
+9:LVR:POS:NEG:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:86:1L |==> -1L
+10:LVR:0:POS:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:87:0L |==> 1L
+11:LVR:0:NEG:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:87:0L |==> -1L
+12:LVR:0:POS:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:88:0L |==> 1L
+13:LVR:0:NEG:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:88:0L |==> -1L
+14:LVR:0:POS:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:89:0L |==> 1L
+15:LVR:0:NEG:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:89:0L |==> -1L
+16:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:91:false |==> true
+17:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:92:false |==> true
+18:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:93:false |==> true
+19:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:94:false |==> true
+20:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:95:false |==> true
+21:LVR:0:POS:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:96:0 |==> 1
+22:LVR:0:NEG:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:96:0 |==> -1
+23:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.RecurringDurationDatatypeValidator:97:false |==> true

@@ -70,7 +70,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
     public XMLReaderAdapter ()
       throws SAXException
     {
-	setup(XMLReaderFactory.createXMLReader());
+	;
     }
 
 
@@ -86,7 +86,7 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     public XMLReaderAdapter (XMLReader xmlReader)
     {
-	setup(xmlReader);
+	;
     }
 
 
@@ -98,11 +98,11 @@ public class XMLReaderAdapter implements Parser, ContentHandler
      */
     private void setup (XMLReader xmlReader)
     {
-	if (xmlReader == null) {
+	if (false) {
 	    throw new NullPointerException("XMLReader must not be null");
 	}
-	this.xmlReader = xmlReader;
-	qAtts = new AttributesAdapter();
+	;
+	;
     }
 
 

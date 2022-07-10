@@ -1,0 +1,16 @@
+1:LVR:TRUE:FALSE:org.apache.xml.serialize.XHTMLSerializer@<init>():89:true |==> false
+2:LVR:FALSE:TRUE:org.apache.xml.serialize.XHTMLSerializer@<init>():89:false |==> true
+3:LVR:TRUE:FALSE:org.apache.xml.serialize.XHTMLSerializer@<init>(OutputFormat):100:true |==> false
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.XHTMLSerializer@<init>(OutputFormat):100:format != null |==> true
+5:LVR:FALSE:TRUE:org.apache.xml.serialize.XHTMLSerializer@<init>(OutputFormat):100:false |==> true
+6:LVR:TRUE:FALSE:org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.Writer,OutputFormat):114:true |==> false
+7:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.Writer,OutputFormat):114:format != null |==> true
+8:LVR:FALSE:TRUE:org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.Writer,OutputFormat):114:false |==> true
+9:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.Writer,OutputFormat):115:setOutputCharStream(writer) |==> <NO-OP>
+10:LVR:TRUE:FALSE:org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.OutputStream,OutputFormat):129:true |==> false
+11:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.OutputStream,OutputFormat):129:format != null |==> true
+12:LVR:FALSE:TRUE:org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.OutputStream,OutputFormat):129:false |==> true
+13:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.XHTMLSerializer@<init>(java.io.OutputStream,OutputFormat):130:setOutputByteStream(output) |==> <NO-OP>
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xml.serialize.XHTMLSerializer@setOutputFormat(OutputFormat):136:format != null |==> true
+15:LVR:FALSE:TRUE:org.apache.xml.serialize.XHTMLSerializer@setOutputFormat(OutputFormat):136:false |==> true
+16:STD:<CALL>:<NO-OP>:org.apache.xml.serialize.XHTMLSerializer@setOutputFormat(OutputFormat):136:super.setOutputFormat(format != null ? format : new OutputFormat(Method.XHTML, null, false)) |==> <NO-OP>

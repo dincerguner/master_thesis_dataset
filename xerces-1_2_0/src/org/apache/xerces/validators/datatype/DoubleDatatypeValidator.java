@@ -77,9 +77,9 @@ public class DoubleDatatypeValidator extends AbstractDatatypeValidator {
     private boolean           fDerivedByList = false; //Derived by restriction is defaul
     private double[]          fEnumDoubles      = null;
     private String            fPattern          = null;
-    private double            fMaxInclusive     = Double.MAX_VALUE;
+    private double            fMaxInclusive     = 0.0;
     private double            fMaxExclusive     = Double.MAX_VALUE;
-    private double            fMinInclusive     = Double.MIN_VALUE;
+    private double            fMinInclusive     = 0.0;
     private double            fMinExclusive     = Double.MIN_VALUE;
     private int               fFacetsDefined    = 0;
 

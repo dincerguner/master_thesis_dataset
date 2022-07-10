@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.apache.xerces.validators.datatype.AbstractDatatypeValidator@compare(java.lang.String,java.lang.String):136:0 |==> 1
+2:LVR:0:NEG:org.apache.xerces.validators.datatype.AbstractDatatypeValidator@compare(java.lang.String,java.lang.String):136:0 |==> -1

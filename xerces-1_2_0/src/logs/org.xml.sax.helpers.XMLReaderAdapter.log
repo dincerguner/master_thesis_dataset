@@ -1,0 +1,33 @@
+1:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@<init>():73:setup(XMLReaderFactory.createXMLReader()) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@<init>(org.xml.sax.XMLReader):89:setup(xmlReader) |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.xml.sax.helpers.XMLReaderAdapter@setup(org.xml.sax.XMLReader):101:xmlReader == null |==> false
+4:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setup(org.xml.sax.XMLReader):104:this.xmlReader = xmlReader |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setup(org.xml.sax.XMLReader):105:qAtts = new AttributesAdapter() |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setEntityResolver(org.xml.sax.EntityResolver):139:xmlReader.setEntityResolver(resolver) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setDTDHandler(org.xml.sax.DTDHandler):151:xmlReader.setDTDHandler(handler) |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setDocumentHandler(org.xml.sax.DocumentHandler):166:documentHandler = handler |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setErrorHandler(org.xml.sax.ErrorHandler):178:xmlReader.setErrorHandler(handler) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@parse(java.lang.String):200:parse(new InputSource(systemId)) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@parse(org.xml.sax.InputSource):222:setupXMLReader() |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@parse(org.xml.sax.InputSource):223:xmlReader.parse(input) |==> <NO-OP>
+13:LVR:TRUE:FALSE:org.xml.sax.helpers.XMLReaderAdapter@setupXMLReader():233:true |==> false
+14:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setupXMLReader():233:xmlReader.setFeature("http://xml.org/sax/features/namespace-prefixes", true) |==> <NO-OP>
+15:LVR:FALSE:TRUE:org.xml.sax.helpers.XMLReaderAdapter@setupXMLReader():236:false |==> true
+16:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setupXMLReader():235:xmlReader.setFeature("http://xml.org/sax/features/namespaces", false) |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setupXMLReader():240:xmlReader.setContentHandler(this) |==> <NO-OP>
+18:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@setDocumentLocator(org.xml.sax.Locator):258:documentHandler.setDocumentLocator(locator) |==> <NO-OP>
+19:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@startDocument():272:documentHandler.startDocument() |==> <NO-OP>
+20:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@endDocument():286:documentHandler.endDocument() |==> <NO-OP>
+21:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes):328:qAtts.setAttributes(atts) |==> <NO-OP>
+22:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes):329:documentHandler.startElement(qName, qAtts) |==> <NO-OP>
+23:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@endElement(java.lang.String,java.lang.String,java.lang.String):347:documentHandler.endElement(qName) |==> <NO-OP>
+24:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@characters(char[],int,int):364:documentHandler.characters(ch, start, length) |==> <NO-OP>
+25:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@ignorableWhitespace(char[],int,int):381:documentHandler.ignorableWhitespace(ch, start, length) |==> <NO-OP>
+26:STD:<CALL>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter@processingInstruction(java.lang.String,java.lang.String):397:documentHandler.processingInstruction(target, data) |==> <NO-OP>
+27:STD:<ASSIGN>:<NO-OP>:org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter@setAttributes(org.xml.sax.Attributes):446:this.attributes = attributes |==> <NO-OP>
+28:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter@getLength():458:attributes.getLength() |==> 0
+29:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter@getName(int):470:attributes.getQName(i) |==> null
+30:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter@getType(int):482:attributes.getType(i) |==> null
+31:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter@getValue(int):494:attributes.getValue(i) |==> null
+32:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter@getType(java.lang.String):506:attributes.getType(qName) |==> null
+33:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.xml.sax.helpers.XMLReaderAdapter$AttributesAdapter@getValue(java.lang.String):518:attributes.getValue(qName) |==> null

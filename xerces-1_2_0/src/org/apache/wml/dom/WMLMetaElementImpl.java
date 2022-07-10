@@ -69,11 +69,11 @@ public class WMLMetaElementImpl extends WMLElementImpl implements WMLMetaElement
     }
 
     public void setForua(boolean newValue) {
-	setAttribute("forua", newValue);
+	;
     }
 
     public boolean getForua() {
-	return getAttribute("forua", false);
+	return getAttribute("forua", true);
     }
 
     public void setScheme(String newValue) {

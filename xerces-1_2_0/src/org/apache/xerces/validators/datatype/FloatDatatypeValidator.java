@@ -79,9 +79,9 @@ public class FloatDatatypeValidator extends AbstractDatatypeValidator {
     private float[]   fEnumFloats           = null;
     private String    fPattern              = null;
     private boolean   fDerivedByList     = false; // Default is restriction
-    private float     fMaxInclusive         = Float.MAX_VALUE;
+    private float     fMaxInclusive         = 0.0F;
     private float     fMaxExclusive         = Float.MAX_VALUE;
-    private float     fMinInclusive         = Float.MIN_VALUE;
+    private float     fMinInclusive         = 0.0F;
     private float     fMinExclusive         = Float.MIN_VALUE;
     private int       fFacetsDefined        = 0;
 

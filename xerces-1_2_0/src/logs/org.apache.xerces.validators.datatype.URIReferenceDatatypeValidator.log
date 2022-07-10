@@ -1,0 +1,9 @@
+1:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:84:false |==> true
+2:LVR:0:POS:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:86:0 |==> 1
+3:LVR:0:NEG:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:86:0 |==> -1
+4:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:87:Integer.MAX_VALUE |==> 0
+5:LVR:0:POS:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:88:0 |==> 1
+6:LVR:0:NEG:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:88:0 |==> -1
+7:LVR:0:POS:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:91:0 |==> 1
+8:LVR:0:NEG:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator:91:0 |==> -1
+9:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.URIReferenceDatatypeValidator@<init>():97:false |==> true

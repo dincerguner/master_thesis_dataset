@@ -1,0 +1,419 @@
+1:LVR:POS:0:org.apache.xerces.utils.SymbolCache:75:8192 |==> 0
+2:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache:75:8192 |==> -8192
+3:LVR:0:POS:org.apache.xerces.utils.SymbolCache:76:0 |==> 1
+4:LVR:0:NEG:org.apache.xerces.utils.SymbolCache:76:0 |==> -1
+5:LVR:POS:0:org.apache.xerces.utils.SymbolCache:77:8 |==> 0
+6:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache:77:8 |==> -8
+7:LVR:0:POS:org.apache.xerces.utils.SymbolCache:78:0 |==> 1
+8:LVR:0:NEG:org.apache.xerces.utils.SymbolCache:78:0 |==> -1
+9:LVR:POS:0:org.apache.xerces.utils.SymbolCache@<init>():83:1 |==> 0
+10:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@<init>():83:1 |==> -1
+11:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT % CACHE_RECORD_SIZE
+12:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT + CACHE_RECORD_SIZE
+13:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT - CACHE_RECORD_SIZE
+14:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT / CACHE_RECORD_SIZE
+15:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 % (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+16:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 * (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+17:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 - (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+18:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@<init>():83:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 / (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+19:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@<init>():83:fCacheLines[fCacheLineCount++] = new int[1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)] |==> <NO-OP>
+20:LVR:0:POS:org.apache.xerces.utils.SymbolCache@reset():86:0 |==> 1
+21:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@reset():86:0 |==> -1
+22:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@reset():86:fSymbolCharsOffset = 0 |==> <NO-OP>
+23:LVR:0:POS:org.apache.xerces.utils.SymbolCache@reset():87:0 |==> 1
+24:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@reset():87:0 |==> -1
+25:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@reset():87:fCacheLineCount = 0 |==> <NO-OP>
+26:LVR:POS:0:org.apache.xerces.utils.SymbolCache@reset():88:1 |==> 0
+27:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@reset():88:1 |==> -1
+28:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@reset():88:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT % CACHE_RECORD_SIZE
+29:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@reset():88:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT + CACHE_RECORD_SIZE
+30:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@reset():88:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT - CACHE_RECORD_SIZE
+31:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@reset():88:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT / CACHE_RECORD_SIZE
+32:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@reset():88:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 % (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+33:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@reset():88:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 * (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+34:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@reset():88:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 - (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+35:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@reset():88:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 / (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+36:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@reset():88:fCacheLines[fCacheLineCount++] = new int[1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)] |==> <NO-OP>
+37:EVR:<IDENTIFIER(char[])>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@getSymbolChars():94:fSymbolChars |==> null
+38:AOR:-(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):100:fSymbolCharsOffset - startOffset |==> fSymbolCharsOffset % startOffset
+39:AOR:-(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):100:fSymbolCharsOffset - startOffset |==> fSymbolCharsOffset * startOffset
+40:AOR:-(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):100:fSymbolCharsOffset - startOffset |==> fSymbolCharsOffset + startOffset
+41:AOR:-(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):100:fSymbolCharsOffset - startOffset |==> fSymbolCharsOffset / startOffset
+42:EVR:<NEW_CLASS(java.lang.String)>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):101:new String(fSymbolChars, startOffset, slen) |==> null
+43:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):103:offset + SymbolCache.INDEX_OFFSET |==> offset % SymbolCache.INDEX_OFFSET
+44:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):103:offset + SymbolCache.INDEX_OFFSET |==> offset * SymbolCache.INDEX_OFFSET
+45:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):103:offset + SymbolCache.INDEX_OFFSET |==> offset - SymbolCache.INDEX_OFFSET
+46:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):103:offset + SymbolCache.INDEX_OFFSET |==> offset / SymbolCache.INDEX_OFFSET
+47:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):103:entries[offset + SymbolCache.INDEX_OFFSET] = symbolHandle |==> <NO-OP>
+48:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@createSymbol(int,int,int,int[],int):107:str |==> null
+49:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):110:fSymbolCharsOffset |==> 0
+50:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):111:0 |==> 1
+51:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):111:0 |==> -1
+52:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):111:slen == 0 |==> slen <= 0
+53:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):111:slen == 0 |==> slen >= 0
+54:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):111:slen == 0 |==> false
+55:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):112:return charsOffset; |==> <NO-OP>
+56:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):113:0 |==> 1
+57:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):113:0 |==> -1
+58:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):114:str.charAt(strIndex++) |==> 0
+59:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):116:fSymbolChars[fSymbolCharsOffset] = ch |==> <NO-OP>
+60:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):118:2 |==> 0
+61:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):118:2 |==> -2
+62:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):118:fSymbolChars.length * 2 |==> fSymbolChars.length % 2
+63:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):118:fSymbolChars.length * 2 |==> fSymbolChars.length + 2
+64:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):118:fSymbolChars.length * 2 |==> fSymbolChars.length - 2
+65:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):118:fSymbolChars.length * 2 |==> fSymbolChars.length / 2
+66:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):119:0 |==> 1
+67:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):119:0 |==> -1
+68:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):119:0 |==> 1
+69:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):119:0 |==> -1
+70:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):119:System.arraycopy(fSymbolChars, 0, newChars, 0, fSymbolChars.length) |==> <NO-OP>
+71:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):120:fSymbolChars = newChars |==> <NO-OP>
+72:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):121:fSymbolChars[fSymbolCharsOffset] = ch |==> <NO-OP>
+73:STD:<INC>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):123:fSymbolCharsOffset++ |==> <NO-OP>
+74:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):124:0 |==> 1
+75:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):124:0 |==> -1
+76:EVR:<ARRAY_ACCESS(int[])>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):125:fCacheLines[entry] |==> null
+77:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):126:0 |==> 1
+78:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):126:0 |==> -1
+79:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):127:0 |==> 1
+80:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):127:0 |==> -1
+81:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):128:1 |==> 0
+82:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):128:1 |==> -1
+83:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):130:i == count |==> i <= count
+84:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):130:i == count |==> i >= count
+85:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):130:i == count |==> false
+86:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):131:break; |==> <NO-OP>
+87:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):132:offset + CHAR_OFFSET |==> offset % CHAR_OFFSET
+88:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):132:offset + CHAR_OFFSET |==> offset * CHAR_OFFSET
+89:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):132:offset + CHAR_OFFSET |==> offset - CHAR_OFFSET
+90:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):132:offset + CHAR_OFFSET |==> offset / CHAR_OFFSET
+91:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):132:entries[offset + CHAR_OFFSET] != ch |==> entries[offset + CHAR_OFFSET] < ch
+92:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):132:entries[offset + CHAR_OFFSET] != ch |==> entries[offset + CHAR_OFFSET] > ch
+93:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):132:entries[offset + CHAR_OFFSET] != ch |==> true
+94:STD:<INC>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):133:i++ |==> <NO-OP>
+95:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):134:offset += CACHE_RECORD_SIZE |==> <NO-OP>
+96:STD:<CONT>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):135:continue; |==> <NO-OP>
+97:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):137:strIndex == slen |==> strIndex <= slen
+98:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):137:strIndex == slen |==> strIndex >= slen
+99:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):137:strIndex == slen |==> false
+100:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:offset + INDEX_OFFSET |==> offset % INDEX_OFFSET
+101:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:offset + INDEX_OFFSET |==> offset * INDEX_OFFSET
+102:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:offset + INDEX_OFFSET |==> offset - INDEX_OFFSET
+103:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:offset + INDEX_OFFSET |==> offset / INDEX_OFFSET
+104:LVR:NEG:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:-1 |==> 0
+105:LVR:NEG:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:-1 |==> 1
+106:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:entries[offset + INDEX_OFFSET] != -1 |==> entries[offset + INDEX_OFFSET] < -1
+107:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:entries[offset + INDEX_OFFSET] != -1 |==> entries[offset + INDEX_OFFSET] > -1
+108:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):138:entries[offset + INDEX_OFFSET] != -1 |==> true
+109:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):142:offset + INDEX_OFFSET |==> offset % INDEX_OFFSET
+110:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):142:offset + INDEX_OFFSET |==> offset * INDEX_OFFSET
+111:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):142:offset + INDEX_OFFSET |==> offset - INDEX_OFFSET
+112:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):142:offset + INDEX_OFFSET |==> offset / INDEX_OFFSET
+113:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):142:entries[offset + INDEX_OFFSET] = symbolHandle |==> <NO-OP>
+114:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):143:return charsOffset; |==> <NO-OP>
+115:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):145:ch = str.charAt(strIndex++) |==> <NO-OP>
+116:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):147:fSymbolChars[fSymbolCharsOffset] = ch |==> <NO-OP>
+117:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):149:2 |==> 0
+118:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):149:2 |==> -2
+119:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):149:fSymbolChars.length * 2 |==> fSymbolChars.length % 2
+120:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):149:fSymbolChars.length * 2 |==> fSymbolChars.length + 2
+121:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):149:fSymbolChars.length * 2 |==> fSymbolChars.length - 2
+122:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):149:fSymbolChars.length * 2 |==> fSymbolChars.length / 2
+123:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):150:0 |==> 1
+124:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):150:0 |==> -1
+125:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):150:0 |==> 1
+126:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):150:0 |==> -1
+127:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):150:System.arraycopy(fSymbolChars, 0, newChars, 0, fSymbolChars.length) |==> <NO-OP>
+128:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):151:fSymbolChars = newChars |==> <NO-OP>
+129:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):152:fSymbolChars[fSymbolCharsOffset] = ch |==> <NO-OP>
+130:STD:<INC>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):154:fSymbolCharsOffset++ |==> <NO-OP>
+131:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):155:offset + NEXT_OFFSET |==> offset % NEXT_OFFSET
+132:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):155:offset + NEXT_OFFSET |==> offset * NEXT_OFFSET
+133:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):155:offset + NEXT_OFFSET |==> offset - NEXT_OFFSET
+134:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):155:offset + NEXT_OFFSET |==> offset / NEXT_OFFSET
+135:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):155:entry = entries[offset + NEXT_OFFSET] |==> <NO-OP>
+136:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):157:entries = fCacheLines[entry] |==> <NO-OP>
+137:LVR:NEG:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):159:-1 |==> 0
+138:LVR:NEG:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):159:-1 |==> 1
+139:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):159:entry == -1 |==> entry <= -1
+140:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):159:entry == -1 |==> entry >= -1
+141:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):159:entry == -1 |==> false
+142:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):160:entry = fCacheLineCount++ |==> <NO-OP>
+143:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):161:offset + NEXT_OFFSET |==> offset % NEXT_OFFSET
+144:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):161:offset + NEXT_OFFSET |==> offset * NEXT_OFFSET
+145:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):161:offset + NEXT_OFFSET |==> offset - NEXT_OFFSET
+146:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):161:offset + NEXT_OFFSET |==> offset / NEXT_OFFSET
+147:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):161:entries[offset + NEXT_OFFSET] = entry |==> <NO-OP>
+148:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:1 |==> 0
+149:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:1 |==> -1
+150:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT % CACHE_RECORD_SIZE
+151:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT + CACHE_RECORD_SIZE
+152:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT - CACHE_RECORD_SIZE
+153:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT / CACHE_RECORD_SIZE
+154:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 % (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+155:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 * (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+156:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 - (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+157:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 / (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+158:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):162:entries = new int[1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)] |==> <NO-OP>
+159:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):164:fCacheLines[entry] = entries |==> <NO-OP>
+160:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):166:2 |==> 0
+161:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):166:2 |==> -2
+162:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):166:entry * 2 |==> entry % 2
+163:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):166:entry * 2 |==> entry + 2
+164:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):166:entry * 2 |==> entry - 2
+165:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):166:entry * 2 |==> entry / 2
+166:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):167:0 |==> 1
+167:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):167:0 |==> -1
+168:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):167:0 |==> 1
+169:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):167:0 |==> -1
+170:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):167:System.arraycopy(fCacheLines, 0, newCache, 0, entry) |==> <NO-OP>
+171:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):168:fCacheLines = newCache |==> <NO-OP>
+172:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):169:fCacheLines[entry] = entries |==> <NO-OP>
+173:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):172:entries = fCacheLines[entry] |==> <NO-OP>
+174:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):176:0 |==> 1
+175:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):176:0 |==> -1
+176:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):176:count = entries[0] |==> <NO-OP>
+177:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):177:0 |==> 1
+178:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):177:0 |==> -1
+179:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):177:i = 0 |==> <NO-OP>
+180:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):178:1 |==> 0
+181:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):178:1 |==> -1
+182:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):178:offset = 1 |==> <NO-OP>
+183:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):181:0 |==> 1
+184:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):181:0 |==> -1
+185:STD:<INC>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):181:entries[0]++ |==> <NO-OP>
+186:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):183:offset + CHAR_OFFSET |==> offset % CHAR_OFFSET
+187:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):183:offset + CHAR_OFFSET |==> offset * CHAR_OFFSET
+188:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):183:offset + CHAR_OFFSET |==> offset - CHAR_OFFSET
+189:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):183:offset + CHAR_OFFSET |==> offset / CHAR_OFFSET
+190:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):183:entries[offset + CHAR_OFFSET] = ch |==> <NO-OP>
+191:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 |==> 0
+192:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 |==> -1
+193:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 |==> 0
+194:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 |==> -1
+195:AOR:-(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:offset - 1 |==> offset % 1
+196:AOR:-(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:offset - 1 |==> offset * 1
+197:AOR:-(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:offset - 1 |==> offset + 1
+198:AOR:-(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:offset - 1 |==> offset / 1
+199:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:2 |==> 0
+200:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:2 |==> -2
+201:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:(offset - 1) * 2 |==> (offset - 1) % 2
+202:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:(offset - 1) * 2 |==> (offset - 1) + 2
+203:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:(offset - 1) * 2 |==> (offset - 1) - 2
+204:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:(offset - 1) * 2 |==> (offset - 1) / 2
+205:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 + ((offset - 1) * 2) |==> 1 % ((offset - 1) * 2)
+206:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 + ((offset - 1) * 2) |==> 1 * ((offset - 1) * 2)
+207:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 + ((offset - 1) * 2) |==> 1 - ((offset - 1) * 2)
+208:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):185:1 + ((offset - 1) * 2) |==> 1 / ((offset - 1) * 2)
+209:EVR:<NEW_ARRAY(int[])>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):186:new int[newSize] |==> null
+210:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):187:0 |==> 1
+211:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):187:0 |==> -1
+212:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):187:0 |==> 1
+213:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):187:0 |==> -1
+214:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):187:System.arraycopy(entries, 0, newEntries, 0, offset) |==> <NO-OP>
+215:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):188:fCacheLines[entry] = entries = newEntries |==> <NO-OP>
+216:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):189:offset + CHAR_OFFSET |==> offset % CHAR_OFFSET
+217:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):189:offset + CHAR_OFFSET |==> offset * CHAR_OFFSET
+218:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):189:offset + CHAR_OFFSET |==> offset - CHAR_OFFSET
+219:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):189:offset + CHAR_OFFSET |==> offset / CHAR_OFFSET
+220:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):189:entries[offset + CHAR_OFFSET] = ch |==> <NO-OP>
+221:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):191:strIndex == slen |==> strIndex <= slen
+222:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):191:strIndex == slen |==> strIndex >= slen
+223:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):191:strIndex == slen |==> false
+224:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):192:offset + INDEX_OFFSET |==> offset % INDEX_OFFSET
+225:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):192:offset + INDEX_OFFSET |==> offset * INDEX_OFFSET
+226:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):192:offset + INDEX_OFFSET |==> offset - INDEX_OFFSET
+227:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):192:offset + INDEX_OFFSET |==> offset / INDEX_OFFSET
+228:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):192:entries[offset + INDEX_OFFSET] = symbolHandle |==> <NO-OP>
+229:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):193:offset + NEXT_OFFSET |==> offset % NEXT_OFFSET
+230:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):193:offset + NEXT_OFFSET |==> offset * NEXT_OFFSET
+231:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):193:offset + NEXT_OFFSET |==> offset - NEXT_OFFSET
+232:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):193:offset + NEXT_OFFSET |==> offset / NEXT_OFFSET
+233:LVR:NEG:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):193:-1 |==> 0
+234:LVR:NEG:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):193:-1 |==> 1
+235:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):193:entries[offset + NEXT_OFFSET] = -1 |==> <NO-OP>
+236:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):194:break; |==> <NO-OP>
+237:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):196:entry = fCacheLineCount++ |==> <NO-OP>
+238:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):197:offset + INDEX_OFFSET |==> offset % INDEX_OFFSET
+239:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):197:offset + INDEX_OFFSET |==> offset * INDEX_OFFSET
+240:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):197:offset + INDEX_OFFSET |==> offset - INDEX_OFFSET
+241:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):197:offset + INDEX_OFFSET |==> offset / INDEX_OFFSET
+242:LVR:NEG:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):197:-1 |==> 0
+243:LVR:NEG:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):197:-1 |==> 1
+244:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):197:entries[offset + INDEX_OFFSET] = -1 |==> <NO-OP>
+245:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):198:offset + NEXT_OFFSET |==> offset % NEXT_OFFSET
+246:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):198:offset + NEXT_OFFSET |==> offset * NEXT_OFFSET
+247:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):198:offset + NEXT_OFFSET |==> offset - NEXT_OFFSET
+248:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):198:offset + NEXT_OFFSET |==> offset / NEXT_OFFSET
+249:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):198:entries[offset + NEXT_OFFSET] = entry |==> <NO-OP>
+250:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:1 |==> 0
+251:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:1 |==> -1
+252:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT % CACHE_RECORD_SIZE
+253:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT + CACHE_RECORD_SIZE
+254:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT - CACHE_RECORD_SIZE
+255:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE |==> INITIAL_CACHE_RECORD_COUNT / CACHE_RECORD_SIZE
+256:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 % (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+257:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 * (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+258:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 - (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+259:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE) |==> 1 / (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)
+260:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):199:entries = new int[1 + (INITIAL_CACHE_RECORD_COUNT * CACHE_RECORD_SIZE)] |==> <NO-OP>
+261:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):201:fCacheLines[entry] = entries |==> <NO-OP>
+262:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):203:2 |==> 0
+263:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):203:2 |==> -2
+264:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):203:entry * 2 |==> entry % 2
+265:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):203:entry * 2 |==> entry + 2
+266:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):203:entry * 2 |==> entry - 2
+267:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):203:entry * 2 |==> entry / 2
+268:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):204:0 |==> 1
+269:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):204:0 |==> -1
+270:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):204:0 |==> 1
+271:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):204:0 |==> -1
+272:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):204:System.arraycopy(fCacheLines, 0, newCache, 0, entry) |==> <NO-OP>
+273:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):205:fCacheLines = newCache |==> <NO-OP>
+274:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):206:fCacheLines[entry] = entries |==> <NO-OP>
+275:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):208:1 |==> 0
+276:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):208:1 |==> -1
+277:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):208:offset = 1 |==> <NO-OP>
+278:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):209:ch = str.charAt(strIndex++) |==> <NO-OP>
+279:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):211:fSymbolChars[fSymbolCharsOffset] = ch |==> <NO-OP>
+280:LVR:POS:0:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):213:2 |==> 0
+281:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):213:2 |==> -2
+282:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):213:fSymbolChars.length * 2 |==> fSymbolChars.length % 2
+283:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):213:fSymbolChars.length * 2 |==> fSymbolChars.length + 2
+284:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):213:fSymbolChars.length * 2 |==> fSymbolChars.length - 2
+285:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):213:fSymbolChars.length * 2 |==> fSymbolChars.length / 2
+286:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):214:0 |==> 1
+287:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):214:0 |==> -1
+288:LVR:0:POS:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):214:0 |==> 1
+289:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):214:0 |==> -1
+290:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):214:System.arraycopy(fSymbolChars, 0, newChars, 0, fSymbolChars.length) |==> <NO-OP>
+291:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):215:fSymbolChars = newChars |==> <NO-OP>
+292:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):216:fSymbolChars[fSymbolCharsOffset] = ch |==> <NO-OP>
+293:STD:<INC>:<NO-OP>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):218:fSymbolCharsOffset++ |==> <NO-OP>
+294:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@addSymbolToCache(java.lang.String,int,int):220:charsOffset |==> 0
+295:LVR:0:POS:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):224:0 |==> 1
+296:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):224:0 |==> -1
+297:LVR:0:POS:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):225:0 |==> 1
+298:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):225:0 |==> -1
+299:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):226:fSymbolChars[charsOffset++] |==> 0
+300:LVR:0:POS:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):227:0 |==> 1
+301:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):227:0 |==> -1
+302:LVR:POS:0:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 |==> 0
+303:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 |==> -1
+304:LVR:POS:0:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 |==> 0
+305:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 |==> -1
+306:AOR:-(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:count - 1 |==> count % 1
+307:AOR:-(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:count - 1 |==> count * 1
+308:AOR:-(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:count - 1 |==> count + 1
+309:AOR:-(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:count - 1 |==> count / 1
+310:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) % CACHE_RECORD_SIZE
+311:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) + CACHE_RECORD_SIZE
+312:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) - CACHE_RECORD_SIZE
+313:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) / CACHE_RECORD_SIZE
+314:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 % ((count - 1) * CACHE_RECORD_SIZE)
+315:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 * ((count - 1) * CACHE_RECORD_SIZE)
+316:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 - ((count - 1) * CACHE_RECORD_SIZE)
+317:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):228:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 / ((count - 1) * CACHE_RECORD_SIZE)
+318:LVR:0:POS:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):229:0 |==> 1
+319:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):229:0 |==> -1
+320:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):231:offset + CHAR_OFFSET |==> offset % CHAR_OFFSET
+321:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):231:offset + CHAR_OFFSET |==> offset * CHAR_OFFSET
+322:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):231:offset + CHAR_OFFSET |==> offset - CHAR_OFFSET
+323:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):231:offset + CHAR_OFFSET |==> offset / CHAR_OFFSET
+324:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):231:ch != entries[offset + CHAR_OFFSET] |==> ch < entries[offset + CHAR_OFFSET]
+325:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):231:ch != entries[offset + CHAR_OFFSET] |==> ch > entries[offset + CHAR_OFFSET]
+326:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):231:ch != entries[offset + CHAR_OFFSET] |==> true
+327:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):232:offset -= CACHE_RECORD_SIZE |==> <NO-OP>
+328:STD:<INC>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):233:misses++ |==> <NO-OP>
+329:STD:<CONT>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):234:continue; |==> <NO-OP>
+330:LVR:POS:0:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):236:4 |==> 0
+331:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):236:4 |==> -4
+332:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):236:misses > 4 |==> misses != 4
+333:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):236:misses > 4 |==> misses >= 4
+334:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):236:misses > 4 |==> false
+335:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):237:offset + INDEX_OFFSET |==> offset % INDEX_OFFSET
+336:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):237:offset + INDEX_OFFSET |==> offset * INDEX_OFFSET
+337:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):237:offset + INDEX_OFFSET |==> offset - INDEX_OFFSET
+338:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):237:offset + INDEX_OFFSET |==> offset / INDEX_OFFSET
+339:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):238:offset + NEXT_OFFSET |==> offset % NEXT_OFFSET
+340:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):238:offset + NEXT_OFFSET |==> offset * NEXT_OFFSET
+341:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):238:offset + NEXT_OFFSET |==> offset - NEXT_OFFSET
+342:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):238:offset + NEXT_OFFSET |==> offset / NEXT_OFFSET
+343:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:offset + CACHE_RECORD_SIZE |==> offset % CACHE_RECORD_SIZE
+344:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:offset + CACHE_RECORD_SIZE |==> offset * CACHE_RECORD_SIZE
+345:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:offset + CACHE_RECORD_SIZE |==> offset - CACHE_RECORD_SIZE
+346:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:offset + CACHE_RECORD_SIZE |==> offset / CACHE_RECORD_SIZE
+347:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:misses * CACHE_RECORD_SIZE |==> misses % CACHE_RECORD_SIZE
+348:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:misses * CACHE_RECORD_SIZE |==> misses + CACHE_RECORD_SIZE
+349:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:misses * CACHE_RECORD_SIZE |==> misses - CACHE_RECORD_SIZE
+350:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:misses * CACHE_RECORD_SIZE |==> misses / CACHE_RECORD_SIZE
+351:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):239:System.arraycopy(entries, offset + CACHE_RECORD_SIZE, entries, offset, misses * CACHE_RECORD_SIZE) |==> <NO-OP>
+352:LVR:POS:0:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 |==> 0
+353:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 |==> -1
+354:LVR:POS:0:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 |==> 0
+355:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 |==> -1
+356:AOR:-(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:count - 1 |==> count % 1
+357:AOR:-(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:count - 1 |==> count * 1
+358:AOR:-(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:count - 1 |==> count + 1
+359:AOR:-(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:count - 1 |==> count / 1
+360:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) % CACHE_RECORD_SIZE
+361:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) + CACHE_RECORD_SIZE
+362:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) - CACHE_RECORD_SIZE
+363:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) / CACHE_RECORD_SIZE
+364:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 % ((count - 1) * CACHE_RECORD_SIZE)
+365:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 * ((count - 1) * CACHE_RECORD_SIZE)
+366:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 - ((count - 1) * CACHE_RECORD_SIZE)
+367:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 / ((count - 1) * CACHE_RECORD_SIZE)
+368:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):240:offset = 1 + ((count - 1) * CACHE_RECORD_SIZE) |==> <NO-OP>
+369:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):241:offset + CHAR_OFFSET |==> offset % CHAR_OFFSET
+370:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):241:offset + CHAR_OFFSET |==> offset * CHAR_OFFSET
+371:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):241:offset + CHAR_OFFSET |==> offset - CHAR_OFFSET
+372:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):241:offset + CHAR_OFFSET |==> offset / CHAR_OFFSET
+373:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):241:entries[offset + CHAR_OFFSET] = ch |==> <NO-OP>
+374:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):242:offset + INDEX_OFFSET |==> offset % INDEX_OFFSET
+375:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):242:offset + INDEX_OFFSET |==> offset * INDEX_OFFSET
+376:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):242:offset + INDEX_OFFSET |==> offset - INDEX_OFFSET
+377:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):242:offset + INDEX_OFFSET |==> offset / INDEX_OFFSET
+378:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):242:entries[offset + INDEX_OFFSET] = symIndex |==> <NO-OP>
+379:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):243:offset + NEXT_OFFSET |==> offset % NEXT_OFFSET
+380:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):243:offset + NEXT_OFFSET |==> offset * NEXT_OFFSET
+381:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):243:offset + NEXT_OFFSET |==> offset - NEXT_OFFSET
+382:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):243:offset + NEXT_OFFSET |==> offset / NEXT_OFFSET
+383:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):243:entries[offset + NEXT_OFFSET] = nextIndex |==> <NO-OP>
+384:LVR:0:POS:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):245:0 |==> 1
+385:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):245:0 |==> -1
+386:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):245:--length == 0 |==> --length <= 0
+387:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):245:--length == 0 |==> --length >= 0
+388:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):245:--length == 0 |==> false
+389:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):246:break; |==> <NO-OP>
+390:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):247:offset + NEXT_OFFSET |==> offset % NEXT_OFFSET
+391:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):247:offset + NEXT_OFFSET |==> offset * NEXT_OFFSET
+392:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):247:offset + NEXT_OFFSET |==> offset - NEXT_OFFSET
+393:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):247:offset + NEXT_OFFSET |==> offset / NEXT_OFFSET
+394:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):247:entry = entries[offset + NEXT_OFFSET] |==> <NO-OP>
+395:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):248:entries = fCacheLines[entry] |==> <NO-OP>
+396:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):249:ch = fSymbolChars[charsOffset++] |==> <NO-OP>
+397:LVR:0:POS:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):250:0 |==> 1
+398:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):250:0 |==> -1
+399:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):250:count = entries[0] |==> <NO-OP>
+400:LVR:POS:0:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 |==> 0
+401:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 |==> -1
+402:LVR:POS:0:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 |==> 0
+403:LVR:POS:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 |==> -1
+404:AOR:-(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:count - 1 |==> count % 1
+405:AOR:-(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:count - 1 |==> count * 1
+406:AOR:-(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:count - 1 |==> count + 1
+407:AOR:-(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:count - 1 |==> count / 1
+408:AOR:*(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) % CACHE_RECORD_SIZE
+409:AOR:*(int,int):+(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) + CACHE_RECORD_SIZE
+410:AOR:*(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) - CACHE_RECORD_SIZE
+411:AOR:*(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:(count - 1) * CACHE_RECORD_SIZE |==> (count - 1) / CACHE_RECORD_SIZE
+412:AOR:+(int,int):%(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 % ((count - 1) * CACHE_RECORD_SIZE)
+413:AOR:+(int,int):*(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 * ((count - 1) * CACHE_RECORD_SIZE)
+414:AOR:+(int,int):-(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 - ((count - 1) * CACHE_RECORD_SIZE)
+415:AOR:+(int,int):/(int,int):org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:1 + ((count - 1) * CACHE_RECORD_SIZE) |==> 1 / ((count - 1) * CACHE_RECORD_SIZE)
+416:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):251:offset = 1 + ((count - 1) * CACHE_RECORD_SIZE) |==> <NO-OP>
+417:LVR:0:POS:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):252:0 |==> 1
+418:LVR:0:NEG:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):252:0 |==> -1
+419:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.SymbolCache@updateCacheLine(int,int,int):252:misses = 0 |==> <NO-OP>

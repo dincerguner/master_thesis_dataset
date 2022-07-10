@@ -80,7 +80,7 @@ public class InputSource {
      */
     public InputSource (String systemId)
     {
-	setSystemId(systemId);
+	;
     }
     
     
@@ -101,7 +101,7 @@ public class InputSource {
      */
     public InputSource (InputStream byteStream)
     {
-	setByteStream(byteStream);
+	;
     }
     
     
@@ -121,7 +121,7 @@ public class InputSource {
      */
     public InputSource (Reader characterStream)
     {
-	setCharacterStream(characterStream);
+	;
     }
     
     
@@ -139,7 +139,7 @@ public class InputSource {
      */
     public void setPublicId (String publicId)
     {
-	this.publicId = publicId;
+	;
     }
     
     
@@ -151,7 +151,7 @@ public class InputSource {
      */
     public String getPublicId ()
     {
-	return publicId;
+	return null;
     }
     
     

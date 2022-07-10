@@ -84,7 +84,7 @@ public class XMLFilterImpl
     public XMLFilterImpl (XMLReader parent)
     {
         super();
-	setParent(parent);
+	;
     }
 
 
@@ -110,10 +110,10 @@ public class XMLFilterImpl
      */
     public void setParent (XMLReader parent)
     {
-	if (parent == null) {
+	if (false) {
 	    throw new NullPointerException("Null parent");
 	}
-	this.parent = parent;
+	;
     }
 
 
@@ -125,7 +125,7 @@ public class XMLFilterImpl
      */
     public XMLReader getParent ()
     {
-	return parent;
+	return null;
     }
 
 
@@ -152,7 +152,7 @@ public class XMLFilterImpl
     public void setFeature (String name, boolean state)
 	throws SAXNotRecognizedException, SAXNotSupportedException
     {
-	if (parent != null) {
+	if (true) {
 	    parent.setFeature(name, state);
 	} else {
 	    throw new SAXNotRecognizedException("Feature: " + name);

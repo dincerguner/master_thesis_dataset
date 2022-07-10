@@ -86,7 +86,7 @@ public final class XHTMLSerializer
      */
     public XHTMLSerializer()
     {
-        super( true, new OutputFormat( Method.XHTML, null, false ) );
+        super( false, new OutputFormat( Method.XHTML, null, false ) );
     }
 
 
@@ -97,7 +97,7 @@ public final class XHTMLSerializer
      */
     public XHTMLSerializer( OutputFormat format )
     {
-        super( true, format != null ? format : new OutputFormat( Method.XHTML, null, false ) );
+        super( true, true ? format : new OutputFormat( Method.XHTML, null, false ) );
     }
 
 

@@ -1,0 +1,424 @@
+1:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,boolean):71:256 |==> 0
+2:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,boolean):71:256 |==> -256
+3:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):75:this.pattern = pat.toCharArray() |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):76:this.shiftTable = new int[tableSize] |==> <NO-OP>
+5:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):77:this.ignoreCase = ignoreCase |==> <NO-OP>
+6:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):79:pattern.length |==> 0
+7:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):80:0 |==> 1
+8:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):80:0 |==> -1
+9:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):80:i < this.shiftTable.length |==> i != this.shiftTable.length
+10:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):80:i < this.shiftTable.length |==> i <= this.shiftTable.length
+11:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):80:i < this.shiftTable.length |==> false
+12:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):81:this.shiftTable[i] = length |==> <NO-OP>
+13:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):83:0 |==> 1
+14:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):83:0 |==> -1
+15:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):83:i < length |==> i != length
+16:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):83:i < length |==> i <= length
+17:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):83:i < length |==> false
+18:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):84:this.pattern[i] |==> 0
+19:AOR:-(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i |==> length % i
+20:AOR:-(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i |==> length * i
+21:AOR:-(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i |==> length + i
+22:AOR:-(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i |==> length / i
+23:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:1 |==> 0
+24:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:1 |==> -1
+25:AOR:-(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i - 1 |==> (length - i) % 1
+26:AOR:-(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i - 1 |==> (length - i) * 1
+27:AOR:-(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i - 1 |==> length - i + 1
+28:AOR:-(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):85:length - i - 1 |==> (length - i) / 1
+29:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):86:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+30:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):86:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+31:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):86:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+32:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):86:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+33:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):87:diff < this.shiftTable[index] |==> diff != this.shiftTable[index]
+34:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):87:diff < this.shiftTable[index] |==> diff <= this.shiftTable[index]
+35:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):87:diff < this.shiftTable[index] |==> false
+36:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):88:this.shiftTable[index] = diff |==> <NO-OP>
+37:COR:this.ignoreCase:TRUE:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):89:this.ignoreCase |==> false
+38:COR:this.ignoreCase:FALSE:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):89:this.ignoreCase |==> true
+39:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):90:ch = Character.toUpperCase(ch) |==> <NO-OP>
+40:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):91:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+41:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):91:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+42:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):91:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+43:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):91:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+44:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):91:index = ch % this.shiftTable.length |==> <NO-OP>
+45:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):92:diff < this.shiftTable[index] |==> diff != this.shiftTable[index]
+46:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):92:diff < this.shiftTable[index] |==> diff <= this.shiftTable[index]
+47:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):92:diff < this.shiftTable[index] |==> false
+48:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):93:this.shiftTable[index] = diff |==> <NO-OP>
+49:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):94:ch = Character.toLowerCase(ch) |==> <NO-OP>
+50:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):95:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+51:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):95:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+52:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):95:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+53:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):95:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+54:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):95:index = ch % this.shiftTable.length |==> <NO-OP>
+55:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):96:diff < this.shiftTable[index] |==> diff != this.shiftTable[index]
+56:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):96:diff < this.shiftTable[index] |==> diff <= this.shiftTable[index]
+57:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):96:diff < this.shiftTable[index] |==> false
+58:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@<init>(java.lang.String,int,boolean):97:this.shiftTable[index] = diff |==> <NO-OP>
+59:COR:this.ignoreCase:TRUE:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):107:this.ignoreCase |==> false
+60:COR:this.ignoreCase:FALSE:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):107:this.ignoreCase |==> true
+61:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):107:return this.matchesIgnoreCase(iterator, start, limit); |==> <NO-OP>
+62:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):108:this.pattern.length |==> 0
+63:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):109:0 |==> 1
+64:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):109:0 |==> -1
+65:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):109:plength == 0 |==> plength <= 0
+66:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):109:plength == 0 |==> plength >= 0
+67:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):109:plength == 0 |==> false
+68:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):109:return start; |==> <NO-OP>
+69:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):110:start + plength |==> start % plength
+70:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):110:start + plength |==> start * plength
+71:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):110:start + plength |==> start - plength
+72:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):110:start + plength |==> start / plength
+73:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):111:index <= limit |==> index < limit
+74:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):111:index <= limit |==> index == limit
+75:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):111:index <= limit |==> true
+76:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):112:plength |==> 0
+77:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):113:1 |==> 0
+78:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):113:1 |==> -1
+79:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):113:index + 1 |==> index % 1
+80:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):113:index + 1 |==> index * 1
+81:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):113:index + 1 |==> index - 1
+82:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):113:index + 1 |==> index / 1
+83:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):116:(ch = iterator.setIndex(--index)) != this.pattern[--pindex] |==> (ch = iterator.setIndex(--index)) < this.pattern[--pindex]
+84:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):116:(ch = iterator.setIndex(--index)) != this.pattern[--pindex] |==> (ch = iterator.setIndex(--index)) > this.pattern[--pindex]
+85:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):117:break; |==> <NO-OP>
+86:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):118:0 |==> 1
+87:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):118:0 |==> -1
+88:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):118:pindex == 0 |==> pindex <= 0
+89:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):118:pindex == 0 |==> pindex >= 0
+90:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):118:pindex == 0 |==> false
+91:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):119:return index; |==> <NO-OP>
+92:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):120:0 |==> 1
+93:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):120:0 |==> -1
+94:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):120:pindex > 0 |==> pindex != 0
+95:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):120:pindex > 0 |==> pindex >= 0
+96:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):120:pindex > 0 |==> false
+97:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+98:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+99:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+100:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+101:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:1 |==> 0
+102:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:1 |==> -1
+103:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] % 1
+104:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] * 1
+105:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] - 1
+106:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] / 1
+107:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):121:index += this.shiftTable[ch % this.shiftTable.length] + 1 |==> <NO-OP>
+108:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):122:index < nindex |==> index != nindex
+109:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):122:index < nindex |==> index <= nindex
+110:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):122:index < nindex |==> false
+111:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):122:index = nindex |==> <NO-OP>
+112:LVR:NEG:0:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):124:-1 |==> 0
+113:LVR:NEG:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.text.CharacterIterator,int,int):124:-1 |==> 1
+114:COR:this.ignoreCase:TRUE:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):132:this.ignoreCase |==> false
+115:COR:this.ignoreCase:FALSE:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):132:this.ignoreCase |==> true
+116:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):132:return this.matchesIgnoreCase(str, start, limit); |==> <NO-OP>
+117:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):133:this.pattern.length |==> 0
+118:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):134:0 |==> 1
+119:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):134:0 |==> -1
+120:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):134:plength == 0 |==> plength <= 0
+121:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):134:plength == 0 |==> plength >= 0
+122:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):134:plength == 0 |==> false
+123:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):134:return start; |==> <NO-OP>
+124:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):135:start + plength |==> start % plength
+125:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):135:start + plength |==> start * plength
+126:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):135:start + plength |==> start - plength
+127:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):135:start + plength |==> start / plength
+128:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):136:index <= limit |==> index < limit
+129:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):136:index <= limit |==> index == limit
+130:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):136:index <= limit |==> true
+131:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):138:plength |==> 0
+132:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):139:1 |==> 0
+133:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):139:1 |==> -1
+134:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):139:index + 1 |==> index % 1
+135:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):139:index + 1 |==> index * 1
+136:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):139:index + 1 |==> index - 1
+137:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):139:index + 1 |==> index / 1
+138:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):142:(ch = str.charAt(--index)) != this.pattern[--pindex] |==> (ch = str.charAt(--index)) < this.pattern[--pindex]
+139:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):142:(ch = str.charAt(--index)) != this.pattern[--pindex] |==> (ch = str.charAt(--index)) > this.pattern[--pindex]
+140:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):143:break; |==> <NO-OP>
+141:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):144:0 |==> 1
+142:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):144:0 |==> -1
+143:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):144:pindex == 0 |==> pindex <= 0
+144:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):144:pindex == 0 |==> pindex >= 0
+145:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):144:pindex == 0 |==> false
+146:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):145:return index; |==> <NO-OP>
+147:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):146:0 |==> 1
+148:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):146:0 |==> -1
+149:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):146:pindex > 0 |==> pindex != 0
+150:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):146:pindex > 0 |==> pindex >= 0
+151:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):146:pindex > 0 |==> false
+152:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+153:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+154:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+155:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+156:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:1 |==> 0
+157:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:1 |==> -1
+158:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] % 1
+159:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] * 1
+160:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] - 1
+161:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] / 1
+162:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):147:index += this.shiftTable[ch % this.shiftTable.length] + 1 |==> <NO-OP>
+163:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):148:index < nindex |==> index != nindex
+164:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):148:index < nindex |==> index <= nindex
+165:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):148:index < nindex |==> false
+166:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):148:index = nindex |==> <NO-OP>
+167:LVR:NEG:0:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):150:-1 |==> 0
+168:LVR:NEG:POS:org.apache.xerces.utils.regex.BMPattern@matches(java.lang.String,int,int):150:-1 |==> 1
+169:COR:this.ignoreCase:TRUE:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):157:this.ignoreCase |==> false
+170:COR:this.ignoreCase:FALSE:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):157:this.ignoreCase |==> true
+171:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):157:return this.matchesIgnoreCase(chars, start, limit); |==> <NO-OP>
+172:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):158:this.pattern.length |==> 0
+173:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):159:0 |==> 1
+174:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):159:0 |==> -1
+175:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):159:plength == 0 |==> plength <= 0
+176:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):159:plength == 0 |==> plength >= 0
+177:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):159:plength == 0 |==> false
+178:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):159:return start; |==> <NO-OP>
+179:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):160:start + plength |==> start % plength
+180:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):160:start + plength |==> start * plength
+181:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):160:start + plength |==> start - plength
+182:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):160:start + plength |==> start / plength
+183:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):161:index <= limit |==> index < limit
+184:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):161:index <= limit |==> index == limit
+185:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):161:index <= limit |==> true
+186:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):163:plength |==> 0
+187:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):164:1 |==> 0
+188:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):164:1 |==> -1
+189:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):164:index + 1 |==> index % 1
+190:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):164:index + 1 |==> index * 1
+191:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):164:index + 1 |==> index - 1
+192:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):164:index + 1 |==> index / 1
+193:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):167:(ch = chars[--index]) != this.pattern[--pindex] |==> (ch = chars[--index]) < this.pattern[--pindex]
+194:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):167:(ch = chars[--index]) != this.pattern[--pindex] |==> (ch = chars[--index]) > this.pattern[--pindex]
+195:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):168:break; |==> <NO-OP>
+196:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):169:0 |==> 1
+197:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):169:0 |==> -1
+198:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):169:pindex == 0 |==> pindex <= 0
+199:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):169:pindex == 0 |==> pindex >= 0
+200:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):169:pindex == 0 |==> false
+201:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):170:return index; |==> <NO-OP>
+202:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):171:0 |==> 1
+203:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):171:0 |==> -1
+204:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):171:pindex > 0 |==> pindex != 0
+205:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):171:pindex > 0 |==> pindex >= 0
+206:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):171:pindex > 0 |==> false
+207:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+208:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+209:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+210:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+211:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:1 |==> 0
+212:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:1 |==> -1
+213:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] % 1
+214:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] * 1
+215:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] - 1
+216:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] / 1
+217:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):172:index += this.shiftTable[ch % this.shiftTable.length] + 1 |==> <NO-OP>
+218:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):173:index < nindex |==> index != nindex
+219:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):173:index < nindex |==> index <= nindex
+220:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):173:index < nindex |==> false
+221:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):173:index = nindex |==> <NO-OP>
+222:LVR:NEG:0:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):175:-1 |==> 0
+223:LVR:NEG:POS:org.apache.xerces.utils.regex.BMPattern@matches(char[],int,int):175:-1 |==> 1
+224:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):179:this.pattern.length |==> 0
+225:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):180:0 |==> 1
+226:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):180:0 |==> -1
+227:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):180:plength == 0 |==> plength <= 0
+228:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):180:plength == 0 |==> plength >= 0
+229:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):180:plength == 0 |==> false
+230:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):180:return start; |==> <NO-OP>
+231:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):181:start + plength |==> start % plength
+232:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):181:start + plength |==> start * plength
+233:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):181:start + plength |==> start - plength
+234:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):181:start + plength |==> start / plength
+235:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):182:index <= limit |==> index < limit
+236:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):182:index <= limit |==> index == limit
+237:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):182:index <= limit |==> true
+238:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):183:plength |==> 0
+239:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):184:1 |==> 0
+240:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):184:1 |==> -1
+241:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):184:index + 1 |==> index % 1
+242:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):184:index + 1 |==> index * 1
+243:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):184:index + 1 |==> index - 1
+244:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):184:index + 1 |==> index / 1
+245:EVR:<ASSIGNMENT(char)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):187:ch = iterator.setIndex(--index) |==> 0
+246:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):188:this.pattern[--pindex] |==> 0
+247:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):189:ch1 != ch2 |==> ch1 < ch2
+248:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):189:ch1 != ch2 |==> ch1 > ch2
+249:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):189:ch1 != ch2 |==> true
+250:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):190:ch1 = Character.toUpperCase(ch1) |==> <NO-OP>
+251:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):191:ch2 = Character.toUpperCase(ch2) |==> <NO-OP>
+252:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:ch1 != ch2 |==> ch1 < ch2
+253:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:ch1 != ch2 |==> ch1 > ch2
+254:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:ch1 != ch2 |==> true
+255:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) < Character.toLowerCase(ch2)
+256:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) > Character.toLowerCase(ch2)
+257:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> true
+258:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> ch1 != ch2 == (Character.toLowerCase(ch1) != Character.toLowerCase(ch2))
+259:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> false
+260:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> ch1 != ch2
+261:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):192:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) != Character.toLowerCase(ch2)
+262:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):193:break; |==> <NO-OP>
+263:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):195:0 |==> 1
+264:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):195:0 |==> -1
+265:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):195:pindex == 0 |==> pindex <= 0
+266:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):195:pindex == 0 |==> pindex >= 0
+267:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):195:pindex == 0 |==> false
+268:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):196:return index; |==> <NO-OP>
+269:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):197:0 |==> 1
+270:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):197:0 |==> -1
+271:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):197:pindex > 0 |==> pindex != 0
+272:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):197:pindex > 0 |==> pindex >= 0
+273:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):197:pindex > 0 |==> false
+274:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+275:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+276:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+277:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+278:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:1 |==> 0
+279:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:1 |==> -1
+280:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] % 1
+281:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] * 1
+282:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] - 1
+283:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] / 1
+284:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):198:index += this.shiftTable[ch % this.shiftTable.length] + 1 |==> <NO-OP>
+285:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):199:index < nindex |==> index != nindex
+286:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):199:index < nindex |==> index <= nindex
+287:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):199:index < nindex |==> false
+288:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):199:index = nindex |==> <NO-OP>
+289:LVR:NEG:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):201:-1 |==> 0
+290:LVR:NEG:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.text.CharacterIterator,int,int):201:-1 |==> 1
+291:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):205:this.pattern.length |==> 0
+292:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):206:0 |==> 1
+293:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):206:0 |==> -1
+294:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):206:plength == 0 |==> plength <= 0
+295:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):206:plength == 0 |==> plength >= 0
+296:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):206:plength == 0 |==> false
+297:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):206:return start; |==> <NO-OP>
+298:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):207:start + plength |==> start % plength
+299:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):207:start + plength |==> start * plength
+300:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):207:start + plength |==> start - plength
+301:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):207:start + plength |==> start / plength
+302:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):208:index <= limit |==> index < limit
+303:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):208:index <= limit |==> index == limit
+304:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):208:index <= limit |==> true
+305:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):209:plength |==> 0
+306:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):210:1 |==> 0
+307:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):210:1 |==> -1
+308:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):210:index + 1 |==> index % 1
+309:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):210:index + 1 |==> index * 1
+310:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):210:index + 1 |==> index - 1
+311:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):210:index + 1 |==> index / 1
+312:EVR:<ASSIGNMENT(char)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):213:ch = text.charAt(--index) |==> 0
+313:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):214:this.pattern[--pindex] |==> 0
+314:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):215:ch1 != ch2 |==> ch1 < ch2
+315:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):215:ch1 != ch2 |==> ch1 > ch2
+316:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):215:ch1 != ch2 |==> true
+317:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):216:ch1 = Character.toUpperCase(ch1) |==> <NO-OP>
+318:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):217:ch2 = Character.toUpperCase(ch2) |==> <NO-OP>
+319:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:ch1 != ch2 |==> ch1 < ch2
+320:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:ch1 != ch2 |==> ch1 > ch2
+321:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:ch1 != ch2 |==> true
+322:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) < Character.toLowerCase(ch2)
+323:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) > Character.toLowerCase(ch2)
+324:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> true
+325:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> ch1 != ch2 == (Character.toLowerCase(ch1) != Character.toLowerCase(ch2))
+326:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> false
+327:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> ch1 != ch2
+328:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):218:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) != Character.toLowerCase(ch2)
+329:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):219:break; |==> <NO-OP>
+330:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):221:0 |==> 1
+331:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):221:0 |==> -1
+332:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):221:pindex == 0 |==> pindex <= 0
+333:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):221:pindex == 0 |==> pindex >= 0
+334:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):221:pindex == 0 |==> false
+335:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):222:return index; |==> <NO-OP>
+336:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):223:0 |==> 1
+337:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):223:0 |==> -1
+338:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):223:pindex > 0 |==> pindex != 0
+339:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):223:pindex > 0 |==> pindex >= 0
+340:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):223:pindex > 0 |==> false
+341:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+342:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+343:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+344:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+345:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:1 |==> 0
+346:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:1 |==> -1
+347:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] % 1
+348:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] * 1
+349:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] - 1
+350:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] / 1
+351:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):224:index += this.shiftTable[ch % this.shiftTable.length] + 1 |==> <NO-OP>
+352:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):225:index < nindex |==> index != nindex
+353:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):225:index < nindex |==> index <= nindex
+354:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):225:index < nindex |==> false
+355:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):225:index = nindex |==> <NO-OP>
+356:LVR:NEG:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):227:-1 |==> 0
+357:LVR:NEG:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(java.lang.String,int,int):227:-1 |==> 1
+358:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):230:this.pattern.length |==> 0
+359:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):231:0 |==> 1
+360:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):231:0 |==> -1
+361:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):231:plength == 0 |==> plength <= 0
+362:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):231:plength == 0 |==> plength >= 0
+363:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):231:plength == 0 |==> false
+364:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):231:return start; |==> <NO-OP>
+365:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):232:start + plength |==> start % plength
+366:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):232:start + plength |==> start * plength
+367:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):232:start + plength |==> start - plength
+368:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):232:start + plength |==> start / plength
+369:ROR:<=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):233:index <= limit |==> index < limit
+370:ROR:<=(int,int):==(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):233:index <= limit |==> index == limit
+371:ROR:<=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):233:index <= limit |==> true
+372:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):234:plength |==> 0
+373:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):235:1 |==> 0
+374:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):235:1 |==> -1
+375:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):235:index + 1 |==> index % 1
+376:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):235:index + 1 |==> index * 1
+377:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):235:index + 1 |==> index - 1
+378:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):235:index + 1 |==> index / 1
+379:EVR:<ASSIGNMENT(char)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):238:ch = chars[--index] |==> 0
+380:EVR:<ARRAY_ACCESS(char)>:<DEFAULT>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):239:this.pattern[--pindex] |==> 0
+381:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):240:ch1 != ch2 |==> ch1 < ch2
+382:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):240:ch1 != ch2 |==> ch1 > ch2
+383:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):240:ch1 != ch2 |==> true
+384:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):241:ch1 = Character.toUpperCase(ch1) |==> <NO-OP>
+385:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):242:ch2 = Character.toUpperCase(ch2) |==> <NO-OP>
+386:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:ch1 != ch2 |==> ch1 < ch2
+387:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:ch1 != ch2 |==> ch1 > ch2
+388:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:ch1 != ch2 |==> true
+389:ROR:!=(int,int):<(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) < Character.toLowerCase(ch2)
+390:ROR:!=(int,int):>(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) > Character.toLowerCase(ch2)
+391:ROR:!=(int,int):TRUE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> true
+392:COR:&&(boolean,boolean):==(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> ch1 != ch2 == (Character.toLowerCase(ch1) != Character.toLowerCase(ch2))
+393:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> false
+394:COR:&&(boolean,boolean):LHS(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> ch1 != ch2
+395:COR:&&(boolean,boolean):RHS(boolean,boolean):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):243:ch1 != ch2 && Character.toLowerCase(ch1) != Character.toLowerCase(ch2) |==> Character.toLowerCase(ch1) != Character.toLowerCase(ch2)
+396:STD:<BREAK>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):244:break; |==> <NO-OP>
+397:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):246:0 |==> 1
+398:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):246:0 |==> -1
+399:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):246:pindex == 0 |==> pindex <= 0
+400:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):246:pindex == 0 |==> pindex >= 0
+401:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):246:pindex == 0 |==> false
+402:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):247:return index; |==> <NO-OP>
+403:LVR:0:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):248:0 |==> 1
+404:LVR:0:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):248:0 |==> -1
+405:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):248:pindex > 0 |==> pindex != 0
+406:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):248:pindex > 0 |==> pindex >= 0
+407:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):248:pindex > 0 |==> false
+408:AOR:%(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:ch % this.shiftTable.length |==> ch * this.shiftTable.length
+409:AOR:%(int,int):+(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:ch % this.shiftTable.length |==> ch + this.shiftTable.length
+410:AOR:%(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:ch % this.shiftTable.length |==> ch - this.shiftTable.length
+411:AOR:%(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:ch % this.shiftTable.length |==> ch / this.shiftTable.length
+412:LVR:POS:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:1 |==> 0
+413:LVR:POS:NEG:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:1 |==> -1
+414:AOR:+(int,int):%(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] % 1
+415:AOR:+(int,int):*(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] * 1
+416:AOR:+(int,int):-(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] - 1
+417:AOR:+(int,int):/(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:this.shiftTable[ch % this.shiftTable.length] + 1 |==> this.shiftTable[ch % this.shiftTable.length] / 1
+418:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):249:index += this.shiftTable[ch % this.shiftTable.length] + 1 |==> <NO-OP>
+419:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):250:index < nindex |==> index != nindex
+420:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):250:index < nindex |==> index <= nindex
+421:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):250:index < nindex |==> false
+422:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):250:index = nindex |==> <NO-OP>
+423:LVR:NEG:0:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):252:-1 |==> 0
+424:LVR:NEG:POS:org.apache.xerces.utils.regex.BMPattern@matchesIgnoreCase(char[],int,int):252:-1 |==> 1

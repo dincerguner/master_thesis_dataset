@@ -1,0 +1,25 @@
+1:EVR:<NEW_CLASS(org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl)>:<DEFAULT>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl:76:new DatatypeValidatorFactoryImpl() |==> null
+2:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl:77:new Hashtable() |==> null
+3:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@<init>():81:initializeRegistry() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():94:fRegistry.put("string", new StringDatatypeValidator()) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():95:fRegistry.put("boolean", new BooleanDatatypeValidator()) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():96:fRegistry.put("float", new FloatDatatypeValidator()) |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():97:fRegistry.put("double", new DoubleDatatypeValidator()) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():98:fRegistry.put("decimal", new DecimalDatatypeValidator()) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():99:fRegistry.put("timeDuration", new TimeDurationDatatypeValidator()) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():100:fRegistry.put("recurringDuration", new RecurringDurationDatatypeValidator()) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():101:fRegistry.put("binary", new BinaryDatatypeValidator()) |==> <NO-OP>
+12:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():102:fRegistry.put("uriReference", new URIReferenceDatatypeValidator()) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():103:fRegistry.put("ID", new IDDatatypeValidator()) |==> <NO-OP>
+14:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():104:fRegistry.put("IDREF", new IDREFDatatypeValidator()) |==> <NO-OP>
+15:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():105:fRegistry.put("ENTITY", new ENTITYDatatypeValidator()) |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():106:fRegistry.put("NOTATION", new NOTATIONDatatypeValidator()) |==> <NO-OP>
+17:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():107:fRegistry.put("QName", new QNameDatatypeValidator()) |==> <NO-OP>
+18:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():110:new Hashtable() |==> null
+19:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():111:facets.put(SchemaSymbols.ELT_PATTERN, "([a-zA-Z]{2}|[iI]-[a-zA-Z]+|[xX]-[a-zA-Z]+)(-[a-zA-Z]+)*") |==> <NO-OP>
+20:LVR:FALSE:TRUE:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():114:false |==> true
+21:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():113:createDatatypeValidator("language", new StringDatatypeValidator(), facets, false) |==> <NO-OP>
+22:LVR:TRUE:FALSE:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():116:true |==> false
+23:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():116:createDatatypeValidator("IDREFS", new IDREFDatatypeValidator(), null, true) |==> <NO-OP>
+24:LVR:TRUE:FALSE:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():118:true |==> false
+25:STD:<CALL>:<NO-OP>:org.apache.xerces.validators.datatype.DatatypeValidatorFactoryImpl@initializeRegistry():118:createDatatypeValidator("ENTITIES", new ENTITYDatatypeValidator(), null, true) |==> <NO-OP>

@@ -68,9 +68,9 @@ public class TreeWalkerImpl implements TreeWalker {
     //
     
     /** When TRUE, the children of entites references are returned in the iterator. */
-    private boolean fEntityReferenceExpansion = false;
+    private boolean fEntityReferenceExpansion = true;
     /** The whatToShow mask. */
-    int fWhatToShow = NodeFilter.SHOW_ALL;
+    int fWhatToShow = 0;
     /** The NodeFilter reference. */
     NodeFilter fNodeFilter;
     /** The current Node. */
@@ -94,9 +94,9 @@ public class TreeWalkerImpl implements TreeWalker {
                           int whatToShow, 
                           NodeFilter nodeFilter,
                           boolean entityReferenceExpansion) {
-        fCurrentNode = root;
-        fRoot = root;
-        fWhatToShow = whatToShow;
+        ;
+        ;
+        ;
         fNodeFilter = nodeFilter;
         fEntityReferenceExpansion = entityReferenceExpansion;
     }

@@ -97,26 +97,26 @@ public final class XMLDocumentScanner {
     //
     // [19] CDStart ::= '<![CDATA['
     //
-    static final char[] cdata_string = { '[','C','D','A','T','A','[' };
+    static final char[] cdata_string = null;
     //
     // [23] XMLDecl ::= '<?xml' VersionInfo EncodingDecl? SDDecl? S? '?>'
     // [77] TextDecl ::= '<?xml' VersionInfo? EncodingDecl S? '?>'
     //
-    static final char[] xml_string = { 'x','m','l' };
+    static final char[] xml_string = null;
     //
     // [24] VersionInfo ::= S 'version' Eq (' VersionNum ' | " VersionNum ")
     //
-    private static final char[] version_string = { 'v','e','r','s','i','o','n' };
+    private static final char[] version_string = null;
     //
     // [28] doctypedecl ::= '<!DOCTYPE' S Name (S ExternalID)? S?
     //                      ('[' (markupdecl | PEReference | S)* ']' S?)? '>'
     //
-    static final char[] doctype_string = { 'D','O','C','T','Y','P','E' };
+    static final char[] doctype_string = null;
     //
     // [32] SDDecl ::= S 'standalone' Eq (("'" ('yes' | 'no') "'")
     //                 | ('"' ('yes' | 'no') '"'))
     //
-    private static final char[] standalone_string = { 's','t','a','n','d','a','l','o','n','e' };
+    private static final char[] standalone_string = null;
     //
     // [80] EncodingDecl ::= S 'encoding' Eq ('"' EncName '"' |  "'" EncName "'" )
     //

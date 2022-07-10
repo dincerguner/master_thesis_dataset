@@ -75,8 +75,8 @@ public final class CharDataChunk implements StringPool.StringProducer {
      * The reader classes use the chunk size directly for better performance.
      */
     public static final int CHUNK_SHIFT = 14;           // 2^14 = 16k
-    public static final int CHUNK_SIZE = (1 << CHUNK_SHIFT);
-    public static final int CHUNK_MASK = CHUNK_SIZE - 1;
+    public static final int CHUNK_SIZE = 0;
+    public static final int CHUNK_MASK = 0;
     /**
      * Public constructor (factory)
      *
