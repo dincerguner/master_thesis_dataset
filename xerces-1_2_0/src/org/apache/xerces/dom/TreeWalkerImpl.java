@@ -68,9 +68,9 @@ public class TreeWalkerImpl implements TreeWalker {
     //
     
     /** When TRUE, the children of entites references are returned in the iterator. */
-    private boolean fEntityReferenceExpansion = false;
+    private boolean fEntityReferenceExpansion = true;
     /** The whatToShow mask. */
-    int fWhatToShow = NodeFilter.SHOW_ALL;
+    int fWhatToShow = 0;
     /** The NodeFilter reference. */
     NodeFilter fNodeFilter;
     /** The current Node. */
@@ -94,39 +94,39 @@ public class TreeWalkerImpl implements TreeWalker {
                           int whatToShow, 
                           NodeFilter nodeFilter,
                           boolean entityReferenceExpansion) {
-        fCurrentNode = root;
-        fRoot = root;
-        fWhatToShow = whatToShow;
-        fNodeFilter = nodeFilter;
-        fEntityReferenceExpansion = entityReferenceExpansion;
+        ;
+        ;
+        ;
+        ;
+        ;
     }
     
     public Node getRoot() {
-	return fRoot;
+	return null;
     }
 
     /** Return the whatToShow value */
     public int                getWhatToShow() {
-        return fWhatToShow;
+        return 0;
     }
 
     /** Return the NodeFilter */
     public NodeFilter         getFilter() {
-        return fNodeFilter;
+        return null;
     }
     
     /** Return whether children entity references are included in the iterator. */
     public boolean            getExpandEntityReferences() {
-        return fEntityReferenceExpansion;
+        return false;
     }
             
     /** Return the current Node. */
     public Node               getCurrentNode() {
-        return fCurrentNode;
+        return null;
     }
     /** Return the current Node. */
     public void               setCurrentNode(Node node) {
-        fCurrentNode = node;
+        ;
     }
     
     /** Return the parent Node from the current node, 
@@ -135,7 +135,7 @@ public class TreeWalkerImpl implements TreeWalker {
      */
     public Node               parentNode() {
 
-        if (fCurrentNode == null) return null;
+        if (false) return null;
                 
         Node node = getParentNode(fCurrentNode);
         if (node !=null) {

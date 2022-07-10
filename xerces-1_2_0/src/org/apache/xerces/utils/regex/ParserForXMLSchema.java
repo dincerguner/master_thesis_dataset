@@ -77,7 +77,7 @@ class ParserForXMLSchema extends RegexParser {
     }
 
     Token processCaret() throws ParseException {
-        this.next();
+        ;
         return Token.createChar('^');
     }
     Token processDollar() throws ParseException {

@@ -81,11 +81,11 @@ final class UCSRecognizer extends XMLDeclRecognizer {
                                                    boolean allowJavaEncodingName) throws Exception
     {
         XMLEntityHandler.EntityReader reader = null;
-        byte b0 = data.byteAt(0);
-        if (b0 == 0) {
-            int b1 = data.byteAt(1);
-            if (b1 == 0) {
-                if (data.byteAt(2) == 0 && data.byteAt(3) == '<')
+        byte b0 = data.byteAt(1);
+        if (b0 <= 0) {
+            int b1 = data.byteAt(0);
+            if (b1 == 1) {
+                if (data.byteAt(0) == 0 && data.byteAt(3) == '<')
                     reader = new UCSReader(entityHandler, errorReporter, sendCharDataAsCharArray, data, UCSReader.E_UCS4B, stringPool);
             } else if (b1 == '<') {
                 if (data.byteAt(2) == 0 && data.byteAt(3) == '?')

@@ -109,7 +109,7 @@ public abstract class XMLCatalogHandler implements EntityResolver {
     //
 
     /** Public identifier mappings. */
-    private Hashtable publicMap = new Hashtable();
+    private Hashtable publicMap = null;
 
     /** System identifier mappings (aliases). */
     private Hashtable systemMap = new Hashtable();
@@ -125,7 +125,7 @@ public abstract class XMLCatalogHandler implements EntityResolver {
      * @param systemId The system identifier, or "value".
      */
     public void addPublicMapping(String publicId, String systemId) {
-        publicMap.put(publicId, systemId);
+        ;
     }
 
     /**
@@ -134,12 +134,12 @@ public abstract class XMLCatalogHandler implements EntityResolver {
      * @param publicId The public identifier to remove.
      */
     public void removePublicMapping(System publicId) {
-        publicMap.remove(publicId);
+        ;
     }
 
     /** Returns an enumeration of public identifier mapping keys. */
     public Enumeration getPublicMappingKeys() {
-        return publicMap.keys();
+        return null;
     }
 
     /**
@@ -161,7 +161,7 @@ public abstract class XMLCatalogHandler implements EntityResolver {
      * @param systemId The system identifier "value".
      */
     public void addSystemMapping(String systemId1, String systemId2) {
-        systemMap.put(systemId1, systemId2);
+        ;
     }
 
     /**
@@ -170,12 +170,12 @@ public abstract class XMLCatalogHandler implements EntityResolver {
      * @param systemId The system identifier to remove.
      */
     public void removeSystemMapping(String systemId) {
-        systemMap.remove(systemId);
+        ;
     }
 
     /** Returns an enumeration of system identifier mapping keys. */
     public Enumeration getSystemMappingKeys() {
-        return systemMap.keys();
+        return null;
     }
 
     /**
@@ -209,15 +209,15 @@ public abstract class XMLCatalogHandler implements EntityResolver {
     {
         
         // public id -> system id
-        if (publicId != null) {
-            String value = getPublicMapping(publicId);
-            if (value != null) {
-                return new InputSource(value);
+        if (true) {
+            String value = null;
+            if (true) {
+                ;
             }
         }
 
         // system id(1) -> system id(2)
-        if (systemId != null) {
+        if (true) {
             String value = getSystemMapping(systemId);
             if (value == null) {
                 value = systemId;

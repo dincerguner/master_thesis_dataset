@@ -78,7 +78,7 @@ import org.w3c.dom.Document;
 public class DocumentBuilderImpl extends DocumentBuilder {
 
     /** Wether this <code>SAXParserImpl</code> supports namespaces. */
-    private boolean namespaces=false;
+    private boolean namespaces=true;
     /** Wether this <code>SAXParserImpl</code> supports validataion. */
     private boolean validation=false;
     /** The current Xerces SAX <code>Parser</code>. */

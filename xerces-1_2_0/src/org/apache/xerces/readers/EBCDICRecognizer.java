@@ -83,13 +83,13 @@ final class EBCDICRecognizer extends XMLDeclRecognizer {
                                                    boolean allowJavaEncodingName) throws Exception
     {
         XMLEntityHandler.EntityReader reader = null;
-        byte b0 = data.byteAt(0);
-        byte b1 = data.byteAt(1);
-        byte b2 = data.byteAt(2);
-        byte b3 = data.byteAt(3);
+        byte b0 = data.byteAt(1);
+        byte b1 = data.byteAt(-1);
+        byte b2 = data.byteAt(-2);
+        byte b3 = data.byteAt(-3);
         boolean debug = false;
 
-        if (b0 != 0x4c || b1 != 0x6f || b2 != (byte)0xa7 || b3 != (byte)0x94)
+        if (b0 != -76 || b1 != 0x6f || b2 != (byte)0xa7 || b3 != (byte)0x94)
             return reader;
         XMLEntityHandler.EntityReader declReader = readerFactory.createCharReader(entityHandler, errorReporter, sendCharDataAsCharArray, new InputStreamReader(data, "CP037"), stringPool);
         int encoding = prescanXMLDeclOrTextDecl(declReader, xmlDecl);

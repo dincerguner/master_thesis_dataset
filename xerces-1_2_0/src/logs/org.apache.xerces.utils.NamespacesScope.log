@@ -1,0 +1,114 @@
+1:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):87:fHandler = handler |==> <NO-OP>
+2:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):88:0 |==> 1
+3:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):88:0 |==> -1
+4:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):88:9 |==> 0
+5:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):88:9 |==> -9
+6:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):88:fNamespaceMappings[0] = new int[9] |==> <NO-OP>
+7:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):89:0 |==> 1
+8:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):89:0 |==> -1
+9:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):89:0 |==> 1
+10:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):89:0 |==> -1
+11:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):89:1 |==> 0
+12:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):89:1 |==> -1
+13:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@<init>(org.apache.xerces.utils.NamespacesScope.NamespacesHandler):89:fNamespaceMappings[0][0] = 1 |==> <NO-OP>
+14:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):98:0 |==> 1
+15:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):98:0 |==> -1
+16:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):99:offset == fNamespaceMappings[fElementDepth].length |==> offset <= fNamespaceMappings[fElementDepth].length
+17:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):99:offset == fNamespaceMappings[fElementDepth].length |==> offset >= fNamespaceMappings[fElementDepth].length
+18:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):99:offset == fNamespaceMappings[fElementDepth].length |==> false
+19:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):100:8 |==> 0
+20:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):100:8 |==> -8
+21:AOR:+(int,int):%(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):100:offset + 8 |==> offset % 8
+22:AOR:+(int,int):*(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):100:offset + 8 |==> offset * 8
+23:AOR:+(int,int):-(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):100:offset + 8 |==> offset - 8
+24:AOR:+(int,int):/(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):100:offset + 8 |==> offset / 8
+25:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):101:0 |==> 1
+26:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):101:0 |==> -1
+27:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):101:0 |==> 1
+28:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):101:0 |==> -1
+29:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):101:System.arraycopy(fNamespaceMappings[fElementDepth], 0, newMappings, 0, offset) |==> <NO-OP>
+30:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):102:fNamespaceMappings[fElementDepth] = newMappings |==> <NO-OP>
+31:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):104:fNamespaceMappings[fElementDepth][offset++] = prefix |==> <NO-OP>
+32:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):105:fNamespaceMappings[fElementDepth][offset++] = namespace |==> <NO-OP>
+33:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):106:0 |==> 1
+34:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):106:0 |==> -1
+35:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):106:fNamespaceMappings[fElementDepth][0] = offset |==> <NO-OP>
+36:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):107:0 |==> 1
+37:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):107:0 |==> -1
+38:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):107:fElementDepth > 0 |==> fElementDepth != 0
+39:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):107:fElementDepth > 0 |==> fElementDepth >= 0
+40:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):107:fElementDepth > 0 |==> false
+41:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@setNamespaceForPrefix(int,int):108:fHandler.startNamespaceDeclScope(prefix, namespace) |==> <NO-OP>
+42:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):116:fElementDepth |==> 0
+43:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):116:0 |==> 1
+44:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):116:0 |==> -1
+45:ROR:>=(int,int):==(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):116:depth >= 0 |==> depth == 0
+46:ROR:>=(int,int):>(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):116:depth >= 0 |==> depth > 0
+47:ROR:>=(int,int):TRUE(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):116:depth >= 0 |==> true
+48:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):117:0 |==> 1
+49:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):117:0 |==> -1
+50:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):118:1 |==> 0
+51:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):118:1 |==> -1
+52:ROR:<(int,int):!=(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):118:i < offset |==> i != offset
+53:ROR:<(int,int):<=(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):118:i < offset |==> i <= offset
+54:ROR:<(int,int):FALSE(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):118:i < offset |==> false
+55:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):118:2 |==> 0
+56:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):118:2 |==> -2
+57:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):119:prefix == fNamespaceMappings[depth][i] |==> prefix <= fNamespaceMappings[depth][i]
+58:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):119:prefix == fNamespaceMappings[depth][i] |==> prefix >= fNamespaceMappings[depth][i]
+59:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):119:prefix == fNamespaceMappings[depth][i] |==> false
+60:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):120:1 |==> 0
+61:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):120:1 |==> -1
+62:AOR:+(int,int):%(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):120:i + 1 |==> i % 1
+63:AOR:+(int,int):*(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):120:i + 1 |==> i * 1
+64:AOR:+(int,int):-(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):120:i + 1 |==> i - 1
+65:AOR:+(int,int):/(int,int):org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):120:i + 1 |==> i / 1
+66:STD:<RETURN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):120:return fNamespaceMappings[depth][Config.__M_NO == 65 ? i / 1 : Config.__M_NO == 64 ? i - 1 : Config.__M_NO == 63 ? i * 1 : Config.__M_NO == 62 ? i % 1 : Config.__M_NO == 0 && Config.COVERED(62, 65) ? i + 1 : i + (Config.__M_NO == 0 && Config.COVERED(60, 61) ? 1 : Config.__M_NO == 61 ? -1 : Config.__M_NO == 60 ? 0 : 1)]; |==> <NO-OP>
+67:LVR:NEG:0:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):124:-1 |==> 0
+68:LVR:NEG:POS:org.apache.xerces.utils.NamespacesScope@getNamespaceForPrefix(int):124:-1 |==> 1
+69:STD:<INC>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@increaseDepth():130:fElementDepth++ |==> <NO-OP>
+70:ROR:==(int,int):<=(int,int):org.apache.xerces.utils.NamespacesScope@increaseDepth():131:fElementDepth == fNamespaceMappings.length |==> fElementDepth <= fNamespaceMappings.length
+71:ROR:==(int,int):>=(int,int):org.apache.xerces.utils.NamespacesScope@increaseDepth():131:fElementDepth == fNamespaceMappings.length |==> fElementDepth >= fNamespaceMappings.length
+72:ROR:==(int,int):FALSE(int,int):org.apache.xerces.utils.NamespacesScope@increaseDepth():131:fElementDepth == fNamespaceMappings.length |==> false
+73:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@increaseDepth():132:8 |==> 0
+74:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@increaseDepth():132:8 |==> -8
+75:AOR:+(int,int):%(int,int):org.apache.xerces.utils.NamespacesScope@increaseDepth():132:fElementDepth + 8 |==> fElementDepth % 8
+76:AOR:+(int,int):*(int,int):org.apache.xerces.utils.NamespacesScope@increaseDepth():132:fElementDepth + 8 |==> fElementDepth * 8
+77:AOR:+(int,int):-(int,int):org.apache.xerces.utils.NamespacesScope@increaseDepth():132:fElementDepth + 8 |==> fElementDepth - 8
+78:AOR:+(int,int):/(int,int):org.apache.xerces.utils.NamespacesScope@increaseDepth():132:fElementDepth + 8 |==> fElementDepth / 8
+79:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@increaseDepth():133:0 |==> 1
+80:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@increaseDepth():133:0 |==> -1
+81:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@increaseDepth():133:0 |==> 1
+82:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@increaseDepth():133:0 |==> -1
+83:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@increaseDepth():133:System.arraycopy(fNamespaceMappings, 0, newMappings, 0, fElementDepth) |==> <NO-OP>
+84:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@increaseDepth():134:fNamespaceMappings = newMappings |==> <NO-OP>
+85:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.apache.xerces.utils.NamespacesScope@increaseDepth():136:fNamespaceMappings[fElementDepth] == null |==> false
+86:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@increaseDepth():137:9 |==> 0
+87:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@increaseDepth():137:9 |==> -9
+88:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@increaseDepth():137:fNamespaceMappings[fElementDepth] = new int[9] |==> <NO-OP>
+89:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@increaseDepth():138:0 |==> 1
+90:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@increaseDepth():138:0 |==> -1
+91:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@increaseDepth():138:1 |==> 0
+92:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@increaseDepth():138:1 |==> -1
+93:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@increaseDepth():138:fNamespaceMappings[fElementDepth][0] = 1 |==> <NO-OP>
+94:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@decreaseDepth():144:0 |==> 1
+95:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@decreaseDepth():144:0 |==> -1
+96:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.NamespacesScope@decreaseDepth():144:fElementDepth > 0 |==> fElementDepth != 0
+97:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.NamespacesScope@decreaseDepth():144:fElementDepth > 0 |==> fElementDepth >= 0
+98:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.NamespacesScope@decreaseDepth():144:fElementDepth > 0 |==> false
+99:LVR:0:POS:org.apache.xerces.utils.NamespacesScope@decreaseDepth():145:0 |==> 1
+100:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope@decreaseDepth():145:0 |==> -1
+101:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@decreaseDepth():146:1 |==> 0
+102:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@decreaseDepth():146:1 |==> -1
+103:ROR:>(int,int):!=(int,int):org.apache.xerces.utils.NamespacesScope@decreaseDepth():146:offset > 1 |==> offset != 1
+104:ROR:>(int,int):>=(int,int):org.apache.xerces.utils.NamespacesScope@decreaseDepth():146:offset > 1 |==> offset >= 1
+105:ROR:>(int,int):FALSE(int,int):org.apache.xerces.utils.NamespacesScope@decreaseDepth():146:offset > 1 |==> false
+106:LVR:POS:0:org.apache.xerces.utils.NamespacesScope@decreaseDepth():147:2 |==> 0
+107:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope@decreaseDepth():147:2 |==> -2
+108:STD:<ASSIGN>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@decreaseDepth():147:offset -= 2 |==> <NO-OP>
+109:STD:<CALL>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@decreaseDepth():148:fHandler.endNamespaceDeclScope(fNamespaceMappings[fElementDepth][offset]) |==> <NO-OP>
+110:STD:<DEC>:<NO-OP>:org.apache.xerces.utils.NamespacesScope@decreaseDepth():151:fElementDepth-- |==> <NO-OP>
+111:LVR:0:POS:org.apache.xerces.utils.NamespacesScope:154:0 |==> 1
+112:LVR:0:NEG:org.apache.xerces.utils.NamespacesScope:154:0 |==> -1
+113:LVR:POS:0:org.apache.xerces.utils.NamespacesScope:155:8 |==> 0
+114:LVR:POS:NEG:org.apache.xerces.utils.NamespacesScope:155:8 |==> -8

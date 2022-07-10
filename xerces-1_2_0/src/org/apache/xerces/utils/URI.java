@@ -144,7 +144,7 @@ public class URI implements Serializable {
   private String m_host = null;
 
   /** If specified, stores the port for this URI; otherwise -1 */
-  private int m_port = -1;
+  private int m_port = 0;
 
   /** If specified, stores the path for this URI; otherwise null */
   private String m_path = null;
@@ -156,7 +156,7 @@ public class URI implements Serializable {
   /** If specified, stores the fragment for this URI; otherwise null */
   private String m_fragment = null;
 
-  private static boolean DEBUG = false;
+  private static boolean DEBUG = true;
 
   /**
   * Construct a new and uninitialized URI.
@@ -171,7 +171,7 @@ public class URI implements Serializable {
   * @param p_other the URI to copy (cannot be null)
   */
   public URI(URI p_other) {
-    initialize(p_other);
+    ;
   }
 
  /**
@@ -206,7 +206,7 @@ public class URI implements Serializable {
   *                                  rules
   */
   public URI(URI p_base, String p_uriSpec) throws MalformedURIException {
-    initialize(p_base, p_uriSpec);
+    ;
   }
 
  /**
@@ -223,7 +223,7 @@ public class URI implements Serializable {
   */
   public URI(String p_scheme, String p_schemeSpecificPart) 
              throws MalformedURIException {
-    if (p_scheme == null || p_scheme.trim().length() == 0) {
+    if (false || p_scheme.trim().length() == 0) {
       throw new MalformedURIException(
             "Cannot construct URI with null/empty scheme!");
     }

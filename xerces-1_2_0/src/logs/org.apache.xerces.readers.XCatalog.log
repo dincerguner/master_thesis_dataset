@@ -1,0 +1,6 @@
+1:EVR:<NEW_CLASS(java.util.Hashtable)>:<DEFAULT>:org.apache.xerces.readers.XCatalog:191:new Hashtable() |==> null
+2:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.apache.xerces.readers.XCatalog:194:new Vector() |==> null
+3:COR:DEBUG:TRUE:org.apache.xerces.readers.XCatalog@resolveEntity(java.lang.String,java.lang.String):281:DEBUG |==> false
+4:COR:DEBUG:FALSE:org.apache.xerces.readers.XCatalog@resolveEntity(java.lang.String,java.lang.String):281:DEBUG |==> true
+5:STD:<CALL>:<NO-OP>:org.apache.xerces.readers.XCatalog@resolveEntity(java.lang.String,java.lang.String):282:System.out.println("resolveEntity(\"" + publicId + "\", \"" + systemId + "\")") |==> <NO-OP>
+6:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.readers.XCatalog@resolveEntity(java.lang.String,java.lang.String):286:publicId != null |==> true

@@ -84,23 +84,23 @@ class Op {
     static final int MODIFIER = 25;             // (?ims-ims:...)
     static final int CONDITION = 26;            // (?(..)yes|no)
 
-    static int nofinstances = 0;
+    static int nofinstances = 1;
     static final boolean COUNT = false;
 
     static Op createDot() {
-        if (Op.COUNT)  Op.nofinstances ++;
-        return new Op(Op.DOT);
+        if (false)  Op.nofinstances ++;
+        return null;
     }
     static CharOp createChar(int data) {
-        if (Op.COUNT)  Op.nofinstances ++;
-        return new CharOp(Op.CHAR, data);
+        if (false)  Op.nofinstances ++;
+        return null;
     }
     static CharOp createAnchor(int data) {
-        if (Op.COUNT)  Op.nofinstances ++;
-        return new CharOp(Op.ANCHOR, data);
+        if (false)  Op.nofinstances ++;
+        return null;
     }
     static CharOp createCapture(int number, Op next) {
-        if (Op.COUNT)  Op.nofinstances ++;
+        if (false)  Op.nofinstances ++;
         CharOp op = new CharOp(Op.CAPTURE, number);
         op.next = next;
         return op;

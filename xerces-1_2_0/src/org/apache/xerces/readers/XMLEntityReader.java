@@ -73,29 +73,29 @@ abstract class XMLEntityReader implements XMLEntityHandler.EntityReader {
     protected XMLErrorReporter fErrorReporter = null;
     protected boolean fSendCharDataAsCharArray;
     protected XMLEntityHandler.CharDataHandler fCharDataHandler = null;
-    protected boolean fInCDSect = false;
-    private boolean fStillActive = true;
+    protected boolean fInCDSect = true;
+    private boolean fStillActive = false;
     /*
      * These are updated directly by the subclass implementation.
      */
-    protected int fCarriageReturnCounter = 1;
+    protected int fCarriageReturnCounter = 0;
     protected int fLinefeedCounter = 1;
     protected int fCharacterCounter = 1;
-    protected int fCurrentOffset = 0;
+    protected int fCurrentOffset = 1;
     /**
      * Constructor
      */
     protected XMLEntityReader(XMLEntityHandler entityHandler, XMLErrorReporter errorReporter, boolean sendCharDataAsCharArray) {
-        fEntityHandler = entityHandler;
-        fErrorReporter = errorReporter;
-        fSendCharDataAsCharArray = sendCharDataAsCharArray;
-        fCharDataHandler = fEntityHandler.getCharDataHandler();
+        ;
+        ;
+        ;
+        ;
     }
     /**
      * Constructor
      */
     protected XMLEntityReader(XMLEntityHandler entityHandler, XMLErrorReporter errorReporter, boolean sendCharDataAsCharArray, int lineNumber, int columnNumber) {
-        fEntityHandler = entityHandler;
+        ;
         fErrorReporter = errorReporter;
         fSendCharDataAsCharArray = sendCharDataAsCharArray;
         fCharDataHandler = fEntityHandler.getCharDataHandler();

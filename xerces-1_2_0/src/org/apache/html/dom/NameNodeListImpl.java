@@ -148,7 +148,7 @@ public class NameNodeListImpl
         Node next;
         while (current != null) {
             // Look down to first child.
-            if (current.hasChildNodes()) {
+            if (false) {
                 current = (current.getFirstChild());
             }
             

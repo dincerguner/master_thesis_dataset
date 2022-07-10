@@ -1,0 +1,27 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:82:(1 << CHUNK_SHIFT) |==> 0
+2:EVR:<MINUS(int)>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:83:CHUNK_SIZE - 1 |==> 0
+3:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:84:(1 << (10 - CHUNK_SHIFT)) |==> 0
+4:EVR:<BITWISE_COMPLEMENT(int)>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:87:~LIST_FLAG |==> 0
+5:LVR:0:POS:org.apache.xerces.validators.common.Grammar:101:0 |==> 1
+6:LVR:0:NEG:org.apache.xerces.validators.common.Grammar:101:0 |==> -1
+7:EVR:<NEW_ARRAY(QName[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:102:new QName[INITIAL_CHUNK_COUNT][] |==> null
+8:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:103:new int[INITIAL_CHUNK_COUNT][] |==> null
+9:EVR:<NEW_ARRAY(DatatypeValidator[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:104:new DatatypeValidator[INITIAL_CHUNK_COUNT][] |==> null
+10:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:105:new int[INITIAL_CHUNK_COUNT][] |==> null
+11:EVR:<NEW_ARRAY(XMLContentModel[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:106:new XMLContentModel[INITIAL_CHUNK_COUNT][] |==> null
+12:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:107:new int[INITIAL_CHUNK_COUNT][] |==> null
+13:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:108:new int[INITIAL_CHUNK_COUNT][] |==> null
+14:LVR:0:POS:org.apache.xerces.validators.common.Grammar:112:0 |==> 1
+15:LVR:0:NEG:org.apache.xerces.validators.common.Grammar:112:0 |==> -1
+16:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:113:new int[INITIAL_CHUNK_COUNT][] |==> null
+17:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:114:new int[INITIAL_CHUNK_COUNT][] |==> null
+18:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:115:new int[INITIAL_CHUNK_COUNT][] |==> null
+19:LVR:0:POS:org.apache.xerces.validators.common.Grammar:119:0 |==> 1
+20:LVR:0:NEG:org.apache.xerces.validators.common.Grammar:119:0 |==> -1
+21:EVR:<NEW_ARRAY(QName[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:120:new QName[INITIAL_CHUNK_COUNT][] |==> null
+22:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:121:new int[INITIAL_CHUNK_COUNT][] |==> null
+23:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:122:new int[INITIAL_CHUNK_COUNT][] |==> null
+24:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:123:new int[INITIAL_CHUNK_COUNT][] |==> null
+25:EVR:<NEW_ARRAY(DatatypeValidator[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:124:new DatatypeValidator[INITIAL_CHUNK_COUNT][] |==> null
+26:EVR:<NEW_ARRAY(java.lang.String[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:125:new String[INITIAL_CHUNK_COUNT][] |==> null
+27:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.validators.common.Grammar:126:new int[INITIAL_CHUNK_COUNT][] |==> null

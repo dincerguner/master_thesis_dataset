@@ -1,0 +1,15 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.xerces.parsers.DOMParser:138:{"http://apache.org/xml/features/dom/defer-node-expansion", "http://apache.org/xml/features/dom/create-entity-ref-nodes", "http://apache.org/xml/features/dom/include-ignorable-whitespace", "http://apache.org/xml/features/domx/grammar-access"} |==> null
+2:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.apache.xerces.parsers.DOMParser:149:{"http://apache.org/xml/properties/dom/document-class-name", "http://apache.org/xml/properties/dom/current-element-node"} |==> null
+3:LVR:FALSE:TRUE:org.apache.xerces.parsers.DOMParser@<init>():216:false |==> true
+4:STD:<CALL>:<NO-OP>:org.apache.xerces.parsers.DOMParser@<init>():216:initHandlers(false, this, this) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.apache.xerces.parsers.DOMParser@<init>():219:init() |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.apache.xerces.parsers.DOMParser@<init>():223:setDocumentClassName(DEFAULT_DOCUMENT_CLASS_NAME) |==> <NO-OP>
+7:LVR:TRUE:FALSE:org.apache.xerces.parsers.DOMParser@<init>():224:true |==> false
+8:STD:<CALL>:<NO-OP>:org.apache.xerces.parsers.DOMParser@<init>():224:setCreateEntityReferenceNodes(true) |==> <NO-OP>
+9:LVR:TRUE:FALSE:org.apache.xerces.parsers.DOMParser@<init>():225:true |==> false
+10:STD:<CALL>:<NO-OP>:org.apache.xerces.parsers.DOMParser@<init>():225:setDeferNodeExpansion(true) |==> <NO-OP>
+11:LVR:TRUE:FALSE:org.apache.xerces.parsers.DOMParser@<init>():226:true |==> false
+12:STD:<CALL>:<NO-OP>:org.apache.xerces.parsers.DOMParser@<init>():226:setIncludeIgnorableWhitespace(true) |==> <NO-OP>
+13:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.apache.xerces.parsers.DOMParser@getDocument():241:fDocumentImpl != null |==> true
+14:LVR:TRUE:FALSE:org.apache.xerces.parsers.DOMParser@getDocument():242:true |==> false
+15:STD:<CALL>:<NO-OP>:org.apache.xerces.parsers.DOMParser@getDocument():242:fDocumentImpl.setErrorChecking(true) |==> <NO-OP>

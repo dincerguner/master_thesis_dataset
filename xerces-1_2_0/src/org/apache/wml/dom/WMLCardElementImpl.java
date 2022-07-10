@@ -70,7 +70,7 @@ public class WMLCardElementImpl extends WMLElementImpl implements WMLCardElement
     }
 
     public void setOnTimer(String newValue) {
-	setAttribute("ontimer", newValue);
+	;
     }
 
     public String getOnTimer() {

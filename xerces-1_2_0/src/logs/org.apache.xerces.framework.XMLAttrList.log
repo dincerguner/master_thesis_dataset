@@ -1,0 +1,18 @@
+1:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:109:(1 << CHUNK_SHIFT) |==> 0
+2:EVR:<MINUS(int)>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:110:CHUNK_SIZE - 1 |==> 0
+3:EVR:<PARENTHESIZED(int)>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:111:(1 << (10 - CHUNK_SHIFT)) |==> 0
+4:LVR:NEG:0:org.apache.xerces.framework.XMLAttrList:125:-1 |==> 0
+5:LVR:NEG:POS:org.apache.xerces.framework.XMLAttrList:125:-1 |==> 1
+6:LVR:NEG:0:org.apache.xerces.framework.XMLAttrList:126:-1 |==> 0
+7:LVR:NEG:POS:org.apache.xerces.framework.XMLAttrList:126:-1 |==> 1
+8:LVR:0:POS:org.apache.xerces.framework.XMLAttrList:127:0 |==> 1
+9:LVR:0:NEG:org.apache.xerces.framework.XMLAttrList:127:0 |==> -1
+10:LVR:0:POS:org.apache.xerces.framework.XMLAttrList:128:0 |==> 1
+11:LVR:0:NEG:org.apache.xerces.framework.XMLAttrList:128:0 |==> -1
+12:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:129:new int[INITIAL_CHUNK_COUNT][] |==> null
+13:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:130:new int[INITIAL_CHUNK_COUNT][] |==> null
+14:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:131:new int[INITIAL_CHUNK_COUNT][] |==> null
+15:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:132:new int[INITIAL_CHUNK_COUNT][] |==> null
+16:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:133:new int[INITIAL_CHUNK_COUNT][] |==> null
+17:EVR:<NEW_ARRAY(int[][])>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:134:new int[INITIAL_CHUNK_COUNT][] |==> null
+18:EVR:<NEW_ARRAY(byte[][])>:<DEFAULT>:org.apache.xerces.framework.XMLAttrList:135:new byte[INITIAL_CHUNK_COUNT][] |==> null
