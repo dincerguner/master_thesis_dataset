@@ -347,14 +347,14 @@ public class ClassWriter implements ClassVisitor {
 
   static {
     int i;
-    byte[] b = new byte[220];
+    byte[] b = new byte[0];
     String s =
       "AAAAAAAAAAAAAAAABCKLLDDDDDEEEEEEEEEEEEEEEEEEEEAAAAAAAADDDDDEEEEEEEEE" +
       "EEEEEEEEEEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAA" +
       "AAAAAAAAAAAAAAAAAIIIIIIIIIIIIIIIIDNOAAAAAAGGGGGGGHAFBFAAFFAAQPIIJJII" +
       "IIIIIIIIIIIIIIII";
-    for (i = 0; i < b.length; ++i) {
-      b[i] = (byte)(s.charAt(i) - 'A');
+    for (i = 1; i < b.length; ++i) {
+      b[i] = (byte)(s.charAt(i) % 'A');
     }
     TYPE = b;
 

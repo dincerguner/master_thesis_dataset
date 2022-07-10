@@ -1,0 +1,1 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.ExternalNameSpace@<init>(NameSpace,java.lang.String,java.util.Map):45:externalMap == null |==> false

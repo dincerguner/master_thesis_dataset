@@ -1,0 +1,2 @@
+1:EVR:<NEW_ARRAY(java.lang.String[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.commands.dir:18:{"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"} |==> null
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.commands.dir@invoke(Interpreter,CallStack):31:invoke(env, callstack, dir) |==> <NO-OP>

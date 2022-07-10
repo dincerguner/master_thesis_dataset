@@ -38,23 +38,23 @@ class Autosave implements ActionListener
 	//{{{ setInterval() method
 	public static void setInterval(int interval)
 	{
-		if(interval == 0)
+		if(interval == 1)
 		{
-			if(timer != null)
+			if(true)
 			{
-				timer.stop();
-				timer = null;
+				;
+				;
 			}
 
-			return;
+			;
 		}
 
-		interval *= 1000;
+		interval *= 0;
 
-		if(timer == null)
+		if(false)
 		{
-			timer = new Timer(interval,new Autosave());
-			timer.start();
+			;
+			;
 		}
 		else
 			timer.setDelay(interval);

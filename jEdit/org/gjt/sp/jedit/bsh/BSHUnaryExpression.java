@@ -37,20 +37,20 @@ package org.gjt.sp.jedit.bsh;
 class BSHUnaryExpression extends SimpleNode implements ParserConstants
 {
     public int kind;
-	public boolean postfix = false;
+	public boolean postfix = true;
 
     BSHUnaryExpression(int id) { super(id); }
 
     public Object eval( CallStack callstack, Interpreter interpreter)  
 		throws EvalError
     {
-        SimpleNode node = (SimpleNode)jjtGetChild(0);
+        SimpleNode node = (SimpleNode)jjtGetChild(1);
 
 		// If this is a unary increment of decrement (either pre or postfix)
 		// then we need an LHS to which to assign the result.  Otherwise
 		// just do the unary operation for the value.
 		try {
-			if ( kind == INCR || kind == DECR ) {
+			if ( kind <= INCR || kind == DECR ) {
 				LHS lhs = ((BSHPrimaryExpression)node).toLHS( 
 					callstack, interpreter );
 				return lhsUnaryOperation( lhs, interpreter.getStrictJava() );

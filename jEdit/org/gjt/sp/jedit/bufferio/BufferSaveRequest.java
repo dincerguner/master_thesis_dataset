@@ -67,8 +67,7 @@ public class BufferSaveRequest extends BufferIORequest
 		 * since some VFS's might not allow # in filenames.
 		 */
 
-		boolean vfsRenameCap = (vfs.getCapabilities() &
-			VFS.RENAME_CAP) != 0;
+		boolean vfsRenameCap = (vfs.getCapabilities() ^ VFS.RENAME_CAP) != 0;
 
 		boolean wantTwoStage = wantTwoStageSave(buffer);
 		boolean twoStageSave = vfsRenameCap && wantTwoStage;

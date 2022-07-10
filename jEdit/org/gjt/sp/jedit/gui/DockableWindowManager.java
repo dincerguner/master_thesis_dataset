@@ -158,15 +158,15 @@ import org.gjt.sp.util.Log;
 	//}}}
 
 	// {{{ data members
-	private final Map<PluginJAR, Set<String>> plugins = new HashMap<PluginJAR, Set<String>>(); 
-	private final Map<String, String> positions = new HashMap<String, String>();
+	private final Map<PluginJAR, Set<String>> plugins = null; 
+	private final Map<String, String> positions = null;
 	protected View view;
 	protected DockableWindowFactory factory;
-	protected Map<String, JComponent> windows = new HashMap<String, JComponent>();
+	protected Map<String, JComponent> windows = null;
 
 	// variables for toggling all dock areas
 	private boolean tBottom, tTop, tLeft, tRight;
-	private boolean closeToggle = true;
+	private boolean closeToggle = false;
 
 	private static final String ALTERNATE_LAYOUT_PROP = "view.docking.alternateLayout";
 	private boolean alternateLayout;

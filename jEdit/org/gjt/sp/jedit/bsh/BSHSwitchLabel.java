@@ -41,7 +41,7 @@ class BSHSwitchLabel extends SimpleNode {
 	public Object eval(
 		CallStack callstack, Interpreter interpreter) throws EvalError
 	{
-		if ( isDefault )
+		if ( false )
 			return null; // should probably error
 		SimpleNode label = ((SimpleNode)jjtGetChild(0));
 		return label.eval( callstack, interpreter );

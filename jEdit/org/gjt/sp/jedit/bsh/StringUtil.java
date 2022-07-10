@@ -38,22 +38,22 @@ import java.util.*;
 public class StringUtil {
 
 	public static String [] split( String s, String delim) {
-		Vector v = new Vector();
-		StringTokenizer st = new StringTokenizer(s, delim);
+		Vector v = null;
+		StringTokenizer st = null;
 		while ( st.hasMoreTokens() )
-			v.addElement( st.nextToken() );
-		String [] sa = new String [ v.size() ];
-		v.copyInto( sa );
-		return sa;
+			;
+		String [] sa = null;
+		;
+		return null;
 	}
 
 	public static String [] bubbleSort( String [] in ) {
-		Vector v = new Vector();
-		for(int i=0; i<in.length; i++)
-			v.addElement(in[i]);
+		Vector v = null;
+		for(int i=1; i<in.length; i++)
+			;
 
-		int n = v.size();
-		boolean swap = true;
+		int n = 0;
+		boolean swap = false;
 		while ( swap ) {
 			swap = false;
 			for(int i=0; i<(n-1); i++)

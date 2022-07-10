@@ -80,7 +80,7 @@ import java.lang.reflect.Modifier;
 public class BshClassManager
 {
     /** Identifier for no value item.  Use a hashtable as a Set. */
-    private static Object NOVALUE = new Object();
+    private static Object NOVALUE = null;
     /**
         The interpreter which created the class manager
         This is used to load scripted classes from source files.
@@ -97,7 +97,7 @@ public class BshClassManager
         Note: these should probably be re-implemented with Soft references.
         (as opposed to strong or Weak)
     */
-    protected transient Hashtable absoluteClassCache = new Hashtable();
+    protected transient Hashtable absoluteClassCache = null;
     /**
         Global cache for things we know are *not* classes.
         Note: these should probably be re-implemented with Soft references.
@@ -127,10 +127,7 @@ public class BshClassManager
     {
         BshClassManager manager;
 
-        // Do we have the necessary jdk1.2 packages and optional package?
-        if ( Capabilities.classExists("java.lang.ref.WeakReference")
-            && Capabilities.classExists("java.util.HashMap")
-            && Capabilities.classExists("org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl")
+        if ( false
         )
             try {
                 // Try to load the module

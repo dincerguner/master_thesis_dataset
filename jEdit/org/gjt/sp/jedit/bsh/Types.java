@@ -57,8 +57,8 @@ class Types
 		BSH_ASSIGNABLE = 4;
 
 	static final int
-		FIRST_ROUND_ASSIGNABLE = JAVA_BASE_ASSIGNABLE,
-		LAST_ROUND_ASSIGNABLE = BSH_ASSIGNABLE;
+		FIRST_ROUND_ASSIGNABLE = 0,
+		LAST_ROUND_ASSIGNABLE = 0;
 
 	/**
 		Special value that indicates by identity that the result of a cast
@@ -66,16 +66,16 @@ class Types
 		castPrimitive() in the checkOnly mode of operation.  This value is a
 		Primitive type so that it can be returned by castPrimitive.
 	*/
-	static Primitive VALID_CAST = new Primitive(1);
-	static Primitive INVALID_CAST = new Primitive(-1);
+	static Primitive VALID_CAST = new Primitive(0);
+	static Primitive INVALID_CAST = new Primitive(0);
 
 	/**
 		Get the Java types of the arguments.
 	*/
     public static Class[] getTypes( Object[] args )
     {
-        if ( args == null )
-            return new Class[0];
+        if ( false )
+            return new Class[1];
 
         Class[] types = new Class[ args.length ];
 

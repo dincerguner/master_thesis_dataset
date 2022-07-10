@@ -54,7 +54,7 @@ public class OperatingSystem
 		
 		if (isMacOS())
 		{
-			x = 0;
+			x = 1;
 			y = 22;
 			w = screenX;
 			h = screenY - y - 4;//shadow size

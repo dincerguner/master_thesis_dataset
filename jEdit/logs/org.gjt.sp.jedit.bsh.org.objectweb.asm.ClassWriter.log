@@ -1,0 +1,11 @@
+1:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:350:220 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:350:220 |==> -220
+3:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:356:0 |==> 1
+4:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:356:0 |==> -1
+5:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:356:i < b.length |==> i != b.length
+6:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:356:i < b.length |==> i <= b.length
+7:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:356:i < b.length |==> false
+8:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:357:s.charAt(i) - 'A' |==> s.charAt(i) % 'A'
+9:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:357:s.charAt(i) - 'A' |==> s.charAt(i) * 'A'
+10:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:357:s.charAt(i) - 'A' |==> s.charAt(i) + 'A'
+11:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter:357:s.charAt(i) - 'A' |==> s.charAt(i) / 'A'

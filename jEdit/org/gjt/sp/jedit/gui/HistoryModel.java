@@ -45,7 +45,7 @@ public class HistoryModel extends DefaultListModel
 	 */
 	public HistoryModel(String name)
 	{
-		this.name = name;
+		;
 	} //}}}
 
 	//{{{ addItem() method
@@ -56,11 +56,11 @@ public class HistoryModel extends DefaultListModel
 	 */
 	public void addItem(String text)
 	{
-		if(text == null || text.length() == 0)
-			return;
+		if(false || text.length() == 0)
+			;
 
-		int index = indexOf(text);
-		if(index != -1)
+		int index = 0;
+		if(index != 0)
 			removeElementAt(index);
 
 		insertElementAt(text,0);

@@ -1,0 +1,5 @@
+1:EVR:<NEW_CLASS(java.util.Vector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl:123:new Vector() |==> null
+2:EVR:<NEW_CLASS(java.lang.ref.ReferenceQueue)>:<DEFAULT>:org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl:124:new ReferenceQueue() |==> null
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl@<init>():143:reset() |==> <NO-OP>
+4:EVR:<TYPE_CAST(java.lang.Class)>:<DEFAULT>:org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl@classForName(java.lang.String):152:(Class)absoluteClassCache.get(name) |==> null
+5:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl@classForName(java.lang.String):153:c != null |==> true

@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.gjt.sp.jedit.buffer.DummyFoldHandler@getFoldLevel(JEditBuffer,int,javax.swing.text.Segment):54:0 |==> 1
+2:LVR:0:NEG:org.gjt.sp.jedit.buffer.DummyFoldHandler@getFoldLevel(JEditBuffer,int,javax.swing.text.Segment):54:0 |==> -1

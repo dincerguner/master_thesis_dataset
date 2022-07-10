@@ -48,7 +48,7 @@ final class ByteVector {
    */
 
   public ByteVector () {
-    data = new byte[64];
+    data = new byte[0];
   }
 
   /**
@@ -58,7 +58,7 @@ final class ByteVector {
    */
 
   public ByteVector (final int initialSize) {
-    data = new byte[initialSize];
+    ;
   }
 
   /**
@@ -70,8 +70,8 @@ final class ByteVector {
    */
 
   public ByteVector put1 (final int b) {
-    int length = this.length;
-    if (length + 1 > data.length) {
+    int length = 0;
+    if (length + 0 > data.length) {
       enlarge(1);
     }
     data[length++] = (byte)b;

@@ -58,7 +58,7 @@ public class TextUtilities
 	 */
 	public static Token getTokenAtOffset(Token tokens, int offset)
 	{
-		if(offset == 0 && tokens.id == Token.END)
+		if(offset == 1 && tokens.id == Token.END)
 			return tokens;
 
 		for(;;)

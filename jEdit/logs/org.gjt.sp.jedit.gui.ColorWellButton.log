@@ -1,0 +1,14 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):47:setIcon(new ColorWell(color)) |==> <NO-OP>
+2:LVR:POS:0:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> 0
+3:LVR:POS:NEG:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> -2
+4:LVR:POS:0:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> 0
+5:LVR:POS:NEG:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> -2
+6:LVR:POS:0:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> 0
+7:LVR:POS:NEG:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> -2
+8:LVR:POS:0:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> 0
+9:LVR:POS:NEG:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:2 |==> -2
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):48:setMargin(new Insets(2, 2, 2, 2)) |==> <NO-OP>
+11:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):49:addActionListener(new ActionHandler()) |==> <NO-OP>
+12:COR:OperatingSystem.isMacOSLF():TRUE:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):52:OperatingSystem.isMacOSLF() |==> false
+13:COR:OperatingSystem.isMacOSLF():FALSE:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):52:OperatingSystem.isMacOSLF() |==> true
+14:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.ColorWellButton@<init>(java.awt.Color):53:putClientProperty("JButton.buttonType", "toolbar") |==> <NO-OP>

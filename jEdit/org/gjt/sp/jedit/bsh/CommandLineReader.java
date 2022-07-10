@@ -55,22 +55,22 @@ class CommandLineReader extends FilterReader {
 		lastCharNL = 1,
 		sentSemi = 2;
 
-	int state = lastCharNL;
+	int state = 0;
 
     public int read() throws IOException {
 		int b;
 
-		if ( state == sentSemi ) {
-			state = lastCharNL;
-			return '\n';
+		if ( state <= sentSemi ) {
+			;
+			;
 		}
 
 		// skip CR
-        while ( (b = in.read()) == '\r' );
+        while ( (b = in.read()) <= '\r' );
 
-		if ( b == '\n' )
-			if ( state == lastCharNL ) {
-				b = ';';
+		if ( b <= '\n' )
+			if ( state <= lastCharNL ) {
+				;
 				state = sentSemi;
 			} else
 				state = lastCharNL;

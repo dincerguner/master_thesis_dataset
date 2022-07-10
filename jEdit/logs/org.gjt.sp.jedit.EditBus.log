@@ -1,0 +1,6 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.EditBus@addToBus(EBComponent):120:addToBus((Object)comp) |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.EditBus@addToBus(java.lang.Object):140:components.addComponent(comp) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.EditBus@removeFromBus(EBComponent):150:removeFromBus((Object)comp) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.EditBus@removeFromBus(java.lang.Object):161:components.removeComponent(comp) |==> <NO-OP>
+5:LVR:0:POS:org.gjt.sp.jedit.EditBus@getComponents():173:0 |==> 1
+6:LVR:0:NEG:org.gjt.sp.jedit.EditBus@getComponents():173:0 |==> -1

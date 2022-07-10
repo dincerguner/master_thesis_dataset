@@ -1,0 +1,57 @@
+1:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@getProperties():33:new Properties() |==> null
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@getProperties():34:total.putAll(system) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@getProperties():36:total.putAll(plugin) |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@getProperties():37:total.putAll(site) |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@getProperties():38:total.putAll(user) |==> <NO-OP>
+6:EVR:<IDENTIFIER(java.util.Properties)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@getProperties():39:total |==> null
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@loadSystemProps(java.io.InputStream):46:loadProps(system, in) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@loadSiteProps(java.io.InputStream):53:loadProps(site, in) |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@loadUserProps(java.io.InputStream):60:loadProps(user, in) |==> <NO-OP>
+10:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@saveUserProps(java.io.OutputStream):67:user.store(out, "jEdit properties") |==> <NO-OP>
+11:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@loadPluginProps(java.io.InputStream):74:new Properties() |==> null
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@loadPluginProps(java.io.InputStream):75:loadProps(plugin, in) |==> <NO-OP>
+13:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@loadPluginProps(java.io.InputStream):76:plugins.add(plugin) |==> <NO-OP>
+14:EVR:<IDENTIFIER(java.util.Properties)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@loadPluginProps(java.io.InputStream):77:plugin |==> null
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@addPluginProps(java.util.Properties):83:plugins.add(props) |==> <NO-OP>
+16:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@removePluginProps(java.util.Properties):89:plugins.remove(props) |==> <NO-OP>
+17:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@getProperty(java.lang.String):95:user.getProperty(name) |==> null
+18:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.PropertyManager@getProperty(java.lang.String):96:value != null |==> true
+19:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@getProperty(java.lang.String):97:value |==> null
+20:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@getProperty(java.lang.String):99:getDefaultProperty(name) |==> null
+21:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):105:getDefaultProperty(name) |==> null
+22:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):114:value == null |==> false
+23:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop == null |==> false
+24:LVR:0:POS:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:0 |==> 1
+25:LVR:0:NEG:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:0 |==> -1
+26:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop.length() == 0 |==> prop.length() <= 0
+27:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop.length() == 0 |==> prop.length() >= 0
+28:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop.length() == 0 |==> false
+29:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop == null || prop.length() == 0 |==> prop == null != (prop.length() == 0)
+30:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop == null || prop.length() == 0 |==> prop == null
+31:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop == null || prop.length() == 0 |==> prop.length() == 0
+32:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):116:prop == null || prop.length() == 0 |==> true
+33:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):117:user.remove(name) |==> <NO-OP>
+34:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):119:user.setProperty(name, "") |==> <NO-OP>
+35:COR:value.equals(prop):TRUE:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):123:value.equals(prop) |==> false
+36:COR:value.equals(prop):FALSE:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):123:value.equals(prop) |==> true
+37:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):124:user.remove(name) |==> <NO-OP>
+38:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@setProperty(java.lang.String,java.lang.String):126:user.setProperty(name, value) |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@setTemporaryProperty(java.lang.String,java.lang.String):133:user.remove(name) |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@setTemporaryProperty(java.lang.String,java.lang.String):134:system.setProperty(name, value) |==> <NO-OP>
+41:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.PropertyManager@unsetProperty(java.lang.String):140:getDefaultProperty(name) != null |==> true
+42:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@unsetProperty(java.lang.String):141:user.setProperty(name, "") |==> <NO-OP>
+43:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@unsetProperty(java.lang.String):143:user.remove(name) |==> <NO-OP>
+44:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@resetProperty(java.lang.String):149:user.remove(name) |==> <NO-OP>
+45:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager:153:new Properties() |==> null
+46:EVR:<NEW_CLASS(java.util.LinkedList<java.util.Properties>)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager:154:new LinkedList<Properties>() |==> null
+47:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager:155:new Properties() |==> null
+48:EVR:<NEW_CLASS(java.util.Properties)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager:156:new Properties() |==> null
+49:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@getDefaultProperty(java.lang.String):161:site.getProperty(name) |==> null
+50:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.PropertyManager@getDefaultProperty(java.lang.String):162:value != null |==> true
+51:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@getDefaultProperty(java.lang.String):163:return value; |==> <NO-OP>
+52:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@getDefaultProperty(java.lang.String):167:value = plugin.getProperty(name) |==> <NO-OP>
+53:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.PropertyManager@getDefaultProperty(java.lang.String):168:value != null |==> true
+54:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@getDefaultProperty(java.lang.String):169:return value; |==> <NO-OP>
+55:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.PropertyManager@getDefaultProperty(java.lang.String):172:system.getProperty(name) |==> null
+56:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@loadProps(java.util.Properties,java.io.InputStream):181:into.load(in) |==> <NO-OP>
+57:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.PropertyManager@loadProps(java.util.Properties,java.io.InputStream):185:in.close() |==> <NO-OP>

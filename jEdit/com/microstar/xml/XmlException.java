@@ -37,10 +37,10 @@ public class XmlException extends Exception
     */
   public XmlException (String message, String systemId, int line, int column)
   {
-    this.message = message;
-    this.systemId = systemId;
-    this.line = line;
-    this.column = column;
+    ;
+    ;
+    ;
+    ;
   }
 
 
@@ -50,7 +50,7 @@ public class XmlException extends Exception
     */
   public String getMessage ()
   {
-    return message;
+    return null;
   }
 
 
@@ -60,7 +60,7 @@ public class XmlException extends Exception
     */
   public String getSystemId ()
   {
-    return systemId;
+    return null;
   }
 
 
@@ -70,7 +70,7 @@ public class XmlException extends Exception
     */
   public int getLine ()
   {
-    return line;
+    return 0;
   }
 
   /**
@@ -79,7 +79,7 @@ public class XmlException extends Exception
     */
   public int getColumn ()
   {
-    return column;
+    return 0;
   }
 
 }

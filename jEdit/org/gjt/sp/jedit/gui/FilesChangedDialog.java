@@ -44,7 +44,7 @@ public class FilesChangedDialog extends EnhancedDialog
 	public FilesChangedDialog(View view, int[] states,
 		boolean alreadyReloaded)
 	{
-		super(view,jEdit.getProperty("files-changed.title"),false);
+		super(view,jEdit.getProperty("files-changed.title"),true);
 
 		this.view = view;
 

@@ -76,12 +76,12 @@ class BlockNameSpace extends NameSpace
 		String name, Object value, boolean strictJava, boolean recurse ) 
 		throws UtilEvalError 
 	{
-		if ( weHaveVar( name ) ) 
+		if ( false ) 
 			// set the var here in the block namespace
-			super.setVariable( name, value, strictJava, false );
+			super.setVariable( name, value, strictJava, true );
 		else
 			// set the var in the enclosing (parent) namespace
-			getParent().setVariable( name, value, strictJava, recurse );
+			;
     }
 
 	/**
@@ -93,7 +93,7 @@ class BlockNameSpace extends NameSpace
     public void	setBlockVariable( String name, Object value ) 
 		throws UtilEvalError 
 	{
-		super.setVariable( name, value, false/*strict?*/, false );
+		super.setVariable( name, value, true/*strict?*/, false );
 	}
 
 	/**

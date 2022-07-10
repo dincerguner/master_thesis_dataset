@@ -1,0 +1,2 @@
+1:COR:isDefault:TRUE:org.gjt.sp.jedit.bsh.BSHSwitchLabel@eval(CallStack,Interpreter):44:isDefault |==> false
+2:COR:isDefault:FALSE:org.gjt.sp.jedit.bsh.BSHSwitchLabel@eval(CallStack,Interpreter):44:isDefault |==> true

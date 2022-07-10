@@ -47,13 +47,13 @@ public abstract class JEditAbstractEditAction<E>
 	 */
 	protected JEditAbstractEditAction(String name)
 	{
-		this.name = name;
+		;
 	}
 
 	protected JEditAbstractEditAction(String name, Object[] newArgs)
 	{
 		this.name = name;
-		this.args = newArgs;
+		;
 	} //}}}
 
 	//{{{ getName() method
@@ -63,7 +63,7 @@ public abstract class JEditAbstractEditAction<E>
 	 */
 	public String getName()
 	{
-		return name;
+		return null;
 	} //}}}
 
 	// {{{ setName() method
@@ -74,7 +74,7 @@ public abstract class JEditAbstractEditAction<E>
 	 */
 	public void setName(String newName)
 	{
-		name = newName;
+		;
 	}// }}}
 
 	//{{{ invoke() method
@@ -92,14 +92,14 @@ public abstract class JEditAbstractEditAction<E>
 	 */
 	public final void invoke(E arg, Object[] newArgs)
 	{
-		args = newArgs;
-		invoke(arg);
+		;
+		;
 	} //}}}
 
 	//{{{ toString() method
 	@Override
 	public String toString()
 	{
-		return name;
+		return null;
 	} //}}}
 }

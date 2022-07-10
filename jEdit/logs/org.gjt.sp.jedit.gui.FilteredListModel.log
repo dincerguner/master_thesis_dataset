@@ -1,0 +1,136 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@<init>(E):64:this.delegated = delegated |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@<init>(E):65:delegated.addListDataListener(this) |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@<init>(E):66:resetFilter() |==> <NO-OP>
+4:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel@setList(javax.swing.JList):79:list.getModel() != this |==> true
+5:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@setList(javax.swing.JList):81:this.list = list |==> <NO-OP>
+6:EVR:<IDENTIFIER(E)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@getDelegated():87:delegated |==> null
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@setDelegated(E):93:this.delegated.removeListDataListener(this) |==> <NO-OP>
+8:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@setDelegated(E):94:delegated.addListDataListener(this) |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@setDelegated(E):95:this.delegated = delegated |==> <NO-OP>
+10:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@resetFilter():101:filteredIndices = null |==> <NO-OP>
+11:EVR:<METHOD_INVOCATION(java.util.Set<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():111:saveSelection() |==> null
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():112:list.clearSelection() |==> <NO-OP>
+13:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():113:FilteredListModel.this.filter = filter |==> <NO-OP>
+14:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter != null |==> true
+15:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:0 |==> 1
+16:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:0 |==> -1
+17:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter.length() > 0 |==> filter.length() != 0
+18:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter.length() > 0 |==> filter.length() >= 0
+19:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter.length() > 0 |==> false
+20:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter != null && filter.length() > 0 |==> filter != null == filter.length() > 0
+21:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter != null && filter.length() > 0 |==> false
+22:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter != null && filter.length() > 0 |==> filter != null
+23:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel$1@run():114:filter != null && filter.length() > 0 |==> filter.length() > 0
+24:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():116:delegated.getSize() |==> 0
+25:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():117:prepareFilter(filter) |==> null
+26:EVR:<NEW_CLASS(java.util.Vector<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():118:new Vector<Integer>(size) |==> null
+27:EVR:<NEW_CLASS(java.util.HashMap<java.lang.Integer,java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():119:new HashMap<Integer, Integer>() |==> null
+28:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredListModel$1@run():120:0 |==> 1
+29:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredListModel$1@run():120:0 |==> -1
+30:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():120:i < size |==> i != size
+31:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():120:i < size |==> i <= size
+32:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():120:i < size |==> false
+33:COR:passFilter(i, prepped_filter):TRUE:org.gjt.sp.jedit.gui.FilteredListModel$1@run():122:passFilter(i, prepped_filter) |==> false
+34:COR:passFilter(i, prepped_filter):FALSE:org.gjt.sp.jedit.gui.FilteredListModel$1@run():122:passFilter(i, prepped_filter) |==> true
+35:EVR:<METHOD_INVOCATION(java.lang.Integer)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():124:Integer.valueOf(i) |==> null
+36:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():125:indices.add(delegatedIndice) |==> <NO-OP>
+37:LVR:POS:0:org.gjt.sp.jedit.gui.FilteredListModel$1@run():127:1 |==> 0
+38:LVR:POS:NEG:org.gjt.sp.jedit.gui.FilteredListModel$1@run():127:1 |==> -1
+39:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():127:indices.size() - 1 |==> indices.size() % 1
+40:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():127:indices.size() - 1 |==> indices.size() * 1
+41:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():127:indices.size() - 1 |==> indices.size() + 1
+42:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():127:indices.size() - 1 |==> indices.size() / 1
+43:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():127:invertedIndices.put(delegatedIndice, indices.size() - 1) |==> <NO-OP>
+44:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():130:FilteredListModel.this.invertedIndices = invertedIndices |==> <NO-OP>
+45:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():131:filteredIndices = indices |==> <NO-OP>
+46:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():134:resetFilter() |==> <NO-OP>
+47:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:0 |==> 1
+48:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:0 |==> -1
+49:LVR:POS:0:org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:1 |==> 0
+50:LVR:POS:NEG:org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:1 |==> -1
+51:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:getSize() - 1 |==> getSize() % 1
+52:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:getSize() - 1 |==> getSize() * 1
+53:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:getSize() - 1 |==> getSize() + 1
+54:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:getSize() - 1 |==> getSize() / 1
+55:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():136:fireContentsChanged(this, 0, getSize() - 1) |==> <NO-OP>
+56:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel$1@run():137:restoreSelection(selectedIndices) |==> <NO-OP>
+57:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@setFilter(java.lang.String):140:SwingUtilities.invokeLater(runner) |==> <NO-OP>
+58:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@prepareFilter(java.lang.String):146:filter |==> null
+59:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():163:list == null |==> false
+60:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():164:return null; |==> <NO-OP>
+61:EVR:<METHOD_INVOCATION(int[])>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():165:list.getSelectedIndices() |==> null
+62:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():166:0 |==> 1
+63:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():166:0 |==> -1
+64:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():166:rows.length == 0 |==> rows.length <= 0
+65:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():166:rows.length == 0 |==> rows.length >= 0
+66:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():166:rows.length == 0 |==> false
+67:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():167:return null; |==> <NO-OP>
+68:EVR:<NEW_CLASS(java.util.HashSet<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():169:new HashSet<Integer>(rows.length) |==> null
+69:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():172:selectedRows.add(getTrueRow(row)) |==> <NO-OP>
+70:EVR:<IDENTIFIER(java.util.Set<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@saveSelection():174:selectedRows |==> null
+71:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:selectedIndices == null |==> false
+72:LVR:0:POS:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:0 |==> 1
+73:LVR:0:NEG:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:0 |==> -1
+74:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:getSize() == 0 |==> getSize() <= 0
+75:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:getSize() == 0 |==> getSize() >= 0
+76:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:getSize() == 0 |==> false
+77:COR:||(boolean,boolean):!=(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:selectedIndices == null || getSize() == 0 |==> selectedIndices == null != (getSize() == 0)
+78:COR:||(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:selectedIndices == null || getSize() == 0 |==> selectedIndices == null
+79:COR:||(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:selectedIndices == null || getSize() == 0 |==> getSize() == 0
+80:COR:||(boolean,boolean):TRUE(boolean,boolean):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):180:selectedIndices == null || getSize() == 0 |==> true
+81:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):181:return; |==> <NO-OP>
+82:EVR:<NEW_CLASS(java.util.Vector<java.lang.Integer>)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):189:new Vector<Integer>(selectedIndices) |==> null
+83:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):190:Collections.sort(sel) |==> <NO-OP>
+84:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):191:-1 |==> 0
+85:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):191:-1 |==> 1
+86:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):192:-1 |==> 0
+87:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):192:-1 |==> 1
+88:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):195:getInternal2ExternalRow(selectedIndex.intValue()) |==> 0
+89:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):196:-1 |==> 0
+90:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):196:-1 |==> 1
+91:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):196:i != -1 |==> i < -1
+92:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):196:i != -1 |==> i > -1
+93:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):196:i != -1 |==> true
+94:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):198:-1 |==> 0
+95:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):198:-1 |==> 1
+96:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):198:from == -1 |==> from <= -1
+97:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):198:from == -1 |==> from >= -1
+98:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):198:from == -1 |==> false
+99:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):199:from = to = i |==> <NO-OP>
+100:LVR:POS:0:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:1 |==> 0
+101:LVR:POS:NEG:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:1 |==> -1
+102:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:to + 1 |==> to % 1
+103:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:to + 1 |==> to * 1
+104:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:to + 1 |==> to - 1
+105:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:to + 1 |==> to / 1
+106:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:i == to + 1 |==> i <= to + 1
+107:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:i == to + 1 |==> i >= to + 1
+108:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):200:i == to + 1 |==> false
+109:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):201:to = i |==> <NO-OP>
+110:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):204:list.setSelectionInterval(from, to) |==> <NO-OP>
+111:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):205:from = to = i |==> <NO-OP>
+112:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):209:-1 |==> 0
+113:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):209:-1 |==> 1
+114:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):209:from != -1 |==> from < -1
+115:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):209:from != -1 |==> from > -1
+116:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):209:from != -1 |==> true
+117:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@restoreSelection(java.util.Set<java.lang.Integer>):210:list.setSelectionInterval(from, to) |==> <NO-OP>
+118:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel@getTrueRow(int):222:filteredIndices == null |==> false
+119:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@getTrueRow(int):223:return rowIndex; |==> <NO-OP>
+120:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@getTrueRow(int):224:filteredIndices.get(rowIndex).intValue() |==> 0
+121:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):236:invertedIndices == null |==> false
+122:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):237:return internalRowIndex; |==> <NO-OP>
+123:EVR:<METHOD_INVOCATION(java.lang.Integer)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):239:invertedIndices.get(internalRowIndex) |==> null
+124:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):240:externalRowIndex == null |==> false
+125:LVR:NEG:0:org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):241:-1 |==> 0
+126:LVR:NEG:POS:org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):241:-1 |==> 1
+127:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):241:return Config.__M_NO == 0 && Config.COVERED(125, 126) ? -1 : Config.__M_NO == 126 ? 1 : Config.__M_NO == 125 ? 0 : -1; |==> <NO-OP>
+128:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@getInternal2ExternalRow(int):243:externalRowIndex.intValue() |==> 0
+129:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@getElementAt(int):249:getTrueRow(index) |==> 0
+130:EVR:<METHOD_INVOCATION(java.lang.Object)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@getElementAt(int):250:delegated.getElementAt(trueRowIndex) |==> null
+131:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.gui.FilteredListModel@getSize():256:filteredIndices == null |==> false
+132:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@getSize():257:return delegated.getSize(); |==> <NO-OP>
+133:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.gui.FilteredListModel@getSize():258:filteredIndices.size() |==> 0
+134:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@contentsChanged(javax.swing.event.ListDataEvent):264:setFilter(filter) |==> <NO-OP>
+135:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@intervalAdded(javax.swing.event.ListDataEvent):270:setFilter(filter) |==> <NO-OP>
+136:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.gui.FilteredListModel@intervalRemoved(javax.swing.event.ListDataEvent):276:setFilter(filter) |==> <NO-OP>
