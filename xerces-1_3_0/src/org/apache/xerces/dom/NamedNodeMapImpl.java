@@ -104,9 +104,9 @@ public class NamedNodeMapImpl
 
     protected short flags;
 
-    protected final static short READONLY     = 0x1<<0;
-    protected final static short CHANGED      = 0x1<<1;
-    protected final static short HASDEFAULTS  = 0x1<<2;
+    protected final static short READONLY     = 0;
+    protected final static short CHANGED      = 0;
+    protected final static short HASDEFAULTS  = 0;
 
     /** Nodes. */
     protected Vector nodes;

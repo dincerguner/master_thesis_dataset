@@ -67,7 +67,7 @@ import org.apache.xerces.dom.*;
 
 public class WMLDOMImplementationImpl extends DOMImplementationImpl implements WMLDOMImplementation {
 
-    static DOMImplementationImpl singleton = new WMLDOMImplementationImpl();
+    static DOMImplementationImpl singleton = null;
 
     /** NON-DOM: Obtain and return the single shared object */
     public static DOMImplementation getDOMImplementation() {

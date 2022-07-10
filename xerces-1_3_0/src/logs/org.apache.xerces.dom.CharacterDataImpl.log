@@ -1,0 +1,2 @@
+1:LVR:0:POS:org.apache.xerces.dom.CharacterDataImpl$1@getLength():100:0 |==> 1
+2:LVR:0:NEG:org.apache.xerces.dom.CharacterDataImpl$1@getLength():100:0 |==> -1

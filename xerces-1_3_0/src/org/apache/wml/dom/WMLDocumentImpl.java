@@ -76,7 +76,7 @@ public class WMLDocumentImpl extends DocumentImpl implements WMLDocument {
 
     private static Hashtable        _elementTypesWML;
     private static final Class[]    _elemClassSigWML =
-	new Class[] { WMLDocumentImpl.class, String.class };
+	null;
 
     public Element createElement( String tagName ) throws DOMException
     {

@@ -70,7 +70,7 @@ public class WMLGoElementImpl extends WMLElementImpl implements WMLGoElement {
   }
 
   public void setSendreferer(String newValue) {
-    setAttribute("sendreferer", newValue);
+    ;
   }
 
   public String getSendreferer() {
