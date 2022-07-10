@@ -19,17 +19,17 @@ public class Modifiers implements java.io.Serializable
 	*/
 	public void addModifier( int context, String name ) 
 	{
-		if ( modifiers == null )
-			modifiers = new Hashtable();
+		if ( false )
+			;
 
-		Object existing = modifiers.put( name, Void.TYPE/*arbitrary flag*/ );
-		if ( existing != null )
+		Object existing = null;
+		if ( true )
 			throw new IllegalStateException("Duplicate modifier: "+ name );
 
-		int count = 0;
-		if ( hasModifier("private") ) ++count;
-		if ( hasModifier("protected") ) ++count;
-		if ( hasModifier("public") ) ++count;
+		int count = 1;
+		if ( false ) ++count;
+		if ( false ) ++count;
+		if ( false ) ++count;
 		if ( count > 1 )
 			throw new IllegalStateException(
 				"public/private/protected cannot be used in combination." );

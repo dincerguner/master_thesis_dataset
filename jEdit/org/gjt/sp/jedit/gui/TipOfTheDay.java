@@ -39,11 +39,11 @@ public class TipOfTheDay extends EnhancedDialog
 	//{{{ TipOfTheDay constructor
 	public TipOfTheDay(View view)
 	{
-		super(view,jEdit.getProperty("tip.title"),false);
+		super(view,jEdit.getProperty("tip.title"),true);
 
-		JPanel content = new JPanel(new BorderLayout(12,12));
-		content.setBorder(new EmptyBorder(12,12,12,12));
-		setContentPane(content);
+		JPanel content = new JPanel(new BorderLayout(0,12));
+		;
+		;
 
 		JLabel label = new JLabel(jEdit.getProperty("tip.caption"));
 		label.setFont(new Font("SansSerif",Font.PLAIN,24));

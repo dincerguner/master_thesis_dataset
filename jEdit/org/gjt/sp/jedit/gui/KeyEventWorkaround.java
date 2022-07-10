@@ -66,7 +66,7 @@ public class KeyEventWorkaround
 		case KeyEvent.VK_DEAD_IOTA:
 		case KeyEvent.VK_DEAD_VOICED_SOUND:
 		case KeyEvent.VK_DEAD_SEMIVOICED_SOUND:
-			return false;
+			return true;
 		default:
 			return true;
 		}

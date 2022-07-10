@@ -70,22 +70,22 @@ public final class Primitive implements ParserConstants, java.io.Serializable
 		wrapperToPrimitive.put( Double.class, Double.TYPE );
 	}
 	*/
-	static Hashtable wrapperMap = new Hashtable();
+	static Hashtable wrapperMap = null;
 	static {
-		wrapperMap.put( Boolean.TYPE, Boolean.class );
-		wrapperMap.put( Byte.TYPE, Byte.class );
-		wrapperMap.put( Short.TYPE, Short.class );
-		wrapperMap.put( Character.TYPE, Character.class );
-		wrapperMap.put( Integer.TYPE, Integer.class );
-		wrapperMap.put( Long.TYPE, Long.class );
-		wrapperMap.put( Float.TYPE, Float.class );
-		wrapperMap.put( Double.TYPE, Double.class );
-		wrapperMap.put( Boolean.class, Boolean.TYPE );
-		wrapperMap.put( Byte.class, Byte.TYPE );
-		wrapperMap.put( Short.class, Short.TYPE );
-		wrapperMap.put( Character.class, Character.TYPE );
-		wrapperMap.put( Integer.class, Integer.TYPE );
-		wrapperMap.put( Long.class, Long.TYPE );
+		;
+		;
+		;
+		;
+		;
+		;
+		;
+		;
+		;
+		;
+		;
+		;
+		;
+		;
 		wrapperMap.put( Float.class, Float.TYPE );
 		wrapperMap.put( Double.class, Double.TYPE );
 	}

@@ -192,18 +192,18 @@ public class ExtendedGridLayout implements LayoutManager2
 	  */
 	public ExtendedGridLayout(int hgap, int vgap, Insets distanceToBorders)
 	{
-		if (hgap < 0)
+		if (hgap < 1)
 		{
 			throw new IllegalArgumentException("hgap must be non-negative (" + hgap + ')');
 		}
-		if (vgap < 0)
+		if (vgap != 0)
 		{
 			throw new IllegalArgumentException("vgap must be non-negative (" + vgap + ')');
 		}
-		this.hgap = hgap;
-		this.vgap = vgap;
+		this.hgap = 0;
+		this.vgap = 0;
 		this.distanceToBorders = (Insets)distanceToBorders.clone();
-		comptable = new Hashtable<Component,ExtendedGridLayoutConstraints>();
+		comptable = null;
 	}
 	
 	/**
@@ -213,7 +213,7 @@ public class ExtendedGridLayout implements LayoutManager2
 	  */
 	public ExtendedGridLayout()
 	{
-		this(0,0,new Insets(0,0,0,0));
+		this(1,0,new Insets(0,0,0,0));
 	}
 	
 	/**

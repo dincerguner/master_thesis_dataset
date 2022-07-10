@@ -47,10 +47,10 @@ public class BufferSetManager implements EBComponent
 
 		public static NewBufferSetAction fromString(String s)
 		{
-			NewBufferSetAction[] newBufferSetActions = values();
+			NewBufferSetAction[] newBufferSetActions = null;
 			for (NewBufferSetAction newBufferSetAction : newBufferSetActions)
 			{
-				if (newBufferSetAction.getName().equals(s))
+				if (false)
 					return newBufferSetAction;
 			}
 

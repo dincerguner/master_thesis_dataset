@@ -1,0 +1,79 @@
+1:EVR:<IDENTIFIER(char[])>:<DEFAULT>:org.gjt.sp.jedit.buffer.BufferSegment@<init>(char[],int,int,org.gjt.sp.jedit.buffer.BufferSegment):47:data |==> null
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.BufferSegment@<init>(char[],int,int,org.gjt.sp.jedit.buffer.BufferSegment):48:offset |==> 0
+3:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.BufferSegment@<init>(char[],int,int,org.gjt.sp.jedit.buffer.BufferSegment):49:len |==> 0
+4:EVR:<IDENTIFIER(org.gjt.sp.jedit.buffer.BufferSegment)>:<DEFAULT>:org.gjt.sp.jedit.buffer.BufferSegment@<init>(char[],int,int,org.gjt.sp.jedit.buffer.BufferSegment):50:next |==> null
+5:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):55:index < len |==> index != len
+6:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):55:index < len |==> index <= len
+7:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):55:index < len |==> false
+8:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):56:offset + index |==> offset % index
+9:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):56:offset + index |==> offset * index
+10:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):56:offset + index |==> offset - index
+11:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):56:offset + index |==> offset / index
+12:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):57:next != null |==> true
+13:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):58:index - len |==> index % len
+14:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):58:index - len |==> index * len
+15:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):58:index - len |==> index + len
+16:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@charAt(int):58:index - len |==> index / len
+17:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.BufferSegment@length():65:next != null |==> true
+18:LVR:0:POS:org.gjt.sp.jedit.buffer.BufferSegment@length():65:0 |==> 1
+19:LVR:0:NEG:org.gjt.sp.jedit.buffer.BufferSegment@length():65:0 |==> -1
+20:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@length():65:len + ((next != null) ? next.length() : 0) |==> len % ((next != null) ? next.length() : 0)
+21:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@length():65:len + ((next != null) ? next.length() : 0) |==> len * ((next != null) ? next.length() : 0)
+22:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.BufferSegment@length():65:len + ((next != null) ? next.length() : 0) |==> len - ((next != null) ? next.length() : 0)
+23:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@length():65:len + ((next != null) ? next.length() : 0) |==> len / ((next != null) ? next.length() : 0)
+24:EVR:<METHOD_INVOCATION(org.gjt.sp.jedit.buffer.BufferSegment)>:<DEFAULT>:org.gjt.sp.jedit.buffer.BufferSegment@subSequence(int,int):71:subSegment(start, end) |==> null
+25:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.buffer.BufferSegment@toString():76:new StringBuilder() |==> null
+26:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.BufferSegment@toString():77:toString(sb) |==> <NO-OP>
+27:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.buffer.BufferSegment@toString():78:sb.toString() |==> null
+28:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.BufferSegment@toString(java.lang.StringBuilder):83:sb.append(data, offset, len) |==> <NO-OP>
+29:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.BufferSegment@toString(java.lang.StringBuilder):84:next != null |==> true
+30:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.buffer.BufferSegment@toString(java.lang.StringBuilder):85:next.toString(sb) |==> <NO-OP>
+31:LVR:0:POS:org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 |==> 1
+32:LVR:0:NEG:org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 |==> -1
+33:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 <= start |==> 0 < start
+34:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 <= start |==> 0 == start
+35:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 <= start |==> true
+36:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:start <= end |==> start < end
+37:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:start <= end |==> start == end
+38:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:start <= end |==> true
+39:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 <= start && start <= end |==> 0 <= start == start <= end
+40:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 <= start && start <= end |==> false
+41:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 <= start && start <= end |==> 0 <= start
+42:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):91:0 <= start && start <= end |==> start <= end
+43:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):92:end <= len |==> end < len
+44:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):92:end <= len |==> end == len
+45:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):92:end <= len |==> true
+46:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):93:offset + start |==> offset % start
+47:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):93:offset + start |==> offset * start
+48:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):93:offset + start |==> offset - start
+49:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):93:offset + start |==> offset / start
+50:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):94:end - start |==> end % start
+51:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):94:end - start |==> end * start
+52:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):94:end - start |==> end + start
+53:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):94:end - start |==> end / start
+54:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):95:next != null |==> true
+55:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):96:start < len |==> start != len
+56:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):96:start < len |==> start <= len
+57:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):96:start < len |==> false
+58:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:offset + start |==> offset % start
+59:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:offset + start |==> offset * start
+60:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:offset + start |==> offset - start
+61:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:offset + start |==> offset / start
+62:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:len - start |==> len % start
+63:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:len - start |==> len * start
+64:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:len - start |==> len + start
+65:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):98:len - start |==> len / start
+66:LVR:0:POS:org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):99:0 |==> 1
+67:LVR:0:NEG:org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):99:0 |==> -1
+68:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):99:end - len |==> end % len
+69:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):99:end - len |==> end * len
+70:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):99:end - len |==> end + len
+71:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):99:end - len |==> end / len
+72:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):101:start - len |==> start % len
+73:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):101:start - len |==> start * len
+74:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):101:start - len |==> start + len
+75:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):101:start - len |==> start / len
+76:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):102:end - len |==> end % len
+77:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):102:end - len |==> end * len
+78:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):102:end - len |==> end + len
+79:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.buffer.BufferSegment@subSegment(int,int):102:end - len |==> end / len

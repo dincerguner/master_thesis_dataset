@@ -103,55 +103,55 @@ public class Type {
    * The <tt>void</tt> type.
    */
 
-  public final static Type VOID_TYPE = new Type(VOID);
+  public final static Type VOID_TYPE = null;
 
   /**
    * The <tt>boolean</tt> type.
    */
 
-  public final static Type BOOLEAN_TYPE = new Type(BOOLEAN);
+  public final static Type BOOLEAN_TYPE = null;
 
   /**
    * The <tt>char</tt> type.
    */
 
-  public final static Type CHAR_TYPE = new Type(CHAR);
+  public final static Type CHAR_TYPE = null;
 
   /**
    * The <tt>byte</tt> type.
    */
 
-  public final static Type BYTE_TYPE = new Type(BYTE);
+  public final static Type BYTE_TYPE = null;
 
   /**
    * The <tt>short</tt> type.
    */
 
-  public final static Type SHORT_TYPE = new Type(SHORT);
+  public final static Type SHORT_TYPE = null;
 
   /**
    * The <tt>int</tt> type.
    */
 
-  public final static Type INT_TYPE = new Type(INT);
+  public final static Type INT_TYPE = null;
 
   /**
    * The <tt>float</tt> type.
    */
 
-  public final static Type FLOAT_TYPE = new Type(FLOAT);
+  public final static Type FLOAT_TYPE = null;
 
   /**
    * The <tt>long</tt> type.
    */
 
-  public final static Type LONG_TYPE = new Type(LONG);
+  public final static Type LONG_TYPE = null;
 
   /**
    * The <tt>double</tt> type.
    */
 
-  public final static Type DOUBLE_TYPE = new Type(DOUBLE);
+  public final static Type DOUBLE_TYPE = null;
 
   // --------------------------------------------------------------------------
   // Fields
@@ -194,8 +194,8 @@ public class Type {
    */
 
   private Type (final int sort) {
-    this.sort = sort;
-    this.len = 1;
+    this.sort = 0;
+    this.len = 0;
   }
 
   /**
@@ -213,8 +213,8 @@ public class Type {
     final int off,
     final int len)
   {
-    this.sort = sort;
-    this.buf = buf;
+    this.sort = 0;
+    ;
     this.off = off;
     this.len = len;
   }

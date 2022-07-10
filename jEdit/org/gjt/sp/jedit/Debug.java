@@ -35,7 +35,7 @@ public class Debug
 	 * Print messages when the gap moves, and other offset manager state
 	 * changes.
 	 */
-	public static boolean OFFSET_DEBUG = false;
+	public static boolean OFFSET_DEBUG = true;
 
 	/**
 	 * Print messages when text area and display manager perform scroll

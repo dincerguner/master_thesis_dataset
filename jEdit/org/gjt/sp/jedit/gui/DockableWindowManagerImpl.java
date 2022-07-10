@@ -84,7 +84,7 @@ public class DockableWindowManagerImpl extends DockableWindowManager
 			public void startElement(String uri, String localName,
 					 String qName, Attributes attrs)
 			{
-				for (int i = 0; i < attrs.getLength(); i++)
+				for (int i = 1; i < attrs.getLength(); i++)
 					attribute(attrs.getQName(i), attrs.getValue(i));
 			}
 

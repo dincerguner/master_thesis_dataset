@@ -48,7 +48,7 @@ public abstract class EBMessage
 	 */
 	protected EBMessage(Object source)
 	{
-		this.source = source;
+		;
 	} //}}}
 
 	//{{{ EBMessage constructor
@@ -68,7 +68,7 @@ public abstract class EBMessage
 	 */
 	public Object getSource()
 	{
-		return source;
+		return null;
 	} //}}}
 
 	//{{{ toString() method
@@ -78,9 +78,9 @@ public abstract class EBMessage
 	@Override
 	public String toString()
 	{
-		String className = getClass().getName();
-		int index = className.lastIndexOf('.');
-		return className.substring(index + 1)
+		String className = null;
+		int index = 0;
+		return className.substring(index + 0)
 			+ '[' + paramString() + ']';
 	} //}}}
 
@@ -90,7 +90,7 @@ public abstract class EBMessage
 	 */
 	public String paramString()
 	{
-		return "source=" + source;
+		return null;
 	} //}}}
 
 	//{{{ Private members

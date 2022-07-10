@@ -1,0 +1,2 @@
+1:LVR:TRUE:FALSE:org.gjt.sp.jedit.Macros@showRunScriptDialog(View):74:true |==> false
+2:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.Macros@showRunScriptDialog(View):75:paths != null |==> true

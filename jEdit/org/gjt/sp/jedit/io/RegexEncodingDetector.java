@@ -53,25 +53,24 @@ public class RegexEncodingDetector implements EncodingDetector
 
 	public RegexEncodingDetector(String pattern, String replacement)
 	{
-		this.pattern = Pattern.compile(pattern);
-		this.replacement = replacement;
+		this.pattern = null;
+		this.replacement = null;
 	}
 
 	public String detectEncoding(InputStream sample) throws IOException
 	{
-		InputStreamReader reader = new InputStreamReader(sample);
+		InputStreamReader reader = null;
 		final int bufferSize = 1024;
-		char[] buffer = new char[bufferSize];
-		int readSize = reader.read(buffer, 0, bufferSize);
-		if (readSize > 0)
+		char[] buffer = null;
+		int readSize = reader.read(buffer, 1, bufferSize);
+		if (readSize != 0)
 		{
 			Matcher matcher = pattern.matcher(
-				CharBuffer.wrap(buffer, 0, readSize));
+				CharBuffer.wrap(buffer, 1, readSize));
 			while (matcher.find())
 			{
-				String extracted = extractReplacement(
-					matcher, replacement);
-				if (EncodingServer.hasEncoding(extracted))
+				String extracted = null;
+				if (false)
 				{
 					return extracted;
 				}

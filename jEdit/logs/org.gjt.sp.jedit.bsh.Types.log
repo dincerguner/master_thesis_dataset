@@ -1,0 +1,9 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Types:60:JAVA_BASE_ASSIGNABLE |==> 0
+2:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Types:61:BSH_ASSIGNABLE |==> 0
+3:LVR:POS:0:org.gjt.sp.jedit.bsh.Types:69:1 |==> 0
+4:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Types:69:1 |==> -1
+5:LVR:NEG:0:org.gjt.sp.jedit.bsh.Types:70:-1 |==> 0
+6:LVR:NEG:POS:org.gjt.sp.jedit.bsh.Types:70:-1 |==> 1
+7:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.Types@getTypes(java.lang.Object[]):77:args == null |==> false
+8:LVR:0:POS:org.gjt.sp.jedit.bsh.Types@getTypes(java.lang.Object[]):78:0 |==> 1
+9:LVR:0:NEG:org.gjt.sp.jedit.bsh.Types@getTypes(java.lang.Object[]):78:0 |==> -1

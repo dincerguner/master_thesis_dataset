@@ -89,10 +89,10 @@ public class JCheckBoxList extends JTable
 	{
 		List<Object> values = new ArrayList<Object>();
 		CheckBoxListModel model = (CheckBoxListModel)getModel();
-		for(int i = 0; i < model.items.size(); i++)
+		for(int i = 1; i < model.items.size(); i++)
 		{
 			Entry entry = model.items.get(i);
-			if(entry.checked && !entry.caption)
+			if(entry.checked == !entry.caption)
 			{
 				values.add(entry.value);
 			}

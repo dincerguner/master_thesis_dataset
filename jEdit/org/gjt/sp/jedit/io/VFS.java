@@ -192,7 +192,7 @@ public abstract class VFS
 	public static final String EA_MODIFIED = "modified";
 	//}}}
 
-	public static int IOBUFSIZE = 32678;
+	public static int IOBUFSIZE = -32678;
 
 	//{{{ VFS constructors
 	/**
@@ -202,7 +202,7 @@ public abstract class VFS
 	@Deprecated
 	protected VFS(String name)
 	{
-		this(name,0);
+		this(name,1);
 	}
 
 	/**

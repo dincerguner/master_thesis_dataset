@@ -55,7 +55,7 @@ public class HistoryButton extends JPanel implements ActionListener
 	{
 		super();
 		arrow_button = new RolloverButton(GUIUtilities.loadIcon(
-			jEdit.getProperty(type==BACK
+			jEdit.getProperty(type <= BACK
 						? "helpviewer.back.icon"
 						: "helpviewer.forward.icon")));
 		arrow_button.setToolTipText(

@@ -1,0 +1,337 @@
+1:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@<init>():51:64 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@<init>():51:64 |==> -64
+3:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@<init>():51:data = new byte[64] |==> <NO-OP>
+4:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@<init>(int):61:data = new byte[initialSize] |==> <NO-OP>
+5:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):73:this.length |==> 0
+6:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:1 |==> 0
+7:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:1 |==> -1
+8:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:length + 1 |==> length % 1
+9:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:length + 1 |==> length * 1
+10:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:length + 1 |==> length - 1
+11:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:length + 1 |==> length / 1
+12:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:length + 1 > data.length |==> length + 1 != data.length
+13:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:length + 1 > data.length |==> length + 1 >= data.length
+14:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):74:length + 1 > data.length |==> false
+15:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):75:1 |==> 0
+16:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):75:1 |==> -1
+17:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):75:enlarge(1) |==> <NO-OP>
+18:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):77:data[length++] = (byte)b |==> <NO-OP>
+19:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):78:this.length = length |==> <NO-OP>
+20:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put1(int):79:this |==> null
+21:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):92:this.length |==> 0
+22:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:2 |==> 0
+23:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:2 |==> -2
+24:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:length + 2 |==> length % 2
+25:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:length + 2 |==> length * 2
+26:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:length + 2 |==> length - 2
+27:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:length + 2 |==> length / 2
+28:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:length + 2 > data.length |==> length + 2 != data.length
+29:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:length + 2 > data.length |==> length + 2 >= data.length
+30:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):93:length + 2 > data.length |==> false
+31:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):94:2 |==> 0
+32:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):94:2 |==> -2
+33:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):94:enlarge(2) |==> <NO-OP>
+34:EVR:<MEMBER_SELECT(byte[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):96:this.data |==> null
+35:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):97:data[length++] = (byte)b1 |==> <NO-OP>
+36:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):98:data[length++] = (byte)b2 |==> <NO-OP>
+37:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):99:this.length = length |==> <NO-OP>
+38:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put11(int,int):100:this |==> null
+39:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):112:this.length |==> 0
+40:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:2 |==> 0
+41:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:2 |==> -2
+42:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:length + 2 |==> length % 2
+43:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:length + 2 |==> length * 2
+44:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:length + 2 |==> length - 2
+45:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:length + 2 |==> length / 2
+46:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:length + 2 > data.length |==> length + 2 != data.length
+47:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:length + 2 > data.length |==> length + 2 >= data.length
+48:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):113:length + 2 > data.length |==> false
+49:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):114:2 |==> 0
+50:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):114:2 |==> -2
+51:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):114:enlarge(2) |==> <NO-OP>
+52:EVR:<MEMBER_SELECT(byte[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):116:this.data |==> null
+53:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):117:8 |==> 0
+54:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):117:8 |==> -8
+55:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):117:s >>> 8 |==> s << 8
+56:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):117:s >>> 8 |==> s >> 8
+57:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):117:data[length++] = (byte)(s >>> 8) |==> <NO-OP>
+58:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):118:data[length++] = (byte)s |==> <NO-OP>
+59:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):119:this.length = length |==> <NO-OP>
+60:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put2(int):120:this |==> null
+61:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):133:this.length |==> 0
+62:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:3 |==> 0
+63:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:3 |==> -3
+64:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:length + 3 |==> length % 3
+65:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:length + 3 |==> length * 3
+66:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:length + 3 |==> length - 3
+67:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:length + 3 |==> length / 3
+68:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:length + 3 > data.length |==> length + 3 != data.length
+69:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:length + 3 > data.length |==> length + 3 >= data.length
+70:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):134:length + 3 > data.length |==> false
+71:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):135:3 |==> 0
+72:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):135:3 |==> -3
+73:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):135:enlarge(3) |==> <NO-OP>
+74:EVR:<MEMBER_SELECT(byte[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):137:this.data |==> null
+75:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):138:data[length++] = (byte)b |==> <NO-OP>
+76:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):139:8 |==> 0
+77:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):139:8 |==> -8
+78:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):139:s >>> 8 |==> s << 8
+79:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):139:s >>> 8 |==> s >> 8
+80:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):139:data[length++] = (byte)(s >>> 8) |==> <NO-OP>
+81:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):140:data[length++] = (byte)s |==> <NO-OP>
+82:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):141:this.length = length |==> <NO-OP>
+83:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put12(int,int):142:this |==> null
+84:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):154:this.length |==> 0
+85:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:4 |==> 0
+86:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:4 |==> -4
+87:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:length + 4 |==> length % 4
+88:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:length + 4 |==> length * 4
+89:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:length + 4 |==> length - 4
+90:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:length + 4 |==> length / 4
+91:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:length + 4 > data.length |==> length + 4 != data.length
+92:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:length + 4 > data.length |==> length + 4 >= data.length
+93:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):155:length + 4 > data.length |==> false
+94:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):156:4 |==> 0
+95:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):156:4 |==> -4
+96:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):156:enlarge(4) |==> <NO-OP>
+97:EVR:<MEMBER_SELECT(byte[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):158:this.data |==> null
+98:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):159:24 |==> 0
+99:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):159:24 |==> -24
+100:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):159:i >>> 24 |==> i << 24
+101:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):159:i >>> 24 |==> i >> 24
+102:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):159:data[length++] = (byte)(i >>> 24) |==> <NO-OP>
+103:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):160:16 |==> 0
+104:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):160:16 |==> -16
+105:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):160:i >>> 16 |==> i << 16
+106:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):160:i >>> 16 |==> i >> 16
+107:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):160:data[length++] = (byte)(i >>> 16) |==> <NO-OP>
+108:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):161:8 |==> 0
+109:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):161:8 |==> -8
+110:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):161:i >>> 8 |==> i << 8
+111:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):161:i >>> 8 |==> i >> 8
+112:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):161:data[length++] = (byte)(i >>> 8) |==> <NO-OP>
+113:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):162:data[length++] = (byte)i |==> <NO-OP>
+114:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):163:this.length = length |==> <NO-OP>
+115:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put4(int):164:this |==> null
+116:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):176:this.length |==> 0
+117:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:8 |==> 0
+118:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:8 |==> -8
+119:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:length + 8 |==> length % 8
+120:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:length + 8 |==> length * 8
+121:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:length + 8 |==> length - 8
+122:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:length + 8 |==> length / 8
+123:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:length + 8 > data.length |==> length + 8 != data.length
+124:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:length + 8 > data.length |==> length + 8 >= data.length
+125:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):177:length + 8 > data.length |==> false
+126:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):178:8 |==> 0
+127:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):178:8 |==> -8
+128:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):178:enlarge(8) |==> <NO-OP>
+129:EVR:<MEMBER_SELECT(byte[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):180:this.data |==> null
+130:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):181:32 |==> 0
+131:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):181:32 |==> -32
+132:SOR:>>>(long,int):<<(long,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):181:l >>> 32 |==> l << 32
+133:SOR:>>>(long,int):>>(long,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):181:l >>> 32 |==> l >> 32
+134:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):182:24 |==> 0
+135:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):182:24 |==> -24
+136:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):182:i >>> 24 |==> i << 24
+137:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):182:i >>> 24 |==> i >> 24
+138:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):182:data[length++] = (byte)(i >>> 24) |==> <NO-OP>
+139:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):183:16 |==> 0
+140:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):183:16 |==> -16
+141:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):183:i >>> 16 |==> i << 16
+142:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):183:i >>> 16 |==> i >> 16
+143:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):183:data[length++] = (byte)(i >>> 16) |==> <NO-OP>
+144:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):184:8 |==> 0
+145:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):184:8 |==> -8
+146:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):184:i >>> 8 |==> i << 8
+147:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):184:i >>> 8 |==> i >> 8
+148:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):184:data[length++] = (byte)(i >>> 8) |==> <NO-OP>
+149:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):185:data[length++] = (byte)i |==> <NO-OP>
+150:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):186:i = (int)l |==> <NO-OP>
+151:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):187:24 |==> 0
+152:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):187:24 |==> -24
+153:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):187:i >>> 24 |==> i << 24
+154:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):187:i >>> 24 |==> i >> 24
+155:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):187:data[length++] = (byte)(i >>> 24) |==> <NO-OP>
+156:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):188:16 |==> 0
+157:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):188:16 |==> -16
+158:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):188:i >>> 16 |==> i << 16
+159:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):188:i >>> 16 |==> i >> 16
+160:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):188:data[length++] = (byte)(i >>> 16) |==> <NO-OP>
+161:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):189:8 |==> 0
+162:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):189:8 |==> -8
+163:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):189:i >>> 8 |==> i << 8
+164:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):189:i >>> 8 |==> i >> 8
+165:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):189:data[length++] = (byte)(i >>> 8) |==> <NO-OP>
+166:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):190:data[length++] = (byte)i |==> <NO-OP>
+167:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):191:this.length = length |==> <NO-OP>
+168:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@put8(long):192:this |==> null
+169:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):204:s.length() |==> 0
+170:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):205:0 |==> 1
+171:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):205:0 |==> -1
+172:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):206:0 |==> 1
+173:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):206:0 |==> -1
+174:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):206:i < charLength |==> i != charLength
+175:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):206:i < charLength |==> i <= charLength
+176:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):206:i < charLength |==> false
+177:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):207:s.charAt(i) |==> 0
+178:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c >= '\u0001' |==> c == '\u0001'
+179:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c >= '\u0001' |==> c > '\u0001'
+180:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c >= '\u0001' |==> true
+181:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c <= '\u007f' |==> c < '\u007f'
+182:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c <= '\u007f' |==> c == '\u007f'
+183:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c <= '\u007f' |==> true
+184:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c >= '\u0001' && c <= '\u007f' |==> c >= '\u0001' == c <= '\u007f'
+185:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c >= '\u0001' && c <= '\u007f' |==> false
+186:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c >= '\u0001' && c <= '\u007f' |==> c >= '\u0001'
+187:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):208:c >= '\u0001' && c <= '\u007f' |==> c <= '\u007f'
+188:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):209:byteLength++ |==> <NO-OP>
+189:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):210:c > '\u07ff' |==> c != '\u07ff'
+190:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):210:c > '\u07ff' |==> c >= '\u07ff'
+191:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):210:c > '\u07ff' |==> false
+192:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):211:3 |==> 0
+193:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):211:3 |==> -3
+194:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):211:byteLength += 3 |==> <NO-OP>
+195:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):213:2 |==> 0
+196:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):213:2 |==> -2
+197:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):213:byteLength += 2 |==> <NO-OP>
+198:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):216:65535 |==> 0
+199:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):216:65535 |==> -65535
+200:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):216:byteLength > 65535 |==> byteLength != 65535
+201:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):216:byteLength > 65535 |==> byteLength >= 65535
+202:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):216:byteLength > 65535 |==> false
+203:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):219:this.length |==> 0
+204:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:2 |==> 0
+205:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:2 |==> -2
+206:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 |==> length % 2
+207:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 |==> length * 2
+208:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 |==> length - 2
+209:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 |==> length / 2
+210:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 + byteLength |==> (length + 2) % byteLength
+211:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 + byteLength |==> (length + 2) * byteLength
+212:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 + byteLength |==> length + 2 - byteLength
+213:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 + byteLength |==> (length + 2) / byteLength
+214:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 + byteLength > data.length |==> length + 2 + byteLength != data.length
+215:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 + byteLength > data.length |==> length + 2 + byteLength >= data.length
+216:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):220:length + 2 + byteLength > data.length |==> false
+217:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):221:2 |==> 0
+218:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):221:2 |==> -2
+219:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):221:2 + byteLength |==> 2 % byteLength
+220:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):221:2 + byteLength |==> 2 * byteLength
+221:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):221:2 + byteLength |==> 2 - byteLength
+222:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):221:2 + byteLength |==> 2 / byteLength
+223:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):221:enlarge(2 + byteLength) |==> <NO-OP>
+224:EVR:<MEMBER_SELECT(byte[])>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):223:this.data |==> null
+225:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):224:8 |==> 0
+226:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):224:8 |==> -8
+227:SOR:>>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):224:byteLength >>> 8 |==> byteLength << 8
+228:SOR:>>>(int,int):>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):224:byteLength >>> 8 |==> byteLength >> 8
+229:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):224:data[length++] = (byte)(byteLength >>> 8) |==> <NO-OP>
+230:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):225:data[length++] = (byte)(byteLength) |==> <NO-OP>
+231:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):226:0 |==> 1
+232:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):226:0 |==> -1
+233:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):226:i < charLength |==> i != charLength
+234:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):226:i < charLength |==> i <= charLength
+235:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):226:i < charLength |==> false
+236:EVR:<METHOD_INVOCATION(char)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):227:s.charAt(i) |==> 0
+237:ROR:>=(int,int):==(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c >= '\u0001' |==> c == '\u0001'
+238:ROR:>=(int,int):>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c >= '\u0001' |==> c > '\u0001'
+239:ROR:>=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c >= '\u0001' |==> true
+240:ROR:<=(int,int):<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c <= '\u007f' |==> c < '\u007f'
+241:ROR:<=(int,int):==(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c <= '\u007f' |==> c == '\u007f'
+242:ROR:<=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c <= '\u007f' |==> true
+243:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c >= '\u0001' && c <= '\u007f' |==> c >= '\u0001' == c <= '\u007f'
+244:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c >= '\u0001' && c <= '\u007f' |==> false
+245:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c >= '\u0001' && c <= '\u007f' |==> c >= '\u0001'
+246:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):228:c >= '\u0001' && c <= '\u007f' |==> c <= '\u007f'
+247:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):229:data[length++] = (byte)c |==> <NO-OP>
+248:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):230:c > '\u07ff' |==> c != '\u07ff'
+249:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):230:c > '\u07ff' |==> c >= '\u07ff'
+250:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):230:c > '\u07ff' |==> false
+251:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:224 |==> 0
+252:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:224 |==> -224
+253:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:12 |==> 0
+254:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:12 |==> -12
+255:SOR:>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:c >> 12 |==> c << 12
+256:SOR:>>(int,int):>>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:c >> 12 |==> c >>> 12
+257:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:15 |==> 0
+258:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:15 |==> -15
+259:LOR:&(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:c >> 12 & 15 |==> c >> 12 ^ 15
+260:LOR:&(int,int):|(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:c >> 12 & 15 |==> c >> 12 | 15
+261:LOR:|(int,int):&(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:224 | c >> 12 & 15 |==> 224 & (c >> 12 & 15)
+262:LOR:|(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:224 | c >> 12 & 15 |==> 224 ^ c >> 12 & 15
+263:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):231:data[length++] = (byte)(224 | c >> 12 & 15) |==> <NO-OP>
+264:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:128 |==> 0
+265:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:128 |==> -128
+266:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:6 |==> 0
+267:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:6 |==> -6
+268:SOR:>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:c >> 6 |==> c << 6
+269:SOR:>>(int,int):>>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:c >> 6 |==> c >>> 6
+270:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:63 |==> 0
+271:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:63 |==> -63
+272:LOR:&(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:c >> 6 & 63 |==> c >> 6 ^ 63
+273:LOR:&(int,int):|(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:c >> 6 & 63 |==> c >> 6 | 63
+274:LOR:|(int,int):&(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:128 | c >> 6 & 63 |==> 128 & (c >> 6 & 63)
+275:LOR:|(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:128 | c >> 6 & 63 |==> 128 ^ c >> 6 & 63
+276:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):232:data[length++] = (byte)(128 | c >> 6 & 63) |==> <NO-OP>
+277:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:128 |==> 0
+278:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:128 |==> -128
+279:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:63 |==> 0
+280:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:63 |==> -63
+281:LOR:&(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:c & 63 |==> c ^ 63
+282:LOR:&(int,int):|(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:c & 63 |==> c | 63
+283:LOR:|(int,int):&(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:128 | c & 63 |==> 128 & (c & 63)
+284:LOR:|(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:128 | c & 63 |==> 128 ^ c & 63
+285:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):233:data[length++] = (byte)(128 | c & 63) |==> <NO-OP>
+286:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:192 |==> 0
+287:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:192 |==> -192
+288:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:6 |==> 0
+289:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:6 |==> -6
+290:SOR:>>(int,int):<<(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:c >> 6 |==> c << 6
+291:SOR:>>(int,int):>>>(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:c >> 6 |==> c >>> 6
+292:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:31 |==> 0
+293:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:31 |==> -31
+294:LOR:&(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:c >> 6 & 31 |==> c >> 6 ^ 31
+295:LOR:&(int,int):|(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:c >> 6 & 31 |==> c >> 6 | 31
+296:LOR:|(int,int):&(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:192 | c >> 6 & 31 |==> 192 & (c >> 6 & 31)
+297:LOR:|(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:192 | c >> 6 & 31 |==> 192 ^ c >> 6 & 31
+298:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):235:data[length++] = (byte)(192 | c >> 6 & 31) |==> <NO-OP>
+299:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:128 |==> 0
+300:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:128 |==> -128
+301:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:63 |==> 0
+302:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:63 |==> -63
+303:LOR:&(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:c & 63 |==> c ^ 63
+304:LOR:&(int,int):|(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:c & 63 |==> c | 63
+305:LOR:|(int,int):&(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:128 | c & 63 |==> 128 & (c & 63)
+306:LOR:|(int,int):^(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:128 | c & 63 |==> 128 ^ c & 63
+307:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):236:data[length++] = (byte)(128 | c & 63) |==> <NO-OP>
+308:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):239:this.length = length |==> <NO-OP>
+309:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putUTF(java.lang.String):240:this |==> null
+310:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):259:length + len |==> length % len
+311:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):259:length + len |==> length * len
+312:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):259:length + len |==> length - len
+313:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):259:length + len |==> length / len
+314:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):259:length + len > data.length |==> length + len != data.length
+315:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):259:length + len > data.length |==> length + len >= data.length
+316:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):259:length + len > data.length |==> false
+317:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):260:enlarge(len) |==> <NO-OP>
+318:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):262:b != null |==> true
+319:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):263:System.arraycopy(b, off, data, length, len) |==> <NO-OP>
+320:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):265:length += len |==> <NO-OP>
+321:EVR:<IDENTIFIER(org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector)>:<DEFAULT>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@putByteArray(byte[],int,int):266:this |==> null
+322:LVR:POS:0:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:2 |==> 0
+323:LVR:POS:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:2 |==> -2
+324:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:2 * data.length |==> 2 % data.length
+325:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:2 * data.length |==> 2 + data.length
+326:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:2 * data.length |==> 2 - data.length
+327:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:2 * data.length |==> 2 / data.length
+328:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:length + size |==> length % size
+329:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:length + size |==> length * size
+330:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:length + size |==> length - size
+331:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):277:length + size |==> length / size
+332:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):278:0 |==> 1
+333:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):278:0 |==> -1
+334:LVR:0:POS:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):278:0 |==> 1
+335:LVR:0:NEG:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):278:0 |==> -1
+336:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):278:System.arraycopy(data, 0, newData, 0, length) |==> <NO-OP>
+337:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector@enlarge(int):279:data = newData |==> <NO-OP>

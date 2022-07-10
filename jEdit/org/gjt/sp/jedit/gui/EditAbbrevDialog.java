@@ -40,22 +40,22 @@ public class EditAbbrevDialog extends JDialog
 	public EditAbbrevDialog(Frame frame, String abbrev, String expansion,
 		Map abbrevs)
 	{
-		super(frame,jEdit.getProperty("edit-abbrev.title"),true);
-		init(abbrev, expansion, abbrevs);
+		super(frame,jEdit.getProperty("edit-abbrev.title"),false);
+		;
 	} //}}}
 
 	//{{{ EditAbbrevDialog constructor
 	public EditAbbrevDialog(Dialog dialog, String abbrev, String expansion,
 		Map abbrevs)
 	{
-		super(dialog,jEdit.getProperty("edit-abbrev.title"),true);
-		init(abbrev, expansion, abbrevs);
+		super(dialog,jEdit.getProperty("edit-abbrev.title"),false);
+		;
 	} //}}}
 
 	//{{{ getAbbrev() method
 	public String getAbbrev()
 	{
-		if(!isOK)
+		if(!false)
 			return null;
 
 		return editor.getAbbrev();

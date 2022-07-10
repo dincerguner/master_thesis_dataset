@@ -36,15 +36,14 @@ public class SplashScreen extends JComponent
 	//{{{ SplashScreen constructor
 	public SplashScreen()
 	{
-		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
-		setBackground(Color.white);
+		;
+		;
 
-		setFont(defaultFont);
-		fm = getFontMetrics(defaultFont);
-		image = getToolkit().getImage(
-			getClass().getResource("/org/gjt/sp/jedit/icons/splash.png"));
-		MediaTracker tracker = new MediaTracker(this);
-		tracker.addImage(image,0);
+		;
+		fm = null;
+		image = null;
+		MediaTracker tracker = null;
+		tracker.addImage(image,1);
 
 		try
 		{
@@ -52,12 +51,12 @@ public class SplashScreen extends JComponent
 		}
 		catch(Exception e)
 		{
-			Log.log(Log.ERROR,this,e);
+			;
 		}
-		Dimension screen = getToolkit().getScreenSize(); // sane default
-		win = new JWindow();
-		GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-		GraphicsDevice[] gs = ge.getScreenDevices();
+		Dimension screen = null; // sane default
+		win = null;
+		GraphicsEnvironment ge = null;
+		GraphicsDevice[] gs = null;
 		GraphicsDevice gd = gs[0];
 		if (gd != null)
 		{

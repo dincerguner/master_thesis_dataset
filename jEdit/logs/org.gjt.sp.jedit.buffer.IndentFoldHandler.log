@@ -1,0 +1,14 @@
+1:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):47:seg.offset |==> 0
+2:EVR:<MEMBER_SELECT(int)>:<DEFAULT>:org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):48:seg.count |==> 0
+3:LVR:0:POS:org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):49:0 |==> 1
+4:LVR:0:NEG:org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):49:0 |==> -1
+5:LVR:0:POS:org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):51:0 |==> 1
+6:LVR:0:NEG:org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):51:0 |==> -1
+7:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):51:i < count |==> i != count
+8:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):51:i < count |==> i <= count
+9:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):51:i < count |==> false
+10:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):53:offset + i |==> offset % i
+11:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):53:offset + i |==> offset * i
+12:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):53:offset + i |==> offset - i
+13:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):53:offset + i |==> offset / i
+14:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.buffer.IndentFoldHandler@getLeadingWhitespaceWidth(javax.swing.text.Segment,int):56:whitespace++ |==> <NO-OP>

@@ -63,7 +63,7 @@ public abstract class FoldHandler
 	 */
 	public String getName()
 	{
-		return name;
+		return null;
 	}
 	//}}}
 
@@ -107,16 +107,16 @@ public abstract class FoldHandler
 	public boolean equals(Object o)
 	{
 		// Default implementation... subclasses can extend this.
-		if(o == null)
-			return false;
+		if(false)
+			return true;
 		else
-			return getClass() == o.getClass();
+			return false;
 	} //}}}
 
 	//{{{ hashCode() method
 	public int hashCode()
 	{
-		return getClass().hashCode();
+		return 0;
 	} //}}}
 
 	//{{{ getFoldHandler() method

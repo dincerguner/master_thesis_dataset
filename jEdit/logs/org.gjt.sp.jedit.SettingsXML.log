@@ -1,0 +1,24 @@
+1:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@writeXMLDeclaration():64:writeXMLDeclaration("1.0") |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@writeXMLDeclaration(java.lang.String):75:write("<?xml" + " version=\"" + version + "\"" + " encoding=\"" + encoding + "\"" + " ?>") |==> <NO-OP>
+3:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@writeXMLDeclaration(java.lang.String):79:newLine() |==> <NO-OP>
+4:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@finish():88:close() |==> <NO-OP>
+5:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@finish():89:jEdit.backupSettingsFile(file) |==> <NO-OP>
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@finish():90:file.delete() |==> <NO-OP>
+7:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@finish():91:twoStageSaveFile.renameTo(file) |==> <NO-OP>
+8:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@finish():92:knownLastModified = file.lastModified() |==> <NO-OP>
+9:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.SettingsXML$Saver@<init>(java.io.File):112:this.twoStageSaveFile = twoStageSaveFile |==> <NO-OP>
+10:EVR:<PLUS(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.SettingsXML@<init>(java.lang.String,java.lang.String):128:name + ".xml" |==> null
+11:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.SettingsXML@<init>(java.lang.String,java.lang.String):129:file = new File(MiscUtilities.constructPath(settingsDirectory, filename)) |==> <NO-OP>
+12:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.SettingsXML@<init>(java.io.File):135:file = f |==> <NO-OP>
+13:EVR:<METHOD_INVOCATION(boolean)>:<DEFAULT>:org.gjt.sp.jedit.SettingsXML@fileExists():144:file.exists() |==> false
+14:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.SettingsXML@load(org.xml.sax.helpers.DefaultHandler):155:XMLUtilities.parseXML(new FileInputStream(file), handler) |==> <NO-OP>
+15:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.SettingsXML@load(org.xml.sax.helpers.DefaultHandler):156:knownLastModified = file.lastModified() |==> <NO-OP>
+16:EVR:<NEW_CLASS(org.gjt.sp.jedit.SettingsXML.Saver)>:<DEFAULT>:org.gjt.sp.jedit.SettingsXML@openSaver():165:new Saver() |==> null
+17:ROR:!=(long,long):<(long,long):org.gjt.sp.jedit.SettingsXML@hasChangedOnDisk():177:file.lastModified() != knownLastModified |==> file.lastModified() < knownLastModified
+18:ROR:!=(long,long):>(long,long):org.gjt.sp.jedit.SettingsXML@hasChangedOnDisk():177:file.lastModified() != knownLastModified |==> file.lastModified() > knownLastModified
+19:ROR:!=(long,long):TRUE(long,long):org.gjt.sp.jedit.SettingsXML@hasChangedOnDisk():177:file.lastModified() != knownLastModified |==> true
+20:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.SettingsXML@hasChangedOnDisk():176:file.exists() && (file.lastModified() != knownLastModified) |==> file.exists() == (file.lastModified() != knownLastModified)
+21:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.SettingsXML@hasChangedOnDisk():177:file.exists() && (file.lastModified() != knownLastModified) |==> false
+22:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.SettingsXML@hasChangedOnDisk():176:file.exists() && (file.lastModified() != knownLastModified) |==> file.exists()
+23:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.SettingsXML@hasChangedOnDisk():177:file.exists() && (file.lastModified() != knownLastModified) |==> (file.lastModified() != knownLastModified)
+24:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.SettingsXML@toString():186:file.toString() |==> null

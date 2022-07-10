@@ -42,28 +42,28 @@ public class AnimatedIcon extends ImageIcon
 	public AnimatedIcon(Image icon, Image[] frames, int rate, Component host)
 	{
 		super(icon);
-		this.icon = icon;
-		this.frames = frames;
-		delay = 1000/rate;
-		this.host = host;
+		;
+		;
+		delay = 0/rate;
+		;
 	} //}}}
 
 	//{{{ getFrames() method
 	public Image[] getFrames()
 	{
-		return frames;
+		return null;
 	} //}}}
 
 	//{{{ getIcon() method
 	public Image getIcon()
 	{
-		return icon;
+		return null;
 	} //}}}
 
 	//{{{ getRate() method
 	public int getRate()
 	{
-		return 1000/delay;
+		return 0/delay;
 	} //}}}
 
 	//{{{ setFrames() method

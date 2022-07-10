@@ -1,0 +1,7 @@
+1:LOR:&(boolean,boolean):^(boolean,boolean):org.gjt.sp.jedit.bufferio.BufferSaveRequest@run():70:vfs.getCapabilities() & VFS.RENAME_CAP |==> vfs.getCapabilities() ^ VFS.RENAME_CAP
+2:LOR:&(boolean,boolean):|(boolean,boolean):org.gjt.sp.jedit.bufferio.BufferSaveRequest@run():70:vfs.getCapabilities() & VFS.RENAME_CAP |==> vfs.getCapabilities() | VFS.RENAME_CAP
+3:LVR:0:POS:org.gjt.sp.jedit.bufferio.BufferSaveRequest@run():71:0 |==> 1
+4:LVR:0:NEG:org.gjt.sp.jedit.bufferio.BufferSaveRequest@run():71:0 |==> -1
+5:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.bufferio.BufferSaveRequest@run():70:(vfs.getCapabilities() & VFS.RENAME_CAP) != 0 |==> (vfs.getCapabilities() & VFS.RENAME_CAP) < 0
+6:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.bufferio.BufferSaveRequest@run():70:(vfs.getCapabilities() & VFS.RENAME_CAP) != 0 |==> (vfs.getCapabilities() & VFS.RENAME_CAP) > 0
+7:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.bufferio.BufferSaveRequest@run():71:(vfs.getCapabilities() & VFS.RENAME_CAP) != 0 |==> true

@@ -1,0 +1,91 @@
+1:LVR:POS:0:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):50:2 |==> 0
+2:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):50:2 |==> -2
+3:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):50:args.length < 2 |==> args.length != 2
+4:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):50:args.length < 2 |==> args.length <= 2
+5:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):50:args.length < 2 |==> false
+6:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):51:System.out.println("usage: Remote URL(http|bsh) file [ file ] ... ") |==> <NO-OP>
+7:LVR:POS:0:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):53:1 |==> 0
+8:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):53:1 |==> -1
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):53:System.exit(1) |==> <NO-OP>
+10:LVR:0:POS:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):55:0 |==> 1
+11:LVR:0:NEG:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):55:0 |==> -1
+12:LVR:POS:0:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):56:1 |==> 0
+13:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):56:1 |==> -1
+14:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):57:eval(url, text) |==> 0
+15:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@main(java.lang.String[]):58:System.exit(ret) |==> <NO-OP>
+16:COR:url.startsWith("http:"):TRUE:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):69:url.startsWith("http:") |==> false
+17:COR:url.startsWith("http:"):FALSE:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):69:url.startsWith("http:") |==> true
+18:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):70:returnValue = doHttp(url, text) |==> <NO-OP>
+19:COR:url.startsWith("bsh:"):TRUE:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):71:url.startsWith("bsh:") |==> false
+20:COR:url.startsWith("bsh:"):FALSE:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):71:url.startsWith("bsh:") |==> true
+21:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):72:returnValue = doBsh(url, text) |==> <NO-OP>
+22:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):78:Integer.parseInt(returnValue) |==> 0
+23:LVR:0:POS:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):81:0 |==> 1
+24:LVR:0:NEG:org.gjt.sp.jedit.bsh.Remote@eval(java.lang.String,java.lang.String):81:0 |==> -1
+25:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):92:url |==> null
+26:LVR:POS:0:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):96:6 |==> 0
+27:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):96:6 |==> -6
+28:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):96:url = url.substring(6) |==> <NO-OP>
+29:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):98:url.indexOf(":") |==> 0
+30:LVR:0:POS:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):99:0 |==> 1
+31:LVR:0:NEG:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):99:0 |==> -1
+32:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):99:host = url.substring(0, index) |==> <NO-OP>
+33:LVR:POS:0:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):100:1 |==> 0
+34:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):100:1 |==> -1
+35:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):100:index + 1 |==> index % 1
+36:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):100:index + 1 |==> index * 1
+37:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):100:index + 1 |==> index - 1
+38:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):100:index + 1 |==> index / 1
+39:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):100:port = url.substring(index + 1, url.length()) |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):102:System.err.println("Bad URL: " + orgURL + ": " + ex) |==> <NO-OP>
+41:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):103:return returnValue; |==> <NO-OP>
+42:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):107:System.out.println("Connecting to host : " + host + " at port : " + port) |==> <NO-OP>
+43:LVR:POS:0:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):109:1 |==> 0
+44:LVR:POS:NEG:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):109:1 |==> -1
+45:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):109:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) % 1
+46:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):109:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) * 1
+47:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):109:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) - 1
+48:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):109:Integer.parseInt(port) + 1 |==> Integer.parseInt(port) / 1
+49:EVR:<METHOD_INVOCATION(java.io.OutputStream)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):111:s.getOutputStream() |==> null
+50:EVR:<METHOD_INVOCATION(java.io.InputStream)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):112:s.getInputStream() |==> null
+51:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):114:sendLine(text, out) |==> <NO-OP>
+52:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):116:new BufferedReader(new InputStreamReader(in)) |==> null
+53:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):120:System.out.println(line) |==> <NO-OP>
+54:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):123:returnValue = "1" |==> <NO-OP>
+55:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):124:returnValue |==> null
+56:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):126:System.err.println("Error communicating with server: " + ex) |==> <NO-OP>
+57:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doBsh(java.lang.String,java.lang.String):127:returnValue |==> null
+58:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@sendLine(java.lang.String,java.io.OutputStream):134:outPipe.write(line.getBytes()) |==> <NO-OP>
+59:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@sendLine(java.lang.String,java.io.OutputStream):135:outPipe.flush() |==> <NO-OP>
+60:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):149:new StringBuilder() |==> null
+61:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):150:sb.append("bsh.client=Remote") |==> <NO-OP>
+62:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):151:sb.append("&bsh.script=") |==> <NO-OP>
+63:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):152:sb.append(URLEncoder.encode(text)) |==> <NO-OP>
+64:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):161:sb.toString() |==> null
+65:EVR:<NEW_CLASS(java.net.URL)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):164:new URL(postURL) |==> null
+66:EVR:<TYPE_CAST(java.net.HttpURLConnection)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):166:(HttpURLConnection)url.openConnection() |==> null
+67:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):167:urlcon.setRequestMethod("POST") |==> <NO-OP>
+68:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):168:urlcon.setRequestProperty("Content-type", "application/x-www-form-urlencoded") |==> <NO-OP>
+69:LVR:TRUE:FALSE:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):170:true |==> false
+70:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):170:urlcon.setDoOutput(true) |==> <NO-OP>
+71:LVR:TRUE:FALSE:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):171:true |==> false
+72:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):171:urlcon.setDoInput(true) |==> <NO-OP>
+73:LVR:TRUE:FALSE:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):173:true |==> false
+74:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):174:pout.print(formData) |==> <NO-OP>
+75:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):175:pout.flush() |==> <NO-OP>
+76:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):178:urlcon.getResponseCode() |==> 0
+77:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):179:rc != HttpURLConnection.HTTP_OK |==> rc < HttpURLConnection.HTTP_OK
+78:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):179:rc != HttpURLConnection.HTTP_OK |==> rc > HttpURLConnection.HTTP_OK
+79:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):179:rc != HttpURLConnection.HTTP_OK |==> true
+80:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):180:System.out.println("Error, HTTP response: " + rc) |==> <NO-OP>
+81:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):182:returnValue = urlcon.getHeaderField("Bsh-Return") |==> <NO-OP>
+82:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):184:new BufferedReader(new InputStreamReader(urlcon.getInputStream())) |==> null
+83:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):188:System.out.println(line) |==> <NO-OP>
+84:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):190:System.out.println("Return Value: " + returnValue) |==> <NO-OP>
+85:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):193:System.out.println(e) |==> <NO-OP>
+86:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):195:System.out.println(e2) |==> <NO-OP>
+87:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@doHttp(java.lang.String,java.lang.String):198:returnValue |==> null
+88:EVR:<NEW_CLASS(java.lang.StringBuilder)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@getFile(java.lang.String):207:new StringBuilder() |==> null
+89:EVR:<NEW_CLASS(java.io.BufferedReader)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@getFile(java.lang.String):208:new BufferedReader(new FileReader(name)) |==> null
+90:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.bsh.Remote@getFile(java.lang.String):211:sb.append(line).append("\n") |==> <NO-OP>
+91:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.bsh.Remote@getFile(java.lang.String):212:sb.toString() |==> null

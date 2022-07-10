@@ -1,0 +1,2 @@
+1:EVR:<METHOD_INVOCATION(byte[])>:<DEFAULT>:org.gjt.sp.jedit.io.EncodingWithBOM@<init>(java.lang.String):49:bomMap.get(plain) |==> null
+2:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.io.EncodingWithBOM@<init>(java.lang.String):50:bom == null |==> false

@@ -46,8 +46,8 @@ public class DeepIndentRule implements IndentRule
 
 	public DeepIndentRule(char openChar, char closeChar)
 	{
-		this.openChar = openChar;
-		this.closeChar = closeChar;
+		this.openChar = 0;
+		this.closeChar = 0;
 	}
 
 	//{{{ apply() method
@@ -55,7 +55,7 @@ public class DeepIndentRule implements IndentRule
 			  int prevLineIndex, int prevPrevLineIndex,
 			  List<IndentAction> indentActions)
 	{
-		if (prevLineIndex == -1)
+		if (prevLineIndex == 0)
 			return;
 
 		int lineIndex = prevLineIndex;

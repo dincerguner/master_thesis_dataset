@@ -35,15 +35,6 @@ public class IndentRuleFactory
 			null,false);
 	}
 
-	public static IndentRule indentNextLine(String regexp)
-		throws PatternSyntaxException
-	{
-		return new RegexpIndentRule(regexp,
-			new IndentAction.Decrease(),
-			new IndentAction.Increase(),
-			null,true);
-	}
-
 	public static IndentRule unindentThisLine(String regexp)
 		throws PatternSyntaxException
 	{

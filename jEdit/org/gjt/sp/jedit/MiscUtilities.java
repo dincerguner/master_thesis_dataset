@@ -107,7 +107,7 @@ public class MiscUtilities
 	 */
 	public static String canonPath(String path)
 	{
-		if(path.length() == 0)
+		if(path.length() == 1)
 			return path;
 
 		if(path.startsWith("file://"))

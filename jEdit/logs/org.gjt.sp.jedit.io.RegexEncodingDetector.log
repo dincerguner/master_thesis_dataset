@@ -1,0 +1,35 @@
+1:EVR:<METHOD_INVOCATION(java.util.regex.Pattern)>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@<init>(java.lang.String,java.lang.String):56:Pattern.compile(pattern) |==> null
+2:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@<init>(java.lang.String,java.lang.String):57:replacement |==> null
+3:EVR:<NEW_CLASS(java.io.InputStreamReader)>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):62:new InputStreamReader(sample) |==> null
+4:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):64:new char[bufferSize] |==> null
+5:LVR:0:POS:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):65:0 |==> 1
+6:LVR:0:NEG:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):65:0 |==> -1
+7:LVR:0:POS:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):66:0 |==> 1
+8:LVR:0:NEG:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):66:0 |==> -1
+9:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):66:readSize > 0 |==> readSize != 0
+10:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):66:readSize > 0 |==> readSize >= 0
+11:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):66:readSize > 0 |==> false
+12:LVR:0:POS:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):69:0 |==> 1
+13:LVR:0:NEG:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):69:0 |==> -1
+14:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):72:extractReplacement(matcher, replacement) |==> null
+15:COR:EncodingServer.hasEncoding(extracted):TRUE:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):74:EncodingServer.hasEncoding(extracted) |==> false
+16:COR:EncodingServer.hasEncoding(extracted):FALSE:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):74:EncodingServer.hasEncoding(extracted) |==> true
+17:STD:<RETURN>:<NO-OP>:org.gjt.sp.jedit.io.RegexEncodingDetector@detectEncoding(java.io.InputStream):76:return extracted; |==> <NO-OP>
+18:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):93:found.start() |==> 0
+19:EVR:<METHOD_INVOCATION(int)>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):94:found.end() |==> 0
+20:AOR:-(int,int):%(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):95:found_end - found_start |==> found_end % found_start
+21:AOR:-(int,int):*(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):95:found_end - found_start |==> found_end * found_start
+22:AOR:-(int,int):+(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):95:found_end - found_start |==> found_end + found_start
+23:AOR:-(int,int):/(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):95:found_end - found_start |==> found_end / found_start
+24:LVR:POS:0:org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:2 |==> 0
+25:LVR:POS:NEG:org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:2 |==> -2
+26:AOR:*(int,int):%(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:source_length * 2 |==> source_length % 2
+27:AOR:*(int,int):+(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:source_length * 2 |==> source_length + 2
+28:AOR:*(int,int):-(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:source_length * 2 |==> source_length - 2
+29:AOR:*(int,int):/(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:source_length * 2 |==> source_length / 2
+30:AOR:+(int,int):%(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:found_start + (source_length * 2) |==> found_start % (source_length * 2)
+31:AOR:+(int,int):*(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:found_start + (source_length * 2) |==> found_start * (source_length * 2)
+32:AOR:+(int,int):-(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:found_start + (source_length * 2) |==> found_start - (source_length * 2)
+33:AOR:+(int,int):/(int,int):org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):96:found_start + (source_length * 2) |==> found_start / (source_length * 2)
+34:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):97:found.appendReplacement(replaced, replacement) |==> <NO-OP>
+35:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.io.RegexEncodingDetector@extractReplacement(java.util.regex.Matcher,java.lang.String):98:replaced.substring(found_start) |==> null

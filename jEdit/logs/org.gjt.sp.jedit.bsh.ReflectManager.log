@@ -1,0 +1,2 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.bsh.ReflectManager@getReflectManager():56:rfm == null |==> false
+2:EVR:<METHOD_INVOCATION(java.lang.Class<capture#520 of ?>)>:<DEFAULT>:org.gjt.sp.jedit.bsh.ReflectManager@getReflectManager():60:Class.forName("org.gjt.sp.jedit.bsh.reflect.ReflectManagerImpl") |==> null

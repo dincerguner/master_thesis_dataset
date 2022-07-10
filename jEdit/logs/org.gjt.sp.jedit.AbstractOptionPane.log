@@ -1,0 +1,230 @@
+1:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@<init>(java.lang.String):73:this.name = internalName |==> <NO-OP>
+2:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@<init>(java.lang.String):74:setLayout(gridBag = new GridBagLayout()) |==> <NO-OP>
+3:EVR:<IDENTIFIER(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@getName():86:name |==> null
+4:EVR:<IDENTIFIER(org.gjt.sp.jedit.AbstractOptionPane)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@getComponent():96:this |==> null
+5:COR:initialized:TRUE:org.gjt.sp.jedit.AbstractOptionPane@init():106:initialized |==> false
+6:COR:initialized:FALSE:org.gjt.sp.jedit.AbstractOptionPane@init():106:initialized |==> true
+7:LVR:TRUE:FALSE:org.gjt.sp.jedit.AbstractOptionPane@init():108:true |==> false
+8:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@init():108:initialized = true |==> <NO-OP>
+9:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@init():109:_init() |==> <NO-OP>
+10:COR:initialized:TRUE:org.gjt.sp.jedit.AbstractOptionPane@save():120:initialized |==> false
+11:COR:initialized:FALSE:org.gjt.sp.jedit.AbstractOptionPane@save():120:initialized |==> true
+12:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@save():121:_save() |==> <NO-OP>
+13:EVR:<NEW_CLASS(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@newLabel(java.lang.String,java.awt.Component):133:new JLabel(label) |==> null
+14:EVR:<TYPE_CAST(javax.swing.JComponent)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@newLabel(java.lang.String,java.awt.Component):136:(JComponent)comp |==> null
+15:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@newLabel(java.lang.String,java.awt.Component):137:jc.getToolTipText() |==> null
+16:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@newLabel(java.lang.String,java.awt.Component):138:retval.setToolTipText(tttext) |==> <NO-OP>
+17:EVR:<IDENTIFIER(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@newLabel(java.lang.String,java.awt.Component):146:retval |==> null
+18:EVR:<METHOD_INVOCATION(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):159:newLabel(label, comp) |==> null
+19:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:0 |==> 1
+20:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:0 |==> -1
+21:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:0 |==> 1
+22:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:0 |==> -1
+23:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:0 |==> 1
+24:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:0 |==> -1
+25:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:12 |==> 0
+26:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:12 |==> -12
+27:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):160:l.setBorder(new EmptyBorder(0, 0, 0, 12)) |==> <NO-OP>
+28:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component):161:addComponent(l, comp, GridBagConstraints.BOTH) |==> <NO-OP>
+29:EVR:<METHOD_INVOCATION(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):176:newLabel(label, comp) |==> null
+30:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:0 |==> 1
+31:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:0 |==> -1
+32:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:0 |==> 1
+33:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:0 |==> -1
+34:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:0 |==> 1
+35:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:0 |==> -1
+36:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:12 |==> 0
+37:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:12 |==> -12
+38:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):177:l.setBorder(new EmptyBorder(0, 0, 0, 12)) |==> <NO-OP>
+39:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.lang.String,java.awt.Component,int):178:addComponent(l, comp, fill) |==> <NO-OP>
+40:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component):193:addComponent(comp1, comp2, GridBagConstraints.BOTH) |==> <NO-OP>
+41:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):210:copyToolTips(comp1, comp2) |==> <NO-OP>
+42:EVR:<NEW_CLASS(java.awt.GridBagConstraints)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):211:new GridBagConstraints() |==> null
+43:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):212:cons.gridy = y++ |==> <NO-OP>
+44:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):213:1 |==> 0
+45:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):213:1 |==> -1
+46:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):213:cons.gridheight = 1 |==> <NO-OP>
+47:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):214:1 |==> 0
+48:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):214:1 |==> -1
+49:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):214:cons.gridwidth = 1 |==> <NO-OP>
+50:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):215:0.0F |==> 1.0F
+51:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):215:0.0F |==> -1.0F
+52:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):215:cons.weightx = 0.0F |==> <NO-OP>
+53:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:1 |==> 0
+54:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:1 |==> -1
+55:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:0 |==> 1
+56:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:0 |==> -1
+57:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:1 |==> 0
+58:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:1 |==> -1
+59:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:0 |==> 1
+60:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:0 |==> -1
+61:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):216:cons.insets = new Insets(1, 0, 1, 0) |==> <NO-OP>
+62:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):217:cons.fill = GridBagConstraints.BOTH |==> <NO-OP>
+63:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):219:gridBag.setConstraints(comp1, cons) |==> <NO-OP>
+64:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):220:add(comp1) |==> <NO-OP>
+65:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):222:cons.fill = fill |==> <NO-OP>
+66:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):223:1 |==> 0
+67:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):223:1 |==> -1
+68:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):223:cons.gridx = 1 |==> <NO-OP>
+69:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):224:1.0F |==> 0.0F
+70:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):224:1.0F |==> -1.0F
+71:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):224:cons.weightx = 1.0F |==> <NO-OP>
+72:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):225:gridBag.setConstraints(comp2, cons) |==> <NO-OP>
+73:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,java.awt.Component,int):226:add(comp2) |==> <NO-OP>
+74:EVR:<NEW_CLASS(java.awt.GridBagConstraints)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):237:new GridBagConstraints() |==> null
+75:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):238:cons.gridy = y++ |==> <NO-OP>
+76:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):239:1 |==> 0
+77:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):239:1 |==> -1
+78:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):239:cons.gridheight = 1 |==> <NO-OP>
+79:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):240:cons.gridwidth = GridBagConstraints.REMAINDER |==> <NO-OP>
+80:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):241:cons.fill = GridBagConstraints.NONE |==> <NO-OP>
+81:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):242:cons.anchor = GridBagConstraints.WEST |==> <NO-OP>
+82:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):243:1.0F |==> 0.0F
+83:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):243:1.0F |==> -1.0F
+84:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):243:cons.weightx = 1.0F |==> <NO-OP>
+85:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:1 |==> 0
+86:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:1 |==> -1
+87:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:0 |==> 1
+88:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:0 |==> -1
+89:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:1 |==> 0
+90:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:1 |==> -1
+91:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:0 |==> 1
+92:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:0 |==> -1
+93:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):244:cons.insets = new Insets(1, 0, 1, 0) |==> <NO-OP>
+94:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):246:gridBag.setConstraints(comp, cons) |==> <NO-OP>
+95:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component):247:add(comp) |==> <NO-OP>
+96:EVR:<NEW_CLASS(java.awt.GridBagConstraints)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):260:new GridBagConstraints() |==> null
+97:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):261:cons.gridy = y++ |==> <NO-OP>
+98:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):262:1 |==> 0
+99:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):262:1 |==> -1
+100:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):262:cons.gridheight = 1 |==> <NO-OP>
+101:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):263:cons.gridwidth = GridBagConstraints.REMAINDER |==> <NO-OP>
+102:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):264:cons.fill = fill |==> <NO-OP>
+103:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):265:cons.anchor = GridBagConstraints.WEST |==> <NO-OP>
+104:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):266:1.0F |==> 0.0F
+105:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):266:1.0F |==> -1.0F
+106:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):266:cons.weightx = 1.0F |==> <NO-OP>
+107:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:1 |==> 0
+108:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:1 |==> -1
+109:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:0 |==> 1
+110:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:0 |==> -1
+111:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:1 |==> 0
+112:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:1 |==> -1
+113:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:0 |==> 1
+114:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:0 |==> -1
+115:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):267:cons.insets = new Insets(1, 0, 1, 0) |==> <NO-OP>
+116:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):269:gridBag.setConstraints(comp, cons) |==> <NO-OP>
+117:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addComponent(java.awt.Component,int):270:add(comp) |==> <NO-OP>
+118:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):276:0 |==> 1
+119:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):276:0 |==> -1
+120:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):277:0 |==> 1
+121:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):277:0 |==> -1
+122:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):282:jc1 = (JComponent)c1 |==> <NO-OP>
+123:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):283:text = jc1.getToolTipText() |==> <NO-OP>
+124:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):284:++jc |==> <NO-OP>
+125:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text != null |==> true
+126:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:0 |==> 1
+127:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:0 |==> -1
+128:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text.length() > 0 |==> text.length() != 0
+129:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text.length() > 0 |==> text.length() >= 0
+130:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text.length() > 0 |==> false
+131:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text != null && text.length() > 0 |==> text != null == text.length() > 0
+132:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text != null && text.length() > 0 |==> false
+133:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text != null && text.length() > 0 |==> text != null
+134:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):285:text != null && text.length() > 0 |==> text.length() > 0
+135:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):286:tooltips++ |==> <NO-OP>
+136:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):295:jc2 = (JComponent)c2 |==> <NO-OP>
+137:EVR:<METHOD_INVOCATION(java.lang.String)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):296:jc2.getToolTipText() |==> null
+138:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):297:++jc |==> <NO-OP>
+139:ROR:!=(java.lang.Object,java.lang.Object):TRUE(java.lang.Object,java.lang.Object):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2 != null |==> true
+140:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:0 |==> 1
+141:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:0 |==> -1
+142:ROR:>(int,int):!=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2.length() > 0 |==> text2.length() != 0
+143:ROR:>(int,int):>=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2.length() > 0 |==> text2.length() >= 0
+144:ROR:>(int,int):FALSE(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2.length() > 0 |==> false
+145:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2 != null && text2.length() > 0 |==> text2 != null == text2.length() > 0
+146:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2 != null && text2.length() > 0 |==> false
+147:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2 != null && text2.length() > 0 |==> text2 != null
+148:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):298:text2 != null && text2.length() > 0 |==> text2.length() > 0
+149:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):300:text = text2 |==> <NO-OP>
+150:STD:<INC>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):301:tooltips++ |==> <NO-OP>
+151:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:1 |==> 0
+152:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:1 |==> -1
+153:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:tooltips == 1 |==> tooltips <= 1
+154:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:tooltips == 1 |==> tooltips >= 1
+155:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:tooltips == 1 |==> false
+156:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:2 |==> 0
+157:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:2 |==> -2
+158:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:jc == 2 |==> jc <= 2
+159:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:jc == 2 |==> jc >= 2
+160:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:jc == 2 |==> false
+161:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:tooltips == 1 && jc == 2 |==> tooltips == 1 == (jc == 2)
+162:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:tooltips == 1 && jc == 2 |==> false
+163:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:tooltips == 1 && jc == 2 |==> tooltips == 1
+164:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):308:tooltips == 1 && jc == 2 |==> jc == 2
+165:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):310:jc1.setToolTipText(text) |==> <NO-OP>
+166:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@copyToolTips(java.awt.Component,java.awt.Component):311:jc2.setToolTipText(text) |==> <NO-OP>
+167:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():323:6 |==> 0
+168:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():323:6 |==> -6
+169:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():323:addComponent(Box.createVerticalStrut(6)) |==> <NO-OP>
+170:EVR:<NEW_CLASS(javax.swing.JSeparator)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():325:new JSeparator(SwingConstants.HORIZONTAL) |==> null
+171:EVR:<NEW_CLASS(java.awt.GridBagConstraints)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():327:new GridBagConstraints() |==> null
+172:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():328:cons.gridy = y++ |==> <NO-OP>
+173:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():329:1 |==> 0
+174:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():329:1 |==> -1
+175:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():329:cons.gridheight = 1 |==> <NO-OP>
+176:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():330:cons.gridwidth = GridBagConstraints.REMAINDER |==> <NO-OP>
+177:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():331:cons.fill = GridBagConstraints.BOTH |==> <NO-OP>
+178:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():332:cons.anchor = GridBagConstraints.WEST |==> <NO-OP>
+179:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():333:1.0F |==> 0.0F
+180:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():333:1.0F |==> -1.0F
+181:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():333:cons.weightx = 1.0F |==> <NO-OP>
+182:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():336:gridBag.setConstraints(sep, cons) |==> <NO-OP>
+183:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():337:add(sep) |==> <NO-OP>
+184:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():339:6 |==> 0
+185:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():339:6 |==> -6
+186:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator():339:addComponent(Box.createVerticalStrut(6)) |==> <NO-OP>
+187:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):350:0 |==> 1
+188:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):350:0 |==> -1
+189:ROR:!=(int,int):<(int,int):org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):350:y != 0 |==> y < 0
+190:ROR:!=(int,int):>(int,int):org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):350:y != 0 |==> y > 0
+191:ROR:!=(int,int):TRUE(int,int):org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):350:y != 0 |==> true
+192:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):351:6 |==> 0
+193:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):351:6 |==> -6
+194:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):351:addComponent(Box.createVerticalStrut(6)) |==> <NO-OP>
+195:EVR:<NEW_CLASS(javax.swing.Box)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):353:new Box(BoxLayout.X_AXIS) |==> null
+196:EVR:<NEW_CLASS(javax.swing.Box)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):354:new Box(BoxLayout.Y_AXIS) |==> null
+197:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):355:box2.add(Box.createGlue()) |==> <NO-OP>
+198:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):356:box2.add(new JSeparator(SwingConstants.HORIZONTAL)) |==> <NO-OP>
+199:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):357:box2.add(Box.createGlue()) |==> <NO-OP>
+200:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):358:box.add(box2) |==> <NO-OP>
+201:EVR:<NEW_CLASS(javax.swing.JLabel)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):359:new JLabel(jEdit.getProperty(label)) |==> null
+202:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):360:l.setMaximumSize(l.getPreferredSize()) |==> <NO-OP>
+203:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):361:box.add(l) |==> <NO-OP>
+204:EVR:<NEW_CLASS(javax.swing.Box)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):362:new Box(BoxLayout.Y_AXIS) |==> null
+205:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):363:box3.add(Box.createGlue()) |==> <NO-OP>
+206:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):364:box3.add(new JSeparator(SwingConstants.HORIZONTAL)) |==> <NO-OP>
+207:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):365:box3.add(Box.createGlue()) |==> <NO-OP>
+208:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):366:box.add(box3) |==> <NO-OP>
+209:EVR:<NEW_CLASS(java.awt.GridBagConstraints)>:<DEFAULT>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):368:new GridBagConstraints() |==> null
+210:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):369:cons.gridy = y++ |==> <NO-OP>
+211:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):370:1 |==> 0
+212:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):370:1 |==> -1
+213:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):370:cons.gridheight = 1 |==> <NO-OP>
+214:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):371:cons.gridwidth = GridBagConstraints.REMAINDER |==> <NO-OP>
+215:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):372:cons.fill = GridBagConstraints.BOTH |==> <NO-OP>
+216:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):373:cons.anchor = GridBagConstraints.WEST |==> <NO-OP>
+217:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):374:1.0F |==> 0.0F
+218:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):374:1.0F |==> -1.0F
+219:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):374:cons.weightx = 1.0F |==> <NO-OP>
+220:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:1 |==> 0
+221:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:1 |==> -1
+222:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:0 |==> 1
+223:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:0 |==> -1
+224:LVR:POS:0:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:1 |==> 0
+225:LVR:POS:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:1 |==> -1
+226:LVR:0:POS:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:0 |==> 1
+227:LVR:0:NEG:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:0 |==> -1
+228:STD:<ASSIGN>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):375:cons.insets = new Insets(1, 0, 1, 0) |==> <NO-OP>
+229:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):377:gridBag.setConstraints(box, cons) |==> <NO-OP>
+230:STD:<CALL>:<NO-OP>:org.gjt.sp.jedit.AbstractOptionPane@addSeparator(java.lang.String):378:add(box) |==> <NO-OP>

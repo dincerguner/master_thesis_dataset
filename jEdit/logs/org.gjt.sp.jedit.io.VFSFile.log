@@ -1,0 +1,14 @@
+1:EVR:<IDENTIFIER(int)>:<DEFAULT>:org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):58:start |==> 0
+2:ROR:<(int,int):!=(int,int):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):58:i < end |==> i != end
+3:ROR:<(int,int):<=(int,int):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):58:i < end |==> i <= end
+4:ROR:<(int,int):FALSE(int,int):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):58:i < end |==> false
+5:EVR:<ARRAY_ACCESS(org.gjt.sp.jedit.io.VFSFile)>:<DEFAULT>:org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):60:files[i] |==> null
+6:COR:MiscUtilities.isAbsolutePath(str):TRUE:org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):61:MiscUtilities.isAbsolutePath(str) |==> false
+7:COR:MiscUtilities.isAbsolutePath(str):FALSE:org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):61:MiscUtilities.isAbsolutePath(str) |==> true
+8:ROR:==(int,int):<=(int,int):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):64:file.getType() == FILE |==> file.getType() <= FILE
+9:ROR:==(int,int):>=(int,int):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):64:file.getType() == FILE |==> file.getType() >= FILE
+10:ROR:==(int,int):FALSE(int,int):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):64:file.getType() == FILE |==> false
+11:COR:&&(boolean,boolean):==(boolean,boolean):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):64:dirsOnly && file.getType() == FILE |==> dirsOnly == (file.getType() == FILE)
+12:COR:&&(boolean,boolean):FALSE(boolean,boolean):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):64:dirsOnly && file.getType() == FILE |==> false
+13:COR:&&(boolean,boolean):LHS(boolean,boolean):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):64:dirsOnly && file.getType() == FILE |==> dirsOnly
+14:COR:&&(boolean,boolean):RHS(boolean,boolean):org.gjt.sp.jedit.io.VFSFile@findCompletion(org.gjt.sp.jedit.io.VFSFile[],int,int,java.lang.String,boolean):64:dirsOnly && file.getType() == FILE |==> file.getType() == FILE
