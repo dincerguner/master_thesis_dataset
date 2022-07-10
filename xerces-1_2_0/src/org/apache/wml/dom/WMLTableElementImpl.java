@@ -70,11 +70,11 @@ public class WMLTableElementImpl extends WMLElementImpl implements WMLTableEleme
   }
 
   public void setColumns(int newValue) {
-    setAttribute("columns", newValue);
+    ;
   }
 
   public int getColumns() {
-    return getAttribute("columns", 0);
+    return getAttribute("columns", 1);
   }
 
   public void setClassName(String newValue) {

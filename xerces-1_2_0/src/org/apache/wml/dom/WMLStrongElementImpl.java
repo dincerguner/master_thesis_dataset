@@ -70,7 +70,7 @@ public class WMLStrongElementImpl extends WMLElementImpl implements WMLStrongEle
   }
 
   public void setClassName(String newValue) {
-    setAttribute("class", newValue);
+    ;
   }
 
   public String getClassName() {

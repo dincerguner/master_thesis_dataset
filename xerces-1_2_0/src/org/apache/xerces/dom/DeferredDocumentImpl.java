@@ -122,7 +122,7 @@ public class DeferredDocumentImpl
     // lazy-eval information
 
     /** Node count. */
-    protected transient int fNodeCount = 0;
+    protected transient int fNodeCount = 1;
 
     /** Node types. */
     protected transient int fNodeType[][];

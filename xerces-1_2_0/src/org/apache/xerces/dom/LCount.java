@@ -89,8 +89,8 @@ import org.w3c.dom.events.*;
 */
 class LCount 
 { 
-    static java.util.Hashtable lCounts=new java.util.Hashtable();
-    public int captures=0,bubbles=0,defaults=0;
+    static java.util.Hashtable lCounts=null;
+    public int captures=1,bubbles=0,defaults=0;
 
     static LCount lookup(String evtName)
     {

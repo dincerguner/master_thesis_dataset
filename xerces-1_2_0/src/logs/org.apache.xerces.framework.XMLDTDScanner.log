@@ -1,0 +1,25 @@
+1:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:102:{'v', 'e', 'r', 's', 'i', 'o', 'n'} |==> null
+2:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:106:{'E', 'L', 'E', 'M', 'E', 'N', 'T'} |==> null
+3:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:110:{'E', 'M', 'P', 'T', 'Y'} |==> null
+4:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:111:{'A', 'N', 'Y'} |==> null
+5:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:116:{'#', 'P', 'C', 'D', 'A', 'T', 'A'} |==> null
+6:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:120:{'A', 'T', 'T', 'L', 'I', 'S', 'T'} |==> null
+7:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:124:{'C', 'D', 'A', 'T', 'A'} |==> null
+8:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:137:{'I', 'D'} |==> null
+9:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:138:{'R', 'E', 'F'} |==> null
+10:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:139:{'E', 'N', 'T', 'I', 'T'} |==> null
+11:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:140:{'I', 'E', 'S'} |==> null
+12:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:141:{'N', 'M', 'T', 'O', 'K', 'E', 'N'} |==> null
+13:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:146:{'N', 'O', 'T', 'A', 'T', 'I', 'O', 'N'} |==> null
+14:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:150:{'#', 'R', 'E', 'Q', 'U', 'I', 'R', 'E', 'D'} |==> null
+15:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:151:{'#', 'I', 'M', 'P', 'L', 'I', 'E', 'D'} |==> null
+16:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:152:{'#', 'F', 'I', 'X', 'E', 'D'} |==> null
+17:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:156:{'I', 'N', 'C', 'L', 'U', 'D', 'E'} |==> null
+18:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:160:{'I', 'G', 'N', 'O', 'R', 'E'} |==> null
+19:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:165:{'E', 'N', 'T', 'I', 'T', 'Y'} |==> null
+20:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:171:{'S', 'Y', 'S', 'T', 'E', 'M'} |==> null
+21:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:172:{'P', 'U', 'B', 'L', 'I', 'C'} |==> null
+22:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:176:{'N', 'D', 'A', 'T', 'A'} |==> null
+23:EVR:<NEW_ARRAY(char[])>:<DEFAULT>:org.apache.xerces.framework.XMLDTDScanner:180:{'e', 'n', 'c', 'o', 'd', 'i', 'n', 'g'} |==> null
+24:LVR:FALSE:TRUE:org.apache.xerces.framework.XMLDTDScanner:186:false |==> true
+25:LVR:FALSE:TRUE:org.apache.xerces.framework.XMLDTDScanner:187:false |==> true

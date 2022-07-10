@@ -70,7 +70,7 @@ public class WMLSetvarElementImpl extends WMLElementImpl implements WMLSetvarEle
   }
 
   public void setValue(String newValue) {
-    setAttribute("value", newValue);
+    ;
   }
 
   public String getValue() {
